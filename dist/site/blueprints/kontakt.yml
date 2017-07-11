@@ -1,0 +1,20 @@
+title: Kontakt
+
+pages: false
+
+options:
+  delete: false
+  status: false
+
+fields:
+  title:
+    label: Title
+    type: title
+
+  intro:
+    label: Intro
+    type: textarea
+
+  text:
+    label: Text
+    type: textarea

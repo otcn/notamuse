@@ -1,0 +1,10 @@
+title: Interviews
+
+pages: true
+  template: Interview
+files: false
+
+fields:
+  title:
+    label: Title
+    type:  text

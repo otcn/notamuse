@@ -1,0 +1,19 @@
+title: Antwort
+
+pages: false
+files: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    hidden: true
+
+  answer:
+    label: Antwort
+    type:  textarea
+
+  tags:
+      label: Tags
+      type: tags
+      help: Bitte Tags der jeweiligen Interviews eingeben

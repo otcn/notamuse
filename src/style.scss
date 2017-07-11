@@ -1,0 +1,1089 @@
+/* ================================ RESET ================================ */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a,
+blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q,
+samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset,
+form, input, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark,
+audio, video, hr {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		text-decoration: none;
+		list-style: none;
+}
+
+
+
+
+
+/* ================================ MIXINS ================================ */
+
+@mixin clearfix {
+	  content: "";
+	   display: table;
+	   clear: both;
+}
+
+
+
+
+
+/* ================================ GENERAL ================================ */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+}
+
+body {
+		height: 100%;
+		color: #5f6a77;
+
+		text-rendering: optimizeLegibility;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+
+		font-size: 12pt;
+}
+
+.wideBox {
+		background-color: #f8f8f8;
+}
+
+.smallBox {
+		width: 77.7%;
+		margin: auto;
+
+		min-width: 1024px;
+}
+
+img {
+		width: 100%;
+}
+
+hr {
+		border-top: 1px solid #5f6a77;
+		margin: auto;
+}
+
+a {
+		color: inherit;
+
+		&:hover {
+				color: rgba(95, 106, 119, 0.4);
+		}
+}
+
+.teaserText {
+		h3 {
+				text-align: left;
+		}
+}
+
+#wrapper {
+		min-height: 100%;
+		height: auto!important;
+		height: 100%;
+		margin: 0 auto -109px;
+}
+
+#bottom, #push {
+		height: 109px;
+}
+
+.mobile-nav {
+		display: none;
+}
+
+.mobile-banner {
+		display: none;
+}
+
+.mobile-heading {
+		display: none;
+}
+
+.mobile-profile {
+		display: none;
+}
+
+
+
+
+
+/* ================================ HEADLINE ================================ */
+
+h1, h2, h3, h4, h5, h6 {
+		font-size: inherit;
+}
+
+h2 {
+		font-family: "StempelGaramondW01-Roma", "StempelGaramondLTStd-Roman", serif;
+		font-weight: normal;
+
+		font-size: 1.375em;
+		letter-spacing: 0.05em;
+		text-align: center;
+		margin-bottom: 23px;
+}
+
+h3 {
+		font-family: "FrutigerNeue1450W01-Reg", "FrutigerLT-Roman", sans-serif;
+		font-weight: normal;
+
+		letter-spacing: 0.05em;
+		text-align: center;
+		margin-bottom: 8px;
+}
+
+h4 {
+		font-family: "FrutigerLT-light", "FrutigerNeue1450W01-Boo1196290", sans-serif;;
+		font-weight: normal;
+
+		letter-spacing: 0.05em;
+}
+
+h5 {
+		font-family: "FrutigerNeue1450W01-Reg", "FrutigerLT-Roman", sans-serif;
+		font-weight: normal;
+
+		font-size: 0.750em;
+		letter-spacing: 0.05em;
+}
+
+h6 {
+		font-family: "FrutigerLT-light", "FrutigerNeue1450W01-Boo1196290", sans-serif;;
+		font-weight: normal;
+
+		font-size: 0.750em;
+		letter-spacing: 0.03em;
+
+		opacity: 0.6;
+}
+
+
+
+
+
+/* ================================ TEXT ================================ */
+
+p {
+		font-family: "StempelGaramondW01-Roma", "StempelGaramondLTStd-Roman", serif;
+		font-weight: normal;
+
+		letter-spacing: 0.03em;
+}
+
+input {
+		font-family: "FrutigerNeue1450W01-Reg", "FrutigerLT-Roman", sans-serif;
+		font-weight: normal;
+
+		font-size: 0.750em;
+
+		color: #5f6a77;
+}
+
+textarea {
+		font-family: "FrutigerNeue1450W01-Reg", "FrutigerLT-Roman", sans-serif;
+		font-weight: normal;
+
+		font-size: 0.750em;
+}
+
+
+
+
+
+/* ================================ HEADER ================================ */
+
+header {
+	padding-top: 30px;
+	.header-inner {
+			width: 83%;
+			margin-top: 0;
+			margin-right: auto;
+			margin-bottom: 40px;
+			margin-left: auto;
+
+			.language {
+					text-align: right;
+
+					.switch {
+							display: inline-flex;
+							width: 120px;
+
+							h6 {
+									margin-right: 15%;
+							}
+
+							.fa {
+									opacity: 0.6;
+									font-size: 0.875em;
+							}
+					}
+			}
+
+			.header-inner-content {
+					display: flex;
+					position: relative;
+
+					ul {
+							display: flex;
+							position: absolute;
+							top: 52px;
+							right: 0px;
+
+							li {
+									margin-left: 30px;
+							}
+					}
+			}
+	}
+
+	hr {
+			opacity: 0.3;
+			margin-bottom: -1px;
+			border-left: 0;
+			border-right: 0;
+	}
+}
+
+
+
+
+
+/* ================================ FOOTER ================================ */
+
+footer {
+	height: 109px;
+
+		hr:first-child {
+				opacity: 0.3;
+				margin-top: 0;
+				margin-bottom: 0;
+		}
+
+		.footer {
+				width: 83%;
+				margin: 30px auto 0 auto;
+
+				h5 {
+						text-transform: uppercase;
+				}
+
+				hr {
+						border-top: 20px solid #5f6a77;
+						margin: 0;
+				}
+
+				ul {
+						display: flex;
+						width: 81%;
+						margin: 0 auto 30px auto;
+
+						li:not(:last-child) {
+								margin-right: 7%;
+						}
+				}
+		}
+}
+
+
+
+
+
+/* ================================ HEADING ================================ */
+
+.heading {
+		margin-top: 90px;
+		margin-bottom: 60px;
+
+		hr {
+				width: 56px;
+				margin-top: 0;
+				margin-bottom: 0;
+		}
+
+		&.left {
+				h2 {
+						text-align: left;
+						margin-bottom: 65px;
+				}
+		}
+}
+
+
+
+
+/* ================================ BUTTONS ================================ */
+
+button {
+		font-family: "FrutigerNeue1450W01-Reg", "FrutigerLT-Roman", sans-serif;
+		font-size: .75em;
+		line-height: 1.2em;
+		text-align: center;
+
+		cursor: pointer;
+		border-radius: 3px;
+		margin: 0;
+		padding: 4px 20px;
+}
+
+.dark {
+		background-color: #5f6a77;
+		border: none;
+		color: #fff;
+}
+
+.light {
+		background-color: #fff;
+		border: 1px solid #5f6a77;
+		color: #5f6a77;
+
+}
+
+
+
+
+
+/* ================================ META ================================ */
+
+.meta {
+		margin-top: 10px;
+
+		h5 {
+				margin-right: 23px;
+				float: left;
+		}
+
+		.tags {
+				@include clearfix;
+
+				ul {
+					float: left;
+
+						li {
+								display: block;
+								margin-right: 10px;
+								float: left;
+
+								h6 {
+									float: left;
+								}
+
+								&:nth-child(n+2):before {
+										content:"•";
+										display: block;
+										font-size: 10px;
+										line-height: 15px;
+										padding-right: 10px;
+										opacity: 0.6;
+										float: left;
+								}
+						}
+				}
+		}
+}
+
+
+/* --------------- META XL and L --------------- */
+
+.xl, .l {
+		.tags {
+
+				margin-bottom: 12px;
+		}
+}
+
+
+/* --------------- META M --------------- */
+
+.m {
+		.tags {
+				min-width: 360px;
+		}
+}
+
+
+/* --------------- META S --------------- */
+
+.s {
+		.tags {
+				text-align: center;
+
+				a {
+					font-family: "FrutigerLT-light", "FrutigerNeue1450W01-Boo1196290", sans-serif;;
+					font-weight: normal;
+
+					font-size: inherit;
+					text-decoration: underline;
+
+					color: inherit;
+
+					margin-left: 2px;
+				}
+		}
+}
+
+
+/* --------------- META XXS --------------- */
+
+.xxs {
+		button {
+				display: block;
+				margin: auto;
+		}
+}
+
+
+
+
+
+/* ================================ PAGES ================================ */
+
+/* --------------- GENERAL CONTENT AREA --------------- */
+
+.main-content {
+		display: flex;
+		width: 83%;
+		margin-top: 0;
+		margin-right: auto;
+		margin-bottom: 90px;
+		margin-left: auto;
+
+		aside {
+				width: 20%;
+				margin-right: 5%;
+
+				.aside-content {
+						margin-top: 95px;
+
+						.rowOne {
+								height: 150px;
+						}
+
+						li {
+								margin-bottom: 8px;
+						}
+
+						.filter {
+							margin-bottom: 30px;
+						}
+
+						.filter.overview {
+								margin-bottom: 130px;
+						}
+				}
+		}
+}
+
+article {
+		width: 51%;
+
+		.modul {
+				margin-bottom: 35px;
+
+				p {
+						min-width: 360px;
+
+						&:not(:last-child) {
+							margin-bottom: 15px;
+						}
+				}
+		}
+}
+
+
+
+
+
+/* --------------- LANDING PAGE --------------- */
+
+/*	PROFILE MODULE	*/
+
+.profileOffice {
+		margin-bottom: 120px;
+
+		.profileCover {
+				margin-bottom: 120px;
+
+				.banner {
+						position: relative;
+						margin-bottom: -87px;
+						z-index: -1;
+				}
+
+				.overlay {
+						width: 75%;
+						margin: auto;
+						background-color: white;
+
+						h2 {
+							padding: 40px 10% 17px;
+						}
+				}
+		}
+}
+
+.overlay hr {
+		width: 56px;
+}
+
+.profileTeaser {
+		width: 75%;
+		margin: auto;
+
+		hr {
+				width: 56px;
+		}
+
+		ul {
+				display: flex;
+
+				li {
+						width: 22.3%;
+
+						&:nth-child(2) {
+								margin: 0 16%;
+						}
+
+						h2 {
+								min-height: 4em;
+						}
+
+						p {
+								margin: 10px auto 15px;
+								width: 75%;
+
+								text-align: center;
+						}
+
+						button {
+								display: block;
+								margin: auto;
+						}
+				}
+		}
+}
+
+
+/*	JOURNAL MODULE	*/
+
+.journal {
+		padding: 40px 33%;
+		margin-bottom: 90px;
+
+		.heading {
+				margin: 0 0 60px 0;
+		}
+
+		.meta {
+				.dark {
+						margin-bottom: 40px;
+				}
+
+				.light {
+						display: block;
+						margin: auto;
+				}
+
+				p {
+						text-align: center;
+						margin: 10px 0;
+				}
+		}
+}
+
+
+/*	SIGNET	*/
+
+.signet {
+		width: 11%;
+		margin: 0 auto 90px auto;
+
+		h6 {
+				width: 60%;
+				margin: 0 auto 15px auto;
+				text-align: center;
+		}
+}
+
+
+
+
+
+/* --------------- LAWYER OVERWIEW --------------- */
+
+.profile {
+		width: 58%;
+		margin: auto;
+
+		.profile-content {
+				@include clearfix;
+
+				.profileCover {
+						margin-bottom: 60px;
+						width: 43%;
+						float: left;
+
+						&:nth-child(odd) {
+								margin-right: 14%;
+						}
+
+						img {
+								margin-bottom: 30px;
+
+								max-width: 320px;
+
+						}
+				}
+
+				.text {
+						margin-bottom: 15px;
+
+						p {
+								text-align: center;
+								margin: 0 auto 5px auto;
+
+								max-width: 280px;
+						}
+				}
+		}
+}
+
+
+
+
+
+/* --------------- CONTACT --------------- */
+
+textarea {	/* reset browser defaults for textareas */
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+iframe {
+	width: 100%;
+}
+
+form {
+		width: 80%;
+
+		display: block;
+		margin: 22px auto 0 auto;
+
+		input, textarea {
+				border: 1px solid #cfd2d6;
+				border-radius: 3px;
+		}
+
+		input {
+				width: 100%;
+				height: 2em;
+				text-align: center;
+
+				margin-bottom: 20px;
+
+				border: 1px solid #cfd2d6;
+				border-radius: 3px;
+		}
+
+		textarea {
+				width: 96%;
+				height: 225px;
+
+				margin-bottom: 15px;
+				padding: 8px;
+		}
+}
+
+
+
+
+
+/* --------------- JOURNAL --------------- */
+
+/*	OVERVIEW	*/
+
+.entry {
+		margin-bottom: 60px;
+		min-width: 360px;
+
+		&.small {
+				background-color: #f8f8f8;
+
+				.small-content {
+						width: 78%;
+						padding: 30px 11%;
+
+						p {
+								text-align: center;
+						}
+				}
+		}
+}
+
+.paging {
+		h6 {
+				color: #5f6a77;
+				opacity: 1;
+		}
+
+		hr {
+				opacity: 0.3;
+		}
+}
+
+
+/*	ENTRY	*/
+
+.profileLawyer {
+		width: 43%;
+		padding: 40px 29%;
+		display: flex;
+
+		margin-bottom: 60px;
+
+		.cover {
+				margin-right: 47px;
+		}
+
+		.profileContent {
+				width: 53%;
+
+				@include clearfix;
+
+				h3 {
+				 		text-align: left;
+			 }
+		}
+}
+
+
+
+.sharing {
+		margin-bottom: 90px;
+
+		.fa {
+				font-size: 1.7em;
+
+				&:not(:last-child) {
+						margin-right: 10%;
+				}
+		}
+
+		.icons {
+				width: 9%;
+				margin: auto;
+
+				display: flex;
+		}
+}
+
+
+
+
+
+/* ================================ MEDIA QUERIES ================================ */
+
+/* --------------- 800px - 1024px --------------- */
+
+@media only screen
+		and (min-width: 800px)
+		and (max-width: 1024px) {
+
+				.smallBox {
+						width: 100%;
+						min-width: 0;
+				}
+
+				body {
+						font-size: 15px;
+				}
+
+				.profileTeaser ul li {
+						width: 26%;
+
+						h2 {
+							min-height: 5em;
+						}
+
+						p {
+							min-height: 3.5em;
+						}
+
+						&:nth-child(2) {
+								margin: 0 15%;
+						}
+				}
+
+				.journal {
+						padding-left: 25%;
+						padding-right: 25%;
+				}
+
+				footer .footer {
+						width: 100%;
+				}
+
+
+				header .header-inner {
+						width: 85%;
+				}
+
+				.main-content {
+						width: 85%;
+				}
+
+				.profile {
+						width: 60%;
+				}
+
+				.profileTeaser {
+						width: 77%;
+				}
+
+				.profileOffice .profileCover .overlay {
+						width: 77%;
+				}
+}
+
+
+
+/* --------------- 320px - 800px --------------- */
+
+@media screen and (max-width: 800px) {
+
+
+				.smallBox {
+					min-width: 100%;
+				}
+
+				.heading {
+						margin-bottom: 100px;
+				}
+
+				.dark {
+						margin-top: 30px;
+
+						font-size: 0.9em;
+				}
+
+				.light {
+						margin-top: 30px;
+
+						font-size: 0.9em;
+				}
+
+				h1 {
+						width: 23%;
+				}
+
+				h5 {
+						font-size: 0.9em;
+				}
+
+				h6 {
+						font-size: 0.9em;
+				}
+
+				.heading, .overlay, .profileTeaser {
+						h2 + hr {
+								width: 115px;
+						}
+				}
+
+				header {
+						margin: 10px 0;
+
+						.header-inner {
+								margin-top: 40px;
+
+								.header-inner-content ul, .language {
+										display: none;
+								}
+						}
+				}
+
+				.mobile-nav {
+						display: block;
+						width: 12%;
+						position: absolute;
+						top: 37px;
+						right: 0px;
+				}
+
+				.profileOffice {
+
+						.profileCover {
+							margin-bottom: 200px;
+
+							.overlay {
+									width: 85%;
+
+									h2 {
+											padding: 10% 8% 27px 8%;
+									}
+							}
+
+								.banner {
+										margin-bottom: -310px;
+
+										& > img {
+												display: none;
+										}
+
+										.mobile-banner {
+												display: block;
+										}
+								}
+						}
+				}
+
+				.profileTeaser ul {
+						display: block;
+
+						li {
+								width: 70%;
+								margin: 0 auto 150px auto;
+
+								&:nth-child(2) {
+										margin: 0 auto 150px auto;;
+								}
+
+								h2 {
+										margin-bottom: 50px;
+								}
+
+								p {
+										margin-top: 25px;
+								}
+						}
+				}
+
+				footer, .paging {
+						hr:first-child {
+								opacity: 1;
+								margin-bottom: 30px;
+						}
+
+						.footer {
+
+								hr {
+										border-top: 40px solid #5f6a77;
+								}
+
+								ul {
+										display: block;
+										width: 80%;
+								}
+
+								li {
+										margin-bottom: 40px;
+								}
+						}
+				}
+
+
+				.journal {
+						padding: 7%;
+
+						.teaserText h3 {
+								max-width: 85%;
+						}
+
+						.meta {
+
+								p {
+									margin: 40px auto 10px;
+									max-width: 75%;
+								}
+						}
+				}
+
+				.s, .m, .l, .xl, .xxl {
+						@include clearfix;
+				}
+
+				.meta {
+						margin-top: 20px;
+
+						.tags {
+								ul {
+										display: block;
+
+										li {
+
+										}
+								}
+						}
+				}
+
+				.xl .tags {
+						display: block;
+				}
+
+				.signet {
+						width: 40%;
+				}
+
+				aside {
+						display: none;
+				}
+
+				article {
+						width: 100%;
+				}
+
+				.mobile-heading {
+						display: block;
+						margin: 100px auto;
+						width: 70%;
+				}
+
+				.entry {
+						margin-bottom: 150px;
+				}
+
+				.profileLawyer {
+						display: none;
+				}
+
+				.profile {
+						width: 70%;
+				}
+
+				.profile .profile-content .profileCover {
+						width: 100%;
+						float: none;
+						margin: 0 0 150px 0;
+				}
+
+				.mobile-profile {
+						display: block;
+						width: 70%;
+						margin: 0 auto 150px;
+
+						.profileCover {
+
+								margin: 0 auto;
+								padding: 150px 0;
+
+								img {
+										margin-bottom: 30px;
+								}
+
+								p {
+										text-align: center;
+								}
+						}
+				}
+
+				iframe {
+						height: 800px;
+				}
+}

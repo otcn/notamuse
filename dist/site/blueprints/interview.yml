@@ -1,0 +1,19 @@
+title: Interview
+
+pages: false
+files: false
+
+fields:
+  Interview:
+    label: Interview
+    type: structure
+    entry: >
+      {{frage}}<br />
+      {{antwort}}
+    fields:
+      frage:
+        label: frage
+        type: text
+      antwort:
+        label: antwort
+        type: textarea

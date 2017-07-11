@@ -1,0 +1,11 @@
+title: Unterfrage
+
+pages: true
+  template: Antwort
+
+files: false
+
+fields:
+  title:
+    label: Frage
+    type:  text

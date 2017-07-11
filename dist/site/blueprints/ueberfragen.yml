@@ -1,0 +1,10 @@
+title: Ueberfragen
+
+pages: true
+  template: Ueberfrage
+files: false
+
+fields:
+  title:
+    label: Title
+    type:  text

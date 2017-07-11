@@ -1,0 +1,22 @@
+Title: Index
+
+----
+
+Author: Bastian Allgeier GmbH
+
+----
+
+Description: This is Kirby's Starterkit.
+
+----
+
+Copyright: © (date: Year) (link: http://notamuse.de text: Sichtbarkeit von Frauen im Grafikdesign — Not A Muse)
+
+----
+
+Links: 
+
+- 
+  links: '(link: http://otacon.local/~timrausch/notamuse/dist/interviews/interview-01#Betreibt+ihr+aktiv+Kundenakquise%3F text: Betreibt ihr aktiv Kundenaquise?)'
+- 
+  links: '(link: http://otacon.local/~timrausch/notamuse/dist/interviews/interview-01#Haltet+ihr+euch+stark+an+die+veranschlagten+Stunden+im+Angebot+oder+nehmt+ihr+euch+für+ein+Projekt+die+Zeit%2C+die+es+braucht%3F text: Haltet ihr euch stark an die veranschlagten Stunden im Angebot oder nehmt ihr euch für ein Projekt die Zeit, die es braucht?)'
