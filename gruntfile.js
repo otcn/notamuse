@@ -10,24 +10,23 @@ module.exports = function (grunt) {
     	},
     	dist: {
     	  src: ['src/fx.js'],
-    	  dest: 'dist/fx.min.js'
+    	  dest: 'dist/assets/js/fx.min.js'
     	}
 		},
     uglify: {
       build: {
-        src: 'dist/fx.min.js',
-        dest: 'dist/fx.min.js'
+        src: 'dist/assets/js/fx.min.js',
+        dest: 'dist/assets/js/fx.min.js'
       }
     },
-	sass: {                               
-	   dist: { 
+	sass: {
+	   dist: {
 		   options: {
 			 style: 'compressed',
-			 sourcemap: 'none'  
+			 sourcemap: 'none'
 		   },
 		   files: [
-		   	{src: ['src/style.scss'], dest: 'dist/assets/css/style.css'}, 
-		   	{src: ['src/style.scss'], dest: 'frontend/assets/css/style.css'} 
+		   	{src: ['src/index.scss'], dest: 'dist/assets/css/index.css'},
 		   ]
 	   }
 	},
@@ -53,7 +52,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
-  
+
   grunt.registerTask('default', ['concat','uglify','sass']);
-  
+
 };
