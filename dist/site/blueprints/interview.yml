@@ -8,12 +8,21 @@ fields:
     label: Interview
     type: structure
     entry: >
-      {{frage}}<br />
-      {{antwort}}
+      {{fid}} — {{frage}}
     fields:
-      frage:
-        label: frage
-        type: text
-      antwort:
-        label: antwort
-        type: textarea
+        fid:
+            label: id
+            type: text
+            readonly: false
+            width: 1/2
+        spezialfrage:
+            label: fragentyp
+            type: checkbox
+            text: Spezialfrage
+            width: 1/2
+        frage:
+            label: frage
+            type: text
+        antwort:
+            label: antwort
+            type: textarea

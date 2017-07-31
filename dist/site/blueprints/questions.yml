@@ -1,11 +1,9 @@
-title: Unterfragen
+title: questions
 
 pages: true
-  template: Unterfrage
-
 files: false
 
 fields:
   title:
     label: Title
-    type: text
+    type:  text

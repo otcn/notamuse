@@ -1,10 +1,9 @@
-title: Ueberfragen
+title: subquestions
 
 pages: true
-  template: Ueberfrage
 files: false
 
 fields:
   title:
-    label: Title
+    label: Frage
     type:  text

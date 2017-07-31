@@ -1,0 +1,25 @@
+title: Index
+
+pages: false
+files: false
+
+fields:
+    links:
+        label: Link
+        type: textarea
+        buttons:
+          - link
+
+#fields:
+#    links:
+#        label: Links
+#        type: structure
+#        entry: >
+#            {{links}}
+#        fields:
+#            links:
+#                label: Link
+#                type: textarea
+#                buttons:
+#                  - link
+#                help: (1) Nach "link:" den Link einfügen. Entweder zur Seite (http://notamuse.de/seitenname), oder zum Akerpunkt (http://notamuse.de/seitenname#ID) ////////// (2)Nach "text:" den Linktext eingeben

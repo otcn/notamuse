@@ -30,3 +30,29 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 */
 
 c::set('debug', true);
+
+
+
+// update the created page with the ID after creating the page
+kirby()->hook('panel.page.update', function($page){
+    $questions = $page->Interview()->yaml();
+    $newQuestions = array();
+
+    foreach($questions as $question) {
+        if ($question['fid'] == '') {
+
+            $fidCounter = site()->questionCounter()->value();
+            $fidCounter++;
+            $question['fid'] = 'f'.$fidCounter;
+            site()->update(array('questionCounter' => $fidCounter));
+
+        }
+        array_push($newQuestions, $question);
+    }
+
+
+
+    // update the created kirby page
+    // DREAMCODE = $fidCounter;
+    $page->update(array('Interview' => yaml::encode($newQuestions)));
+});

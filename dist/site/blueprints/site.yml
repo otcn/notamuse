@@ -3,18 +3,23 @@ title: Site
 pages: default
 
 fields:
-  title:
-    label: Title
-    type:  text
+    title:
+        label: Title
+        type:  text
 
-  author:
-    label: Author
-    type:  text
+    questionCounter:
+        label: Number
+        type: number
+        readonly: false
 
-  description:
-    label: Description
-    type:  textarea
-    
-  copyright:
-    label: Copyright
-    type:  textarea
+    author:
+        label: Author
+        type:  text
+
+    description:
+        label: Description
+        type:  textarea
+
+    copyright:
+        label: Copyright
+        type:  textarea

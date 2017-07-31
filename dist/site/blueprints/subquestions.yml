@@ -1,10 +1,9 @@
-title: Interviews
+title: subquestions
 
 pages: true
-  template: Interview
 files: false
 
 fields:
   title:
     label: Title
-    type:  text
+    type: text

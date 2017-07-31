@@ -1,5 +1,8 @@
 <?php snippet('header') ?>
+<?
+    print_r($site->questionCounter());
 
+?>
 
     <h1><?= $page->title()->kirbytext() ?></h1>
     <main>

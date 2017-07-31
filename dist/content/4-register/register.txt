@@ -1,4 +1,4 @@
-Title: notamuse
+Title: Register
 
 ----
 
@@ -14,8 +14,4 @@ Copyright: © (date: Year) (link: http://notamuse.de text: Sichtbarkeit von Frau
 
 ----
 
-Number: 0
-
-----
-
-Questioncounter: 4
+Links: 
