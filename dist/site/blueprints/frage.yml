@@ -1,0 +1,12 @@
+title: Frage
+
+pages: true
+files: false
+
+fields:
+    title:
+        label: Frage
+        type:  text
+    alternative:
+        label: alt-frage
+        type: text

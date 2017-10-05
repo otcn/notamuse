@@ -56,27 +56,11 @@ footer {
     text-align: center;
 }
 
-.grid {
-    display: inline-flex;
+.content {
+    display: flex;
 }
 
-.branding {
-    margin-right: 300px;
-}
-
-.menu {
-    display: inline-flex;
-}
-
-.menu > li {
-    margin-right: 20px;
-}
-
-main li {
-    margin-bottom: 50px;
-}
-
-.q {
-    font-weight: bold;
-    margin-bottom: 10px;
+aside {
+    width: 30vw;
+    margin-right: 5vw;
 }

@@ -1,0 +1,9 @@
+title: Interviews
+
+pages: true
+files: false
+
+fields:
+    title:
+        label: Titel
+        type: text

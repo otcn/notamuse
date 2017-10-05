@@ -7,7 +7,7 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
-  - interviews/interview-01
-  - home/was-ist-erfolg/wie-definiert-ihr-erfolg/antwort-3
-  - home/was-ist-erfolg/wie-definiert-ihr-erfolg/antwort-2
-  - home/was-ist-erfolg/wie-definiert-ihr-erfolg/antwort-1
+  - interviews/lea
+  - themen/arbeitsprozess/habt-ihr-eine-taegliche-routine
+  - interviews/claudi
+  - interviews

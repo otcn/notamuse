@@ -1,0 +1,20 @@
+Interview: 
+
+- 
+  fid: f20
+  spezialfrage: "0"
+  person: ""
+  frage: Habt ihr eine tägliche Routine?
+  category: Arbeitsprozess
+  antwort: Kaffe, Arbeiten, Yoga!
+- 
+  fid: f21
+  spezialfrage: "1"
+  person: ""
+  frage: Habt ihr Vorbilder?
+  category: Inspiration
+  antwort: Ja, MacGyver.
+
+----
+
+Title: Claudi

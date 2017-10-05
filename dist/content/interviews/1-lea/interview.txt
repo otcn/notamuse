@@ -1,0 +1,35 @@
+Interview: 
+
+- 
+  fid: f18
+  spezialfrage: "0"
+  person: ""
+  frage: Habt ihr eine tägliche Routine?
+  category: Arbeitsprozess
+  antwort: Kaffe, Arbeit, Bier.
+- 
+  fid: f19
+  spezialfrage: "0"
+  person: ""
+  frage: Habt ihr PraktikantInnen?
+  category: Arbeitssituation
+  antwort: Nein, auf keine Fall! Nervig!
+- 
+  fid: f22
+  spezialfrage: "0"
+  vorfrage: >
+    Ihr sagtet eben, dass ihr sehr
+    schüchtern seid...
+  frage: Wie kam es zu eurer Zusammenarbeit?
+  category: Arbeitssituation
+  antwort: >
+    Durch das Studium. Außenseiter trifft
+    Außenseiter, quasi.
+
+----
+
+Title: Lea
+
+----
+
+Interviewpartner: 1

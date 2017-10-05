@@ -1,0 +1,14 @@
+title: Antwort
+
+pages: false
+files: false
+
+fields:
+    title:
+        label: Title
+        type:  text
+        hidden: true
+
+    answer:
+        label: Antwort
+        type:  textarea

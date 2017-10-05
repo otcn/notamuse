@@ -4,11 +4,15 @@ pages: false
 files: false
 
 fields:
+    interviewpartner:
+        label: Interviewpartner
+        type: checkbox
+        text: Anzahl der Interviewpartner
   Interview:
     label: Interview
     type: structure
     entry: >
-      {{fid}} — {{frage}}
+      {{category}} — {{frage}}
     fields:
         fid:
             label: id
@@ -20,9 +24,28 @@ fields:
             type: checkbox
             text: Spezialfrage
             width: 1/2
+        vorfrage:
+            label: vorfrage
+            type: text
+            text: Vorfrage
         frage:
             label: frage
-            type: text
+            type: select
+            options: query
+            query:
+                page: themen
+                fetch: grandchildren
+                value: '{{title}}'
+                flip: false
+        category:
+            label: thema
+            type: select
+            options: query
+            query:
+                page: themen
+                fetch: children
+                value: '{{title}}'
+                flip: false
         antwort:
             label: antwort
             type: textarea

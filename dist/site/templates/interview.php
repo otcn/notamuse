@@ -1,23 +1,35 @@
 <?php snippet('header') ?>
-<?
-    print_r($site->questionCounter());
-
-?>
 
     <h1><?= $page->title()->kirbytext() ?></h1>
-    <main>
+    <section class="interview">
         <ul>
             <?php foreach($page->Interview()->toStructure() as $interview): ?>
-                <li id="<?php echo urlencode($interview->frage()); ?>">
+                <li id="<?php echo ($interview->fid()); ?>">
                     <div class="q">
-                        <?php echo $interview->frage() ?>
+                        <?php
+                            if(!$interview->vorfrage()->empty()) {
+                                echo $interview->vorfrage();
+                            }
+                        ?>
+                        <?php
+                            foreach($pages->find('themen')->grandchildren() as $fragen) {
+                                    if($partner->interviewpartner()->bool() == true) {
+                                        echo $fragen->alternative();
+                                    } else {
+                                        echo $fragen->title();
+                                    }
+                                }
+                            }
+                        ?>
                     </div>
                     <div class="a">
                         <?php echo $interview->antwort()->html() ?>
                     </div>
                 </li>
+                <br/>
+            </br/>
             <?php endforeach ?>
         </ul>
-    </main>
+    </section>
 
 <?php snippet('footer') ?>
