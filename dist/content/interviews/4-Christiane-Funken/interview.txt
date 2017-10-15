@@ -111,4 +111,4 @@ Interview:
 
 ----
 
-  Interviewpartner: 1
+  Interviewpartner: 0
