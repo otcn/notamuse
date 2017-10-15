@@ -1,0 +1,33 @@
+title: Intro
+
+pages: false
+
+fields:
+    quotes:
+        label: Quotes
+        type: structure
+
+        entry: >
+            {{quote}} {{author}} {{question}}
+        fields:
+            quote:
+                label: Quote
+                placeholder: Ich kannte keine erfolgreichen Designerinnen, deshalb wollte ich es umso härter versuchen.
+                type: textarea
+                required: true
+            author:
+                label: Author
+                placeholder: Isabel Seiffert
+                type: text
+                required: true
+            question:
+                label: Question
+                type: select
+                required: true
+                options: query
+                query:
+                    page: themen
+                    fetch: grandchildren
+                    value: '{{title}}'
+                    text: '{{title}}'
+                    flip: false
