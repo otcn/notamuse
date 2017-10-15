@@ -48,4 +48,4 @@ fields:
           networkUrl:
             label: Network URL
             placeholder: http://ladieswinedesign.com/
-            type: text
+            type: url
