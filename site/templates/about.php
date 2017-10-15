@@ -1,55 +1,33 @@
-<?php snippet('header') ?>
+<div class="about-container overlay">
 
-  <main class="main" role="main">
+  <div id="about-content">
+  	<h1><?= $page->title()->html() ?></h1>
+	<p><?= $page->text()->kirbytext() ?></p>
+  </div>
 
-    <div class="wrap">
-      
-      <header>
-        <h1><?= $page->title()->html() ?></h1>
-        <div class="intro text">
-          <?= $page->intro()->kirbytext() ?>
-        </div>
-        <hr />
-      </header>
-      
-      <div class="text">
-        <?= $page->text()->kirbytext() ?>
-      </div>
-      
-    </div>
-    
-    <section class="team wrap wide">
-      
-      <h2>Our Purring Team</h2>
+  <div id="network-list">
+  	<h2><?= $page->networkListTitle()->html() ?></h2>
 
-      <ul class="team-list grid gutter-1">
-        <?php foreach($page->children()->visible() as $member): ?>
-          <li class="team-item column">
-            
-            <figure class="team-portrait">
-              <img src="<?= $member->image()->url() ?>" alt="Portrait of <?= $member->title()->html() ?>" />
-            </figure>
-            
-            <div class="team-info">
-              <h3 class="team-name"><?= $member->title()->html() ?></h3>
-              <p class="team-position"><?= $member->position()->html() ?></p>
-              <div class="team-about text">
-                <?= $member->about()->kirbytext() ?>
-              </div>
-            </div>
-            
-            <div class="team-contact text">
-              <i>Phone:</i><br />
-              <?= kirbytag(['tel' => $member->phone()->html()]) ?><br />
-              <i>Email:</i><br />
-              <a href="mailto:<?= $member->email()->html() ?>"><?= $member->email()->html() ?></a><br />
-            </div>
-          </li>
-        <?php endforeach ?>
-      </ul>
-      
-    </section>
+	<ul class="network-list">
+	  <?php foreach($page->networks()->toStructure() as $network): ?>
+	  <li>
+	    <a href="<?php echo $network->networkUrl() ?>">
+	      <?php echo $network->networkName()->html() ?>
+	    </a>
+	  </li>
+	  <?php endforeach ?>
+	</ul>
+  </div>
 
-  </main>
+  <div id="about-info">
+  	<ul class="margin-info">
+		<li>
+			<div id="about-image" class="interviewee-image"> 
+				<img src="<?= $page->aboutImage()->url() ?>" alt="About Image" />
+			</div>
+		</li>
+		<li><?= $page->imageCaption()->html() ?></li>
+	</ul>
+  </div>
 
-<?php snippet('footer') ?>
+</div>
