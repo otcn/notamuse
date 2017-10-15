@@ -7,9 +7,9 @@
                 <li id="<?php echo ($interview->fid()); ?>">
                     <div class="q">
                         <?php
-                            if(!$interview->vorfrage()->empty()) {
-                                echo $interview->vorfrage();
-                            }
+                            //if(!$interview->vorfrage()->empty()) {
+                            //    echo $interview->vorfrage();
+                            //}
                         ?>
                         <?php echo $interview->frage() ?>
                     </div>

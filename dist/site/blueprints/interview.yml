@@ -7,7 +7,7 @@ fields:
     interviewpartner:
         label: Interviewpartner
         type: checkbox
-        text: Anzahl der Interviewpartner
+        text: Mehrere Interviewpartner
   Interview:
     label: Interview
     type: structure

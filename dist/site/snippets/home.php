@@ -21,11 +21,18 @@
                         foreach ($questions as $question) {
                             $firstLetter = substr($question, 0, 1);
                             if ($firstLetter !== $currentLetter) {
-                                echo $openwraptag.$firstLetter.$closewraptag;
+                            ?>
+                                <li class="register-mark">
+                                    <?php echo $openwraptag.$firstLetter.$closewraptag;?></li>
+                            <?php
                                 $currentLetter = $firstLetter;
                             }
+                            ?>
 
-                            echo $question->kirbytext();
+                            <li class="nav-question">
+                                <?php echo $question->kirbytext();?>
+                            </li>
+                            <?php
                         }
                     ?>
                 </li>
@@ -109,13 +116,13 @@
                                                         <ul><!-- unordered list of answers -->
                                                             <?php
                                                                 $antworten = array();
-                                                                $titles = array();
+                                                                $persons = array();
 
                                                                 foreach($pages->find('interviews')->children()->visible() as $interview) {
                                                                     foreach($interview->interview()->toStructure()->filterBy('frage', $frage->frage()) as $random) {
                                                                         foreach($random->antwort()->toStructure() as $answer) {
                                                                             array_push($antworten, $answer->value());
-                                                                            array_push($titles, $interview->title()->value());
+                                                                            array_push($persons, $interview->title()->value());
                                                                         }
                                                                     }
                                                                 }
@@ -125,9 +132,10 @@
                                                                     <li><!-- list item of answer -->
                                                                         <i>
                                                                             <?php
-                                                                                foreach($titles as $title) {
-                                                                                    echo $title;
-                                                                                }
+                                                                                //foreach($titles as $title) {
+                                                                                //    echo $title;
+                                                                                //}
+                                                                                var_dump($persons);
                                                                             ?>
                                                                         </i>
                                                                         <p><?= $antwort ?></p>

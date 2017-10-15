@@ -9,5 +9,6 @@ role: admin
 history:
   - interviews/lea
   - themen/arbeitsprozess/habt-ihr-eine-taegliche-routine
+  - themen/arbeitssituation/wie-kam-es-zu-eurer-zusammenarbeit
+  - themen/arbeitssituation/habt-ihr-praktikantinnen
   - interviews/claudi
-  - interviews
