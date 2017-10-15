@@ -1,0 +1,36 @@
+title: About
+
+pages: false
+files:
+	type: image
+			max: 1
+
+fields:
+	title:
+		label: Title
+		type: text
+		placeholder: notamuse
+		required: true
+
+	text:
+		label: Text
+		type: textarea
+		required: true
+		buttons: link
+
+	aboutImage:
+		label: About Image
+		type: image
+		required: true
+
+	imageCaption:
+		label: Image Caption
+		type: textarea
+		required: true
+		buttons: link
+
+	networkList:
+		label: Network List
+		type: textarea
+		placeholder: Ladies Wine and Design
+		buttons: link
