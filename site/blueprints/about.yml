@@ -2,35 +2,50 @@ title: About
 
 pages: false
 files:
-	type: image
-			max: 1
+    type: image
+    max: 1
 
 fields:
-	title:
-		label: Title
-		type: text
-		placeholder: notamuse
-		required: true
+    title:
+        label: Title
+        type: text
+        placeholder: notamuse
+        required: true
 
-	text:
-		label: Text
-		type: textarea
-		required: true
-		buttons: link
+    text:
+        label: Text
+        type: textarea
+        required: true
+        buttons: link
 
-	aboutImage:
-		label: About Image
-		type: image
-		required: true
+    aboutImage:
+        label: About Image
+        type: image
+        required: true
 
-	imageCaption:
-		label: Image Caption
-		type: textarea
-		required: true
-		buttons: link
+    imageCaption:
+        label: Image Caption
+        type: textarea
+        required: true
+        buttons: link
 
-	networkList:
-		label: Network List
-		type: textarea
-		placeholder: Ladies Wine and Design
-		buttons: link
+    networkListTitle:
+        label: Network List Title
+        type: text
+        placeholder: Netzwerke, Plattformen und Freunde
+
+    networks:
+        label: Networks
+        type: structure
+
+        entry: >
+          {{networkName}} {{networkUrl}}
+        fields:
+          networkName:
+            label: Network Name
+            placeholder: Ladies Wine and Design
+            type: text
+          networkUrl:
+            label: Network URL
+            placeholder: http://ladieswinedesign.com/
+            type: text
