@@ -1,0 +1,709 @@
+/* FONTS ========================================================================== */
+
+  @font-face {
+    font-family: 'RenaGrotesk-Regular';
+    src: url('../fonts/RenaGrotesk-Regular.woff');
+    src: url('../fonts/RenaGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: 'RenaGrotesk-Extended';
+    src: url('../fonts/RenaGrotesk-Extended.woff');
+    src: url('../fonts/RenaGrotesk-Extended.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+  }
+/* FONT-SIZES ========================================================================== */
+
+  *, html, body {
+    font-size: 19px;
+    line-height: 27px;
+    /* overflow-x: visible; */
+  }
+
+  body {
+    margin: 0;
+    min-height: 1000vh;
+  }
+
+  h1 {
+    font-size: 95px;
+    line-height: 97px;
+    letter-spacing:-0.04em;
+  }
+
+  .topic-title a {
+    font-size: 95px;
+    line-height: 0px; /* adjust distance from top while sticky here */
+    letter-spacing: -.03em;
+  }
+
+  .marquee p {
+    line-height: 7.5vw;
+    font-size: 102px;
+    font-family: RenaGrotesk-Extended, sans-serif;
+  }
+
+  .intro-quote p, .intro-nav *, p.i-intro, #nav>ul>li>a, .question-title * {
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+/* GENERAL ========================================================================== */
+
+  *, html, body {
+    box-sizing: border-box;
+    /*background: rgba(0,0,255,0.1);*/
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    font-family: RenaGrotesk-Regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    text-decoration: none;
+
+    /* improve text rendering */
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    color:#000;
+  }
+
+  ol, ul, li {
+    list-style: none;
+  }
+
+  a {
+    cursor: pointer;
+    color: black;
+  }
+  a:hover, a:active, a.active, .active {
+    /*color: #e3001f;*/
+    font-family: RenaGrotesk-Extended, sans-serif;
+  }
+  a.a-intern::before {
+    content: "\2192";
+  }
+  a.a-extern::after {
+    content: "\2197";
+  }
+  a.a-intern:hover, a.a-extern:hover {
+    border-bottom: 1px solid white;
+    font-family: RenaGrotesk-Regular, sans-serif;
+  }
+
+  em {
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  p {
+    padding: 0px;
+    margin: 0px;
+    min-width: 100px;
+    max-width: 1000px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+
+    /* word-break (may look odd) */
+      /* Non standard for WebKit */
+      word-break: break-word;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
+  }
+
+  *::-moz-selection { color: black; background-color: transparent; }
+  *::selection { color: black; background-color: transparent; }
+  p::-moz-selection { color: #e3001f; background-color: transparent; }
+  p::selection { color: #e3001f; background-color: transparent; }
+
+  ::-webkit-scrollbar { display: none; }
+
+  h1 {
+    font-family: RenaGrotesk-Extended, sans-serif;
+    hyphen: none;
+    word-break: normal;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+  }
+
+  table, tr, th, td, table ol, table li {
+    min-width: 1.4em;
+    vertical-align: top;
+    border-collapse: collapse;
+    /*white-space: nowrap;*/
+    overflow: visible;
+  }
+
+/* TITLE BANNER ========================================================================== */
+
+  .marquee {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 400;
+    display: block;
+    width: 100vh;
+    height: 10vw;
+    overflow: hidden;
+    margin: 0;
+    padding:0;
+    background: #e3001f;
+    transform-origin: 0% 100%;
+    transform: rotate(270deg) translate(0, 100vh);
+    white-space: nowrap;
+  }
+
+  .marquee p {
+    display: inline-block;
+    padding: 0 5px;
+    position: relative;
+    width: auto;
+    height: auto;
+    text-align: center;
+    transform:translateX(0%); /* starting position */
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+  }
+
+  .marquee .marker{} /* for testing purposes only */
+
+/* SEPARATOR ========================================================================== */
+
+  #separator {
+    width: 200vw;
+    height: 200vh;
+    padding: 50vh 55vw;
+    position: fixed;
+    background: rgba(255,255,255,.5);
+    top: -50vh;
+    left: -50vw;
+    z-index: 200;
+    display: block;
+    cursor: pointer;
+  }
+
+  #separator a.close-icon {
+    line-height: 95vh; /* changes y-position of close-icon */
+    width: 5vw;
+
+    text-align: center;
+    padding: 0 1vw;
+    visibility: hidden;
+  }
+
+  #separator:hover a.close-icon {
+    visibility: visible;
+  }
+
+/* CLOSE AND OPEN ICONS ========================================================================== */
+
+  a.close-icon, a.open-icon {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  a.close-icon::after {
+    content: "\E001";  /*inserts glyph before anchor" */
+    font-family: RenaGrotesk-Regular, sans-serif;
+    cursor: pointer;
+    margin-top: -10px;
+  }
+
+  a.open-icon::after {
+    content: "​\E000";  /*inserts glyph before anchor" */
+    font-family: RenaGrotesk-Regular, sans-serif;
+    cursor: pointer;
+    margin-top: -10px;
+  }
+
+  a.open-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #nav a.open-icon {
+    margin-right: 0px;
+    margin-top: 0px;
+    display:none;
+  }
+
+  .topic-title a.open-icon {
+    margin-right: 27px;
+    margin-top: 0px;
+    display:none;
+  }
+
+  .question-title a.open-icon {
+    margin-right: 27px;
+    margin-top: 0px;
+    display:none;
+  }
+
+
+/* OVERLAYS ========================================================================== */
+
+  .overlay {
+    display: block; /* change to block later */
+    width: 90vw;
+    height: 100vh;
+    background: #e3001f;
+    margin:0 0 1em 0;
+    padding: 0 10vw 0 2vw;
+    position: fixed;
+    left: 10vw;
+    top:0;
+    z-index: 300;
+    color: #fff;
+    overflow-y: scroll;
+
+    -webkit-transition: all .15s; /* Safari */
+    transition: all .15s;
+
+    -webkit-box-shadow: -1px 0px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: -1px 0px 1px rgba(0,0,0,.05);
+    box-shadow: -1px 0px 1px rgba(0,0,0,.05);
+  }
+
+  .overlay.hidden {
+    left: 100vw;
+  }
+
+  .intro-container {
+    z-index: 330;
+    overflow: hidden;
+  }
+
+  .about-container {
+    z-index: 320;
+    background: grey;
+  }
+
+  .interview-container {
+    z-index: 310;
+  }
+
+  #intro-content {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+
+  #interview-content {
+    padding: 0 0  0;
+    margin: 0 0 0 0;
+  }
+
+  #about-content h1, #interview-content h1 {
+    margin-bottom: 51px;
+  }
+
+  #about-content, #interview-content {
+    max-width: 48vw;
+  }
+
+  .overlay, .overlay a {
+    color: white;
+  }
+
+  .overlay *::-moz-selection { color: black; background-color: transparent; }
+  .overlay *::selection { color: black; background-color: transparent; }
+
+/* INTRO ========================================================================== */
+
+  .intro-quote * {
+    font-family: RenaGrotesk-Extended, sans-serif;
+  }
+  .intro-quote h1::after {
+    content: "\00AB"; /* inserts glyph before anchor" */
+  }
+  .intro-quote h1::before {
+    content: "\00BB"; /* inserts glyph before anchor" */
+  }
+
+  .intro-quote p {
+    margin-top: 1.4em;
+  }
+
+  .intro-nav {
+    position: absolute;
+    bottom: 1.4em;
+  }
+
+  .intro-nav li {
+    margin-top: 18px;
+  }
+
+  .intro-nav a::before {
+    content: "\2192"; /* inserts rightwards arrow before anchor" */
+  }
+
+/* ABOUT ========================================================================== */
+
+  #about-image {
+    /*background-image: url("http://wise14.parcours-muenster.de/img/absolventen/baum_silva.jpg");*/
+    /*background-image: url("http://ss15.ohmschau.de/wp-content/uploads/Scheer-Claudia-Format14final-400x284.jpg");*/
+  }
+
+  #network-list {
+    margin: 0 0 0 0;
+    padding: 0 0 4vh 0;
+  }
+
+  #network-list h2 {
+    margin-top: 46px;
+    font-family: RenaGrotesk-Extended, sans-serif;
+  }
+
+  #network-list li {
+    margin-top: 27px;
+  }
+
+/* INTERVIEW ========================================================================== */
+
+  #interview-content h1, #interview-content p {
+    margin: 0 0 1em 0;
+  }
+
+  p.i-question {
+    font-family: RenaGrotesk-Extended, sans-serif;
+    margin: 0;
+  }
+
+  p.i-answer::before {
+    font-family: RenaGrotesk-Extended, sans-serif;
+    content: "AH: ";
+  }
+
+  .hidden .aside-info>ul {
+    display: none;
+    overflow: hidden;
+    height: 35vw;
+    max-height:35vw;
+  }
+
+  .aside-info>ul {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 64vw;
+    margin-top: 19px;
+    padding: 0;
+    z-index: 100;
+    width: 24vw;
+    min-width: 120px;
+    max-width: 600px;
+    height: 100vh;
+  }
+
+  .aside-info>ul>li {
+    position: relative;
+  }
+
+  .aside-info>ul>li:last-child, .aside-info>ul>li:nth-child(2) {
+    margin-top: 1em;
+  }
+
+  .interviewee-image {
+    display: block;
+
+    width: 24vw;
+    height: 35vw;
+    min-width: 120px;
+    max-width: 702px;
+    min-height: 176px;
+    max-height: 1032px;
+
+    background-image: url("../img/Notamuse_Portraits_Amamda_Haas05.jpg");
+    background-color: #fff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .aside-info>ul.preview {
+    display: block !important;
+  }
+
+  .aside-info>ul.collapse {
+    overflow: hidden;
+    height: 35vw;
+  }
+
+/* MAIN LAYER: LAYOUT ========================================================================== */
+
+  .flex-container {
+    width: 100vw;
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    overflow-x: hidden;
+  }
+  .flex-item {
+    display: block;
+    /*flex: 0 1 100px;*/
+    border: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    -webkit-transition: all .2s; /* Safari */
+    transition: all .2s;
+    position: relative;
+  }
+  #nav-frame.flex-item{
+    width: 20vw;
+    z-index: 100;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  #content-frame.flex-item{
+    width: 80vw;
+    margin: 0 0 0 0;
+    padding: 0 10vw 0 0;
+    z-index: 90;
+  }
+  #main-wrapper.nav-mode{
+    /*background: #e3001f;*/
+  }
+  .nav-mode>#nav-frame{
+    /*width: 35vw;*/
+    width: auto;
+  }
+
+  #nav, #content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+  }
+
+/* MAIN LAYER: NAVIGATION ========================================================================== */
+
+  #nav {
+    width: 45vw;  /* must be wider to hide scrollbar */
+    padding: 0px 10vw 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #nav>ul {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #nav>ul>li {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px .6em 0px;
+    position: relative;
+    display: block;
+  }
+
+  #nav>ul>li>a {
+    padding: 0 0 0 .6em;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    cursor: pointer;
+    background: #fff;
+  }
+
+  /* === NAV-SUB-LIST === */
+
+  .sub-list {
+    display: block;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow-x: visible;
+  }
+
+  .sub-list * {
+    max-width: 35vw;
+  }
+
+  .sub-list ul, .sub-list li, .sub-list a {
+    display: block;
+  }
+
+  .sub-list>ul {
+    padding: 0 0 0 2vw;
+    overflow-x: visible;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    width: 35vw;
+  }
+
+  .sub-list>ul>li {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 1em 2vw;
+    display: block;
+    position: relative;
+    min-width: 27px;
+    width: 31vw;
+  }
+
+  .sub-list .register-mark {
+    width: 2vw;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .sub-list .nav-question {
+  }
+
+  .sub-list .register-mark + .nav-question {
+    margin-left: 0px;
+  }
+
+  .sub-list a {
+    max-width: 82%;
+  }
+
+  .sub-list a:hover {
+    max-width: 100%;
+    font-family: RenaGrotesk-Extended, sans-serif;
+  }
+
+/* MAIN LAYER: CONTENT ========================================================================== */
+
+  #content {
+    transition: all 0.5s;
+    width: 80vw;
+    padding: 0px 10vw 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .topic-list {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .topic-item {
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+  }
+
+      .topic-title, .question-title {
+        display: block;
+        position: relative;
+        white-space: nowrap;
+        background: #fff;
+      }
+
+  .topic-title {
+    padding: 42px 0px 24px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+      .question-list, .answer-list {
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;
+      }
+
+  .question-list {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .question-item {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .question-title {
+    padding: 19px 0px 25px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .answer-list {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  li.question-item:last-child .answer-list {
+    border-bottom: 0px;
+  }
+
+  .answer-item {
+    margin: 27px 0px 0px 0px;
+  }
+
+  a.interviewee-title {
+    /*display: inline-block;*/
+    margin: 0px 0px 0px 0px;
+    font-family: RenaGrotesk-Extended, sans-serif;
+  }
+
+/* STICKINESS MAIN WRAPPER AND NAV WRAPPER ========================================================================== */
+
+  .topic-item.active>.topic-title, .question-item.active>.question-title, #questions-button.active, #interviews-button.active  {
+    border-bottom: 1px solid #000;
+    margin-bottom: -1px;
+    background: #fff;
+    /* STICKY-CODE */
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px;
+      z-index: 100;
+  }
+
+  .topic-item.active>.topic-title {
+    /* STICKY-CODE */
+      top: 0px;
+      z-index: 20;
+  }
+
+  .question-item.active>.question-title {
+    border-bottom: 1px solid #000;
+    /* STICKY-CODE */
+      position: -webkit-sticky;
+      position: sticky;
+      top: 112px;
+      z-index: 10;
+  }
+/* STICKINESS NAV WRAPPER ========================================================================== */
+
+
+  .sticky {
+    background: red; /* for testing only */
+  }
+
+  .nav-switch.active.sticky {
+    position: fixed;
+    width: 35vw;
+    left: 0;
+    top: 0;
+    border-top: 0;
+    border-bottom: 1px solid #000;
+    /*
+    z-index: 100;
+    border-top: 0;
+    */
+  }
+
