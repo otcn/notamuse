@@ -8,11 +8,19 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
+  <!--Load css-->
   <?php echo css(array(
     'assets/css/index.css',
     'assets/css/normalize.css',
     'assets/css/style.css'
   )) ?>
+  
+  <!--Load js async-->
+  <?php echo js(array(
+    'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+    'assets/js/scripts.js',
+    'assets/js/marquee.js',
+  ), true) ?>
 
 </head>
 <body>
