@@ -4,6 +4,9 @@ pages: false
 files: false
 
 fields:
+    title:
+        label: Titel
+        type: text
     interviewpartner:
         label: Interviewpartner
         type: checkbox

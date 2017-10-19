@@ -2,3 +2,24 @@ Title: About
 
 ----
 
+Text: Lorem ipsum dolor sit
+
+----
+
+Aboutimage: 3-maedels-mit-badekappe.jpg
+
+----
+
+Imagecaption: Lorem ipsum dolor sit
+
+----
+
+Networklisttitle: 
+
+----
+
+Networks: 
+
+----
+
+Interview: 
