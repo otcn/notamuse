@@ -1,78 +1,56 @@
 <div class="content">
     <aside>
         <section id="fragen">
-            <b><?php echo "Fragen" ?></b>
-
+            <b>Fragen</b>
             <?php
+                // build an array of all unique question objects
                 $fragenDone = array();
-                    foreach($pages->find('interviews')->children()->visible() as $interview) {
-                        foreach($interview->interview()->toStructure() as $frage) {
-                            if (! in_array($frage->frage()->value(), $fragenDone)) {
-                                array_push($fragenDone, $frage->frage()->value());
-                                ?>
-
-                                <ul>
-                                    <li>
-                                        <?php
-                                            // determine link target for question
-                                            if ($frage->spezialfrage()->bool() == true) {
-                                                $openwraptag = '<a href="'.$interview->url().'#'.$frage->fid().'">';
-                                                $closewraptag = '</a>';
-                                            } else {
-                                                $openwraptag = '<b>';
-                                                $closewraptag = '</b>';
-                                            }
-
-                                            /*
-                                            $openwraptag = '<b>';
-                                            $closewraptag = '</b>';
-                                            $currentLetter = '';
-                                            foreach ($questions as $question) {
-                                                $firstLetter = substr($question, 0, 1);
-                                                if ($firstLetter !== $currentLetter) {
-                                                ?>
-                                                    <li class="register-mark">
-                                                        <?php echo $openwraptag.$firstLetter.$closewraptag;?></li>
-                                                <?php
-                                                    $currentLetter = $firstLetter;
-                                                }
-                                                ?>
-
-                                                <li class="nav-question">
-                                                    <?php echo $question->kirbytext();?>
-                                                </li>
-                                                <?php
-                                            }
-                                            */
-
-                                            $currentLetter = '';
-                                            foreach ($fragenDone as $question) {
-                                                $firstLetter = substr($question, 0, 1);
-                                                if ($firstLetter !== $currentLetter) {
-                                                ?>
-                                                    <li class="register-mark">
-                                                        <?php echo $firstLetter;?></li>
-                                                <?php
-                                                    $currentLetter = $firstLetter;
-                                                }
-                                                ?>
-
-                                                <li class="nav-question">
-                                                    <?php echo $openwraptag.$frage->frage()->kirbytext().$closewraptag;?>
-                                                </li>
-                                                <?php
-                                            }
-
-
-                                        ?>
-                                    </li>
-                                </ul>
-
-                                <?php
-                            }
-                        }
-                    }
-            ?>
+                $lettersDone = array();
+                $newLetter = false;
+                
+                foreach($pages->find('interviews')->children()->visible() as $interview) {
+                	foreach($interview->interview()->toStructure()->sortBy('frage') as $frage) {
+	                	
+	                	// make sure we show each question only once
+                  	if (! in_array($frage->frage(), $fragenDone)) {
+											array_push($fragenDone, $frage->frage());
+											
+											// determine link target for question
+											if ($frage->spezialfrage()->bool() === true) {
+												
+													// special questions are bold to be recognizable in the frontend
+											    $openwraptag = '<a href="'.$interview->url().'#'.$frage->fid().'">';
+											    $closewraptag = '</a>';
+											} else {
+											    $openwraptag = '<a href="#">';
+											    $closewraptag = '</a';
+											}
+											
+											// new first letter? show it!
+											$letter = substr($frage->frage(),0,1);
+											if (! in_array($letter, $lettersDone)) {
+												array_push($lettersDone, $letter);
+												
+												// are we starting a new letter? close the old one's ul element!
+												if (!$newLetter) {echo '</ul>'; }
+											?>
+													
+												<h3><?= $letter?></h3>
+												<ul>
+											<?php
+												$newletter = true;
+											}
+											
+											?>
+											
+											<li class="nav-question">
+												<?php echo $openwraptag.$frage->frage()->kirbytext().$closewraptag;?>
+											</li>		
+											<?php							
+										}
+									}
+								}               
+           ?>
         </section>
 
 
