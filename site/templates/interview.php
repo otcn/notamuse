@@ -1,4 +1,12 @@
-<?php snippet('header') ?>
+<?php
+if(!kirby()->request()->ajax()) {
+    snippet('header');
+    echo '<div class="content">';
+    snippet('menu');
+    snippet('home');
+    echo '<div id="interviews"><div class="int-content">';
+}
+?>
 
     <h1><?= $page->title()->kirbytext() ?></h1>
     <section class="interview">
@@ -32,4 +40,12 @@
         </ul>
     </section>
 
-<?php snippet('footer') ?>
+
+
+<?php
+if(!kirby()->request()->ajax()) {
+    echo '</div></article>';
+    echo '</div>';
+    snippet('footer');
+}
+?>

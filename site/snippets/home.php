@@ -4,39 +4,75 @@
             <b><?php echo "Fragen" ?></b>
 
             <?php
-                $questions = array();
+                $fragenDone = array();
+                    foreach($pages->find('interviews')->children()->visible() as $interview) {
+                        foreach($interview->interview()->toStructure() as $frage) {
+                            if (! in_array($frage->frage()->value(), $fragenDone)) {
+                                array_push($fragenDone, $frage->frage()->value());
+                                ?>
 
-                foreach($pages->find('themen')->grandchildren()->visible()->sortBy('title', 'asc') as $frage) {
-                    array_push($questions, $frage->title());
-                }
-            ?>
+                                <ul>
+                                    <li>
+                                        <?php
+                                            // determine link target for question
+                                            if ($frage->spezialfrage()->bool() == true) {
+                                                $openwraptag = '<a href="'.$interview->url().'#'.$frage->fid().'">';
+                                                $closewraptag = '</a>';
+                                            } else {
+                                                $openwraptag = '<b>';
+                                                $closewraptag = '</b>';
+                                            }
 
-            <ul>
-                <li>
-                    <?php
-                        $openwraptag = '<b>';
-                        $closewraptag = '</b>';
-                        $currentLetter = '';
+                                            /*
+                                            $openwraptag = '<b>';
+                                            $closewraptag = '</b>';
+                                            $currentLetter = '';
+                                            foreach ($questions as $question) {
+                                                $firstLetter = substr($question, 0, 1);
+                                                if ($firstLetter !== $currentLetter) {
+                                                ?>
+                                                    <li class="register-mark">
+                                                        <?php echo $openwraptag.$firstLetter.$closewraptag;?></li>
+                                                <?php
+                                                    $currentLetter = $firstLetter;
+                                                }
+                                                ?>
 
-                        foreach ($questions as $question) {
-                            $firstLetter = substr($question, 0, 1);
-                            if ($firstLetter !== $currentLetter) {
-                            ?>
-                                <li class="register-mark">
-                                    <?php echo $openwraptag.$firstLetter.$closewraptag;?></li>
-                            <?php
-                                $currentLetter = $firstLetter;
+                                                <li class="nav-question">
+                                                    <?php echo $question->kirbytext();?>
+                                                </li>
+                                                <?php
+                                            }
+                                            */
+
+                                            $currentLetter = '';
+                                            foreach ($fragenDone as $question) {
+                                                $firstLetter = substr($question, 0, 1);
+                                                if ($firstLetter !== $currentLetter) {
+                                                ?>
+                                                    <li class="register-mark">
+                                                        <?php echo $firstLetter;?></li>
+                                                <?php
+                                                    $currentLetter = $firstLetter;
+                                                }
+                                                ?>
+
+                                                <li class="nav-question">
+                                                    <?php echo $openwraptag.$frage->frage()->kirbytext().$closewraptag;?>
+                                                </li>
+                                                <?php
+                                            }
+
+
+                                        ?>
+                                    </li>
+                                </ul>
+
+                                <?php
                             }
-                            ?>
-
-                            <li class="nav-question">
-                                <?php echo $question->kirbytext();?>
-                            </li>
-                            <?php
                         }
-                    ?>
-                </li>
-            </ul>
+                    }
+            ?>
         </section>
 
 
@@ -51,12 +87,13 @@
                 ?>
                     <ul>
                         <li>
-                            <p><?php echo $interview->title() ?></p>
+                            <a href="<?php $interview->url() ?>"><?php echo $interview->title() ?></a>
                         </li>
                     </ul>
                 <?php endforeach ?>
         </section>
     </aside>
+
 
 
 
@@ -70,7 +107,7 @@
 
                     foreach($pages->find('interviews')->children()->visible() as $interview) {
                         foreach($interview->interview()->toStructure() as $frage) {
-                            if (!$frage->category()->empty()) {
+                            if($frage->category()->value() !== 'Spezifisch') {
                                 array_push($categories, $frage->category()->value());
                             }
                         }
@@ -89,25 +126,16 @@
                             <ul><!-- unordered list of questions -->
                                 <?php
                                     $fragenDone = array();
-                                    //$titles = array();
 
                                     foreach($pages->find('interviews')->children()->visible() as $interview) {
                                         foreach($interview->interview()->toStructure()->filterBy('category', $category) as $frage) {
                                             if (! in_array($frage->frage()->value(), $fragenDone)) {
                                                 array_push($fragenDone, $frage->frage()->value());
-                                                //array_push($titles, $interview->title()->value());
                                                 ?>
 
                                                 <?php
-
-                                                    // determine link target for question
-                                                    if ($frage->spezialfrage()->bool() == true) {
-                                                        $openwraptag = '<a href="'.$interview->url().'#'.$frage->fid().'">';
-                                                        $closewraptag = '</a>';
-                                                    } else {
-                                                        $openwraptag = '<b>';
-                                                        $closewraptag = '</b>';
-                                                    }
+                                                    $openwraptag = '<b>';
+                                                    $closewraptag = '</b>';
                                                 ?>
 
                                                     <li><!-- list item of question -->
@@ -115,35 +143,19 @@
 
                                                         <ul><!-- unordered list of answers -->
                                                             <?php
-                                                                $antworten = array();
-                                                                $persons = array();
-
                                                                 foreach($pages->find('interviews')->children()->visible() as $interview) {
                                                                     foreach($interview->interview()->toStructure()->filterBy('frage', $frage->frage()) as $random) {
                                                                         foreach($random->antwort()->toStructure() as $answer) {
-                                                                            array_push($antworten, $answer->value());
-                                                                            array_push($persons, $interview->title()->value());
+                                                                        ?>
+                                                                        <li>
+                                                                            <?php echo $answer ?>
+                                                                        </li>
+
+                                                                        <?php
                                                                         }
                                                                     }
                                                                 }
-
-                                                                foreach($antworten as $antwort):
-                                                                ?>
-                                                                    <li><!-- list item of answer -->
-                                                                        <i>
-                                                                            <?php
-                                                                                //foreach($titles as $title) {
-                                                                                //    echo $title;
-                                                                                //}
-                                                                                var_dump($persons);
-                                                                            ?>
-                                                                        </i>
-                                                                        <p><?= $antwort ?></p>
-
-
-                                                                        <div></div>
-                                                                    </li>
-                                                                <?php endforeach ?>
+                                                            ?>
                                                         </ul>
                                                     </li>
                                                 <?php
