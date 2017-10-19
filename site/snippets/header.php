@@ -24,7 +24,8 @@
 
 </head>
 <body>
-
+  
+<!-- Jens: Hi Tim, der Header-Schmu hier kann doch eigentlich weg, oder?
   <header class="header wrap wide" role="banner">
     <div class="grid">
 
@@ -36,3 +37,4 @@
 
     </div>
   </header>
+-->
