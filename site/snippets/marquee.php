@@ -1,0 +1,1 @@
+<div class="marquee"><p><?= $site->title()->html() ?></p></div>
