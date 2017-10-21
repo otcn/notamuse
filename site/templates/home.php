@@ -8,6 +8,8 @@ foreach($pages->visible() as $section) {
 
 ?>
 
-
 <!-- marquee is the vertical notamuse banner on the right window edge. should this be placed directly in here or be placed as a snippet? -->
-<div class="marquee"><p>notamuse</p></div>
+<?php
+snippet('marquee');
+?>
+
