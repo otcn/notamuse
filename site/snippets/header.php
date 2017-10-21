@@ -18,8 +18,8 @@
   <!--Load js async-->
   <?php echo js(array(
     'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
-    'assets/js/jens-scripts.js.js',
-    'assets/js/script.js.js',
+    'assets/js/jens-scripts.js',
+    'assets/js/script.js',
     'assets/js/marquee.js',
   ), true) ?>
 
