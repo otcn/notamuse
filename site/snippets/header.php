@@ -14,17 +14,18 @@
     'assets/css/normalize.css',
     'assets/css/style.css'
   )) ?>
-  
+
   <!--Load js async-->
   <?php echo js(array(
     'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
-    'assets/js/scripts.js',
+    'assets/js/jens-scripts.js.js',
+    'assets/js/script.js.js',
     'assets/js/marquee.js',
   ), true) ?>
 
 </head>
 <body>
-  
+
 <!-- Jens: Hi Tim, der Header-Schmu hier kann doch eigentlich weg, oder?
   <header class="header wrap wide" role="banner">
     <div class="grid">
