@@ -1,5 +1,3 @@
-/* MAIN CSS ======================================================================= */
-
 /* FONTS ========================================================================== */
 
   @font-face {
@@ -28,7 +26,6 @@
 
   body {
     margin: 0;
-    min-height: 1000vh;
   }
 
   h1 {
@@ -182,10 +179,16 @@
     height: auto;
     text-align: center;
     transform:translateX(0%); /* starting position */
+
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
   }
 
   .marquee .marker{} /* for testing purposes only */
@@ -205,63 +208,51 @@
     cursor: pointer;
   }
 
-  #separator a.close-icon {
-    line-height: 95vh; /* changes y-position of close-icon */
-    width: 5vw;
+/* CLOSE AND OPEN ICONS ========================================================================== */
 
+  a.key-icon {
+
+    font-size: 30px;
+    line-height: 33px;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    cursor: pointer;
+    font-family: RenaGrotesk-Regular, sans-serif;
+    /*display:none;*/
+  }
+  a.key-icon::after { content: "​\E000"; } /* inserts glyph before anchor" */
+  a.key-icon.active::after { content: "\E001"; } /* inserts glyph before anchor" */
+
+  #separator a.key-icon {
+    /*line-height: 95vh; /* changes y-position of key-icon */
+    width: 5vw;
     text-align: center;
     padding: 0 1vw;
     visibility: hidden;
+    display: block;
   }
 
-  #separator:hover a.close-icon {
+  #separator:hover a.key-icon {
     visibility: visible;
   }
 
-/* CLOSE AND OPEN ICONS ========================================================================== */
-
-  a.close-icon, a.open-icon {
-    display: inline-block;
-    font-size: 30px;
-    line-height: 33px;
+  #nav a.key-icon {
+    margin-right: 0px;
+    right: 0;
+    top: 15px;
+    margin-top: -15px;
+    z-index: 110;
   }
 
-  a.close-icon::after {
-    content: "\E001";  /*inserts glyph before anchor" */
-    font-family: RenaGrotesk-Regular, sans-serif;
-    cursor: pointer;
-    margin-top: -10px;
-  }
-
-  a.open-icon::after {
-    content: "​\E000";  /*inserts glyph before anchor" */
-    font-family: RenaGrotesk-Regular, sans-serif;
-    cursor: pointer;
-    margin-top: -10px;
-  }
-
-  a.open-icon {
-    position: absolute;
-    top: 0;
+  .topic-title a.key-icon {
+    margin-right: 27px;
     right: 0;
   }
 
-  #nav a.open-icon {
-    margin-right: 0px;
-    margin-top: 0px;
-    display:none;
-  }
-
-  .topic-title a.open-icon {
+  .question-title a.key-icon {
     margin-right: 27px;
-    margin-top: 0px;
-    display:none;
-  }
-
-  .question-title a.open-icon {
-    margin-right: 27px;
-    margin-top: 0px;
-    display:none;
+    right: 0;
   }
 
 
@@ -522,6 +513,11 @@
     margin: 0px 0px .6em 0px;
     position: relative;
     display: block;
+    max-width:20vw;
+  }
+
+  .nav-mode>#nav-frame>#nav>ul>li {
+    max-width:35vw;
   }
 
   #nav>ul>li>a {
@@ -580,7 +576,8 @@
   }
 
   .sub-list .register-mark + .nav-question {
-    margin-left: 0px;
+    /*margin-left: 0px;*/
+    margin-top: -27px;
   }
 
   .sub-list a {
