@@ -12,4 +12,3 @@ foreach($pages->visible() as $section) {
 <?php
 snippet('marquee');
 ?>
-

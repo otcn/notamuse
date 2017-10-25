@@ -35,17 +35,16 @@ fields:
         placeholder: Netzwerke, Plattformen und Freunde
 
     networks:
-        label: Networks
+        label: Network List
         type: structure
-
         entry: >
-          {{networkName}} {{networkUrl}}
+          {{name}} {{url}}
         fields:
-          networkName:
+          name:
             label: Network Name
             placeholder: Ladies Wine and Design
             type: text
-          networkUrl:
+          url:
             label: Network URL
             placeholder: http://ladieswinedesign.com/
             type: url

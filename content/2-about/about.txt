@@ -2,7 +2,12 @@ Title: About
 
 ----
 
-Text: Lorem ipsum dolor sit
+Text: 
+
+The problem of architecture is not that of being seen from without or that of living within. It is in the dialectical relation interior-exterior, at the level of urbanism (houses-streets) and at the level of the house (interior-exterior).
+All the façades of a house determine a “clear space” whose function is to play on the contradiction opening-closing.
+Build an entire city in order to make love there with only one girl for a few days.
+The notion of the “street room” (H.O.)* reverses the false distinction of open and closed ambiences. The closed ambience itself opens onto the open ambience (which is demarcated by the closed ambiences).
 
 ----
 
@@ -10,15 +15,19 @@ Aboutimage: 3-maedels-mit-badekappe.jpg
 
 ----
 
-Imagecaption: Lorem ipsum dolor sit
+Imagecaption: One of the most important issues underlying our research has been to produce new conceptions and interpretations of the informal. We continue to be seduced with the ‘image’ of the informal, and we are not translating its operative dimension, its actual socio-economic and political procedures. Our research at the San Diego-Tijuana border has focused on the informal as a functional set of urban operations that allow the transgression of imposed political boundaries and top down economic models. The informal as the site from which to produce new interpretations of infrastructure, property and citizenship.
 
 ----
 
-Networklisttitle: 
+Networklisttitle: Netzwerke, Plattformen und Freunde
 
 ----
 
 Networks: 
+
+- 
+  networkname: Ladies Wine and Design
+  networkurl: http://ladieswinedesign.com/
 
 ----
 
