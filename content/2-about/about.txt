@@ -2,7 +2,7 @@ Title: About
 
 ----
 
-Text: 
+Text:
 
 The problem of architecture is not that of being seen from without or that of living within. It is in the dialectical relation interior-exterior, at the level of urbanism (houses-streets) and at the level of the house (interior-exterior).
 All the façades of a house determine a “clear space” whose function is to play on the contradiction opening-closing.
@@ -23,12 +23,12 @@ Networklisttitle: Netzwerke, Plattformen und Freunde
 
 ----
 
-Networks: 
+Networks:
 
-- 
-  networkname: Ladies Wine and Design
-  networkurl: http://ladieswinedesign.com/
+-
+  name: Ladies Wine and Design
+  url: http://ladieswinedesign.com/
 
 ----
 
-Interview: 
+Interview:
