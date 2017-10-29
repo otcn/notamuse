@@ -16,8 +16,8 @@ snippet('header');
 
 <!-- the following php places all snippets concerning the overlays -->
 <?php
-snippet('intro');
-snippet('about');
+// snippet('intro');
+// snippet('about');
 snippet('interview');
 /*foreach($pages->visible() as $section) {
   snippet($section->uid(), array('data' => $section));

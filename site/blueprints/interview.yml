@@ -1,7 +1,9 @@
 title: Interview
 
 pages: false
-files: false
+files:
+    type: image
+    max: 1
 
 options:
   preview: false
@@ -15,6 +17,9 @@ fields:
         label: Titel
         type: text
         required: true
+    interviewimage:
+        label: Image
+        type: image
     interviewpartner:
         label: Mehrere Interviewpartner
         type: checkbox
