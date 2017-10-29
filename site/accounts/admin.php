@@ -7,8 +7,8 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
+  - interviews/silva-baum
   - about
   - intro
   - interviews/grafikladen
-  - >
-    themen/arbeitsprozess/habt-ihr-eine-taegliche-routine
+  - themen/arbeitsprozess/habt-ihr-eine-taegliche-routine
