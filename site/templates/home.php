@@ -1,13 +1,15 @@
-<!-- the following php places all snippets concerning the main stage -->
+<!-- the following php places the header with css and js links and the opening html body tag -->
 <?php
-
 snippet('header');
-
-snippet('aside');
-
-snippet('article');
-
 ?>
+
+<div id="main-wrapper" class="flex-container">
+  <!-- the following php places all snippets concerning the main stage -->
+  <?php
+  snippet('aside');
+  snippet('article');
+  ?>
+</div>
 
 <!-- the "separator" divides the main stage and the overlays. on click overlays close -->
 <div id="separator"><a class="key-icon active"></a></div>
@@ -31,4 +33,9 @@ foreach($pages->visible() as $section) {
 <!-- the following php places the marquee snippet. the marquee is the vertical notamuse banner on the right window edge. should this be placed directly in here or be placed as a snippet? -->
 <?php
 snippet('marquee');
+?>
+
+<!-- the following php places the footer with the closing html body tag -->
+<?php
+snippet('footer');
 ?>

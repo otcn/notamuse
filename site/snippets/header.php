@@ -5,7 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
+  <title>
+    <?php echo $site->title()->html() ?> <?php echo $site->title()->html() ?> <?php echo $site->title()->html() ?>
+  </title>
+
   <meta name="description" content="<?= $site->description()->html() ?>">
 
   <!--Load css-->
@@ -25,6 +28,7 @@
   ), true) ?>
 
 </head>
+
 <body>
 
 <!-- Jens: Hi Tim, der Header-Schmu hier kann doch eigentlich weg, oder?
