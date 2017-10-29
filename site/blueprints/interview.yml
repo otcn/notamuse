@@ -7,48 +7,59 @@ fields:
     title:
         label: Titel
         type: text
+        required: true
     interviewpartner:
-        label: Interviewpartner
+        label: Mehrere Interviewpartner
         type: checkbox
         text: Mehrere Interviewpartner
-  Interview:
-    label: Interview
-    type: structure
-    entry: >
-      {{category}} — {{frage}}
-    fields:
-        fid:
-            label: id
-            type: text
-            readonly: false
-            width: 1/2
-        spezialfrage:
-            label: fragentyp
-            type: checkbox
-            text: Spezialfrage
-            width: 1/2
-        vorfrage:
-            label: vorfrage
-            type: text
-            text: Vorfrage
-        frage:
-            label: frage
-            type: select
-            options: query
-            query:
-                page: themen
-                fetch: grandchildren
-                value: '{{title}}'
-                flip: false
-        category:
-            label: thema
-            type: select
-            options: query
-            query:
-                page: themen
-                fetch: children
-                value: '{{title}}'
-                flip: false
-        antwort:
-            label: antwort
-            type: textarea
+    introduction:
+        label: Einleitung
+        type: textarea
+    Interview:
+        label: Interview
+        type: structure
+        entry: >
+          {{category}} — {{frage}}
+        fields:
+            fid:
+                label: ID
+                type: text
+                readonly: true
+                width: 1/2
+            spezialfrage:
+                label: Spezialfrage
+                type: checkbox
+                text: Spezialfrage
+                width: 1/2
+            vorfrage:
+                label: Vorfrage
+                type: textarea
+                text: Vorfrage
+            frage:
+                label: Frage
+                required: true
+                type: select
+                options: query
+                sort: asc
+                query:
+                    page: themen
+                    fetch: grandchildren
+                    value: '{{title}}'
+                    text: '{{title}}'
+                    flip: false
+            category:
+                label: Thema
+                required: true
+                type: select
+                options: query
+                sort: asc
+                query:
+                    page: themen
+                    fetch: children
+                    value: '{{title}}'
+                    text: '{{title}}'
+                    flip: false
+            antwort:
+                label: Antwort
+                type: textarea
+                required: true
