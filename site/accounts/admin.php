@@ -7,8 +7,8 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
+  - about
   - intro
   - intro/intro
-  - about
   - interviews/grafikladen
   - themen/arbeitsprozess/habt-ihr-eine-taegliche-routine
