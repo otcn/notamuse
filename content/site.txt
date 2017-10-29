@@ -10,12 +10,12 @@ Questioncounter: 4
 
 ----
 
-Author: 
+Author:
 
 ----
 
-Description: 
+Description:
 
 ----
 
-Copyright: 
+Copyright:

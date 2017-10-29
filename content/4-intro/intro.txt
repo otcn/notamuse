@@ -1,6 +1,10 @@
-Quotes: 
+Title: Intro
 
-- 
+----
+
+Quotes:
+
+-
   quote: >
     In an industrial age, when machines
     dominate production, it seems
@@ -9,7 +13,7 @@ Quotes:
     extent on work by hand.
   author: Josef Albers
   question: Betreibt ihr aktiv Kundenakquise?
-- 
+-
   quote: >
     We may consider the dependence on manual
     work either as unfortunate and
@@ -25,8 +29,4 @@ Quotes:
 
 ----
 
-Interview: 
-
-----
-
-Title: intro
+Interview:
