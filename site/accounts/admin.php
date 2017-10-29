@@ -9,6 +9,6 @@ role: admin
 history:
   - about
   - intro
-  - intro/intro
   - interviews/grafikladen
-  - themen/arbeitsprozess/habt-ihr-eine-taegliche-routine
+  - >
+    themen/arbeitsprozess/habt-ihr-eine-taegliche-routine
