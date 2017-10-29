@@ -1,35 +1,36 @@
+<?php
+$interview = $pages->find('interviews')->children()->shuffle()->first(); // gets random interview for testing purposes
+?>
+
 <div class="interview-container overlay">
-
   <div id="interview-content">
-    <?php
-      // $interviews = $pages->find('interviews');
-      $interview = $pages->find('interviews')->children()->shuffle()->first(); // gets random interview for testing purposes
-    ?>
-
     <h1><?= $interview->title()->html() ?></h1>
-    <p><?= $interview->text()->kirbytext() ?></p>
+    <p class="i-intro"><?= $interview->introduction()->kirbytext() ?></p>
+
+    <?php foreach($interview->Interview()->toStructure() as $interviewpart): ?>
+      <p class="i-question">
+        <?php echo $interviewpart->vorfrage()->kirbytext() ?>
+        <?php echo $interviewpart->frage()->kirbytext() ?>
+      </p>
+      <p class="i-answer">
+        <?php echo $interviewpart->antwort()->kirbytext() ?>
+      </p>
+    <?php endforeach ?>
 
   </div>
 
-  <?php echo $interview->title() ?>
-  <?php echo $interview->interviewpartner() ?>
-  <?php echo $interview->introduction() ?>
-  <?php echo $interview->Interview() ?>
-  <?php echo $interview->interviewimage() ?>
-
-
-
-
-  <div id="interview-info" class="margin-info">
+  <div id="interview-info" class="aside-info">
     <figure>
-      <?php foreach($interview->images() as $image): ?>
-        <div id="interview-image" class="interviewee-image">
-            <a href="<?php echo $image->url() ?>">
-                <img src="<?php echo $image->url() ?>" alt="">
-            </a>
+        <div class="interviewee-image" style="background-image: url("<?php echo $interview->interviewimage()->url() ?> ") ">
         </div>
-      <?php endforeach ?>
-      <figcaption><?= $interview->imageCaption()->html() ?></figcaption>
+      <figcaption>
+        <ul>
+          <li>Interviewee Name</li>
+          <li>Berlin, Deutschland</li>
+          <li><a target="_blank" href="http://www.amandahaas.ch/">amandahaas.ch</a></li>
+          <li>Das Inter&shy;view mit Amanda Haas wurde am 21.&thinsp;4.&thinsp;2017 in Berlin geführt.</li>
+        </ul>
+      </figcaption>
     </figure>
   </div>
 

@@ -21,12 +21,12 @@
   	</ul>
   </div>
 
-  <div id="about-info" class="margin-info">
+  <div id="about-info" class="aside-info">
     <figure>
       <?php foreach($about->images() as $image): ?>
         <div id="about-image" class="interviewee-image">
             <a href="<?php echo $image->url() ?>">
-                <img src="<?php echo $image->url() ?>" alt="" style="width: 500px">
+                <img src="<?php echo $image->url() ?>" alt="">
             </a>
         </div>
       <?php endforeach ?>

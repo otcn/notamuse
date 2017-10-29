@@ -28,7 +28,7 @@ fields:
         label: Einleitung
         type: textarea
     Interview:
-        label: Interview
+        label: Interview Abschnitt
         type: structure
         entry: >
           {{category}} — {{frage}}
