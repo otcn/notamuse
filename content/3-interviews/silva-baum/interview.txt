@@ -1,0 +1,22 @@
+Title: Silva Baum
+
+----
+
+Interviewpartner: 0
+
+----
+
+Interview: 
+
+- 
+  fid: f5
+  spezialfrage: "1"
+  vorfrage: >
+    Die Vorfrage sollte besser ein
+    größeres Textfeld sein.
+  frage: Wie sexistisch ist die Designbranche?
+  category: Spezifisch
+  antwort: |
+    Kann die Fragenauswahl alphabetisch sortiert werden?
+    Wird die ID automatisch vergeben?
+    Kann das Thema automatisch der Frage zugeordnet werden?
