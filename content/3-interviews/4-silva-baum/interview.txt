@@ -20,3 +20,27 @@ Interview:
     Kann die Fragenauswahl alphabetisch sortiert werden?
     Wird die ID automatisch vergeben?
     Kann das Thema automatisch der Frage zugeordnet werden?
+
+----
+
+Interviewimage: 
+
+----
+
+Introduction: This is an introduction.
+
+----
+
+Titlenav: 
+
+----
+
+Url: 
+
+----
+
+Place: Hamburg?
+
+----
+
+Date: 2017-10-29

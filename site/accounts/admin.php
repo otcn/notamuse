@@ -7,8 +7,8 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
-  - interviews/grafikladen
+  - interviews
+  - interviews/Christiane-Funken
+  - interviews/jane-doe
   - interviews/isabel-seiffert
   - interviews/silva-baum
-  - about
-  - intro

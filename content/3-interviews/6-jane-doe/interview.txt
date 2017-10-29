@@ -1,0 +1,45 @@
+Titlehead: 
+
+----
+
+Title: Jane Doe
+
+----
+
+Titlenav: 
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: 
+
+----
+
+Url: 
+
+----
+
+Place: Hamburg?
+
+----
+
+Date: 2017-10-29
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: Introduction
+
+----
+
+Interview: 

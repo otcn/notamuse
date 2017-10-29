@@ -1,101 +1,190 @@
 Interview: 
 
 - 
-	fid: f201
-	spezialfrage: "1"
-	vorfrage:
-	frage: "In Ihrem Buch beschreiben Sie, wie schwierig eine souveräne und authentische Performance für Frauen in Führungspositionen ist. Wenn Frauen bewusst männlich besetzte Attribute adaptieren, z.B. Führungsstärke und Durchsetzungskraft zeigen, wird das oft negativ bewertet. Wenn Selbstpromotion männlich konnotiert ist, wie können Frauen dann authentisch und sichtbar sein und mit diesen Rollenbildern brechen? "
-	category: Spezifisch
-	antwort: "Christiane Funken: Wir müssen weg von den Geschlechterklischees – Frauen sind so und Männer sind so. Jede Frau, oder überhaupt jede Person, sollte für sich selbst eine Stärken- und Schwächenanalyse machen. So wird man sich dieser Dinge bewusst und kann die eigenen Stärken promoten und performen, sie nach vorne bringen. Frauen müssen sich bewusst sein, dass bestimmte Eigenschaften, also Dinge, die sie gelernt haben oder Kompetenzen, die sie entwickelt haben, einen Marktwert haben. Dazu gehören die sogenannten »soft skills«. Ein etwas abgegriffener Begriff, besser finde ich »future skills«. Es sind diese Zukunfts-Skills, die wir bei der Wissensarbeit gebrauchen, bei der kreativen Arbeit, die wir in Projekten, interdisziplinären Teams und bei Kundenkontakten brauchen. Generell werden sehr viele Eigenschaften und Kompetenzen gefordert, auf die Frauen im Moment aufgrund ihrer Sozialisation oder Lebenssituation gut vorbereitet sind. Ich glaube nicht, dass Frauen sich als besonders weiblich darstellen oder versuchen sollten, männliche Attitüden zu erlernen. Wenn sie ein Selbstbewusstsein aufgrund ihres Marktwertes entwickeln, treten sie auch authentisch und selbstbewusst auf. Dann ist es egal, ob das weibliche oder männliche Attitüden sind. "
+  fid: f201
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    In Ihrem Buch beschreiben Sie, wie
+    schwierig eine souveräne und
+    authentische Performance für Frauen in
+    Führungspositionen ist. Wenn Frauen
+    bewusst männlich besetzte Attribute
+    adaptieren, z.B. Führungsstärke und
+    Durchsetzungskraft zeigen, wird das oft
+    negativ bewertet. Wenn Selbstpromotion
+    männlich konnotiert ist, wie können
+    Frauen dann authentisch und sichtbar
+    sein und mit diesen Rollenbildern
+    brechen?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Wir müssen weg von den Geschlechterklischees – Frauen sind so und Männer sind so. Jede Frau, oder überhaupt jede Person, sollte für sich selbst eine Stärken- und Schwächenanalyse machen. So wird man sich dieser Dinge bewusst und kann die eigenen Stärken promoten und performen, sie nach vorne bringen. Frauen müssen sich bewusst sein, dass bestimmte Eigenschaften, also Dinge, die sie gelernt haben oder Kompetenzen, die sie entwickelt haben, einen Marktwert haben. Dazu gehören die sogenannten »soft skills«. Ein etwas abgegriffener Begriff, besser finde ich »future skills«. Es sind diese Zukunfts-Skills, die wir bei der Wissensarbeit gebrauchen, bei der kreativen Arbeit, die wir in Projekten, interdisziplinären Teams und bei Kundenkontakten brauchen. Generell werden sehr viele Eigenschaften und Kompetenzen gefordert, auf die Frauen im Moment aufgrund ihrer Sozialisation oder Lebenssituation gut vorbereitet sind. Ich glaube nicht, dass Frauen sich als besonders weiblich darstellen oder versuchen sollten, männliche Attitüden zu erlernen. Wenn sie ein Selbstbewusstsein aufgrund ihres Marktwertes entwickeln, treten sie auch authentisch und selbstbewusst auf. Dann ist es egal, ob das weibliche oder männliche Attitüden sind. '
 - 
-	fid: f202
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Haben Männer und Frauen unterschiedliche Definitionen von Erfolg? Oder ist das zu stereotypisch gedacht?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Es gibt viele, auch junge, Untersuchungen, durch die wir wissen, dass für Männer der Verdienst und die Karriere immer noch eine große Rolle spielen. Ein Mann nimmt sehr viel eher einen neuen Job oder ein neues Projekt an, das ihn vielleicht nicht interessiert oder bei dem er nicht sicher ist, ob er es kann, weil er weiß, dass es ihn einen Schritt weiter bringt. Frauen haben in Deutschland erst sehr spät das Bildungsdefizit aufgeholt, durch die Bildungsreform in den 1960er Jahren. Zuvor gab es drei Personengruppen, die nicht am Bildungssystem teilnahmen: Arbeiterkinder, Kinder vom Land und Mädchen. Dann wurde die Schulreform eingeführt, auf dem Land Schulen gebaut oder Buslinien installiert. Es gab die Koedukation, das heißt dass Mädchen und Jungen gemeinsam unterrichtet wurden. Ich gehöre wahrscheinlich mit zu der ersten Generation, die Babyboomer-Generation, die das Gymnasium besuchten, studierten und eine Laufbahn einschlugen, wie ich sie jetzt gemacht habe. Bis heute ist es so, dass hochqualifizierte Frauen in ihrer Arbeit sehr viel Wert auf Inhalte, das Team und auf ihr Unternehmen legen. Der Karrierebegriff, der Machtbegriff ist für viele Frauen immer noch negativ oder ambivalent. Das ist für sie wie ein Verrat an den Inhalten. "
+  fid: f202
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Haben Männer und Frauen
+    unterschiedliche Definitionen von
+    Erfolg? Oder ist das zu stereotypisch
+    gedacht?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Es gibt viele, auch junge, Untersuchungen, durch die wir wissen, dass für Männer der Verdienst und die Karriere immer noch eine große Rolle spielen. Ein Mann nimmt sehr viel eher einen neuen Job oder ein neues Projekt an, das ihn vielleicht nicht interessiert oder bei dem er nicht sicher ist, ob er es kann, weil er weiß, dass es ihn einen Schritt weiter bringt. Frauen haben in Deutschland erst sehr spät das Bildungsdefizit aufgeholt, durch die Bildungsreform in den 1960er Jahren. Zuvor gab es drei Personengruppen, die nicht am Bildungssystem teilnahmen: Arbeiterkinder, Kinder vom Land und Mädchen. Dann wurde die Schulreform eingeführt, auf dem Land Schulen gebaut oder Buslinien installiert. Es gab die Koedukation, das heißt dass Mädchen und Jungen gemeinsam unterrichtet wurden. Ich gehöre wahrscheinlich mit zu der ersten Generation, die Babyboomer-Generation, die das Gymnasium besuchten, studierten und eine Laufbahn einschlugen, wie ich sie jetzt gemacht habe. Bis heute ist es so, dass hochqualifizierte Frauen in ihrer Arbeit sehr viel Wert auf Inhalte, das Team und auf ihr Unternehmen legen. Der Karrierebegriff, der Machtbegriff ist für viele Frauen immer noch negativ oder ambivalent. Das ist für sie wie ein Verrat an den Inhalten. '
 - 
-	fid: f203
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Können Sie die These bestätigen, dass sich Frauen eher die Frage nach der Sinnhaftigkeit stellen? Und folglich weniger gerne in Führungspositionen aufsteigen, weil sie dann mehr Managementaufgaben und weniger ihre ursprüngliche Tätigkeit ausführen? "
-	category: Spezifisch
-	antwort: "Christiane Funken: Die Sinnhaftigkeit ist für Frauen wichtig, mittlerweile aber auch für Männer. Wir haben, und das ist sehr wichtig, einen Wandel im Bezug auf drei Aspekte. Erstens den Wandel der Arbeitswelt, zweitens einen Wandel im Bezug auf unseren Anspruch an Arbeit. Die Menschen wollen sinnvoll arbeiten, das heißt z.B. nachhaltig, sozial verträglich, politisch korrekt. Sie wollen in den Bereichen arbeiten, die sie selbst mit ihren Werten vertreten können. Sie wollen eine bessere Work-Life-Balance und sich nicht mehr so verausgaben wie ihre Eltern. Männer wollen Väter sein, Mütter arbeiten. Sie wünschen sich selbst mehr Freizeit und eine andere Arbeits-Lebens-Integration. Der dritte Wandel ist, dass sich langsam wirklich die Geschlechterverhältnisse ändern. Paare, in welchen Konstellationen auch immer, wollen gemeinsam ihre Lebensentwürfe stemmen – und das ist mit Integration verbunden. Leider ist heute immer noch die Regel, dass die Männer weiter arbeiten und die Frauen in Teilzeit gehen, sobald das erste Kind da ist, jedoch aus rein ökonomischen Gründen, weil die Unternehmen andere Ansätze nicht unterstützen. "
+  fid: f203
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Können Sie die These bestätigen, dass
+    sich Frauen eher die Frage nach der
+    Sinnhaftigkeit stellen? Und folglich
+    weniger gerne in Führungspositionen
+    aufsteigen, weil sie dann mehr
+    Managementaufgaben und weniger ihre
+    ursprüngliche Tätigkeit ausführen?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Die Sinnhaftigkeit ist für Frauen wichtig, mittlerweile aber auch für Männer. Wir haben, und das ist sehr wichtig, einen Wandel im Bezug auf drei Aspekte. Erstens den Wandel der Arbeitswelt, zweitens einen Wandel im Bezug auf unseren Anspruch an Arbeit. Die Menschen wollen sinnvoll arbeiten, das heißt z.B. nachhaltig, sozial verträglich, politisch korrekt. Sie wollen in den Bereichen arbeiten, die sie selbst mit ihren Werten vertreten können. Sie wollen eine bessere Work-Life-Balance und sich nicht mehr so verausgaben wie ihre Eltern. Männer wollen Väter sein, Mütter arbeiten. Sie wünschen sich selbst mehr Freizeit und eine andere Arbeits-Lebens-Integration. Der dritte Wandel ist, dass sich langsam wirklich die Geschlechterverhältnisse ändern. Paare, in welchen Konstellationen auch immer, wollen gemeinsam ihre Lebensentwürfe stemmen – und das ist mit Integration verbunden. Leider ist heute immer noch die Regel, dass die Männer weiter arbeiten und die Frauen in Teilzeit gehen, sobald das erste Kind da ist, jedoch aus rein ökonomischen Gründen, weil die Unternehmen andere Ansätze nicht unterstützen. '
 - 
-	fid: f204
-	spezialfrage: "1"
-	vorfrage:
-	frage: "In Ihrem Buch geben Sie einige konkrete Ratschläge. Ein wichtiger Punkt, wenn es um Ungleichheiten zwischen Männern und Frauen geht, ist die Bezahlung. Welchen Rat haben Sie für  Frauen, um das gleiche Gehalt einzufordern?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Gerade wurde die Vorlage für ein Gesetz verabschiedet, dass Firmen ab 200 MitarbeiterInnen für Transparenz sorgen müssen. Das ist natürlich nur ein erster kleiner Schritt, aber auch die ersten kleinen Schritte sind notwendig, damit sich etwas ändern kann. Aus Untersuchungen wissen wir, dass sich Frauen bei Gehaltsverhandlungen relativ schnell frustrieren lassen, ganz nach dem Motto »Das war jetzt mein Versagen!«. Ein Mann hingegen sagt viel eher »Hat jetzt nicht geklappt, auf zum nächsten Sprung!«. Ich glaube, gute Verhandlungen sind nur dann möglich, wenn eine Frau mit Fakten arbeitet und sagen kann, was sie z.B. im letzten Jahr geleistet hat oder welchen Kunden sie angeworben hat. Sobald faktisch argumentiert wird, stehen die Chancen besser."
+  fid: f204
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: 'In Ihrem Buch geben Sie einige konkrete Ratschläge. Ein wichtiger Punkt, wenn es um Ungleichheiten zwischen Männern und Frauen geht, ist die Bezahlung. Welchen Rat haben Sie für  Frauen, um das gleiche Gehalt einzufordern?'
+  category: Spezifisch
+  antwort: 'Christiane Funken: Gerade wurde die Vorlage für ein Gesetz verabschiedet, dass Firmen ab 200 MitarbeiterInnen für Transparenz sorgen müssen. Das ist natürlich nur ein erster kleiner Schritt, aber auch die ersten kleinen Schritte sind notwendig, damit sich etwas ändern kann. Aus Untersuchungen wissen wir, dass sich Frauen bei Gehaltsverhandlungen relativ schnell frustrieren lassen, ganz nach dem Motto »Das war jetzt mein Versagen!«. Ein Mann hingegen sagt viel eher »Hat jetzt nicht geklappt, auf zum nächsten Sprung!«. Ich glaube, gute Verhandlungen sind nur dann möglich, wenn eine Frau mit Fakten arbeitet und sagen kann, was sie z.B. im letzten Jahr geleistet hat oder welchen Kunden sie angeworben hat. Sobald faktisch argumentiert wird, stehen die Chancen besser.'
 - 
-	fid: f205
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Sie schreiben in Ihrem Buch von der »neuen Arbeitswelt«. Wie können Frauen wie wir den Wandel vorantreiben? Welche Herausforderungen oder Strategien gibt es?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Zunächst müssen sie sich der eigenen Kompetenzen bewusst sein. Kann ich gut argumentieren? Habe ich eine starke Performance? Kann ich mich gut in andere Denkwelten und andere Kulturen hineinversetzen? Bin ich gut vernetzt? Arbeitsprozesse, die nah am Menschen sind, werden immer wichtiger – die sind nicht wiederholbar und standardisierbar, sondern situationsspezifisch. Die können nicht wegrationalisiert oder -digitalisiert werden. Sie müssen wissen, was in den neuen Bereichen gebraucht wird und dabei die alten im Blick behalten. Im Moment haben wir noch diese Paradoxie, zumindest in den großen Unternehmen. Dort heißt es jetzt durchhalten! Dranbleiben und schauen, wo sich Bereiche ergeben, in denen man mit den eigenen Stärken punkten kann. Nicht isoliert alleine laufen, sondern Verbündete schaffen, quer durchs ganze Unternehmen, auch mit Männern. Gute Kontakte haben, auch nach außen, gut vernetzt sein. Und Mut! Macht wagen, mutig sein, mit den Verbündeten versuchen, neue Themenfelder zu besetzen. Flexibilität bei der Projektarbeit in unterschiedlichsten Teams gehört ebenfalls dazu. "
+  fid: f205
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Sie schreiben in Ihrem Buch von der
+    »neuen Arbeitswelt«. Wie können
+    Frauen wie wir den Wandel vorantreiben?
+    Welche Herausforderungen oder Strategien
+    gibt es?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Zunächst müssen sie sich der eigenen Kompetenzen bewusst sein. Kann ich gut argumentieren? Habe ich eine starke Performance? Kann ich mich gut in andere Denkwelten und andere Kulturen hineinversetzen? Bin ich gut vernetzt? Arbeitsprozesse, die nah am Menschen sind, werden immer wichtiger – die sind nicht wiederholbar und standardisierbar, sondern situationsspezifisch. Die können nicht wegrationalisiert oder -digitalisiert werden. Sie müssen wissen, was in den neuen Bereichen gebraucht wird und dabei die alten im Blick behalten. Im Moment haben wir noch diese Paradoxie, zumindest in den großen Unternehmen. Dort heißt es jetzt durchhalten! Dranbleiben und schauen, wo sich Bereiche ergeben, in denen man mit den eigenen Stärken punkten kann. Nicht isoliert alleine laufen, sondern Verbündete schaffen, quer durchs ganze Unternehmen, auch mit Männern. Gute Kontakte haben, auch nach außen, gut vernetzt sein. Und Mut! Macht wagen, mutig sein, mit den Verbündeten versuchen, neue Themenfelder zu besetzen. Flexibilität bei der Projektarbeit in unterschiedlichsten Teams gehört ebenfalls dazu. '
 - 
-	fid: f206
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Bereiche, in denen mehr Frauen arbeiten bzw. die weiblich konnotiert sind, entwickeln sich aktuell teilweise eher negativ: weniger Gelder werden investiert, die Gehälter werden schlechter und die öffentliche Reputation der Berufe sinkt. (Zeit Online-Interview, 25. Oktober 2016, mit Margarete Strokowski: Untenrum frei) Wie sehen Sie diese Entwicklung im Kontrast zur »neuen Arbeitswelt«, die Sie als große Chance für Frauen begreifen?""
-	category: Spezifisch
-	antwort: "Christiane Funken: Wir sprechen von einer horizontalen und einer vertikalen Segregation des Arbeitsmarktes. Die Vertikale bedeutet, dass die Frauen »unten« arbeiten und die Männer »oben« immer die Chefs sind. Die horizontale Segregation heißt: es gibt sogenannte Frauenberufe und sogenannte Männerberufe. Von vielleicht insgesamt 90 Ausbildungsberufen wählen Frauen im Schnitt maximal zehn. Sie werden Friseurin, Sekretärin, Kindergärtnerin. Diese sogenannten Frauenberufe werden schlechter bezahlt, sind konjunkturell abhängiger, haben oft einen geringeren Kündigungsschutz und ein schlechteres Image. Männer hingegen wählen Berufe, die besser bezahlt werden. Insgesamt aber denke ich erleben wir eine Feminisierung des Arbeitsmarktes, heutzutage arbeiten ca. 75% aller Frauen. Das, was wir früher als »Versorger-Ehe« bezeichnet haben – der Mann arbeitet, die Frau ist zuhause – ist lange schon vorbei. Diese Feminisierung bringt ganz andere Trends. Es kann ja nicht sein, dass alle Berufszweige plötzlich schlechter bezahlt werden. Ein gutes Beispiel ist hier der Bereich HR (Human Resources, anm.): Je mehr Maschinen es gibt, desto wichtiger werden Menschen, die diese Maschinen steuern können, bzw. bei Nicht-Steuerung der Maschinen in der Wissensarbeit gut zusammenarbeiten. Viele Unternehmen wissen ganz genau, dass die Menschen, die sie brauchen heutzutage alle mit einem Bein draußen stehen. Unternehmensbindung gibt es nicht mehr. Sie sind gezwungen, viel mehr zu bieten, um ihre Beschäftigten zu halten. Das führt dazu, dass wir mittlerweile vom sogenannten People-Management reden: das Thema Personalentwicklung wird in die Strategie der Unternehmen genommen. Früher hatte die Personalentwicklung in den Vorständen der Konzerne tatsächlich die geringste Bedeutung, aber heute bestimmen diese strategischen Seiten die Zukunft des Unternehmens. Das ist eine extreme Aufwertung von HR."
+  fid: f206
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: 'Bereiche, in denen mehr Frauen arbeiten bzw. die weiblich konnotiert sind, entwickeln sich aktuell teilweise eher negativ: weniger Gelder werden investiert, die Gehälter werden schlechter und die öffentliche Reputation der Berufe sinkt. (Zeit Online-Interview, 25. Oktober 2016, mit Margarete Strokowski: Untenrum frei) Wie sehen Sie diese Entwicklung im Kontrast zur »neuen Arbeitswelt«, die Sie als große Chance für Frauen begreifen?"'
+  category: Spezifisch
+  antwort: 'Christiane Funken: Wir sprechen von einer horizontalen und einer vertikalen Segregation des Arbeitsmarktes. Die Vertikale bedeutet, dass die Frauen »unten« arbeiten und die Männer »oben« immer die Chefs sind. Die horizontale Segregation heißt: es gibt sogenannte Frauenberufe und sogenannte Männerberufe. Von vielleicht insgesamt 90 Ausbildungsberufen wählen Frauen im Schnitt maximal zehn. Sie werden Friseurin, Sekretärin, Kindergärtnerin. Diese sogenannten Frauenberufe werden schlechter bezahlt, sind konjunkturell abhängiger, haben oft einen geringeren Kündigungsschutz und ein schlechteres Image. Männer hingegen wählen Berufe, die besser bezahlt werden. Insgesamt aber denke ich erleben wir eine Feminisierung des Arbeitsmarktes, heutzutage arbeiten ca. 75% aller Frauen. Das, was wir früher als »Versorger-Ehe« bezeichnet haben – der Mann arbeitet, die Frau ist zuhause – ist lange schon vorbei. Diese Feminisierung bringt ganz andere Trends. Es kann ja nicht sein, dass alle Berufszweige plötzlich schlechter bezahlt werden. Ein gutes Beispiel ist hier der Bereich HR (Human Resources, anm.): Je mehr Maschinen es gibt, desto wichtiger werden Menschen, die diese Maschinen steuern können, bzw. bei Nicht-Steuerung der Maschinen in der Wissensarbeit gut zusammenarbeiten. Viele Unternehmen wissen ganz genau, dass die Menschen, die sie brauchen heutzutage alle mit einem Bein draußen stehen. Unternehmensbindung gibt es nicht mehr. Sie sind gezwungen, viel mehr zu bieten, um ihre Beschäftigten zu halten. Das führt dazu, dass wir mittlerweile vom sogenannten People-Management reden: das Thema Personalentwicklung wird in die Strategie der Unternehmen genommen. Früher hatte die Personalentwicklung in den Vorständen der Konzerne tatsächlich die geringste Bedeutung, aber heute bestimmen diese strategischen Seiten die Zukunft des Unternehmens. Das ist eine extreme Aufwertung von HR.'
 - 
-	fid: f207
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Sind Frauen in ihrer Arbeitsweise strategischer und weniger risikofreudig als Männer?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Es gibt Untersuchungen, die zeigen, dass Frauen weniger risikofreudig sind. Das sieht man z.B. daran, dass Frauen viel seltener in provisionsabhängigen Jobs, wie etwa im Vertrieb ohne festen Lohn arbeiten. Frauen arbeiten aber sehr viel mehr z.B. in der öffentlichen Verwaltung, wo sie fest bezahlt werden. Bei der Finanzkrise in Island gab es eine große Agentur, die von Frauen geleitet wurde – sie haben die Krise gut überlebt und sind heute extrem erfolgreich. Also ja, man sagt Frauen sind risikobewusster, agieren risikoärmer, machen nicht mal so den ganz schnellen Entwurf. Es existiert die These, dass, wenn mehr Frauen im Finanzwesen gewesen wären, es die Finanzkrise nicht gegeben hätte. Das ist nicht irgendein Genderismus wild gewordener Frauen, sondern das sind durchaus belastbare Argumente. "
+  fid: f207
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Sind Frauen in ihrer Arbeitsweise
+    strategischer und weniger risikofreudig
+    als Männer?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Es gibt Untersuchungen, die zeigen, dass Frauen weniger risikofreudig sind. Das sieht man z.B. daran, dass Frauen viel seltener in provisionsabhängigen Jobs, wie etwa im Vertrieb ohne festen Lohn arbeiten. Frauen arbeiten aber sehr viel mehr z.B. in der öffentlichen Verwaltung, wo sie fest bezahlt werden. Bei der Finanzkrise in Island gab es eine große Agentur, die von Frauen geleitet wurde – sie haben die Krise gut überlebt und sind heute extrem erfolgreich. Also ja, man sagt Frauen sind risikobewusster, agieren risikoärmer, machen nicht mal so den ganz schnellen Entwurf. Es existiert die These, dass, wenn mehr Frauen im Finanzwesen gewesen wären, es die Finanzkrise nicht gegeben hätte. Das ist nicht irgendein Genderismus wild gewordener Frauen, sondern das sind durchaus belastbare Argumente. '
 - 
-	fid: f208
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Denken Sie, dass sich in Zukunft, wenn sich die Arbeitswelt verändert wie in Ihrem Buch beschrieben, auch die Verhaltensweisen von Männern und Frauen ändern werden? Nähern sie sich einander an?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Ja, das glaube ich! Ich glaube, dass sich Erziehungsstile und Sozialisationsprozesse ändern. Wir sehen das schon heute in vielen Bereichen, gerade bei jungen Menschen gibt es sehr viele Vermischungen. Wenn ich in meine Seminare schaue, z.B. »Die Soziologie der Geschlechter«, saßen da vor 20 Jahren zwei Jungs drin, heute sind mindestens die Hälfte Männer. Hier beobachte ich oft einen ganz anderen Habitus, die Differenzen der Geschlechter werden immer kleiner. In der Geschlechterforschung sagen wir schon lange, dass die Unterschiede innerhalb der Genusgruppe Frauen, oder innerhalb der Genusgruppe Männer, größer sind als die zwischen den beiden Genusgruppen. Eine weiße Frau aus New York lebt ein völlig anderes Leben als eine Schwarzafrikanerin, die Arbeiterin auf dem Land ist."
+  fid: f208
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Denken Sie, dass sich in Zukunft, wenn
+    sich die Arbeitswelt verändert wie in
+    Ihrem Buch beschrieben, auch die
+    Verhaltensweisen von Männern und Frauen
+    ändern werden? Nähern sie sich
+    einander an?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Ja, das glaube ich! Ich glaube, dass sich Erziehungsstile und Sozialisationsprozesse ändern. Wir sehen das schon heute in vielen Bereichen, gerade bei jungen Menschen gibt es sehr viele Vermischungen. Wenn ich in meine Seminare schaue, z.B. »Die Soziologie der Geschlechter«, saßen da vor 20 Jahren zwei Jungs drin, heute sind mindestens die Hälfte Männer. Hier beobachte ich oft einen ganz anderen Habitus, die Differenzen der Geschlechter werden immer kleiner. In der Geschlechterforschung sagen wir schon lange, dass die Unterschiede innerhalb der Genusgruppe Frauen, oder innerhalb der Genusgruppe Männer, größer sind als die zwischen den beiden Genusgruppen. Eine weiße Frau aus New York lebt ein völlig anderes Leben als eine Schwarzafrikanerin, die Arbeiterin auf dem Land ist.'
 - 
-	fid: f209
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Ihre Studien beziehen sich auf große Unternehmen. Wenn Männer und Frauen in kleineren Teams zusammenarbeiten, gibt es dann typische Aufgabenteilungen? Haben Sie Vorschläge, wie man diese aufbrechen kann?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Kleinere und mittlere Unternehmen sind wirklich etwas ganz anderes, hier hängt es sehr von der Aufgeklärtheit der einzelnen Personen ab. Aber selbst bei aufgeklärten Personen, mit einem fortschrittlichen Geschlechterbild, geschieht es natürlich immer wieder, dass man in alte Muster verfällt. Eine Frau, die im IT-Bereich arbeitet, erzählte mir, dass sie immer wieder Probleme mit Auftraggebern hatte, sobald sie selbst als Unternehmerin auftrat. Daraufhin hat sie einen Mann eingestellt, der sie einfach nur begleitet. Im gemischten Team haben sie keine Probleme mehr, Aufträge zu generieren. Die gesellschaftlichen Erwartungen fließen gerade auch in Auftragslagen und Auftrags-Kunden-Konstellationen immer wieder mit ein. Traditionelle Vorstellungen sind, zumindest bei bestimmten Altersgruppen, noch stark vorhanden."
+  fid: f209
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Ihre Studien beziehen sich auf große
+    Unternehmen. Wenn Männer und Frauen in
+    kleineren Teams zusammenarbeiten, gibt
+    es dann typische Aufgabenteilungen?
+    Haben Sie Vorschläge, wie man diese
+    aufbrechen kann?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Kleinere und mittlere Unternehmen sind wirklich etwas ganz anderes, hier hängt es sehr von der Aufgeklärtheit der einzelnen Personen ab. Aber selbst bei aufgeklärten Personen, mit einem fortschrittlichen Geschlechterbild, geschieht es natürlich immer wieder, dass man in alte Muster verfällt. Eine Frau, die im IT-Bereich arbeitet, erzählte mir, dass sie immer wieder Probleme mit Auftraggebern hatte, sobald sie selbst als Unternehmerin auftrat. Daraufhin hat sie einen Mann eingestellt, der sie einfach nur begleitet. Im gemischten Team haben sie keine Probleme mehr, Aufträge zu generieren. Die gesellschaftlichen Erwartungen fließen gerade auch in Auftragslagen und Auftrags-Kunden-Konstellationen immer wieder mit ein. Traditionelle Vorstellungen sind, zumindest bei bestimmten Altersgruppen, noch stark vorhanden.'
 - 
-	fid: f210
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Wie stehen Sie zu der Aufforderung von Daniela Rastetter in Ihrem Buch (S. 171), dass Frauen Geschlechterstereotypen bewusst ausnutzen sollen? Also selbstbestimmt und zum eigenen Vorteil Taktiken einsetzen, in klischeebeladene Rollen (Mutter, Mädchen, Verführerin, …) schlüpfen und sich ihrer gezielt bedienen?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Ich habe lange überlegt, ob ich dieses Zitat ins Buch nehmen soll oder nicht. Es kommt darauf an, wie man es liest. Man kann kritisieren, dass Rollenstereotype nicht überwunden werden können, wenn sie gezielt eingesetzt werden. Hingegen sagt Judith Butler, dass man die Sache auch ironisieren kann – sie zu persiflieren, indem man im Anzug herumläuft und die männliche Rolle spielt. Jede Frau sollte der Situation entsprechend entscheiden, wie sie am besten damit umgeht, Verbündete im Unternehmen findet, peu à peu mehr Macht erlangt, mehr mitgestalten kann. Es nützt keiner Frau, die in einem extrem konservativen Männerunternehmen arbeitet, einen Habitus zu haben, der alle wahnsinnig irritiert. Dann kann man z.B. versuchen, den Habitus etwas zu neutralisieren. Aber ich glaube, dass es eigentlich nach wie vor immer wieder sinnvoll ist, die Individualität herauszustreichen, gekoppelt an die Stärken, die man hat und an das, was man leisten kann und will. Ich glaube, so verbiegen und verraten wir uns nicht."
+  fid: f210
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Wie stehen Sie zu der Aufforderung von
+    Daniela Rastetter in Ihrem Buch (S.
+    171), dass Frauen
+    Geschlechterstereotypen bewusst
+    ausnutzen sollen? Also selbstbestimmt
+    und zum eigenen Vorteil Taktiken
+    einsetzen, in klischeebeladene Rollen
+    (Mutter, Mädchen, Verführerin, …)
+    schlüpfen und sich ihrer gezielt
+    bedienen?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Ich habe lange überlegt, ob ich dieses Zitat ins Buch nehmen soll oder nicht. Es kommt darauf an, wie man es liest. Man kann kritisieren, dass Rollenstereotype nicht überwunden werden können, wenn sie gezielt eingesetzt werden. Hingegen sagt Judith Butler, dass man die Sache auch ironisieren kann – sie zu persiflieren, indem man im Anzug herumläuft und die männliche Rolle spielt. Jede Frau sollte der Situation entsprechend entscheiden, wie sie am besten damit umgeht, Verbündete im Unternehmen findet, peu à peu mehr Macht erlangt, mehr mitgestalten kann. Es nützt keiner Frau, die in einem extrem konservativen Männerunternehmen arbeitet, einen Habitus zu haben, der alle wahnsinnig irritiert. Dann kann man z.B. versuchen, den Habitus etwas zu neutralisieren. Aber ich glaube, dass es eigentlich nach wie vor immer wieder sinnvoll ist, die Individualität herauszustreichen, gekoppelt an die Stärken, die man hat und an das, was man leisten kann und will. Ich glaube, so verbiegen und verraten wir uns nicht.'
 - 
-	fid: f211
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Uns fällt auf, dass der Begriff »Feminismus« im Buch nicht direkt ausgesprochen wird. Ist das ein Begriff, der in der Business-Welt nicht gern gehört wird?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Ich fand das nicht notwendig. Ich bin Feministin, natürlich! Für mich ist Feminismus nichts anderes als für die Rechte der Frauen einzutreten. Das Buch ist ein feministisches Buch, das die Rechte der Frauen thematisiert und den Rahmen aufzeigt, in denen sie beschnitten werden. Mir war es das Allerwichtigste, ihnen zu sagen: »Hey, ihr seid gut, packt es an, macht!« Es gibt so manche Frauen meines Alters, die frustriert behaupten, es habe sich doch nie etwas geändert. Dann erwidere ich, dass wir den Jüngeren nicht den Mut nehmen dürfen! Ich glaube wir haben erstmalig eine historische Situation, in der die drei Strömungen, der Wandel der Arbeit, der Wandel der Auffassung von Arbeit und der Wandel der Geschlechterverhältnisse, zusammenkommen – und da müssen die Frauen jetzt reingrätschen."
+  fid: f211
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Uns fällt auf, dass der Begriff
+    »Feminismus« im Buch nicht direkt
+    ausgesprochen wird. Ist das ein Begriff,
+    der in der Business-Welt nicht gern
+    gehört wird?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Ich fand das nicht notwendig. Ich bin Feministin, natürlich! Für mich ist Feminismus nichts anderes als für die Rechte der Frauen einzutreten. Das Buch ist ein feministisches Buch, das die Rechte der Frauen thematisiert und den Rahmen aufzeigt, in denen sie beschnitten werden. Mir war es das Allerwichtigste, ihnen zu sagen: »Hey, ihr seid gut, packt es an, macht!« Es gibt so manche Frauen meines Alters, die frustriert behaupten, es habe sich doch nie etwas geändert. Dann erwidere ich, dass wir den Jüngeren nicht den Mut nehmen dürfen! Ich glaube wir haben erstmalig eine historische Situation, in der die drei Strömungen, der Wandel der Arbeit, der Wandel der Auffassung von Arbeit und der Wandel der Geschlechterverhältnisse, zusammenkommen – und da müssen die Frauen jetzt reingrätschen.'
 - 
-	fid: f212
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Machen es sich Frauen zu leicht, die nichts von der Frauenquote oder vom Feminismus wissen wollen?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Es gibt viele Frauen die Bedenken haben, dass sie als »Ah, das ist eine Frau, die muss gefördert und geschützt werden« abgestempelt werden. Das kann man ja verstehen – wer will schon als schützenswertes Wesen gelten? Allerdings ignoriert das folgende Tatsache: Über zwanzig Jahre lang sind Unternehmen Selbstverpflichtungen eingegangen, etwas zu ändern. Sie änderten nie was. Deshalb halte ich die Quote tatsächlich für eine sehr wichtige Übergangssituation. Aber es gab schon immer Frauen, die nicht gefördert werden wollten. Meine Studie »Managerinnen 50+« zeigt Frauen, die erstmal eine großartige Karriere gemacht haben, bis unmittelbar unter die Chefetage. Die haben vorher auch gedacht, bei ihnen zähle die Leistung. Sie haben die Sympathien der Männer genutzt, aber irgendwann hört das auf. Dann kommt nämlich diese dicke Decke, wo nichts mehr weitergeht. Junge Frauen zu fördern ist für jede Führungskraft schick. Sie dürfen nur nicht zu stark werden, dann hört es mit der Förderung auf. Über Jahrhunderte hinweg haben sich Männer immer untereinander gefördert und Frauen bewusst ausgeschlossen. Das Prinzip nennt sich Homosozialität: Gleiche unter Gleichen. Ich rekrutiere jemanden, der mir selbst ähnlich ist, so kann ich ihn besser kontrollieren, denn ich weiß wie er tickt. Das gegenseitige Protegieren hat ein großes Mittelmaß hervorgerufen, denn es geht dabei nicht um die Auswahl der Besten."
+  fid: f212
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Machen es sich Frauen zu leicht, die
+    nichts von der Frauenquote oder vom
+    Feminismus wissen wollen?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Es gibt viele Frauen die Bedenken haben, dass sie als »Ah, das ist eine Frau, die muss gefördert und geschützt werden« abgestempelt werden. Das kann man ja verstehen – wer will schon als schützenswertes Wesen gelten? Allerdings ignoriert das folgende Tatsache: Über zwanzig Jahre lang sind Unternehmen Selbstverpflichtungen eingegangen, etwas zu ändern. Sie änderten nie was. Deshalb halte ich die Quote tatsächlich für eine sehr wichtige Übergangssituation. Aber es gab schon immer Frauen, die nicht gefördert werden wollten. Meine Studie »Managerinnen 50+« zeigt Frauen, die erstmal eine großartige Karriere gemacht haben, bis unmittelbar unter die Chefetage. Die haben vorher auch gedacht, bei ihnen zähle die Leistung. Sie haben die Sympathien der Männer genutzt, aber irgendwann hört das auf. Dann kommt nämlich diese dicke Decke, wo nichts mehr weitergeht. Junge Frauen zu fördern ist für jede Führungskraft schick. Sie dürfen nur nicht zu stark werden, dann hört es mit der Förderung auf. Über Jahrhunderte hinweg haben sich Männer immer untereinander gefördert und Frauen bewusst ausgeschlossen. Das Prinzip nennt sich Homosozialität: Gleiche unter Gleichen. Ich rekrutiere jemanden, der mir selbst ähnlich ist, so kann ich ihn besser kontrollieren, denn ich weiß wie er tickt. Das gegenseitige Protegieren hat ein großes Mittelmaß hervorgerufen, denn es geht dabei nicht um die Auswahl der Besten.'
 - 
-	fid: f213
-	spezialfrage: "1"
-	vorfrage:
-	frage: "Wir haben viel über Strategien gesprochen, die Frauen ergreifen können. Im Gegensatz dazu, wie sollten junge Männer reflektieren?"
-	category: Spezifisch
-	antwort: "Christiane Funken: Ich glaube, dass sich das Verhältnis zur Arbeit bei jungen Männern ändert. Sie wollen gerne arbeiten, auch sinnerfüllt, sie wollen Karriere machen, mobil sein – aber vor allen Dingen wollen sie auch Väter sein. Wenn Unternehmen begreifen, dass sie frauenfreundlicher werden müssen, fördern sie damit auch Männer. Männer und Frauen wollen sich die Aufgaben im Leben und auch die Freizeit teilen können. Es braucht also Unternehmen, in denen Frauen entsprechend anerkannt werden, in denen Frauen zufrieden sind und mehr arbeiten können, damit die Männer weniger arbeiten können. Viele Untersuchungen zeigen, dass Frauen mehr arbeiten wollen und Männer weniger. All das braucht seine Zeit, aber durch die drei beschriebenen Strömungen, die ineinander fließen, denke ich, haben wir im Moment die besten Chancen, dass sich wirklich etwas bewegt."
+  fid: f213
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Wir haben viel über Strategien
+    gesprochen, die Frauen ergreifen
+    können. Im Gegensatz dazu, wie sollten
+    junge Männer reflektieren?
+  category: Spezifisch
+  antwort: 'Christiane Funken: Ich glaube, dass sich das Verhältnis zur Arbeit bei jungen Männern ändert. Sie wollen gerne arbeiten, auch sinnerfüllt, sie wollen Karriere machen, mobil sein – aber vor allen Dingen wollen sie auch Väter sein. Wenn Unternehmen begreifen, dass sie frauenfreundlicher werden müssen, fördern sie damit auch Männer. Männer und Frauen wollen sich die Aufgaben im Leben und auch die Freizeit teilen können. Es braucht also Unternehmen, in denen Frauen entsprechend anerkannt werden, in denen Frauen zufrieden sind und mehr arbeiten können, damit die Männer weniger arbeiten können. Viele Untersuchungen zeigen, dass Frauen mehr arbeiten wollen und Männer weniger. All das braucht seine Zeit, aber durch die drei beschriebenen Strömungen, die ineinander fließen, denke ich, haben wir im Moment die besten Chancen, dass sich wirklich etwas bewegt.'
 
 ----
 
-  Title: Christiane Funken
+Title: Christiane Funken
 
 ----
 
-  Interviewpartner: 0
+Interviewpartner: 0
+
+----
+
+Interviewimage: portrait_notamuse01bz.jpg
+
+----
+
+Introduction: This is an introduction.
+
+----
+
+Titlenav: 
+
+----
+
+Url: 
+
+----
+
+Place: Hamburg?
+
+----
+
+Date: 2017-10-29

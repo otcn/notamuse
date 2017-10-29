@@ -1,17 +1,25 @@
 title: Interviews
 
 pages: true
+  template: interview
+  sort: title asc
 files: false
 
 options:
   preview: false
-  status: false
+  status: true
   template: false
   delete: false
   url: false
 
 fields:
-    title:
-        label: Titel
-        type: text
-        text: Interviews
+  title:
+    label: Title
+    type: text
+    text: Interviews
+    readonly: true
+  info:
+    label: Info
+    type: info
+    text: >
+      Click on "Add" in the left-hand column to create another Interview.

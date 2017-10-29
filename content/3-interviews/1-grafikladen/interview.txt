@@ -61,4 +61,20 @@ Interviewimage: notamuse_portraits_amamda_haas05.jpg
 
 ----
 
-Introduction: 
+Introduction: This is an introduction.
+
+----
+
+Titlenav: 
+
+----
+
+Url: 
+
+----
+
+Place: Hamburg?
+
+----
+
+Date: 2017-10-29

@@ -19,10 +19,12 @@ $interview = $pages->find('interviews')->children()->shuffle()->first(); // gets
 
   </div>
 
+  <!-- INFORMATION -->
   <div id="interview-info" class="aside-info">
     <figure>
-        <div class="interviewee-image" style="background-image: url("<?php echo $interview->interviewimage()->url() ?> ") ">
-        </div>
+      <?php if($image = $interview->image()): ?>
+        <div class="interviewee-image" style="background-image:url(<?php echo $image->url() ?>)"></div>
+      <?php endif ?>
       <figcaption>
         <ul>
           <li>Interviewee Name</li>

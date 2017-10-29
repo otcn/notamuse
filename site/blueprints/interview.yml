@@ -7,28 +7,63 @@ files:
 
 options:
   preview: false
-  status: false
+  status: true
   template: false
   delete: true
   url: false
 
 fields:
+    titlehead:
+        label: Title
+        type: headline
     title:
-        label: Titel
+        label: Interview Title
+        type: text
+        text: Jane Doe
+        required: true
+    titlenav:
+        label: Navigation Title (optional)
+        type: text
+        required: false
+    informationhead:
+        label: Information
+        type: headline
+    interviewimage:
+        label: Image of Interviewee
+        type: image
+        width: 1/2
+    url:
+        label: URL of Interviewee
+        type: url
+        required: false
+        width: 1/2
+        placeholder: http://www.offshorestudio.ch/
+    place:
+        label: Place of Interview
         type: text
         required: true
-    interviewimage:
-        label: Image
-        type: image
+        width: 1/2
+        placeholder: Zürich, Schweiz
+    date:
+        label: Date of Interview
+        type: date
+        format: DD.MM.YYYY
+        default: today
+        required: true
+        width: 1/2
+    contenthead:
+        label: Content
+        type: headline
     interviewpartner:
         label: Mehrere Interviewpartner
         type: checkbox
         text: Mehrere Interviewpartner
     introduction:
-        label: Einleitung
+        label: Introduction
         type: textarea
+        required: true
     Interview:
-        label: Interview Abschnitt
+        label: Interview Parts
         type: structure
         entry: >
           {{category}} — {{frage}}

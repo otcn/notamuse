@@ -2,18 +2,40 @@ Interviewpartner: 1
 
 ----
 
-Interview:
+Interview: 
 
--
+- 
   fid: f301
   spezialfrage: "0"
   vorfrage: ""
-  frage: >
-    Wie setzt sich euer Team zusammen?
+  frage: Wie setzt sich euer Team zusammen?
   category: Arbeitssituation
-  antwort: >
-    LB: BANK besteht aus Sebastian Bissinger, der das Studio 2004 gegründet hat, und mir. In unregelmäßigen Abständen beschäftigen wir Praktikant_innen, wenn wir deren Arbeiten toll finden und gerne mit dieser Person ein paar Monate arbeiten würden. Grundsätzlich verdienen Praktikant_innen bei uns zwar Geld, aber wir können kein volles Gehalt bezahlen, deswegen wollen wir dieses System eigentlich nicht unterstützen oder ausbeuten. Wir bauen auf ein großes Netzwerk aus Freund_innen, die wir als Freelancer_innen einbeziehen, vor allem Programmierer_innen, Fotograf_innen und Illustrator_innen.
+  antwort: 'LB: BANK besteht aus Sebastian Bissinger, der das Studio 2004 gegründet hat, und mir. In unregelmäßigen Abständen beschäftigen wir Praktikant_innen, wenn wir deren Arbeiten toll finden und gerne mit dieser Person ein paar Monate arbeiten würden. Grundsätzlich verdienen Praktikant_innen bei uns zwar Geld, aber wir können kein volles Gehalt bezahlen, deswegen wollen wir dieses System eigentlich nicht unterstützen oder ausbeuten. Wir bauen auf ein großes Netzwerk aus Freund_innen, die wir als Freelancer_innen einbeziehen, vor allem Programmierer_innen, Fotograf_innen und Illustrator_innen.'
 
 ----
 
 Title: Laure Boer
+
+----
+
+Interviewimage: 
+
+----
+
+Introduction: This is an introduction.
+
+----
+
+Titlenav: 
+
+----
+
+Url: 
+
+----
+
+Place: Hamburg?
+
+----
+
+Date: 2017-10-29
