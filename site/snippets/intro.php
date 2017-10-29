@@ -1,5 +1,6 @@
 <?php
-  $array_quotes = $page->quotes()->yaml(); // array containing all 'quotes' structure fields
+  $intro = $pages->find('intro');
+  $array_quotes = $intro->quotes()->yaml(); // array containing all 'quotes' structure fields
   $array_key = array_rand($array_quotes); // return a random key from my array
 ?>
 
