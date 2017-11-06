@@ -5,12 +5,12 @@
       $about = $pages->find('about');
     ?>
   	<h1><?= $about->title()->html() ?></h1>
-    <p><?= $about->text()->kirbytext() ?></p>
+    <?= $about->text()->kirbytext() ?>
   </div>
 
-  <div id="network-list">
+  <div class="network-list">
   	<h2><?= $about->networkListTitle()->html() ?></h2>
-  	<ul class="network-list">
+  	<ul>
   	  <?php foreach($about->networks()->toStructure() as $network): ?>
   	  <li>
   	    <a href="<?php echo $network->url() ?>">

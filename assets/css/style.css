@@ -51,7 +51,7 @@
     line-height: 33px;
   }
 
-/* GENERAL ========================================================================== */
+/* GENERAL & RESETING ========================================================================== */
 
   *, html, body {
     box-sizing: border-box;
@@ -150,6 +150,13 @@
     border-collapse: collapse;
     /*white-space: nowrap;*/
     overflow: visible;
+  }
+
+  figure {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
   }
 
 /* TITLE BANNER ========================================================================== */
@@ -286,7 +293,7 @@
 
   .intro-container {
     z-index: 330;
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
 
   .about-container {
@@ -354,22 +361,17 @@
 
 /* ABOUT ========================================================================== */
 
-  #about-image {
-    /*background-image: url("http://wise14.parcours-muenster.de/img/absolventen/baum_silva.jpg");*/
-    /*background-image: url("http://ss15.ohmschau.de/wp-content/uploads/Scheer-Claudia-Format14final-400x284.jpg");*/
-  }
-
-  #network-list {
+  .network-list {
     margin: 0 0 0 0;
     padding: 0 0 4vh 0;
   }
 
-  #network-list h2 {
+  .network-list h2 {
     margin-top: 46px;
     font-family: RenaGrotesk-Extended, sans-serif;
   }
 
-  #network-list li {
+  .network-list li {
     margin-top: 27px;
   }
 
@@ -389,14 +391,14 @@
     content: "AH: ";
   }
 
-  .hidden .aside-info>ul {
+  .hidden .aside-info>figure {
     display: none;
     overflow: hidden;
     height: 35vw;
     max-height:35vw;
   }
 
-  .aside-info>ul {
+  .aside-info {
     display: block;
     position: fixed;
     top: 0;
@@ -410,15 +412,11 @@
     height: 100vh;
   }
 
-  .aside-info>ul>li {
-    position: relative;
-  }
-
   .aside-info>ul>li:last-child, .aside-info>ul>li:nth-child(2) {
     margin-top: 1em;
   }
 
-  .interviewee-image {
+  .aside-info img {
     display: block;
 
     width: 24vw;
@@ -428,18 +426,17 @@
     min-height: 176px;
     max-height: 1032px;
 
-    background-image: url("../img/Notamuse_Portraits_Amamda_Haas05.jpg");
     background-color: #fff;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
   }
 
-  .aside-info>ul.preview {
+  .aside-info>figure.preview {
     display: block !important;
   }
 
-  .aside-info>ul.collapse {
+  .aside-info>figure.collapse {
     overflow: hidden;
     height: 35vw;
   }

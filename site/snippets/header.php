@@ -13,7 +13,7 @@
 
   <!--Load css-->
   <?php echo css(array(
-    'assets/css/index.css',
+    //'assets/css/index.css',
     'assets/css/normalize.css',
     'assets/css/style.css'
   )) ?>
@@ -23,8 +23,9 @@
   <!--Load js async-->
   <?php echo js(array(
     'assets/js/jens-scripts.js',
-    'assets/js/script.js',
     'assets/js/marquee.js',
+    'assets/js/lib.js',
+    'assets/js/script.js',
   ), true) ?>
 
 </head>

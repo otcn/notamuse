@@ -1,1 +1,1 @@
-<div class="marquee"><p><?= $site->title()->html() ?></p></div>
+<div class="marquee"><?= $site->title()->kirbytext() ?></div>

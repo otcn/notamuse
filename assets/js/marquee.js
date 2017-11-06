@@ -1,4 +1,6 @@
-$( document ).ready(function() {
+$(document).ready(function(){
+
+
 
   function marquee() {
 
@@ -28,5 +30,8 @@ $( document ).ready(function() {
     myScroll = $(window).scrollTop(); // vertical scroll position
     myElements.css({"transform" : "translateX(" + -myScroll + "px)" });
   });
+
+
+
 });
 

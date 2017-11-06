@@ -81,9 +81,11 @@ fields:
             vorfrage:
                 label: Vorfrage
                 type: textarea
+                buttons:
+                    - link
                 text: Vorfrage
             frage:
-                label: Frage
+                label: Fragenkatalog
                 required: true
                 type: select
                 options: query
@@ -109,4 +111,7 @@ fields:
             antwort:
                 label: Antwort
                 type: textarea
+                buttons:
+                    - link
                 required: true
+

@@ -6,7 +6,8 @@ snippet('header');
 <div id="main-wrapper" class="flex-container">
   <!-- the following php places all snippets concerning the main stage -->
   <?php
-  snippet('aside');
+  //snippet('aside'); // old navigation
+  snippet('navigation');
   snippet('article');
   ?>
 </div>
@@ -16,8 +17,8 @@ snippet('header');
 
 <!-- the following php places all snippets concerning the overlays -->
 <?php
-// snippet('intro');
-// snippet('about');
+snippet('intro');
+snippet('about');
 snippet('interview');
 /*foreach($pages->visible() as $section) {
   snippet($section->uid(), array('data' => $section));
