@@ -53,7 +53,7 @@ $(document).ready(function() {
 
   // init();
 
-  $(document).on('click', 'aside #interviews li a', function(e) {
+  $(document).on('click', 'nav a', function(e) {
     var uid = $(this).attr('href');
     console.log(uid);
     if (uid == window.location.href) {

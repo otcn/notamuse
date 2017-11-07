@@ -26,6 +26,8 @@
     'assets/js/marquee.js',
     'assets/js/lib.js',
     'assets/js/script.js',
+    'assets/js/classy-links.js',
+    'assets/js/question-id.js',
   ), true) ?>
 
 </head>

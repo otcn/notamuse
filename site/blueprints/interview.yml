@@ -63,7 +63,7 @@ fields:
         type: textarea
         required: true
     Interview:
-        label: Interview Parts
+        label: Interview Units
         type: structure
         entry: >
           {{category}} — {{frage}}
@@ -74,18 +74,17 @@ fields:
                 readonly: true
                 width: 1/2
             spezialfrage:
-                label: Spezialfrage
+                label: Special Question
                 type: checkbox
-                text: Spezialfrage
                 width: 1/2
             vorfrage:
-                label: Vorfrage
+                label: Pre-Text
                 type: textarea
+                placeholder: optional
                 buttons:
                     - link
-                text: Vorfrage
             frage:
-                label: Fragenkatalog
+                label: Question Catalogue
                 required: true
                 type: select
                 options: query
@@ -97,7 +96,7 @@ fields:
                     text: '{{title}}'
                     flip: false
             category:
-                label: Thema
+                label: Topic
                 required: true
                 type: select
                 options: query
@@ -109,9 +108,16 @@ fields:
                     text: '{{title}}'
                     flip: false
             antwort:
-                label: Antwort
+                label: Answer
                 type: textarea
                 buttons:
                     - link
                 required: true
+
+            quote:
+                label: Quote
+                type: textarea
+                placeholder: optional
+                required: false
+                buttons: false
 

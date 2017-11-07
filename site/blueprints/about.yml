@@ -55,3 +55,14 @@ fields:
             label: Network URL
             placeholder: http://ladieswinedesign.com/
             type: url
+
+    imprintTitle:
+        label: Imprint Title
+        type: text
+        placeholder: Impressum
+
+    imprint:
+        label: Imprint
+        type: textarea
+        required: true
+        buttons: link

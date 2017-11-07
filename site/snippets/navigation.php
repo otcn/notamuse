@@ -24,7 +24,7 @@
   						        $openwraptag = '<a href="'.$interview->url().'#'.$frage->fid().'">';
   						        $closewraptag = '</a>';
   						      } else {
-  						        $openwraptag = '<a href="#">';
+  						        $openwraptag = '<a href="#'.$frage->fid().'">';
   						        $closewraptag = '</a>';
   						      }
         						// new first letter? show it!
@@ -57,7 +57,7 @@
             foreach($pages->find('interviews')->children()->visible()->sortBy('title', 'asc') as $interview):
             ?>
             <li>
-              <a href="<?php $interview->url() ?>"><?php echo $interview->title() ?></a>
+              <a href="<?php echo $interview->url() ?>"><?php echo $interview->title() ?></a>
             </li>
             <?php endforeach ?>
           </ul>

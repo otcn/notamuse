@@ -1,9 +1,22 @@
 title: Themen
 
 pages: true
+  template: fragen
 files: false
+
+options:
+  preview: false
+  status: false
+  template: false
+  delete: true
+  url: false
 
 fields:
     title:
-        label: Title
-        type:  text
+      label: Title
+      type:  text
+    info:
+      label: Info
+      type: info
+      text: >
+        Click on "Add" in the left-hand column to create another topic.

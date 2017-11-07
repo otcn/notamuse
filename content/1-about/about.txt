@@ -30,3 +30,11 @@ Networks:
 ----
 
 Interview: 
+
+----
+
+Imprint: Impressum Lorem Ipsum
+
+----
+
+Imprinttitle: Impressum

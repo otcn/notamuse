@@ -1,10 +1,8 @@
 $(document).ready(function(){
 
-
-
   function marquee() {
 
-    var marquee = $( ".marquee" ); // get my marquee cotainer
+    var marquee = $( ".marquee" ); // get my marquee container
     var marqTop = $( marquee ).offset().top; // get my marquee cotainer's inner width
     console.log( "marqTop: " + marqTop );
 
@@ -24,14 +22,13 @@ $(document).ready(function(){
   }
   marquee();
 
-  $(window).scroll(function() {
+  $('body,div,article').scroll(function() {
+
     marquee();
     var myElements = $( ".marquee p" );
-    myScroll = $(window).scrollTop(); // vertical scroll position
+    myScroll = $(this).scrollTop(); // vertical scroll position
     myElements.css({"transform" : "translateX(" + -myScroll + "px)" });
   });
-
-
 
 });
 

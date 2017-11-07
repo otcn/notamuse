@@ -1,12 +1,19 @@
 title: Frage
 
-pages: true
+pages: false
 files: false
+
+options:
+  preview: false
+  status: false
+  template: false
+  delete: true
+  url: false
 
 fields:
     title:
         label: Frage
         type:  text
     alternative:
-        label: alt-frage
+        label: Alt-Frage
         type: text

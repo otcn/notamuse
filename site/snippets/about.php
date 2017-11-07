@@ -1,9 +1,10 @@
-<div class="about-container overlay">
 
+<div class="about-container overlay">
+<?php
+  $about = $pages->find('about');
+?>
   <div id="about-content">
-    <?php
-      $about = $pages->find('about');
-    ?>
+
   	<h1><?= $about->title()->html() ?></h1>
     <?= $about->text()->kirbytext() ?>
   </div>
@@ -32,6 +33,11 @@
       <?php endforeach ?>
       <figcaption><?= $about->imageCaption()->html() ?></figcaption>
     </figure>
+  </div>
+
+  <div id="about-imprint">
+    <h2><?= $about->imprintTitle()->html() ?></h2>
+    <?= $about->imprint()->kirbytext() ?>
   </div>
 
 </div>
