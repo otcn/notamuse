@@ -10,12 +10,12 @@ Questioncounter: 5
 
 ----
 
-Author: 
+Author: notamuse
 
 ----
 
-Description: 
+Description:
 
 ----
 
-Copyright: 
+Copyright:

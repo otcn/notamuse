@@ -7,8 +7,10 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
-  - interviews/Laure-Boer
   - home
+  - themen
+  - interviews/Laure-Boer
   - about
   - interviews
-  - interviews/Christiane-Funken
+firstname: notamuse
+lastname: ""

@@ -1,10 +1,18 @@
 title: Page
 
+pages: false
+files: false
+
+options:
+  preview: false
+  status: false
+  template: false
+  delete: false
+  url: false
+
 fields:
   title:
     label: Title
     type:  text
+    readonly: true
 
-  text:
-    label: Text
-    type:  textarea
