@@ -1,4 +1,4 @@
-Interviewpartner: 1
+Interviewpartner: 0
 
 ----
 
@@ -8,13 +8,10 @@ Interview:
   fid: f301
   spezialfrage: "0"
   vorfrage: ""
-  frage: >
-    Arbeitet ihr bewusst an persönlichen
-    Schwächen?
-  category: Arbeitssituation
-  antwort: 'LB: BANK besteht aus Sebastian Bissinger, der das Studio 2004 gegründet hat, und mir. In unregelmäßigen Abständen beschäftigen wir Praktikant_innen, wenn wir deren Arbeiten toll finden und gerne mit dieser Person ein paar Monate arbeiten würden. Grundsätzlich verdienen Praktikant_innen bei uns zwar Geld, aber wir können kein volles Gehalt bezahlen, deswegen wollen wir dieses System eigentlich nicht unterstützen oder ausbeuten. Wir bauen auf ein großes Netzwerk aus Freund_innen, die wir als Freelancer_innen einbeziehen, vor allem Programmierer_innen, Fotograf_innen und Illustrator_innen.'
-  quote: >
-    BANK besteht aus Sebastian Bissinger,
+  frage: Wie setzt sich euer Team zusammen?
+  category: Arbeitsform
+  antwort: >
+    LB:BANK besteht aus Sebastian Bissinger,
     der das Studio 2004 gegründet hat, und
     mir. In unregelmäßigen Abständen
     beschäftigen wir Praktikant_innen, wenn
@@ -31,6 +28,281 @@ Interview:
     Freelancer_innen einbeziehen, vor allem
     Programmierer_innen, Fotograf_innen und
     Illustrator_innen.
+  quote: ""
+- 
+  fid: f10
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Worauf hat euch das Studium überhaupt
+    nicht vorbereitet?
+  category: Arbeitsform
+  antwort: 'LB:In meinem Studium habe ich sehr wenig über Technik und Software gelernt. Sobald es aber in der Praxis Zeitdruck und Deadlines gibt, lernt man das recht schnell. Auch Typografie- und Layoutgrundlagen habe ich erst richtig bei meinem Diplom und der Gestaltung meiner Thesis gelernt. Zuvor lag mein Schwerpunkt eher auf Multimedia und Screendesign. Glücklicherweise hatte ich einen großartigen Lehrer, David Poullard, der nicht nur Dozent war, wie in Frankreich üblich, sondern auch als Typograf und Designer gearbeitet hat. Auch die Kommunikation mit Kund_innen war nach dem Studium eine große Herausforderung für mich.'
+  quote: ""
+- 
+  fid: f11
+  spezialfrage: "0"
+  vorfrage: >
+    Sebastian und du seid gleichberechtigte
+    Partner_innen bei BANK.
+  frage: >
+    Wie entsteht die Arbeitsteilung zwischen
+    euch?
+  category: Prozesse
+  antwort: >
+    LB:Die Arbeitsteilung zwischen uns
+    entwickelt sich stetig weiter,
+    grundsätzlich besitzen wir aber
+    ziemlich komplementäre Kompetenzen. Zu
+    Beginn eines Projekts definieren wir
+    ganz klar, wer Projektleiter_in ist und
+    wer die Kundenkommunikation übernimmt.
+    Wir entwickeln erste Ideen zusammen und
+    teilen dann die Bereiche auf. Ich
+    persönlich finde Kommunikation mit
+    Kund_innen anstrengend, deswegen
+    übernimmt das eher Sebastian – meiner
+    Meinung nach ist das eigentlich ein
+    Beruf für sich, der nichts mit Design
+    zu tun hat. Ich kümmere mich gern um
+    Schriftentwurf und Illustration,
+    Sebastian beschäftigt sich eher mit
+    Feintypografie und Editorial. An
+    Corporate Designs und grundlegenden
+    Layouts arbeiten wir zusammen.
+  quote: ""
+- 
+  fid: f12
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Betreibt ihr aktiv Akquise?
+  category: Prozesse
+  antwort: >
+    LB:Kaltakquise hat bisher nicht so gut
+    funktioniert, Aufträge generieren sich
+    eher über unser Netzwerk. Die Leute
+    kommen auf uns zu, weil sie wissen, wie
+    wir arbeiten und was sie erwartet.
+  quote: ""
+- 
+  fid: f13
+  spezialfrage: "0"
+  vorfrage: >
+    Es gibt viele Möglichkeiten, ein
+    Projekt anzugehen.
+  frage: >
+    Probiert ihr viel Neues oder verlasst
+    ihr euch auf das, was ihr könnt?
+  category: Gestaltung
+  antwort: >
+    LB:Das ist bei jedem Projekt eine neue
+    Herausforderung – gibt es keine, wird
+    es schnell langweilig. Jede/r Kund_in
+    ist anders und wir versuchen immer etwas
+    Spezifisches zu finden, das zu ihm/ihr
+    passt. Der Prozess an sich läuft immer
+    unterschiedlich ab, trotzdem greifen wir
+    natürlich auf unsere Erfahrung zurück,
+    um schneller und effizienter arbeiten zu
+    können. Ich würde sagen, wir werden
+    entspannter im Umgang mit unseren
+    Skills, aber nicht im kreativen Prozess.
+  quote: ""
+- 
+  fid: f14
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie würdet ihr euren Stil beschreiben?
+  category: Gestaltung
+  antwort: >
+    LB:Alles, was das Büro verlässt, ist
+    von Sebastian und mir geprägt. Oftmals
+    befindet sich darin ein kleiner Witz,
+    etwas Humor. Auch das Spiel mit Schrift
+    ist ein zentrales Thema in unserer
+    Gestaltung, sie ist besonders oder etwas
+    verfremdet. Ich arbeite auch gerne mit
+    unterschiedlichen Materialien oder
+    aufwendigen Objekten –
+    Objekthaftigkeit an sich finde ich sehr
+    interessant.
+  quote: ""
+- 
+  fid: f15
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Ist es euch wichtig, dass eure
+    Handschrift erkannt wird oder sollte der
+    Auftrag im Vordergrund stehen?
+  category: Haltung
+  antwort: >
+    LB:Ich glaube, ein eigener Stil schwingt
+    automatisch mit. Explizit einen
+    speziellen Stil zu entwickeln,
+    interessiert mich nicht. Viel spannender
+    hingegen finde ich den Arbeitsprozess
+    und was dabei herauskommt, dass eine
+    Gestaltung zum/r Kund_in passt und auch
+    für mich als Designerin interessant
+    bleibt.
+  quote: ""
+- 
+  fid: f16
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Woraus zieht ihr Inspiration?
+  category: Inspiration
+  antwort: |
+    LB:Mich interessiert Grafikdesign sehr, aber ich schaue mir keine Blogs und wenig Bücher dazu an. Arbeiten, die mich inspirieren oder berühren, kommen eher aus der Kunst oder der Musik, weniger aus dem Grafikdesign selbst. Ich finde die Künstlerin Anne Gathmann, für die wir gerade ein Projekt gemacht haben, sehr inspirierend – ihr künstlerischer Ansatz hat mir persönlich sehr viel gebracht.
+    Musikalisch hat mich der Film »Step Across the Border« von Nicolas Humbert und Werner Penzel über den Musiker Fred Frith und seine experimentelle Improvisationsmusik sehr beeindruckt, ein auch ästhetisch sehr ansprechender Schwarz-Weiß-Film. Als Kind habe ich klassische Musik gelernt, und der Film hat mir die Augen dafür geöffnet, dass man auch anders Musik machen kann. Das hat mein ganzes Denken verändert.
+    Im Designbereich finde ich Ariane Spanier beeindruckend, vor allem ihren Umgang mit Farbe. Auch wenn das ein bisschen arrogant klingt, gibt es im Grafikdesign wenige Arbeiten, die mich umhauen. Vielleicht liegt es daran, dass mich Grafikdesign einfach nicht so berührt wie Kunst oder Musik.
+  quote: ""
+- 
+  fid: f17
+  spezialfrage: "0"
+  vorfrage: >
+    Du lebst dich künstlerisch auch in
+    deiner Musik aus.
+  frage: >
+    Seht ihr einen künstlerischen Auftrag
+    in eurer Arbeit oder steht die
+    Dienstleistung im Vordergrund?
+  category: Haltung
+  antwort: 'LB:Diese Frage stelle ich mir oft und ich habe keine Antwort darauf. Wenn ich die künstlerische Suche im Design nicht hätte, dann würde ich diesen Beruf nicht ausüben. Ich denke oft daran, was mir die Designerin Estelle Martin nach dem Studium mit auf den Weg gegeben hat: Wenn wir mit einem Projekt fertig sind, leben die Auftraggeber_innen damit weiter, manchmal für Jahre. Es ist also umso schöner, wenn sich Kund_innen mit unserer Arbeit identifizieren können.'
+  quote: ""
+- 
+  fid: f18
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was macht gute Gestaltung aus?
+  category: Haltung
+  antwort: >
+    LB:Im Internet kann man viel Gestaltung
+    entdecken, die gut aussieht, aber bei
+    genauerer Betrachtung viele
+    typografische Fehler aufweist. Ich finde
+    es immer wichtiger, dass man sein
+    Handwerk beherrscht. Das ist berufliches
+    Fachwissen und das muss anerkannt
+    werden. Außerdem finde ich es wichtig,
+    bei einer Gestaltung eigenständige
+    Fragestellungen zu erkennen und nicht
+    nur das Ziel zu haben, etwas gut
+    aussehen zu lassen. Man denkt, etwas
+    ganz Neues geschaffen zu haben und ein
+    paar Wochen später sieht man die
+    gleiche Gestaltung überall. Zu viel
+    »Style« finde ich selten gut, es gibt
+    aber natürlich Strömungen, denen man
+    sich nicht entziehen kann.
+  quote: ""
+- 
+  fid: f19
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was bedeutet für euch Erfolg?
+  category: Erfolg
+  antwort: >
+    LB:Für mich ist Erfolg, wenn ich von
+    meinem Beruf leben kann und finanzielle
+    Freiheit genieße. Auch Anerkennung
+    finde ich nicht unwichtig. Es ist ein
+    Indiz dafür, wo du stehst, wenn deine
+    Arbeit von Leuten, die du schätzt,
+    anerkannt wird.
+  quote: ""
+- 
+  fid: f20
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Haltet ihr gerne Vorträge oder gebt
+    Workshops?
+  category: Sichtbarkeit
+  antwort: 'LB:Vorträge sind sehr schwierig für mich, ich finde Kommunikation anstrengend. Das ist oft ein Thema zwischen Sebastian und mir: Wir entwickeln uns ständig weiter und haben unterschiedliche Wege uns darzustellen und über uns zu sprechen. Ich finde es angenehmer, wenn er die Präsentation übernimmt. Workshops hingegen leite ich gerne, das mache ich schon seit Jahren.'
+  quote: ""
+- 
+  fid: f21
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Werdet ihr als gleichberechtigte
+    Partner_innen des Büros wahrgenommen?
+  category: Sichtbarkeit
+  antwort: |
+    LB:Nein, überhaupt nicht! Grundsätzlich wird eigentlich immer Sebastian angesprochen, auch von Leuten, die uns kennen und wissen, dass wir beide zusammen arbeiten. Ich frage mich, ob das etwas mit mir als Person zu tun hat. Teilweise bin ich schüchtern, was der ganzen Sache wahrscheinlich nicht besonders hilft, aber trotzdem finde ich diese Situationen fragwürdig.
+    Ich bin jünger als Sebastian, eine Frau und kleide mich gerne feminin. Oft habe ich den Eindruck, deswegen nicht als kompetente Designerin wahrgenommen zu werden. In Deutschland habe ich das Gefühl, dass erfolgreiche Frauen eine gewisse Härte aufweisen, die ich nicht haben möchte. Wie kann man nett, freundlich und attraktiv auftreten und dabei trotzdem ernst genommen werden? In Paris ist diese Kombination üblicher.
+  quote: >
+    Wie kann man nett, freundlich und
+    attraktiv auftreten und dabei trotzdem
+    ernst genommen werden?
+- 
+  fid: f22
+  spezialfrage: "0"
+  vorfrage: >
+    Dein Projekt »un demi« ist ein
+    Zusammenschluss von vier Frauen. Auf
+    eurer Website schreibt ihr nicht, dass
+    es explizit um feministische Ansätze
+    geht, sondern vielmehr um einen
+    künstlerischen Diskurs von Arbeiten.
+  frage: >
+    Wie ist eure Haltung zu explizit
+    frauenfördernden Maßnahmen?
+  category: Gleichstellung
+  antwort: |
+    LB:Ich bin für Maßnahmen wie die Frauenquote – Frauen sollen gleichberechtigt behandelt und bezahlt werden. Aber ich finde es immer schade, wenn die Frauenthematik zu stark im Vordergrund steht. Was macht das für einen Unterschied? Spielt mein Geschlecht eine Rolle?
+    Mit »un demi« waren wir viel auf Messen unterwegs und wurden von Männern manchmal als »Frauenprojekt« betitelt. Das war offensichtlich abwertend gemeint. Die Käuferschaft unserer Publikation auf Messen liegt ziemlich genau bei 50:50. Ich habe den Eindruck, dass die Arbeit von Designerinnen andere Aspekte abdeckt als die von Designern. Und ich freue mich, dass immer mehr Frauen in diesem Berufsfeld mehr und mehr Sichtbarkeit erlangen. Dadurch eröffnet sich auch für Studierende eine größere Vielfalt an Designansätzen.
+  quote: ""
+- 
+  fid: f23
+  spezialfrage: "0"
+  vorfrage: >
+    Oft heißt es, das Private würde
+    beruflich in der heutigen Arbeitswelt.
+    Bei euch ist das als Paar noch ein
+    bisschen extremer.
+  frage: >
+    Wie strikt trennt ihr Arbeit und
+    Privatleben?
+  category: Privatleben
+  antwort: >
+    LB:Wir sprechen zuhause nur sehr wenig
+    über die Arbeit, das haben wir von
+    Anfang an geklärt. Mir persönlich ist
+    Musik sehr wichtig und ich zeichne
+    gerne. Dafür hätte ich keine Zeit
+    übrig, wenn ich mich nach Feierabend
+    immer noch mit Grafikdesign und unseren
+    Projekten beschäftigen würde. Ich
+    mache gerne die Bürotür auch im Kopf
+    zu, wenn ich nach Hause gehe.
+  quote: ""
+- 
+  fid: f24
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was wäre das ultimative Projekt?
+  category: Zukunft
+  antwort: >
+    LB:In Zukunft möchte ich mehr Musik
+    machen. Grafikdesign ist mir wichtig,
+    nicht nur als Dienstleisterin, aber was
+    mich richtig bewegt und wofür ich gerne
+    mehr Zeit hätte, ist Musik. Mit meinen
+    Freundinnen von »un demi« war ich 2014
+    für einen Monat in einer Kunstresidenz
+    in Tiflis in Georgien eingeladen. Dort
+    habe ich viel Musik geschrieben, selbst
+    auf traditionellen georgischen
+    Instrumenten gespielt und mich mit Field
+    Recordings beschäftigt. Das war eine
+    tolle Erfahrung, die ich gerne noch
+    einmal erleben würde. Und zusammen mit
+    Freundinnen ist es natürlich noch
+    besser!
+  quote: ""
 
 ----
 
@@ -38,24 +310,24 @@ Title: Laure Boer
 
 ----
 
-Interviewimage: 
+Interviewimage: notamuse_portraits_laure_boer02.psd
 
 ----
 
-Introduction: This is an introduction.
+Introduction: Nach ihrem Grafikdesign- und Multimedia-Studium in Frankreich und ersten Arbeitserfahrungen landete Laure Boer 2007 in Berlin, wo sie seither zusammen mit Sebastian Bissinger das Designstudio BANK™ leitet. Sie ist Mitbegründerin der De­sig­nerinnengruppe »un demi«, Mit­herausgeberin der gleichnamigen Kunstpublikation und arbeitet international als Dozentin. Im Interview erzählt sie uns unter anderem, wie unterschiedlich sie und ihr Partner in der kreativen Öffentlichkeit wahrgenommen werden und auf welche Hürden man als Frau in der Designszene stößt.
 
 ----
 
-Titlenav: 
+Titlenav: Laure Boer, Designerin, BANK
 
 ----
 
-Url: 
+Url: http://www.bankassociates.de
 
 ----
 
-Place: Hamburg?
+Place: Berlin
 
 ----
 
-Date: 2017-10-29
+Date: 2017-05-11

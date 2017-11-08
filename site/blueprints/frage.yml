@@ -5,7 +5,7 @@ files: false
 
 options:
   preview: false
-  status: false
+  status: true
   template: false
   delete: true
   url: false

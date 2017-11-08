@@ -1,0 +1,82 @@
+Titlehead: 
+
+----
+
+Title: Hannelore Kohl
+
+----
+
+Titlenav: Hannelore Kohl, Grafikdesignerin
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: maxresdefault.jpg
+
+----
+
+Url: https://www.google.de
+
+----
+
+Place: Berlin, Deutschland
+
+----
+
+Date: 2017-11-08
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: This was an interview with Hannelore.
+
+----
+
+Interview: 
+
+- 
+  fid: f6
+  spezialfrage: "0"
+  vorfrage: Hi Hannelore!
+  frage: >
+    Beeinflusst Familienplanung eure
+    Selbstständigkeit?
+  category: Arbeitssituation
+  antwort: Läuft.
+  quote: My husband had no eating manners.
+- 
+  fid: f8
+  spezialfrage: "0"
+  vorfrage: Mucho sexisto!
+  frage: Wie sexistisch ist die Designbranche?
+  category: Zukunft
+  antwort: Mucho sexisto!
+  quote: Mucho sexisto!
+- 
+  fid: f7
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie definiert ihr Erfolg?
+  category: Sichtbarkeit
+  antwort: Money.
+  quote: Money over everything.
+- 
+  fid: f9
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie strikt trennt ihr Arbeit und
+    Privatleben?
+  category: Privatleben
+  antwort: Gar nicht.
+  quote: Hasta la victoria siempre.

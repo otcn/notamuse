@@ -7,10 +7,11 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
+  - >
+    themen/arbeitsprozess/wie-fuehlt-ihr-euch-damit-mitarbeiter-innen-anzuleiten
   - home
   - themen
   - interviews/Laure-Boer
   - about
-  - interviews
 firstname: notamuse
 lastname: ""

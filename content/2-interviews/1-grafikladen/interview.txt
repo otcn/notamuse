@@ -11,11 +11,12 @@ Interview:
   frage: >
     Was war die ausschlaggebende Motivation
     zur Selbstständigkeit?
-  category: Arbeitssituation
+  category: Arbeitsform
   antwort: |
     KW:Nach dem Studium hatten wir beide schon viel Praktikumserfahrung und festgestellt, dass uns die Arbeitsweisen von Anderen oft nicht gut gefielen. Man richtet sich nach jemandem, der sein Unternehmen nach den eigenen Regeln strukturiert, denen man sich selbst nicht unterordnen möchte. Wir haben beide eine Vision davon, wie wir miteinander arbeiten und umgehen wollen – das haben wir in der Berliner Kreativwirtschaft so nicht gefunden.
     JD:Es gibt diesen Zwiespalt, wo man arbeiten möchte. Entweder man geht in die Werbung und verdient angemessen Geld – dann ist die Arbeit meistens aber nicht befriedigend. Oder man geht in ein cooles Grafikbüro, bei dem man, trotz regelmäßiger Überstunden, 900 € bekommt. Bereits im Bachelor haben wir gemerkt, dass wir ein gutes Team sind, deswegen lag der Versuch nahe, die Selbstständigkeit einfach auszuprobieren.
     KW:Unser Beruf birgt kein hohes Risiko. Jeder besitzt einen Computer und die Programme und es ist möglich, von überall aus zu arbeiten. Selbst wenn es nicht klappt, hat man keinen großen Verlust gemacht.
+  quote: ""
 - 
   fid: f2
   spezialfrage: "1"
@@ -50,6 +51,14 @@ Interview:
   frage: Habt ihr eine bestimmte Aufgabenteilung?
   category: Arbeitssituation
   antwort: Nein
+- 
+  fid: f25
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Betreibt ihr aktiv Akquise?
+  category: Arbeitsform
+  antwort: nein
+  quote: ""
 
 ----
 
