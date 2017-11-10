@@ -3,6 +3,8 @@ title: Frage
 pages: false
 files: false
 
+// page settings
+deletable: true
 options:
   preview: false
   status: true
@@ -12,8 +14,11 @@ options:
 
 fields:
     title:
-        label: Frage
+        label: Question (plural, for navigation and interviews with multiple interviewees)
         type:  text
+        required: true
+        placeholder: Please enter a street name…
     alternative:
-        label: Alt-Frage
+        label: Alternative Question (singular, for interviews with only one interviewee)
         type: text
+        required: true

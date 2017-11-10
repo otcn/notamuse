@@ -4,7 +4,7 @@ $interview = $pages->find('interviews')->children()->shuffle()->first(); // gets
 
 <div class="interview-container overlay">
   <div id="interview-content">
-    <h1><?= $interview->title()->html() ?></h1>
+    <h1><?= $interview->title()->kt() ?></h1>
     <p class="i-intro"><?= $interview->introduction()->kirbytext() ?></p>
 
     <?php foreach($interview->Interview()->toStructure() as $interviewpart): ?>

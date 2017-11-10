@@ -62,6 +62,8 @@ fields:
         label: Introduction
         type: textarea
         required: true
+        buttons:
+            - link
     Interview:
         label: Interview Units
         type: structure

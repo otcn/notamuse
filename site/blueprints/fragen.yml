@@ -4,6 +4,8 @@ pages: true
   template: frage
 files: false
 
+// page settings
+deletable: true
 options:
   preview: false
   status: true

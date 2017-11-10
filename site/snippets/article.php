@@ -41,10 +41,12 @@
                                             foreach($random->antwort()->toStructure() as $answer) {
                                                 ?>
                                                 <li class="answer-item">
-                                                    <a class="interviewee-title">
-                                                    <!--Amanda Haas-->
-                                                    <?= $interview->title()->html() ?>
+
+                                                    <a href="<?php echo $interview->url() ?>" class="interviewee-title">
+                                                        <!--Name Surname-->
+                                                        <?php echo $interview->title() ?>
                                                     </a>
+
                                                     <p>
                                                         <?php //echo $answer ?> <!-- echoes whole answer -->
                                                         <?php echo $answer->excerpt(300) ?> <!-- echoes excerpt of 300 chars of answer -->

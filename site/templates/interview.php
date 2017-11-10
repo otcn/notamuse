@@ -8,7 +8,7 @@ if(!kirby()->request()->ajax()) {
 }
 ?>
 
-    <h1><?= $page->title()->kirbytext() ?></h1>
+    <h1><?= $page->title()->html() ?></h1>
     <section class="interview">
         <ul>
           <?php $plural = $page->interviewpartner(); ?>

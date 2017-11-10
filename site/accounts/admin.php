@@ -7,11 +7,10 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
-  - >
-    themen/arbeitsprozess/wie-fuehlt-ihr-euch-damit-mitarbeiter-innen-anzuleiten
-  - home
   - themen
-  - interviews/Laure-Boer
-  - about
+  - interviews/jens-schnitzler
+  - themen/programmierung/wie-gut-sind-deine-php-kenntnisse
+  - themen/arbeitsprozess/wie-fuehlt-ihr-euch-damit-mitarbeiter-innen-anzuleiten
+  - home
 firstname: notamuse
 lastname: ""
