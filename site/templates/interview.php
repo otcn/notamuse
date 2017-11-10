@@ -60,6 +60,6 @@ if(!kirby()->request()->ajax()) {
 if(!kirby()->request()->ajax()) {
     //echo '</div></article>';
     //echo '</div>';
-    //snippet('footer');
+    snippet('footer');
 }
 ?>

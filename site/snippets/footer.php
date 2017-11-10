@@ -1,3 +1,6 @@
+
+<!-- Footer Element obsolete? -->
+<!--
 <footer class="footer cf" role="contentinfo">
     <div class="wrap wide">
         <p class="footer-copyright">
@@ -9,6 +12,7 @@
         </p>
     </div>
 </footer>
+-->
 
 </body>
 </html>
