@@ -32,8 +32,8 @@ fields:
         label: Image of Interviewee
         type: image
         width: 1/2
-    url:
-        label: URL of Interviewee
+    web:
+        label: Website of Interviewee
         type: url
         required: false
         width: 1/2

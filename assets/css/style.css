@@ -388,7 +388,6 @@
 
   p.i-answer::before {
     font-family: RenaGrotesk-Extended, sans-serif;
-    content: "AH: ";
   }
 
   .hidden .aside-info>figure {

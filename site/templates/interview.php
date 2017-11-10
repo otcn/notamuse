@@ -30,18 +30,25 @@ if(!kirby()->request()->ajax()) {
 
   </div>
 
-  <!-- INFORMATION -->
+
+
+
+
   <div id="interview-info" class="aside-info">
     <figure>
-      <?php if($image = $interview->image()): ?>
-        <div class="interviewee-image" style="background-image:url(<?php echo $image->url() ?>)"></div>
-      <?php endif ?>
+      <?php foreach($interview->images() as $image): ?>
+        <div id="about-image" class="interviewee-image">
+            <a href="<?php echo $image->url() ?>">
+                <img src="<?php echo $image->url() ?>" alt="">
+            </a>
+        </div>
+      <?php endforeach ?>
       <figcaption>
         <ul>
-          <li>Interviewee Name</li>
-          <li>Berlin, Deutschland</li>
-          <li><a target="_blank" href="http://www.amandahaas.ch/">amandahaas.ch</a></li>
-          <li>Das Inter&shy;view mit Amanda Haas wurde am 21.&thinsp;4.&thinsp;2017 in Berlin geführt.</li>
+          <li><?= $interview->title()->html() ?></li>
+          <li><?= $interview->place()->html() ?></li>
+          <li><?= $interview->web() ?></li>
+          <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= $interview->date() ?> in <?= $interview->place() ?> geführt.</li>
         </ul>
       </figcaption>
     </figure>

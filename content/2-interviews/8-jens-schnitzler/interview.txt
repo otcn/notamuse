@@ -54,3 +54,7 @@ Interview:
   category: Programmierung
   antwort: Not so good.
   quote: Well, things are bad.
+
+----
+
+Web: https://github.com/otcn/notamuse/wiki/Editor's-Note
