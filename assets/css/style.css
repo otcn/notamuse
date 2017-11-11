@@ -214,6 +214,9 @@
     display: block;
     cursor: pointer;
   }
+  #separator.hidden{
+    display: none;
+  }
 
 /* CLOSE AND OPEN ICONS ========================================================================== */
 
@@ -279,12 +282,14 @@
     color: #fff;
     overflow-y: scroll;
 
-    -webkit-transition: all .15s; /* Safari */
-    transition: all .15s;
-
     -webkit-box-shadow: -1px 0px 1px rgba(0,0,0,.05);
     -moz-box-shadow: -1px 0px 1px rgba(0,0,0,.05);
     box-shadow: -1px 0px 1px rgba(0,0,0,.05);
+
+    -webkit-transition: all .15s;
+    -moz-transition: all .15s;
+    -o-transition: all .15s;
+    transition: all .15s;
   }
 
   .overlay.hidden {
@@ -524,9 +529,9 @@
     background: #fff;
   }
 
-  /* === NAV-SUB-LIST === */
+  /* === NAV-sub === */
 
-  .sub-list {
+  .sub {
     display: block;
     position: relative;
     padding: 0px 0px 0px 0px;
@@ -536,15 +541,15 @@
     overflow-x: visible;
   }
 
-  .sub-list * {
+  .sub * {
     max-width: 35vw;
   }
 
-  .sub-list ul, .sub-list li, .sub-list a {
+  .sub ul, .sub li, .sub a {
     display: block;
   }
 
-  .sub-list>ul {
+  .sub>ul {
     padding: 0 0 0 2vw;
     overflow-x: visible;
     flex-wrap: wrap;
@@ -553,7 +558,7 @@
     width: 35vw;
   }
 
-  .sub-list>ul>li {
+  .sub>ul>li {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 1em 2vw;
     display: block;
@@ -562,25 +567,25 @@
     width: 31vw;
   }
 
-  .sub-list .register-mark {
+  .sub .register-mark {
     width: 2vw;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
   }
 
-  .sub-list .nav-question {
+  .sub .nav-question {
   }
 
-  .sub-list .register-mark + li {
+  .sub .register-mark + li {
     /*margin-left: 0px;*/
     margin-top: -27px;
   }
 
-  .sub-list a {
+  .sub a {
     max-width: 82%;
   }
 
-  .sub-list a:hover {
+  .sub a:hover {
     max-width: 100%;
     font-family: RenaGrotesk-Extended, sans-serif;
   }
@@ -682,8 +687,8 @@
       top: 112px;
       z-index: 10;
   }
-/* STICKINESS NAV WRAPPER ========================================================================== */
 
+/* STICKINESS NAV WRAPPER ========================================================================== */
 
   .sticky {
     background: red; /* for testing only */
@@ -702,3 +707,9 @@
     */
   }
 
+/* TESTING CLASS ========================================================================== */
+
+  .debug { /* for testing only */
+    background: red;
+    color: green;
+  }

@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+//
+// This script adds the classes "a-extern" and "a-intern" to the designated links
+//
+
+  $('.network-list a').attr('class', 'a-extern').attr('target', '_blank');
+
   function classyLinks() {
 
       $('p a').each(function(){

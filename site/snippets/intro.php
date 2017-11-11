@@ -24,7 +24,7 @@ $fid = $fids[$array_key];
 
 <?php echo '<script>console.log('.$fid.')</script>'; ?>
 
-<div class="intro-container overlay">
+<div class="intro-container overlay hidden">
   <div id="intro-content">
     <div class="intro-quote">
     <h1><?php echo $quote ?></h1>

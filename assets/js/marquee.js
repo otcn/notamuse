@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+//
+// This script controls the scrolling "notamuse" marquee/banner/ticker
+//
+
   function marquee() {
 
     var marquee = $( ".marquee" ); // get my marquee container

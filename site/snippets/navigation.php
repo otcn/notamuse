@@ -2,11 +2,11 @@
   <div id="nav">
     <ul>
 
-      <li><a id="topics-button" class="nav-button">Themen</a></li>
+      <li class="nav-topics"><a id="topics-button" class="nav-button">Themen</a></li>
 
       <li>
         <a id="questions-button" class="nav-switch" href="#">Fragen</a><a class="key-icon"></a>
-        <div id="sl-1" class="sub-list">
+        <div id="sl-1" class="sub">
           <ul>
             <?php
               // build an array of all unique question objects
@@ -50,7 +50,7 @@
 
       <li>
         <a id="interviews-button" class="nav-switch" href="#">Interviews</a><a class="key-icon"></a>
-        <div id="sl-2" class="sub-list">
+        <div id="sl-2" class="sub">
           <ul>
             <?php
             $newLetter = false; // interviews need register mark as well
@@ -65,10 +65,9 @@
               <?php
               $newletter = true;
             }
-
             ?>
 
-            <li>
+            <li class="nav-interview">
               <a href="<?php echo $interview->url() ?>"><?php echo $interview->title() ?></a>
             </li>
             <?php endforeach ?>
@@ -76,7 +75,7 @@
         </div>
       </li>
 
-      <li><a id="about-button" class="nav-button about-anchor">About</a></li>
+      <li class="nav-about"><a id="about-button" class="nav-button about-anchor">About</a></li>
       <li><a id="language-button" class="nav-button language-anchor">EN</a></li>
 
     </ul>

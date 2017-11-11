@@ -22,6 +22,7 @@
   <?php echo js('https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js') ?>
   <!--Load js async-->
   <?php echo js(array(
+    'assets/js/overlay.js',
     'assets/js/jens-scripts.js',
     'assets/js/marquee.js',
     'assets/js/lib.js',

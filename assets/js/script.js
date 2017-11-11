@@ -1,17 +1,20 @@
 $(document).ready(function() {
 
+//
+// What does this script do?
+//
 
   // History
   function projects(uid) {
-    var target = uid.substring(3);
+    var target = uid.substring(3); // what is this good for?
     $.ajax({
-      url: 'http://localhost:7000/' + uid,
+      url: 'http://localhost/~jensschnitzler/' + uid,
       type: 'POST',
       success: function(response) {
         if ("complete" === document.readyState) {
-          $('#interviews .content').html(response);
+          $('.interview-container').html(response);
         } else {
-          $('#interviews .content').html(response);
+          $('.interview-container').html(response);
         }
       },
       error: function() {
@@ -37,30 +40,27 @@ $(document).ready(function() {
 
   // Initialize
   function init() {
-    // substring http://localhost:7000/ = 22 characters
-    var uid = window.location.href.substring(22);
-
+    // substring http://localhost/~jensschnitzler/ = 33 characters
+    var uid = window.location.href.substring(33);
     console.log(uid);
-
     if (uid.length >= 0) {
       push(uid);
     }
   }
 
-
   // Start
   get_browser(navigator.userAgent);
 
-  // init();
+  //init();
 
-  $(document).on('click', 'nav a', function(e) {
-    var uid = $(this).attr('href');
+  $(document).on('click', '.nav-interview a', function(e) {
+    var uid = $(this).attr('href'); // get the href-url
     console.log(uid);
     if (uid == window.location.href) {
-      e.preventDefault();
+      e.preventDefault(); // do nothing if current url equals href-url
     } else {
-      // substring http://localhost:7000/ = 22 characters
-      console.log(uid.substring(22));
+      //substring http://localhost/~jensschnitzler/ = 33 characters
+      console.log(uid.substring(33));
       push(uid);
       e.preventDefault();
     }
