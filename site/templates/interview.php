@@ -1,10 +1,14 @@
 <?php
 if(!kirby()->request()->ajax()) {
     snippet('header');
-    //echo '<div class="content">';
-    //snippet('menu');
-    //snippet('home');
-    //echo '<div id="interviews"><div class="int-content">';
+    echo '<div id="main-wrapper" class="flex-container">';
+    snippet('navigation');
+    snippet('article');
+    echo '<div id="separator" class="hidden"><a class="key-icon active"></a></div>';
+    echo '<div id="interviews"><div class="int-content">';
+    snippet('intro');
+    snippet('about');
+    echo '<div class="interview-container overlay bla">';
 }
 ?>
 
@@ -50,8 +54,11 @@ if(!kirby()->request()->ajax()) {
 
 <?php
 if(!kirby()->request()->ajax()) {
-    //echo '</div></article>';
-    //echo '</div>';
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
+    snippet('marquee');
     snippet('footer');
 }
 ?>
