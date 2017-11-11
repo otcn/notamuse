@@ -377,13 +377,13 @@
 
 /* INTERVIEW ========================================================================== */
 
-  #interview-content h1, #interview-content p {
+  .interview-container h1, .i-intro, .i-answer {
     margin: 0 0 1em 0;
   }
 
-  p.i-question {
+  .i-question p {
     font-family: RenaGrotesk-Extended, sans-serif;
-    margin: 0;
+    display: inline; /* "inline"= vorfrage und frage stehen direkt hintereinander */
   }
 
   p.i-answer::before {
@@ -571,7 +571,7 @@
   .sub-list .nav-question {
   }
 
-  .sub-list .register-mark + .nav-question {
+  .sub-list .register-mark + li {
     /*margin-left: 0px;*/
     margin-top: -27px;
   }

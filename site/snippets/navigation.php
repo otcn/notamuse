@@ -14,27 +14,26 @@
               $lettersDone = array();
               $newLetter = false;
               foreach($pages->find('interviews')->children()->visible() as $interview) {
-              	foreach($interview->interview()->toStructure()->sortBy('frage') as $frage) {
+              	foreach($interview->interview()->toStructure()->sortBy('frage', 'asc') as $frage) {
                   // make sure we show each question only once
                   if (! in_array($frage->frage(), $fragenDone)) {
   						      array_push($fragenDone, $frage->frage());
                     // determine link target for question
   						      if ($frage->spezialfrage()->bool() === true) {
-                      // special questions are bold to be recognizable in the frontend
-  						        $openwraptag = '<a href="'.$interview->url().'#'.$frage->fid().'">';
+  						        $openwraptag = '<a href="'.$interview->url().'#'.$frage->fid().'">'; // link directly to interview page/section
   						        $closewraptag = '</a>';
   						      } else {
-  						        $openwraptag = '<a href="#'.$frage->fid().'">';
+  						        $openwraptag = '<a href="#'.$frage->fid().'">'; // link to question in topics
   						        $closewraptag = '</a>';
   						      }
         						// new first letter? show it!
         						$letter = substr($frage->frage(),0,1);
         						if (! in_array($letter, $lettersDone)) {
         							array_push($lettersDone, $letter);
-        						?>
-        						<li class="register-mark"><?= $letter?></li>
-        						<?php
-        						$newletter = true;
+        						  ?>
+        						  <li class="register-mark"><?= $letter?></li>
+        						  <?php
+        						  $newletter = true;
         						}
         						?>
         						<li class="nav-question">
@@ -54,8 +53,21 @@
         <div id="sl-2" class="sub-list">
           <ul>
             <?php
+            $newLetter = false; // interviews need register mark as well
             foreach($pages->find('interviews')->children()->visible()->sortBy('title', 'asc') as $interview):
+
+            // new first letter? show it!
+            $letter = substr($interview->title(),0,1);
+            if (! in_array($letter, $lettersDone)) {
+              array_push($lettersDone, $letter);
+              ?>
+              <li class="register-mark"><?= $letter?></li>
+              <?php
+              $newletter = true;
+            }
+
             ?>
+
             <li>
               <a href="<?php echo $interview->url() ?>"><?php echo $interview->title() ?></a>
             </li>

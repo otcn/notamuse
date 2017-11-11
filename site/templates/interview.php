@@ -16,23 +16,19 @@ if(!kirby()->request()->ajax()) {
 <div class="interview-container overlay">
   <div id="interview-content">
     <h1><?= $interview->title()->html() ?></h1>
-    <p class="i-intro"><?= $interview->introduction()->kirbytext() ?></p>
+    <div class="i-intro"><?= $interview->introduction()->kirbytext() ?></div>
 
     <?php foreach($interview->Interview()->toStructure() as $interviewpart): ?>
-      <p class="i-question">
-        <?php echo $interviewpart->vorfrage()->kirbytext() ?>
-        <?php echo $interviewpart->frage()->kirbytext() ?>
-      </p>
-      <p class="i-answer">
-        <?php echo $interviewpart->antwort()->kirbytext() ?>
-      </p>
+      <div class="i-question">
+        <?= $interviewpart->vorfrage()->kirbytext() ?>
+        <?= $interviewpart->frage()->kirbytext() ?>
+      </div>
+      <div class="i-answer">
+        <?= $interviewpart->antwort()->kirbytext() ?>
+      </div>
     <?php endforeach ?>
 
   </div>
-
-
-
-
 
   <div id="interview-info" class="aside-info">
     <figure>
@@ -47,8 +43,8 @@ if(!kirby()->request()->ajax()) {
         <ul>
           <li><?= $interview->title()->html() ?></li>
           <li><?= $interview->place()->html() ?></li>
-          <li><?= $interview->web() ?></li>
-          <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= $interview->date() ?> in <?= $interview->place() ?> geführt.</li>
+          <li><a href="<?= $interview->web() ?>"><?= $interview->web() ?></a></li>
+          <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
         </ul>
       </figcaption>
     </figure>
