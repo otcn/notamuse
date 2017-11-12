@@ -68,7 +68,15 @@
             ?>
 
             <li class="nav-interview">
-              <a href="<?php echo $interview->url() ?>"><?php echo $interview->title() ?></a>
+              <a href="<?php echo $interview->url() ?>">
+
+                <?php if( !$interview->titlenav()->empty() ): ?>
+                  <?php echo $interview->titlenav() ?>
+                <?php else: ?>
+                  <?php echo $interview->title() ?>
+                <?php endif ?>
+
+              </a>
             </li>
             <?php endforeach ?>
           </ul>

@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
   // DEFAULT
-    $( '.intro-container' ).addClass('hidden'); // should be ".removeClass('hidden')" later
-    $( '#separator' ).addClass('hidden'); // should be ".removeClass('hidden')" later
+    $( '.intro-container' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
+    $( '#separator' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
     $( '.about-container' ).addClass('hidden');
     $( '.interview-container' ).addClass('hidden');
 

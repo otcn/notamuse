@@ -13,20 +13,19 @@ $(document).ready(function(){
         event.stopPropagation();
     });
 
-  // CLICK NAV-QUESTION TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
-    $('.nav-question a').click(function(){
-      //$(this).addClass('debug'); // remove if all works fine
+  // FUNCTION FOR LINKS WHICH OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
 
-      // hide/inactivate other stuff:
-      $('.topic-list .active').removeClass('active'); // remove all active states in the topic list
-      $('.topic-list .child').hide(); // hide all dropdowns
-
+    function topicLink(anchor) {
       // get target element and related relevant elements:
-      var href = $( this ).attr( 'href' );
+      var href = anchor.attr( 'href' );
       var target = $( href );
       var questionItem = target.parents('.question-item');
       var topicItem = target.parents('.topic-item');
       var topicTitle = topicItem.children('.topic-title').children('a');
+
+      // hide/inactivate other stuff:
+      $('.topic-list .active').removeClass('active'); // remove all active states in the topic list
+      $('.topic-list .child').hide(); // hide all dropdowns
 
       // reveal relevant dropdowns:
       target.parents('.child').show();
@@ -35,6 +34,26 @@ $(document).ready(function(){
       // add active states to relevant elements:
       target.addClass('active').siblings().addClass('active');
       topicTitle.addClass('active');
+    };
+
+  // CLICK NAV-QUESTION TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
+
+    $('.nav-question a').click(function(){
+
+      var anchor = $( this );
+      topicLink(anchor);
+
+    });
+
+  // CLICK INTRO-LINK TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
+
+    $('.intro-nav a').click(function(){
+
+      var anchor = $( this );
+      var overlay = anchor.parents('.overlay').addClass('hidden');
+      var separator = $('#separator').addClass('hidden');
+      topicLink(anchor);
+
     });
 
   // SMOOTH SCROLLING TO INTERNAL ANCHOR TARGETS

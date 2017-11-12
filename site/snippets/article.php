@@ -48,8 +48,8 @@
                                                     </a>
 
                                                     <p>
-                                                        <?php //echo $answer ?> <!-- echoes whole answer -->
-                                                        <?php echo $answer->excerpt(300) ?> <!-- echoes excerpt of 300 chars of answer -->
+                                                        <?php echo $answer ?> <!-- echoes whole answer -->
+                                                        <?php //echo $answer->excerpt(300) ?> <!-- echoes excerpt of 300 chars of answer -->
                                                     </p>
                                                 </li>
                                                 <?php

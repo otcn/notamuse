@@ -102,7 +102,6 @@ fields:
                 required: true
                 type: select
                 options: query
-                sort: asc
                 query:
                     page: themen
                     fetch: children
@@ -122,4 +121,11 @@ fields:
                 placeholder: optional
                 required: false
                 buttons: false
+
+            quoteauthor:
+                label: Quote Author
+                type: text
+                placeholder: optional
+                required: false
+                help: For interviews with multiple interviewees. By default the Interview Title will be used as Quote Author.
 

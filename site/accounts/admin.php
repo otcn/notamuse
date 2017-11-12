@@ -9,8 +9,8 @@ role: admin
 history:
   - interviews/jens-schnitzler
   - themen
-  - themen/programmierung/wie-gut-sind-deine-php-kenntnisse
-  - themen/arbeitsprozess/wie-fuehlt-ihr-euch-damit-mitarbeiter-innen-anzuleiten
+  - >
+    themen/programmierung/wie-gut-sind-deine-php-kenntnisse
   - home
 firstname: notamuse
 lastname: ""

@@ -2,12 +2,12 @@ Title: Themen
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author:
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description:
 
 ----
 
-Interview: 
+Interview:
