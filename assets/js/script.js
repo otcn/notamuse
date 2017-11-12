@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
 //
-// What does this script do?
+// Ajax script
 //
 
   // History
   function projects(uid) {
       console.log(uid) // Hier muss beim Klick auf Christiane Funken "Christiane-Funken" ausgegeben werden
     $.ajax({
-      url: 'http://localhost/~jensschnitzler/' + uid, 
+      url: '/' + uid, // url: 'http://localhost/~jensschnitzler/' + uid,
       type: 'POST',
       success: function(response) {
           $('.interview-container').html(response);
