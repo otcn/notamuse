@@ -1,0 +1,191 @@
+Titlehead: 
+
+----
+
+Title: Sandra Doeller
+
+----
+
+Titlenav: Sandra Doeller, Designerin, Bureau Sandra Doeller
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: 
+
+----
+
+Web: http://www.sandradoeller.com/
+
+----
+
+Place: E-Mail
+
+----
+
+Date: 2017-07-13
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: Direkt nach ihrem Designstudium in Darmstadt und Bern entschied sich Sandra Doeller für die Selbstständigkeit. 2013 gründete sie das »Bureau Sandra Doeller« in Frankfurt am Main, das einen stark konzeptionell geprägten Ansatz verfolgt und für eine klare Designsprache steht. Der Fokus liegt dabei auf Typografie und Buchgestaltung. Sandra Doeller ist Mitbegründerin des »Design-Vereins Frankfurt« und lehrt Typografie und Editorial Design an der Hochschule Darmstadt. Im Interview erläutert sie uns unter anderem ihre Beweggründe zur Selbstständigkeit und ihre ganz persönliche Definition von Erfolg.
+
+----
+
+Interview: 
+
+- 
+  fid: f27
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Was hat dich in deinem bisherigen
+    Werdegang besonders geprägt?
+  category: Spezifisch
+  antwort: 'SD:Ich habe mich schon früh für Gestaltung aus der Schweiz interessiert. Daher studierte ich außer in Darmstadt auch in Bern und machte danach ein Praktikum bei »Prill Vieceli« (heute »Prill Vieceli Cremers«), die hauptsächlich im Bereich Buchgestaltung und Typografie arbeiten. Das war eine tolle und prägende Zeit. Auch das Leben in Zürich, das ich damals – zumindest in der Grafik-Szene – als offen und »down to earth« empfunden habe. Bevor ich in die Schweiz ging, arbeitete ich neben dem Studium in kleineren Agenturen als Freelancerin. Ich hatte das Glück in alle Prozesse mit einbezogen zu werden. Daraus ergaben sich Kenntnisse über notwendige Abläufe neben dem Design, wie zum Beispiel Projektplanung, Strategie, Kalkulation etc., was ich tatsächlich auch gerne mache. Durch eine Verkettung glücklicher Umstände bin ich dann schließlich in Frankfurt gelandet. In meiner Anfangszeit dort spielte Ata Macias – der eng mit der Frankfurter Club- und Kulturszene verbunden ist – eine wichtige Rolle. Für und mit ihm realisierte ich viele Projekte, insbesondere um das »Robert Johnson«, die Bar »Plank« und den Club »Michel«. Ata arbeitet sehr intuitiv-assoziativ und entwickelt Orte und Produkte, die sich modischen Strömungen und gewohnt kommerziellen Ansätzen auf den ersten Blick erst einmal entziehen oder gar verwehren. In vielen Fällen ist es das, was die Ergebnisse im Endeffekt so interessant und dann längerfristig auch stilprägend und erfolgreich macht. Sich von Erwartungen des Umfelds zu befreien und eigenständige Lösungen »dicht an der Sache« zu entwickeln ist etwas, das meine Arbeit bis heute ausmacht.'
+  quote: ""
+- 
+  fid: f28
+  spezialfrage: "0"
+  vorfrage: >
+    Du hast dich 2009 direkt nach deinem
+    Abschluss selbstständig gemacht.
+  frage: >
+    Welche Hürden gab es beim Übergang in
+    die Selbstständigkeit?
+  category: Arbeitsform
+  antwort: >
+    SD:Die Idee selbstständig zu arbeiten,
+    war schon früh präsent und ist auch
+    heute noch mein Ideal. Selbständigkeit
+    fordert einen hohen Einsatz und ist mit
+    Risiken verbunden, bietet aber auch eine
+    große Freiheit. Ob das einem liegt, ist
+    sicher eine Typsache und hat weniger mit
+    den gestalterischen Fähigkeiten als mit
+    Unternehmergeist zu tun. Ich habe noch
+    in der Schulzeit meine erste Firma
+    gegründet und in meiner Freizeit über
+    Geschäftsideen gebrütet. Daher war
+    schon während des Studiums klar, dass
+    ich auch danach selbstständig arbeiten
+    möchte. In meinem Abschlussjahrgang war
+    das nicht die Regel – die meisten
+    wollten schnell in eine Festanstellung
+    und waren auf der Suche nach Sicherheit.
+    Bei einem Einstieg direkt nach dem
+    Studium muss man sich viel erarbeiten.
+    Dabei hängen Erfahrung und finanzieller
+    Erfolg eng zusammen. Ohne große
+    Referenzprojekte fängt man erst mal
+    ganz unten an, da braucht es einen
+    langen Atem. Insbesondere dann, wenn man
+    bei der Arbeit so wenige Kompromisse wie
+    möglich machen möchte.
+  quote: ""
+- 
+  fid: f29
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Habt ihr eine tägliche Routine?
+  category: Prozesse
+  antwort: 'SD:&nbsp;Ich bin immer früh im Studio, in der Regel eine Stunde bevor die anderen kommen. In dieser Zeit beantworte ich E-Mails und mache Dinge, für die ich Ruhe brauche. Der Rest ist eine Mischung aus E-Mails, Telefonaten, Koordination, Erledigen von Teilprojekten und der tatsächlichen Arbeit an den Projekten. Konzepte und Entwürfe mache ich meistens spät abends oder am Wochenende, wenn ich ungestört ein paar Stunden am Stück für mich habe.'
+  quote: ""
+- 
+  fid: f30
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie kann man sich euren
+    Gestaltungsprozess vorstellen?
+  category: Gestaltung
+  antwort: 'SD:&nbsp;Bevor ich mit der Gestaltung beginne, setze ich mich ausführlich mit der Fragestellung und verschiedenen Teilaspekten rund um das Thema auseinander. Darauf folgt eine längere Phase, in der ich mich scheinbar nicht mit dem Projekt beschäftige, aber darüber »brüte«. Dabei treibt mich die Frage um, wie ich den »Kern der Sache« mit den mir zur Verfügung stehenden Mitteln am treffendsten übersetzen kann. Oft kommt dann ein Punkt, an dem ich etwas nervös werde, aber das gehört dazu. Gute Ideen kommen selten ohne Krise. Die meisten Einfälle habe ich beim Einschlafen. Die Gestaltung ist dann erst der zweite Schritt und ergibt sich logisch aus dem ersten. Die grundlegenden Gestaltungsentscheidungen können auf Basis der konzeptionellen Vorarbeit recht schnell getroffen werden. Den größten Anteil des Gestaltungsprozesses macht das Feilen an Details aus. Dabei entstehen zahlreiche Varianten, die ich immer wieder miteinander vergleiche und optimiere – so lange, bis das Ergebnis für mich passt.'
+  quote: Gute Ideen kommen selten ohne Krise.
+- 
+  fid: f31
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Ist es euch wichtig, dass eure
+    Handschrift erkannt wird oder sollte der
+    Auftrag im Vordergrund stehen?
+  category: Haltung
+  antwort: 'SD:&nbsp;Eine Handschrift ist mir nicht wichtig, beziehungsweise nicht unbedingt auf der rein visuellen Ebene. Aber natürlich habe ich bestimmte Gestaltungsprinzipien, wie beispielsweise die Reduktion. Sobald Konzept und Entwurf stehen, arbeite ich am Weglassen. Mit etwas Erfahrung kann man mit Komplexität recht schnell etwas schaffen, was auf den ersten Blick »gut aussieht«. Je reduzierter die Mittel werden, desto bewusster muss ich sie einsetzen und desto schwieriger wird es. Jede Unstimmigkeit fällt sofort ins Auge und ein paar Millimeter können einen großen Unterschied machen. Im Ergebnis kann man dieses Prinzip wohl in den von mir gestalteten Dingen wiedererkennen. Für mich lässt sich das vor allem an der Rückmeldung von Kund_innen ablesen:&nbsp;am häufigsten werde ich aufgrund von Referenzprojekten angefragt, die sich durch ein starkes eigenständiges Konzept und eine konsequente Umsetzung auszeichnen, wie zum Beispiel das »Bookster« Buch.'
+  quote: ""
+- 
+  fid: f32
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Gibt es Stile oder Bewegungen, die euch
+    besonders inspirieren?
+  category: Inspiration
+  antwort: 'SD:&nbsp;Ich würde eher sagen, dass ich mich mit einigen Stilen und Bewegungen mehr auseinandergesetzt habe als mit anderen, zum Beispiel mit Minimalismus, Memphis, Brutalismus, Schweizer Typografie und Remix.'
+  quote: ""
+- 
+  fid: f33
+  spezialfrage: "0"
+  vorfrage: >
+    Erfolg im klassischen Sinne schließt
+    oftmals ein hohes finanzielles Einkommen
+    mit ein.
+  frage: >
+    Wie wichtig ist euch der finanzielle
+    Aspekt der Arbeit?
+  category: Erfolg
+  antwort: 'SD:&nbsp;Erfolg wird oft mit anderen Maßstäben gemessen, zum Beispiel über die Auftraggeber_innen. Dabei werden Museen, Stiftungen, Festivals, Schauspielhäuser etc. gerne höher gehandelt als kommerziellere Kund_innen. Das größere Maß an gestalterischer Freiheit erlaubt es, das eigene Können unter Beweis zu stellen. Der finanzielle Aspekt rückt dabei automatisch etwas in den Hintergrund. Ich selbst finde das gefährlich, es vermittelt ein falsches Bild der Bedingungen, unter denen Gestaltung zustande kommt und führt früher oder später in eine Sackgasse. Der finanzielle Aspekt spielt immer eine Rolle. Vielleicht noch nicht am Anfang, aber spätestens nach ein paar Jahren fragt man sich, wohin man will. Ich persönlich möchte mir keine Sorgen um zu wenig Geld machen müssen. Daher habe ich das Büro so aufgestellt, dass wir für Kund_innen aus verschiedenen Bereichen arbeiten. Darunter finden sich ebenso Kulturinstitutionen wie mittelständische Unternehmen.'
+  quote: ""
+- 
+  fid: f34
+  spezialfrage: "0"
+  vorfrage: >
+    Du hast 2011 den Design-Verein Frankfurt
+    mitgegründet.
+  frage: >
+    Wie wichtig ist euch öffentliche
+    Aufmerksamkeit?
+  category: Sichtbarkeit
+  antwort: 'SD:&nbsp;Ich denke, dass gerade im Design der Austausch wichtig ist. Durch die »Self-Publishing Fair for Design and Art« wollten wir mit dem Design-Verein eine Plattform für Gleichgesinnte schaffen. Damals gab es in dieser Richtung deutlich weniger Angebote und Öffentlichkeit als heute. Design wurde und wird im Gegensatz zur Kunst schnell auf den Aspekt der »Dienstleistung« reduziert. Dabei existiert eine breite Grauzone jenseits der reinen Dienstleistung, die mich sehr interessiert. Da an vielen Kunsthochschulen Design unterrichtet wird, liegt hier der Fokus stärker auf Fragestellungen aus diesem Bereich. Das ist einer der Gründe, warum ich unter anderem unterrichte. Im Idealfall kann ich auch außerhalb der Lehre einen Beitrag leisten.'
+  quote: ""
+- 
+  fid: f35
+  spezialfrage: "0"
+  vorfrage: >
+    Von 2009 bis 2013 hast du mit Michael
+    Satter zusammengearbeitet.
+  frage: >
+    Unterscheiden sich Männer und Frauen in
+    ihrer Arbeitsweise und ist die
+    Zusammenarbeit mit ihnen
+    unterschiedlich?
+  category: Gleichstellung
+  antwort: 'SD:&nbsp;Meiner Ansicht nach haben Unterschiede in der Arbeitsweise in erster Linie mit der eigenen Persönlichkeit zu tun, das Geschlecht spielt eine untergeordnete Rolle. Tendenziell bin ich mehr Männern begegnet, die sich gut durchsetzen konnten und sich eher über- als unterschätzt haben. Hier hätte das eine oder andere Mal etwas mehr Bescheidenheit gut getan. Bei Frauen habe ich oft hohe Anpassungsfähigkeit und Durchhaltevermögen beobachtet. Hier hätte ich mir manchmal etwas mehr Vertrauen in die eigenen Fähigkeiten gewünscht. Natürlich alles der jeweiligen Situation angemessen – diese einschätzen zu können ist das Wichtigste. Mit der Fähigkeit, gut gestalten zu können, hat das alles nichts zu tun.'
+  quote: ""
+- 
+  fid: f36
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Beeinflusst die Familienplanung eure
+    Selbstständigkeit?
+  category: Privatleben
+  antwort: 'SD:&nbsp;Bisher nicht, aber das kann sich ändern und dann wird es die Selbstständigkeit in jedem Fall beeinflussen. Im Gegensatz zu einer Festanstellung ist es wesentlich schwieriger, eine Auszeit zu nehmen. Andererseits kann man Arbeitszeiten frei einteilen. Letztendlich ist die Frage, welche Work-Life-Balance man »sich leisten« kann oder will.'
+  quote: ""
+- 
+  fid: f37
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was wäre das ultimative Projekt?
+  category: Zukunft
+  antwort: 'SD:&nbsp;Das gibt es nicht. Die interessantesten Projekte kommen oft unverhofft.'
+  quote: ""
