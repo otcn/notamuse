@@ -71,9 +71,14 @@ $(document).ready(function() {
   });
 
   /* on mouseenter the interview should load into the container */
-  // $('.nav-interview a, a.interviewee-title').mouseenter( function(e) {
-  //   var uid = $(this).attr('href'); // get the href-url
-  //   e.preventDefault();
-  // });
+  $('.nav-interview a, a.interviewee-title').mouseenter( function(e) {
+    var uid = $(this).attr('imgsrc'); // get image source
+    $('.preview img').attr('src', uid);
+    $('.preview figure').show();
+  });
+  $('.nav-interview a, a.interviewee-title').mouseleave( function(e) {
+    $('.preview figure').hide();
+    $('.preview img').attr('src', ''); // clear image source
+  });
 
 });
