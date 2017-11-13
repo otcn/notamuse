@@ -1,0 +1,60 @@
+Titlehead: 
+
+----
+
+Title: Corinne Gisel
+
+----
+
+Titlenav: Corinne Gisel, Designerin und Designforscherin
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: corinne_gisel.jpg
+
+----
+
+Url: https://github.com/otcn/notamuse/issues
+
+----
+
+Place: via E-Mail
+
+----
+
+Date: 2017-08-15
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: Nach ihrem Abschluss an der Gerrit Rietveld Academie 2012 in Amsterdam arbeitete Corinne Gisel als selbstständige Designerin in den Bereichen Editorial und Corporate Design. Heute begreift sie sich vielmehr als Wissensvermittlerin und fokussiert sich in ihren Projekten auf den Rechercheprozess und das Verfassen designtheoretischer Texte. Corinne Gisel lebt und arbeitet als Designerin, Autorin und Forscherin in Zürich. Im Interview verrät sie uns, welchen Beitrag Design ihrer Meinung nach zur Gesellschaft leisten kann und wie wichtig recherchebasiertes Arbeiten ist.
+
+----
+
+Interview: 
+
+- 
+  fid: f26
+  spezialfrage: "0"
+  vorfrage: >
+    I heard you just started programming and
+    stuff.
+  frage: Wie gut sind eure PHP-Kenntnisse?
+  category: Programmierung
+  antwort: Not so good.
+  quote: Well, things are bad.
+
+----
+
+Web: https://github.com/otcn/notamuse/wiki/Editor's-Note

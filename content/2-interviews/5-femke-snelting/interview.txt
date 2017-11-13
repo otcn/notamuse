@@ -1,0 +1,45 @@
+Titlehead: 
+
+----
+
+Title: Femke Snelting
+
+----
+
+Titlenav: Femke Snelting, Designerin und Künstlerin
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: 
+
+----
+
+Web: 
+
+----
+
+Place: Hamburg
+
+----
+
+Date: 2017-01-28
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: As an educated graphic designer, Femke Snelting now works as an artist and designer, developing projects at the intersection of design, feminism and free software in the Netherlands and Belgium. She is a core member of Constant, an association for art and media, and De Geuzen, a foundation for multivisual research. Additionally, she is the former head of Libre Graphics and a founding member of Open Source Publishing. We interviewed Femke Snelting on being a woman in a mainly male dominated field and why free software is a relevant practice for feminism.
+
+----
+
+Interview: 

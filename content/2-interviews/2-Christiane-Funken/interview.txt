@@ -167,11 +167,11 @@ Interviewpartner: 0
 
 ----
 
-Interviewimage: portrait_notamuse01bz.jpg
+Interviewimage: christiane_funken.jpg
 
 ----
 
-Introduction: This is an introduction.
+Introduction: Christiane Funken ist Professorin der Soziologie an der Technischen Universität Berlin. In ihrem Buch »Sheconomy – Warum die Zukunft der Arbeitswelt weiblich ist« beschreibt sie detailliert die Aufstiegschancen und Karrierehindernisse für Frauen in der sich rasant wandelnden, neuen Arbeitswelt. Sie ermutigt Frauen, ihre spezifischen Fähigkeiten zu erkennen und strategisch einzusetzen. Im Interview erklärt uns Christiane Funken, warum es sich lohnt, als Frau Macht zu wagen und die sich verändernde Wirtschaftswelt offensiv mitzugestalten.
 
 ----
 
@@ -183,8 +183,12 @@ Url:
 
 ----
 
-Place: Hamburg?
+Place: Berlin
 
 ----
 
-Date: 2017-10-29
+Date: 2017-02-14
+
+----
+
+Web: 

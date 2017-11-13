@@ -1,0 +1,50 @@
+Title: Louise Fili
+
+----
+
+Interviewpartner: 0
+
+----
+
+Interview: 
+
+- 
+  fid: f5
+  spezialfrage: "1"
+  vorfrage: >
+    Die Vorfrage sollte besser ein
+    größeres Textfeld sein.
+  frage: Wie sexistisch ist die Designbranche?
+  category: Spezifisch
+  antwort: |
+    Kann die Fragenauswahl alphabetisch sortiert werden?
+    Wird die ID automatisch vergeben?
+    Kann das Thema automatisch der Frage zugeordnet werden?
+
+----
+
+Interviewimage: louise_filli.jpg
+
+----
+
+Introduction: As an icon in graphic design and hand lettering, New York based Louise Fili significantly shaped and influenced the graphic design community. After working as a senior designer at Herb Lubalin’s studio in the 1970s and as an art director at Pantheon Books in the 1980s, she founded her own studio Louise Fili Ltd in 1989, which made her a female pioneer in graphic design. Besides her work, she won several awards. Currently she teaches at SVA New York. We interviewed her on her numerous personal experiences about being a female designer, the challenges young designers have to face and why she always has some gelato on hand.
+
+----
+
+Titlenav: Louise Fili, Designerin, Louise Fili Ltd.
+
+----
+
+Url: 
+
+----
+
+Place: New York
+
+----
+
+Date: 2017-03-21
+
+----
+
+Web: 
