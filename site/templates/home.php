@@ -19,6 +19,9 @@ snippet('header');
 <?php
 snippet('intro');
 snippet('about');
+?>
+<div class="preview"><figure><img src=""/></figure></div>
+<?php
 snippet('interview');
 /*foreach($pages->visible() as $section) {
   snippet($section->uid(), array('data' => $section));
