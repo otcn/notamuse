@@ -32,7 +32,7 @@ $(document).ready(function() {
     return false
   }
 
-  $(document).on('click', '.nav-interview a', function(e) {
+  $(document).on('click', '.nav-interview a, a.interviewee-title', function(e) {
     var uid = $(this).attr('href'); // get the href-url
     if (uid == window.location.href) {
       e.preventDefault(); // do nothing if current url equals href-url
@@ -42,7 +42,7 @@ $(document).ready(function() {
     }
   });
 
-  $(document).on('click', 'aside #fragen li a', function(e) {
+  $(document).on('click', '.nav-interview a, a.interviewee-title', function(e) { //aside #fragen li a
       e.preventDefault();
   });
 
