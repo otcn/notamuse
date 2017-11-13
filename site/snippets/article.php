@@ -42,7 +42,7 @@
                                                 ?>
                                                 <li class="answer-item">
 
-                                                    <a href="<?php echo $interview->url() ?>" class="interviewee-title">
+                                                    <a href="<?php echo $interview->url() ?>" class="interviewee-title" imgsrc="<?php if($image = $interview->image()): ?><?php echo $image->url() ?><?php endif ?>">
                                                         <!--Name Surname-->
                                                         <?php echo $interview->title() ?>
                                                     </a>
