@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   // PREVIEW INERVIEWEE-IMAGE <- needs proper Ajax implementation to work
     var hoverTimeout;
-    $('.interviewee-title, .interview-anchor').hover(function() {
+    $('.interviewee-title, .nav-interview a').hover(function() {
         clearTimeout(hoverTimeout);
         $('#interview-info figure').addClass('preview');
     }, function() {
