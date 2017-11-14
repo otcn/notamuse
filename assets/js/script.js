@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
     /* AJAX SCRIPT */
+
     // History
+
     function projects(uid) {
         if (uid !== 'about'){
             $.ajax({
@@ -20,88 +22,85 @@ $(document).ready(function() {
         }
     }
 
-  History.Adapter.bind(window, 'statechange', function() {
-    var State = History.getState();
-    var uid = State.hash.split('?')[0].substring(1);
-    if (!uid.length == 0) {
-      projects(uid);
+    History.Adapter.bind(window, 'statechange', function() {
+        var State = History.getState();
+        var uid = State.hash.split('?')[0].substring(1);
+        if (!uid.length == 0) {
+            projects(uid);
+        }
+    });
+
+    function push(uid) {
+        History.pushState(uid, document.title, uid);
+        return false
     }
-  });
 
-  function push(uid) {
-    History.pushState(uid, document.title, uid);
-    return false
-  }
-
-  function init(){
-    var uid = History.getState().hash.split('?')[0].substring(1);
-    if (uid.length <= 0){  // if it’s not a subpage, show intro and seperator */
-      $( '.intro-container' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
-      $( '#separator' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
+    function init(){
+        var uid = History.getState().hash.split('?')[0].substring(1);
+            if (uid.length <= 0){  // if it’s not a subpage, show intro and seperator */
+            $( '.intro-container' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
+            $( '#separator' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
+        }
+        else if (uid == 'about'){
+            $('.about-container').removeClass('hidden');
+            $('#separator').removeClass('hidden');
+        }
+        else{
+            $( '#separator' ).removeClass('hidden'); // if it’s subpage, only show the seperator
+        }
     }
-    else if (uid == 'about'){
-      $('.about-container').removeClass('hidden');
-      $('#separator').removeClass('hidden');
-    }
-    else{
-      $( '#separator' ).removeClass('hidden'); // if it’s subpage, only show the seperator
-    }
-  }
 
-  init()
+    init()
 
-  /* on click the url and content should change */
-  $('.nav-interview a, a.interviewee-title').on('click', function(e) {
-    var uid = $(this).attr('href'); // get the href-url
-    if (uid == window.location.href) {
-      e.preventDefault(); // do nothing if current url equals href-url
-    } else {
-      push(uid);
-      e.preventDefault();
-    }
-  });
+    /* on click the url and content should change */
+    $('.nav-interview a, a.interviewee-title').on('click', function(e) {
+        var uid = $(this).attr('href'); // get the href-url
+        if (uid == window.location.href) {
+            e.preventDefault(); // do nothing if current url equals href-url
+        } else {
+            push(uid);
+            e.preventDefault();
+        }
+    });
 
-//
-// Former overlay.js:
-//
+    /* OVERLAY */
 
-  /* default */
-  // $( '.intro-container' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
-  // $( '#separator' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
-  // $( '.about-container' ).addClass('hidden');
-  // $( '.interview-container' ).addClass('hidden');
+    /* close overlay and seperator */
+    $('#separator').click(function(){
+        $(this).addClass('hidden');
+        $('.overlay').addClass('hidden');
+        push('/'); // clear url
+    });
 
-  /* close overlay and seperator */
-  $('#separator').click(function(){
-      $(this).addClass('hidden');
-      $('.overlay').addClass('hidden');
-      push('/'); // clear url
-  });
+    /* open about overlay */
+    $('.nav-about a').click(function(){
+        $('.about-container').removeClass('hidden');
+        $('#separator').removeClass('hidden');
+        push('about');
+    });
 
-  /* open about overlay */
-  $('.nav-about a').click(function(){
-      $('.about-container').removeClass('hidden');
-      $('#separator').removeClass('hidden');
-      push('about');
-  });
+    /* on mouseenter the interview should load into the container */
+    $('a.interviewee-title, .nav-interview a').mouseenter(function(e) {
+        var uid = $(this).attr('imgsrc'); // get image source
+        $('.preview img').attr('src', uid);
+        $('.preview figure').show();
+    });
 
-  /* on mouseenter the interview should load into the container */
-  $('a.interviewee-title, .nav-interview a').mouseenter(function(e) {
-    var uid = $(this).attr('imgsrc'); // get image source
-    $('.preview img').attr('src', uid);
-    $('.preview figure').show();
-  });
-  $('a.interviewee-title, .nav-interview a').mouseleave(function(e) {
-    $('.preview figure').hide();
-    $('.preview img').attr('src', ''); // clear image source
-  });
+    $('a.interviewee-title, .nav-interview a').mouseleave(function(e) {
+        $('.preview figure').hide();
+        $('.preview img').attr('src', ''); // clear image source
+    });
 
+});
 
+$(document).ready(function() {
 
-  // HIDE CHILD-ELEMENTS
+    /* NAVIGATION AND TOPIC LIST */
+
+    // HIDE CHILD-ELEMENTS
     $('.child').hide(); // hide children by default
 
-  // NAVIGATE TOPIC-LIST DROPDOWN
+    // NAVIGATE TOPIC-LIST DROPDOWN
     $('.parent').children().click(function(){
         $(this).toggleClass('active');
         $(this).children('.topic-title').children().toggleClass('active');
@@ -111,60 +110,53 @@ $(document).ready(function() {
         event.stopPropagation();
     });
 
-  // FUNCTION FOR LINKS WHICH OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
-
+    // FUNCTION FOR LINKS WHICH OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
     function topicLink(anchor) {
-      // get target element and related relevant elements:
-      var href = anchor.attr( 'href' );
-      var target = $( href );
-      var questionItem = target.parents('.question-item');
-      var topicItem = target.parents('.topic-item');
-      var topicTitle = topicItem.children('.topic-title').children('a');
+        // get target element and related relevant elements:
+        var href = anchor.attr( 'href' );
+        var target = $( href );
+        var questionItem = target.parents('.question-item');
+        var topicItem = target.parents('.topic-item');
+        var topicTitle = topicItem.children('.topic-title').children('a');
 
-      // hide/inactivate other stuff:
-      $('.topic-list .active').removeClass('active'); // remove all active states in the topic list
-      $('.topic-list .child').hide(); // hide all dropdowns
+        // hide/inactivate other stuff:
+        $('.topic-list .active').removeClass('active'); // remove all active states in the topic list
+        $('.topic-list .child').hide(); // hide all dropdowns
 
-      // reveal relevant dropdowns:
-      target.parents('.child').show();
-      questionItem.children('.child').show(); // maybe use ".slideDown('slow')" instead?
+        // reveal relevant dropdowns:
+        target.parents('.child').show();
+        questionItem.children('.child').show(); // maybe use ".slideDown('slow')" instead?
 
-      // add active states to relevant elements:
-      target.addClass('active').siblings().addClass('active');
-      topicTitle.addClass('active');
+        // add active states to relevant elements:
+        target.addClass('active').siblings().addClass('active');
+        topicTitle.addClass('active');
     };
 
-  // CLICK NAV-QUESTION TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
-
-    // $('.nav-question a').click(function(){
-    //   var anchor = $( this );
-    //   topicLink(anchor);
-    // });
-
+    // CLICK NAV-QUESTION TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
     $('.nav-question a').click(function(e){
         var anchor = $( this );
         if (anchor.attr('href').indexOf('http') == -1){
-          topicLink(anchor);
+            topicLink(anchor);
         }
         else{
-          push(anchor.attr('href').split('#')[0])
-          e.preventDefault();
+            push(anchor.attr('href').split('#')[0])
+            e.preventDefault();
         }
-      });
     });
 
-  // CLICK INTRO-LINK TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
-
+    // CLICK INTRO-LINK TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
     $('.intro-nav a').click(function(){
-
-      var anchor = $( this );
-      var overlay = anchor.parents('.overlay').addClass('hidden');
-      var separator = $('#separator').addClass('hidden');
-      topicLink(anchor);
-
+        var anchor = $( this );
+        var overlay = anchor.parents('.overlay').addClass('hidden');
+        var separator = $('#separator').addClass('hidden');
+        topicLink(anchor);
     });
 
-  // SMOOTH SCROLLING TO INTERNAL ANCHOR TARGETS
+});
+
+$(document).ready(function() {
+
+    // SMOOTH SCROLLING TO INTERNAL ANCHOR TARGETS
       ////////
       // The following code, which enables Smooth Scrolling, is copied from https://css-tricks.com/snippets/jquery/smooth-scrolling/
         // Select all links with hashes
@@ -204,31 +196,37 @@ $(document).ready(function() {
             }
           });
 
-  // LANGUAGE: ENGLISH
+
+    // LANGUAGE: ENGLISH
     $('.language-anchor').click(function(){
         alert('Awfully sorry, but english isn\'t available yet!');
     });
 
-  // TOGGLE OPEN- AND CLOSE-ICONS
+    // TOGGLE OPEN- AND CLOSE-ICONS
     $('.key-icon').siblings('a').hover(function() {
-      var trigger = $(this);
-      var key = trigger.siblings('.key-icon');
-      key.toggleClass( 'active' );
-      //trigger.siblings('.key-icon').toggle(); // un-comment later!
+        var trigger = $(this);
+        var key = trigger.siblings('.key-icon');
+        key.toggleClass( 'active' );
+        //trigger.siblings('.key-icon').toggle(); // un-comment later!
     });
 
     $('.key-icon').siblings('a').click(function() {
-      var trigger = $(this);
-      var key = trigger.siblings('.key-icon');
-      if ( trigger.hasClass( '.active' ) ) {
-        key.addClass( 'active' );
-      } else {
-        key.removeClass( 'active' );
-      }
-      key.toggleClass( 'active' );
+        var trigger = $(this);
+        var key = trigger.siblings('.key-icon');
+        if ( trigger.hasClass( '.active' ) ) {
+            key.addClass( 'active' );
+        } else {
+            key.removeClass( 'active' );
+        }
+        key.toggleClass( 'active' );
     });
 
+});
+
+$(document).ready(function() {
+
   // NAVIGATION
+
     // DEFAULT
     $('.sub').hide(); // hide children by default
 
@@ -243,7 +241,6 @@ $(document).ready(function() {
       $('.child').hide(); // hide all child-elements
       $(this).addClass('active');
     });
-
 
     // CONTROL NAV-MODE
     $('.nav-switch').click(function(){
@@ -263,11 +260,21 @@ $(document).ready(function() {
     });
 
     $('#content').click(function(){
-      $('#main-wrapper').removeClass("nav-mode");
-      $('.sub').slideUp(100);
+        $('#main-wrapper').removeClass("nav-mode");
+        $('.sub').slideUp(100);
     });
 
-  // STICKINESS MAIN
+});
+
+
+
+
+
+// OLDER STUFF
+
+
+
+    // STICKINESS MAIN
     /*
     var myChild;
     var myParent;
@@ -275,24 +282,18 @@ $(document).ready(function() {
     var scrollTop;
 
     $('.topic-title>a').click(function() {
-
       myChild = $(this);
       myParent = $(this).parent( '.topic-title' );
-
-
       $( '.topic-title.sticky' ).each(function() {
         $( this ).removeClass( 'sticky' );
       });
-
       if ( myChild.is( '.active' ) ) {
         myParent.removeClass('sticky');
-
       } else {
         //myParent.addClass('sticky');
         myParentTop = myParent.offset().top;
         console.log(myParentTop);
       }
-
     });
 
     $(window).scroll(function() {
@@ -306,7 +307,8 @@ $(document).ready(function() {
     });
     */
 
-  // STICKINESS NAV
+    // STICKINESS NAV
+    /*
     var interviewsButtonTop = $('#interviews-button').offset().top;
     var questionsButtonTop = $('#questions-button').offset().top;
     var stickyButton = function() {
@@ -326,40 +328,45 @@ $(document).ready(function() {
     stickyButton();
 
     $(window).scroll(function() {
-      stickyButton();
+        stickyButton();
     });
+    */
 
 
 
-    // copy of marquee.js - in here for testing purposes only:
 
-    function marquee() {
 
-      var marquee = $( ".marquee" ); // get my marquee cotainer
-      var marqTop = $( marquee ).offset().top; // get my marquee cotainer's inner width
-      console.log( "marqTop: " + marqTop );
 
-      var pLast = marquee.children('p').last(); // get my last p
-      pLast.addClass( "marker" );
-      var pText = pLast.text(); // get my last p's text
-      console.log( pText );
 
-      var pLastTop = Math.ceil( marqTop - pLast.offset().top ); // calculate distance between my last p's right side and the parent container
-      console.log( "pLastTop: " + pLastTop );
+        // copy of marquee.js - in here for testing purposes only:
+        /*
+        function marquee() {
 
-      if( pLastTop < 0 ) { // if p exceeds marquee
-        $( ".marker" ).removeClass( "marker" );
-        //$( marquee ).append("<p>" + pText + "</p>"); // add new p;
-        $( "<p>" + pText + "</p>" ).addClass( "marker" ).appendTo( marquee ); // add new p;
-      }
-    }
-    marquee();
+          var marquee = $( ".marquee" ); // get my marquee cotainer
+          var marqTop = $( marquee ).offset().top; // get my marquee cotainer's inner width
+          console.log( "marqTop: " + marqTop );
 
-    $(window).scroll(function() {
-      marquee();
-      var myElements = $( ".marquee p" );
-      myScroll = $(window).scrollTop(); // vertical scroll position
-      myElements.css({"transform" : "translateX(" + -myScroll + "px)" });
-    });
+          var pLast = marquee.children('p').last(); // get my last p
+          pLast.addClass( "marker" );
+          var pText = pLast.text(); // get my last p's text
+          console.log( pText );
 
-});
+          var pLastTop = Math.ceil( marqTop - pLast.offset().top ); // calculate distance between my last p's right side and the parent container
+          console.log( "pLastTop: " + pLastTop );
+
+          if( pLastTop < 0 ) { // if p exceeds marquee
+            $( ".marker" ).removeClass( "marker" );
+            //$( marquee ).append("<p>" + pText + "</p>"); // add new p;
+            $( "<p>" + pText + "</p>" ).addClass( "marker" ).appendTo( marquee ); // add new p;
+          }
+        }
+        marquee();
+
+
+        $(window).scroll(function() {
+          marquee();
+          var myElements = $( ".marquee p" );
+          myScroll = $(window).scrollTop(); // vertical scroll position
+          myElements.css({"transform" : "translateX(" + -myScroll + "px)" });
+        });
+        */
