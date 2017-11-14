@@ -68,7 +68,7 @@
             ?>
 
             <li class="nav-interview">
-              <a href="<?php echo $interview->url() ?>">
+              <a href="<?php echo $interview->url() ?>" imgsrc="<?php if($image = $interview->image()): ?><?php echo $image->url() ?><?php endif ?>">
 
                 <?php if( !$interview->titlenav()->empty() ): ?>
                   <?php echo $interview->titlenav() ?>

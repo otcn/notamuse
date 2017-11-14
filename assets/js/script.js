@@ -63,6 +63,16 @@ $(document).ready(function() {
     }
   });
 
+//
+// Former overlay.js:
+//
+
+  /* default */
+  $( '.intro-container' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
+  $( '#separator' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
+  $( '.about-container' ).addClass('hidden');
+  $( '.interview-container' ).addClass('hidden');
+
   /* close overlay and seperator */
   $('#separator').click(function(){
       $(this).addClass('hidden');
@@ -78,14 +88,15 @@ $(document).ready(function() {
   });
 
   /* on mouseenter the interview should load into the container */
-  $('a.interviewee-title').mouseenter(function(e) {
+  $('a.interviewee-title, .nav-interview a').mouseenter(function(e) {
     var uid = $(this).attr('imgsrc'); // get image source
     $('.preview img').attr('src', uid);
     $('.preview figure').show();
   });
-  $('a.interviewee-title').mouseleave(function(e) {
+  $('a.interviewee-title, .nav-interview a').mouseleave(function(e) {
     $('.preview figure').hide();
     $('.preview img').attr('src', ''); // clear image source
   });
+
 
 });
