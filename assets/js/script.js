@@ -259,9 +259,11 @@ $(document).ready(function() {
       }
     });
 
-    $('#content').click(function(){
-        $('#main-wrapper').removeClass("nav-mode");
+    $('#content *').click(function(){
+        $('#main-wrapper').removeClass('nav-mode');
         $('.sub').slideUp(100);
+        $('#nav *').removeClass('active');
+        $('#topics-button').addClass('active');
     });
 
 });

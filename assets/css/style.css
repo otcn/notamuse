@@ -22,7 +22,6 @@
     font-size: 19px;
     line-height: 27px;
     /* overflow-x: visible; */
-
   }
 
   *:focus {
@@ -229,7 +228,6 @@
 /* CLOSE AND OPEN ICONS ========================================================================== */
 
   a.key-icon {
-
     font-size: 30px;
     line-height: 33px;
     position: absolute;
@@ -237,8 +235,9 @@
     margin-top: -15px;
     cursor: pointer;
     font-family: RenaGrotesk-Regular, sans-serif;
-    /*display:none;*/
+    display:none;
   }
+
   a.key-icon::after { content: "​\E000"; } /* inserts glyph before anchor" */
   a.key-icon.active::after { content: "\E001"; } /* inserts glyph before anchor" */
 
@@ -261,6 +260,11 @@
     top: 15px;
     margin-top: -15px;
     z-index: 110;
+    display:none;
+  }
+
+  #nav li:hover a.key-icon, *:hover>a.key-icon {
+    display:block;
   }
 
   .topic-title a.key-icon {
@@ -410,8 +414,11 @@
     max-height:35vw;
   }
 
+  .hidden .aside-info {
+    display: none;
+  }
+
   .aside-info {
-    display: block;
     position: fixed;
     top: 0;
     left: 64vw;
@@ -529,7 +536,7 @@
     max-width:35vw;
   }
 
-  #nav>ul>li>a {
+  .nav a {
     padding: 0 0 0 .6em;
     margin: 0px 0px 0px 0px;
     display: block;
@@ -622,6 +629,7 @@
         position: relative;
         white-space: nowrap;
         background: #fff;
+        cursor:  pointer;
       }
 
   .topic-title {

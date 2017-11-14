@@ -1,5 +1,5 @@
 <div id="nav-frame" class="flex-item">
-  <div id="nav">
+  <div id="nav" class="nav">
     <ul>
 
       <li class="nav-topics"><a id="topics-button" class="nav-button">Themen</a></li>
