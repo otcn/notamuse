@@ -713,3 +713,42 @@
     background: red;
     color: green;
   }
+
+/* PREVIEW CONTAINER ========================================================================== */
+
+
+.preview {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 64vw;
+      margin-top: 19px;
+      padding: 0;
+      z-index: 100;
+      width: 24vw;
+      min-width: 120px;
+      max-width: 600px;
+      height: 100vh;
+      pointer-events: none;
+  }
+
+.preview figure{
+    display: none;
+    overflow: hidden;
+    height: 35vw;
+    max-height: 35vw;
+}
+
+.preview figure img {
+    display: block;
+    width: 24vw;
+    height: 35vw;
+    min-width: 120px;
+    max-width: 702px;
+    min-height: 176px;
+    max-height: 1032px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
