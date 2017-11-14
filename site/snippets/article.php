@@ -37,8 +37,24 @@
                                     <ul class="answer-list child"><!-- unordered list of answers -->
                                     <?php
                                     foreach($pages->find('interviews')->children()->visible() as $interview) {
-                                        foreach($interview->interview()->toStructure()->filterBy('frage', $frage->frage()) as $random) {
-                                            foreach($random->antwort()->toStructure() as $answer) {
+                                        foreach($interview->interview()->toStructure()->filterBy('frage', $frage->frage()) as $interviewUnit) {
+
+                                            ?>
+                                            <li class="answer-item">
+
+                                                <a href="<?php echo $interview->url() ?>" class="interviewee-title" imgsrc="<?php if($image = $interview->image()): ?><?php echo $image->url() ?><?php endif ?>">
+                                                    <?php echo $interview->title() ?>
+                                                </a>
+
+                                                <?php echo $interviewUnit->antwort()->kirbytext() ?> <!-- echoes whole answer -->
+
+                                            </li>
+                                            <?php
+
+                                            /* The following, original code seems to contain one loop to many, which leads to the wrong output of the answer */
+
+                                            /*
+                                            foreach($interviewUnit->antwort()->toStructure() as $answer) { //->toStructure()
                                                 ?>
                                                 <li class="answer-item">
 
@@ -47,13 +63,13 @@
                                                         <?php echo $interview->title() ?>
                                                     </a>
 
-                                                    <p>
-                                                        <?php echo $answer ?> <!-- echoes whole answer -->
-                                                        <?php //echo $answer->excerpt(300) ?> <!-- echoes excerpt of 300 chars of answer -->
-                                                    </p>
+                                                    <?php echo $answer->kirbytext() ?> <!-- echoes whole answer -->
+
                                                 </li>
                                                 <?php
                                             }
+                                            */
+
                                         }
                                     }
                                     ?>

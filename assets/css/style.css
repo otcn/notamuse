@@ -32,12 +32,14 @@
     font-size: 95px;
     line-height: 97px;
     letter-spacing:-0.04em;
+
   }
 
   .topic-title a {
     font-size: 95px;
     line-height: 0px; /* adjust distance from top while sticky here */
     letter-spacing: -.03em;
+    padding-bottom: 2px;
   }
 
   .marquee p {
@@ -97,7 +99,8 @@
     content: "\2197";
   }
   a.a-intern:hover, a.a-extern:hover {
-    border-bottom: 1px solid white;
+    /*border-bottom: 1px solid white;*/
+    text-decoration:  underline;
     font-family: RenaGrotesk-Regular, sans-serif;
   }
 

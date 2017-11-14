@@ -14,7 +14,7 @@ Informationhead:
 
 ----
 
-Interviewimage: 
+Interviewimage: julia-meer.jpg
 
 ----
 

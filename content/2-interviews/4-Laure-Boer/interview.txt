@@ -154,10 +154,11 @@ Interview:
   frage: Woraus zieht ihr Inspiration?
   category: Inspiration
   antwort: |
-    LB:Mich interessiert Grafikdesign sehr, aber ich schaue mir keine Blogs und wenig Bücher dazu an. Arbeiten, die mich inspirieren oder berühren, kommen eher aus der Kunst oder der Musik, weniger aus dem Grafikdesign selbst. Ich finde die Künstlerin Anne Gathmann, für die wir gerade ein Projekt gemacht haben, sehr inspirierend – ihr künstlerischer Ansatz hat mir persönlich sehr viel gebracht.
+    LB:&nbsp;Mich interessiert Grafikdesign sehr, aber ich schaue mir keine Blogs und wenig Bücher dazu an. Arbeiten, die mich inspirieren oder berühren, kommen eher aus der Kunst oder der Musik, weniger aus dem Grafikdesign selbst. Ich finde die Künstlerin <a href="http://www.annegathmann.com/">Anne Gathmann</a>, für die wir gerade ein Projekt gemacht haben, sehr inspirierend – ihr künstlerischer Ansatz hat mir persönlich sehr viel gebracht.
     Musikalisch hat mich der Film »Step Across the Border« von Nicolas Humbert und Werner Penzel über den Musiker Fred Frith und seine experimentelle Improvisationsmusik sehr beeindruckt, ein auch ästhetisch sehr ansprechender Schwarz-Weiß-Film. Als Kind habe ich klassische Musik gelernt, und der Film hat mir die Augen dafür geöffnet, dass man auch anders Musik machen kann. Das hat mein ganzes Denken verändert.
-    Im Designbereich finde ich Ariane Spanier beeindruckend, vor allem ihren Umgang mit Farbe. Auch wenn das ein bisschen arrogant klingt, gibt es im Grafikdesign wenige Arbeiten, die mich umhauen. Vielleicht liegt es daran, dass mich Grafikdesign einfach nicht so berührt wie Kunst oder Musik.
+    Im Designbereich finde ich <a href="https://www.arianespanier.com/">Ariane Spanier</a> beeindruckend, vor allem ihren Umgang mit Farbe. Auch wenn das ein bisschen arrogant klingt, gibt es im Grafikdesign wenige Arbeiten, die mich umhauen. Vielleicht liegt es daran, dass mich Grafikdesign einfach nicht so berührt wie Kunst oder Musik.
   quote: ""
+  quoteauthor: ""
 - 
   fid: f17
   spezialfrage: "0"
@@ -220,8 +221,11 @@ Interview:
     Haltet ihr gerne Vorträge oder gebt
     Workshops?
   category: Sichtbarkeit
-  antwort: 'LB:Vorträge sind sehr schwierig für mich, ich finde Kommunikation anstrengend. Das ist oft ein Thema zwischen Sebastian und mir: Wir entwickeln uns ständig weiter und haben unterschiedliche Wege uns darzustellen und über uns zu sprechen. Ich finde es angenehmer, wenn er die Präsentation übernimmt. Workshops hingegen leite ich gerne, das mache ich schon seit Jahren.'
+  antwort: |
+    LB:Vorträge sind sehr schwierig für mich, ich finde Kommunikation anstrengend. Das ist oft ein Thema zwischen Sebastian und mir: Wir entwickeln uns ständig weiter und haben unterschiedliche Wege uns darzustellen und über uns zu sprechen. Ich finde es angenehmer, wenn er die Präsentation übernimmt. Workshops hingegen leite ich gerne, das mache ich schon seit Jahren.
+    (<a href="../franziska-parschau">Franziska Parschau über männliche und weibliche Sprecher_innen</a>)
   quote: ""
+  quoteauthor: ""
 - 
   fid: f21
   spezialfrage: "0"
