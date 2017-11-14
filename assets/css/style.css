@@ -22,6 +22,11 @@
     font-size: 19px;
     line-height: 27px;
     /* overflow-x: visible; */
+
+  }
+
+  *:focus {
+    outline: 0;
   }
 
   body {
