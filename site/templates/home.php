@@ -14,7 +14,14 @@
 <div id="separator" class="hidden"><a class="key-icon active"></a></div>
 
 <!-- overlay snippets -->
-<div class="preview"><figure><img src=""/></figure></div>
+<div class="preview">
+  <figure>
+    <div id="about-image" class="aside-image">
+      <img src=""/>
+    </div>
+  </figure>
+</div>
+
 <?php
 snippet('intro');
 snippet('about');

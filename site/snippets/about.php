@@ -25,7 +25,7 @@
   <div id="about-info" class="aside-info">
     <figure>
       <?php foreach($about->images() as $image): ?>
-        <div id="about-image" class="interviewee-image">
+        <div id="about-image" class="aside-image">
             <a href="<?php echo $image->url() ?>">
                 <img src="<?php echo $image->url() ?>" alt="">
             </a>
