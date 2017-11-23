@@ -3,7 +3,6 @@ $(document).ready(function() {
     /* AJAX SCRIPT */
 
     // History
-
     function projects(uid) {
         if (uid !== 'about'){
             $.ajax({
@@ -52,7 +51,9 @@ $(document).ready(function() {
 
     init()
 
-    /* on click the url and content should change */
+    /* EVENTS */
+
+    /* open an interview, on click the url and content should change */
     $('.nav-interview a, a.interviewee-title').on('click', function(e) {
         var uid = $(this).attr('href'); // get the href-url
         if (uid == window.location.href) {
@@ -63,8 +64,19 @@ $(document).ready(function() {
         }
     });
 
-    /* OVERLAY */
+    /* click on a nav-question to EITHER open scroll to the related answer (under the main topics) OR (in case of a "special question") open the related interview overlay and scroll to the related answer */
+    $('.nav-question a').click(function(e){
+      var anchor = $( this );
+      if (anchor.attr('href').indexOf('http') == -1){
+        topicLink(anchor);
+      }
+      else{
+        push(anchor.attr('href').split('#')[0])
+        e.preventDefault();
+      }
+    });
 
+    /* OVERLAY */
     /* close overlay and seperator */
     $('#separator').click(function(){
         $(this).addClass('hidden');
@@ -79,13 +91,13 @@ $(document).ready(function() {
         push('about');
     });
 
+    /* SHOW INTERVIEW PREVIEW IMAGE */
     /* on mouseenter the interview should load into the container */
     $('a.interviewee-title, .nav-interview a').mouseenter(function(e) {
         var uid = $(this).attr('imgsrc'); // get image source
         $('.preview img').attr('src', uid);
         $('.preview figure').show();
     });
-
     $('a.interviewee-title, .nav-interview a').mouseleave(function(e) {
         $('.preview figure').hide();
         $('.preview img').attr('src', ''); // clear image source
@@ -132,17 +144,7 @@ $(document).ready(function() {
         topicTitle.addClass('active');
     };
 
-    // CLICK NAV-QUESTION TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
-    $('.nav-question a').click(function(e){
-        var anchor = $( this );
-        if (anchor.attr('href').indexOf('http') == -1){
-            topicLink(anchor);
-        }
-        else{
-            push(anchor.attr('href').split('#')[0])
-            e.preventDefault();
-        }
-    });
+
 
     // CLICK INTRO-LINK TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
     $('.intro-nav a').click(function(){
@@ -272,7 +274,7 @@ $(document).ready(function() {
 
 
 
-// OLDER STUFF
+// OLDER STUFF - NOT SURE IF STILL NEEDED:
 
 
 
@@ -340,35 +342,3 @@ $(document).ready(function() {
 
 
 
-        // copy of marquee.js - in here for testing purposes only:
-        /*
-        function marquee() {
-
-          var marquee = $( ".marquee" ); // get my marquee cotainer
-          var marqTop = $( marquee ).offset().top; // get my marquee cotainer's inner width
-          console.log( "marqTop: " + marqTop );
-
-          var pLast = marquee.children('p').last(); // get my last p
-          pLast.addClass( "marker" );
-          var pText = pLast.text(); // get my last p's text
-          console.log( pText );
-
-          var pLastTop = Math.ceil( marqTop - pLast.offset().top ); // calculate distance between my last p's right side and the parent container
-          console.log( "pLastTop: " + pLastTop );
-
-          if( pLastTop < 0 ) { // if p exceeds marquee
-            $( ".marker" ).removeClass( "marker" );
-            //$( marquee ).append("<p>" + pText + "</p>"); // add new p;
-            $( "<p>" + pText + "</p>" ).addClass( "marker" ).appendTo( marquee ); // add new p;
-          }
-        }
-        marquee();
-
-
-        $(window).scroll(function() {
-          marquee();
-          var myElements = $( ".marquee p" );
-          myScroll = $(window).scrollTop(); // vertical scroll position
-          myElements.css({"transform" : "translateX(" + -myScroll + "px)" });
-        });
-        */

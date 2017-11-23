@@ -627,7 +627,7 @@
       .topic-title, .question-title {
         display: block;
         position: relative;
-        white-space: nowrap;
+        white-space: normal;
         background: #fff;
         cursor:  pointer;
       }
@@ -657,6 +657,14 @@
     margin: 0px 0px 0px 0px;
   }
 
+  .question-title a:first-child {
+    max-width: 55vw;
+    display: block;
+  }
+  .question-title a:first-child:hover {
+    max-width: 68vw;
+  }
+
   .answer-list {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -668,6 +676,7 @@
 
   .answer-item {
     margin: 27px 0px 0px 0px;
+    max-width: 50vw;
   }
 
   a.interviewee-title {
