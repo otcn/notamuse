@@ -1,0 +1,212 @@
+Titlehead: 
+
+----
+
+Title: Amanda Haas
+
+----
+
+Titlenav: Amanda Haas, Designerin, Studio Amanda Haas
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: amanda_haas.jpg
+
+----
+
+Url: https://www.google.de
+
+----
+
+Place: Berlin, Deutschland
+
+----
+
+Date: 2017-05-11
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: Nach ihrem Abschluss an der Hochschule Luzern 2010 gründete Amanda Haas ihr eigenes Studio in Berlin, in dem sie Strategien und Anwendungen von Print und Web bis hin zu raumgreifenden Interventionen entwickelt. Bei der Realisierung ihrer Projekte legt Amanda Haas besonderen Wert auf Transparenz und Nachhaltigkeit. Neben ihrer Arbeit im Studio ist sie als Yogalehrerin und Projektmanagerin beim Verein The Lovers tätig. Im Gespräch berichtet sie von ihrem persönlichen Engagement, von ihren Erfahrungen mit Sexismus in der Designbranche und darüber, welchen gesellschaftlichen Beitrag Design leisten kann.
+
+----
+
+Interview: 
+
+- 
+  fid: f79
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Was war die ausschlaggebende Motivation
+    zur Selbstständigkeit?
+  category: Arbeitsform
+  antwort: 'AH:&nbsp;In unserer Branche ist es oft so, dass man entweder Vollzeit in einer Agentur angestellt ist oder als Freelancer_in projektbasiert gebraucht wird. Schon während meines Studiums hatte ich eigene Kund_innen und war auch für Agenturen tätig. Nach meinem Abschluss war ich in einer Agentur zwar Vollzeit tätig, aber als Freelancerin, sodass es eigentlich eine Scheinselbstständigkeit war. Wäre mir bewusst gewesen, was durch die Selbstständigkeit an Kosten und Hürden auf mich zukommt, hätte ich vielleicht darauf bestanden, angestellt zu werden. Zu dem Zeitpunkt war ich etwas naiv, aber irgendwann habe ich mich dann bewusst für die Selbstständigkeit entschieden.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f80
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie setzt sich euer Team zusammen?
+  category: Arbeitsform
+  antwort: |
+    AH:&nbsp;In meinem Studio arbeiten wir meist zu zweit. Ich habe mich lange geweigert, Praktikant_innen einzustellen, weil ich dieses System sehr kritisch sehe:&nbsp;als Praktikant_in hat man zwar gewisse Vorzüge, aber wenn man eigentlich wie ein/e Junior Designer_in fünf Tage die Woche an einem Ort arbeitet und nicht bezahlt wird, ist das problematisch. Ich biete meinen Praktikant_innen daher eine Teilzeitstelle, sodass sie noch eigenständig arbeiten können. Außerdem akzeptiere ich nur Studierende, die ein Pflichtpraktikum absolvieren müssen. Es ist mir wichtig, dass bei einem Praktikum beide Seiten voneinander profitieren können:&nbsp;ich gebe Erfahrung und Projekte weiter, sie lernen daran und können ein integrierter Teil meines Studios werden. In einem kleinen Studio kannst du tatsächlich Allrounder_in werden und fast alles machen, was man auch als Inhaber_in macht. In großen Agenturen ist das oft nicht möglich, dort gibt nur sehr begrenzte Möglichkeiten.
+    Zusätzlich arbeite ich mit Freelancer_innen zusammen und kollaboriere oft mit anderen Designer_innen, Leuten aus dem Marketing, Kurator_innen oder anderen Bereichen.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f81
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie laufen Projekte üblicherweise ab?
+  category: Prozesse
+  antwort: 'AH:&nbsp;Jedes Projekt bringt andere Voraussetzungen mit sich, es gibt nicht die eine Herangehensweise. Immer gleich ist jedoch die Analyse des Projekts:&nbsp;Größe, Umfang, Dauer, Gegebenheiten. Es gibt mehrere Vorgespräche, denn es ist mir wichtig, die Personen kennenzulernen, die bei dem Projekt involviert sind. Unabhängig von der Gestaltung stecke ich den Rahmen soweit wie möglich ab, denn oft wissen der Kunde oder die Kundin überhaupt nicht, was auf ihn oder sie zukommt. Danach geht es in die Angebotsphase. Beratung und Projektmanagement sind also auch wichtige Teile meiner Arbeit. Dann beginnt das »Ping-Pong«. Der Kunde oder die Kundin liefert Inhalte, wir kreieren und geben es zurück und so weiter. Manche Kund_innen brauchen ein Moodboard, durch das ich besser verstehen kann, was sie gut finden, welche Sprache sie sprechen und wann sie sich abgeholt fühlen. Es geht immer darum, Vertrauen aufzubauen – kein Projekt funktioniert ohne.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f82
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie würdet ihr euren Stil beschreiben?
+  category: Gestaltung
+  antwort: |
+    AH:&nbsp;Meinen Stil visuell zu definieren finde ich schwierig. Es geht mir immer darum, Ordnung zu schaffen, aber Chaos und Zufall gehören auch dazu. Manchmal sagen mir Leute, dass sie meine Arbeiten toll finden, weil sie so reduziert und einfach seien. Mir erscheinen sie eher kompliziert, überladen und voller Ideen. Sie sehen eher die Oberfläche und weniger den konzeptionellen Teil. Für mich ist das auch eine Erleichterung, weil man die Arbeiten selbst oft sehr auflädt.
+    Ich arbeite sehr konzeptionell und für mich steht die Idee immer im Mittelpunkt:&nbsp;durch sie versuche ich, den Kund_innen das zu vermitteln, was sie mir zuvor als Bedürfnis ausgedrückt haben. Das Visuelle wird dann fast sekundär und nur eine Ausprägung der Idee. Im Visualisierungsprozess mache ich oft wieder einen Schritt zurück, werfe das Konzept über Bord, um freier zu gestalten. Manchmal, das gebe ich zu, wird das Konzept erst im Laufe des Tuns wirklich ersichtlich. Meine Arbeitsweise verändert sich aber auch immer wieder mal.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f83
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Experimentiert ihr auch mit eurem
+    Gestaltungsprozess?
+  category: Spezifisch
+  antwort: 'AH:&nbsp;Manchmal merke ich, dass ich zu verkopft werde. Dann versuche ich auf den Prozess zu vertrauen, Schritt für Schritt, bis ich am Ende bei einer anderen Idee ankomme – oder eben wieder bei der gleichen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f84
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Seht ihr einen künstlerischen Auftrag
+    in eurer Arbeit oder steht die
+    Dienstleistung im Vordergrund?
+  category: Haltung
+  antwort: |
+    AH:&nbsp;Für Grafikdesigner_innen besteht immer das Dilemma zwischen dem Künstlerischen, der Überzeugung von den eigenen Ideen und der Zufriedenheit der Kund_innen. Mit welchen Kompromissen kann man selbst glücklich werden? Ich denke es ist in Ordnung, etwas weniger nach den eigenen Vorlieben zu gestalten und sich etwas weiter auf der Seite der Kund_innen zu treffen. Da die meisten Projekte so sind, ist Design eher ein Service, deswegen ist es auch Design und nicht Kunst. Ich finde es wunderschön, dass man so immer wieder ganz unterschiedlichen Menschen begegnet und sich mit den eigenen Fähigkeiten neu auseinandersetzt.
+    Manchmal gibt es gewisse Dynamiken, die einen in eine rein ausführende Position drängen. Solche Projekte habe ich schon abgelehnt. Wenn man zum Beispiel für eine Art-Direktion beauftragt wurde und dann genau vorgegeben wird, wie jede Doppelseite aussehen soll, ist es nicht das, worauf man sich im Vertrag geeinigt hat. Es ist wichtig, dass die Rollenverteilung von Anfang an klar ist und dass das gegenseitige Vertrauen während des Arbeitsprozesses bestehen bleibt.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f85
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Kann Design einen Beitrag zur
+    Gesellschaft leisten?
+  category: Haltung
+  antwort: |
+    AH:&nbsp;Ich arbeite gerade an der Konzeption des »Hier Magazins«, einem Magazin mit und für Geflüchtete, die erste Ausgabe erscheint hoffentlich im Herbst. Das ist meine Art, meine Fähigkeiten einzubringen, um eine Plattform für mehr Bewusstsein zu gestalten. Ich hätte mich ebenso irgendwo als Freiwillige melden können, aber ich wollte genau das – soziales Design. Ich habe bemerkt, dass das nachhaltige und bewusste Leben, das ich privat führe, nicht nach außen sichtbar wird, daher wollte ich einen aktiven Beitrag leisten.
+    Ich glaube, dass wir alle Verantwortung haben und in dem Rahmen, der uns zur Verfügung steht, etwas machen können. Ohne aktive Taten stimmen wir einem phlegmatischen Ertragen von Zuständen zu, die wir vielleicht nicht gut finden.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f86
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Woraus zieht ihr Inspiration?
+  category: Inspiration
+  antwort: 'AH:&nbsp;Inspiration ist für mich relativ abstrakt. Ich bin gerne in der Natur, in Ausstellungen oder laufe durch die Stadt. Dabei können Proportionen und Details an Architektur spannend sein, ein Lichtspiel, Materialkombinationen. Inspiration kann auch ein altes Buch sein, das mir bei einem Projekt plötzlich wieder in den Sinn kommt. Eigentlich kann es alles sein, verknüpft mit allem was ich tue. Es sind nicht nur visuelle Dinge, schon gar nicht nur aus dem Grafikdesign-Kontext, daraus ziehe ich kaum Inspiration. Aber eine Arbeit kann natürlich in der Referenz oder Tradition von etwas stehen und das ist wiederum spannend.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f87
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Gibt es zu wenige weibliche Vorbilder?
+  category: Inspiration
+  antwort: 'AH:&nbsp;Wir alle können bestätigen, dass es in unseren Geschichtsbüchern kaum Frauen gibt, denen eine aktive Rolle zugeschrieben wird. Meist werden sie nur als Ehefrauen berühmter Männer erwähnt, deren Rolle nicht explizit herausgestellt wird. Dasselbe gilt auch im Grafikdesign. Die Bücher, die wir haben, sind voller Männer, die Wunderbares erreicht haben, aber es kann gar nicht sein, dass die Frauen alle immer nur zuhause am Herd waren und Kinder geboren haben. Früher war ich sehr wütend darüber und habe es als meine persönliche Mission angesehen, dafür zu kämpfen, dass es weitergeht und dass ich – wie man so schön sagt, meinen Mann stehen kann – meine Frau stehen kann. Das ist inzwischen nicht mehr so. Es geht weniger um den Geschlechterkampf, aber es bleibt eine gesellschaftliche Auseinandersetzung. Wir tun oft so, als läge das schon lange hinter uns, aber es ist jetzt immer noch ein aktuelles Thema. Es gibt noch überhaupt keine Gleichberechtigung, denn sonst wären die Bücher bereits umgeschrieben.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f88
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie sexistisch ist die Designbranche?
+  category: Gleichstellung
+  antwort: |
+    AH:&nbsp;Oh, sehr! Ich glaube, dass es als Frau einerseits von Vorteil sein kann, wenn man gut aussieht. Andererseits kann es auch sein, dass man dann als Designerin weniger wertgeschätzt oder wahrgenommen wird. Je weniger man über seine Erscheinung wahrgenommen wird, desto mehr schauen die Leute wirklich auf die Arbeit. Einmal habe ich mit älteren Leuten zusammengearbeitet, die sehr abgelenkt wirkten und ich wusste nicht, warum. Vielleicht lag es daran, dass sie seltener mit jungen Frauen zusammenarbeiten. Offen sexistisch habe ich dagegen Situationen erlebt, in denen mir gesagt wurde, dass ich nicht angestellt werde, weil ich schwanger werden könnte. Das zeigt deutlich, wie Frauen stigmatisiert werden, denn bei Männern steht das Thema nicht zur Debatte. Vor allem auf Agenturebene ist das bei Frauen eine Frage, die so ab 30 unterschwellig im Raum steht.
+    Als die Serie Mad Men erschien, dachten alle Männer in der Agentur, in der ich arbeitete, sie seien Don Draper und machten unangebrachte Kommentare zu sexy Zweiteilern. Die Frauen wollten Peggy sein, sich ihren Weg hart erarbeiten und es den Männern zeigen. Ich möchte lieber eine weibliche Don Draper sein!
+  quote: >
+    Ich möchte eine weibliche Don Draper
+    sein!
+  quoteauthor: ""
+- 
+  fid: f89
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie ist eure Haltung zu explizit
+    frauenfördernden Maßnahmen?
+  category: Gleichstellung
+  antwort: 'AH:&nbsp;Es wäre gut, wenn auf politischer Ebene mehr passieren würde. Aufklärung muss aber besonders im kleineren Kreis stattfinden. Agenturen könnten mehr auf ein ausgewogenes Geschlechterverhältnis achten und ebenso muss jede Frau und jeder Mann bei sich selbst anfangen. Männern, die in Agenturen sexistische Sprüche loslassen, muss deutlich gemacht werden, dass das nicht in Ordnung ist. Sich zu wehren, wenn man in der Hierarchie weiter unten steht, ist oft schwierig und benötigt Mut. Hier müssen Gleichgestellte viel aktiver auftreten und einen Dialog herstellen. »Frauenfördernde Maßnahmen« ist ein großes Wort. Obwohl ich in einem Verein bin, der anfangs nur Frauen aufgenommen hat, möchte ich nicht als hetzerische Feministin wahrgenommen werden, sondern als integrierte. Ich möchte auch meinen Freund als Feministen bezeichnen können, ohne, dass sich das wie ein Schimpfwort anhört. Das sollte im Jahr 2017 möglich sein.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f90
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Seid ihr in beruflichen Netzwerken
+    vertreten?
+  category: Sichtbarkeit
+  antwort: 'AH:&nbsp;Ich bin Projektmanagerin beim Verein The Lovers. Ursprünglich war das der Goerlzclub Berlin, in dem nur Frauen Mitglied sein konnten, gegründet von Yasmine Orth. Weil der Ansatz jetzt integrativer ist, wurde er in The Lovers umbenannt. Die Idee ist, Hilfe durch Mentoring, Meditation und Yogaunterricht für junge Alleinerziehende, Familien, Kinder und ältere Menschen anzubieten – ich bin selbst Yogalehrerin. Wir entwickeln Mentoring-Programme, bei denen es um das Miteinander jenseits von Geschlechterrollen geht. In beruflichen Netzwerken bin ich kaum vertreten, da ich eher in anderen Bereichen Austausch suche. Ab und zu nehme ich an »Show & Tells« teil, bei denen man sich gegenseitig Einblicke in Gestaltungsprozesse geben kann.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f91
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was bedeutet für euch Erfolg?
+  category: Erfolg
+  antwort: 'AH:&nbsp;Meine Entscheidung in diese berufliche Richtung zu gehen war überhaupt nicht von finanziellen Vorstellungen getrieben. Trotzdem ist es natürlich gut, eine Existenzsicherung zu haben, denn das macht mich sorgenfrei. Meine Priorität liegt auf dem Ausleben der Dinge, die mir Spaß machen. Ich hätte genauso gut Töpferin, Floristin oder Schriftstellerin werden können – und das kann auch noch passieren. Ich glaube, dass wir viele Facetten haben. Meine Art von Erfolg bedeutet Ruhe und Glück zu erleben. Mir ist wichtig, jeden Tag so zu leben, dass ich am Abend denke, jetzt könnte ich sterben. Das klingt vielleicht etwas pathetisch, aber ich möchte nichts über längere Zeit machen, das ich für sinnlos halte. Das wäre für mich Anti-Erfolg.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f92
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was macht ihr, um abzuschalten?
+  category: Privatleben
+  antwort: 'AH:&nbsp;Die Tür zu und dann bin ich weg! Ich laufe durch den Park, mache Yoga, radle nach Hause oder treffe mich mit Freund_innen. Die räumliche Distanz gibt mir mentale Distanz. Es ist auch eine Art von Konditionierung, sich nur eine bestimmte Anzahl an Stunden pro Tag für die Arbeit zu nehmen. Alles weitere kommt am nächsten Tag. Früher hatte ich immer das Gefühl, dass ein Projekt mit noch mehr Zeit noch besser werden würde, aber das ist nicht unbedingt so. Im Gegenteil, ich bin eher freier und effizienter geworden. Wenn ich wirklich mal Ärger habe, hilft mir Yoga oder laufen gehen. Danach bin ich entspannt und kann gelassener an das Projekt gehen. Natürlich grenzt man die Arbeit aber nie komplett aus. Sehr oft kommt es vor, dass ein Projekt leise im Hintergrund weiterläuft und im Unterbewusstsein brodelt. Manchmal komme ich dann ganz unverhofft, beispielsweise mitten beim Einkaufen, auf eine neue Idee.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f93
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Welche beruflichen oder privaten Ziele
+    habt ihr?
+  category: Zukunft
+  antwort: 'AH:&nbsp;Bisher habe ich immer einfach gemacht. Ich weiß nicht, wo ich in einem Jahr leben werde, oder in zehn. Ich hätte nicht gedacht, dass ich so lange in Berlin bleiben und selbstständig sein würde. Rückwärts gedacht war mein Leben eine klare Linie, aber nach vorne ist es nicht so klar. Vielleicht arbeite ich mal angestellt in einem Unternehmen, das ich super finde. Ich sehe mich in Zukunft eigentlich genau meiner Vorstellung von innerem Erfolg folgend, dem Glücklichsein und dem Ausüben von dem, das ich gut kann. Das könnte auch mal etwas ganz anderes als Grafikdesign sein.'
+  quote: ""
+  quoteauthor: ""
+
+----
+
+Web: http://www.amandahaas.ch/

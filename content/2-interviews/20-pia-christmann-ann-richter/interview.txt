@@ -18,7 +18,7 @@ Interviewimage: pandan.jpg
 
 ----
 
-Web: 
+Web: http://pandan.co/
 
 ----
 
@@ -34,12 +34,215 @@ Contenthead:
 
 ----
 
-Interviewpartner: 0
+Interviewpartner: 1
 
 ----
 
-Introduction: Pia Christmann und Ann Richter lernten sich während ihres Studiums an der HGB Leipzig kennen. Nachdem Ann einige Erfahrung in unterschiedlichen internationalen Designbüros gesammelt und Pia ihren Abschluss gemacht hatte, gründeten sie 2015 Pandan in Berlin. Als Grafikdesign-Studio konzentrieren sie sich auf das Konzipieren und Gestalten von Publikationen, Webseiten und Visuellen Identitäten, bei dem der intellektuelle, wie emotionale Sinn an erster Stelle steht. Im Interview sprechen sie mit uns über das ultimative Projekt und den künstlerischen Auftrag von Design.
+Introduction: Pia Christmann und Ann Richter lernten sich während ihres Studiums an der HGB Leipzig kennen. Nachdem Ann einige Erfahrung in unterschiedlichen internationalen Designbüros gesammelt und Pia ihren Abschluss gemacht hatte, gründeten sie 2015 Pandan in Berlin. Als Grafikdesign-Studio konzentrieren sie sich auf das Konzipieren und Gestalten von Publikationen, Webseiten und Visuellen Identitäten. Im Interview sprechen sie mit uns über das ultimative Projekt und den künstlerischen Auftrag von Design.
 
 ----
 
 Interview: 
+
+- 
+  fid: f164
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Was war die ausschlaggebende Motivation
+    zur Selbstständigkeit?
+  category: Arbeitsform
+  antwort: 'AR:&nbsp;Den Plan gab es schon während des Studiums. Ich persönlich fand es jedoch auch wichtig, davor verschiedene Sachen auszuprobieren, um in dieser Phase viel zu lernen. Der Wunsch selbständig zu arbeiten, entwickelte sich vor allem aus dem Drang heraus, viel selbst bestimmen zu wollen und im Gestalten die größtmögliche Freiheit zu haben.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f165
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie laufen Projekte üblicherweise ab?
+  category: Prozesse
+  antwort: 'PC:&nbsp;Die anfängliche Recherche und die Ideenfindung finden gemeinschaftlich im Austausch zwischen Ann und mir statt. Dadurch entsteht ein Pool an Ideen, aus denen wir dann, auch im Dialog mit den Kund_innen, das Konzept entwickeln. In der nächsten Phase ist eine von uns beiden für das Projekt hauptverantwortlich, damit die organisatorische Seite gebündelt bleibt.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f166
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie geht ihr mit dem Konflikt zwischen
+    Wirtschaftlichkeit und dem eigenen
+    gestalterischen Anspruch um?
+  category: Prozesse
+  antwort: 'AR:&nbsp;Wir nehmen uns generell die Zeit, die ein Projekt braucht. Am Anfang schätzen wir die Arbeitsstunden und natürlich ist es ideal, wenn dies am Schluss passt, aber Priorität hat der gute Entwurf.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f167
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Betreibt ihr aktiv Akquise?
+  category: Prozesse
+  antwort: 'AR:&nbsp;Es ist wohl eine Mischung aus aktiver und passiver Akquise, da wir noch keinen komplett festen Kund_innenstamm haben, wobei der passive Part deutlich überwiegt. Meist folgt auf ein größeres Projekt eine neue Anfrage, was uns sehr freut. Dabei läuft vieles über Empfehlungen, aber auch über die Sichtbarkeit von vergangenen Projekten. Für die Akquise ist es von Vorteil, wenn man bereits eine Beziehung zu den angefragten Personen oder Institutionen hat. Zum Beispiel haben wir während des Studiums die Gestaltung für die Ausstellung »Atlas 2013 – Kunststudentinnen und Kunststudenten stellen aus« an der Bundeskunsthalle in Bonn übernommen. Diese haben wir letztes Jahr kontaktiert und auf unser Büro aufmerksam gemacht. Daraus ist dann eine erneute Zusammenarbeit entstanden:&nbsp;der sechsteilige Katalog zu der aktuellen Ausstellung »Comics! Mangas! Graphic Novels!«.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f168
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie würdet ihr euren Stil beschreiben?
+  category: Gestaltung
+  antwort: 'AR:&nbsp;Den eigenen Stil zu beschreiben finde ich immer schwierig. Am Anfang haben wir beide eigene Stile eingebracht und daraus versucht, einen gemeinsamen Studiostil zu entwickeln. Mittlerweile haben wir einen guten gemeinsamen Flow gefunden, der sich zwischen klassisch und gewagt bewegt.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f169
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Probiert ihr viel Neues oder verlasst
+    ihr euch auf das, was ihr könnt?
+  category: Gestaltung
+  antwort: 'PC:&nbsp;Unser Anspruch ist immer, für jedes Projekt eine neue visuelle Sprache zu entwickeln. Sonst wird es für einen selber ja auch langweilig, der Reiz des Gestaltens ginge verloren.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f170
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Habt ihr Vorbilder?
+  category: Inspiration
+  antwort: |
+    PC:&nbsp;Gerade arbeiten wir an einer Ausstellung über <a href="https://de.wikipedia.org/wiki/Willy_Fleckhaus">Willy Fleckhaus</a> in München. Sein plakativer Editorial-Stil und die starken Kontraste interessieren mich. Ich würde aber nicht sagen, dass wir »ein« Vorbild haben, sondern dass es viele Einflüsse gibt, die wir bewusst und unbewusst in die eigene Arbeit aufnehmen, zitieren und weiterentwickeln.
+    AR:&nbsp;Die Gefahr an Vorbildern oder Idolen ist, dass man ihnen zu sehr nacheifert, deswegen finde ich es besser, sich breitgefächert umzuschauen. Da bin ich eher pluralistisch aufgestellt. Bei mir gibt es vielleicht eine Top 20.
+  quote: >
+    Die Gefahr an Vorbildern oder Idolen
+    ist, dass man ihnen zu sehr nacheifert.
+  quoteauthor: Ann Richter
+- 
+  fid: f171
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Gibt es zu wenige weibliche Vorbilder?
+  category: Inspiration
+  antwort: 'AR:&nbsp;Ja, eindeutig. Wenn man sich umschaut, werden beispielsweise die meisten Designkonferenzen von Männern dominiert. Da gibt es noch viel Aufholbedarf.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f172
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Seht ihr einen künstlerischen Auftrag
+    in eurer Arbeit oder steht die
+    Dienstleistung im Vordergrund?
+  category: Haltung
+  antwort: |
+    AR:&nbsp;Wir sehen diese Trennung nicht ganz so schwarz-weiß. Jedoch versuchen wir in vielen Projekten den künstlerischen Part einzubringen. Wir begreifen dabei Gestaltung als ästhetisches Mittel und als Form von Autorschaft. In Deutschland ist diese Haltung weniger verbreitet als in den Niederlanden oder der Schweiz, deswegen gibt es auch einige Leute, die Design als reine Dienstleistung betrachten. Aber ich habe das Gefühl, dass der Stellenwert des Designs steigt und sehe die Lage optimistisch.
+    Pia Christmann:&nbsp;Unsere Einstellung ist da sicherlich auch durch das Studium an einer Kunsthochschule geprägt.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f173
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Ist es euch wichtig, dass eure
+    Handschrift erkannt wird oder sollte der
+    Auftrag im Vordergrund stehen?
+  category: Haltung
+  antwort: |
+    PC:&nbsp;Wir arbeiten mit dem vorhandenen Material und Inhalt und versuchen, daraus die Form zu entwickeln. Die eigene Handschrift fließt natürlich ganz von selbst auch mit ein – wir schließen sie nicht aus.
+    AR:&nbsp;Ich würde sagen, dass wir keine rein formale Handschrift haben, sondern vor allem eine eigene Haltung, die unsere Arbeit prägt. Dadurch kann die Form unterschiedlich sein, abhängig vom Projekt und trotzdem gibt es hintergründig eine stringente Linie. Unsere Arbeit sehen wir auch als Zusammenarbeit mit den Kund_innen, so dass bei jedem Projekt andere Einflüsse verwoben werden und kein Projekt dem anderen gleicht.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f174
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie wichtig ist euch der finanzielle
+    Aspekt der Arbeit?
+  category: Erfolg
+  antwort: 'AR:&nbsp;Wir arbeiten viel im Kultursektor:&nbsp;den sucht man sich nicht aus, wenn der finanzielle Aspekt oberste Priorität hat. Aber trotzdem hat man, wenn man ein Studio führt, automatisch die Position der Geschäftsleitung inne und muss sich darüber Gedanken machen und ordentlich planen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f175
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was bedeutet für euch Erfolg?
+  category: Erfolg
+  antwort: |
+    PC:&nbsp;Erfolg ist, wenn man mit Kund_innen langfristig zusammenarbeiten kann und man den eigenen, aber auch den anderen Ansprüchen gerecht werden kann. Wenn wir und die Kund_innen nach einem Projekt zufrieden sind, sehen wir es als erfolgreich an. Die eigene Zufriedenheit darüber, dass etwas gelungen ist sowie positives Feedback bedeuten Erfolg.
+    AR:&nbsp;Anerkennung in der Szene würde ich auch hinzuzählen.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f176
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Was unternehmt ihr, um öffentlich
+    sichtbar zu sein?
+  category: Sichtbarkeit
+  antwort: 'AR:&nbsp;Wir benutzen Instagram häufig und zeigen darüber Arbeiten. Ansonsten betreiben wir nicht besonders viel PR-Arbeit. Wir freuen uns aber sehr, wenn wir angeschrieben werden und haben uns darüber auf verschiedenen Blogs vorgestellt.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f177
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Seid ihr in beruflichen Netzwerken
+    vertreten?
+  category: Sichtbarkeit
+  antwort: 'AR:&nbsp;Wir sind mit einer Freundin in Kontakt, die ein Frauen-Netzwerk in Köln aufgebaut hat namens <a href="http://andshewaslikebam.de/">And She Was Like:&nbsp;Bäm!</a> In Berlin gibt es auch ein Netzwerk für Frauen in der Kulturszene:&nbsp;Salon. Wir wurden von einer befreundeten Künstlerin eingeladen und wollen bald zu einem der Treffen gehen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f178
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Gibt es besondere Herausforderungen für
+    Frauen in der Designwelt?
+  category: Gleichstellung
+  antwort: 'PC:&nbsp;Das ist schwierig. Grundsätzlich ist der Beruf nicht geschlechtsspezifisch, es ist also die Frage, ob die Herausforderungen speziell etwas mit Grafikdesign zu tun haben oder mit der Geschäftswelt an sich. Wir haben schon festgestellt, dass wir anfangs viel mehr weibliche als männliche Kund_innen hatten, aber festmachen, woran das lag, oder ob es Zufall war, können wir nicht. Mittlerweile hat sich das Geschlechterverhältnis der Kundschaft aber etwas mehr ausgeglichen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f179
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Habt ihr je negative Erfahrungen
+    aufgrund eures Geschlechts gemacht?
+  category: Gleichstellung
+  antwort: 'AR:&nbsp;Direkt nicht und Indirektes lässt sich nur schwer überprüfen. Woher sollte man zum Beispiel wissen, was ein reines Männerbüro für die Jobs bekommen würde, die wir machen? Durch Statistiken ist man sich darüber bewusst, dass es in vielen Berufen die geschlechtsspezifische Gehaltslücke gibt, aber in unserer Szene ist das sehr intransparent.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f180
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was wäre das ultimative Projekt?
+  category: Zukunft
+  antwort: |
+    AR:&nbsp;Darüber haben wir bisher noch nicht nachgedacht. Was wäre der Gral für Grafikdesigner_innen?
+    PC::&nbsp;Ich finde es viel einfacher zu beantworten, was ich gerne gemacht hätte, statt wofür ich gerne die Gestaltung in der Zukunft machen würde. Ich hätte gerne den Nike Swoosh entworfen oder das »I heart NY«-Zeichen oder die visuelle Identität für die Münchner Olympiade 1972. Dabei fällt mir ein, was ich als zukünftiges Projekt erstrebenswert fände:&nbsp;das Erscheinungsbild für die Kieler Woche.
+    AR:&nbsp;Ja, das ist eine Ehre. Übrigens wurde der Swoosh von einer Frau entworfen, <a href="https://de.wikipedia.org/wiki/Carolyn_Davidson">Carolyn Davidson</a>. Ich fände es auch super, wenn wir ein neues Magazin mit aufbauen würden und dabei die Art-Direktion und Gestaltung übernehmen würden, zum Beispiel für ein neues feministisches Lifestyle-Magazin. Es sollte digital und gedruckt herauskommen und finanziell so gut ausgestattet sein, dass man mit phantastischen Fotograf_innen, Illustrator_innen und Texter_innen zusammenarbeiten kann. Eine große Grafikdesign-Ausstellung bei der wir auch kuratorisch tätig wären, fände ich auch sehr spannend. Es gibt so einiges, wenn man länger darüber nachdenkt.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f181
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: 'Was würdet ihr  jungen Designerinnen mit auf den Weg geben?'
+  category: Zukunft
+  antwort: |
+    AR:&nbsp;Mutig sein – einfach machen! Gar nicht auf die Idee kommen, dass man etwas nicht kann. Viele Frauen zweifeln zu viel.
+    PC:&nbsp;Sich gegenseitig pushen, helfen, sich vernetzen!
+  quote: >
+    Sich gegenseitig pushen, helfen, sich
+    vernetzen!
+  quoteauthor: Pia Christmann

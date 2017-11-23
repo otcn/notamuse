@@ -76,8 +76,10 @@ Interview:
   antwort: |
     CN:&nbsp;Mit bewusster Akquise hatten wir bis jetzt selten Erfolg. Viel wirksamer finden wir, mit Leuten in Kontakt zu bleiben und uns auszutauschen. Nicht nur, weil wir uns davon Jobs erhoffen, sondern weil wir uns dafür interessieren, was um uns geschieht und womit sich andere beschäftigen. Daneben arbeiten wir ab und zu auch an selbst initiierten Projekten und organisieren Workshops. Mit diesen Projekten schaffen wir uns ein Netzwerk, das Aufträge aus Bereichen bringt, die wir spannend finden.
     SK:&nbsp;Wir sind lieber selbst aktiv und dadurch sichtbar. Das hilft uns auch dabei, unsere Kompetenzen zu erweitern und in Auftragsverhältnissen eine aktivere Rolle einnehmen zu können. Wir kollaborieren gerne mit Leuten, bei denen die Kund_in-Dienstleister_in-Beziehung nicht so im Vordergrund steht und mit denen wir offen kommunizieren können.
-  quote: ""
-  quoteauthor: ""
+  quote: >
+    Wir sind lieber selbst aktiv und dadurch
+    sichtbar.
+  quoteauthor: Simone Koller
 - 
   fid: f52
   spezialfrage: "0"
@@ -112,7 +114,7 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: Woraus zieht ihr Inspiration?
-  category: Haltung
+  category: Inspiration
   antwort: |
     CN:&nbsp;Wir sind nicht die, die alle Grafikdesignblogs kennen. Ich hole meine Inspiration mehr aus dem Umfeld, in dem ich mich bewege, aus Kunst, Architektur oder auf Reisen. Und auch aus dem Alltäglichen. Manchmal fällt mir etwas auf den ersten Blick Unscheinbares auf, durch das plötzlich ein Bezug zu einem Projekt entstehen kann.
     SK:&nbsp;Die Inspiration entsteht sicherlich nicht vor dem Computer. Deshalb versuchen wir unsere Arbeitstage möglichst kurz zu halten und genug nebenbei zu machen. Ausstellungen besuchen, ins Theater gehen … Vieles kommt beim Lesen, etwas das ich spannend finde und das meine Gedanken in Bewegung bringt. Wenn wir brainstormen, fahren wir auch mal in die Berge, um den Kopf wieder frei zu bekommen.
@@ -152,7 +154,7 @@ Interview:
     Aufmerksamkeit?
   category: Sichtbarkeit
   antwort: |
-    CN:&nbsp;Wir arbeiten nicht besonders aktiv an unserem öffentlichen Auftritt, dafür fehlt uns im Moment leider die  Zeit. Zu Beginn unserer Zusammenarbeit hatten wir das Glück, dass wir viele Aufträge erhalten haben, die eine breite Öffentlichkeit erreichten, wie zum Beispiel den Katalog der Schönsten Schweizer Bücher. So konnten wir gleichzeitig auf unser neues Studio aufmerksam machen.
+    CN:&nbsp;Wir arbeiten nicht besonders aktiv an unserem öffentlichen Auftritt, dafür fehlt uns im Moment leider die Zeit. Zu Beginn unserer Zusammenarbeit hatten wir das Glück, dass wir viele Aufträge erhalten haben, die eine breite Öffentlichkeit erreichten, wie zum Beispiel den Katalog der Schönsten Schweizer Bücher. So konnten wir gleichzeitig auf unser neues Studio aufmerksam machen.
     SK:&nbsp;Wir posten nicht jeden Tag etwas Neues auf unserem Instagram-Account. Mir persönlich geht es etwas gegen den Strich mich selbst zu bewerben. Unsere aktive Leistung ist es eher, ab und zu einen Vortrag zu halten und zu unterrichten. An dieser Stelle erscheint es uns sinnvoll, dann sprechen wir gerne über unsere Arbeit. Wir finden es wichtig, eine Vorbildfunktion einzunehmen.
   quote: ""
   quoteauthor: ""
@@ -210,7 +212,7 @@ Interview:
   quoteauthor: ""
 - 
   fid: f62
-  spezialfrage: "0"
+  spezialfrage: "1"
   vorfrage: ""
   frage: Wollt ihr mit dem Büro noch wachsen?
   category: Spezifisch
@@ -228,5 +230,5 @@ Interview:
   antwort: |
     SK:&nbsp;Versteht euch nicht als Konkurrentinnen. Tauscht euch aus, unterstützt euch, schließt euch zusammen!
     CN:&nbsp;Verfolgt eure Interessen und Ziele – vieles ist möglich, wenn man es wirklich will.
-  quote: ""
-  quoteauthor: ""
+  quote: Versteht euch nicht als Konkurrentinnen.
+  quoteauthor: Simone Koller

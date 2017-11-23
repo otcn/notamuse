@@ -8,9 +8,137 @@ Interviewpartner: 0
 
 Interview: 
 
+- 
+  fid: f199
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie laufen Projekte üblicherweise ab?
+  category: Prozesse
+  antwort: 'IS:&nbsp;Bisher arbeiten wir besonders am Anfang eines Projekts an allem gemeinsam, weil wir den Austausch schätzen und vieles klar wird, wenn wir darüber reden. Sobald wir einen Auftrag erhalten, sprechen wir ihn gemeinsam durch und sammeln Ideen. Danach probiert jede/r verschiedene Richtungen aus, die wir anschließend wieder besprechen und filtern. So geht es weiter, bis wir uns auf eine Richtung einigen. Ab diesem Zeitpunkt teilen wir uns die Aufgaben, trotzdem verfolgen wir das Vier-Augen-Prinzip:&nbsp;bevor etwas rausgeschickt wird, schauen immer beide drauf. Durchgehend gemeinsam an einer Sache zu arbeiten ist allerdings sehr zeitintensiv, gleichzeitig werden die Projekte so besser. Das ist ein Grund, warum wir zusammenarbeiten.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f200
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie kann man sich euren
+    Gestaltungsprozess vorstellen?
+  category: Gestaltung
+  antwort: 'IS:&nbsp;Wir sind beide sehr selbstkritisch und haben eine starke Haltung zu Ästhetik und gewissen gestalterischen Formen. Allerdings wollen wir kein Dogma entwickeln, wie manche Studios, bei denen alles gleich aussieht. Wir wollen aber genauso wenig ein Studio sein, bei dem jedes Projekt anders und keine Haltung erkennbar ist – wir diskutieren noch, wo genau die Linie dazwischen verläuft. Beispielsweise haben wir gewisse Qualitätsansprüche und eine Vorliebe für Typografie, aber versuchen, das bei jedem Projekt in Frage zu stellen und zuerst etwas ganz anders zu machen. Am Anfang testen wir oft Sachen, die auch erst einmal furchtbar aussehen können. Durch Reduktion und Systematik werden die Entwürfe im nächsten Schritt klarer und das Konzept deutlicher. Wenn wir sie dann reduzieren, können wir klarer argumentieren, warum es so aussieht und nicht anders. Unser Zeitaufwand für die Gestaltung ist durch diese Experimentierphase natürlich recht intensiv und langwierig.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f201
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Gibt es Stile oder Bewegungen, die euch
+    besonders inspirieren?
+  category: Inspiration
+  antwort: 'IS:&nbsp;Als ich anfing mich mit Editorial und Typografie auseinanderzusetzen, waren es die gängigen Namen wie <a href="http://bureauborsche.com/">Mirko Borsche</a> oder Hort. Im Kern reizt mich vermutlich auch immer noch das Gleiche:&nbsp;grafische, präzise, nicht zu verspielte Arbeiten. Ich habe mich schon früh für Schweizer Grafik interessiert, was dazu geführt hat, dass ich meinen Master in Zürich gemacht habe. Mehr als ein bestimmter Stil hat mich hier ein gewisser Qualitätsanspruch angesprochen. Ich finde, dass die Arbeiten handwerklich viel präziser und durchdachter sind als in Deutschland. Dort fehlt mir oft die Detailliebe in der Typografie, aber auch im Druck.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f202
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Kann Design einen Beitrag zur
+    Gesellschaft leisten?
+  category: Haltung
+  antwort: |
+    IS:&nbsp;Diese Frage hören wir oft:&nbsp;»Can Design change the world?« Ich habe darauf keine klare Antwort. Ich glaube nicht, dass allein Design etwas verändern kann, aber es kann, ebenso wie Sprache, beeinflussen, wie Themen aufgenommen werden. Je nachdem wie es formuliert wird, kann es abstoßend sein oder neue Welten eröffnen, dir den Zugang entweder gewähren oder verweigern.
+    Das Potential, das Design hat, wird definitiv nicht genug eingesetzt. Es könnte neben Werbung und Popkultur auch in wissenschaftlichen Bereichen viel stärker genutzt werden. Ich hoffe, dass der Bereich der Wissensvermittlung noch präsenter wird, denn dort hat Design einen Platz und kann etwas verändern – es kann Menschen helfen, Sachverhalte besser zu verstehen.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f203
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was macht gute Gestaltung aus?
+  category: Haltung
+  antwort: 'IS:&nbsp;Das kommt auf das Projekt an. Wenn es um ein komplexes, gesellschaftlich wichtiges Thema geht, finde ich, dass die Gestaltung einer Logik folgen und nicht irreführend sein sollte. Gleichzeitig darf sie nicht trocken sein, das Thema sollte immer noch zugänglich bleiben. Gestaltet man aber einen Flyer für eine Jazzband, ist es etwas anderes. Das Design für den Flyer kann gut sein, ohne diesen Anspruch zu erfüllen. Es kommt auf den Kontext an.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f204
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was bedeutet für euch Erfolg?
+  category: Erfolg
+  antwort: 'IS:&nbsp;Das ist ein ständiger Prozess, meine Haltung dazu verändert sich immer wieder. Mir ist Erfolg bis jetzt immer sehr wichtig gewesen, vielleicht weil ich oft Selbstzweifel habe und Erfolg etwas ist, das einem vermeintlich Zusicherung und Bestätigung für die eigene Leistung gibt. Das kann einerseits heißen, dass man Anerkennung in den eigenen Reihen bekommt, aber auch Aufträge erhält, die man spannend findet. Ich war schon immer sehr strebsam, weil ich oft das Gefühl hatte, dass man es als Frau nicht schaffen kann. Ich kannte keine erfolgreichen Designerinnen, deshalb wollte ich es umso härter versuchen. Es hat daher für mich auch etwas mit Erfolg zu tun, in Jurys eingeladen zu werden und zu merken, dass das für viele etwas Neues ist. Das passiert scheinbar noch selten, daher finde ich es sehr wichtig und sehe es als eine Art Pflicht an, daran teilzunehmen.'
+  quote: >
+    Ich kannte keine erfolgreichen
+    Designerinnen, deshalb wollte ich es
+    umso härter versuchen.
+  quoteauthor: ""
+- 
+  fid: f205
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Haltet ihr gerne Vorträge oder gebt
+    Workshops?
+  category: Sichtbarkeit
+  antwort: 'IS:&nbsp;Ja, zwar bin ich jedes Mal wieder aufgeregt und es ist anstrengend, aber von Anfang an dachte ich, dass ich es machen muss und ich mache es auch gern. Es gab in der ersten Hälfte meines Studiums keinen einzigen Vortrag einer weibliche Grafikerin. Allein deshalb sage ich meistens ja, wenn ich angefragt werde. Ich habe das Gefühl, dass es vor allem bei Vorträgen nur diese eine Perspektive gibt, nämlich von Männern mittleren Alters und deren bestimmter Art, ihre Arbeit darzustellen. Dadurch wird diese Art zu dem einzigen Indiz dafür, dass jemand gut ist. Man kann aber ebenso zurückhaltend sein und trotzdem etwas auf dem Kasten haben!'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f206
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Habt ihr je negative Erfahrungen
+    aufgrund eures Geschlechts gemacht?
+  category: Gleichstellung
+  antwort: 'IS:&nbsp;Ich habe eher indirekt schlechte Erfahrungen gemacht, zum Beispiel in Situationen, in denen ich das Gefühl hatte, dass mir als Frau weniger zugetraut wird. Gerade bei Kund_innenpräsentationen wird den Aussagen weniger Vertrauen geschenkt. Du wirst weniger als Genie gesehen, sondern eher hinterfragt. Je jünger du bist, desto schwieriger ist es, da du nicht so viel Erfahrung ausstrahlst. Es ist schwierig, wenn man nicht dieser charismatische Typ ist, der alles so darstellt, als könnte es nur so und nicht anders sein. Ich habe mich lange Zeit aber auch selbst gehindert. Als ich mich während des Studiums für ein Praktikum bewerben musste, habe ich mich bei einigen Studios absichtlich nicht beworben. Manche hatten bis dato noch keine weiblichen Praktikantinnen gehabt, so dass ich mich nicht getraut habe, mich dort zu bewerben und auch in vielerlei Hinsicht deswegen nicht mit ihnen zusammenarbeiten wollte. Im Nachhinein habe ich es manchmal bereut, es nicht trotzdem gemacht zu haben, aber damals war ich noch zu unsicher.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f207
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie gleichberechtigt arbeiten wir heute?
+  category: Gleichstellung
+  antwort: |
+    IS:&nbsp;Ich glaube nur in den seltensten Fällen arbeiten wir gleichberechtigt. Bei vielen Studios, die aus einem Mann und einer Frau bestehen, steht der Mann mehr im Vordergrund. Ich weiß nicht, ob das daran liegt, dass sich manche Frauen unwohl dabei fühlen, im Rampenlicht zu stehen oder daran, dass es bei Frauen nicht als positive Eigenschaft angesehen wird, sehr selbstbewusst aufzutreten. Ich habe das Gefühl, dass Frauen oft besonders stark wirken wollen, weil das bei Männern als Erfolgsattribut gilt. Auch persönlich mache ich mir Gedanken darüber, wie ich sein muss und möchte tendenziell nicht zu mädchenhaft wirken. Das heißt nicht, dass ich eine Rolle spiele, aber es nimmt Einfluss darauf, wie ich mich verhalte, um Ernst genommen zu werden oder wie ich auf Konferenzen auftrete. Manchmal ertappe ich mich trotzdem dabei, dass auch ich Frauen und Männer für das gleiche Verhalten unterschiedlich bewerte.
+    Bei uns ist es eine spezielle Situation. Christoph ist sehr dafür, alte Strukturen zu ändern und hat zum Beispiel vorgeschlagen, meinen Namen zuerst zu schreiben, damit die Frau endlich einmal nicht an zweiter Stelle steht. Meine Generation ist also eigentlich die erste, die anders damit umgehen will, aber ich finde, es könnte schneller gehen. In Zürich gibt es eigentlich viele gute Gestalterinnen, die aber teilweise unsichtbar sind, weil sie nicht auf Vorträge gehen oder im Netz aktiv sind, vor allem bei der älteren Gestalterinnengeneration. Bei vielen jüngeren Studios, wie zum Beispiel <a href="http://kasper-florio.ch">Kasper Florio</a>, ist es nicht mehr der Fall, dass nur der männliche Part sichtbar ist und im Vordergrund steht.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f208
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie strikt trennt ihr Arbeit und
+    Privatleben?
+  category: Privatleben
+  antwort: 'IS:&nbsp;Das ist das Thema meines Jahres. Gestaltung ist in meinem Leben sehr wichtig, wenn nicht das Wichtigste. In den letzten Jahren habe ich extrem viel gearbeitet, kaum Ferien gemacht und viel Zeit und Geld investiert, um dahin zu kommen, wo ich hin will. Ende letzten Jahres hat mir meine Gesundheit einen Strich durch die Rechnung gemacht:&nbsp;Von einem Tag auf den anderen war mein rechter Arm so entzündet, dass ich keinen Stift mehr halten konnte. Vier Monate lang war nicht klar, ob es wieder heilen würde. Das war für mich einen große Lebenskrise – wir hatten gerade Offshore gegründet und ich konnte auf einmal nicht arbeiten. Irgendwann habe ich dann eingesehen, dass ich umdenken und mich neben der Arbeit auch mal mit anderen Dingen beschäftigen muss. Ich arbeite zwar immer noch an vielen Wochenenden, aber ich versuche einen Tag in der Woche freizunehmen. Und ich habe jetzt einen Hund, mit dem ich mittags rausgehen muss. In den frühen Entwurfsphasen eines Projekts bin ich meistens auch mental ziemlich eingespannt, sodass ich abends oft weiterarbeite oder zumindest bis spät in die Nacht recherchiere und das Projekt weiterdenke. Ich kann und möchte dann meistens nicht abschalten oder etwas anderes unternehmen. Das ist auch für mein Umfeld ein bisschen schwierig. Ich glaube aber, dass es bei diesen Berufen, bei denen man eine bestimmte Vision davon hat, was man machen will, eines gewissen Stellenwerts und Zeitaufwandes bedarf. Deswegen ist die Selbstständigkeit auch so wichtig für mich und, zumindest bis jetzt, die einzige Option in der Gestaltung zu arbeiten.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f209
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was wäre das ultimative Projekt?
+  category: Zukunft
+  antwort: 'IS:&nbsp;Vielleicht für eine große Ausstellung, wie die documenta oder Venedig Biennale, zu arbeiten. Ich fände es auch extrem spannend, Publikationen für Forschungsprojekte am MIT zu machen. Gesellschaftlich relevante Bereiche, die auch außerhalb des Kunst- und Kulturbetriebs bestehen, interessieren mich. Ich kann kein konkretes Projekt benennen, aber etwas wissenschaftliches, das auch ästhetisch anspruchsvoll ist, fände ich sehr spannend und relevant.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f210
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: 'Was würdet ihr  jungen Designerinnen mit auf den Weg geben?'
+  category: Zukunft
+  antwort: 'IS:&nbsp;Sich nicht einschüchtern lassen. Nicht wie ich Angst haben, sich bei jemandem zu bewerben, nur weil er wirkt, als nähme er weibliche Gestalterinnen nicht ernst, sondern es trotzdem tun. Je mehr Frauen sich in dem Feld beweisen, desto eher wird es zur Normalität. Auch wenn man eine introvertierte Person ist, sollte man versuchen aus sich heraus zu gehen, über seine Arbeit zu reden und sichtbar zu sein, denn nur damit schafft man ein kollektives Bewusstsein.'
+  quote: ""
+  quoteauthor: ""
+
 ----
 
-Introduction: Isabel Seiffert studierte an der Merz Akademie in Stuttgart und der ZHdK, bevor sie nach kurzer Agenturzeit zusammen mit Christoph Miler das in Zürich ansässige Offshore Studio gründete. Ihre Projekte konzentrieren sich auf Editorial Design, Typografie und Storytelling. Neben Aufträgen und Kollaborationen im kulturellen Bereich untersucht Offshore Studio kritische Fragen rund um Design, Globalisierung und Medien in selbstinitiierten Projekten. Seit 2016 sind sie außerdem Art-Direktoren des Migrant Journals. Im Interview spricht Isabel Seiffert mit uns über ihre gestalterische Herangehensweise, die Wichtigkeit weiblicher Vorbilder und Gleichberechtigung in der Designbranche.
+Introduction: Isabel Seiffert studierte an der Merz Akademie in Stuttgart und der ZHdK, bevor sie nach kurzer Agenturzeit zusammen mit Christoph Miler das in Zürich ansässige Offshore Studio gründete. Ihre Projekte konzentrieren sich auf Editorial Design, Typografie und Storytelling. Neben Aufträgen und Kollaborationen im kulturellen Bereich untersucht Offshore Studio kritische Fragen rund um Design, Globalisierung und Medien in selbstinitiierten Projekten. Seit 2016 sind sie außerdem Art-Direktor_innen des »Migrant Journals«. Im Interview spricht Isabel Seiffert mit uns über ihre gestalterische Herangehensweise, die Wichtigkeit weiblicher Vorbilder und Gleichberechtigung in der Designbranche.
 
 ----
 
@@ -34,4 +162,4 @@ Date: 2017-05-17
 
 ----
 
-Web: 
+Web: http://www.offshorestudio.ch/

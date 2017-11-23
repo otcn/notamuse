@@ -18,7 +18,7 @@ Interviewimage: julia-meer.jpg
 
 ----
 
-Web: 
+Web: http://juliameer.de
 
 ----
 
@@ -43,3 +43,277 @@ Introduction: Julia Meer studierte Kommunikationsdesign, Designgeschichte und Ph
 ----
 
 Interview: 
+
+- 
+  fid: f304
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Was war deine Motivation für das Buch
+    »Women in Graphic Design«?
+  category: Spezifisch
+  antwort: |
+    JM:&nbsp;Initiatorin des Projekts war ganz klar <a href="../gerda-breuer">Gerda Breuer</a>. Meine Motivation resultierte zunächst aus der Möglichkeit, mich intensiv mit der Geschichte der Typografie befassen zu dürfen. Ich kam damals direkt aus dem Studium und hatte wenig Bewusstsein für die Genderthematik. Weder in der Schule noch im Studium hatte ich mich diskriminiert gefühlt – im Rückblick kann ich natürlich sagen, dass es auch dort schon entsprechende Strukturen gab. Und obwohl ich damals durch meinen Job im Gleichstellungsbüro immer wieder mit der Frage der Geschlechtergleichstellung in Berührung kam, dachte ich, dass es im Designbereich keine signifikante Ungleichheit gibt. Auch direkt nach dem Studium wurde noch nicht klar, dass deutlich weniger Frauen in Führungspositionen gelangen werden als Männer. Wir standen ja alle noch am Anfang. Heute sind einige meiner Kommilitoninnen bereits an die »gläserne Decke« gestoßen oder an der Vereinbarkeit von Beruf und Familie gescheitert. Und auch in meinem Berufsalltag merke ich immer wieder, wie aktuell und relevant das Thema nach wie vor ist. Heute kann ich daher Gerda Breuers Fassungslosigkeit angesichts meines »Es wird schon alles gut«-Optimismus deutlich besser nachvollziehen. Ich habe die Zusammenarbeit mit ihr immer als sehr produktiv empfunden und das Buch profitiert meines Erachtens sehr von der Generationendifferenz der Autorinnen:&nbsp;Als eine der ersten und wenigen Frauen, die eine C4-Professur innehatten, war Gerda Breuer mit ganz anderen Hürden konfrontiert als ich und hatte ein deutlich ausgeprägteres Bewusstsein für die politische Dimension des Themas. Ich hatte dieses kämpferische Moment damals nicht, was sie oft irritierte.
+    Aber Teile meines damaligen Optimismus habe ich mir bis heute erhalten können:&nbsp;Ich lehre derzeit an der HTW Berlin und finde es großartig zu sehen, wie die Genderstereotype dort immer stärker aufgebrochen werden. Es geht eher um individuelle Persönlichkeiten als um Geschlechterzuschreibungen. Viele der männlichen Studierenden leben früher als »feminin« gebrandmarkte oder zumindest festgesetzte Eigenschaften mit großem Selbstbewusstsein aus. Und umgekehrt.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f305
+  spezialfrage: "1"
+  vorfrage: >
+    Dass das Buch bereits ein halbes Jahr
+    nach seiner Veröffentlichung in einer
+    zweiten Auflage erschien, lässt auf
+    sehr positive Reaktionen schließen.
+  frage: >
+    Gab es kritische Stimmen zu »Women in
+    Graphic Design«?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Häufig erfährt man beim Büchermachen nicht wirklich, was die Leser_innen denken. Ich hätte mir mehr Kritik gewünscht und übe sie inzwischen selbst. Aus meinem interdisziplinären Kontext heraus merke ich, dass es, methodisch gesehen, ein sehr konservatives Buch ist. Ich habe zwar damals bereits die Art und Weise, wie Designgeschichte erzählt wird, problematisiert, aber eine alternative Erzählweise habe auch ich nicht entwickelt.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f306
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Was würdest du neben einer alternativen
+    Erzählweise beim Buch heute anders
+    machen?
+  category: Spezifisch
+  antwort: |
+    JM:&nbsp;Ich würde den unverkennbaren Fokus der Designgeschichtsschreibung auf das »moderne«, sachliche, vermeintlich rationale Grafikdesign noch deutlich expliziter problematisieren und aufbrechen. Er führt zur Diskriminierung von Frauen, weil die meisten damals rollenkonform »weiblich«, also verspielt gestaltet haben, ist aber auch in anderer Hinsicht problematisch:&nbsp;Oft sind es nicht die aufgrund ihrer »massenkompatiblen« Bildsprache werbewirksamen Arbeiten, die in den Kanon eingegangen sind, sondern nur die künstlerisch angeblich höherwertigen, von der Avantgarde gestalteten, streng sachlichen Arbeiten. Das Bauhaus ist das prägnanteste Beispiel. Es war bei weitem nicht so wichtig für das Grafikdesign wie es jetzt in der Geschichte scheint.
+    Zudem würde ich heute versuchen, die Eurozentristik des Buches zu überwinden. Die hat natürlich Gründe:&nbsp;Die Auswahl der Gestalterinnen war an unsere Fremdsprachenkenntnisse gebunden. Mithilfe internationaler Partner_innen hätte man dafür sorgen können, dass vielfältigeres Material – beispielsweise auf einer Onlineplattform – zusammengetragen wird. Diesen Schritt sind wir aber nicht gegangen, sondern in unserem kleinen Team geblieben.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f307
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Das Medium Buch wäre für dich gar
+    nicht zwingend gewesen?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Die Kombination aus Buch und Plattform wäre optimal gewesen, aber ich denke es ist gut, erstmal dieses Buch herausgegeben zu haben. Schon durch den Umfang und das daraus resultierende Gewicht macht es die Relevanz des Themas sicht- und spürbar. Eine Onlineplattform auf der anderen Seite ist nicht an Druckkosten gebunden und ermöglicht es, deutlich weniger Frauen ausschließen zu müssen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f308
+  spezialfrage: "1"
+  vorfrage: >
+    Ein großer Teil des Buches beschäftigt
+    sich mit der Geschichte von Frauen im
+    Grafikdesign.
+  frage: >
+    Was können wir heute als
+    Gestalter_innen im Umgang mit unserer
+    Branche aus der Geschichte lernen?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Historisches Bewusstsein hilft, Dinge zu verstehen. Zu wissen, dass etwas nicht »von Natur aus so ist und immer so war« eröffnet Denk- und Handlungsspielräume. Der Blick in die Geschichte hilft, sich das Potential für Veränderung bewusst zu machen. Zu sehen, wie etwas vor 100 Jahren war und dass es heute ganz anders ist, bedeutet, dass wir es immer weiter verändern können. Auch merkt man, wie einflussreich externe Faktoren, beispielsweise politische Rahmenbedingungen, sind. Denkt an die russischen Plakate:&nbsp;In den 1920er Jahren seht ihr dort starke »Neue Frauen«. Mit dem Wechsel der politischen Haltung wandelte sich sofort auch die mediale Darstellung von Frauen:&nbsp;In den 1930ern bevölkerten plötzlich wieder brave Blumenmädchen die Plakate.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f309
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Was kann man aus dem Buch »Women in
+    Graphic Design« im Allgemeinen über
+    Grafikdesign lernen?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Ich finde aus dem Buch kann man trotz der eingeräumten Schwächen viel lernen. Es bricht mit der traditionellen Geschichtsschreibung, der Perspektive auf moderne Arbeiten, dem Fokus auf die sogenannten Avantgarden. Es gab viele Frauen, die wirklich großartige Gebrauchsgrafikerinnen waren und sehr auflagenstarke Sachen gestalteten. Und ein viel größeres Bewusstsein dafür hatten was beim Publikum ankommt, wie man Dinge wirksam verkauft, wie man Bilder und Emotionen schafft, als jemand wie László Moholy-Nagy oder andere »Bauhaus-Heroen«. Ich finde es sehr wichtig, Gestaltung anhand anderer Kriterien zu bewerten als »es ist fast so gut wie Kunst«. Aber ich gebe zu, dass das immer noch ein Thema ist, das ich für mich nicht abschließend geklärt habe – wie viel Kunst braucht Design?'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f310
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Gibt es einen Unterschied zwischen
+    männlicher und weiblicher Gestaltung?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;<a href="http://sheilastudio.us/">Sheila Levrant de Bretteville</a> hat gesagt, man solle Dinge beschreiben statt Zuschreibungen zu machen. Es gibt schnörkelige Gestaltung, es gibt sachliche Gestaltung, es gibt verschiedene Farbstimmungen. Aber »weiblich« und »männlich« sind hier nicht die passenden Attribute. Wenn Schnörkel für die Kommunikation der gewünschten Botschaft notwendig sind, verwenden auch Männer Schnörkel, alles andere wäre lächerlich und unprofessionell.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f311
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Können unterschiedliche
+    Herangehensweisen bei Studierenden
+    beobachtet werden?
+  category: Gleichstellung
+  antwort: 'JM:&nbsp;Sehr wenig. Kürzlich bekam ich den Eindruck, dass meine Studenten aktiver sind als die Studentinnen. Aber es wäre ein Trugschluss, das auf das Geschlecht zurückzuführen. Die aktiven Studierenden haben allesamt bereits eine Designausbildung hinter sich, während die eher schweigsamen gerade aus der Schule kommen. Letzteren fehlt es schlichtweg an praktischer Erfahrung und sie können infolgedessen bei vielen Fragen weniger stark Position beziehen. Die verschieden starke Beteiligung liegt also im unterschiedlichen Erfahrungshintergrund begründet, nicht im Geschlecht.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f312
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Werden Arbeiten von Designern und
+    Designerinnen in der Öffentlichkeit
+    unterschiedlich wahrgenommen?
+  category: Sichtbarkeit
+  antwort: 'JM:&nbsp;Ich glaube, auch das hat weniger mit dem Geschlecht als mit Habitus zu tun, der in der Tat bis heute oft sehr konservativ »gegendert« ist. Wenn man mit einem bestimmten Selbstbewusstsein auftritt und sich selbst in seiner Arbeit ernst nimmt, wird man auch schneller ernst genommen, als wenn man sich zurücknimmt und dadurch eine weniger greifbare Person wird.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f313
+  spezialfrage: "1"
+  vorfrage: >
+    Wir fanden den Begriff des
+    »künstlerischen Genies« sehr
+    interessant. Dabei wurde uns
+    entgegengebracht, dass diese Idee nicht
+    mehr zeitgemäß ist.
+  frage: >
+    Ist die Idee des künstlerischen Genies
+    überholt?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Ja, das hoffe ich sehr. Ich finde Heroisierung problematisch, egal ob bei Frauen oder Männern. Geschichten von <a href="https://sagmeisterwalsh.com/">Stefan Sagmeister</a> oder <a href="https://www.irmaboom.nl/">Irma Boom</a>, die davon erzählen, dass wenn man nur tut was man möchte, alles klappen kann, sind relativ weit weg von der Realität. So etwas kann nicht bei jedem funktionieren. Sagmeister zum Beispiel hat eine sehr wohlhabende Familie, die ihm gerade zu Beginn ein sehr freies Arbeiten ermöglicht hat. Solche Dinge werden in Imagevideos selten transportiert. Ich bin dann immer die Nörglerin, die den Studierenden sagt, dass es so nicht sein wird. Ich finde es fahrlässig, sie mit der Erwartung, dass alles großartig wird, in den Berufsalltag zu schicken. Man kann sie ruhig schonmal darauf vorbereiten, dass es Probleme geben wird.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f314
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Sollten wir aus deiner These, dass das
+    Aufwerten weiblicher Charakterzüge
+    gleichzeitig Rollenbilder verstärkt,
+    etwas für unser Projekt ziehen?
+  category: Arbeitsform
+  antwort: 'JM:&nbsp;Ich glaube, dass es wichtig ist, das Gleichgewicht zu halten. Ein breites Spektrum an Möglichkeiten auch im Bezug auf die Vorbildfrage finde ich wichtig. Dass unterschiedliche Persönlichkeiten unterschiedliche Vorbilder finden können, die ihnen zeigen, dass man sich weiterentwickeln kann und man nicht zwingend an Rollenerwartungen gebunden ist.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f315
+  spezialfrage: "1"
+  vorfrage: >
+    Du hast dich mit der Sichtbarkeit von
+    Grafikdesignerinnen sowohl in einem
+    historischen Rückblick als auch aktuell
+    in Form von Interviews befasst.
+  frage: >
+    Was sind die Hauptgründe für die
+    mangelnde Sichtbarkeit von
+    Grafikdesignerinnen?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Auch hier würde ich wieder sagen:&nbsp;Habitus. Die Art, wie man auftritt und das Bedürfnis aufzutreten. Man sollte aber auch nicht verschweigen, dass es bis heute männerbündische Strukturen gibt, in denen vielfach traditionell als »männlich« deklarierte Verhaltensweisen dominieren. Das ist zum einen für die Bearbeitung von Projekten nicht immer produktiv – gute Teams bestehen selten nur aus Alphatierchen – und zum anderen sind all diejenigen, die diese Verhaltensweisen nicht annehmen, in der Regel benachteiligt. Das gilt nicht nur für Frauen, viele Männer können mit dominantem Verhalten ebenso wenig anfangen. Da ist es wichtig, Schieflagen zu thematisieren und Änderungen in Tonfall, Umgang oder Ähnlichem anzuregen oder gar einzufordern. Es ist natürlich nicht leicht, wenn man als einzige Frau irgendwo sitzt oder neu in einer Gruppe ist, gleich zu problematisieren, dass man sich nicht ausreichend respektiert oder falsch behandelt fühlt. Vor allem im Businesskontext ist das schwierig, aber dennoch sehr wichtig. Vielleicht muss man das nicht in großer Runde machen, sondern in Einzelgesprächen. In jedem Fall haben Frauen die große Verantwortung, so etwas anzusprechen. Da muss ich mir leider auch selbst vorwerfen, dass ich nicht immer den Mund aufmache. Das ist eigentlich inakzeptabel.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f316
+  spezialfrage: "1"
+  vorfrage: >
+    In einigen Interviews in »Women in
+    Graphic Design« scheint es, als wären
+    Ruhm und Ehre einfach nicht so wichtig
+    für viele Frauen.
+  frage: >
+    Ist es überhaupt ein Problem, dass
+    Frauen weniger sichtbar sind?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Kommt drauf an, welche Kriterien man ansetzt:&nbsp;Wenn man persönliche Erfüllung und nicht öffentliche Sichtbarkeit als Kriterium für Erfolg ansetzt, dann ist es für sie natürlich in Ordnung. Ich werde aber skeptisch, wenn es da eine deutliche quantitative Diskrepanz zwischen den Geschlechtern gibt, denn ich bin mir sicher, dass Persönlichkeiten relativ ähnlich auf die Geschlechter verteilt sind. Warum sollte der Wunsch nach beruflicher Verwirklichung und Anerkennung an das biologische Geschlecht gebunden sein? Es gibt sicher genauso viele Frauen, die es genießen, im Mittelpunkt zu stehen oder auf der Bühne, wie Männer – an dem Punkt bemerkt man sehr deutlich die Folgen und Reichweite genderstereotyper Erziehung und Sozialisation.'
+  quote: >
+    »Warum sollte der Wunsch nach
+    beruflicher Anerkennung an das
+    biologische Geschlecht gebunden sein?«
+  quoteauthor: Julia Meer
+- 
+  fid: f317
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie ist eure Haltung zu explizit
+    frauenfördernden Maßnahmen?
+  category: Gleichstellung
+  antwort: 'JM:&nbsp;Es gibt Bedarf und ich finde es großartig. Mir wurde beispielsweise aus dem Diversity-Fond des Exzellenzclusters »Bild Wissen Gestaltung« der Humboldt Universität, an der ich gerade arbeite, ein Stimmtraining finanziert. Das hat mir mit Blick auf die Vorlesungen sehr viel gebracht. Aber so etwas würde selbstredend auch vielen Männern helfen. Ich finde es zudem problematisch, dass der Diversity-Fond nur Frauen fördert und nicht beispielsweise auch ausländische Mitarbeiter_innen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f318
+  spezialfrage: "1"
+  vorfrage: >
+    Du schreibst in der Einleitung, viele
+    junge Designerinnen könnten sich nicht
+    mit dem Thema Feminismus identifizieren.
+  frage: >
+    Was ist der Grund für die fehlende
+    Identifikation mit dem Feminismus?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Aus meiner eigenen Erfahrung heraus würde ich sagen, es fehlt an entsprechenden Begegnungen und an kritischem Bewusstsein. Ich glaube, zum Beispiel in den Ingenieurwissenschaften ist es anders. Da setzt sich jede Studentin relativ früh mit diesem Thema auseinander, weil sie direkt im Moment der Einschreibung schon gegen ein Klischee verstößt. Im Design bleibt man erstmal relativ lange unberührt von dieser Thematik.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f319
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Müssen Frauen stärker zusammen daran
+    arbeiten, ihre Situation im Bezug auf
+    Gehalt oder Sichtbarkeit zu verbessern?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Definitiv. Sowohl individuell, als auch strukturell. Aber:&nbsp;Sich zusammenzuschließen ist etwas, das Designer_innen allgemein überhaupt nicht gut können. Der BDG, unser Berufsverband, hat kaum mehr als 500 Mitglieder. Dabei böte ein Zusammenschluss die Möglichkeit einer effektiveren Professionalisierung. Die Medizin etwa weist viele Parallelen zum Design auf, unter anderem das implizite Wissen, das man nicht fassen kann. Und dennoch ist es den Mediziner_innen innerhalb von 150 Jahren gelungen, sich – durch Zusammenschluss und Institutionalisierungen – beispielsweise ein wesentlich besseres Gehalt herauszuarbeiten, als es im Design üblich ist.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f320
+  spezialfrage: "1"
+  vorfrage: 'Du hast diese Frage selbst schon einmal <a href="http://sheilastudio.us/">Sheila Levrant de Bretteville</a> gestellt, wie ist deine Meinung:&nbsp;'
+  frage: >
+    Welche Rolle spielen Männer beim
+    Vorantreiben der Gleichberechtigung?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Mittlerweile ist es glaube ich fast wichtiger, die Männer zu emanzipieren. Ihnen deutlich zu machen, dass es auch für sie vorteilhaft ist, vom traditionellen Männlichkeitsstereotyp des Ernährers und Beschützers wegzukommen. Ich kenne viele Kollegen, die diese Rolle nicht ausfüllen können oder wollen. Man spricht heute bewusst von Gleichstellung und nicht mehr von Frauenförderung.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f321
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Welche unterschiedlichen Reaktionen gab
+    es von den Designerinnen, die ihr für
+    »Women in Graphic Design« angefragt
+    habt?
+  category: Spezifisch
+  antwort: 'JM:&nbsp;Die älteren Generationen waren sofort begeistert und wollten unbedingt mitmachen, bei den jüngeren war es etwas schwieriger. Die haben das Thema als nicht so relevant angesehen und waren in erster Linie daran interessiert über ihre Arbeit zu reden und weniger über die Genderthematik.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f322
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Was ist mit den Frauen, die sich von
+    Gleichstellungsfragen, Feminismus und
+    der Frauenquote distanzieren?
+  category: Gleichstellung
+  antwort: 'JM:&nbsp;Ich finde es schade, wenn jemand die bis heute nicht aufgelöste Problematik leugnet, nur weil es für sie gut gelaufen ist. Denn es ist ja nicht für alle so einfach und es wäre eine große Chance, wenn diejenigen, die durch ihre Popularität mehr Präsenz und Wirkmächtigkeit haben, diesbezüglich öffentlich Position beziehen würden.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f323
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Gibt es zu wenige weibliche Vorbilder?
+  category: Haltung
+  antwort: 'JM:&nbsp;Ich selbst habe immer Vorbilder gehabt und viel daraus gezogen, mich mit der Haltung und der Arbeit von anderen Menschen auseinanderzusetzen. Ich glaube, dass Vorbilder eine Perspektive geben, auch ohne dass man deshalb jemanden kopiert. Es geht eher um Inspiration und Zuversicht.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f324
+  spezialfrage: "0"
+  vorfrage: >
+    Beim Lesen der Interviews hat man das
+    Gefühl, Frauen sei »klassischer«
+    Erfolg, im Sinne von Geld, Macht und
+    Reputation, nicht so wichtig.
+  frage: Was bedeutet für euch Erfolg?
+  category: Erfolg
+  antwort: 'JM:&nbsp;Mir sind eher Sinn und Anerkennung in meiner Community wichtig und dass ich meine Themen voranbringen kann. Geld ist weniger wichtig. Das würde ich aber nicht unbedingt der Tatsache zuschreiben, dass ich eine Frau bin, sondern eher meiner Zugehörigkeit zur sogenannten Generation Y. Es heißt, Geld sei uns nicht so wichtig wie Zeit und Zufriedenheit. Ich würde mich freuen, wenn diese Haltung auf andere Generationen übergreifen würde.'
+  quote: ""
+  quoteauthor: ""

@@ -4,8 +4,11 @@ Title: About
 
 Text: 
 
-Ein Projekt, das die Sichtbarkeit von Grafikdesignerinnen untersucht.
-Ausgehend von der Suche nach weiblichen Vorbildern im Grafikdesign und dem Wunsch nach einem diverseren Diskurs in der zeitgenößischen Designöffentlichkeit, werden Grafikdesignerinnen zu ihrer Arbeit, ihrer gestalterischen Haltung und ihren Erfahrungen im Arbeitsleben befragt. … Ausgehend von der Suche nach weiblichen Vorbildern im Grafikdesign und dem Wunsch nach einem diverseren Diskurs in der zeitgenößischen Designöffentlichkeit, werden Grafikdesignerinnen, hauptsächlich aus Europa, zu ihrer Arbeit, ihrer gestalterischen Haltung und ihren Erfahrungen im Arbeitsleben befragt. …Ausgehend von der Suche nach weiblichen Vorbildern im Grafikdesign und dem Wunsch nach einem diverseren Diskurs in der zeitgenößischen Designöffentlichkeit, werden Grafikdesignerinnen, hauptsächlich aus Europa, zu ihrer Arbeit, ihrer gestalterischen Haltung und ihren Erfahrungen im Arbeitsleben befragt. …Ausgehend von der Suche nach weiblichen Vorbildern im Grafikdesign und dem Wunsch nach einem diverseren Diskurs in der zeitgenößischen Designöffentlichkeit, werden Grafikdesignerinnen, hauptsächlich aus Europa, zu ihrer Arbeit, ihrer gestalterischen Haltung und ihren Erfahrungen im Arbeitsleben befragt.
+»notamuse« thematisiert die fehlende Sichtbarkeit von Grafikdesignerinnen in der Designöffentlichkeit. Die Bedeutung des Namens ist klar: not a muse. Anders als die Muse, die durch ihre inspirierende aber passive Funktion männliche, kreative Geister anregt, geht es uns um Designerinnen, die selbst schöpferisch tätig sind und sich aktiv an der Gestaltung der Designlandschaft beteiligen. »notamuse« stellt sie auf dieser Seite in den Mittelpunkt der Aufmerksamkeit.
+<br>
+Initiiert von Silva Baum, Claudia Scheer und Lea Sievertsen untersucht das Projekt diese Thematik durch Interviews mit Designerinnen, Soziologinnen und Designtheoretikerinnen. Neben der Website, die die Gespräche vergleichbar darstellt, entsteht das Buch »notamuse – A New Perspective on Graphic Design«, das ausschließlich Arbeiten zeitgenössischer Grafikdesignerinnen präsentiert. Es versteht sich dabei als bewusste Geste, um den männlich dominierten Designdiskurs auszugleichen. 
+<br>
+Wir wünschen uns mehr weibliche Vorbilder im Grafikdesign sowie eine diversere Designszene, jenseits von männlichen Heldenfiguren. Im Frühjahr 2017 führten wir deshalb 22 Interviews, in denen wir mit verschiedenen Frauen über Themen wie die neue Arbeitswelt und Frauen in »Männerberufen«, über die Unterschiede zwischen männlichen und weiblichen Gestalter_innen und Sexismus im Berufsalltag sprachen. Wir diskutierten über gestalterische Haltung, Arbeitsabläufe und persönlichen Erfahrungen in der Designwelt. Thematisch sortiert können die Antworten auf dieser Website verglichen werden und geben damit einen Einblick in die Design-Vorstellung der Gestalterinnen, in ihre Ideale und ihre persönliche Auseinandersetzung mit Gleichberechtigung – sowohl im Beruflichen als auch im Privaten. Die Statements der Soziologinnen und Designtheoretikerinnen ergänzen dabei die Auseinandersetzung.
 
 ----
 
@@ -13,7 +16,7 @@ Aboutimage: portrait_notamuse01bz.jpg
 
 ----
 
-Imagecaption: Silva Baum, Claudia Scheer und Lea Sievertsen (v.l.n.r.)
+Imagecaption: Das Team von »notamuse«: Silva Baum, Claudia Scheer und Lea Sievertsen (v.l.n.r.)
 
 ----
 
