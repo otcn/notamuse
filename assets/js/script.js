@@ -85,6 +85,7 @@ $(document).ready(function() {
         $('.overlay').addClass('hidden');
         push('/'); // clear url
         $('.overlay').scrollTop( 0 ); // scrolls all overlays (back) to top
+        $('.marquee').removeAttr( "style" );
     });
 
     /* open about overlay */
@@ -93,6 +94,7 @@ $(document).ready(function() {
         $('#separator').removeClass('hidden');
         $('#separator .key-icon').addClass('active');
         push('about');
+        $('.marquee').css("background-color", "transparent");
     });
 
     /* SHOW INTERVIEW PREVIEW IMAGE */

@@ -43,7 +43,7 @@ if(!kirby()->request()->ajax()) {
     <?php endforeach ?>
     <figcaption>
       <ul>
-        <li><?= $interview->title()->html() ?></li>
+        <li class="extended"><?= $interview->title()->html() ?></li>
         <li><?= $interview->place()->html() ?></li>
         <li><a href="<?= $interview->web() ?>"><?= $interview->web() ?></a></li>
         <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
