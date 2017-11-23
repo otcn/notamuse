@@ -12,8 +12,6 @@ $(document).ready(function() {
                     $('.interview-container').html(response);
                     $('.interview-container').removeClass('hidden');
                     $('#separator').removeClass('hidden');
-                    classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
-
                 },
                 error: function() {
                     console.log('ajax error');
@@ -64,6 +62,7 @@ $(document).ready(function() {
             e.preventDefault();
             //$( "div.overlay" ).scrollTop( 0 );
         }
+        classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
     });
 
     /* click on a nav-question to EITHER open scroll to the related answer (under the main topics) OR (in case of a "special question") open the related interview overlay and scroll to the related answer */
@@ -76,6 +75,7 @@ $(document).ready(function() {
         push(anchor.attr('href').split('#')[0])
         e.preventDefault();
       }
+      classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
     });
 
     /* OVERLAY */

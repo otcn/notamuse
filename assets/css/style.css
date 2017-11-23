@@ -368,7 +368,7 @@
 
   .intro-nav {
     position: relative;
-    bottom: 1.4em;
+    /*bottom: 1.4em;*/
   }
 
   .intro-nav li {
@@ -469,7 +469,7 @@
 
   .nav {
     width: 45vw;  /* must be wider to hide scrollbar */
-    padding: 0px 10vw 0px 0px;
+    padding: 0px 11vw 0px 0px;
     margin: 0px 0px 0px 0px;
     height: 100vh;
     overflow: hidden;
@@ -514,8 +514,16 @@
     padding: 0;
   }
 
+  .nav-mode .nav>ul>li.nav-spacer {
+    height: 0vh;
+  }
+
   .nav>ul>li.nav-about {
     margin-top: -240px;
+  }
+
+  .nav-mode .nav>ul>li.nav-about {
+    margin-top: 0px;
   }
 
   /* === NAV-SUB === */
@@ -544,7 +552,7 @@
     flex-wrap: wrap;
     display: flex;
     position: relative;
-    width: 35vw;
+    width: 34vw;
   }
 
   .sub>ul>li {
@@ -728,7 +736,6 @@
     max-width: 600px;
     height: 100vh;
     overflow: scroll;
-    pointer-events: none;
   }
 
   figure {
@@ -755,7 +762,7 @@
     max-width: 100%;
   }
 
-  .hidden .aside-info>figure {
+  .hidden .aside-info {
     display: none;
   }
 

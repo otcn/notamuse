@@ -8,15 +8,15 @@ $(document).ready(function(){
 
     var marquee = $( ".marquee" ); // get my marquee container
     var marqTop = $( marquee ).offset().top; // get my marquee cotainer's inner width
-    console.log( "marqTop: " + marqTop );
+    //console.log( "marqTop: " + marqTop );
 
     var pLast = marquee.children('p').last(); // get my last p
     pLast.addClass( "marker" );
     var pText = pLast.text(); // get my last p's text
-    console.log( pText );
+    //console.log( pText );
 
     var pLastTop = Math.ceil( marqTop - pLast.offset().top ); // calculate distance between my last p's right side and the parent container
-    console.log( "pLastTop: " + pLastTop );
+    //console.log( "pLastTop: " + pLastTop );
 
     if( pLastTop < 0 ) { // if p exceeds marquee
       $( ".marker" ).removeClass( "marker" );
