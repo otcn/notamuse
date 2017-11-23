@@ -82,7 +82,7 @@
           </ul>
         </div>
       </li>
-
+      <li class="nav-spacer"></li>
       <li class="nav-about"><a id="about-button" class="nav-button about-anchor">About</a></li>
       <li><a id="language-button" class="nav-button language-anchor">EN</a></li>
 

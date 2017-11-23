@@ -459,7 +459,7 @@
     width: auto;
   }
 
-  #nav, #content {
+  #content {
     overflow-y: auto;
     overflow-x: hidden;
     height: 100vh;
@@ -467,18 +467,24 @@
 
 /* MAIN LAYER: NAVIGATION ========================================================================== */
 
-  #nav {
+  .nav {
     width: 45vw;  /* must be wider to hide scrollbar */
     padding: 0px 10vw 0px 0px;
     margin: 0px 0px 0px 0px;
+    height: 100vh;
+    overflow: hidden;
   }
 
-  #nav>ul {
+  .nav-mode .nav {
+    overflow: auto;
+  }
+
+  .nav>ul {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
   }
 
-  #nav>ul>li {
+  .nav>ul>li {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px .6em 0px;
     position: relative;
@@ -498,7 +504,21 @@
     background: #fff;
   }
 
-  /* === NAV-sub === */
+  .nav>ul>li.nav-topics {
+    margin-top: 12px;
+  }
+
+  .nav>ul>li.nav-spacer {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav>ul>li.nav-about {
+    margin-top: -240px;
+  }
+
+  /* === NAV-SUB === */
 
   .sub {
     display: block;
