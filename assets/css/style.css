@@ -34,9 +34,8 @@
 
   h1 {
     font-size: 95px;
-    line-height: 97px;
+    line-height: 90px;
     letter-spacing:-0.04em;
-
   }
 
   .topic-title a {
@@ -52,9 +51,13 @@
     font-family: RenaGrotesk-Extended, sans-serif;
   }
 
-  .intro-quote p, .intro-nav *, p.i-intro, #nav>ul>li>a, .question-title * {
+  .intro-quote p, .intro-nav *, .i-intro *, #nav>ul>li>a, .question-title * {
     font-size: 30px;
     line-height: 33px;
+  }
+
+  .aside-info li:first-of-type  {
+    font-family: RenaGrotesk-Extended, sans-serif;
   }
 
 /* GENERAL & RESETING ========================================================================== */
@@ -333,7 +336,7 @@
   }
 
   #about-content h1, #interview-content h1 {
-    margin-bottom: 51px;
+    margin-bottom: 50px;
   }
 
   #about-content, #interview-content {
@@ -394,8 +397,12 @@
 
 /* INTERVIEW ========================================================================== */
 
-  .interview-container h1, .i-intro, .i-answer {
-    margin: 0 0 1em 0;
+  .i-answer {
+    margin-bottom: 1em;
+  }
+
+  .i-intro {
+    margin-bottom: 110px;
   }
 
   .i-question p {
@@ -722,7 +729,6 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-
   }
 
   .aside-image img {
@@ -731,4 +737,8 @@
 
   .hidden .aside-info>figure {
     display: none;
+  }
+
+  .aside-info li:first-child, .aside-info li:last-child  {
+    margin-top: 1em;
   }

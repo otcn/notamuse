@@ -91,6 +91,7 @@ $(document).ready(function() {
     $('.nav-about a').click(function(){
         $('.about-container').removeClass('hidden');
         $('#separator').removeClass('hidden');
+        $('#separator .key-icon').addClass('active');
         push('about');
     });
 
@@ -147,8 +148,6 @@ $(document).ready(function() {
         topicTitle.addClass('active');
     };
 
-
-
     // CLICK INTRO-LINK TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
     $('.intro-nav a').click(function(){
         var anchor = $( this );
@@ -157,10 +156,14 @@ $(document).ready(function() {
         topicLink(anchor);
     });
 
+    // LANGUAGE: ENGLISH
+    $('.language-anchor').click(function(){
+        alert('Awfully sorry, but english isn\'t available yet!');
+    });
+
 });
 
 $(document).ready(function() {
-
     // SMOOTH SCROLLING TO INTERNAL ANCHOR TARGETS
       ////////
       // The following code, which enables Smooth Scrolling, is copied from https://css-tricks.com/snippets/jquery/smooth-scrolling/
@@ -200,32 +203,6 @@ $(document).ready(function() {
               }
             }
           });
-
-
-    // LANGUAGE: ENGLISH
-    $('.language-anchor').click(function(){
-        alert('Awfully sorry, but english isn\'t available yet!');
-    });
-
-    // TOGGLE OPEN- AND CLOSE-ICONS
-    $('.key-icon').siblings('a').hover(function() {
-        var trigger = $(this);
-        var key = trigger.siblings('.key-icon');
-        key.toggleClass( 'active' );
-        //trigger.siblings('.key-icon').toggle(); // un-comment later!
-    });
-
-    $('.key-icon').siblings('a').click(function() {
-        var trigger = $(this);
-        var key = trigger.siblings('.key-icon');
-        if ( trigger.hasClass( '.active' ) ) {
-            key.addClass( 'active' );
-        } else {
-            key.removeClass( 'active' );
-        }
-        key.toggleClass( 'active' );
-    });
-
 });
 
 $(document).ready(function() {
@@ -234,20 +211,20 @@ $(document).ready(function() {
 
     // DEFAULT
     $('.sub').hide(); // hide children by default
-
-    // TOPICS-BUTTON
     $('.nav-topics a').addClass('active'); // activate topics-button by default
 
+    // NAV: CLICK >TOPICS<
     $('.nav-topics a').click(function(){
       console.log('topics-button clicked');
       $('.active').removeClass( 'active' );
       $("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class to "#wrapper"
       $('.sub').slideUp(100);
       $('.child').hide(); // hide all child-elements
+      $('html,body, html *').animate({ scrollTop: 0 }, 'slow');
       $(this).addClass('active');
     });
 
-    // CONTROL NAV-MODE
+    // NAV: CONTROL NAV-MODE
     $('.nav-switch').click(function(){
       console.log('nav-switch clicked');
       $('.sub').not( $(this).siblings('.sub') ).slideUp(100);
@@ -256,14 +233,16 @@ $(document).ready(function() {
         $(this).siblings('.sub').slideDown(100);
         $('.nav-switch, .nav-button').removeClass('active');
         $(this).addClass('active');
+        $(this).siblings('.key-icon').addClass('active');
       } else {                                             // if this sub is not hidden
         $("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class to "#wrapper"
         $(this).siblings('.sub').slideUp(100);
-        $(this).removeClass('active');
-        $('#topics-button').addClass('active');
+        $('.active').removeClass( 'active' );
+        $('#topics-button').addClass( 'active' );
       }
     });
 
+    // CLOSE NAV-MODE
     $('#content *').click(function(){
         $('#main-wrapper').removeClass('nav-mode');
         $('.sub').slideUp(100);

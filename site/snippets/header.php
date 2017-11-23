@@ -27,6 +27,7 @@
     'assets/js/script.js',
     'assets/js/classy-links.js',
     'assets/js/question-id.js',
+    'assets/js/key.js',
   ), true) ?>
 
 </head>
