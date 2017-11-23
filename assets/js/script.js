@@ -13,6 +13,7 @@ $(document).ready(function() {
                     $('.interview-container').removeClass('hidden');
                     $('#separator').removeClass('hidden');
                     classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
+
                 },
                 error: function() {
                     console.log('ajax error');
@@ -61,6 +62,7 @@ $(document).ready(function() {
         } else {
             push(uid);
             e.preventDefault();
+            //$( "div.overlay" ).scrollTop( 0 );
         }
     });
 
@@ -82,6 +84,7 @@ $(document).ready(function() {
         $(this).addClass('hidden');
         $('.overlay').addClass('hidden');
         push('/'); // clear url
+        $('.overlay').scrollTop( 0 ); // scrolls all overlays (back) to top
     });
 
     /* open about overlay */

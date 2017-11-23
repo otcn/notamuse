@@ -714,58 +714,21 @@
 
   .aside-image {
     width: 25vw;
-    /*height: 60vh;*/
     display: block;
     overflow: hidden;
     position: relative;
-    object-fit: cover;
 
-    background-color: #fff;
+    object-fit: cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+
   }
 
   .aside-image img {
     max-width: 100%;
-
-    /*
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-
-    width: 24vw;
-    height: 35vw;
-    min-width: 120px;
-    max-width: 702px;
-    min-height: 176px;
-    max-height: 1032px;
-
-    background-color: #fff;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    */
   }
 
   .hidden .aside-info>figure {
     display: none;
   }
-
-
-  /*
-
-
-  .hidden .aside-info {
-    display: none;
-  }
-
-  .aside-info>figure.preview {
-    display: block !important;
-  }
-
-  .aside-info>figure.collapse {
-    overflow: hidden;
-    height: 35vw;
-  }
-  */
