@@ -19,6 +19,27 @@ if(!kirby()->request()->ajax()) {
 
 <div id="interview-content">
   <h1><?= $interview->title()->html() ?></h1>
+
+  <div id="interview-info" class="aside-info">
+    <figure>
+      <?php foreach($interview->images() as $image): ?>
+        <div id="about-image" class="aside-image" style="background-image: url('<?php echo $image->url() ?>');">
+            <!--<a href="<//?php echo $image->url() ?>">--> <!-- is the wrapping anchor necessary? -->
+                <img src="<?php echo $image->url() ?>" alt="">
+            <!--</a>-->
+        </div>
+      <?php endforeach ?>
+      <figcaption>
+        <ul>
+          <li class="extended"><?= $interview->title()->html() ?></li>
+          <li><?= $interview->place()->html() ?></li>
+          <li><a href="<?= $interview->web() ?>"><?= $interview->web() ?></a></li>
+          <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
+        </ul>
+      </figcaption>
+    </figure>
+  </div>
+
   <div class="i-intro"><?= $interview->introduction()->kirbytext() ?></div>
 
   <?php foreach($interview->Interview()->toStructure() as $interviewpart): ?>
@@ -32,25 +53,7 @@ if(!kirby()->request()->ajax()) {
   <?php endforeach ?>
 </div>
 
-<div id="interview-info" class="aside-info">
-  <figure>
-    <?php foreach($interview->images() as $image): ?>
-      <div id="about-image" class="aside-image" style="background-image: url('<?php echo $image->url() ?>');">
-          <!--<a href="<//?php echo $image->url() ?>">--> <!-- is the wrapping anchor necessary? -->
-              <img src="<?php echo $image->url() ?>" alt="">
-          <!--</a>-->
-      </div>
-    <?php endforeach ?>
-    <figcaption>
-      <ul>
-        <li class="extended"><?= $interview->title()->html() ?></li>
-        <li><?= $interview->place()->html() ?></li>
-        <li><a href="<?= $interview->web() ?>"><?= $interview->web() ?></a></li>
-        <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
-      </ul>
-    </figcaption>
-  </figure>
-</div>
+
 
 <?php
 if(!kirby()->request()->ajax()) {

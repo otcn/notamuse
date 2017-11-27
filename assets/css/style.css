@@ -21,7 +21,6 @@
   *, html, body {
     font-size: 19px;
     line-height: 27px;
-    /* overflow-x: visible; */
   }
 
   *:focus {
@@ -45,7 +44,7 @@
     padding-bottom: 2px;
   }
 
-  .marquee p {
+  .marquee p, .marquee a {
     line-height: 7.5vw;
     font-size: 102px;
     font-family: RenaGrotesk-Extended, sans-serif;
@@ -64,7 +63,6 @@
 
   *, html, body {
     box-sizing: border-box;
-    /*background: rgba(0,0,255,0.1);*/
     padding: 0;
     margin: 0;
     border: 0;
@@ -167,6 +165,8 @@
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
+    margin: 0;
+    padding: 0;
   }
 
 /* TITLE BANNER ========================================================================== */
@@ -331,7 +331,7 @@
   }
 
   #interview-content {
-    padding: 0 0  0;
+    padding: 0 0 0 0;
     margin: 0 0 0 0;
   }
 
@@ -376,7 +376,7 @@
     margin-top: 18px;
   }
 
-  .intro-nav a::before {
+  .intro-nav a::before, a.interviewee-title::before {
     content: "\2192"; /* inserts rightwards arrow before anchor" */
   }
 
@@ -409,10 +409,6 @@
   .i-question p {
     font-family: RenaGrotesk-Extended, sans-serif;
     display: inline; /* "inline"= vorfrage und frage stehen direkt hintereinander */
-  }
-
-  p.i-answer::before {
-    font-family: RenaGrotesk-Extended, sans-serif;
   }
 
 /* MAIN LAYER: LAYOUT ========================================================================== */
@@ -760,10 +756,6 @@
     overflow: scroll;
   }
 
-  figure {
-    margin: 0;
-    padding: 0;
-  }
   .preview figure {
     display: none;
   }

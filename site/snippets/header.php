@@ -15,7 +15,8 @@
   <?php echo css(array(
     //'assets/css/index.css',
     'assets/css/normalize.css',
-    'assets/css/style.css'
+    'assets/css/style.css',
+    'assets/css/mobile.css'
   )) ?>
 
   <!--Load jQuery-->

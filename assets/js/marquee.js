@@ -10,8 +10,8 @@ $(document).ready(function(){
     var marqTop = $( marquee ).offset().top; // get my marquee cotainer's inner width
     //console.log( "marqTop: " + marqTop );
 
-    var pLast = marquee.children('p').last(); // get my last p
-    pLast.addClass( "marker" );
+    var pLast = marquee.children('p').last(); // get my last a
+    //pLast.addClass( "marker" );
     var pText = pLast.text(); // get my last p's text
     //console.log( pText );
 
@@ -19,7 +19,7 @@ $(document).ready(function(){
     //console.log( "pLastTop: " + pLastTop );
 
     if( pLastTop < 0 ) { // if p exceeds marquee
-      $( ".marker" ).removeClass( "marker" );
+      //$( ".marker" ).removeClass( "marker" );
       //$( marquee ).append("<p>" + pText + "</p>"); // add new p;
       $( "<p>" + pText + "</p>" ).addClass( "marker" ).appendTo( marquee ); // add new p;
     }
