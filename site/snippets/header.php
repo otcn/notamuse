@@ -24,8 +24,8 @@
   <?php echo js(array(
     'assets/js/marquee.js',
     'assets/js/lib.js',
+    'assets/js/classy-links.js', // must be placed before script.js
     'assets/js/script.js',
-    'assets/js/classy-links.js',
     'assets/js/question-id.js',
     'assets/js/key.js',
   ), true) ?>

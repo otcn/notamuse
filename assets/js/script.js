@@ -12,6 +12,7 @@ $(document).ready(function() {
                     $('.interview-container').html(response);
                     $('.interview-container').removeClass('hidden');
                     $('#separator').removeClass('hidden');
+                    classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
                 },
                 error: function() {
                     console.log('ajax error');
@@ -35,17 +36,22 @@ $(document).ready(function() {
 
     function init(){
         var uid = History.getState().hash.split('?')[0].substring(1);
-            if (uid.length <= 0){  // if it’s not a subpage, show intro and seperator */
-            $( '.intro-container' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
-            $( '#separator' ).removeClass('hidden'); // should be ".removeClass('hidden')" later
+
+        if (uid.length <= 0){  // if it’s not a subpage, show intro and seperator */
+            $( '.intro-container' ).removeClass('hidden');
+            $( '#separator' ).removeClass('hidden');
+            $('.nav-topics').find('.active').removeClass('active'); // deactivate topics-button
         }
         else if (uid == 'about'){
             $('.about-container').removeClass('hidden');
             $('#separator').removeClass('hidden');
+            $('.nav-topics').find('.active').removeClass('active'); // deactivate topics-button
         }
         else{
             $( '#separator' ).removeClass('hidden'); // if it’s subpage, only show the seperator
+            $('.nav-topics').find('.active').removeClass('active'); // deactivate topics-button
         }
+        classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
     }
 
     init()
@@ -54,19 +60,20 @@ $(document).ready(function() {
 
     /* open an interview, on click the url and content should change */
     $('.nav-interview a, a.interviewee-title').on('click', function(e) {
-        var uid = $(this).attr('href'); // get the href-url
-        if (uid == window.location.href) {
-            e.preventDefault(); // do nothing if current url equals href-url
-        } else {
-            push(uid);
-            e.preventDefault();
-            //$( "div.overlay" ).scrollTop( 0 );
-        }
-        classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
+      var uid = $(this).attr('href'); // get the href-url
+      if (uid == window.location.href) {
+          e.preventDefault(); // do nothing if current url equals href-url
+      } else {
+          push(uid);
+          e.preventDefault();
+          //$( "div.overlay" ).scrollTop( 0 );
+      }
+      classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
     });
 
     /* click on a nav-question to EITHER open scroll to the related answer (under the main topics) OR (in case of a "special question") open the related interview overlay and scroll to the related answer */
     $('.nav-question a').click(function(e){
+
       var anchor = $( this );
       if (anchor.attr('href').indexOf('http') == -1){
         topicLink(anchor);
@@ -95,6 +102,7 @@ $(document).ready(function() {
         $('#separator .key-icon').addClass('active');
         push('about');
         $('.marquee').css("background-color", "transparent");
+        $('.nav-topics').find('.active').removeClass('active'); // deactivate topics-button
     });
 
     /* SHOW INTERVIEW PREVIEW IMAGE */
@@ -120,12 +128,20 @@ $(document).ready(function() {
 
     // NAVIGATE TOPIC-LIST DROPDOWN
     $('.parent').children().click(function(){
+
+      if ( $(this).is( '.active' ) ) {
+        $(this).removeClass('active');
+        $(this).find('.active').removeClass('active');
+        $(this).find('.child').slideUp('fast');
+      } else {
         $(this).toggleClass('active');
         $(this).children('.topic-title').children().toggleClass('active');
         $(this).children('.question-title').children().toggleClass('active');
         $(this).children('.child').slideToggle('slow');
+      }
     }).children('.child').click(function (event) {
-        event.stopPropagation();
+      event.stopPropagation();
+      $('.nav-switch').removeClass('active');
     });
 
     // FUNCTION FOR LINKS WHICH OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
@@ -138,7 +154,7 @@ $(document).ready(function() {
         var topicTitle = topicItem.children('.topic-title').children('a');
 
         // hide/inactivate other stuff:
-        $('.topic-list .active').removeClass('active'); // remove all active states in the topic list
+        $('.nav-topics').find('.active').removeClass('active'); // remove all active states in the topic list
         $('.topic-list .child').hide(); // hide all dropdowns
 
         // reveal relevant dropdowns:
@@ -148,6 +164,7 @@ $(document).ready(function() {
         // add active states to relevant elements:
         target.addClass('active').siblings().addClass('active');
         topicTitle.addClass('active');
+        topicItem.addClass('active');
     };
 
     // CLICK INTRO-LINK TO OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
@@ -213,13 +230,12 @@ $(document).ready(function() {
 
     // DEFAULT
     $('.sub').hide(); // hide children by default
-    $('.nav-topics a').addClass('active'); // activate topics-button by default
 
     // NAV: CLICK >TOPICS<
     $('.nav-topics a').click(function(){
       console.log('topics-button clicked');
       $('.active').removeClass( 'active' );
-      $("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class to "#wrapper"
+      $("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class from "#wrapper"
       $('.sub').slideUp(100);
       $('.child').hide(); // hide all child-elements
       $('html,body, html *').animate({ scrollTop: 0 }, 'slow');
@@ -229,27 +245,34 @@ $(document).ready(function() {
     // NAV: CONTROL NAV-MODE
     $('.nav-switch').click(function(){
       console.log('nav-switch clicked');
+
+      $('.nav').find('.active').removeClass('active');
       $('.sub').not( $(this).siblings('.sub') ).slideUp(100);
-      if ( $(this).siblings('.sub').is(":hidden") ){  // if this sub is hidden
-        $("#main-wrapper").addClass("nav-mode");                // add "nav-mode" class to "#wrapper"
+
+      if ( $(this).siblings('.sub').is(":hidden") ){  // if this sub was hidden -> open it
+        console.log('-> open sub');
+
+        $("#main-wrapper").addClass("nav-mode");      // add "nav-mode" class to "#wrapper"
         $(this).siblings('.sub').slideDown(100);
-        $('.nav-switch, .nav-button').removeClass('active');
+
         $(this).addClass('active');
         $(this).siblings('.key-icon').addClass('active');
-      } else {                                             // if this sub is not hidden
-        $("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class to "#wrapper"
+      } else {                                      // if this sub was not hidden -> close it
+        console.log('-> close sub');
+
+        $("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class from "#wrapper"
         $(this).siblings('.sub').slideUp(100);
-        $('.active').removeClass( 'active' );
         $('#topics-button').addClass( 'active' );
       }
     });
 
     // CLOSE NAV-MODE
     $('#content *').click(function(){
-        $('#main-wrapper').removeClass('nav-mode');
-        $('.sub').slideUp(100);
-        $('#nav *').removeClass('active');
-        $('#topics-button').addClass('active');
+      console.log('content clicked -> nav-mode ended');
+      $('#main-wrapper').removeClass('nav-mode');
+      $('.sub').slideUp(100);
+      $('.nav').find('.active').removeClass('active');
+      $('#topics-button').addClass('active');
     });
 
 });
