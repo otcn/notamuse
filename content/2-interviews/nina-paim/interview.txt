@@ -91,6 +91,16 @@ Interview:
   quote: ""
   quoteauthor: ""
 - 
+  fid: f326
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Habt ihr Vorbilder?
+  category: Inspiration
+  antwort: |
+    NP:&nbsp;I have many! First and foremost my grandmother, who was very open-minded, always fought for her independence, and who really saw me for who I am. Then, at the Rietveld, <a href="http://www.mevisvandeursen.nl/">Linda van Deursen</a>. Linda is an amazing person. She is incredibly critical and sharp, but also very open-minded and generous. She has this incredible ability of bringing out the best in you. When I had this idea about my graduation project taking place in Brazil, most teachers were sceptical, but Linda was supportive. Then, <a href="http://www.juliaborn.com/">Julia Born</a>, another teacher at the Rietveld. Julia is extremely thoughtful and bright, she can really listen, which is a rare quality, and she has this ability of giving critical feedback in a very empowering way. Working for her after graduation was great; I could not only could see how she designs, but also how she manages the wholesome of her life – at that time she was the mother of a young child. Then more recently, <a href="https://twitter.com/incecatherine?lang=de">Catherine Ince</a>, a design curator working at the Victoria and Albert Museum. I had a chance to have her as a mentor during my M.A. Catherine is also incredibly thoughtful and generous — that seems to be a pattern for my role models! Then finally, from a distance, <a href="https://en.wikipedia.org/wiki/Beatriz_Colomina">Beatriz Colomina</a>, the director of the graduate studies program in architecture at Princeton University. Colomina is a brilliant researcher — maybe she’s more of an an idol than a role model! Hopefully I'll get to meet her some day. I guess all my role models are female!
+  quote: ""
+  quoteauthor: ""
+- 
   fid: f152
   spezialfrage: "0"
   vorfrage: ""

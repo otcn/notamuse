@@ -107,6 +107,17 @@ Interview:
   quote: ""
   quoteauthor: ""
 - 
+  fid: f325
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Gibt es zu wenige weibliche Vorbilder?
+  category: Inspiration
+  antwort: |
+    IS:&nbsp;Außer Larissa von <a href="http://kasper-florio.ch/">Kasper Florio</a>, <a href="http://inescox.com/">Ines Cox</a> und vielleicht <a href="http://studioveronicaditting.com/">Veronica Ditting</a> fallen mir immer noch kaum weibliche Gestalterinnen auf Anhieb ein. <a href="http://mthvn.tumblr.com/">Vinca Kruk</a> von Metahaven ist zum Beispiel eine sehr starke Persönlichkeit. Während des Studiums hatte ich einen Workshop mit ihr und dass sie so stark auftrat, wirkte ungewohnt. Es war das erste Mal, dass ich einen Workshop mit einer Frau hatte, bei dem das Thema weder Zeichnen noch Illustration war. Darüber habe ich auch schon mit <a href="http://www.uebele.com/de/aktuell.html">Andreas Uebele</a> gesprochen, der fand, dass die Geschlechterungleichheit in der Gestaltung mittlerweile kein Thema mehr sei. Die einzige aber, die er mir nennen konnte, als ich erwiderte im Studium keine weiblichen Vorbilder gehabt zu haben, war <a href="https://en.wikipedia.org/wiki/Paula_Scher">Paula Scher</a>.
+    Ich weiß nicht, ob das so ist, weil Frauen ihr Potential nicht voll ausschöpfen und nicht weit genug in ihrem Schaffen gehen oder weil sie nicht so oft erwähnt werden. Von der Geschichtsschreibung werden sie zum Beispiel meist gar nicht berücksichtigt. <a href="http://master.design.zhdk.ch/personenangaben/sarah-owens">Sarah Owens</a>, die Leiterin für Visuelle Kommunikation an der ZHdK, hat vor eineinhalb Jahren bei der AGI einen Vortrag über Frauen in Kunst und Design gehalten. Sie hat sich geschichtlich mit dem Thema auseinandergesetzt, unter anderem mit dem sonst so fortschrittlichen Bauhaus, an dem Frauen in die Textil- und Töpferklassen gesteckt und nicht in die Architektur aufgenommen wurden.
+  quote: ""
+  quoteauthor: ""
+- 
   fid: f208
   spezialfrage: "0"
   vorfrage: ""
