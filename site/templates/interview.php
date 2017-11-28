@@ -17,7 +17,7 @@ if(!kirby()->request()->ajax()) {
   $interview = $page;
 ?>
 
-<div id="interview-content">
+<div id="interview-content" class="overlay-content">
   <h1><?= $interview->title()->html() ?></h1>
 
   <div id="interview-info" class="aside-info">
@@ -31,10 +31,19 @@ if(!kirby()->request()->ajax()) {
       <?php endforeach ?>
       <figcaption>
         <ul>
+
+          <li>
+            <?php if( !$interview->interviewimagecredits()->empty() ): ?>
+              <?php echo $interview->interviewimagecredits() ?>
+            <?php endif ?>
+          </li>
+
           <li class="extended"><?= $interview->title()->html() ?></li>
           <li><?= $interview->place()->html() ?></li>
           <li><a href="<?= $interview->web() ?>"><?= $interview->web() ?></a></li>
+
           <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
+
         </ul>
       </figcaption>
     </figure>
@@ -43,7 +52,7 @@ if(!kirby()->request()->ajax()) {
   <div class="i-intro"><?= $interview->introduction()->kirbytext() ?></div>
 
   <?php foreach($interview->Interview()->toStructure() as $interviewpart): ?>
-    <div class="i-question">
+    <div id="<?= $interviewpart->fid()->html() ?>" class="i-question" >
       <?= $interviewpart->vorfrage()->kirbytext() ?>
       <?= $interviewpart->frage()->kirbytext() ?>
     </div>

@@ -1,6 +1,9 @@
 <!-- the following php places the header with css and js links and the opening html body tag -->
 <?php snippet('header'); ?>
 
+<!-- the "separator" divides the main stage and the overlays. on click overlays close -->
+<div id="separator"><a class="key-icon active"></a></div>
+
 <div id="main-wrapper" class="flex-container">
     <!-- the following php places all snippets concerning the main stage -->
     <?php
@@ -9,9 +12,6 @@
     snippet('article');
     ?>
 </div>
-
-<!-- the "separator" divides the main stage and the overlays. on click overlays close -->
-<div id="separator" class="hidden"><a class="key-icon active"></a></div>
 
 <!-- overlay snippets -->
 <div class="preview">

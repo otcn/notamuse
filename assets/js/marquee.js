@@ -19,7 +19,7 @@ $(document).ready(function(){
     //console.log( "pLastTop: " + pLastTop );
 
     if( pLastTop < 0 ) { // if p exceeds marquee
-      //$( ".marker" ).removeClass( "marker" );
+      $( ".marker" ).removeClass( "marker" );
       //$( marquee ).append("<p>" + pText + "</p>"); // add new p;
       $( "<p>" + pText + "</p>" ).addClass( "marker" ).appendTo( marquee ); // add new p;
     }

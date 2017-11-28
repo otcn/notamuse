@@ -32,6 +32,11 @@ fields:
         label: Image of Interviewee
         type: image
         width: 1/2
+    interviewimagecredits:
+        label: Image Credits
+        type: text
+        required: false
+        width: 1/2
     web:
         label: Website of Interviewee
         type: url

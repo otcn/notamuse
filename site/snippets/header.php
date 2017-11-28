@@ -23,12 +23,12 @@
   <?php echo js('https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js') ?>
   <!--Load js async-->
   <?php echo js(array(
+    'assets/js/smoothy.js',
     'assets/js/marquee.js',
     'assets/js/lib.js',
     'assets/js/classy-links.js', // must be placed before script.js
     'assets/js/script.js',
-    'assets/js/question-id.js',
-    'assets/js/key.js',
+    'assets/js/question-id.js'
   ), true) ?>
 
 </head>

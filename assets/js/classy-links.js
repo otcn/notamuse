@@ -3,7 +3,7 @@
 //
 
 function classyLinks() {
-  console.log( 'classyLinks' );
+  console.log('classyLinks');
 
   // This script adds the classes "a-extern" and "a-intern" to the designated links
   $('p a').each(function(){
@@ -31,16 +31,20 @@ function classyLinks() {
       .replace(/([A-Z]{2}\:)/g, '<span class=\'extended\'>$1</span>'); //([A-Z]{2}\:)
     $( this ).html(myText);
   });
+
+  // This script solves a wording conflict related to the interview place "via Email"
+  $( '.aside-info li' ).each(function(){
+    console.log('via Email');
+    var myText = $( this ).html();
+    myText = myText
+      .replace(/in (via E-Mail)/g, '$1');
+    $( this ).html(myText);
+  });
+
 };
 
 $(document).ready(function() {
 
-
   classyLinks();
-
-  // TEST-TEST-TEST:
-  $( '.overlay' ).click(function(){
-    classyLinks();
-  })
 
 });

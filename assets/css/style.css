@@ -53,6 +53,7 @@
   .intro-quote p, .intro-nav *, .i-intro *, #nav>ul>li>a, .question-title * {
     font-size: 30px;
     line-height: 33px;
+    letter-spacing: -0.012em;
   }
 
   .extended  {
@@ -301,10 +302,12 @@
     -moz-box-shadow: -1px 0px 1px rgba(0,0,0,.05);
     box-shadow: -1px 0px 1px rgba(0,0,0,.05);
 
+    /*
     -webkit-transition: all .15s;
     -moz-transition: all .15s;
     -o-transition: all .15s;
     transition: all .15s;
+    */
   }
 
   .overlay.hidden {
@@ -432,8 +435,6 @@
     height: 100vh;
     width: auto;
     overflow: hidden;
-    -webkit-transition: all .2s; /* Safari */
-    transition: all .2s;
     position: relative;
   }
   #nav-frame.flex-item{
@@ -487,7 +488,7 @@
     margin: 0px 0px 7px 0px;
     position: relative;
     display: block;
-    max-width:20vw;
+    max-width:19vw;
   }
 
   .nav-mode>#nav-frame>#nav>ul>li {
@@ -595,7 +596,6 @@
 /* MAIN LAYER: CONTENT ========================================================================== */
 
   #content {
-    transition: all 0.5s;
     width: 80vw;
     padding: 0px 10vw 0px 0px;
     margin: 0px 0px 0px 0px;
@@ -655,7 +655,7 @@
   }
 
   .question-title a:first-child {
-    max-width: 54vw;
+    max-width: 53vw;
     display: block;
   }
   .question-title a:first-child:hover, .question-title a:first-child.active {
@@ -739,6 +739,9 @@
     color: green;
   }
 
+  .active {
+  }
+
 /* ASIDE INFO AND PREVIEW CONTAINER ========================================================================== */
 
   .aside-info, .preview {
@@ -746,14 +749,24 @@
     position: fixed;
     top: 0;
     left: 64vw;
-    margin-top: 19px;
-    padding: 0;
     z-index: 100;
     width: 24vw;
     min-width: 120px;
     max-width: 600px;
-    height: 100vh;
-    overflow: scroll;
+    padding: 0;
+    margin:0;
+  }
+
+  .aside-info figure, .preview figure {
+    width: 30vw;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    max-height: 100vh;
+    overflow-y: scroll;
+    padding: 19px 6vw 0 0;
   }
 
   .preview figure {
@@ -761,7 +774,7 @@
   }
 
   .aside-image {
-    width: 25vw;
+    max-width: 100%;
     display: block;
     overflow: hidden;
     position: relative;
