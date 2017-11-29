@@ -14,8 +14,27 @@ Author: notamuse
 
 ----
 
-Description: 
+Description: This is my wonderful new site
 
 ----
 
-Copyright: 
+Copyright: 2017 - notamuse
+
+----
+
+keywords: my, new, site
+
+----
+copyright: 2017 - notamuse
+
+----
+
+facebook:
+
+----
+
+twitter:
+
+----
+
+language: de

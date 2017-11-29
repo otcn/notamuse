@@ -57,3 +57,4 @@ kirby()->hook('panel.page.update', function($page){
     // DREAMCODE = $fidCounter;
     $page->update(array('Interview' => yaml::encode($newQuestions)));
 });
+

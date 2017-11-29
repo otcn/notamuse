@@ -25,13 +25,13 @@ $question = $questions[$array_key];
 $fid = $fids[$array_key];
 ?>
 
-<?php echo '<script>console.log('.$fid.')</script>'; ?>
+<?php echo '<script>console.log("quote-id: ' . $fid . ' ")</script>'; ?>
 
 <div class="intro-container overlay">
   <div id="intro-content">
     <div class="intro-quote">
     <h1><?php echo $quote ?></h1>
-    <p>
+    <p class="extended">
 
       <?php
       if ( !empty( $author )) {
@@ -41,13 +41,11 @@ $fid = $fids[$array_key];
 
     </p>
   </div>
-  <div class="intro-nav">
+  <div class="intro-nav sticky">
     <ul>
       <li><?php echo $question ?></li>
-      <li>
-        <a class="js-answer-link" href="#<?php echo $fid ?>">Alle Antworten zu dieser Frage</a>
-      </li>
-      <li><a href="#">Alle Themen im Überblick</a></li>
+      <li class=""><a class="js-intro-answer" href="#<?php echo $fid ?>">Alle Antworten zu dieser Frage</a></li>
+      <li><a class="js-intro-close">Alle Themen im Überblick</a></li>
     </ul>
   </div>
   </div>

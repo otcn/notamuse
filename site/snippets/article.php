@@ -43,7 +43,13 @@
                                             <li class="answer-item">
 
                                                 <a href="<?php echo $interview->url() ?>" class="interviewee-title" imgsrc="<?php if($image = $interview->image()): ?><?php echo $image->url() ?><?php endif ?>">
-                                                    <?php echo $interview->title() ?>
+
+                                                    <?php if( !$interview->titlenav()->empty() ): ?>
+                                                      <?php echo $interview->titlenav() ?>
+                                                    <?php else: ?>
+                                                      <?php echo $interview->title() ?>
+                                                    <?php endif ?>
+
                                                 </a>
 
                                                 <?php echo $interviewUnit->antwort()->kirbytext() ?> <!-- echoes whole answer -->

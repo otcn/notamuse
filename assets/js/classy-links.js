@@ -6,7 +6,7 @@ function classyLinks() {
   console.log('classyLinks');
 
   // This script adds the classes "a-extern" and "a-intern" to the designated links
-  $('p a').each(function(){
+  $('.answer-item p a, .overlay p a').each(function(){
     if ($(this).attr('href') && $(this).attr('href').match(/https?:\/\/(?!localhost)/)) {
       $(this).attr('target','_blank').addClass('a-extern').removeClass('a-intern');
     } else {
@@ -15,7 +15,7 @@ function classyLinks() {
   });
 
   // This script removes "http(s)://" in front of the link in the interview aside figcaption
-  $('a').each(function(){
+  $('.aside-info a').each(function(){
     var myText = $( this ).text();
     myText = myText
       .replace(/(https*\:\/\/)/g, "") // find "http://" or "https://" at end of string
@@ -24,7 +24,7 @@ function classyLinks() {
   });
 
   // This script emphasizes the initials in front of an answer
-  $( 'p' ).each(function(){
+  $( 'p.i-answer, .answer-item p' ).each(function(){
     console.log('get initials');
     var myText = $( this ).html();
     myText = myText
@@ -37,13 +37,13 @@ function classyLinks() {
     console.log('via Email');
     var myText = $( this ).html();
     myText = myText
-      .replace(/in (via E-Mail)/g, '$1');
+      .replace(/in (via)/g, '$1');
     $( this ).html(myText);
   });
 
 };
 
-$(document).ready(function() {
+$( window ).on( "load", function() {
 
   classyLinks();
 

@@ -10,6 +10,8 @@
   </title>
 
   <meta name="description" content="<?= $site->description()->html() ?>">
+  <meta name="keywords" content="<?php echo $site->keywords() ?>">
+
 
   <!--Load css-->
   <?php echo css(array(
@@ -26,8 +28,8 @@
     'assets/js/smoothy.js',
     'assets/js/marquee.js',
     'assets/js/lib.js',
-    'assets/js/classy-links.js', // must be placed before script.js
     'assets/js/script.js',
+    'assets/js/classy-links.js',
     'assets/js/question-id.js'
   ), true) ?>
 
