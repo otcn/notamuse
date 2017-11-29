@@ -18,15 +18,29 @@
   font-display: fallback;
 }
 
-/* Variables ========================================================================== */
+/* VARIABLES ========================================================================== */
+/* Colors */
 $color0: #000;
 $color1: #e3001f;
 $color2: grey;
 $color3: #fff;
-
+/* Breakpoints */
+@mixin breakpoint($point) {
+  @if $point == mobile {
+    @media (max-width: 768px) { @content; }
+  }
+}
+/* Fonts */
 $font1: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
 $font2: RenaGrotesk-Extended, Helvetica, Arial, sans-serif;
 
+
+
+@mixin font-size-1 {
+  font-size:    1rem;
+  line-height:  1.42rem;
+  letter-spacing: 0rem;
+}
 @mixin font-style-1 {
   font-family: $font1;
   text-align: left;
@@ -78,6 +92,9 @@ h1 {
   line-height: 90px;
   letter-spacing: -0.04em;
   @include font-style-2;
+  @include breakpoint(mobile) {
+    @include font-size-1;
+  }
 }
 
 .topic-title a {
@@ -86,6 +103,9 @@ h1 {
   /* adjust distance from top while sticky here */
   letter-spacing: -.03em;
   padding-bottom: 2px;
+  @include breakpoint(mobile) {
+    @include font-size-1;
+  }
 }
 
 .marquee {
@@ -93,6 +113,9 @@ h1 {
     line-height: 7.5vw;
     font-size: 102px;
     font-family: RenaGrotesk-Extended, sans-serif;
+    @include breakpoint(mobile) {
+      @include font-size-1;
+    }
   }
 }
 
@@ -100,6 +123,9 @@ h1 {
   font-size: 30px;
   line-height: 33px;
   letter-spacing: -0.012em;
+  @include breakpoint(mobile) {
+    @include font-size-1;
+  }
 }
 
 em, .extended, .active {
@@ -159,6 +185,11 @@ p {
   -webkit-margin-after: 0;
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 
   &::-moz-selection {
     color: $color1;
@@ -234,6 +265,16 @@ figure {
   transform-origin: 0% 100%;
   transform: rotate(270deg) translate(0, 100vh);
   white-space: nowrap;
+
+  @include breakpoint(mobile) {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    transform: none;
+    padding: 0;
+  }
+
   p {
     display: inline-block;
     padding: 0 5px;
@@ -255,6 +296,18 @@ figure {
     /* IE10+/Edge */
     user-select: none;
     /* Standard */
+    @include breakpoint(mobile) {
+      display: block;
+      padding: 2vh 2vw 2vh 2vw;
+      position: relative;
+      text-align: left;
+      transform:none; /* starting position */
+    }
+  }
+  a {
+    @include breakpoint(mobile) {
+      padding:  2vh 2vw;
+    }
   }
 }
 
@@ -287,6 +340,11 @@ a.key-icon {
   font-family: RenaGrotesk-Regular, sans-serif;
   display: none;
 
+  @include breakpoint(mobile) {
+    @include font-size-1;
+    display:block;
+  }
+
   &::after {
     content: "​\E000";
   }
@@ -304,6 +362,11 @@ a.key-icon {
   margin: auto;
   visibility: hidden;
   display: block;
+  @include breakpoint(mobile) {
+    visibility: visible;
+    position: relative;
+    padding: 3vw;
+  }
 }
 
 #separator:hover a.key-icon {
@@ -317,6 +380,9 @@ a.key-icon {
   margin-top: -15px;
   z-index: 110;
   display: none;
+  @include breakpoint(mobile) {
+    display:block;
+  }
 }
 
 #nav li:hover a.key-icon, *:hover > a.key-icon {
@@ -350,9 +416,27 @@ a.key-icon {
   box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
 
   @include transition( all );
+  @include breakpoint(mobile) {
+    display: block; /* change to block later */
+    height: auto;
+    min-height: 50vh;
+    width: 100vw;
+    padding: 10vh 2vw 2vh 2vw;
+    margin: 0 0 0 0;
+    position: fixed;
+    left:0;
+    top:0;
+  }
 
   &.hidden {
     left: 100vw;
+    @include breakpoint(mobile) {
+      overflow: hidden;
+      bottom:   100vh;
+      left:     auto;
+      top:      auto;
+      right:    auto;
+    }
   }
 
   a {
@@ -401,6 +485,10 @@ a.key-icon {
 #about-content, #interview-content, #about-imprint {
   max-width: 48vw;
   margin-bottom: 25vh;
+    @include breakpoint(mobile) {
+      width:     auto;
+      max-width: none;
+    }
 }
 
 
@@ -423,6 +511,9 @@ a.key-icon {
 .intro-nav {
   position: relative;
   padding-top: 1rem;
+  @include breakpoint(mobile) {
+    display: none;
+  }
   li {
     margin-top: 18px;
   }
@@ -431,6 +522,10 @@ a.key-icon {
     bottom: 0;
     padding-bottom: 1rem;
     max-width: 70vw;
+    @include breakpoint(mobile) {
+      width:     auto;
+      max-width: none;
+    }
   }
 }
 
@@ -497,9 +592,20 @@ a.key-icon {
 
 #nav-frame.flex-item {
   width: 20vw;
+  min-width: 225px;
+  max-width: 1000px;
   z-index: 100;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
+  @include breakpoint(mobile) {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+      width:     auto;
+      max-width: none;
+  }
 }
 
 #content-frame.flex-item {
@@ -507,6 +613,11 @@ a.key-icon {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   z-index: 90;
+  @include breakpoint(mobile) {
+    width: 100vw;
+    z-index: 90;
+    padding: 10vh 0 0 0;
+  }
 }
 
 #content {
@@ -514,8 +625,6 @@ a.key-icon {
   overflow-x: hidden;
   height: 100vh;
 }
-
-
 
 /* MAIN LAYER: NAVIGATION ========================================================================== */
 .nav {
@@ -527,7 +636,13 @@ a.key-icon {
   height: 100vh;
   /*overflow: hidden;*/
   overflow: auto;
-
+  @include breakpoint(mobile) {
+    height: auto;
+    width: auto;
+    padding: 10vh 0 0 0;
+    margin: 0px;
+    background: $color2;
+  }
   * {
     @include transition( all );
   }
@@ -535,22 +650,41 @@ a.key-icon {
   &>ul {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    @include breakpoint(mobile) {
+    }
 
     &>li {
       padding: 0px 0px 0px 0px;
       margin: 0px 0px 7px 0px;
       position: relative;
       display: block;
-      max-width: 19vw;
+      width: 19vw;
+      min-width: 220px;
+      max-width: 1000px;
+      @include breakpoint(mobile) {
+        margin: 0px;
+        padding: 2vh 2vw;
+        width: auto;
+        max-width: none;
+      }
     }
 
     &>li.nav-topics {
       margin-top: 12px;
+      @include breakpoint(mobile) {
+        margin: 0px;
+        display: none;
+      }
     }
 
     &>li.nav-spacer {
       margin-top: -280px;
       margin-bottom: 100vh;
+      @include breakpoint(mobile) {
+        margin: 0px;
+        padding: 0px;
+        display: none;
+      }
     }
 
     .nav-mode &>li.nav-spacer {
@@ -563,7 +697,8 @@ a.key-icon {
     }
 
     &>li.nav-about {
-
+      @include breakpoint(mobile) {
+      }
     }
 
     a {
@@ -571,6 +706,10 @@ a.key-icon {
       margin: 0px 0px 0px 0px;
       display: block;
       cursor: pointer;
+      @include breakpoint(mobile) {
+        margin: 0px;
+        padding: 0px;
+      }
     }
   }
 }
@@ -587,7 +726,14 @@ a.key-icon {
   }
 
   #nav-frame > #nav > ul > li {
-    max-width: 35vw;
+    width: 35vw;
+    min-width: 220px;
+    max-width: 1000px;
+    @include breakpoint(mobile) {
+      margin: 0px;
+      padding: 0px;
+      width: auto;
+    }
   }
 
   .nav > ul > li.nav-spacer {
@@ -611,10 +757,18 @@ a.key-icon {
   @include transition( height );
   width: 100%;
   height: auto;
+    @include breakpoint(mobile) {
+      width: auto;
+      max-width:none;
+    }
 }
 
 .sub * {
   max-width: 35vw;
+    @include breakpoint(mobile) {
+      width:     auto;
+      max-width: none;
+    }
 }
 
 .sub ul, .sub li, .sub a {
@@ -628,6 +782,10 @@ a.key-icon {
   display: flex;
   position: relative;
   width: 34vw;
+    @include breakpoint(mobile) {
+      width:     auto;
+      max-width: none;
+    }
 }
 
 .sub > ul > li {
@@ -637,12 +795,22 @@ a.key-icon {
   position: relative;
   min-width: 27px;
   width: 31vw;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 }
 
 .sub .register-mark {
   width: 2vw;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 }
 
 .sub .register-mark + li {
@@ -652,11 +820,21 @@ a.key-icon {
 
 .sub a {
   max-width: 82%;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 }
 
 .sub a:hover {
   max-width: 100%;
   font-family: RenaGrotesk-Extended, sans-serif;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 }
 
 /* MAIN LAYER: CONTENT ========================================================================== */
@@ -664,6 +842,15 @@ a.key-icon {
   width: 80vw;
   padding: 0px 10vw 0px 0px;
   margin: 0px 0px 0px 0px;
+  @include breakpoint(mobile) {
+    width: 100vw;
+    padding: 0px 0px 0px;
+
+      width:     auto;
+      min-width: none;
+      max-width: none;
+
+  }
 }
 
 .topic-list {
@@ -688,6 +875,9 @@ a.key-icon {
   background: #fff;
   cursor: pointer;
   padding-right: 42px;
+  @include breakpoint(mobile) {
+    padding: 2vh 2vw;
+  }
 }
 
 .topic-title {
@@ -699,6 +889,11 @@ a.key-icon {
   border-bottom: 1px solid #000;
   border-top: 1px solid #000;
   width: 100%;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 }
 
 .question-list {
@@ -724,10 +919,20 @@ a.key-icon {
 .question-title a:first-child {
   max-width: 53vw;
   display: block;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 }
 
 .question-title a:first-child:hover, .question-title a:first-child.active {
   max-width: 66vw;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 }
 
 .answer-list {
@@ -741,7 +946,16 @@ li.question-item:last-child .answer-list {
 
 .answer-item {
   margin: 33px 0px 0px 0px;
-  max-width: 50vw;
+  width: 50vw;
+  min-width: 480px;
+  max-width: 700px;
+  @include breakpoint(mobile) {
+    padding: 2vh 2vw;
+    margin: 0 0 0 0;
+    width:     auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .answer-item:last-of-type {
@@ -764,12 +978,20 @@ a.interviewee-title {
   position: sticky;
   top: 0px;
   z-index: 100;
+  @include breakpoint(mobile) {
+    position: relative;
+    top: auto;
+  }
 }
 
 .topic-item.active > .topic-title {
   /* STICKY-CODE */
   top: 0px;
   z-index: 20;
+  @include breakpoint(mobile) {
+    position: relative;
+    top: auto;
+  }
 }
 
 .question-item.active > .question-title {
@@ -779,6 +1001,10 @@ a.interviewee-title {
   position: sticky;
   top: 110px;
   z-index: 10;
+  @include breakpoint(mobile) {
+    position: relative;
+    top: auto;
+  }
 }
 
 /* STICKINESS NAV WRAPPER ========================================================================== */
@@ -796,6 +1022,11 @@ a.interviewee-title {
     z-index: 100;
     border-top: 0;
     */
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
 }
 
 /* TESTING CLASS ========================================================================== */
@@ -817,6 +1048,18 @@ a.interviewee-title {
   max-width: 600px;
   padding: 0;
   margin: 0;
+  @include breakpoint(mobile) {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    min-width: none;
+    max-width: none;
+    height: auto;
+    overflow: visible;
+  }
 
   figure {
     width: 30vw;
@@ -828,6 +1071,11 @@ a.interviewee-title {
     max-height: 100vh;
     overflow-y: scroll;
     padding: 19px 6vw 0 0;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
   }
 
   figure>*:last-child {
@@ -843,10 +1091,23 @@ a.interviewee-title {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    @include breakpoint(mobile) {
+      overflow: hidden;
+      margin-left: -2vw;
+      max-height: 50vh;
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
   }
 
   .aside-image img {
     max-width: 100%;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
   }
 
   li:first-child, li:last-child {

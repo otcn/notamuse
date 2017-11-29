@@ -18,7 +18,10 @@
   font-display: fallback;
 }
 
-/* Variables ========================================================================== */
+/* VARIABLES ========================================================================== */
+/* Colors */
+/* Breakpoints */
+/* Fonts */
 /* FONT-SIZES ========================================================================== */
 h1 {
   font-size: 95px;
@@ -54,6 +57,14 @@ h1 {
   font-family: RenaGrotesk-Extended, Helvetica, Arial, sans-serif;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    letter-spacing: 0rem;
+  }
+}
+
 .topic-title a {
   font-size: 95px;
   line-height: 0px;
@@ -62,16 +73,40 @@ h1 {
   padding-bottom: 2px;
 }
 
+@media (max-width: 768px) {
+  .topic-title a {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    letter-spacing: 0rem;
+  }
+}
+
 .marquee p, .marquee a {
   line-height: 7.5vw;
   font-size: 102px;
   font-family: RenaGrotesk-Extended, sans-serif;
 }
 
+@media (max-width: 768px) {
+  .marquee p, .marquee a {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    letter-spacing: 0rem;
+  }
+}
+
 .intro-quote p, .intro-nav *, .i-intro *, #nav > ul > li > a, .question-title * {
   font-size: 30px;
   line-height: 33px;
   letter-spacing: -0.012em;
+}
+
+@media (max-width: 768px) {
+  .intro-quote p, .intro-nav *, .i-intro *, #nav > ul > li > a, .question-title * {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    letter-spacing: 0rem;
+  }
 }
 
 em, .extended, .active {
@@ -188,6 +223,14 @@ p {
   -webkit-margin-end: 0;
 }
 
+@media (max-width: 768px) {
+  p {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
+}
+
 p::-moz-selection {
   color: #e3001f;
   background-color: transparent;
@@ -264,6 +307,17 @@ figure {
   white-space: nowrap;
 }
 
+@media (max-width: 768px) {
+  .marquee {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    transform: none;
+    padding: 0;
+  }
+}
+
 .marquee p {
   display: inline-block;
   padding: 0 5px;
@@ -285,6 +339,23 @@ figure {
   /* IE10+/Edge */
   user-select: none;
   /* Standard */
+}
+
+@media (max-width: 768px) {
+  .marquee p {
+    display: block;
+    padding: 2vh 2vw 2vh 2vw;
+    position: relative;
+    text-align: left;
+    transform: none;
+    /* starting position */
+  }
+}
+
+@media (max-width: 768px) {
+  .marquee a {
+    padding: 2vh 2vw;
+  }
 }
 
 /* SEPARATOR ========================================================================== */
@@ -319,6 +390,15 @@ a.key-icon {
   /* inserts glyph before anchor" */
 }
 
+@media (max-width: 768px) {
+  a.key-icon {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    letter-spacing: 0rem;
+    display: block;
+  }
+}
+
 a.key-icon::after {
   content: "​\E000";
 }
@@ -336,6 +416,14 @@ a.key-icon.active::after {
   display: block;
 }
 
+@media (max-width: 768px) {
+  #separator a.key-icon {
+    visibility: visible;
+    position: relative;
+    padding: 3vw;
+  }
+}
+
 #separator:hover a.key-icon {
   visibility: visible;
 }
@@ -347,6 +435,12 @@ a.key-icon.active::after {
   margin-top: -15px;
   z-index: 110;
   display: none;
+}
+
+@media (max-width: 768px) {
+  #nav a.key-icon {
+    display: block;
+  }
 }
 
 #nav li:hover a.key-icon, *:hover > a.key-icon {
@@ -382,8 +476,33 @@ a.key-icon.active::after {
   transition: all 0.2s;
 }
 
+@media (max-width: 768px) {
+  .overlay {
+    display: block;
+    /* change to block later */
+    height: auto;
+    min-height: 50vh;
+    width: 100vw;
+    padding: 10vh 2vw 2vh 2vw;
+    margin: 0 0 0 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}
+
 .overlay.hidden {
   left: 100vw;
+}
+
+@media (max-width: 768px) {
+  .overlay.hidden {
+    overflow: hidden;
+    bottom: 100vh;
+    left: auto;
+    top: auto;
+    right: auto;
+  }
 }
 
 .overlay a {
@@ -432,6 +551,13 @@ a.key-icon.active::after {
   margin-bottom: 25vh;
 }
 
+@media (max-width: 768px) {
+  #about-content, #interview-content, #about-imprint {
+    width: auto;
+    max-width: none;
+  }
+}
+
 /* INTRO ========================================================================== */
 .intro-quote h1::after {
   content: "\00AB";
@@ -452,6 +578,12 @@ a.key-icon.active::after {
   padding-top: 1rem;
 }
 
+@media (max-width: 768px) {
+  .intro-nav {
+    display: none;
+  }
+}
+
 .intro-nav li {
   margin-top: 18px;
 }
@@ -461,6 +593,13 @@ a.key-icon.active::after {
   bottom: 0;
   padding-bottom: 1rem;
   max-width: 70vw;
+}
+
+@media (max-width: 768px) {
+  .intro-nav.sticky {
+    width: auto;
+    max-width: none;
+  }
 }
 
 .intro-nav a::before, a.interviewee-title::before {
@@ -529,9 +668,23 @@ a.key-icon.active::after {
 
 #nav-frame.flex-item {
   width: 20vw;
+  min-width: 225px;
+  max-width: 1000px;
   z-index: 100;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
+}
+
+@media (max-width: 768px) {
+  #nav-frame.flex-item {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: auto;
+    max-width: none;
+  }
 }
 
 #content-frame.flex-item {
@@ -539,6 +692,14 @@ a.key-icon.active::after {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   z-index: 90;
+}
+
+@media (max-width: 768px) {
+  #content-frame.flex-item {
+    width: 100vw;
+    z-index: 90;
+    padding: 10vh 0 0 0;
+  }
 }
 
 #content {
@@ -562,6 +723,16 @@ a.key-icon.active::after {
   overflow: auto;
 }
 
+@media (max-width: 768px) {
+  .nav {
+    height: auto;
+    width: auto;
+    padding: 10vh 0 0 0;
+    margin: 0px;
+    background: grey;
+  }
+}
+
 .nav * {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -579,16 +750,42 @@ a.key-icon.active::after {
   margin: 0px 0px 7px 0px;
   position: relative;
   display: block;
-  max-width: 19vw;
+  width: 19vw;
+  min-width: 220px;
+  max-width: 1000px;
+}
+
+@media (max-width: 768px) {
+  .nav > ul > li {
+    margin: 0px;
+    padding: 2vh 2vw;
+    width: auto;
+    max-width: none;
+  }
 }
 
 .nav > ul > li.nav-topics {
   margin-top: 12px;
 }
 
+@media (max-width: 768px) {
+  .nav > ul > li.nav-topics {
+    margin: 0px;
+    display: none;
+  }
+}
+
 .nav > ul > li.nav-spacer {
   margin-top: -280px;
   margin-bottom: 100vh;
+}
+
+@media (max-width: 768px) {
+  .nav > ul > li.nav-spacer {
+    margin: 0px;
+    padding: 0px;
+    display: none;
+  }
 }
 
 .nav-mode .nav > ul > li.nav-spacer {
@@ -607,6 +804,13 @@ a.key-icon.active::after {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .nav > ul a {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
 /* NAV-MODE ========================================================================== */
 .nav-mode .nav {
   overflow: auto;
@@ -617,7 +821,17 @@ a.key-icon.active::after {
 }
 
 .nav-mode #nav-frame > #nav > ul > li {
-  max-width: 35vw;
+  width: 35vw;
+  min-width: 220px;
+  max-width: 1000px;
+}
+
+@media (max-width: 768px) {
+  .nav-mode #nav-frame > #nav > ul > li {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+  }
 }
 
 .nav-mode .nav > ul > li.nav-spacer {
@@ -645,8 +859,22 @@ a.key-icon.active::after {
   height: auto;
 }
 
+@media (max-width: 768px) {
+  .sub {
+    width: auto;
+    max-width: none;
+  }
+}
+
 .sub * {
   max-width: 35vw;
+}
+
+@media (max-width: 768px) {
+  .sub * {
+    width: auto;
+    max-width: none;
+  }
 }
 
 .sub ul, .sub li, .sub a {
@@ -662,6 +890,13 @@ a.key-icon.active::after {
   width: 34vw;
 }
 
+@media (max-width: 768px) {
+  .sub > ul {
+    width: auto;
+    max-width: none;
+  }
+}
+
 .sub > ul > li {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 17px 2vw;
@@ -671,10 +906,26 @@ a.key-icon.active::after {
   width: 31vw;
 }
 
+@media (max-width: 768px) {
+  .sub > ul > li {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
+}
+
 .sub .register-mark {
   width: 2vw;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .sub .register-mark {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .sub .register-mark + li {
@@ -686,9 +937,25 @@ a.key-icon.active::after {
   max-width: 82%;
 }
 
+@media (max-width: 768px) {
+  .sub a {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
+}
+
 .sub a:hover {
   max-width: 100%;
   font-family: RenaGrotesk-Extended, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .sub a:hover {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 /* MAIN LAYER: CONTENT ========================================================================== */
@@ -696,6 +963,16 @@ a.key-icon.active::after {
   width: 80vw;
   padding: 0px 10vw 0px 0px;
   margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  #content {
+    width: 100vw;
+    padding: 0px 0px 0px;
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .topic-list {
@@ -722,6 +999,12 @@ a.key-icon.active::after {
   padding-right: 42px;
 }
 
+@media (max-width: 768px) {
+  .topic-title, .question-title {
+    padding: 2vh 2vw;
+  }
+}
+
 .topic-title {
   padding-top: 42px;
   padding-bottom: 22px;
@@ -731,6 +1014,14 @@ a.key-icon.active::after {
   border-bottom: 1px solid #000;
   border-top: 1px solid #000;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .question-list, .answer-list {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .question-list {
@@ -758,8 +1049,24 @@ a.key-icon.active::after {
   display: block;
 }
 
+@media (max-width: 768px) {
+  .question-title a:first-child {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
+}
+
 .question-title a:first-child:hover, .question-title a:first-child.active {
   max-width: 66vw;
+}
+
+@media (max-width: 768px) {
+  .question-title a:first-child:hover, .question-title a:first-child.active {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .answer-list {
@@ -773,7 +1080,19 @@ li.question-item:last-child .answer-list {
 
 .answer-item {
   margin: 33px 0px 0px 0px;
-  max-width: 50vw;
+  width: 50vw;
+  min-width: 480px;
+  max-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .answer-item {
+    padding: 2vh 2vw;
+    margin: 0 0 0 0;
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .answer-item:last-of-type {
@@ -798,10 +1117,24 @@ a.interviewee-title {
   z-index: 100;
 }
 
+@media (max-width: 768px) {
+  .topic-item.active > .topic-title, .question-item.active > .question-title, #questions-button.active, #interviews-button.active {
+    position: relative;
+    top: auto;
+  }
+}
+
 .topic-item.active > .topic-title {
   /* STICKY-CODE */
   top: 0px;
   z-index: 20;
+}
+
+@media (max-width: 768px) {
+  .topic-item.active > .topic-title {
+    position: relative;
+    top: auto;
+  }
 }
 
 .question-item.active > .question-title {
@@ -811,6 +1144,13 @@ a.interviewee-title {
   position: sticky;
   top: 110px;
   z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .question-item.active > .question-title {
+    position: relative;
+    top: auto;
+  }
 }
 
 /* STICKINESS NAV WRAPPER ========================================================================== */
@@ -825,6 +1165,14 @@ a.interviewee-title {
     z-index: 100;
     border-top: 0;
     */
+}
+
+@media (max-width: 768px) {
+  .nav-switch.active.sticky {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 /* TESTING CLASS ========================================================================== */
@@ -848,6 +1196,21 @@ a.interviewee-title {
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .aside-info, .preview {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    min-width: none;
+    max-width: none;
+    height: auto;
+    overflow: visible;
+  }
+}
+
 .aside-info figure, .preview figure {
   width: 30vw;
   display: block;
@@ -858,6 +1221,14 @@ a.interviewee-title {
   max-height: 100vh;
   overflow-y: scroll;
   padding: 19px 6vw 0 0;
+}
+
+@media (max-width: 768px) {
+  .aside-info figure, .preview figure {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .aside-info figure > *:last-child, .preview figure > *:last-child {
@@ -875,8 +1246,27 @@ a.interviewee-title {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 768px) {
+  .aside-info .aside-image, .preview .aside-image {
+    overflow: hidden;
+    margin-left: -2vw;
+    max-height: 50vh;
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
+}
+
 .aside-info .aside-image img, .preview .aside-image img {
   max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .aside-info .aside-image img, .preview .aside-image img {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
 }
 
 .aside-info li:first-child, .aside-info li:last-child, .preview li:first-child, .preview li:last-child {

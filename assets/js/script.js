@@ -266,7 +266,7 @@ $(document).ready(function() {
 
   /* OVERLAY */
   /* close overlay and separator */
-  $('#separator, .js-close-intro').click(function(){
+  $('#separator, .js-intro-close').click(function(){
     closeSeparator();
   });
 
