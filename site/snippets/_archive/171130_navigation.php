@@ -8,82 +8,41 @@
         <a id="questions-button" class="nav-switch" href="#">Fragen</a><a class="key-icon"></a>
           <?php
             function cmp($a, $b) {
-              return strcmp( $a->question, $b->question );
+              return strcmp($a->frage(), $b->frage());
             }
            ?>
 
           <div id="sl-1" class="sub">
             <ul>
-
               <?php
                 // build an array of all unique question objects
                 $fragenDone = array();
                 $lettersDone = array();
-
-                $allQuestionObjects = array();
-                $uniqueQuestionObjects = array();
-
                 $newLetter = false;
-
                 foreach($pages->find('interviews')->children()->visible() as $interview) {
-                  foreach($interview->interview()->toStructure() as $interviewUnit) {
-
-                    $myQuestionObject = new stdClass; // create a new object to contain the following important question information
-
-                    $myQuestion = $interviewUnit->frage(); // get the variable "frage" out of the "interviewUnit" object
-                    $myIDString = (string)$myQuestion; // this is the string version of "myQuestion", which is needed to compare the myQuestionObjects
-                    $myURL = $interview->url(); // get the variable "url" out of the "interview" object
-                    $mySpecialAttribute = $interviewUnit->spezialfrage()->bool(); // get the boolean "spezialfrage" out of the "interviewUnit" object
-                    $myQuestionID = $interviewUnit->fid(); // get the variable "fid" out of the "interviewUnit" object
-
-                    // push properties to my new object:
-                    $myQuestionObject->question = $myQuestion; // push question property to my new object
-                    $myQuestionObject->IDstring = $myIDString;
-                    $myQuestionObject->url = $myURL;
-                    $myQuestionObject->specialAttribute = $mySpecialAttribute;
-                    $myQuestionObject->qID = $myQuestionID;
-
-                    array_push( $allQuestionObjects, $myQuestionObject ); // push new object into array
-
-                    foreach( $allQuestionObjects as $questionObject ) {
-                        // check if the element already exists in the unique array
-                        if ( !array_key_exists( $questionObject->IDstring, $uniqueQuestionObjects ) ) {
-                            $uniqueQuestionObjects[ $questionObject->IDstring ] = $questionObject;
-
-                            // DEBUG output to console:
-                            //echo "<script>console.log( '" . $myQuestion . "' );</script>";
-                        }
+                  foreach($interview->interview()->toStructure() as $frage) {
+                    // make sure we show each question only once
+                    if ( ! in_array( $frage, $fragenDone ) ) {
+                      array_push($fragenDone, $frage);
                     }
                   }
                 }
 
                 // sort questions alphabetically
-                usort($uniqueQuestionObjects, "cmp");
-
+                usort($fragenDone, "cmp");
 
                 // output
-                foreach ($uniqueQuestionObjects as $questionObject) {
-
-
-
+                foreach ($fragenDone as $frage) {
                   // determine link target for question
-                  if ($questionObject->specialAttribute === true) {
-                    $openwraptag = '<a href="' . $questionObject->url . '#' . $questionObject->qID . '">'; // link directly to interview page/section
+                  if ($frage->spezialfrage()->bool() === true) {
+                    $openwraptag = '<a href="'.$interview->url().'#'.$frage->fid().'">'; // link directly to interview page/section
                     $closewraptag = '</a>';
-
-                    // DEBUG output to console:
-                    //echo "<script>console.log( 'SPECIAL: " . $questionObject->url . '#' . $questionObject->qID . "' );</script>";
-
                   } else {
-                    $openwraptag = '<a href="#' . $questionObject->qID . '">'; // link to question in topics
+                    $openwraptag = '<a href="#'.$frage->fid().'">'; // link to question in topics
                     $closewraptag = '</a>';
-
-                    // DEBUG output to console:
-                    //echo "<script>console.log( 'REGULAR: " . $questionObject->qID . "' );</script>";
-
                   }
                   // new first letter? show it!
-                  $letter = substr( $questionObject->question,0,1 );
+                  $letter = substr($frage->frage(),0,1);
                   if (! in_array($letter, $lettersDone)) {
                     array_push($lettersDone, $letter);
                     ?>
@@ -93,11 +52,10 @@
                   }
                   ?>
                   <li class="nav-question">
-                    <?php echo $openwraptag.$questionObject->question.$closewraptag;?>
+                    <?php echo $openwraptag.$frage->frage()->html().$closewraptag;?>
                   </li>
                   <?php
                 }
-
               ?>
             </ul>
           </div>
