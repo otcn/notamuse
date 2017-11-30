@@ -480,8 +480,7 @@ a.key-icon.active::after {
   .overlay {
     display: block;
     /* change to block later */
-    height: auto;
-    min-height: 50vh;
+    min-height: 75vh;
     width: 100vw;
     padding: 10vh 2vw 2vh 2vw;
     margin: 0 0 0 0;
@@ -656,49 +655,48 @@ a.key-icon.active::after {
   border: 0;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  height: 100vh;
+  height: auto;
+  max-height: 100vh;
   width: auto;
-  overflow: hidden;
   position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
+@media (max-width: 768px) {
+  .flex-item {
+    padding: 10vh 0 0 0;
+    position: fixed;
+  }
+}
+
 #nav-frame.flex-item {
   width: 20vw;
   min-width: 225px;
-  max-width: 1000px;
   z-index: 100;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
 }
 
 @media (max-width: 768px) {
   #nav-frame.flex-item {
-    display: block;
-    position: fixed;
     top: 0;
     left: 0;
-    height: auto;
-    width: auto;
-    max-width: none;
+    width: 100vw;
+    background: grey;
   }
 }
 
 #content-frame.flex-item {
   width: 80vw;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
   z-index: 90;
 }
 
 @media (max-width: 768px) {
   #content-frame.flex-item {
     width: 100vw;
-    z-index: 90;
-    padding: 10vh 0 0 0;
   }
 }
 
@@ -719,17 +717,14 @@ a.key-icon.active::after {
   padding: 0px 11vw 0px 0px;
   margin: 0px 0px 0px 0px;
   height: 100vh;
-  /*overflow: hidden;*/
   overflow: auto;
 }
 
 @media (max-width: 768px) {
   .nav {
-    height: auto;
     width: auto;
-    padding: 10vh 0 0 0;
-    margin: 0px;
-    background: grey;
+    padding: 0;
+    height: auto;
   }
 }
 
@@ -745,6 +740,20 @@ a.key-icon.active::after {
   margin: 0px 0px 0px 0px;
 }
 
+.nav > ul a {
+  padding: 0 0 0 .6em;
+  margin: 0px 0px 0px 0px;
+  display: block;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav > ul a {
+    margin: 0px;
+    padding: 2vh 2vw;
+  }
+}
+
 .nav > ul > li {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 7px 0px;
@@ -758,8 +767,9 @@ a.key-icon.active::after {
 @media (max-width: 768px) {
   .nav > ul > li {
     margin: 0px;
-    padding: 2vh 2vw;
-    width: auto;
+    padding: 0px;
+    width: 100vw;
+    min-width: none;
     max-width: none;
   }
 }
@@ -770,7 +780,6 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .nav > ul > li.nav-topics {
-    margin: 0px;
     display: none;
   }
 }
@@ -782,42 +791,28 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .nav > ul > li.nav-spacer {
-    margin: 0px;
-    padding: 0px;
     display: none;
   }
 }
 
 .nav-mode .nav > ul > li.nav-spacer {
-  margin-top: 0px;
-  margin-bottom: 0vh;
+  margin: 0px;
 }
 
 .nav > ul > li > a {
   padding-bottom: 12px;
 }
 
-.nav > ul a {
-  padding: 0 0 0 .6em;
-  margin: 0px 0px 0px 0px;
-  display: block;
-  cursor: pointer;
-}
-
 @media (max-width: 768px) {
-  .nav > ul a {
+  .nav > ul > li > a {
     margin: 0px;
-    padding: 0px;
+    padding: 2vh 2vw;
   }
 }
 
 /* NAV-MODE ========================================================================== */
 .nav-mode .nav {
   overflow: auto;
-}
-
-.nav-mode #nav-frame {
-  width: auto;
 }
 
 .nav-mode #nav-frame > #nav > ul > li {
@@ -831,6 +826,7 @@ a.key-icon.active::after {
     margin: 0px;
     padding: 0px;
     width: auto;
+    max-width: 96vw;
   }
 }
 
@@ -873,7 +869,7 @@ a.key-icon.active::after {
 @media (max-width: 768px) {
   .sub * {
     width: auto;
-    max-width: none;
+    max-width: 96vw;
   }
 }
 
@@ -892,7 +888,8 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .sub > ul {
-    width: auto;
+    padding: 0;
+    width: 100%;
     max-width: none;
   }
 }
@@ -922,7 +919,7 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .sub .register-mark {
-    width: auto;
+    width: 100%;
     min-width: none;
     max-width: none;
   }
@@ -931,6 +928,12 @@ a.key-icon.active::after {
 .sub .register-mark + li {
   /*margin-left: 0px;*/
   margin-top: -27px;
+}
+
+@media (max-width: 768px) {
+  .sub .register-mark + li {
+    margin-top: 0;
+  }
 }
 
 .sub a {
@@ -1001,13 +1004,19 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .topic-title, .question-title {
-    padding: 2vh 2vw;
+    padding: 2vh 4vw;
   }
 }
 
 .topic-title {
   padding-top: 42px;
   padding-bottom: 22px;
+}
+
+@media (max-width: 768px) {
+  .topic-title {
+    padding: 2vh 4vw;
+  }
 }
 
 .question-list, .answer-list {
@@ -1042,6 +1051,12 @@ a.key-icon.active::after {
 .question-title {
   padding: 5px 0px 12px 0px;
   margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .question-title {
+    padding: 2vh 4vw;
+  }
 }
 
 .question-title a:first-child {
@@ -1121,6 +1136,7 @@ a.interviewee-title {
   .topic-item.active > .topic-title, .question-item.active > .question-title, #questions-button.active, #interviews-button.active {
     position: relative;
     top: auto;
+    background: grey;
   }
 }
 
@@ -1248,7 +1264,6 @@ a.interviewee-title {
 
 @media (max-width: 768px) {
   .aside-info .aside-image, .preview .aside-image {
-    overflow: hidden;
     margin-left: -2vw;
     max-height: 50vh;
     width: auto;

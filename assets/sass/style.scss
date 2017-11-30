@@ -418,8 +418,7 @@ a.key-icon {
   @include transition( all );
   @include breakpoint(mobile) {
     display: block; /* change to block later */
-    height: auto;
-    min-height: 50vh;
+    min-height: 75vh;
     width: 100vw;
     padding: 10vh 2vw 2vh 2vw;
     margin: 0 0 0 0;
@@ -583,40 +582,36 @@ a.key-icon {
   border: 0;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  height: 100vh;
+  height: auto;
+  max-height: 100vh;
   width: auto;
-  overflow: hidden;
   position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
   @include transition( all );
+  @include breakpoint(mobile) {
+    padding: 10vh 0 0 0;
+    position: fixed;
+  }
 }
 
 #nav-frame.flex-item {
   width: 20vw;
   min-width: 225px;
-  max-width: 1000px;
   z-index: 100;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
   @include breakpoint(mobile) {
-    display: block;
-    position: fixed;
-    top: 0;
+    top:  0;
     left: 0;
-    height: auto;
-      width:     auto;
-      max-width: none;
+    width: 100vw;
+    background: $color2;
   }
 }
 
 #content-frame.flex-item {
   width: 80vw;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
   z-index: 90;
   @include breakpoint(mobile) {
     width: 100vw;
-    z-index: 90;
-    padding: 10vh 0 0 0;
   }
 }
 
@@ -629,19 +624,15 @@ a.key-icon {
 /* MAIN LAYER: NAVIGATION ========================================================================== */
 .nav {
   @include transition( all );
-  width: 45vw;
-  /* must be wider to hide scrollbar */
+  width: 45vw; /* must be wider to hide scrollbar */
   padding: 0px 11vw 0px 0px;
   margin: 0px 0px 0px 0px;
   height: 100vh;
-  /*overflow: hidden;*/
   overflow: auto;
   @include breakpoint(mobile) {
-    height: auto;
     width: auto;
-    padding: 10vh 0 0 0;
-    margin: 0px;
-    background: $color2;
+    padding: 0;
+    height: auto;
   }
   * {
     @include transition( all );
@@ -651,6 +642,17 @@ a.key-icon {
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     @include breakpoint(mobile) {
+    }
+
+    a {
+      padding: 0 0 0 .6em;
+      margin: 0px 0px 0px 0px;
+      display: block;
+      cursor: pointer;
+      @include breakpoint(mobile) {
+        margin: 0px;
+        padding: 2vh 2vw;
+      }
     }
 
     &>li {
@@ -663,8 +665,9 @@ a.key-icon {
       max-width: 1000px;
       @include breakpoint(mobile) {
         margin: 0px;
-        padding: 2vh 2vw;
-        width: auto;
+        padding: 0px;
+        width: 100vw;
+        min-width: none;
         max-width: none;
       }
     }
@@ -672,7 +675,6 @@ a.key-icon {
     &>li.nav-topics {
       margin-top: 12px;
       @include breakpoint(mobile) {
-        margin: 0px;
         display: none;
       }
     }
@@ -681,19 +683,20 @@ a.key-icon {
       margin-top: -280px;
       margin-bottom: 100vh;
       @include breakpoint(mobile) {
-        margin: 0px;
-        padding: 0px;
         display: none;
       }
     }
 
     .nav-mode &>li.nav-spacer {
-      margin-top: 0px;
-      margin-bottom: 0vh;
+      margin: 0px;
     }
 
     &>li>a {
       padding-bottom: 12px;
+      @include breakpoint(mobile) {
+        margin: 0px;
+        padding: 2vh 2vw;
+      }
     }
 
     &>li.nav-about {
@@ -701,16 +704,7 @@ a.key-icon {
       }
     }
 
-    a {
-      padding: 0 0 0 .6em;
-      margin: 0px 0px 0px 0px;
-      display: block;
-      cursor: pointer;
-      @include breakpoint(mobile) {
-        margin: 0px;
-        padding: 0px;
-      }
-    }
+
   }
 }
 /* NAV-MODE ========================================================================== */
@@ -721,10 +715,6 @@ a.key-icon {
     overflow: auto;
   }
 
-  #nav-frame {
-    width: auto;
-  }
-
   #nav-frame > #nav > ul > li {
     width: 35vw;
     min-width: 220px;
@@ -733,6 +723,7 @@ a.key-icon {
       margin: 0px;
       padding: 0px;
       width: auto;
+      max-width: 96vw;
     }
   }
 
@@ -757,85 +748,100 @@ a.key-icon {
   @include transition( height );
   width: 100%;
   height: auto;
-    @include breakpoint(mobile) {
-      width: auto;
-      max-width:none;
-    }
-}
+  @include breakpoint(mobile) {
+    width: auto;
+    max-width:none;
+  }
 
-.sub * {
-  max-width: 35vw;
-    @include breakpoint(mobile) {
-      width:     auto;
-      max-width: none;
-    }
-}
-
-.sub ul, .sub li, .sub a {
-  display: block;
-}
-
-.sub > ul {
-  padding: 12px 0 0 2vw;
-  overflow-x: visible;
-  flex-wrap: wrap;
-  display: flex;
-  position: relative;
-  width: 34vw;
+  * {
+    max-width: 35vw;
     @include breakpoint(mobile) {
       width:     auto;
-      max-width: none;
+      max-width: 96vw;
     }
-}
+  }
 
-.sub > ul > li {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 17px 2vw;
-  display: block;
-  position: relative;
-  min-width: 27px;
-  width: 31vw;
+  ul, li, a {
+    display: block;
+  }
+
+  & > ul {
+    padding: 12px 0 0 2vw;
+    overflow-x: visible;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    width: 34vw;
     @include breakpoint(mobile) {
-      width:     auto;
-      min-width: none;
-      max-width: none;
+      padding:    0;
+      width:      100%;
+      max-width:  none;
     }
-}
+  }
 
-.sub .register-mark {
-  width: 2vw;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  & > ul > li {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 17px 2vw;
+    display: block;
+    position: relative;
+    min-width: 27px;
+    width: 31vw;
     @include breakpoint(mobile) {
       width:     auto;
       min-width: none;
       max-width: none;
     }
-}
+  }
 
-.sub .register-mark + li {
-  /*margin-left: 0px;*/
-  margin-top: -27px;
-}
+  .register-mark {
+    width: 2vw;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    @include breakpoint(mobile) {
+      width:     100%;
+      min-width: none;
+      max-width: none;
+    }
+  }
 
-.sub a {
-  max-width: 82%;
+  .register-mark + li {
+    /*margin-left: 0px;*/
+    margin-top: -27px;
+    @include breakpoint(mobile) {
+      margin-top: 0;
+    }
+  }
+
+  a {
+    max-width: 82%;
     @include breakpoint(mobile) {
       width:     auto;
       min-width: none;
       max-width: none;
     }
-}
+  }
 
-.sub a:hover {
-  max-width: 100%;
-  font-family: RenaGrotesk-Extended, sans-serif;
+  a:hover {
+    max-width: 100%;
+    font-family: RenaGrotesk-Extended, sans-serif;
     @include breakpoint(mobile) {
       width:     auto;
       min-width: none;
       max-width: none;
     }
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
 
 /* MAIN LAYER: CONTENT ========================================================================== */
 #content {
@@ -876,13 +882,16 @@ a.key-icon {
   cursor: pointer;
   padding-right: 42px;
   @include breakpoint(mobile) {
-    padding: 2vh 2vw;
+    padding: 2vh 4vw;
   }
 }
 
 .topic-title {
   padding-top: 42px;
   padding-bottom: 22px;
+  @include breakpoint(mobile) {
+    padding: 2vh 4vw;
+  }
 }
 
 .question-list, .answer-list {
@@ -914,6 +923,9 @@ a.key-icon {
 .question-title {
   padding: 5px 0px 12px 0px;
   margin: 0px 0px 0px 0px;
+  @include breakpoint(mobile) {
+    padding: 2vh 4vw;
+  }
 }
 
 .question-title a:first-child {
@@ -981,6 +993,7 @@ a.interviewee-title {
   @include breakpoint(mobile) {
     position: relative;
     top: auto;
+    background: $color2;
   }
 }
 
@@ -1092,7 +1105,6 @@ a.interviewee-title {
     background-position: center center;
     background-repeat: no-repeat;
     @include breakpoint(mobile) {
-      overflow: hidden;
       margin-left: -2vw;
       max-height: 50vh;
       width:     auto;
