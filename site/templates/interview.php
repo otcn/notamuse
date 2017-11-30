@@ -15,6 +15,18 @@ if(!kirby()->request()->ajax()) {
 <?php
   //$interview = $pages->find('interviews')->children()->shuffle()->first(); // gets random interview for testing purposes
   $interview = $page;
+  $plural = $page->interviewpartner(); // one or multiple interview partners
+?>
+
+<!-- Check if this interview has one or multiple interview partners: -->
+<?php
+if ($plural == '1') :
+  // interview was conducted with more than one interviewee
+  echo '<script>console.log("' . $interview->title() . ' is plural")</script>';
+else :
+  // interview was conducted with only a single interviewee
+  echo '<script>console.log("' . $interview->title() . ' is singular")</script>';
+endif;
 ?>
 
 <div id="interview-content" class="overlay-content">
@@ -54,12 +66,27 @@ if(!kirby()->request()->ajax()) {
   <?php foreach($interview->Interview()->toStructure() as $interviewpart): ?>
     <div id="<?= $interviewpart->fid()->html() ?>" class="i-question" >
       <?= $interviewpart->vorfrage()->kirbytext() ?>
-      <?= $interviewpart->frage()->kirbytext() ?>
+
+      <?php
+      if($plural == '1') {
+        echo $interviewpart->frage()->kirbytext();
+      }
+      else {
+        foreach($pages->find('themen')->grandchildren()->visible() as $frage)
+        if( strcasecmp($frage->title(), $interviewpart->frage() ) == 0) {
+          echo $frage->alternative()->kirbytext();
+        }
+      }
+      ?>
+
     </div>
+
     <div class="i-answer">
       <?= $interviewpart->antwort()->kirbytext() ?>
     </div>
+
   <?php endforeach ?>
+
 </div>
 
 

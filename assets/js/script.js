@@ -97,13 +97,28 @@ $(document).ready(function() {
 
   /* JENS FUNCTIONS ================================================ */
 
-  // FUNCTION FOR LINKS WHICH OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE
+  // FUNCTION FOR LINKS WHICH OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE: BY ANCHOR-ELEMENT'S HREF
   function openAnswer(anchor) {
+    // get target element:
+    var myDataRef = anchor.attr('data-ref');
+    if ( myDataRef == null ) {
+      var href = anchor.attr( 'href' );
+      console.log( 'myHref: ' + href );
+      var target = $( href );
+    } else {
+      console.log( 'myDataRef: ' + myDataRef );
+      var target = $( '.question-title a:contains(' + myDataRef + ')' );
+    }
+    openAnswerGetTarget(target);
+  };
+  function openAnswerGetTarget(target) {
+    //get target ID
+    console.log( target );
+    var targetID = target.attr('id');
+    console.log( 'targetID: ' + targetID );
     // hide/inactivate other stuff:
     closeTopics();
-    // get target element and related relevant elements:
-    var href = anchor.attr( 'href' );
-    var target = $( href );
+    // get related relevant elements:
     target.addClass('active').siblings().addClass('active');
     var topicItem = target.parents('.topic-item').addClass('active');
     var topicTitle = topicItem.children('.topic-title').children('a').addClass('active');
@@ -111,7 +126,9 @@ $(document).ready(function() {
     var questionTitle = target.parents('.question-title').addClass('active');
     // reveal relevant dropdowns:
     target.parents('.child').slideDown('slow');
+    var container = target.parents('#content');
     questionItem.children('.child').slideDown('slow');
+    $( container ).animate({ scrollTop: target.offset().top }, 300);
   };
 
   // CLOSE AND DEACTIVATE ALL TOPICS AND THEIR CHILDREN
@@ -229,7 +246,7 @@ $(document).ready(function() {
   // INTRO: click link to open related answer
   $('.js-intro-answer').click(function(event){
     event.preventDefault(); // prevent the link from following the URL
-    console.log('js-intro-answer clicked');
+    console.log( 'js-intro-answer clicked' );
     var anchor = $( this );
     closeSeparator();
     openAnswer(anchor);

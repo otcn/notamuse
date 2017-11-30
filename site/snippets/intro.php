@@ -44,7 +44,7 @@ $fid = $fids[$array_key];
   <div class="intro-nav sticky">
     <ul>
       <li><?php echo $question ?></li>
-      <li class=""><a class="js-intro-answer" href="#<?php echo $fid ?>">Alle Antworten zu dieser Frage</a></li>
+      <li class=""><a class="js-intro-answer" href="#<?php echo $fid ?>" data-ref="<?php echo $question ?>" >Alle Antworten zu dieser Frage</a></li>
       <li><a class="js-intro-close">Alle Themen im Überblick</a></li>
     </ul>
   </div>

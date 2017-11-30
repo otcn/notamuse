@@ -16,15 +16,15 @@ function classyLinks() {
 
   // This script removes "http(s)://" in front of the link in the interview aside figcaption
   $('.aside-info a').each(function(){
-    var myText = $( this ).text();
+    var myText = $( this ).html();
     myText = myText
-      .replace(/(https*\:\/\/)/g, "") // find "http://" or "https://" at end of string
+      .replace(/(https*\:\/\/)/g, "") // find "http://" or "https://"
       .replace(/(\/$)/g, ""); // find "slash" at end of string
-    $( this ).text(myText);
+    $( this ).html(myText);
   });
 
   // This script emphasizes the initials in front of an answer
-  $( 'p.i-answer, .answer-item p' ).each(function(){
+  $( '.i-answer p, .answer-item p' ).each(function(){
     console.log('get initials');
     var myText = $( this ).html();
     myText = myText
