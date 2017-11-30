@@ -178,7 +178,7 @@ Interview:
   spezialfrage: "1"
   vorfrage: 'Du bist Teil des Illustratorinnennetzwerks <a href="http://www.womenwhodraw.com/">Women Who Draw</a>.'
   frage: >
-    Wie wichtig findet ihr Frauennetzwerke
+    Wie wichtig findest du Frauennetzwerke
     und Zusammenschlüsse?
   category: Spezifisch
   antwort: 'AH:&nbsp;Ich finde das sehr wichtig. Irgendwann muss diese Thematik eine Selbstverständlichkeit erreichen, ich weiß dafür aber noch keinen Lösungsweg. Deswegen sollte man bei Initiativen wie zum Beispiel Women Who Draw mitmachen. Ich finde es generell wichtig und gut, dass man sich in Gemeinschaften austauscht und Erfahrungen teilt.'
@@ -224,3 +224,7 @@ Interview:
   antwort: 'AH:&nbsp;Das, was die meisten schon tun:&nbsp;Praktika absolvieren. Trefft euch mit Gestalter_innen, netzwerkt, meldet euch nicht nur, wenn ihr einen Job wollt. Schaut euch die vielen Wege und Ansätze an, wie man diesen Job ausführen kann, das finde ich wirklich unglaublich inspirierend! Wenn ich in eine andere Stadt fahre, in der es ein Studio gibt, das ich toll finde, ruf ich einfach an und frage, ob ich auf einen Kaffee vorbeikommen darf, auch wenn ich die Personen nicht kenne.'
   quote: ""
   quoteauthor: ""
+
+----
+
+Interviewimagecredits: 

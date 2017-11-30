@@ -59,7 +59,7 @@ Interview:
   fid: f111
   spezialfrage: "1"
   vorfrage: ""
-  frage: Gestaltet ihr noch viel selbst?
+  frage: Gestaltest du noch viel selbst?
   category: Spezifisch
   antwort: 'JK:&nbsp;Nein, ich gestalte nicht mehr viel selbst. Das ist etwas, das sich über die Jahre entwickelt hat. Ich habe Grafikdesign studiert und gestalte natürlich gerne, aber heute habe ich eher einen bewertenden Blick auf Gestaltung. Ich mache viel Art-Direktion, schaue anderen über die Schulter und gebe Anweisungen.'
   quote: ""
@@ -248,3 +248,7 @@ Interview:
   antwort: 'JK:&nbsp;Ich habe oft das Gefühl, dass junge, motivierte Leute von den Hochschulen ein leicht verklärtes Bild von der Arbeitswelt haben. Man muss hart arbeiten und es wird sicherlich immer schwieriger, in unserem Job eine Basis zu finden. Man muss lernen, ab und zu in den sauren Apfel zu beißen und manche Sachen auch einfach mal auszuhalten. Durchhalten zahlt sich häufig aus.'
   quote: ""
   quoteauthor: ""
+
+----
+
+Interviewimagecredits: 

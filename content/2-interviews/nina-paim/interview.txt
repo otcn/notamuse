@@ -229,3 +229,7 @@ Interview:
   antwort: "NP:&nbsp;This may sound like a cliché, but I think whenever you do things with passion, they turn out well, and that in turn, will generate other projects. I think that's the only advice that I can give. Otherwise, I think you, the young female designers, are the ones that should be giving me advice!"
   quote: ""
   quoteauthor: ""
+
+----
+
+Interviewimagecredits: Credits ?

@@ -235,3 +235,7 @@ Interview:
   antwort: 'MP:&nbsp;Work with nice people. Only.'
   quote: ""
   quoteauthor: ""
+
+----
+
+Interviewimagecredits: credits?

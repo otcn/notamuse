@@ -49,7 +49,7 @@ Interview:
   spezialfrage: "1"
   vorfrage: ""
   frage: >
-    Welche Aufgaben habt ihr beim
+    Welche Aufgaben hast du beim
     ZEITmagazin?
   category: Spezifisch
   antwort: 'JMS:&nbsp;Beim ZEITmagazin arbeite ich seit zehn Jahren, als Art-Direktorin seit Oktober 2014. Ich verantworte die Gestaltung in enger Zusammenarbeit mit dem Kreativdirektor <a href="http://bureauborsche.com/">Mirko Borsche</a>. Während Mirko aus seinem Münchner Büro heraus die große gestalterische Linie vorgibt, kümmere ich mich in der Redaktion um das tägliche Produzieren der wöchentlichen ZEITmagazine, aber auch der anderen Projekte, wie beispielsweise »ZEITmagazin MANN« oder »ZEITmagazin International«. Ich koordiniere die Grafik, lenke die Gestaltung, behalte den Gesamtüberblick und achte gleichzeitig darauf, dass alles bis ins kleinste Detail stimmig ist.'
@@ -102,7 +102,7 @@ Interview:
   spezialfrage: "1"
   vorfrage: ""
   frage: >
-    Macht ihr noch eigene, freie
+    Machst du noch eigene, freie
     Gestaltungsprojekte?
   category: Spezifisch
   antwort: 'JMS:&nbsp;Leider komme ich aus zeitlichen Gründen wenig dazu. Gemeinsam mit <a href="http://andreaswellnitz.com/">Andreas Wellnitz</a> und <a href="http://www.freieredaktion.de/index.php?option=com_content&task=view&id=13&Itemid=13">Johanna Lühr</a> arbeite ich aber an »Il Paradiso«, einem unabhängigen Reisemagazin. Beruflich kommen wir alle aus dem redaktionellen Bereich und die Idee war es, ein Magazin zu machen, ohne den Druck oder die Regeln, die kommerzielle Magazine haben. Paradiso ist aus einer Leidenschaft heraus entstanden. Es funktioniert nur, weil wir aus unserem Freundeskreis und Netzwerk heraus Texte und Fotos bekommen. Es macht wahnsinnig viel Spaß, kostet aber auch viel Zeit und Energie. Dementsprechend lange lassen wir uns Zeit für die einzelnen Ausgaben.'
@@ -231,3 +231,7 @@ Interview:
   antwort: 'JMS:&nbsp;Ich finde es toll, für ein Magazin zu arbeiten, das mich gestalterisch wie auch inhaltlich so begeistert. Es gibt kein anderes Magazin, für das ich lieber arbeiten würde. Durch die ständigen Entwicklungen gibt es auch dort immer neue Herausforderungen für mich. Aber es gibt außer der Arbeit noch viele andere wichtige Dinge im Leben, vor allem natürlich die Familie. Mein Ziel ist es, immer eine gelungene Balance zwischen meinem privaten und beruflichen Leben zu finden.'
   quote: ""
   quoteauthor: ""
+
+----
+
+Interviewimagecredits: 

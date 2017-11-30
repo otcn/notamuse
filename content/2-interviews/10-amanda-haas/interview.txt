@@ -91,7 +91,7 @@ Interview:
   spezialfrage: "1"
   vorfrage: ""
   frage: >
-    Experimentiert ihr auch mit eurem
+    Experimentierst du auch mit deinem
     Gestaltungsprozess?
   category: Spezifisch
   antwort: 'AH:&nbsp;Manchmal merke ich, dass ich zu verkopft werde. Dann versuche ich auf den Prozess zu vertrauen, Schritt für Schritt, bis ich am Ende bei einer anderen Idee ankomme – oder eben wieder bei der gleichen.'
@@ -210,3 +210,7 @@ Interview:
 ----
 
 Web: http://www.amandahaas.ch/
+
+----
+
+Interviewimagecredits: 

@@ -171,3 +171,7 @@ Interview:
   antwort: 'SD:&nbsp;Das gibt es nicht. Die interessantesten Projekte kommen oft unverhofft.'
   quote: ""
   quoteauthor: ""
+
+----
+
+Interviewimagecredits: credits ?

@@ -85,22 +85,6 @@ Interview:
   quote: ""
   quoteauthor: ""
 - 
-  fid: f226
-  spezialfrage: "1"
-  vorfrage: >
-    Das Buch ist als Standardwerk
-    einzigartig in der umfassenden
-    Ausarbeitung der Thematik. Es kann als
-    Inspiration für weitere theoretische
-    Auseinandersetzungen dienen.
-  frage: >
-    Sind Ihnen andere Projekte zum Thema
-    »Frauen im Grafikdesign« bekannt?
-  category: Spezifisch
-  antwort: 'GB:&nbsp;Es gibt eine ungeheuer breite und theoretisch sehr fundierte Frauen- und Geschlechterforschung. Ich habe an meiner Universität einen ausgesprochen aktiven und intellektuell sehr spannenden Kreis von Wissenschaftlerinnen gefunden, über die ich viel gelernt habe, und bin auch Mitglied der Vereinigung Frauen- und Geschlechterforschung NRW. Aber die Schwerpunkte liegen hier woanders:&nbsp;in der Hochschulpolitik, der Sozialpädagogik und, wie ich finde, in einer sehr wichtigen Auseinandersetzung mit Global Diversity. Aber Kunst und Design sind dort so gut wie nicht vertreten. Ich kenne eine gute, intensive Beschäftigung mit Kunst und Künstlerinnen aus den 1970er Jahren, die aber völlig abgebrochen ist und sich auch nicht neueren theoretischen Zugängen angeschlossen hat. Anders ist es in den USA, wo eine kontinuierliche, selbstbewusste und erfolgreiche Praxis von Grafikdesignerinnen besteht. In Deutschland ist die Frauen- und Geschlechterforschung zwar einerseits stark, andererseits aber auch stark segregiert. An und in künstlerischen Fächern besteht so gut wie kein Interesse – bis auf Ausnahmen, beispielsweise in Filmtheorie und -praxis oder der visuellen Kommunikation. Sie brauchen nur die verschiedensten visuellen oder journalistischen Medien zu beobachten und werden merken, wie sehr »Frauenthemen« international verhandelt werden – allerdings nicht mehr unter »feministischer« Perspektive. Es gibt keine »Bewegung« mehr wie im 19. Jahrhundert oder den 1970er Jahren. Aber das Thema ist omnipräsent.'
-  quote: ""
-  quoteauthor: ""
-- 
   fid: f227
   spezialfrage: "1"
   vorfrage: >
@@ -173,3 +157,7 @@ Interview:
     mehr auf Geschlechterrollen hin
     reflektiert werden.
   quoteauthor: ""
+
+----
+
+Interviewimagecredits: 

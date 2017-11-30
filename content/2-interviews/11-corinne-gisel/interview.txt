@@ -208,3 +208,7 @@ Interview:
 ----
 
 Web: http://corinnegisel.com/
+
+----
+
+Interviewimagecredits: Credits?

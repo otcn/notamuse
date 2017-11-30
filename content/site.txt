@@ -6,7 +6,7 @@ Number: 0
 
 ----
 
-Questioncounter: 326
+Questioncounter: 335
 
 ----
 
@@ -22,19 +22,16 @@ Copyright: 2017 - notamuse
 
 ----
 
-keywords: my, new, site
-
-----
-copyright: 2017 - notamuse
+Keywords: my, new, site
 
 ----
 
-facebook:
+Facebook: 
 
 ----
 
-twitter:
+Twitter: 
 
 ----
 
-language: de
+Language: de

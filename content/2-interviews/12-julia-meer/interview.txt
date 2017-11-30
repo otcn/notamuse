@@ -184,7 +184,7 @@ Interview:
     Aufwerten weiblicher Charakterzüge
     gleichzeitig Rollenbilder verstärkt,
     etwas für unser Projekt ziehen?
-  category: Arbeitsform
+  category: Spezifisch
   antwort: 'JM:&nbsp;Ich glaube, dass es wichtig ist, das Gleichgewicht zu halten. Ein breites Spektrum an Möglichkeiten auch im Bezug auf die Vorbildfrage finde ich wichtig. Dass unterschiedliche Persönlichkeiten unterschiedliche Vorbilder finden können, die ihnen zeigen, dass man sich weiterentwickeln kann und man nicht zwingend an Rollenerwartungen gebunden ist.'
   quote: ""
   quoteauthor: ""
@@ -218,9 +218,9 @@ Interview:
   category: Spezifisch
   antwort: 'JM:&nbsp;Kommt drauf an, welche Kriterien man ansetzt:&nbsp;Wenn man persönliche Erfüllung und nicht öffentliche Sichtbarkeit als Kriterium für Erfolg ansetzt, dann ist es für sie natürlich in Ordnung. Ich werde aber skeptisch, wenn es da eine deutliche quantitative Diskrepanz zwischen den Geschlechtern gibt, denn ich bin mir sicher, dass Persönlichkeiten relativ ähnlich auf die Geschlechter verteilt sind. Warum sollte der Wunsch nach beruflicher Verwirklichung und Anerkennung an das biologische Geschlecht gebunden sein? Es gibt sicher genauso viele Frauen, die es genießen, im Mittelpunkt zu stehen oder auf der Bühne, wie Männer – an dem Punkt bemerkt man sehr deutlich die Folgen und Reichweite genderstereotyper Erziehung und Sozialisation.'
   quote: >
-    »Warum sollte der Wunsch nach
-    beruflicher Anerkennung an das
-    biologische Geschlecht gebunden sein?«
+    Warum sollte der Wunsch nach beruflicher
+    Anerkennung an das biologische
+    Geschlecht gebunden sein?
   quoteauthor: Julia Meer
 - 
   fid: f317
@@ -317,3 +317,7 @@ Interview:
   antwort: 'JM:&nbsp;Mir sind eher Sinn und Anerkennung in meiner Community wichtig und dass ich meine Themen voranbringen kann. Geld ist weniger wichtig. Das würde ich aber nicht unbedingt der Tatsache zuschreiben, dass ich eine Frau bin, sondern eher meiner Zugehörigkeit zur sogenannten Generation Y. Es heißt, Geld sei uns nicht so wichtig wie Zeit und Zufriedenheit. Ich würde mich freuen, wenn diese Haltung auf andere Generationen übergreifen würde.'
   quote: ""
   quoteauthor: ""
+
+----
+
+Interviewimagecredits: ?
