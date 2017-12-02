@@ -111,6 +111,7 @@ $(document).ready(function() {
     }
     openAnswerGetTarget(target);
   };
+
   function openAnswerGetTarget(target) {
     //get target ID
     console.log( target );
@@ -145,7 +146,7 @@ $(document).ready(function() {
     $('.nav .active').removeClass( 'active' ); // remove all active states in the topic list
     $('.nav .sub').hide();
     $('.nav .child').hide(); // hide all child-elements
-    $('.nav-topics a').addClass('active');
+    $('#topics-button').addClass('active');
   };
 
   // OPEN SEPARATOR
@@ -153,7 +154,7 @@ $(document).ready(function() {
     console.log('open separator');
     $('#separator').removeClass('hidden');
     $('#separator .key-icon').addClass('active');
-    $('.nav-topics .active').removeClass('active'); // deactivate topics-button
+    $('#topics-button').removeClass('active'); // deactivate topics-button
   };
 
   // CLOSE SEPARATOR AND OVERLAY
@@ -163,7 +164,7 @@ $(document).ready(function() {
     $('.overlay').addClass('hidden');
     $('.overlay').scrollTop( 0 ); // scrolls all overlays (back) to top
     $('.marquee').removeAttr( "style" );  // removes transparent background (about-overlay)
-    $('.nav-topics a').addClass('active');
+    $('#topics-button').addClass('active');
     push('/'); // clear url
   };
 
@@ -208,7 +209,7 @@ $(document).ready(function() {
   });
 
   // NAVIGATION: click >topics-button<
-  $('.nav-topics a').click(function(){
+  $('#topics-button').click(function(){
     console.log('topics-button clicked');
     $('html,body, html *').animate({ scrollTop: 0 }, 'slow');
     closeNav();
@@ -216,22 +217,27 @@ $(document).ready(function() {
   });
 
   // NAVIGATION: click >nav-switch<
-  $('.nav-switch').click(function(){
+  $('#questions-button, #interviews-button').click(function(){
     console.log('nav-switch clicked');
     var myButton = $(this);
-    if ( myButton.siblings('.sub').is(":hidden") ){  // if this sub was hidden -> open it
+    var mySub = myButton.siblings('.sub');
+    if ( mySub.is(":hidden") ){  // if this sub was hidden -> open it
       console.log('-> open sub');
+      $("#main-wrapper").addClass("nav-mode"); // add "nav-mode" class to "#wrapper"
       $('.nav .active').removeClass('active');
-      $('.sub').not( myButton.siblings('.sub') ).slideUp('slow');
-      $("#main-wrapper").addClass("nav-mode");      // add "nav-mode" class to "#wrapper"
-      myButton.siblings('.sub').slideDown('slow');
+      $('.sub').not( mySub ).hide();
+
+      mySub.slideDown('slow');
       myButton.addClass('active');
-      myButton.siblings('.key-icon').addClass('active');
-    } else { closeNav(); } // if this sub was not hidden -> close it
+      //myButton.siblings('.key-icon').addClass('active');
+    } else {
+      closeNav();
+      console.log('-> close sub');
+    } // if this sub was not hidden -> close it
   });
 
   // NAVIGATION: click >about<
-  $('.nav-about a').click(function(){
+  $('#about-button').click(function(){
     openSeparator();
     push('about');
     $('.about-container').removeClass('hidden');
@@ -239,7 +245,7 @@ $(document).ready(function() {
   });
 
   // NAVIGATION: click >english<
-  $('.language-anchor').click(function(){
+  $('#language-button').click(function(){
     alert('Sorry! English isn\'t available yet, but we are working on it!');
   });
 
@@ -259,9 +265,9 @@ $(document).ready(function() {
       $(this).find('.active').removeClass('active');
       $(this).find('.child').slideUp('slow');
     } else {
-      $(this).toggleClass('active');
-      $(this).children('.topic-title').children().toggleClass('active');
-      $(this).children('.question-title').children().toggleClass('active');
+      $(this).addClass('active');
+      $(this).children('.topic-title').toggleClass('active');
+      $(this).children('.question-title').toggleClass('active');
       $(this).children('.child').slideToggle('slow');
     }
   }).children('.child').click(function (event) {
@@ -285,6 +291,12 @@ $(document).ready(function() {
   /* close overlay and separator */
   $('#separator, .js-intro-close').click(function(){
     closeSeparator();
+  });
+
+  /* MOBILE NAV HEADER */
+  /* close and open navigation */
+  $('.nav-mobile-icon').click(function(){
+    $(this).toggleClass('open');
   });
 
 /* UNTIDY ================================================ */

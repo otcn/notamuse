@@ -21,13 +21,15 @@
   )) ?>
 
   <!--Load jQuery-->
-  <?php echo js('https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js') ?>
+  <?php echo js(array(
+    'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+    'assets/js/script.js'
+  )) ?>
   <!--Load js async-->
   <?php echo js(array(
     'assets/js/smoothy.js',
     'assets/js/marquee.js',
     'assets/js/lib.js',
-    'assets/js/script.js',
     'assets/js/classy-links.js',
     'assets/js/question-id.js'
   ), true) ?>

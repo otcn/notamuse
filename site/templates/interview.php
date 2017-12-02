@@ -72,9 +72,10 @@ endif;
         echo $interviewpart->frage()->kirbytext();
       }
       else {
-        foreach($pages->find('themen')->grandchildren()->visible() as $frage)
-        if( strcasecmp($frage->title(), $interviewpart->frage() ) == 0) {
-          echo $frage->alternative()->kirbytext();
+        foreach($pages->find('themen')->grandchildren()->visible() as $frage) {
+          if( strcasecmp($frage->title(), $interviewpart->frage() ) == 0) {
+            echo $frage->alternative()->kirbytext();
+          }
         }
       }
       ?>
