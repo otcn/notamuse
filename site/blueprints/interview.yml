@@ -19,12 +19,17 @@ fields:
     title:
         label: Interview Title
         type: text
-        text: Jane Doe
         required: true
     titlenav:
         label: Navigation Title (optional)
         type: text
         required: false
+        width: 1/2
+    studiotitle:
+        label: Studio Title (optional)
+        type: text
+        required: false
+        width: 1/2
     informationhead:
         label: Information
         type: headline
@@ -49,6 +54,12 @@ fields:
         required: true
         width: 1/2
         placeholder: Zürich, Schweiz
+    residence:
+        label: Place of Residence
+        type: text
+        required: true
+        width: 1/2
+        placeholder: Paris, Frankreich
     date:
         label: Date of Interview
         type: date

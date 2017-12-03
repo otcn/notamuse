@@ -152,8 +152,8 @@ var fid;
     console.log('close nav');
     $("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class from "#wrapper"
     $('.nav .active').removeClass( 'active' ); // remove all active states in the topic list
-    $('.nav .sub').slideUp(200);
-    $('.nav .child').slideUp(200); // hide all child-elements
+    $('.nav .sub').slideUp('slow');
+    $('.nav .child').slideUp('slow'); // hide all child-elements
     $('#topics-button').addClass('active');
   };
 

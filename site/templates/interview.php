@@ -8,7 +8,7 @@ if(!kirby()->request()->ajax()) {
     echo '<div id="interviews"><div class="int-content">';
     snippet('intro');
     snippet('about');
-    echo '<div class="interview-container overlay bla">';
+    echo '<div class="interview-container overlay">';
 }
 ?>
 
@@ -44,15 +44,31 @@ endif;
       <figcaption>
         <ul>
 
-          <li>
+          <li> <!-- image credits -->
             <?php if( !$interview->interviewimagecredits()->empty() ): ?>
-              <?php echo $interview->interviewimagecredits() ?>
+              <?php echo $interview->interviewimagecredits()->html() ?>
             <?php endif ?>
           </li>
 
-          <li class="extended"><?= $interview->title()->html() ?></li>
-          <li><?= $interview->place()->html() ?></li>
-          <li><a href="<?= $interview->web() ?>" class="a-extern" target="_blank"><?= $interview->web() ?></a></li>
+          <li class="extended">  <!-- studio title / title -->
+            <?php
+            if( !$interview->studiotitle()->empty() ) {
+              echo $interview->studiotitle()->html();
+            } else {
+              echo $interview->title()->html();
+            }
+            ?>
+          </li>
+
+          <li> <!-- place of residency -->
+            <?php if( !$interview->residence()->empty() ): ?>
+              <?php echo $interview->residence()->html() ?>
+            <?php endif ?>
+          </li>
+
+          <li> <!-- website -->
+            <a href="<?= $interview->web() ?>" class="a-extern" target="_blank"><?= $interview->web() ?></a>
+          </li>
 
           <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
 
