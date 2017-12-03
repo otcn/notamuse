@@ -1,4 +1,3 @@
-
 /* FONTS ========================================================================== */
   @charset "UTF-8";
 
@@ -42,15 +41,34 @@
 /* MIXINS ========================================================================== */
 
   @mixin font-size-1 {
-    font-size:    1rem;
-    line-height:  1.42rem;
+    font-size: 19px;
+    line-height: 27px;
     letter-spacing: 0rem;
   }
 
   @mixin font-size-2 {
+    @include noHyphens;
     font-size: 30px;
     line-height: 33px;
     letter-spacing: -0.012em;
+    @include breakpoint(mobile) {
+      /*
+      font-size: 34px;
+      line-height: 32px;
+      */
+      line-height: 9vh;
+      font-size: 7vh;
+    }
+  }
+
+  @mixin font-size-3 {
+    @include noHyphens;
+    font-size: 95px;
+    line-height: 90px;
+    letter-spacing: -0.04em;
+    @include breakpoint(mobile) {
+      @include font-size-2;
+    }
   }
 
   @mixin font-style-1 {
@@ -98,10 +116,16 @@
   }
 
   @mixin noHyphens {
-    -webkit-hyphens: none !important;
-    -moz-hyphens: none !important;
-    hyphens: none !important;
-    word-break: keep-all !important;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+    word-break: keep-all;
+    @include breakpoint(mobile) {
+      word-break: break-word;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
+    }
   }
 
   @mixin noTransition($property) {
@@ -119,11 +143,10 @@
     margin: 0;
     border: 0;
     @include font-style-1;
+    @include font-size-1;
   }
 
   html, body {
-    font-size: 19px;
-    line-height: 27px;
     color: $color0;
   }
 
@@ -163,11 +186,11 @@
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
-      @include breakpoint(mobile) {
-        width:     auto;
-        min-width: none;
-        max-width: none;
-      }
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: 0;
+      max-width: none;
+    }
 
     &::-moz-selection {
       color: $color1;
@@ -232,7 +255,6 @@
 /* TYPOGRAPHIC ELEMENTS ========================================================================== */
 
   h1, h2 {
-    @include noHyphens;
     @include font-style-2;
     word-break: normal;
     padding: 0;
@@ -243,30 +265,23 @@
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     @include breakpoint(mobile) {
-      @include font-size-1;
+      @include font-size-2;
     }
   }
 
   h1 {
-    hyphen: none;
-    font-size: 95px;
-    line-height: 90px;
-    letter-spacing: -0.04em;
-    @include breakpoint(mobile) {
-      @include font-size-1;
-    }
+    @include font-size-3;
   }
 
   h2 {
     margin-top: 115px
   }
 
+/*
   .intro-quote p, .intro-nav *, .i-intro *, .question-title * {
     @include font-size-2;
-    @include breakpoint(mobile) {
-      @include font-size-1;
-    }
   }
+*/
 
   em, .extended, .active {
     @include font-style-2;
@@ -386,9 +401,7 @@
   left: 10vw;
   top: 0;
   z-index: 300;
-
   color: $color3;
-
   overflow-y: scroll;
   -webkit-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
@@ -398,6 +411,9 @@
   @include breakpoint(mobile) {
     display: block; /* change to block later */
     min-height: 75vh;
+    height: auto;
+    max-height: 100vh;
+    overflow: scroll;
     width: 100vw;
     padding: 10vh 2vw 2vh 2vw;
     margin: 0 0 0 0;
@@ -428,6 +444,9 @@
 
 .about-container, .interview-container {
   padding-right: 40vw;
+  @include breakpoint(mobile) {
+    padding: 10vh 2vw 2vh 2vw;
+  }
   &>*:last-child {
     margin-bottom: 25vh;
   }
@@ -546,12 +565,6 @@
   }
 }
 
-#content {
-  overflow-y: auto;
-  overflow-x: hidden;
-  height: 100vh;
-}
-
 /* MAIN LAYER: NAVIGATION ========================================================================== */
 
 .nav-container {
@@ -580,7 +593,7 @@
     @include breakpoint(mobile) {
       width: auto;
       padding: 0;
-      height: 10vh;
+      height: 9vh;
     }
 
     li {
@@ -595,7 +608,7 @@
         margin: 0px;
         padding: 0px;
         width: 100vw;
-        min-width: none;
+        min-width: 0;
         max-width: none;
       }
 
@@ -667,8 +680,7 @@
           @include breakpoint(mobile) {
             margin: 0px;
             padding: 0 2vw;
-            height: 10vh;
-            @include font-size-1;
+            height: 9vh;
           }
         }
       }
@@ -706,7 +718,7 @@
           */
           @include breakpoint(mobile) {
             width:     auto;
-            min-width: none;
+            min-width: 0;
             max-width: none;
           }
         }
@@ -734,7 +746,7 @@
             width: 31vw;
             @include breakpoint(mobile) {
               width:     auto;
-              min-width: none;
+              min-width: 0;
               max-width: none;
             }
 
@@ -745,7 +757,7 @@
                 @include font-style-2;
                 @include breakpoint(mobile) {
                   width:     auto;
-                  min-width: none;
+                  min-width: 0;
                   max-width: none;
                 }
               }
@@ -764,7 +776,7 @@
               margin: 0px 0px 0px 0px;
               @include breakpoint(mobile) {
                 width:     100%;
-                min-width: none;
+                min-width: 0;
                 max-width: none;
               }
               &::before {
@@ -825,186 +837,195 @@
     }
   }
 
-
-
 /* MAIN LAYER: CONTENT ========================================================================== */
 #content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
   width: 80vw;
   padding: 0px 10vw 0px 0px;
-  margin: 0px 0px 0px 0px;
   @include breakpoint(mobile) {
     width: 100vw;
     padding: 0px 0px 0px;
     width:     auto;
-    min-width: none;
+    min-width: 0;
     max-width: none;
   }
-}
 
-.topic-list {
-  padding: 0px 0px 50vh 0px;
-  margin: 0px 0px 0px 0px;
-}
+  ul.topic-list {
+    padding: 0px 0px 50vh 0px;
 
-.topic-item {
-  /*padding: 13px 0px 0px 0px;*/
-  margin: 0px 0px 0px 0px;
-}
+    .topic-item {
+      /*padding: 13px 0px 0px 0px;*/
 
-.topic-item.active + .topic-item {
-  padding-top: 13px;
-  margin: 0px 0px 0px 0px;
-}
+      .topic-title, .question-title {
+        display: block;
+        position: relative;
+        white-space: normal;
+        background: $color3;
+        cursor: pointer;
+        padding-right: 42px;
+        @include breakpoint(mobile) {
+          padding: 0;
+        }
+        &.active {
+          border-bottom: 1px solid $color0;
+          margin-bottom: -1px;
+          background: $color3;
+          /* STICKY-CODE */
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          z-index: 100;
+          @include breakpoint(mobile) {
+            /*
+            position: relative;
+            top: auto;
+            background: $color2;
+            */
+          }
+        }
+        a {
+          @include noHyphens;
+          @include breakpoint(mobile) {
+            display: block;
+          }
+          &:first-child {
+            @include breakpoint(mobile) {
+              padding: 0 7vw 0 4vw;
+            }
+          }
+          &.key-icon {
+            margin-right: 1vw;
+            right: 0;
+          }
+        }
+        &:hover a, &.active a {
+          @include font-style-2;
+          &:first-child {
+            @include breakpoint(mobile) {
+              width:     auto;
+              min-width: 0;
+              max-width: none;
+            }
+          }
+        }
+      }
 
-.topic-title, .question-title {
-  display: block;
-  position: relative;
-  white-space: normal;
-  background: $color3;
-  cursor: pointer;
-  padding-right: 42px;
-  @include breakpoint(mobile) {
-    padding: 2vh 4vw;
-  }
-  a {
-    @include noHyphens;
-  }
-  &:hover a {
-    @include font-style-2;
-  }
-  a.key-icon {
-    margin-right: 1vw;
-    right: 0;
-  }
-  &.active a {
-    @include font-style-2;
-  }
-}
+      .topic-title {
+        padding-top: 42px;
+        padding-bottom: 22px;
+        @include breakpoint(mobile) {
+          display: block;
+          padding: 0;
+        }
+        a:first-child {
+          @include font-size-3;
+          line-height: 0px;
+          padding-bottom: 2px;
+          @include breakpoint(mobile) {
+            display: block;
+            padding: 2vw 7vw 2vw 4vw;
+          }
+        }
+      }
 
-.topic-title {
-  padding-top: 42px;
-  padding-bottom: 22px;
-  @include breakpoint(mobile) {
-    padding: 2vh 4vw;
-  }
-  a:first-child {
-    hyphens: none;
-    word-break: keep-all;
-    font-size: 95px;
-    line-height: 0px;
-    letter-spacing: -.03em;
-    padding-bottom: 2px;
-    @include breakpoint(mobile) {
-      @include font-size-1;
+      .question-list, .answer-list {
+        padding:0;
+        border-bottom: 1px solid $color0;
+        border-top: 1px solid $color0;
+      }
+
+      .question-list {
+        padding: 13px 0px 17px 0px;
+
+        width: 100%;
+        @include breakpoint(mobile) {
+          width:     auto;
+          min-width: 0;
+          max-width: none;
+        }
+        .question-item {
+          padding: 2px 0px 0px 0px;
+          margin: 0px 0px 0px 0px;
+
+          .question-title {
+            padding: 5px 0px 12px 0px;
+            @include breakpoint(mobile) {
+              padding: 0;
+            }
+            &.active {
+              top: 111px;
+              @include breakpoint(mobile) {
+                top: 0;
+              }
+            }
+
+            a:first-child {
+              max-width: 53vw;
+              @include breakpoint(mobile) {
+                width:     auto;
+                min-width: 0;
+                max-width: none;
+              }
+            }
+            &:hover a:first-child, &.active a:first-child {
+              max-width: 66vw;
+              @include breakpoint(mobile) {
+                width:     auto;
+                min-width: 0;
+                max-width: none;
+              }
+            }
+          }
+          .answer-list {
+            .answer-item {
+              margin: 33px 0px 0px 0px;
+              width: 60vw;
+              min-width: 480px;
+              max-width: 700px;
+              @include breakpoint(mobile) {
+                padding: 2vh 2vw;
+                margin: 0 0 0 0;
+                width:     auto;
+                min-width: 0;
+                max-width: none;
+              }
+              &:last-of-type {
+                margin-bottom: 49px;
+              }
+              a.interviewee-title {
+                @include font-style-2;
+              }
+            }
+          }
+        }
+        &:last-child .answer-list {
+          border-bottom: 0px;
+        }
+        .question-item.active + .question-item {
+          padding: 20px 0px 0px 0px;
+        }
+      }
+    }
+    .topic-item.active + .topic-item {
+      padding-top: 13px;
     }
   }
 }
 
-.question-list, .answer-list {
-  border-bottom: 1px solid $color0;
-  border-top: 1px solid $color0;
-  width: 100%;
-    @include breakpoint(mobile) {
-      width:     auto;
-      min-width: none;
-      max-width: none;
-    }
-}
 
-.question-list {
-  padding: 13px 0px 17px 0px;
-  margin: 0px 0px 0px 0px;
-}
 
-.question-item {
-  padding: 2px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
 
-.question-item.active + .question-item {
-  padding: 20px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
 
-.question-title {
-  padding: 5px 0px 12px 0px;
-  margin: 0px 0px 0px 0px;
-  @include breakpoint(mobile) {
-    padding: 2vh 4vw;
-  }
 
-  a:first-child {
-    max-width: 53vw;
-    display: block;
-    @include breakpoint(mobile) {
-      width:     auto;
-      min-width: none;
-      max-width: none;
-    }
-  }
 
-  &:hover a:first-child, &.active a:first-child {
-    max-width: 66vw;
-    @include breakpoint(mobile) {
-      width:     auto;
-      min-width: none;
-      max-width: none;
-    }
-  }
-}
 
-.answer-list {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
 
-li.question-item:last-child .answer-list {
-  border-bottom: 0px;
-}
 
-.answer-item {
-  margin: 33px 0px 0px 0px;
-  width: 60vw;
-  min-width: 480px;
-  max-width: 700px;
-  @include breakpoint(mobile) {
-    padding: 2vh 2vw;
-    margin: 0 0 0 0;
-    width:     auto;
-    min-width: none;
-    max-width: none;
-  }
-}
-
-.answer-item:last-of-type {
-  margin-bottom: 49px;
-}
-
-a.interviewee-title {
-  /*display: inline-block;*/
-  margin: 0px 0px 0px 0px;
-  @include font-style-2;
-}
 
 /* STICKINESS MAIN WRAPPER AND NAV WRAPPER ========================================================================== */
-.active>.topic-title, .active>.question-title, #questions-button.active, #interviews-button.active {
-  border-bottom: 1px solid $color0;
-  margin-bottom: -1px;
-  background: $color3;
-  /* STICKY-CODE */
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  @include breakpoint(mobile) {
-    position: relative;
-    top: auto;
-    background: $color2;
-  }
-}
-.active>.question-title {
-  top: 111px;
-}
+
 
 
 /* TESTING CLASS ========================================================================== */
@@ -1017,7 +1038,6 @@ a.interviewee-title {
 /* ASIDE INFO AND PREVIEW CONTAINER ========================================================================== */
 .preview {
   pointer-events: none;
-
 }
 
 .aside-info, .preview {
@@ -1032,13 +1052,14 @@ a.interviewee-title {
   padding: 0;
   margin: 0;
   @include breakpoint(mobile) {
+    display: none;
     position: relative;
     top: auto;
     left: auto;
     margin: 0;
     padding: 0;
     width: auto;
-    min-width: none;
+    min-width: 0;
     max-width: none;
     height: auto;
     overflow: visible;
@@ -1056,7 +1077,7 @@ a.interviewee-title {
     padding: 19px 6vw 0 0;
     @include breakpoint(mobile) {
       width:     auto;
-      min-width: none;
+      min-width: 0;
       max-width: none;
     }
   }
@@ -1078,7 +1099,7 @@ a.interviewee-title {
       margin-left: -2vw;
       max-height: 50vh;
       width:     auto;
-      min-width: none;
+      min-width: 0;
       max-width: none;
     }
   }
@@ -1087,7 +1108,7 @@ a.interviewee-title {
     max-width: 100%;
     @include breakpoint(mobile) {
       width:     auto;
-      min-width: none;
+      min-width: 0;
       max-width: none;
     }
   }

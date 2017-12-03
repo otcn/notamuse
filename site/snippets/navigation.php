@@ -11,7 +11,7 @@
           <span></span>
           <span></span>
         </div>
-        <a class="button-title">notamuse</a>
+        <a class="button-title extended">notamuse</a>
       </div>
     </li>
 
