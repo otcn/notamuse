@@ -574,11 +574,12 @@
     padding: 0px 11vw 0px 0px;
     margin: 0px 0px 0px 0px;
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
     @include breakpoint(mobile) {
       width: auto;
       padding: 0;
       height: 10vh;
-      overflow: hidden;
     }
 
     li {
@@ -750,13 +751,14 @@
               &::before {
                 content: "\2192";
                 position: absolute;
-                left: -22px;
+                left: -4vw;
                 background: white;
+                width: 4vw;
+                text-align: center;
               }
             }
 
             &.register-mark {
-              width: 2vw;
               padding: 0px 0px 0px 0px;
               margin: 0px 0px 0px 0px;
               @include breakpoint(mobile) {
@@ -860,9 +862,11 @@
   background: $color3;
   cursor: pointer;
   padding-right: 42px;
-  @include noHyphens;
   @include breakpoint(mobile) {
     padding: 2vh 4vw;
+  }
+  a {
+    @include noHyphens;
   }
   &:hover a {
     @include font-style-2;
@@ -1021,6 +1025,7 @@ a.interviewee-title {
   max-width: 600px;
   padding: 0;
   margin: 0;
+  pointer-events: none;
   @include breakpoint(mobile) {
     position: relative;
     top: auto;
