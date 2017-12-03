@@ -23,13 +23,13 @@ Interview:
   quoteauthor: ""
 - 
   fid: f255
-  spezialfrage: "1"
+  spezialfrage: "0"
   vorfrage: ""
   frage: >
     Haben Männer und Frauen
     unterschiedliche Definitionen von
     Erfolg?
-  category: Spezifisch
+  category: Erfolg
   antwort: 'CF:&nbsp;Es gibt viele, auch junge, Untersuchungen, durch die wir wissen, dass für Männer der Verdienst und die Karriere immer noch eine große Rolle spielen. Ein Mann nimmt sehr viel eher einen neuen Job oder ein neues Projekt an, das ihn vielleicht nicht interessiert oder bei dem er nicht sicher ist, ob er es kann, weil er weiß, dass es ihn einen Schritt weiter bringt. Frauen haben in Deutschland erst sehr spät das Bildungsdefizit aufgeholt, durch die Bildungsreform in den 1960er Jahren. Zuvor gab es drei Personengruppen, die nicht am Bildungssystem teilnahmen:&nbsp;Arbeiterkinder, Kinder vom Land und Mädchen. Dann wurde die Schulreform eingeführt, auf dem Land Schulen gebaut und Buslinien installiert. Es gab die Koedukation, das heißt dass Mädchen und Jungen gemeinsam unterrichtet wurden. Ich gehöre wahrscheinlich mit zu der ersten Generation, der Babyboomer-Generation, die das Gymnasium besuchten, studierten und eine Laufbahn einschlugen, wie ich sie jetzt gemacht habe. Bis heute ist es so, dass hochqualifizierte Frauen in ihrer Arbeit sehr viel Wert auf Inhalte, das Team und auf ihr Unternehmen legen. Der Karrierebegriff, der Machtbegriff ist für viele Frauen immer noch negativ oder ambivalent. Das ist für sie wie ein Verrat an den Inhalten.'
   quote: ""
   quoteauthor: ""

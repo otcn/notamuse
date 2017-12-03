@@ -252,10 +252,9 @@ $(document).ready(function() {
   // INTRO: click link to open related answer
   $('.js-intro-answer').click(function(event){
     event.preventDefault(); // prevent the link from following the URL
-    console.log( 'js-intro-answer clicked' );
-    var anchor = $( this );
+    var anchor = $(this).attr('href');
     closeSeparator();
-    openAnswer(anchor);
+    push(anchor);
   });
 
   // TOPICS: open / close dropdown
@@ -297,6 +296,7 @@ $(document).ready(function() {
   /* close and open navigation */
   $('.nav-mobile-icon').click(function(){
     $(this).toggleClass('open');
+    closeSeparator();
   });
 
 /* UNTIDY ================================================ */

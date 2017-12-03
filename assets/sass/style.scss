@@ -97,9 +97,17 @@
   }
 
   @mixin noHyphens {
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    hyphens: none;
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    hyphens: none !important;
+    word-break: keep-all !important;
+  }
+
+  @mixin noTransition($property) {
+    -webkit-transition: $property 0s linear;
+    -moz-transition: $property 0s linear;
+    -o-transition: $property 0s linear;
+    transition: $property 0s linear;
   }
 
 /* GENERAL & RESETING ========================================================================== */
@@ -214,6 +222,9 @@
     }
     &>a.key-icon::after {
       content: "\E001";
+    }
+    &>a {
+      @include font-style-2;
     }
   }
 
@@ -547,10 +558,12 @@
   z-index: 100;
   @include transition( all );
   @include breakpoint(mobile) {
+    padding: 0;
     top:  0;
     left: 0;
     width: 100vw;
     background: $color2;
+    z-index: 400;
   }
   * { @include transition( all ); }
 
@@ -559,16 +572,16 @@
     padding: 0px 11vw 0px 0px;
     margin: 0px 0px 0px 0px;
     height: 100vh;
-    overflow: auto;
     @include breakpoint(mobile) {
       width: auto;
       padding: 0;
-      height: auto;
+      height: 10vh;
+      overflow: hidden;
     }
 
     li {
       padding: 0px 0px 0px 0px;
-      /*margin: 0px 0px 7px 0px;*/
+      margin: 0px 0px 7px 0px;
       position: relative;
       display: block;
       width: 19vw;
@@ -586,13 +599,48 @@
         margin: 0;
         padding: 0;
         display: none;
+        background: $color1;
         @include breakpoint(mobile) {
           display: block;
         }
       }
 
+      #topics-button {
+        margin-top: 12px;
+        @include breakpoint(mobile) {
+          display: none;
+        }
+      }
+
+      #questions-button, #interviews-button {
+        &.active {
+          border-bottom: 1px solid $color0;
+          margin-bottom: -1px;
+          background: $color3;
+          /* STICKY-CODE */
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          z-index: 100;
+          @include breakpoint(mobile) {
+            position: relative;
+            top: auto;
+            background: $color2;
+          }
+        }
+      }
+
       .nav-button {
         display: block;
+
+        &.active, &:hover {
+          a {
+            @include font-style-2;
+            &.key-icon {
+              display:block;
+            }
+          }
+        }
 
         a.key-icon {
           padding: 0;
@@ -605,9 +653,6 @@
             display:block;
           }
         }
-        &:hover a.key-icon {
-          display:block;
-        }
 
         a.button-title {
           @include font-size-2;
@@ -617,19 +662,10 @@
           cursor: pointer;
           @include breakpoint(mobile) {
             margin: 0px;
-            padding: 2vh 2vw;
+            padding: 0 2vw;
+            height: 10vh;
             @include font-size-1;
           }
-        }
-        &:hover a.button-title {
-          @include font-style-2;
-        }
-      }
-
-      #topics-button {
-        margin-top: 12px;
-        @include breakpoint(mobile) {
-          display: none;
         }
       }
     }
@@ -658,6 +694,7 @@
       width: auto;
       ul.nav {
         li {
+          @include noTransition(width);
           overflow: auto;
           width: 35vw;
           min-width: 220px;
@@ -673,9 +710,6 @@
           transition-delay: 0.7s;
           height: 0vh;
           margin: 0;
-        }
-        li.nav-about {
-          margin-top: 0px;
         }
       }
     }
@@ -709,6 +743,7 @@
 
   a {
     display: block;
+    @include noHyphens;
   }
 
   & > ul {
@@ -737,6 +772,15 @@
       min-width: none;
       max-width: none;
     }
+
+    &hover a {
+      max-width: 100%;
+      @include breakpoint(mobile) {
+        width:     auto;
+        min-width: none;
+        max-width: none;
+      }
+    }
   }
 
   .register-mark {
@@ -760,22 +804,13 @@
 
   a {
     max-width: 82%;
+    @include noHyphens;
     @include breakpoint(mobile) {
       width:     auto;
       min-width: none;
       max-width: none;
     }
   }
-
-  a:hover {
-    max-width: 100%;
-    @include breakpoint(mobile) {
-      width:     auto;
-      min-width: none;
-      max-width: none;
-    }
-  }
-
 }
 
 /* MAIN LAYER: CONTENT ========================================================================== */
@@ -881,25 +916,25 @@
   @include breakpoint(mobile) {
     padding: 2vh 4vw;
   }
-}
 
-.question-title a:first-child {
-  max-width: 53vw;
-  display: block;
-  @include breakpoint(mobile) {
-    width:     auto;
-    min-width: none;
-    max-width: none;
-  }
-}
-
-.question-title a:first-child:hover, .question-title a:first-child.active {
-  max-width: 66vw;
+  a:first-child {
+    max-width: 53vw;
+    display: block;
     @include breakpoint(mobile) {
       width:     auto;
       min-width: none;
       max-width: none;
     }
+  }
+
+  &:hover a:first-child, &.active a:first-child {
+    max-width: 66vw;
+    @include breakpoint(mobile) {
+      width:     auto;
+      min-width: none;
+      max-width: none;
+    }
+  }
 }
 
 .answer-list {
@@ -1079,10 +1114,12 @@ a.interviewee-title {
 }
 
 .nav-mobile-icon {
-  width: 60px;
-  height: 45px;
-  position: relative;
-  margin: 50px auto;
+  width: 10vh;
+  height: 10vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -1115,7 +1152,7 @@ a.interviewee-title {
     top: 36px;
   }
 
-  .open {
+  &.open {
     span:nth-child(1) {
       top: 18px;
       width: 0%;

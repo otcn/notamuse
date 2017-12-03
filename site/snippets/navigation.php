@@ -5,13 +5,13 @@
     <!-- MOBILE NAV HEADER -->
     <li class="nav-mobile-header">
       <div class="nav-button">
-        <a class="button-title">notamuse</a>
-        <div class="nav-mobile-icon">
+        <div class="nav-mobile-icon open">
           <span></span>
           <span></span>
           <span></span>
           <span></span>
         </div>
+        <a class="button-title">notamuse</a>
       </div>
     </li>
 
