@@ -7,10 +7,10 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
-  - interviews/jens-schnitzler
-  - themen
-  - >
-    themen/programmierung/wie-gut-sind-deine-php-kenntnisse
-  - home
+  - about
+  - themen/aufmerksamkeit/werdet-ihr-als-gleichberechtigte-partnerinnen-des-bueros-wahrgenommen
+  - interviews/michelle-philipps
+  - interviews/julia-meer
+  - themen/aufmerksamkeit/werden-arbeiten-von-designern-und-designerinnen-in-der-oeffentlichkeit-unterschiedlich-wahrgenommen
 firstname: notamuse
 lastname: ""

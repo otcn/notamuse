@@ -4,9 +4,9 @@ Title: About
 
 Text: 
 
-»notamuse« thematisiert die fehlende Sichtbarkeit von Grafikdesignerinnen in der Designöffentlichkeit. Die Bedeutung des Namens ist klar: not a muse. Anders als die Muse, die durch ihre inspirierende aber passive Funktion männliche, kreative Geister anregt, geht es uns um Designerinnen, die selbst schöpferisch tätig sind und sich aktiv an der Gestaltung der Designlandschaft beteiligen. »notamuse« stellt sie auf dieser Seite in den Mittelpunkt der Aufmerksamkeit.
-Initiiert von Silva Baum, Claudia Scheer und Lea Sievertsen untersucht das Projekt diese Thematik durch Interviews mit Designerinnen, Soziologinnen und Designtheoretikerinnen. Neben der Website, die die Gespräche vergleichbar darstellt, entsteht das Buch »notamuse – A New Perspective on Graphic Design«, das ausschließlich Arbeiten zeitgenössischer Grafikdesignerinnen präsentiert. Es versteht sich dabei als bewusste Geste, um den männlich dominierten Designdiskurs auszugleichen.
-Wir wünschen uns mehr weibliche Vorbilder im Grafikdesign sowie eine diversere Designszene, jenseits von männlichen Heldenfiguren. Im Frühjahr 2017 führten wir deshalb 22 Interviews, in denen wir mit verschiedenen Frauen über Themen wie die neue Arbeitswelt und Frauen in »Männerberufen«, über die Unterschiede zwischen männlichen und weiblichen Gestalter_innen und Sexismus im Berufsalltag sprachen. Wir diskutierten über gestalterische Haltung, Arbeitsabläufe und persönlichen Erfahrungen in der Designwelt. Thematisch sortiert können die Antworten auf dieser Website verglichen werden und geben damit einen Einblick in die Design-Vorstellung der Gestalterinnen, in ihre Ideale und ihre persönliche Auseinandersetzung mit Gleichberechtigung – sowohl im Beruflichen als auch im Privaten. Die Statements der Soziologinnen und Designtheoretikerinnen ergänzen dabei die Auseinandersetzung.
+»notamuse« thematisiert die fehlende Sichtbarkeit von Grafikdesignerinnen in der Designöffentlichkeit. Die Bedeutung des Namens ist klar: not a muse. Anders als die Muse, die durch ihre inspirierende aber passive Funktion männliche, kreative Geister anregt, geht es uns um Designerinnen, die selbst schöpferisch tätig sind und sich aktiv an der Gestaltung der Designlandschaft beteiligen. notamuse stellt sie auf dieser Seite in den Mittelpunkt der Aufmerksamkeit. <br>
+Wir wünschen uns mehr weibliche Vorbilder im Grafikdesign sowie eine diversere Designszene, jenseits von männlichen Heldenfiguren. Im Frühjahr 2017 führten wir deshalb 22 Interviews, in denen wir mit verschiedenen Frauen über Themen wie die neue Arbeitswelt und Frauen in »Männerberufen«, über die Unterschiede zwischen männlichen und weiblichen Gestalter_innen und Sexismus im Berufsalltag sprachen. Wir diskutierten über gestalterische Haltung, Arbeitsabläufe und persönlichen Erfahrungen in der Designwelt. Thematisch sortiert können die Antworten auf dieser Website verglichen werden und geben damit einen Einblick in die Design-Vorstellung der Gestalterinnen, in ihre Ideale und ihre persönliche Auseinandersetzung mit Gleichberechtigung – sowohl im Beruflichen als auch im Privaten. Die Statements der Soziologinnen und Designtheoretikerinnen ergänzen dabei die Auseinandersetzung. 
+Neben dieser Website entsteht das Buch »notamuse – A New Perspective on Graphic Design«, das ausschließlich Arbeiten zeitgenössischer Grafikdesignerinnen präsentiert. Es versteht sich dabei als bewusste Geste, um den männlich dominierten Designdiskurs auszugleichen.
 
 ----
 
@@ -14,7 +14,7 @@ Aboutimage: portrait_notamuse01bz.jpg
 
 ----
 
-Imagecaption: Das Team von »notamuse«: Silva Baum, Claudia Scheer und Lea Sievertsen (v.l.n.r.)
+Imagecaption: Das Team von notamuse: Silva Baum, Claudia Scheer und Lea Sievertsen (v.l.n.r.)
 
 ----
 
@@ -25,8 +25,50 @@ Networklisttitle: Netzwerke, Plattformen und Freunde
 Networks: 
 
 - 
+  name: 'And She Was Like: BÄM!'
+  url: http://andshewaslikebam.de
+- 
+  name: international Gender Design Network
+  url: http://genderdesign.org
+- 
+  name: 'The 3% Conference'
+  url: https://www.3percentmovement.com
+- 
+  name: Women Lead Initiative, AIGA
+  url: >
+    https://www.aiga.org/women-lead-initiative
+- 
+  name: Ladyboss
+  url: 'http://www.lady-boss.net/#home'
+- 
   name: Ladies Wine and Design
   url: http://ladieswinedesign.com/
+- 
+  name: Make Nice
+  url: http://www.make-nice.com.au
+- 
+  name: Women of Graphic Design
+  url: http://womenofgraphicdesign.org
+- 
+  name: Hall of Femmes
+  url: http://halloffemmes.com
+- 
+  name: Women Who Design
+  url: https://womenwho.design
+- 
+  name: Graphic Design Women
+  url: http://www.graphicdesignwomen.com
+- 
+  name: Riposte Magazine
+  url: http://www.ripostemagazine.com
+- 
+  name: 'Buch: Women in Graphic Design'
+  url: >
+    https://www.jovis.de/en/books/product/frauen-und-grafik-design-18902012.html
+- 
+  name: 'Magazin: Slanted #12 – Women, Typography, Graphic Design'
+  url: >
+    http://www.slanted.de/eintrag/slanted-12-women-typography-graphic-design
 
 ----
 
@@ -36,41 +78,14 @@ Interview:
 
 Imprint: 
 
-Angaben gemäß § 5 TMG
-Max Muster
-Musterweg
-12345 Musterstadt
-Vertreten durch:
-Max Muster
-Kontakt:
-Telefon: 01234-789456
-Fax: 1234-56789
-E-Mail: max@muster.de
-
-Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-Max Muster
-Musterweg
-12345 Musterstadt
-
-Haftungsausschluss:
-
-Haftung für Inhalte
-
-Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
-<br>
-Haftung für Links
-
-Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
-<br>
-Urheberrecht
-
-Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
-<br>
-Datenschutz
-
-Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
-Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
-Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
+<br>notamuse
+Silva Baum, Claudia Scheer, Lea Sievertsen
+Mainzer Str. 12
+10247 Berlin<br>
+Kontakt: 
+<a href="mailto:hi@notamuse.de">hi@notamuse.de</a><br>
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Garantie dafür, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und aktuell sind. Wir behalten uns vor, die Informationen auf dieser Site jederzeit und ohne vorherige Ankündigung zu ändern oder zu aktualisieren. Wir übernehmen keine Haftung für die Inhalte externer Links. Für den Inhalt verlinkter Seiten sind ausschließlich deren Betreiber_innen verantwortlich.
+Die auf dieser Internetseite veröffentlichten Inhalte unterliegen dem Urheberrecht und anderen Gesetzen zum Schutz geistigen Eigentums. Für den privaten sowie nichtkommerziellen Gebrauch ist die weitere Nutzung gestattet, solange auf die Betreiberinnen dieser Seite verwiesen wird. Jede weitere Form der Nutzung bedarf einer schriftlichen Genehmigung. Soweit die Inhalte auf dieser Seite nicht von den Betreiberinnen erstellt wurden, werden die Urheberrechte Dritter beachtet, insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung auf dieser Site aufmerksam werden, bitten wir um einen entsprechenden Hinweis.
 
 ----
 

@@ -130,7 +130,7 @@ Interview:
   vorfrage: ""
   frage: Habt ihr Vorbilder?
   category: Inspiration
-  antwort: 'MP:&nbsp;There are definitely designers and studios that influenced me, especially as a student, but nowadays there are less specific role models. Johannes has an art and film background. He’s very into culture and arts, so we spend a lot more time in this area than in the design area. I would even say we don’t have many designer friends apart from <a href="../laure-boer">BANK</a> and <a href="http://www.s-t-a-t-e.com/">State</a>, the latter with whom we share a studio. For whatever reason we don’t socialize a lot in the design circle. BANK taught me a lot when I worked with them; they have an avant-garde approach to their work which I really like. They had a big influence on me.'
+  antwort: 'MP:&nbsp;There are definitely designers and studios that influenced me, especially as a student, but nowadays there are less specific role models. Johannes has an art and film background. He’s very into culture and arts, so we spend a lot more time in this area than in the design area. I would even say we don’t have many designer friends apart from <a href="../interviews/laure-boer">BANK</a> and <a href="http://www.s-t-a-t-e.com/">State</a>, the latter with whom we share a studio. For whatever reason we don’t socialize a lot in the design circle. BANK taught me a lot when I worked with them; they have an avant-garde approach to their work which I really like. They had a big influence on me.'
   quote: ""
   quoteauthor: ""
 - 
@@ -238,4 +238,4 @@ Interview:
 
 ----
 
-Interviewimagecredits: credits?
+Interviewimagecredits: Credits: Christian Werner
