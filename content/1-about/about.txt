@@ -86,6 +86,8 @@ Kontakt:
 <a href="mailto:hi@notamuse.de">hi@notamuse.de</a><br>
 Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Garantie dafür, dass die auf dieser Website bereitgestellten Informationen vollständig, richtig und aktuell sind. Wir behalten uns vor, die Informationen auf dieser Site jederzeit und ohne vorherige Ankündigung zu ändern oder zu aktualisieren. Wir übernehmen keine Haftung für die Inhalte externer Links. Für den Inhalt verlinkter Seiten sind ausschließlich deren Betreiber_innen verantwortlich.
 Die auf dieser Internetseite veröffentlichten Inhalte unterliegen dem Urheberrecht und anderen Gesetzen zum Schutz geistigen Eigentums. Für den privaten sowie nichtkommerziellen Gebrauch ist die weitere Nutzung gestattet, solange auf die Betreiberinnen dieser Seite verwiesen wird. Jede weitere Form der Nutzung bedarf einer schriftlichen Genehmigung. Soweit die Inhalte auf dieser Seite nicht von den Betreiberinnen erstellt wurden, werden die Urheberrechte Dritter beachtet, insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung auf dieser Site aufmerksam werden, bitten wir um einen entsprechenden Hinweis.
+<br>
+Code von Jens Schnitzler, <a href="http://www.timrausch.de">Tim Rausch</a> und <a href="http://janareddemann.de">Jana Reddemann</a>
 
 ----
 
