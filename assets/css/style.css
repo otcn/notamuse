@@ -39,12 +39,12 @@ html * {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -86,12 +86,12 @@ a:hover, a:active, a.active {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -205,12 +205,12 @@ figure {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -237,12 +237,12 @@ h1, h2 {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -317,12 +317,12 @@ em, .extended, .active {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -374,12 +374,12 @@ em, .extended, .active {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -639,12 +639,12 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -769,6 +769,8 @@ a.key-icon.active::after {
   width: 19vw;
   min-width: 220px;
   max-width: 1000px;
+  /* === NAV-SUB START === */
+  /* === NAV-SUB END === */
 }
 
 @media (max-width: 768px) {
@@ -838,12 +840,12 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -898,6 +900,173 @@ a.key-icon.active::after {
   }
 }
 
+.nav-container ul.nav li .sub {
+  display: none;
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow-x: visible;
+  width: 100%;
+  height: auto;
+  -webkit-transition: height 0.2s ease-in-out;
+  -moz-transition: height 0.2s ease-in-out;
+  -o-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .nav-container ul.nav li .sub {
+    width: auto;
+    max-width: none;
+  }
+}
+
+.nav-container ul.nav li .sub * {
+  max-width: 35vw;
+}
+
+@media (max-width: 768px) {
+  .nav-container ul.nav li .sub * {
+    width: auto;
+    max-width: 96vw;
+  }
+}
+
+.nav-container ul.nav li .sub a {
+  display: block;
+  /*
+          max-width: 82%;
+          */
+}
+
+@media (max-width: 768px) {
+  .nav-container ul.nav li .sub a {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
+}
+
+.nav-container ul.nav li .sub > ul {
+  padding: 12px 0 0 2vw;
+  overflow-x: visible;
+  flex-wrap: wrap;
+  display: flex;
+  position: relative;
+  width: 34vw;
+}
+
+@media (max-width: 768px) {
+  .nav-container ul.nav li .sub > ul {
+    padding: 0;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.nav-container ul.nav li .sub > ul > li {
+  -webkit-transition: padding 0s linear;
+  -moz-transition: padding 0s linear;
+  -o-transition: padding 0s linear;
+  transition: padding 0s linear;
+  padding: 0px 18% 0px 0px;
+  margin: 0px 0px 17px 2vw;
+  display: block;
+  position: relative;
+  min-width: 27px;
+  width: 31vw;
+}
+
+@media (max-width: 768px) {
+  .nav-container ul.nav li .sub > ul > li {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
+}
+
+.nav-container ul.nav li .sub > ul > li:hover {
+  padding: 0;
+}
+
+.nav-container ul.nav li .sub > ul > li:hover a {
+  max-width: 100%;
+  font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
+  text-align: left;
+  text-decoration: none;
+  /* improve text rendering */
+  /* word-break (may look odd) */
+  /* Non standard for WebKit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox */
+  /*text-rendering: optimizeLegibility;*/
+  -webkit-text-size-adjust: 100%;
+  font-family: RenaGrotesk-Extended, Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .nav-container ul.nav li .sub > ul > li:hover a {
+    width: auto;
+    min-width: none;
+    max-width: none;
+  }
+}
+
+.nav-container ul.nav li .sub > ul > li:hover::before {
+  content: "\2192";
+  position: absolute;
+  left: -22px;
+  background: white;
+}
+
+.nav-container ul.nav li .sub > ul > li.register-mark {
+  width: 2vw;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  .nav-container ul.nav li .sub > ul > li.register-mark {
+    width: 100%;
+    min-width: none;
+    max-width: none;
+  }
+}
+
+.nav-container ul.nav li .sub > ul > li.register-mark::before {
+  content: "";
+  display: none;
+}
+
+.nav-container ul.nav li .sub > ul > li.register-mark + li {
+  margin-top: -27px;
+}
+
+@media (max-width: 768px) {
+  .nav-container ul.nav li .sub > ul > li.register-mark + li {
+    margin-top: 0;
+  }
+}
+
 .nav-container ul.nav li.nav-spacer {
   margin-top: -280px;
   margin-bottom: 100vh;
@@ -920,11 +1089,7 @@ a.key-icon.active::after {
 }
 
 .nav-mode .nav-container ul.nav li {
-  -webkit-transition: width 0s linear;
-  -moz-transition: width 0s linear;
-  -o-transition: width 0s linear;
-  transition: width 0s linear;
-  overflow: auto;
+  /*overflow: auto;*/
   width: 35vw;
   min-width: 220px;
   max-width: 1000px;
@@ -943,140 +1108,6 @@ a.key-icon.active::after {
   transition-delay: 0.7s;
   height: 0vh;
   margin: 0;
-}
-
-/* === NAV-SUB === */
-.sub {
-  display: none;
-  position: relative;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  overflow-x: visible;
-  -webkit-transition: height 0.2s ease-in-out;
-  -moz-transition: height 0.2s ease-in-out;
-  -o-transition: height 0.2s ease-in-out;
-  transition: height 0.2s ease-in-out;
-  width: 100%;
-  height: auto;
-}
-
-@media (max-width: 768px) {
-  .sub {
-    width: auto;
-    max-width: none;
-  }
-}
-
-.sub * {
-  max-width: 35vw;
-  -webkit-hyphens: none !important;
-  -moz-hyphens: none !important;
-  hyphens: none !important;
-  word-break: keep-all !important;
-}
-
-@media (max-width: 768px) {
-  .sub * {
-    width: auto;
-    max-width: 96vw;
-  }
-}
-
-.sub a {
-  display: block;
-  -webkit-hyphens: none !important;
-  -moz-hyphens: none !important;
-  hyphens: none !important;
-  word-break: keep-all !important;
-}
-
-.sub > ul {
-  padding: 12px 0 0 2vw;
-  overflow-x: visible;
-  flex-wrap: wrap;
-  display: flex;
-  position: relative;
-  width: 34vw;
-}
-
-@media (max-width: 768px) {
-  .sub > ul {
-    padding: 0;
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.sub > ul > li {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 17px 2vw;
-  display: block;
-  position: relative;
-  min-width: 27px;
-  width: 31vw;
-}
-
-@media (max-width: 768px) {
-  .sub > ul > li {
-    width: auto;
-    min-width: none;
-    max-width: none;
-  }
-}
-
-.sub > ul > lihover a {
-  max-width: 100%;
-}
-
-@media (max-width: 768px) {
-  .sub > ul > lihover a {
-    width: auto;
-    min-width: none;
-    max-width: none;
-  }
-}
-
-.sub .register-mark {
-  width: 2vw;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
-
-@media (max-width: 768px) {
-  .sub .register-mark {
-    width: 100%;
-    min-width: none;
-    max-width: none;
-  }
-}
-
-.sub .register-mark + li {
-  /*margin-left: 0px;*/
-  margin-top: -27px;
-}
-
-@media (max-width: 768px) {
-  .sub .register-mark + li {
-    margin-top: 0;
-  }
-}
-
-.sub a {
-  max-width: 82%;
-  -webkit-hyphens: none !important;
-  -moz-hyphens: none !important;
-  hyphens: none !important;
-  word-break: keep-all !important;
-}
-
-@media (max-width: 768px) {
-  .sub a {
-    width: auto;
-    min-width: none;
-    max-width: none;
-  }
 }
 
 /* MAIN LAYER: CONTENT ========================================================================== */
@@ -1141,12 +1172,12 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -1177,12 +1208,12 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;
@@ -1333,12 +1364,12 @@ a.interviewee-title {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: auto 5;
-  -ms-hyphenate-limit-chars: auto 5;
-  hyphenate-limit-chars: auto 5;
-  -webkit-hyphenate-limit-lines: 3;
-  -ms-hyphenate-limit-lines: 3;
-  hyphenate-limit-lines: 3;
+  -webkit-hyphenate-limit-chars: 8;
+  -ms-hyphenate-limit-chars: 8;
+  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
   font-weight: normal;
   font-style: normal;
   font-feature-settings: "kern" 1;

@@ -65,13 +65,13 @@
     -moz-hyphens: auto;
     hyphens: auto;
 
-    -webkit-hyphenate-limit-chars: auto 5;
-    -ms-hyphenate-limit-chars: auto 5;
-    hyphenate-limit-chars: auto 5;
+    -webkit-hyphenate-limit-chars: 8;
+    -ms-hyphenate-limit-chars: 8;
+    hyphenate-limit-chars: 8; // auto 5
 
-    -webkit-hyphenate-limit-lines: 3;
-    -ms-hyphenate-limit-lines: 3;
-    hyphenate-limit-lines: 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-lines: 2;
+    hyphenate-limit-lines: 2;
 
     font-weight: normal;
     font-style: normal;
@@ -565,6 +565,7 @@
     background: $color2;
     z-index: 400;
   }
+
   * { @include transition( all ); }
 
   ul.nav {
@@ -668,34 +669,138 @@
           }
         }
       }
+
+      /* === NAV-SUB START === */
+      .sub {
+        display: none;
+        position: relative;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        overflow-x: visible;
+        width: 100%;
+        height: auto;
+        @include transition( height );
+        @include breakpoint(mobile) {
+          width: auto;
+          max-width:none;
+        }
+
+        * {
+          max-width: 35vw;
+          @include breakpoint(mobile) {
+            width:     auto;
+            max-width: 96vw;
+          }
+        }
+
+        a {
+          display: block;
+          /*
+          max-width: 82%;
+          */
+          @include breakpoint(mobile) {
+            width:     auto;
+            min-width: none;
+            max-width: none;
+          }
+        }
+
+        & > ul {
+          padding: 12px 0 0 2vw;
+          overflow-x: visible;
+          flex-wrap: wrap;
+          display: flex;
+          position: relative;
+          width: 34vw;
+          @include breakpoint(mobile) {
+            padding:    0;
+            width:      100%;
+            max-width:  none;
+          }
+
+          & > li {
+            @include noTransition(padding);
+            padding: 0px 18% 0px 0px;
+            margin: 0px 0px 17px 2vw;
+            display: block;
+            position: relative;
+            min-width: 27px;
+            width: 31vw;
+            @include breakpoint(mobile) {
+              width:     auto;
+              min-width: none;
+              max-width: none;
+            }
+
+            &:hover {
+              padding: 0;
+              a {
+                max-width: 100%;
+                @include font-style-2;
+                @include breakpoint(mobile) {
+                  width:     auto;
+                  min-width: none;
+                  max-width: none;
+                }
+              }
+              &::before {
+                content: "\2192";
+                position: absolute;
+                left: -22px;
+                background: white;
+              }
+            }
+
+            &.register-mark {
+              width: 2vw;
+              padding: 0px 0px 0px 0px;
+              margin: 0px 0px 0px 0px;
+              @include breakpoint(mobile) {
+                width:     100%;
+                min-width: none;
+                max-width: none;
+              }
+              &::before {
+                content: "";
+                display: none;
+              }
+            }
+
+            &.register-mark + li {
+              margin-top: -27px;
+              @include breakpoint(mobile) {margin-top: 0;}
+            }
+          }
+        }
+      }
+      /* === NAV-SUB END === */
     }
 
     li.nav-spacer {
       margin-top: -280px;
       margin-bottom: 100vh;
       height: 0;
-
       -webkit-transition: all 0s;
       -moz-transition: all 0s;
       -o-transition: all 0s;
       transition: all 0s;
-
-      @include breakpoint(mobile) {
-        display: none;
-      }
+      @include breakpoint(mobile) {display: none;}
     }
   }
 }
+
 
 /* NAV-MODE ========================================================================== */
 
   .nav-mode {
     .nav-container {
       width: auto;
+
       ul.nav {
         li {
-          @include noTransition(width);
-          overflow: auto;
+          /*overflow: auto;*/
           width: 35vw;
           min-width: 220px;
           max-width: 1000px;
@@ -715,103 +820,7 @@
     }
   }
 
-/* === NAV-SUB === */
-.sub {
-  display: none;
-  position: relative;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  overflow-x: visible;
-  @include transition( height );
-  width: 100%;
-  height: auto;
-  @include breakpoint(mobile) {
-    width: auto;
-    max-width:none;
-  }
 
-  * {
-    max-width: 35vw;
-    @include noHyphens;
-    @include breakpoint(mobile) {
-      width:     auto;
-      max-width: 96vw;
-    }
-  }
-
-  a {
-    display: block;
-    @include noHyphens;
-  }
-
-  & > ul {
-    padding: 12px 0 0 2vw;
-    overflow-x: visible;
-    flex-wrap: wrap;
-    display: flex;
-    position: relative;
-    width: 34vw;
-    @include breakpoint(mobile) {
-      padding:    0;
-      width:      100%;
-      max-width:  none;
-    }
-  }
-
-  & > ul > li {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 17px 2vw;
-    display: block;
-    position: relative;
-    min-width: 27px;
-    width: 31vw;
-    @include breakpoint(mobile) {
-      width:     auto;
-      min-width: none;
-      max-width: none;
-    }
-
-    &hover a {
-      max-width: 100%;
-      @include breakpoint(mobile) {
-        width:     auto;
-        min-width: none;
-        max-width: none;
-      }
-    }
-  }
-
-  .register-mark {
-    width: 2vw;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    @include breakpoint(mobile) {
-      width:     100%;
-      min-width: none;
-      max-width: none;
-    }
-  }
-
-  .register-mark + li {
-    /*margin-left: 0px;*/
-    margin-top: -27px;
-    @include breakpoint(mobile) {
-      margin-top: 0;
-    }
-  }
-
-  a {
-    max-width: 82%;
-    @include noHyphens;
-    @include breakpoint(mobile) {
-      width:     auto;
-      min-width: none;
-      max-width: none;
-    }
-  }
-}
 
 /* MAIN LAYER: CONTENT ========================================================================== */
 #content {
