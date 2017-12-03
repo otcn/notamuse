@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
+<html lang="<?= site()->language() ? site()->language()->code() : 'de' ?>">
 <head>
 
   <meta charset="utf-8">
@@ -11,7 +11,6 @@
 
   <meta name="description" content="<?= $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords() ?>">
-
 
   <!--Load css-->
   <?php echo css(array(

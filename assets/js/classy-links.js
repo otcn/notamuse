@@ -6,10 +6,12 @@ function classyLinks() {
   console.log('classyLinks');
 
   // This script adds the classes "a-extern" and "a-intern" to the designated links
-  $('.answer-item p a, .overlay p a').each(function(){
-    if ($(this).attr('href') && $(this).attr('href').match(/https?:\/\/(?!localhost)/)) {
+  $('.answer-item p a, .overlay p a, .network-list a').each(function(){
+    if ( $(this).attr('href') && $(this).attr('href').match(/https?:\/\/(?!localhost)/) ) { // external links
       $(this).attr('target','_blank').addClass('a-extern').removeClass('a-intern');
-    } else {
+    } else if ( $(this).attr('href') && $(this).attr('href').includes( 'mailto' ) ) { // mailto links
+      $(this).addClass('a-extern').removeClass('a-intern');
+    } else { // internal links
       $(this).attr('target','_self').removeClass('a-extern').addClass('a-intern');
     }
   });
