@@ -52,7 +52,7 @@ endif;
 
           <li class="extended"><?= $interview->title()->html() ?></li>
           <li><?= $interview->place()->html() ?></li>
-          <li><a href="<?= $interview->web() ?>"><?= $interview->web() ?></a></li>
+          <li><a href="<?= $interview->web() ?>" class="a-extern" target="_blank"><?= $interview->web() ?></a></li>
 
           <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
 

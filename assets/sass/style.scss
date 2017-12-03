@@ -231,6 +231,7 @@
 /* TYPOGRAPHIC ELEMENTS ========================================================================== */
 
   h1, h2 {
+    @include noHyphens;
     @include font-style-2;
     word-break: normal;
     padding: 0;
@@ -697,6 +698,7 @@
 
         a {
           display: block;
+          @include noHyphens;
           /*
           max-width: 82%;
           */

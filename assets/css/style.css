@@ -227,6 +227,10 @@ figure {
 
 /* TYPOGRAPHIC ELEMENTS ========================================================================== */
 h1, h2 {
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
+  hyphens: none !important;
+  word-break: keep-all !important;
   font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
   text-align: left;
   text-decoration: none;
@@ -936,6 +940,10 @@ a.key-icon.active::after {
 
 .nav-container ul.nav li .sub a {
   display: block;
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
+  hyphens: none !important;
+  word-break: keep-all !important;
   /*
           max-width: 82%;
           */

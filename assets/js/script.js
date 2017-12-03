@@ -1,25 +1,33 @@
 $(document).ready(function() {
 
-  /* JANAS AJAX FUNCTIONS ================================================ */
 
-  // History
-  function projects(uid) {
-      if (uid !== 'about'){
-          $.ajax({
-              url: '/' + uid, // url: 'http://localhost/~jensschnitzler/' + uid,
-              type: 'POST',
-              success: function(response) {
-                  $('.interview-container').html(response);
-                  $('.interview-container').removeClass('hidden');
-                  $('#separator').removeClass('hidden');
-                  classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
-              },
-              error: function() {
-                  console.log('ajax error');
-              }
-          });
-      }
-  }
+var fid;
+ /* JANAS AJAX FUNCTIONS ================================================ */
+
+   // History
+   function projects(uid) {
+     if (uid !== 'about') {
+       $.ajax({
+         url: '/' + uid, // url: 'http://localhost/~jensschnitzler/' + uid,
+         type: 'POST',
+         success: function(response) {
+           $('.interview-container').html(response);
+           $('.interview-container').removeClass('hidden');
+           $('#separator').removeClass('hidden');
+           classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
+           if (fid){
+               $('.interview-container').animate({
+                 scrollTop: $('#' + fid).offset().top
+               }, 300);
+               fid = '';
+           }
+         },
+         error: function() {
+           console.log('ajax error');
+         }
+       });
+     }
+   }
 
   History.Adapter.bind(window, 'statechange', function() {
       var State = History.getState();
@@ -76,6 +84,7 @@ $(document).ready(function() {
       openSeparator();
       $('.overlay').addClass('hidden');
       $('.about-container').removeClass('hidden');
+      $('.marquee').css("background-color", "transparent");
     }
     else if ( uid.toLowerCase().indexOf( "interview" ) >= 0 ) { // if uid contains "interview": show interview overlay
       openSeparator();
@@ -87,7 +96,6 @@ $(document).ready(function() {
       $('.overlay').addClass('hidden');
       $('.intro-container').removeClass('hidden');
     }
-
   }
 
   /* INIT AJAX */
@@ -315,42 +323,20 @@ $(document).ready(function() {
   });
 
   /* click on a nav-question to EITHER open scroll to the related answer (under the main topics) OR (in case of a "special question") open the related interview overlay and scroll to the related answer */
-  $('.nav-question a').click(function(e){
+  $('.nav-question a').click(function(e) {
     closeTopics();
-    var anchor = $( this );
-    if (anchor.attr('href').indexOf('http') == -1){
+
+    var anchor = $(this);
+    if (anchor.attr('href').indexOf('http') == -1) {
       openAnswer(anchor);
-    }
-    else{
+    } else {
       e.preventDefault();
 
       var myURL = anchor.attr('href').split('#')[0]; // "split('#')[0]" -> split string into array at "#" and take first array element
       var myID = anchor.attr('href').split('#')[1];
-      var myTarget = $( myID );
+      fid = anchor.attr('href').split('#')[1];
 
-      push( myURL );
-
-      var myContent = myTarget.parents('.overlay-content');
-
-      console.log( myContent );
-      console.log( myURL );
-      console.log( myID );
-      console.log( myTarget );
-
-      /*
-      myContent.scrollTop(
-        myTarget.offset().top - myContent.offset().top + myContent.scrollTop()
-      );
-
-      myContent.animate({
-          scrollTop: myID.offset().top - myContent.offset().top + myContent.scrollTop()
-      });​
-      */
-
-      myContent.animate({
-        scrollTop: myTarget.offset().top
-      }, 'slow');
-
+      push(myURL);
     }
   });
 
