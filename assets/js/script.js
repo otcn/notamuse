@@ -130,14 +130,14 @@ var fid;
     // get related relevant elements:
     target.addClass('active').siblings().addClass('active');
     var topicItem = target.parents('.topic-item').addClass('active');
-    var topicTitle = topicItem.children('.topic-title').children('a').addClass('active');
+    var topicTitle = topicItem.children('.topic-title').addClass('active').children('a').addClass('active');
     var questionItem = target.parents('.question-item').addClass('active');
     var questionTitle = target.parents('.question-title').addClass('active');
     // reveal relevant dropdowns:
-    target.parents('.child').slideDown('slow');
+    target.parents('.child').show(); // or ".slideDown('fast')" ?
+    questionItem.children('.child').show(); // or ".slideDown('fast')" ?
     var container = target.parents('#content');
-    questionItem.children('.child').slideDown('slow');
-    $( container ).animate({ scrollTop: target.offset().top }, 300);
+    $( container ).animate({ scrollTop: target.offset().top - 111 }, 300);
   };
 
   // CLOSE AND DEACTIVATE ALL TOPICS AND THEIR CHILDREN
@@ -257,8 +257,16 @@ var fid;
     alert('Sorry! English isn\'t available yet, but we are working on it!');
   });
 
-  // INTRO: click link to open related answer
+  // INTRO: click answer-link to open related answer
   $('.js-intro-answer').click(function(event){
+    event.preventDefault(); // prevent the link from following the URL
+    var anchor = $(this);
+    closeSeparator();
+    openAnswer(anchor);
+  });
+
+  // INTRO: click interview-link to open related interview
+  $('.js-intro-interview').click(function(event){
     event.preventDefault(); // prevent the link from following the URL
     var anchor = $(this).attr('href');
     closeSeparator();
@@ -301,10 +309,20 @@ var fid;
   });
 
   /* MOBILE NAV HEADER */
-  /* close and open navigation */
+  /* close and open navigation and do other fun stuff */
   $('.nav-mobile-icon').click(function(){
-    $(this).toggleClass('open');
-    closeSeparator();
+    var myBurger = $(this);
+    var myNav = $( '.nav' );
+
+    if( myBurger.is('.open') ) {
+      myBurger.removeClass('open');
+      myNav.removeClass('open');
+      closeSeparator();
+    } else {
+      myBurger.addClass('open');
+      myNav.addClass('open');
+    }
+
   });
 
 /* UNTIDY ================================================ */

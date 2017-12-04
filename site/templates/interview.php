@@ -30,7 +30,7 @@ endif;
 ?>
 
 <div id="interview-content" class="overlay-content">
-  <h1><?= $interview->title()->html() ?></h1>
+  <h1><?= $interview->title()->kirbytext() ?></h1>
 
   <div id="interview-info" class="aside-info">
     <figure>
@@ -44,13 +44,7 @@ endif;
       <figcaption>
         <ul>
 
-          <li> <!-- image credits -->
-            <?php if( !$interview->interviewimagecredits()->empty() ): ?>
-              <?php echo $interview->interviewimagecredits()->html() ?>
-            <?php endif ?>
-          </li>
-
-          <li class="extended">  <!-- studio title / title -->
+          <li class="extended">  <!-- (1) studio title / title -->
             <?php
             if( !$interview->studiotitle()->empty() ) {
               echo $interview->studiotitle()->html();
@@ -60,17 +54,24 @@ endif;
             ?>
           </li>
 
-          <li> <!-- place of residency -->
+          <li> <!-- (2) place of residency -->
             <?php if( !$interview->residence()->empty() ): ?>
               <?php echo $interview->residence()->html() ?>
             <?php endif ?>
           </li>
 
-          <li> <!-- website -->
+          <li> <!-- (3) website -->
             <a href="<?= $interview->web() ?>" class="a-extern" target="_blank"><?= $interview->web() ?></a>
           </li>
 
-          <li>Das Inter&shy;view mit <?= $interview->title()->html() ?> wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
+          <!-- (4) explanatory sentence -->
+          <li>Das Inter&shy;view wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
+
+          <li> <!-- (5) image credits -->
+            <?php if( !$interview->interviewimagecredits()->empty() ): ?>
+              <?php echo $interview->interviewimagecredits()->html() ?>
+            <?php endif ?>
+          </li>
 
         </ul>
       </figcaption>

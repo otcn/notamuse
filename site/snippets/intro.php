@@ -54,7 +54,7 @@ $spezialfrage = $spezialfragen[$array_key];
 
         <?php
         if ( $spezialfrage == '1') {
-          echo '<a class="js-intro-answer" href="' . $url . '">Zum Interview</a>'; // link directly to interview page/section
+          echo '<a class="js-intro-interview" href="' . $url . '">Zum Interview</a>'; // link directly to interview page/section
         } else {
           echo '<a class="js-intro-answer" href="#' . $fid . '" data-ref="' . $question . '">Alle Antworten auf diese Frage</a>'; // link to question in topics
         }

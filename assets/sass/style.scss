@@ -44,6 +44,11 @@
     font-size: 19px;
     line-height: 27px;
     letter-spacing: 0rem;
+    @include breakpoint(mobile) {
+      font-size: 19px;
+      line-height: 27px;
+      letter-spacing: 0rem;
+    }
   }
 
   @mixin font-size-2 {
@@ -61,16 +66,6 @@
     }
   }
 
-  @mixin font-size-3 {
-    @include noHyphens;
-    font-size: 95px;
-    line-height: 90px;
-    letter-spacing: -0.04em;
-    @include breakpoint(mobile) {
-      @include font-size-2;
-    }
-  }
-
   @mixin font-style-1 {
     font-family: $font1;
     text-align: left;
@@ -84,9 +79,9 @@
     -moz-hyphens: auto;
     hyphens: auto;
 
-    -webkit-hyphenate-limit-chars: 8;
-    -ms-hyphenate-limit-chars: 8;
-    hyphenate-limit-chars: 8; // auto 5
+    -webkit-hyphenate-limit-chars: 8 3 3;
+    -ms-hyphenate-limit-chars: auto 8 3 3;
+    hyphenate-limit-chars: 8 3 3; // 8-character word limit, 3 characters required before a hyphenation break, and 3 characters required following a hyphenation break
 
     -webkit-hyphenate-limit-lines: 2;
     -ms-hyphenate-limit-lines: 2;
@@ -106,6 +101,15 @@
   @mixin font-style-2 {
     @include font-style-1;
     font-family: $font2;
+  }
+
+  @mixin font-size-3 {
+    font-size: 95px;
+    line-height: 90px;
+    letter-spacing: -0.04em;
+    @include breakpoint(mobile) {
+      @include font-size-2;
+    }
   }
 
   @mixin transition($property) {
@@ -142,12 +146,12 @@
     padding: 0;
     margin: 0;
     border: 0;
-    @include font-style-1;
-    @include font-size-1;
   }
 
   html, body {
     color: $color0;
+    @include font-style-1;
+    @include font-size-1;
   }
 
   ol, ul, li {
@@ -178,6 +182,8 @@
   }
 
   p {
+    @include font-style-1;
+    @include font-size-1;
     padding: 0px;
     margin: 0px;
     min-width: 100px;
@@ -255,8 +261,6 @@
 /* TYPOGRAPHIC ELEMENTS ========================================================================== */
 
   h1, h2 {
-    @include font-style-2;
-    word-break: normal;
     padding: 0;
     margin: 0;
     border: 0;
@@ -269,19 +273,15 @@
     }
   }
 
-  h1 {
+  h1, h1 * {
     @include font-size-3;
+    @include font-style-2;
   }
 
   h2 {
     margin-top: 115px
+    @include font-style-2;
   }
-
-/*
-  .intro-quote p, .intro-nav *, .i-intro *, .question-title * {
-    @include font-size-2;
-  }
-*/
 
   em, .extended, .active {
     @include font-style-2;
@@ -368,7 +368,7 @@
     display: none;
 
     @include breakpoint(mobile) {
-      @include font-size-1;
+      @include font-size-2;
       display:block;
     }
     &::after {
@@ -477,6 +477,10 @@
   }
   p {
     margin-top: 1rem;
+    @include font-size-2;
+    @include breakpoint(mobile) {
+      @include font-size-1;
+    }
   }
 }
 
@@ -484,8 +488,10 @@
   position: relative;
   padding-top: 1rem;
   padding-bottom: 35px;
+  @include font-size-2;
   @include breakpoint(mobile) {
     display: none;
+    @include font-size-1;
   }
   li {
     margin-top: 18px;
@@ -518,6 +524,9 @@
 
 .i-intro {
   margin-bottom: 110px;
+  p {
+    @include font-size-2;
+  }
 }
 
 .i-question p {
@@ -594,6 +603,10 @@
       width: auto;
       padding: 0;
       height: 9vh;
+    }
+    &.open {
+      height: auto;
+      padding-bottom: 2vh;
     }
 
     li {
@@ -706,7 +719,7 @@
           max-width: 35vw;
           @include breakpoint(mobile) {
             width:     auto;
-            max-width: 96vw;
+            max-width: 100vw;
           }
         }
 
@@ -825,7 +838,7 @@
             margin: 0px;
             padding: 0px;
             width: auto;
-            max-width: 96vw;
+            max-width: 100vw;
           }
         }
         li.nav-spacer {
@@ -859,6 +872,7 @@
       /*padding: 13px 0px 0px 0px;*/
 
       .topic-title, .question-title {
+        @include font-style-1;
         display: block;
         position: relative;
         white-space: normal;
@@ -921,6 +935,7 @@
         }
         a:first-child {
           @include font-size-3;
+          @include noHyphens;
           line-height: 0px;
           padding-bottom: 2px;
           @include breakpoint(mobile) {
@@ -963,6 +978,8 @@
 
             a:first-child {
               max-width: 53vw;
+              display: block;
+              @include font-size-2;
               @include breakpoint(mobile) {
                 width:     auto;
                 min-width: 0;
@@ -996,6 +1013,7 @@
               }
               a.interviewee-title {
                 @include font-style-2;
+                @include noHyphens;
               }
             }
           }
@@ -1095,6 +1113,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: 0 0; // hides the background image
     @include breakpoint(mobile) {
       margin-left: -2vw;
       max-height: 50vh;
@@ -1113,7 +1132,7 @@
     }
   }
 
-  li:first-child, li:last-child {
+  li:first-child, li:nth-child(4), li:last-child {
     margin-top: 1rem;
   }
 

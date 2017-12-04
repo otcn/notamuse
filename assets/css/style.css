@@ -29,6 +29,10 @@ html * {
   padding: 0;
   margin: 0;
   border: 0;
+}
+
+html, body {
+  color: #000;
   font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
   text-align: left;
   text-decoration: none;
@@ -39,9 +43,9 @@ html * {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -59,10 +63,6 @@ html * {
   font-size: 19px;
   line-height: 27px;
   letter-spacing: 0rem;
-}
-
-html, body {
-  color: #000;
 }
 
 ol, ul, li {
@@ -87,9 +87,9 @@ a:hover, a:active, a.active {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -122,6 +122,36 @@ a.a-intern:hover, a.a-extern:hover {
 }
 
 p {
+  font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
+  text-align: left;
+  text-decoration: none;
+  /* improve text rendering */
+  /* word-break (may look odd) */
+  /* Non standard for WebKit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox */
+  /*text-rendering: optimizeLegibility;*/
+  -webkit-text-size-adjust: 100%;
+  font-size: 19px;
+  line-height: 27px;
+  letter-spacing: 0rem;
   padding: 0px;
   margin: 0px;
   min-width: 100px;
@@ -206,9 +236,9 @@ figure {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -238,9 +268,9 @@ h1, h2 {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -256,7 +286,6 @@ h1, h2 {
   /*text-rendering: optimizeLegibility;*/
   -webkit-text-size-adjust: 100%;
   font-family: RenaGrotesk-Extended, Helvetica, Arial, sans-serif;
-  word-break: normal;
   padding: 0;
   margin: 0;
   border: 0;
@@ -298,27 +327,42 @@ h1, h2 {
   }
 }
 
-h1 {
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  hyphens: none;
-  word-break: keep-all;
+h1, h1 * {
   font-size: 95px;
   line-height: 90px;
   letter-spacing: -0.04em;
+  font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
+  text-align: left;
+  text-decoration: none;
+  /* improve text rendering */
+  /* word-break (may look odd) */
+  /* Non standard for WebKit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox */
+  /*text-rendering: optimizeLegibility;*/
+  -webkit-text-size-adjust: 100%;
+  font-family: RenaGrotesk-Extended, Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 768px) {
-  h1 {
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  h1 {
+  h1, h1 * {
     -webkit-hyphens: none;
     -moz-hyphens: none;
     hyphens: none;
@@ -330,7 +374,7 @@ h1 {
 }
 
 @media (max-width: 768px) and (max-width: 768px) {
-  h1 {
+  h1, h1 * {
     word-break: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -339,7 +383,7 @@ h1 {
 }
 
 @media (max-width: 768px) and (max-width: 768px) {
-  h1 {
+  h1, h1 * {
     /*
       font-size: 34px;
       line-height: 32px;
@@ -353,11 +397,6 @@ h2 {
   margin-top: 115px;
 }
 
-/*
-  .intro-quote p, .intro-nav *, .i-intro *, .question-title * {
-    @include font-size-2;
-  }
-*/
 em, .extended, .active {
   font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
   text-align: left;
@@ -369,9 +408,9 @@ em, .extended, .active {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -426,9 +465,9 @@ em, .extended, .active {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -537,10 +576,34 @@ a.key-icon {
 
 @media (max-width: 768px) {
   a.key-icon {
-    font-size: 19px;
-    line-height: 27px;
-    letter-spacing: 0rem;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+    word-break: keep-all;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: -0.012em;
     display: block;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 768px) {
+  a.key-icon {
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 768px) {
+  a.key-icon {
+    /*
+      font-size: 34px;
+      line-height: 32px;
+      */
+    line-height: 9vh;
+    font-size: 7vh;
   }
 }
 
@@ -665,17 +728,82 @@ a.key-icon.active::after {
 
 .intro-quote p {
   margin-top: 1rem;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  word-break: keep-all;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: -0.012em;
+}
+
+@media (max-width: 768px) {
+  .intro-quote p {
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-quote p {
+    /*
+      font-size: 34px;
+      line-height: 32px;
+      */
+    line-height: 9vh;
+    font-size: 7vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-quote p {
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0rem;
+  }
 }
 
 .intro-nav {
   position: relative;
   padding-top: 1rem;
   padding-bottom: 35px;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  word-break: keep-all;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: -0.012em;
+}
+
+@media (max-width: 768px) {
+  .intro-nav {
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-nav {
+    /*
+      font-size: 34px;
+      line-height: 32px;
+      */
+    line-height: 9vh;
+    font-size: 7vh;
+  }
 }
 
 @media (max-width: 768px) {
   .intro-nav {
     display: none;
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0rem;
   }
 }
 
@@ -713,6 +841,36 @@ a.key-icon.active::after {
   margin-bottom: 110px;
 }
 
+.i-intro p {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  word-break: keep-all;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: -0.012em;
+}
+
+@media (max-width: 768px) {
+  .i-intro p {
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .i-intro p {
+    /*
+      font-size: 34px;
+      line-height: 32px;
+      */
+    line-height: 9vh;
+    font-size: 7vh;
+  }
+}
+
 .i-question p {
   font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
   text-align: left;
@@ -724,9 +882,9 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -841,6 +999,11 @@ a.key-icon.active::after {
   }
 }
 
+.nav-container ul.nav.open {
+  height: auto;
+  padding-bottom: 2vh;
+}
+
 .nav-container ul.nav li {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 7px 0px;
@@ -920,9 +1083,9 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -1117,9 +1280,9 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -1253,6 +1416,33 @@ a.key-icon.active::after {
 }
 
 #content ul.topic-list .topic-item .topic-title, #content ul.topic-list .topic-item .question-title {
+  font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
+  text-align: left;
+  text-decoration: none;
+  /* improve text rendering */
+  /* word-break (may look odd) */
+  /* Non standard for WebKit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
+  font-weight: normal;
+  font-style: normal;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox */
+  /*text-rendering: optimizeLegibility;*/
+  -webkit-text-size-adjust: 100%;
   display: block;
   position: relative;
   white-space: normal;
@@ -1332,9 +1522,9 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -1373,24 +1563,15 @@ a.key-icon.active::after {
 }
 
 #content ul.topic-list .topic-item .topic-title a:first-child {
+  font-size: 95px;
+  line-height: 90px;
+  letter-spacing: -0.04em;
   -webkit-hyphens: none;
   -moz-hyphens: none;
   hyphens: none;
   word-break: keep-all;
-  font-size: 95px;
-  line-height: 90px;
-  letter-spacing: -0.04em;
   line-height: 0px;
   padding-bottom: 2px;
-}
-
-@media (max-width: 768px) {
-  #content ul.topic-list .topic-item .topic-title a:first-child {
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
-  }
 }
 
 @media (max-width: 768px) {
@@ -1422,6 +1603,15 @@ a.key-icon.active::after {
       */
     line-height: 9vh;
     font-size: 7vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #content ul.topic-list .topic-item .topic-title a:first-child {
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
   }
 }
 
@@ -1478,6 +1668,34 @@ a.key-icon.active::after {
 
 #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
   max-width: 53vw;
+  display: block;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  word-break: keep-all;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: -0.012em;
+}
+
+@media (max-width: 768px) {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+    /*
+      font-size: 34px;
+      line-height: 32px;
+      */
+    line-height: 9vh;
+    font-size: 7vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1532,9 +1750,9 @@ a.key-icon.active::after {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
-  -webkit-hyphenate-limit-chars: 8;
-  -ms-hyphenate-limit-chars: 8;
-  hyphenate-limit-chars: 8;
+  -webkit-hyphenate-limit-chars: 8 3 3;
+  -ms-hyphenate-limit-chars: auto 8 3 3;
+  hyphenate-limit-chars: 8 3 3;
   -webkit-hyphenate-limit-lines: 2;
   -ms-hyphenate-limit-lines: 2;
   hyphenate-limit-lines: 2;
@@ -1550,6 +1768,19 @@ a.key-icon.active::after {
   /*text-rendering: optimizeLegibility;*/
   -webkit-text-size-adjust: 100%;
   font-family: RenaGrotesk-Extended, Helvetica, Arial, sans-serif;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  word-break: keep-all;
+}
+
+@media (max-width: 768px) {
+  #content ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item a.interviewee-title {
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
 }
 
 #content ul.topic-list .topic-item .question-list:last-child .answer-list {
@@ -1639,6 +1870,7 @@ a.key-icon.active::after {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: 0 0;
 }
 
 @media (max-width: 768px) {
@@ -1663,7 +1895,7 @@ a.key-icon.active::after {
   }
 }
 
-.aside-info li:first-child, .aside-info li:last-child, .preview li:first-child, .preview li:last-child {
+.aside-info li:first-child, .aside-info li:nth-child(4), .aside-info li:last-child, .preview li:first-child, .preview li:nth-child(4), .preview li:last-child {
   margin-top: 1rem;
 }
 
