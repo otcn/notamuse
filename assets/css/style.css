@@ -966,7 +966,6 @@ a.key-icon.active::after {
   .flex-item {
     padding: 10vh 0 0 0;
     position: fixed;
-    -webkit-overflow-scrolling: touch;
   }
 }
 
@@ -978,6 +977,7 @@ a.key-icon.active::after {
 @media (max-width: 768px) {
   #content-frame.flex-item {
     width: 100vw;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
