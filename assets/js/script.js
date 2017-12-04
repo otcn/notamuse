@@ -217,7 +217,7 @@ var fid;
   });
 
   // NAVIGATION: click >topics-button<
-  $('#topics-button').click(function(){
+  $('#topics-button, .button-title').click(function(){
     console.log('topics-button clicked');
     $('html,body, html *').animate({ scrollTop: 0 }, 'slow');
     closeNav();
@@ -360,15 +360,3 @@ var fid;
 
 
 }); // closing function: "$(document).ready"
-
-
-
-
-
-
-
-
-
-
-
-
