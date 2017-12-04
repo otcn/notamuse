@@ -320,4 +320,12 @@ Interview:
 
 ----
 
-Interviewimagecredits: ?
+Interviewimagecredits: 
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: Berlin, Deutschland

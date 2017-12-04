@@ -211,4 +211,12 @@ Web: http://corinnegisel.com/
 
 ----
 
-Interviewimagecredits: Credits: Michal Florence Schorro
+Interviewimagecredits: Foto: Michal Florence Schorro
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: Zürich, Schweiz

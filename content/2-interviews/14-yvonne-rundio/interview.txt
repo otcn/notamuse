@@ -241,3 +241,15 @@ Interview:
   antwort: 'YR:&nbsp;Wichtig finde ich, dass sich das Verhältnis von Professoren und Professorinnen an den Hochschulen auf 50:50 angleicht, damit die Studierenden Frauen in wichtigen Positionen als normal erachten und diese Sicht in die Arbeitswelt tragen. Genauso muss jede Konferenz und Jury ganz selbstverständlich 50:50 besetzt werden. Man sollte in jeder Situation und im persönlichen Handeln auf ein gerechtes Geschlechterverhältnis achten. Darauf hinweisen, darüber sprechen, den Diskurs aufrecht erhalten.'
   quote: ""
   quoteauthor: ""
+
+----
+
+Studiotitle: 
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Residence: Köln, Deutschland

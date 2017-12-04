@@ -6,7 +6,7 @@ Title: Jasmin Müller-Stoy
 
 ----
 
-Titlenav: Jasmin Müller-Stoy, Art-Direktorin, Zeit Magazin
+Titlenav: Jasmin Müller-Stoy, Art-Direktorin, ZEITmagazin
 
 ----
 
@@ -235,3 +235,11 @@ Interview:
 ----
 
 Interviewimagecredits: 
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: Berlin, Deutschland

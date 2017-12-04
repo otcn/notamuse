@@ -22,7 +22,7 @@ Url: https://www.google.de
 
 ----
 
-Place: Berlin, Deutschland
+Place: Berlin
 
 ----
 
@@ -214,3 +214,11 @@ Web: http://www.amandahaas.ch/
 ----
 
 Interviewimagecredits: 
+
+----
+
+Studiotitle: Amanda Haas
+
+----
+
+Residence: Berlin, Deutschland

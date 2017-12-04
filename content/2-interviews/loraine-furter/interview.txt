@@ -171,4 +171,12 @@ Web: http://lorainefurter.net
 
 ----
 
-Interviewimagecredits: Credits: Eric Schrijver
+Interviewimagecredits: Foto: Eric Schrijver
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: Brüssel, Belgien

@@ -2,7 +2,7 @@ Titlehead:
 
 ----
 
-Title: Simone Koller & Corina Neuenschwander
+Title: Simone Koller & Corina Neuen&shy;schwander
 
 ----
 
@@ -38,7 +38,7 @@ Interviewpartner: 1
 
 ----
 
-Introduction: Nachdem sie nach ihrem Diplom an der ZHdK sowohl Erfahrung in Agenturen und als Freelancer gesammelt, als auch ihren Master an der Werkplaats Typografie in Arnheim absolviert hatten, trafen sich Simone Koller und Corina Neuenschwander in Zürich wieder und gründeten 2015 gemeinsam Studio Noi. Ihre Arbeiten reichen von Art-Direktion und Editorialdesign, hin zu visuellen Identitäten und digitalen Applikationen im künstlerischen, kulturellen und kommerziellen Bereich. Im Interview erläutern sie uns ihre gestalterische Herangehensweise und warum es von Vorteil ist, als Mutter selbstständig zu sein.
+Introduction: Nachdem sie nach ihrem Diplom an der ZHdK sowohl Erfahrung in Agenturen und als Free&shy;lancer gesammelt, als auch ihren Master an der Werkplaats Typografie in Arnheim absolviert hatten, trafen sich Simone Koller und Corina Neuenschwander in Zürich wieder und gründeten 2015 gemeinsam Studio Noi. Ihre Arbeiten reichen von Art-Direktion und Editorialdesign, hin zu visuellen Identitäten und digitalen Applikationen im künstlerischen, kulturellen und kommerziellen Bereich. Im Interview erläutern sie uns ihre gestalterische Herangehensweise und warum es von Vorteil ist, als Mutter selbstständig zu sein.
 
 ----
 
@@ -232,3 +232,15 @@ Interview:
     CN:&nbsp;Verfolgt eure Interessen und Ziele – vieles ist möglich, wenn man es wirklich will.
   quote: Versteht euch nicht als Konkurrentinnen.
   quoteauthor: Simone Koller
+
+----
+
+Studiotitle: Studio Noi
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Residence: Zürich, Schweiz

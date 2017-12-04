@@ -242,3 +242,15 @@ Date: 2017-05-11
 ----
 
 Web: http://www.grafikladen.net/
+
+----
+
+Studiotitle: Grafikladen
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Residence: Berlin, Deutschland

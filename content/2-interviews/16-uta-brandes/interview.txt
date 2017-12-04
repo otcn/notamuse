@@ -215,4 +215,12 @@ Interview:
 
 ----
 
-Interviewimagecredits: credits ?
+Interviewimagecredits: 
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: Köln, Deutschland

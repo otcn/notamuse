@@ -232,4 +232,12 @@ Interview:
 
 ----
 
-Interviewimagecredits: Credits ?
+Interviewimagecredits: 
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: St. Gallen, Schweiz

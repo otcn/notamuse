@@ -150,3 +150,15 @@ Interview:
   antwort: 'FP:&nbsp;Das ist totaler Quatsch. Frauen haben genauso viel Interesse, vor Publikum zu sprechen, die meisten haben nur weniger Mut und setzen andere Prioritäten. Ein Beispiel:&nbsp;von fünf Frauen, die wir anfragen, sagen zwei:&nbsp;»Ich werde keine Zeit haben, weil ich mich um die Familie kümmern muss (Kind, Eltern, Großeltern).« Kein Mann hat sowas jemals gesagt. Zwei weitere sagen:&nbsp;»Ich weiß nicht, ich habe das noch nie gemacht und traue mir das nicht zu.« Das hat auch noch kein Mann zu uns gesagt. Frauen möchten genauso auf die Bühne, trauen sich das selber aber meist nicht zu. Die Männer auch nicht. Die wissen aber auch ganz genau, dass sie nicht auf eine Bühne kommen, wenn sie es nicht einfach machen.'
   quote: ""
   quoteauthor: ""
+
+----
+
+Studiotitle: 
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Residence: Berlin, Deutschland

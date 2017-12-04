@@ -174,3 +174,15 @@ Date: 2017-05-17
 ----
 
 Web: http://www.offshorestudio.ch/
+
+----
+
+Studiotitle: Offshore Studio
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Residence: Zürich, Schweiz

@@ -238,4 +238,12 @@ Interview:
 
 ----
 
-Interviewimagecredits: Credits: Christian Werner
+Interviewimagecredits: Foto: Christian Werner
+
+----
+
+Studiotitle: Yukiko
+
+----
+
+Residence: Berlin, Deutschland
