@@ -582,7 +582,7 @@
   overflow-y: scroll;
   @include transition( all );
   @include breakpoint(mobile) {
-    padding: 10vh 0 0 0;
+    padding: 9vh 0 0 0;
     position: fixed;
     -webkit-overflow-scrolling: touch;
   }
@@ -803,6 +803,10 @@
                 background: white;
                 width: 4vw;
                 text-align: center;
+                @include breakpoint(mobile) {
+                  content: "";
+                  display: none;
+                }
               }
             }
 
@@ -986,12 +990,17 @@
           padding: 2px 0px 0px 0px;
           margin: 0px 0px 0px 0px;
 
+          &:last-child .answer-list { // the answer-list in the last question-item shall not have a border-bottom
+            border-bottom: 0px;
+          }
+
           .question-title {
             padding: 5px 0px 12px 0px;
             @include breakpoint(mobile) {
               padding: 0;
             }
             &.active {
+              z-index: 90;
               top: 111px;
               @include breakpoint(mobile) {
                 top: 0;
@@ -1039,9 +1048,6 @@
               }
             }
           }
-        }
-        &:last-child .answer-list {
-          border-bottom: 0px;
         }
         .question-item.active + .question-item {
           padding: 20px 0px 0px 0px;

@@ -142,9 +142,9 @@ var fid;
 
   // CLOSE AND DEACTIVATE ALL TOPICS AND THEIR CHILDREN
   function closeTopics() {
+    $('.topic-list .sub').slideUp( 'fast' );
+    $('.topic-list .child').slideUp( 'fast' ); // hide all child-elements
     $('.topic-list .active').removeClass( 'active' ); // remove all active states in the topic list
-    $('.topic-list .sub').slideUp('slow');
-    $('.topic-list .child').slideUp('slow'); // hide all child-elements
   };
 
   // CLOSE AND DEACTIVATE ALL NAV-ELEMENTS AND THEIR CHILDREN
@@ -155,6 +155,13 @@ var fid;
     $('.nav .sub').slideUp('slow');
     $('.nav .child').slideUp('slow'); // hide all child-elements
     $('#topics-button').addClass('active');
+  };
+
+  function closeMobileNav( element ) { // for mobile only
+    var myNav = $( element ).parents('.nav');
+    if( myNav.is( '.open' ) ){
+      myNav.removeClass('open');
+    }
   };
 
   // OPEN SEPARATOR
@@ -244,17 +251,50 @@ var fid;
     } // if this sub was not hidden -> close it
   });
 
+
+  /* NAVIGATION */
+  /* click on a nav-question to EITHER open scroll to the related answer (under the main topics) OR (in case of a "special question") open the related interview overlay and scroll to the related answer */
+  $('.nav-question a').click(function(e) {
+    closeMobileNav( this );
+    closeTopics();
+    var anchor = $(this);
+    if (anchor.attr('href').indexOf('http') == -1) {
+      openAnswer(anchor);
+    } else {
+      e.preventDefault();
+      var myURL = anchor.attr('href').split('#')[0]; // "split('#')[0]" -> split string into array at "#" and take first array element
+      var myID = anchor.attr('href').split('#')[1];
+      fid = anchor.attr('href').split('#')[1];
+      push(myURL);
+    }
+  });
+
+  /* NAVIGATION: click >nav-interview< / TOPICS: click >interviewee-title< */
+  /* open an interview, on click the url and content should change */
+  $('.nav-interview a, a.interviewee-title').on('click', function(e) {
+    closeMobileNav( this );
+    var uid = $(this).attr('href');    // get the href-url
+    if (uid == window.location.href) {
+        e.preventDefault();            // do nothing if current url equals href-url
+    } else {
+        push(uid);
+        e.preventDefault();
+    }
+  });
+
   // NAVIGATION: click >about<
   $('#about-button').click(function(){
     openSeparator();
     push('about');
     $('.about-container').removeClass('hidden');
     $('.marquee').css("background-color", "transparent");
+    closeMobileNav( this );
   });
 
   // NAVIGATION: click >english<
   $('#language-button').click(function(){
     alert('Sorry! English isn\'t available yet, but we are working on it!');
+    closeMobileNav( this );
   });
 
   // INTRO: click answer-link to open related answer
@@ -325,38 +365,10 @@ var fid;
 
   });
 
-/* UNTIDY ================================================ */
 
-  /* open an interview, on click the url and content should change */
-  $('.nav-interview a, a.interviewee-title').on('click', function(e) {
-    var uid = $(this).attr('href'); // get the href-url
-    if (uid == window.location.href) {
-        e.preventDefault(); // do nothing if current url equals href-url
-    } else {
-        push(uid);
-        e.preventDefault();
-        //$( "div.overlay" ).scrollTop( 0 );
-    }
-    //classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
-  });
+  /* UNTIDY ================================================ */
 
-  /* click on a nav-question to EITHER open scroll to the related answer (under the main topics) OR (in case of a "special question") open the related interview overlay and scroll to the related answer */
-  $('.nav-question a').click(function(e) {
-    closeTopics();
 
-    var anchor = $(this);
-    if (anchor.attr('href').indexOf('http') == -1) {
-      openAnswer(anchor);
-    } else {
-      e.preventDefault();
-
-      var myURL = anchor.attr('href').split('#')[0]; // "split('#')[0]" -> split string into array at "#" and take first array element
-      var myID = anchor.attr('href').split('#')[1];
-      fid = anchor.attr('href').split('#')[1];
-
-      push(myURL);
-    }
-  });
 
 
 }); // closing function: "$(document).ready"
