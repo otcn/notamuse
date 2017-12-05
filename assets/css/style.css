@@ -324,8 +324,8 @@ h1, h2 {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -394,8 +394,8 @@ h1, h1 * {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -615,8 +615,8 @@ a.key-icon {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -649,8 +649,8 @@ a.key-icon {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -698,6 +698,7 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .overlay {
+    -webkit-overflow-scrolling: touch;
     display: block;
     /* change to block later */
     min-height: 75vh;
@@ -705,7 +706,7 @@ a.key-icon.active::after {
     max-height: 100vh;
     overflow: scroll;
     width: 100vw;
-    padding: 10vh 2vw 2vh 2vw;
+    padding: 16vw 2vw 16vw 2vw;
     margin: 0 0 0 0;
     position: fixed;
     left: 0;
@@ -741,7 +742,7 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .about-container, .interview-container {
-    padding: 10vh 2vw 2vh 2vw;
+    padding: 16vw 2vw 2vw 2vw;
   }
 }
 
@@ -800,8 +801,8 @@ a.key-icon.active::after {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -850,8 +851,8 @@ a.key-icon.active::after {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -932,8 +933,8 @@ a.key-icon.active::after {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -1016,7 +1017,7 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .flex-item {
-    padding: 9vh 0 0 0;
+    padding: 16vw 0 0 0;
     position: fixed;
     -webkit-overflow-scrolling: touch;
   }
@@ -1076,13 +1077,13 @@ a.key-icon.active::after {
   .nav-container ul.nav {
     width: auto;
     padding: 0;
-    height: 9vh;
+    height: 16vw;
   }
 }
 
 .nav-container ul.nav.open {
   height: auto;
-  padding-bottom: 2vh;
+  padding-bottom: 2vw;
 }
 
 .nav-container ul.nav li {
@@ -1191,6 +1192,12 @@ a.key-icon.active::after {
   display: block;
 }
 
+@media (max-width: 768px) {
+  .nav-container ul.nav li .nav-button.active a.key-icon, .nav-container ul.nav li .nav-button:hover a.key-icon {
+    display: none;
+  }
+}
+
 .nav-container ul.nav li .nav-button a.key-icon {
   padding: 0;
   margin-right: 0px;
@@ -1202,7 +1209,8 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .nav-container ul.nav li .nav-button a.key-icon {
-    display: block;
+    /*display:block;*/
+    display: none;
   }
 }
 
@@ -1236,8 +1244,8 @@ a.key-icon.active::after {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -1245,7 +1253,7 @@ a.key-icon.active::after {
   .nav-container ul.nav li .nav-button a.button-title {
     margin: 0px;
     padding: 0 2vw;
-    height: 9vh;
+    height: 16vw;
   }
 }
 
@@ -1347,6 +1355,8 @@ a.key-icon.active::after {
     width: auto;
     min-width: 0;
     max-width: none;
+    padding: 2vw 7vw 2vw 4vw;
+    margin: 0;
   }
 }
 
@@ -1420,9 +1430,11 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   .nav-container ul.nav li .sub > ul > li.register-mark {
-    width: 100%;
+    width: auto;
     min-width: 0;
     max-width: none;
+    padding: 2vw 7vw 2vw 4vw;
+    margin: 0;
   }
 }
 
@@ -1594,21 +1606,27 @@ a.key-icon.active::after {
   }
 }
 
-@media (max-width: 768px) {
-  #content ul.topic-list .topic-item .topic-title a, #content ul.topic-list .topic-item .question-title a {
-    display: block;
-  }
+#content ul.topic-list .topic-item .topic-title a:first-child, #content ul.topic-list .topic-item .question-title a:first-child {
+  /*display: block;*/
 }
 
 @media (max-width: 768px) {
   #content ul.topic-list .topic-item .topic-title a:first-child, #content ul.topic-list .topic-item .question-title a:first-child {
-    padding: 0 7vw 0 4vw;
+    /*padding: 0 7vw 0 4vw;*/
+    padding: 2vw 7vw 2vw 4vw;
   }
 }
 
 #content ul.topic-list .topic-item .topic-title a.key-icon, #content ul.topic-list .topic-item .question-title a.key-icon {
   margin-right: 1vw;
   right: 0;
+  /*display:none;*/
+}
+
+@media (max-width: 768px) {
+  #content ul.topic-list .topic-item .topic-title a.key-icon, #content ul.topic-list .topic-item .question-title a.key-icon {
+    display: none;
+  }
 }
 
 #content ul.topic-list .topic-item .topic-title:hover a, #content ul.topic-list .topic-item .topic-title.active a, #content ul.topic-list .topic-item .question-title:hover a, #content ul.topic-list .topic-item .question-title.active a {
@@ -1705,8 +1723,8 @@ a.key-icon.active::after {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
@@ -1724,6 +1742,13 @@ a.key-icon.active::after {
   #content ul.topic-list .topic-item .topic-title a:first-child {
     display: block;
     padding: 2vw 7vw 2vw 4vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #content ul.topic-list .topic-item .topic-title.active {
+    position: relative;
+    top: auto;
   }
 }
 
@@ -1772,7 +1797,7 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   #content ul.topic-list .topic-item .question-list .question-item .question-title.active {
-    top: 0;
+    top: -1px;
   }
 }
 
@@ -1804,16 +1829,27 @@ a.key-icon.active::after {
       font-size: 34px;
       line-height: 32px;
       */
-    line-height: 9vh;
-    font-size: 7vh;
+    line-height: 14vw;
+    font-size: 11vw;
   }
 }
 
 @media (max-width: 768px) {
   #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0rem;
     width: auto;
     min-width: 0;
     max-width: none;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 768px) {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 0rem;
   }
 }
 
@@ -1838,7 +1874,8 @@ a.key-icon.active::after {
 
 @media (max-width: 768px) {
   #content ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item {
-    padding: 2vh 2vw;
+    /*padding: 2vh 2vw;*/
+    padding: 2vw 7vw 2vw 4vw;
     margin: 0 0 0 0;
     width: auto;
     min-width: 0;
@@ -1906,7 +1943,6 @@ a.key-icon.active::after {
   padding-top: 13px;
 }
 
-/* STICKINESS MAIN WRAPPER AND NAV WRAPPER ========================================================================== */
 /* TESTING CLASS ========================================================================== */
 .debug {
   /* for testing only */
@@ -2046,11 +2082,11 @@ a.key-icon.active::after {
 }
 
 .nav-mobile-icon {
-  width: 10vh;
-  height: 10vh;
+  width: 19px;
+  height: 19px;
   position: absolute;
-  top: 0;
-  right: 0;
+  bottom: 4.5vw;
+  right: 4vw;
   margin: 0;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -2066,7 +2102,7 @@ a.key-icon.active::after {
 .nav-mobile-icon span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 3px;
   width: 100%;
   background: #000;
   opacity: 1;
@@ -2086,11 +2122,11 @@ a.key-icon.active::after {
 }
 
 .nav-mobile-icon span:nth-child(2), .nav-mobile-icon span:nth-child(3) {
-  top: 18px;
+  top: 8px;
 }
 
 .nav-mobile-icon span:nth-child(4) {
-  top: 36px;
+  top: 16px;
 }
 
 .nav-mobile-icon.open span:nth-child(1) {

@@ -11,6 +11,7 @@
 
   <meta name="description" content="<?= $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords() ?>">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- remove mobile top bar -->
 
   <!--Load css-->
   <?php echo css(array(
@@ -29,6 +30,7 @@
   <!--Load js async-->
   <?php echo js(array(
     'assets/js/smoothy.js',
+    'assets/js/mobile.js',
     'assets/js/marquee.js'
   ), true) ?>
 

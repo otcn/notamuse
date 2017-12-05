@@ -61,8 +61,8 @@
       font-size: 34px;
       line-height: 32px;
       */
-      line-height: 9vh;
-      font-size: 7vh;
+      line-height: 14vw;
+      font-size: 11vw;
     }
   }
 
@@ -418,13 +418,14 @@
 
   @include transition( left );
   @include breakpoint(mobile) {
+    -webkit-overflow-scrolling: touch;
     display: block; /* change to block later */
     min-height: 75vh;
     height: auto;
     max-height: 100vh;
     overflow: scroll;
     width: 100vw;
-    padding: 10vh 2vw 2vh 2vw;
+    padding: 16vw 2vw 16vw 2vw;
     margin: 0 0 0 0;
     position: fixed;
     left:0;
@@ -454,7 +455,7 @@
 .about-container, .interview-container {
   padding-right: 40vw;
   @include breakpoint(mobile) {
-    padding: 10vh 2vw 2vh 2vw;
+    padding: 16vw 2vw 2vw 2vw;
   }
   &>*:last-child {
     margin-bottom: 25vh;
@@ -565,7 +566,6 @@
   align-items: flex-start;
   -ms-flex-line-pack: start;
   align-content: flex-start;
-
   overflow-x: hidden;
 }
 
@@ -582,7 +582,7 @@
   overflow-y: scroll;
   @include transition( all );
   @include breakpoint(mobile) {
-    padding: 9vh 0 0 0;
+    padding: 16vw 0 0 0;
     position: fixed;
     -webkit-overflow-scrolling: touch;
   }
@@ -624,11 +624,11 @@
     @include breakpoint(mobile) {
       width: auto;
       padding: 0;
-      height: 9vh;
+      height: 16vw;
     }
     &.open {
       height: auto;
-      padding-bottom: 2vh;
+      padding-bottom: 2vw;
     }
 
     li {
@@ -690,6 +690,9 @@
             @include font-style-2;
             &.key-icon {
               display:block;
+              @include breakpoint(mobile) {
+                display:none;
+              }
             }
           }
         }
@@ -702,7 +705,8 @@
           margin-top: -15px;
           z-index: 110;
           @include breakpoint(mobile) {
-            display:block;
+            /*display:block;*/
+            display:none;
           }
         }
 
@@ -715,7 +719,7 @@
           @include breakpoint(mobile) {
             margin: 0px;
             padding: 0 2vw;
-            height: 9vh;
+            height: 16vw;
           }
         }
       }
@@ -780,9 +784,11 @@
             min-width: 27px;
             width: 31vw;
             @include breakpoint(mobile) {
-              width:     auto;
-              min-width: 0;
-              max-width: none;
+              width:      auto;
+              min-width:  0;
+              max-width:  none;
+              padding:    2vw 7vw 2vw 4vw;
+              margin:     0;
             }
 
             &:hover {
@@ -814,9 +820,11 @@
               padding: 0px 0px 0px 0px;
               margin: 0px 0px 0px 0px;
               @include breakpoint(mobile) {
-                width:     100%;
-                min-width: 0;
-                max-width: none;
+                width:      auto;
+                min-width:  0;
+                max-width:  none;
+                padding:    2vw 7vw 2vw 4vw;
+                margin:     0;
               }
               &::before {
                 content: "";
@@ -925,19 +933,26 @@
             */
           }
         }
+
         a {
           @include noHyphens;
           @include breakpoint(mobile) {
-            display: block;
+
           }
           &:first-child {
+            /*display: block;*/
             @include breakpoint(mobile) {
-              padding: 0 7vw 0 4vw;
+              /*padding: 0 7vw 0 4vw;*/
+              padding: 2vw 7vw 2vw 4vw;
             }
           }
           &.key-icon {
             margin-right: 1vw;
             right: 0;
+            /*display:none;*/
+            @include breakpoint(mobile) {
+              display:none;
+            }
           }
         }
         &:hover a, &.active a {
@@ -967,6 +982,12 @@
           @include breakpoint(mobile) {
             display: block;
             padding: 2vw 7vw 2vw 4vw;
+          }
+        }
+        &.active {
+          @include breakpoint(mobile) {
+            position: relative;
+            top: auto;
           }
         }
       }
@@ -1003,7 +1024,7 @@
               z-index: 90;
               top: 111px;
               @include breakpoint(mobile) {
-                top: 0;
+                top: -1px;
               }
             }
 
@@ -1012,6 +1033,7 @@
               display: block;
               @include font-size-2;
               @include breakpoint(mobile) {
+                @include font-size-1;
                 width:     auto;
                 min-width: 0;
                 max-width: none;
@@ -1033,7 +1055,8 @@
               min-width: 480px;
               max-width: 700px;
               @include breakpoint(mobile) {
-                padding: 2vh 2vw;
+                /*padding: 2vh 2vw;*/
+                padding: 2vw 7vw 2vw 4vw;
                 margin: 0 0 0 0;
                 width:     auto;
                 min-width: 0;
@@ -1059,20 +1082,6 @@
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-/* STICKINESS MAIN WRAPPER AND NAV WRAPPER ========================================================================== */
-
-
 
 /* TESTING CLASS ========================================================================== */
 .debug {
@@ -1175,8 +1184,6 @@
   display: none;
 }
 
-
-
 /* SCROLLBAR ========================================================================== */
 ::-webkit-scrollbar-track {
   display: none;
@@ -1190,8 +1197,6 @@
   display: none;
 }
 
-
-
 /* MOBILE NAV HEADER ========================================================================== */
 
 .nav-mobile-header, .nav-mobile-header * {
@@ -1204,11 +1209,11 @@
 }
 
 .nav-mobile-icon {
-  width: 10vh;
-  height: 10vh;
+  width: 19px;
+  height: 19px;
   position: absolute;
-  top: 0;
-  right: 0;
+  bottom: 4.5vw;
+  right: 4vw;
   margin: 0;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -1220,7 +1225,7 @@
   span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: 3px;
     width: 100%;
     background: $color0;
     opacity: 1;
@@ -1236,10 +1241,10 @@
     top: 0px;
   }
   span:nth-child(2), span:nth-child(3) {
-    top: 18px;
+    top: 8px;
   }
   span:nth-child(4) {
-    top: 36px;
+    top: 16px;
   }
 
   &.open {

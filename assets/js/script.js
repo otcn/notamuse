@@ -157,11 +157,18 @@ var fid;
     $('#topics-button').addClass('active');
   };
 
-  function closeMobileNav( element ) { // for mobile only
-    var myNav = $( element ).parents('.nav');
-    if( myNav.is( '.open' ) ){
-      myNav.removeClass('open');
-    }
+  function closeMobileNav() { // for mobile only
+    var myNav = $('.nav');
+    var myBurger = $('.nav-mobile-icon');
+    myBurger.removeClass('open');
+    myNav.removeClass('open');
+  };
+
+  function openMobileNav() { // for mobile only
+    var myNav = $('.nav');
+    var myBurger = $('.nav-mobile-icon');
+    myBurger.addClass('open');
+    myNav.addClass('open');
   };
 
   // OPEN SEPARATOR
@@ -218,17 +225,32 @@ var fid;
 
   /* EVENTS */
 
+  /* MOBILE NAV HEADER */
+  /* close and open navigation and do other fun stuff */
+  $('.nav-mobile-icon').click(function(){
+    var myBurger = $( this );
+    if( myBurger.is( '.open' ) ) {
+      closeMobileNav();
+      if( $('intro-container').not('.hidden') ){
+        closeSeparator();
+      }
+    } else {
+      openMobileNav();
+    }
+  });
+
   // CLOSE NAV-MODE
   $('#content *').click(function(){
     closeNav();
   });
 
-  // NAVIGATION: click >topics-button<
-  $('#topics-button, .button-title').click(function(){
+  // NAVIGATION: click "topics-button"
+  $('#topics-button').click(function(){
     console.log('topics-button clicked');
     $('html,body, html *').animate({ scrollTop: 0 }, 'slow');
     closeNav();
     closeTopics();
+    closeSeparator();
   });
 
   // NAVIGATION: click >nav-switch<
@@ -255,7 +277,7 @@ var fid;
   /* NAVIGATION */
   /* click on a nav-question to EITHER open scroll to the related answer (under the main topics) OR (in case of a "special question") open the related interview overlay and scroll to the related answer */
   $('.nav-question a').click(function(e) {
-    closeMobileNav( this );
+    closeMobileNav();
     closeTopics();
     var anchor = $(this);
     if (anchor.attr('href').indexOf('http') == -1) {
@@ -272,7 +294,7 @@ var fid;
   /* NAVIGATION: click >nav-interview< / TOPICS: click >interviewee-title< */
   /* open an interview, on click the url and content should change */
   $('.nav-interview a, a.interviewee-title').on('click', function(e) {
-    closeMobileNav( this );
+    closeMobileNav();
     var uid = $(this).attr('href');    // get the href-url
     if (uid == window.location.href) {
         e.preventDefault();            // do nothing if current url equals href-url
@@ -288,13 +310,13 @@ var fid;
     push('about');
     $('.about-container').removeClass('hidden');
     $('.marquee').css("background-color", "transparent");
-    closeMobileNav( this );
+    closeMobileNav();
   });
 
   // NAVIGATION: click >english<
   $('#language-button').click(function(){
     alert('Sorry! English isn\'t available yet, but we are working on it!');
-    closeMobileNav( this );
+    closeMobileNav();
   });
 
   // INTRO: click answer-link to open related answer
@@ -347,28 +369,5 @@ var fid;
   $('#separator, .js-intro-close').click(function(){
     closeSeparator();
   });
-
-  /* MOBILE NAV HEADER */
-  /* close and open navigation and do other fun stuff */
-  $('.nav-mobile-icon').click(function(){
-    var myBurger = $(this);
-    var myNav = $( '.nav' );
-
-    if( myBurger.is('.open') ) {
-      myBurger.removeClass('open');
-      myNav.removeClass('open');
-      closeSeparator();
-    } else {
-      myBurger.addClass('open');
-      myNav.addClass('open');
-    }
-
-  });
-
-
-  /* UNTIDY ================================================ */
-
-
-
 
 }); // closing function: "$(document).ready"
