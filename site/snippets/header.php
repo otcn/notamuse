@@ -27,6 +27,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/path/to/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/path/to/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/path/to/favicon-96x96.png">
+  <!-- Apple Touch Icon 180×180px -->
+  <link rel="apple-touch-icon" href="icon.png">
   <!-- remove mobile top bar -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
 
