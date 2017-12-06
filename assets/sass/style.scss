@@ -157,6 +157,8 @@
     color: $color0;
     @include font-style-1;
     @include font-size-1;
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
   }
 
   ol, ul, li {
@@ -412,6 +414,7 @@
   z-index: 300;
   color: $color3;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   -webkit-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
   box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
@@ -580,11 +583,11 @@
   position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   @include transition( all );
   @include breakpoint(mobile) {
     padding: 16vw 0 0 0;
     position: fixed;
-    -webkit-overflow-scrolling: touch;
   }
 }
 

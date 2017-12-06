@@ -1,8 +1,15 @@
-<!doctype html>
+<!--
+  notamuse
+  notamuse
+  notamuse
+-->
+
+<!DOCTYPE HTML>
 <html lang="<?= site()->language() ? site()->language()->code() : 'de' ?>">
 <head>
 
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
   <title>
@@ -11,7 +18,17 @@
 
   <meta name="description" content="<?= $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords() ?>">
-  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- remove mobile top bar -->
+  <!-- Social media -->
+  <meta property="og:url" content="http://example.com/page.html">
+  <meta property="og:title" content="Content Title">
+  <meta property="og:image" content="http://example.com/image.jpg">
+  <meta property="og:description" content="Description Here">
+  <!-- For IE 11, Chrome, Firefox, Safari, Opera -->
+  <link rel="icon" type="image/png" sizes="16x16" href="/path/to/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/path/to/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/path/to/favicon-96x96.png">
+  <!-- remove mobile top bar -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
 
   <!--Load css-->
   <?php echo css(array(

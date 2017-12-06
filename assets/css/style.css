@@ -67,6 +67,9 @@ html, body {
   font-size: 19px;
   line-height: 27px;
   letter-spacing: 0rem;
+  overflow-y: scroll;
+  /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 @media (max-width: 768px) {
@@ -687,6 +690,7 @@ a.key-icon.active::after {
   z-index: 300;
   color: #fff;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   -webkit-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
   box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
@@ -1009,6 +1013,7 @@ a.key-icon.active::after {
   position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1019,7 +1024,6 @@ a.key-icon.active::after {
   .flex-item {
     padding: 16vw 0 0 0;
     position: fixed;
-    -webkit-overflow-scrolling: touch;
   }
 }
 
