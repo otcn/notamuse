@@ -24,9 +24,10 @@
   <meta property="og:image" content="http://example.com/image.jpg">
   <meta property="og:description" content="Description Here">
   <!-- For IE 11, Chrome, Firefox, Safari, Opera -->
-  <link rel="icon" type="image/png" sizes="16x16" href="/path/to/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/path/to/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/path/to/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icon-96x96.png">
+
   <!-- Apple Touch Icon 180×180px -->
   <link rel="apple-touch-icon" href="icon.png">
   <!-- remove mobile top bar -->
