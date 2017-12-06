@@ -16,7 +16,7 @@
 <!-- overlay snippets -->
 <div class="preview">
   <figure>
-    <div id="about-image" class="aside-image">
+    <div class="aside-image">
       <img src=""/>
     </div>
   </figure>

@@ -35,7 +35,7 @@ endif;
   <div id="interview-info" class="aside-info">
     <figure>
       <?php foreach($interview->images() as $image): ?>
-        <div id="about-image" class="aside-image" style="background-image: url('<?php echo $image->url() ?>');">
+        <div class="aside-image" style="background-image: url('<?php echo $image->url() ?>');">
             <!--<a href="<//?php echo $image->url() ?>">--> <!-- is the wrapping anchor necessary? -->
                 <img src="<?php echo $image->url() ?>" alt="">
             <!--</a>-->
