@@ -14,7 +14,7 @@ Author: notamuse
 
 ----
 
-Description: This is my wonderful new site
+Description: An ongoing project investigating the visibility of contemporary female graphic designers.
 
 ----
 
@@ -22,15 +22,15 @@ Copyright: 2017 - notamuse
 
 ----
 
-Keywords: my, new, site
+Keywords: graphic, design, visibility, contemporary, female, designers, interviews, muse, women, best, design, ever
 
 ----
 
-Facebook: 
+Facebook:
 
 ----
 
-Twitter: 
+Twitter:
 
 ----
 
