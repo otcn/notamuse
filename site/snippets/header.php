@@ -30,8 +30,9 @@
 
   <!-- Apple Touch Icon 180×180px -->
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- remove mobile top bar -->
+  <!-- remove mobile top bar / launch fullscreen -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes">
 
   <!--Load css-->
   <?php echo css(array(
@@ -51,6 +52,7 @@
   <?php echo js(array(
     'assets/js/smoothy.js',
     'assets/js/mobile.js',
+    'assets/js/mobilenav.js',
     'assets/js/marquee.js'
   ), true) ?>
 
