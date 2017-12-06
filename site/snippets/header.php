@@ -19,10 +19,10 @@
   <meta name="description" content="<?= $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords() ?>">
   <!-- Social media -->
-  <meta property="og:url" content="http://example.com/page.html">
-  <meta property="og:title" content="Content Title">
-  <meta property="og:image" content="http://example.com/image.jpg">
-  <meta property="og:description" content="Description Here">
+  <meta property="og:url" content="http://en.notamuse.de/">
+  <meta property="og:title" content="notamuse">
+  <meta property="og:image" content="icon.png">
+  <meta property="og:description" content="A New Perspective on Graphic Design">
   <!-- For IE 11, Chrome, Firefox, Safari, Opera -->
   <link rel="icon" type="image/png" sizes="16x16" href="icon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="icon-32x32.png">
