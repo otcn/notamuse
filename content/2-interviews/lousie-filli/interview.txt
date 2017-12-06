@@ -297,7 +297,7 @@ Web: http://www.louisefili.com/
 
 ----
 
-Studiotitle: Louise Fili Ltd.
+Studiotitle: Louise Fili
 
 ----
 

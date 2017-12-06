@@ -46,7 +46,7 @@ Interview:
 
 - 
   fid: f277
-  spezialfrage: "0"
+  spezialfrage: "1"
   vorfrage: ""
   frage: >
     Wie wählt ihr die Sprecher_innen für
