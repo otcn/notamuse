@@ -20,14 +20,14 @@
 
     <li>
       <div id="topics-button" class="nav-button">
-        <a class="button-title">Themen</a>
+        <a class="button-title"><?php echo l::get('topics') ?></a>
       </div>
     </li>
 
     <li>
       <div id="questions-button" class="nav-button">
         <a class="key-icon"></a>
-        <a  class="button-title">Fragen</a>
+        <a  class="button-title"><?php echo l::get('questions') ?></a>
       </div>
       <div id="sl-1" class="sub">
         <?php
@@ -128,7 +128,7 @@
     <li>
       <div id="interviews-button" class="nav-button">
         <a class="key-icon"></a>
-        <a  class="button-title">Interviews</a>
+        <a  class="button-title"><?php echo l::get('interviews') ?></a>
       </div>
       <div id="sl-2" class="sub">
         <ul>
@@ -168,13 +168,13 @@
 
     <li>
       <div id="about-button" class="nav-button">
-        <a class="button-title">About</a>
+        <a class="button-title"><?php echo l::get('about') ?></a>
       </div>
     </li>
 
     <li>
       <div id="language-button" class="nav-button">
-        <a class="button-title">EN</a>
+        <a class="button-title"><?php echo l::get('switch-language') ?></a>
       </div>
     </li>
 

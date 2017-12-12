@@ -80,9 +80,9 @@ sans-serif;
     letter-spacing: -0.012em;
     @include breakpoint(mobile) {
         /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
         line-height: 14vw;
         font-size: 11vw;
     }
@@ -671,7 +671,7 @@ a.interviewee-title::before {
     min-width: 225px;
     z-index: 100;
     /* code for the "no-flex" solution */
-    position: fixed;
+    position: absolute; // or "fixed"?
     top: 0;
     left: 0;
     @include transition( all);
@@ -682,7 +682,7 @@ a.interviewee-title::before {
         width: 100vw;
         background: $color2;
         z-index: 400;
-        position: fixed;
+        position: absolute; // or "fixed"?
         max-height: 100vh;
     }
     &.hidden {
@@ -702,6 +702,7 @@ a.interviewee-title::before {
         height: 100vh;
         overflow-x: hidden;
         overflow-y: scroll;
+        -webkit-transform: translate3d(0,0,0);
         @include breakpoint(mobile) {
             width: auto;
             padding: 0;
@@ -1153,7 +1154,7 @@ a.interviewee-title::before {
                             z-index: 90;
                             top: 111px;
                             @include breakpoint(mobile) {
-                                top: -1px;
+                                top: 15vw;
                             }
                         }
 

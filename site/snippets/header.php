@@ -5,7 +5,7 @@
 -->
 
 <!DOCTYPE HTML>
-<html lang="<?= site()->language() ? site()->language()->code() : 'de' ?>">
+<html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
 <head>
 
   <meta charset="utf-8">
@@ -44,6 +44,7 @@
   <!--Load jQuery-->
   <?php echo js(array(
     'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
+    'assets/js/jquery-2.2.4.min.js',
     'assets/js/classy-links.js',
     'assets/js/lib.js',
     'assets/js/script.js'

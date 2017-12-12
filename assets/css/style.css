@@ -341,9 +341,9 @@ h2 {
   h1,
   h2 {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -416,9 +416,9 @@ h1 * {
   h1,
   h1 * {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -642,9 +642,9 @@ a.key-icon {
 @media (max-width: 768px) {
   a.key-icon {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -676,9 +676,9 @@ a.key-icon {
 @media (max-width: 768px) and (max-width: 768px) {
   a.key-icon {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -832,9 +832,9 @@ a.key-icon.active::after {
 @media (max-width: 768px) {
   .intro-quote p {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -882,9 +882,9 @@ a.key-icon.active::after {
 @media (max-width: 768px) {
   .intro-nav {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -965,9 +965,9 @@ a.interviewee-title::before {
 @media (max-width: 768px) {
   .i-intro p {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -1067,7 +1067,7 @@ a.interviewee-title::before {
   min-width: 225px;
   z-index: 100;
   /* code for the "no-flex" solution */
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1084,7 +1084,7 @@ a.interviewee-title::before {
     width: 100vw;
     background: grey;
     z-index: 400;
-    position: fixed;
+    position: absolute;
     max-height: 100vh;
   }
 }
@@ -1110,6 +1110,7 @@ a.interviewee-title::before {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 @media (max-width: 768px) {
@@ -1283,9 +1284,9 @@ a.interviewee-title::before {
 @media (max-width: 768px) {
   .nav-container ul.nav li .nav-button a.button-title {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -1834,9 +1835,9 @@ a.interviewee-title::before {
 @media (max-width: 768px) and (max-width: 768px) {
   .topics-container ul.topic-list .topic-item .topic-title a:first-child {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
@@ -1912,7 +1913,7 @@ a.interviewee-title::before {
 
 @media (max-width: 768px) {
   .topics-container ul.topic-list .topic-item .question-list .question-item .question-title.active {
-    top: -1px;
+    top: 15vw;
   }
 }
 
@@ -1941,9 +1942,9 @@ a.interviewee-title::before {
 @media (max-width: 768px) {
   .topics-container ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
     /*
-      font-size: 34px;
-      line-height: 32px;
-      */
+        font-size: 34px;
+        line-height: 32px;
+        */
     line-height: 14vw;
     font-size: 11vw;
   }
