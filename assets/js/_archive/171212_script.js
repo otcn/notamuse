@@ -110,7 +110,7 @@ $(document).ready(function() {
         // reveal relevant dropdowns:
         target.parents('.child').show(); // or ".slideDown('fast')" ?
         questionItem.children('.child').show(); // or ".slideDown('fast')" ?
-        var container = target.parents('.topics-container');
+        var container = target.parents('#content');
         $(container).animate({ scrollTop: target.offset().top - 111 }, 300);
     };
 
@@ -215,8 +215,7 @@ $(document).ready(function() {
     });
 
     // CLOSE NAV-MODE
-    /*$('#content *').click(function() {*/
-    $('.topics-container *').click(function() {
+    $('#content *').click(function() {
         closeNav();
     });
 

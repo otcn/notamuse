@@ -1,6 +1,12 @@
-<div id="content-frame" class="flex-item">
-    <article id="content">
-        <ul class="topic-list parent"><!-- main unordered list -->
+<!--<div id="content-frame" class="flex-item topics-container"> -->
+
+<!--code for the "no-flex" solution -->
+<div class="topics-container">
+
+    <!--code for the "no-flex" solution -->
+    <!--<article id="content">-->
+
+        <ul class="topic-list parent"><!-- main list -->
             <?php
             // create list of all categories that are actually in use (= attached to a question)
             $categories = array();
@@ -90,5 +96,6 @@
             </li>
             <?php endforeach ?>
         </ul>
-    </article>
+
+    <!--</article>-->
 </div>

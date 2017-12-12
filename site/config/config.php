@@ -58,3 +58,27 @@ kirby()->hook('panel.page.update', function($page){
     $page->update(array('Interview' => yaml::encode($newQuestions)));
 });
 
+
+//MULTI-LANGUAGE
+/*
+c::set('language.detect', true);
+
+c::set('date.handler', 'strftime');
+
+c::set('languages', array(
+  array(
+    'code'    => 'en',
+    'name'    => 'English',
+    'locale'  => 'en_US',
+    'url'     => '',
+  ),
+  array(
+    'code'    => 'de',
+    'name'    => 'Deutsch',
+    'default' => true,
+    'locale'  => 'de_DE',
+    'url'     => '/',
+  ),
+));
+*/
+

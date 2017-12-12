@@ -1,4 +1,7 @@
-<div class="flex-item nav-container">
+<!--<div class="flex-item nav-container">-->
+
+<!--code for the "no-flex" solution -->
+<div class="nav-container">
 
   <ul class="nav">
 

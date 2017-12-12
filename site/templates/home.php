@@ -4,14 +4,12 @@
 <!-- the "separator" divides the main stage and the overlays. on click overlays close -->
 <div id="separator"><a class="key-icon active"></a></div>
 
-<div id="main-wrapper" class="flex-container">
-    <!-- the following php places all snippets concerning the main stage -->
-    <?php
-    //snippet('aside'); // old navigation
-    snippet('navigation');
-    snippet('article');
-    ?>
-</div>
+<!--<div id="main-wrapper" class="flex-container">-->
+<?php
+snippet('navigation');
+snippet('article');
+?>
+<!--</div>-->
 
 <!-- overlay snippets -->
 <div class="preview">

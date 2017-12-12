@@ -40,11 +40,6 @@ $color3: #fff;
             @content;
         }
     }
-    @if $point==small-desktop {
-        @media (max-width: 1125px) {
-            @content;
-        }
-    }
 }
 
 
@@ -495,7 +490,7 @@ a.key-icon {
         left: 100vw;
         @include breakpoint(mobile) {
             overflow: hidden;
-            bottom: 200vh; //far out of the upper screen border
+            bottom: 100vh;
             left: auto;
             top: auto;
             right: auto;
@@ -618,12 +613,12 @@ a.interviewee-title::before {
 
 /* MAIN LAYER: LAYOUT ========================================================================== */
 
-/*
 .flex-container {
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    /* or inline-flex */
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -640,11 +635,8 @@ a.interviewee-title::before {
     align-content: flex-start;
     overflow-x: hidden;
 }
-*/
 
-/*.flex-item,*/
-.topics-container, .nav-container {
-    background: $color3;
+.flex-item {
     display: block;
     border: 0;
     margin: 0 0 0 0;
@@ -656,7 +648,6 @@ a.interviewee-title::before {
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    -webkit-transform: translate3d(0,0,0);
     @include transition( all);
     @include breakpoint(mobile) {
         padding: 16vw 0 0 0;
@@ -664,16 +655,21 @@ a.interviewee-title::before {
     }
 }
 
+#content-frame.flex-item {
+    width: 80vw;
+    z-index: 90;
+    @include breakpoint(mobile) {
+        width: 100vw;
+    }
+}
+
+
 /* MAIN LAYER: NAVIGATION ========================================================================== */
 
 .nav-container {
     width: 20vw;
     min-width: 225px;
     z-index: 100;
-    /* code for the "no-flex" solution */
-    position: fixed;
-    top: 0;
-    left: 0;
     @include transition( all);
     @include breakpoint(mobile) {
         padding: 0;
@@ -867,7 +863,7 @@ a.interviewee-title::before {
                         min-width: 27px;
                         width: 31vw;
                         @include breakpoint(mobile) {
-                            width: 100vw;
+                            width: auto;
                             min-width: 0;
                             max-width: none;
                             padding: 2vw 7vw 2vw 4vw;
@@ -942,27 +938,15 @@ a.interviewee-title::before {
     }
 }
 
-/* NAV-MODE ======================================================================================= */
+
+
+/* NAV-MODE ========================================================================== */
 
 .nav-mode {
-    .topics-container {
-        /* code for the "no-flex" solution */
-        margin: 0 0 0 36vw;
-        @include breakpoint(mobile) {
-            margin: 0;
-        }
-    }
     .nav-container {
-        width: 35vw;
-        overflow-x: hidden;
-        @include breakpoint(mobile) {
-            width: auto;
-        }
+        width: auto;
 
         ul.nav {
-            width: 100vw; //must be wider than ".nav-container" to hide scroll bar in firefox
-            padding: 0;
-
             li {
                 /*overflow: auto;*/
                 width: 35vw;
@@ -984,28 +968,10 @@ a.interviewee-title::before {
     }
 }
 
+
 /* MAIN LAYER: CONTENT ========================================================================== */
 
-/*#content,*/
-.topics-container {
-    width: 80vw;
-    z-index: 90;
-    /* code for the "no-flex" solution */
-    margin: 0 0 0 20vw;
-    padding: 0 10vw 0 0;
-    @include breakpoint(small-desktop) {
-        margin: 0 0 0 225px;
-        padding: 0 112px 0 0;
-    }
-    @include breakpoint(mobile) {
-        width: 100vw;
-        margin: 0;
-        padding: 0;
-    }
-
-
-    /* code for the "no-flex" solution */
-    /*
+#content {
     overflow-y: scroll;
     overflow-x: hidden;
     height: 100vh;
@@ -1018,7 +984,6 @@ a.interviewee-title::before {
         min-width: 0;
         max-width: none;
     }
-    */
 
     ul.topic-list {
         padding: 0px 0px 50vh 0px;
@@ -1206,6 +1171,7 @@ a.interviewee-title::before {
     }
 }
 
+
 /* TESTING CLASS ========================================================================== */
 
 .debug {
@@ -1213,6 +1179,7 @@ a.interviewee-title::before {
     background: green;
     color: red;
 }
+
 
 /* ASIDE INFO AND PREVIEW CONTAINER ========================================================================== */
 

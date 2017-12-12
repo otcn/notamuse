@@ -751,7 +751,7 @@ a.key-icon.active::after {
 @media (max-width: 768px) {
   .overlay.hidden {
     overflow: hidden;
-    bottom: 200vh;
+    bottom: 100vh;
     left: auto;
     top: auto;
     right: auto;
@@ -1011,32 +1011,30 @@ a.interviewee-title::before {
 }
 
 /* MAIN LAYER: LAYOUT ========================================================================== */
-/*
 .flex-container {
-    width: 100vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-    overflow-x: hidden;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* or inline-flex */
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  overflow-x: hidden;
 }
-*/
-/*.flex-item,*/
-.topics-container, .nav-container {
-  background: #fff;
+
+.flex-item {
   display: block;
   border: 0;
   margin: 0 0 0 0;
@@ -1048,7 +1046,6 @@ a.interviewee-title::before {
   overflow-x: hidden;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  -webkit-transform: translate3d(0, 0, 0);
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1056,9 +1053,23 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container, .nav-container {
+  .flex-item {
     padding: 16vw 0 0 0;
     max-height: none;
+  }
+}
+
+#content-frame.flex-item {
+  width: 80vw;
+  z-index: 90;
+
+  /* code for the "no-flex" solution*/
+  margin: 0 0 0 20vw;
+}
+
+@media (max-width: 768px) {
+  #content-frame.flex-item {
+    width: 100vw;
   }
 }
 
@@ -1067,14 +1078,13 @@ a.interviewee-title::before {
   width: 20vw;
   min-width: 225px;
   z-index: 100;
-  /* code for the "no-flex" solution */
-  position: fixed;
-  top: 0;
-  left: 0;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+
+  /* code for the "no-flex" solution*/
+  position: fixed;
 }
 
 @media (max-width: 768px) {
@@ -1394,7 +1404,7 @@ a.interviewee-title::before {
 
 @media (max-width: 768px) {
   .nav-container ul.nav li .sub > ul > li {
-    width: 100vw;
+    width: auto;
     min-width: 0;
     max-width: none;
     padding: 2vw 7vw 2vw 4vw;
@@ -1512,32 +1522,9 @@ a.interviewee-title::before {
   }
 }
 
-/* NAV-MODE ======================================================================================= */
-.nav-mode .topics-container {
-  /* code for the "no-flex" solution */
-  margin: 0 0 0 36vw;
-}
-
-@media (max-width: 768px) {
-  .nav-mode .topics-container {
-    margin: 0;
-  }
-}
-
+/* NAV-MODE ========================================================================== */
 .nav-mode .nav-container {
-  width: 35vw;
-  overflow-x: hidden;
-}
-
-@media (max-width: 768px) {
-  .nav-mode .nav-container {
-    width: auto;
-  }
-}
-
-.nav-mode .nav-container ul.nav {
-  width: 100vw;
-  padding: 0;
+  width: auto;
 }
 
 .nav-mode .nav-container ul.nav li {
@@ -1563,55 +1550,34 @@ a.interviewee-title::before {
 }
 
 /* MAIN LAYER: CONTENT ========================================================================== */
-/*#content,*/
-.topics-container {
+#content {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
   width: 80vw;
-  z-index: 90;
-  /* code for the "no-flex" solution */
-  margin: 0 0 0 20vw;
-  padding: 0 10vw 0 0;
-  /* code for the "no-flex" solution */
-  /*
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 100vh;
-    width: 80vw;
-    padding: 0px 10vw 0px 0px;
-    @include breakpoint(mobile) {
-        padding: 0px 0px 0px;
-        height: auto;
-        width: auto;
-        min-width: 0;
-        max-width: none;
-    }
-    */
-}
-
-@media (max-width: 1125px) {
-  .topics-container {
-    margin: 0 0 0 225px;
-    padding: 0 112px 0 0;
-  }
+  padding: 0px 10vw 0px 0px;
 }
 
 @media (max-width: 768px) {
-  .topics-container {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
+  #content {
+    padding: 0px 0px 0px;
+    height: auto;
+    width: auto;
+    min-width: 0;
+    max-width: none;
   }
 }
 
-.topics-container ul.topic-list {
+#content ul.topic-list {
   padding: 0px 0px 50vh 0px;
 }
 
-.topics-container ul.topic-list .topic-item {
+#content ul.topic-list .topic-item {
   /*padding: 13px 0px 0px 0px;*/
 }
 
-.topics-container ul.topic-list .topic-item .topic-title,
-.topics-container ul.topic-list .topic-item .question-title {
+#content ul.topic-list .topic-item .topic-title,
+#content ul.topic-list .topic-item .question-title {
   font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
   text-align: left;
   text-decoration: none;
@@ -1652,14 +1618,14 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title,
-  .topics-container ul.topic-list .topic-item .question-title {
+  #content ul.topic-list .topic-item .topic-title,
+  #content ul.topic-list .topic-item .question-title {
     padding: 0;
   }
 }
 
-.topics-container ul.topic-list .topic-item .topic-title.active,
-.topics-container ul.topic-list .topic-item .question-title.active {
+#content ul.topic-list .topic-item .topic-title.active,
+#content ul.topic-list .topic-item .question-title.active {
   border-bottom: 1px solid #000;
   margin-bottom: -1px;
   background: #fff;
@@ -1671,8 +1637,8 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title.active,
-  .topics-container ul.topic-list .topic-item .question-title.active {
+  #content ul.topic-list .topic-item .topic-title.active,
+  #content ul.topic-list .topic-item .question-title.active {
     /*
             position: relative;
             top: auto;
@@ -1681,8 +1647,8 @@ a.interviewee-title::before {
   }
 }
 
-.topics-container ul.topic-list .topic-item .topic-title a,
-.topics-container ul.topic-list .topic-item .question-title a {
+#content ul.topic-list .topic-item .topic-title a,
+#content ul.topic-list .topic-item .question-title a {
   -webkit-hyphens: none;
   -moz-hyphens: none;
   hyphens: none;
@@ -1690,8 +1656,8 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title a,
-  .topics-container ul.topic-list .topic-item .question-title a {
+  #content ul.topic-list .topic-item .topic-title a,
+  #content ul.topic-list .topic-item .question-title a {
     word-break: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -1700,37 +1666,37 @@ a.interviewee-title::before {
   }
 }
 
-.topics-container ul.topic-list .topic-item .topic-title a:first-child,
-.topics-container ul.topic-list .topic-item .question-title a:first-child {
+#content ul.topic-list .topic-item .topic-title a:first-child,
+#content ul.topic-list .topic-item .question-title a:first-child {
   /*display: block;*/
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title a:first-child,
-  .topics-container ul.topic-list .topic-item .question-title a:first-child {
+  #content ul.topic-list .topic-item .topic-title a:first-child,
+  #content ul.topic-list .topic-item .question-title a:first-child {
     /*padding: 0 7vw 0 4vw;*/
     padding: 2vw 7vw 2vw 4vw;
   }
 }
 
-.topics-container ul.topic-list .topic-item .topic-title a.key-icon,
-.topics-container ul.topic-list .topic-item .question-title a.key-icon {
+#content ul.topic-list .topic-item .topic-title a.key-icon,
+#content ul.topic-list .topic-item .question-title a.key-icon {
   margin-right: 1vw;
   right: 0;
   /*display:none;*/
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title a.key-icon,
-  .topics-container ul.topic-list .topic-item .question-title a.key-icon {
+  #content ul.topic-list .topic-item .topic-title a.key-icon,
+  #content ul.topic-list .topic-item .question-title a.key-icon {
     display: none;
   }
 }
 
-.topics-container ul.topic-list .topic-item .topic-title:hover a,
-.topics-container ul.topic-list .topic-item .topic-title.active a,
-.topics-container ul.topic-list .topic-item .question-title:hover a,
-.topics-container ul.topic-list .topic-item .question-title.active a {
+#content ul.topic-list .topic-item .topic-title:hover a,
+#content ul.topic-list .topic-item .topic-title.active a,
+#content ul.topic-list .topic-item .question-title:hover a,
+#content ul.topic-list .topic-item .question-title.active a {
   font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
   text-align: left;
   text-decoration: none;
@@ -1766,29 +1732,29 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title:hover a:first-child,
-  .topics-container ul.topic-list .topic-item .topic-title.active a:first-child,
-  .topics-container ul.topic-list .topic-item .question-title:hover a:first-child,
-  .topics-container ul.topic-list .topic-item .question-title.active a:first-child {
+  #content ul.topic-list .topic-item .topic-title:hover a:first-child,
+  #content ul.topic-list .topic-item .topic-title.active a:first-child,
+  #content ul.topic-list .topic-item .question-title:hover a:first-child,
+  #content ul.topic-list .topic-item .question-title.active a:first-child {
     width: auto;
     min-width: 0;
     max-width: none;
   }
 }
 
-.topics-container ul.topic-list .topic-item .topic-title {
+#content ul.topic-list .topic-item .topic-title {
   padding-top: 42px;
   padding-bottom: 22px;
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title {
+  #content ul.topic-list .topic-item .topic-title {
     display: block;
     padding: 0;
   }
 }
 
-.topics-container ul.topic-list .topic-item .topic-title a:first-child {
+#content ul.topic-list .topic-item .topic-title a:first-child {
   font-size: 95px;
   line-height: 90px;
   letter-spacing: -0.04em;
@@ -1801,7 +1767,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title a:first-child {
+  #content ul.topic-list .topic-item .topic-title a:first-child {
     -webkit-hyphens: none;
     -moz-hyphens: none;
     hyphens: none;
@@ -1813,7 +1779,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) and (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title a:first-child {
+  #content ul.topic-list .topic-item .topic-title a:first-child {
     word-break: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -1823,7 +1789,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) and (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title a:first-child {
+  #content ul.topic-list .topic-item .topic-title a:first-child {
     /*
       font-size: 34px;
       line-height: 32px;
@@ -1834,7 +1800,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title a:first-child {
+  #content ul.topic-list .topic-item .topic-title a:first-child {
     word-break: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -1844,70 +1810,70 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title a:first-child {
+  #content ul.topic-list .topic-item .topic-title a:first-child {
     display: block;
     padding: 2vw 7vw 2vw 4vw;
   }
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .topic-title.active {
+  #content ul.topic-list .topic-item .topic-title.active {
     position: relative;
     top: auto;
   }
 }
 
-.topics-container ul.topic-list .topic-item .question-list,
-.topics-container ul.topic-list .topic-item .answer-list {
+#content ul.topic-list .topic-item .question-list,
+#content ul.topic-list .topic-item .answer-list {
   padding: 0;
   border-bottom: 1px solid #000;
   border-top: 1px solid #000;
 }
 
-.topics-container ul.topic-list .topic-item .question-list {
+#content ul.topic-list .topic-item .question-list {
   padding: 13px 0px 17px 0px;
   width: 100%;
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list {
+  #content ul.topic-list .topic-item .question-list {
     width: auto;
     min-width: 0;
     max-width: none;
   }
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item {
+#content ul.topic-list .topic-item .question-list .question-item {
   padding: 2px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item:last-child .answer-list {
+#content ul.topic-list .topic-item .question-list .question-item:last-child .answer-list {
   border-bottom: 0px;
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item .question-title {
+#content ul.topic-list .topic-item .question-list .question-item .question-title {
   padding: 5px 0px 12px 0px;
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .question-title {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title {
     padding: 0;
   }
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item .question-title.active {
+#content ul.topic-list .topic-item .question-list .question-item .question-title.active {
   z-index: 90;
   top: 111px;
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .question-title.active {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title.active {
     top: -1px;
   }
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+#content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
   max-width: 53vw;
   display: block;
   -webkit-hyphens: none;
@@ -1920,7 +1886,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
     word-break: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -1930,7 +1896,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
     /*
       font-size: 34px;
       line-height: 32px;
@@ -1941,7 +1907,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
     font-size: 19px;
     line-height: 27px;
     letter-spacing: 0rem;
@@ -1952,28 +1918,28 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) and (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title a:first-child {
     font-size: 19px;
     line-height: 27px;
     letter-spacing: 0rem;
   }
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item .question-title:hover a:first-child,
-.topics-container ul.topic-list .topic-item .question-list .question-item .question-title.active a:first-child {
+#content ul.topic-list .topic-item .question-list .question-item .question-title:hover a:first-child,
+#content ul.topic-list .topic-item .question-list .question-item .question-title.active a:first-child {
   max-width: 66vw;
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .question-title:hover a:first-child,
-  .topics-container ul.topic-list .topic-item .question-list .question-item .question-title.active a:first-child {
+  #content ul.topic-list .topic-item .question-list .question-item .question-title:hover a:first-child,
+  #content ul.topic-list .topic-item .question-list .question-item .question-title.active a:first-child {
     width: auto;
     min-width: 0;
     max-width: none;
   }
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item {
+#content ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item {
   margin: 33px 0px 0px 0px;
   width: 60vw;
   min-width: 480px;
@@ -1981,7 +1947,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item {
+  #content ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item {
     /*padding: 2vh 2vw;*/
     padding: 2vw 7vw 2vw 4vw;
     margin: 0 0 0 0;
@@ -1991,11 +1957,11 @@ a.interviewee-title::before {
   }
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item:last-of-type {
+#content ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item:last-of-type {
   margin-bottom: 49px;
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item a.interviewee-title {
+#content ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item a.interviewee-title {
   font-family: RenaGrotesk-Regular, Helvetica, Arial, sans-serif;
   text-align: left;
   text-decoration: none;
@@ -2035,7 +2001,7 @@ a.interviewee-title::before {
 }
 
 @media (max-width: 768px) {
-  .topics-container ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item a.interviewee-title {
+  #content ul.topic-list .topic-item .question-list .question-item .answer-list .answer-item a.interviewee-title {
     word-break: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -2044,11 +2010,11 @@ a.interviewee-title::before {
   }
 }
 
-.topics-container ul.topic-list .topic-item .question-list .question-item.active + .question-item {
+#content ul.topic-list .topic-item .question-list .question-item.active + .question-item {
   padding: 20px 0px 0px 0px;
 }
 
-.topics-container ul.topic-list .topic-item.active + .topic-item {
+#content ul.topic-list .topic-item.active + .topic-item {
   padding-top: 13px;
 }
 

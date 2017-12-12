@@ -110,7 +110,7 @@ $(document).ready(function() {
         // reveal relevant dropdowns:
         target.parents('.child').show(); // or ".slideDown('fast')" ?
         questionItem.children('.child').show(); // or ".slideDown('fast')" ?
-        var container = target.parents('.topics-container');
+        var container = target.parents('#content');
         $(container).animate({ scrollTop: target.offset().top - 111 }, 300);
     };
 
@@ -124,8 +124,7 @@ $(document).ready(function() {
     // CLOSE AND DEACTIVATE ALL NAV-ELEMENTS AND THEIR CHILDREN
     function closeNav() {
         console.log('close nav');
-        //$("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class from "#wrapper"
-        $("body").removeClass("nav-mode"); // remove "nav-mode" class from "body"
+        $("#main-wrapper").removeClass("nav-mode"); // remove "nav-mode" class from "#wrapper"
         $('.nav .active').removeClass('active'); // remove all active states in the topic list
         $('.nav .sub').slideUp('slow');
         $('.nav .child').slideUp('slow'); // hide all child-elements
@@ -215,8 +214,7 @@ $(document).ready(function() {
     });
 
     // CLOSE NAV-MODE
-    /*$('#content *').click(function() {*/
-    $('.topics-container *').click(function() {
+    $('#content *').click(function() {
         closeNav();
     });
 
@@ -236,8 +234,7 @@ $(document).ready(function() {
         var mySub = myButton.siblings('.sub');
         if (mySub.is(":hidden")) { // if this sub was hidden -> open it
             console.log('-> open sub');
-            //$("#main-wrapper").addClass("nav-mode"); // add "nav-mode" class to "#wrapper"
-            $("body").addClass("nav-mode"); // add "nav-mode" class to "body"
+            $("#main-wrapper").addClass("nav-mode"); // add "nav-mode" class to "#wrapper"
             $('.nav .active').removeClass('active');
             $('.sub').not(mySub).hide();
 
