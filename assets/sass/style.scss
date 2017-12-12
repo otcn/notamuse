@@ -660,7 +660,7 @@ a.interviewee-title::before {
     @include transition( all);
     @include breakpoint(mobile) {
         padding: 16vw 0 0 0;
-        max-height: none;
+        //max-height: none;
     }
 }
 
@@ -683,6 +683,7 @@ a.interviewee-title::before {
         background: $color2;
         z-index: 400;
         position: fixed;
+        max-height: 100vh;
     }
     &.hidden {
       @include breakpoint(mobile) {
@@ -962,6 +963,9 @@ a.interviewee-title::before {
         ul.nav {
             width: 100vw; //must be wider than ".nav-container" to hide scroll bar in firefox
             padding: 0;
+            @include breakpoint(mobile) {
+                padding: 0 0 16vw 0;
+            }
 
             li {
                 /*overflow: auto;*/
@@ -988,11 +992,14 @@ a.interviewee-title::before {
 
 /*#content,*/
 .topics-container {
+    position: relative;
     width: 80vw;
     z-index: 90;
     /* code for the "no-flex" solution */
     margin: 0 0 0 20vw;
     padding: 0 10vw 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
     @include breakpoint(small-desktop) {
         margin: 0 0 0 225px;
         padding: 0 112px 0 0;
@@ -1000,7 +1007,7 @@ a.interviewee-title::before {
     @include breakpoint(mobile) {
         width: 100vw;
         margin: 0;
-        padding: 0;
+        padding: 16vw 0 0 0;
     }
 
 

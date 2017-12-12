@@ -60,7 +60,7 @@ kirby()->hook('panel.page.update', function($page){
 
 
 //MULTI-LANGUAGE
-/*
+
 c::set('language.detect', true);
 
 c::set('date.handler', 'strftime');
@@ -80,5 +80,5 @@ c::set('languages', array(
     'url'     => '/',
   ),
 ));
-*/
+
 

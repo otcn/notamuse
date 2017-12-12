@@ -1058,7 +1058,6 @@ a.interviewee-title::before {
 @media (max-width: 768px) {
   .topics-container, .nav-container {
     padding: 16vw 0 0 0;
-    max-height: none;
   }
 }
 
@@ -1086,6 +1085,7 @@ a.interviewee-title::before {
     background: grey;
     z-index: 400;
     position: fixed;
+    max-height: 100vh;
   }
 }
 
@@ -1540,6 +1540,12 @@ a.interviewee-title::before {
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  .nav-mode .nav-container ul.nav {
+    padding: 0 0 16vw 0;
+  }
+}
+
 .nav-mode .nav-container ul.nav li {
   /*overflow: auto;*/
   width: 35vw;
@@ -1565,11 +1571,14 @@ a.interviewee-title::before {
 /* MAIN LAYER: CONTENT ========================================================================== */
 /*#content,*/
 .topics-container {
+  position: relative;
   width: 80vw;
   z-index: 90;
   /* code for the "no-flex" solution */
   margin: 0 0 0 20vw;
   padding: 0 10vw 0 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
   /* code for the "no-flex" solution */
   /*
     overflow-y: scroll;
@@ -1598,7 +1607,7 @@ a.interviewee-title::before {
   .topics-container {
     width: 100vw;
     margin: 0;
-    padding: 0;
+    padding: 16vw 0 0 0;
   }
 }
 
