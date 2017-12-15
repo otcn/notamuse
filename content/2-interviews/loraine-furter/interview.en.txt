@@ -1,0 +1,182 @@
+Titlehead: 
+
+----
+
+Title: Loraine Furter
+
+----
+
+Titlenav: Loraine Furter, Designerin und Designforscherin
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: loraine_furter_eric_schrijver.jpg
+
+----
+
+Url: 
+
+----
+
+Place: via Skype
+
+----
+
+Date: 2017-02-17
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: As an educated graphic designer, Loraine Furter’s practice is now situated at the crossroads of art, design, editing and curating. Research is entirely part of her work, which combines hybrid, written and visual productions. Loraine Furter teaches at ERG in Brussels and is currently involved in the development of a master’s program on design and gender. She tells us about the changes in design education and why you should not be afraid to call yourself a feminist.
+
+----
+
+Interview: 
+
+- 
+  fid: f327
+  spezialfrage: "1"
+  vorfrage: >
+    At the moment you’re planning a new
+    master’s program.
+  frage: >
+    Will the master in »Gender and Design«
+    be more theoretical than practical?
+  category: Spezifisch
+  antwort: |
+    LF:&nbsp;At the moment we have just begun to develop the program. Unfortunately I can only talk about it in very approximative terms, but I can dream precisely! Let’s say I’m working on pedagogical tools to approach graphic design with a feminist perspective. I think it is important to work both on theory and practice, as complementary approaches.
+    There is definitely a lack of existing theoretical texts, documentations or studies on graphic design and gender. But also in the practice of design, one is continuously confronted with questions of representation. Designers and art directors have a central place in visual culture; they make choices in how they depict women and men all the time. Moreover, in an industry where most of the students are women, senior positions both in studios and schools are still more often filled by men. Ideally, our students will be designers that can enter the field aware of these issues and eager to change the status quo. It is impossible, by the way, to separate the challenges that women face from the hurdles related to race, class, age, abilities, sexual orientation, religion… Our schools, and by extension our creative elite, by no means reflect our diverse society, so as teachers we need to ask ourselves what we can do about this. All these questions are also intimately related to the economic dimension:&nbsp;who is able to afford the unpaid internships, the expensive graduate schools?
+    It is then necessary to look for works that are not only located in the domain of graphic design, but to make links. But there is a particular gap in the field of graphic design that I’m looking forward to address. So many things could be better documented, translated (the few things that exist are often only in English), worked upon.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f328
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Are gender and design already fixed
+    components in existing programs at the
+    schools you teach in?
+  category: Spezifisch
+  antwort: |
+    LF:&nbsp;No, but in one of the schools I teach in, the École de Recherche Graphique, we started a working group to address questions of gender in the pedagogy of arts. The group is named »Teaching to transgress«, after bell hooks’ book. We are in contact with people in the school and from all over Europe who are interested in integrating these questions into their programs:&nbsp;teachers as well as students. By building pedagogical tools and a network around it, we hope these topics will gain visibility.
+    At the Royal Academy of Fine Arts in Brussels I teach two theory classes on contemporary publishing. Since I’ve opened up to representation issues, I cannot teach the same way as before. I want the students to realize that no teaching is ever neutral. Every teaching is informed by a specific point of view, which influences the way one selects, analyses and presents works. In my classes, I now always start with that. I explain from which perspective my teaching is informed, intersectional feminism, and what this means. But this doesn’t really appear in the official program … yet.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f329
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    What is your personal motivation for
+    working on gender and design?
+  category: Spezifisch
+  antwort: 'LF:&nbsp;Well, I wasn’t an outspoken feminist since forever, it is a sensibility I developed fully in the years after I graduated. It has been eye-opening in the way I see the world, but it also opened a whole new dimension in my work and research. And it was very positive, very enriching. During my studies, gender and feminism were not addressed a lot, and it is still the same now. When I started working on these questions, I thought this could also be interesting for my students. In my theoretical classes it informs every choice I make, every story I tell. In my practical classes students come up with their questions and sometimes they are linked to gender or feminist issues. Yet even as these topics have started to inform my teaching, I sometimes feel quite isolated, because there is no pre-existing method. I really needed to talk about it with peers, which is when the idea of building a network and then a program came up.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f330
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Do you already think about the topics
+    you want to examine in the master’s
+    program »Gender and Design«?
+  category: Spezifisch
+  antwort: |
+    LF:&nbsp;I always try to collect and archive as much as I can. This is especially important for feminist issues, as websites, lectures or zines can disappear or lose visibility very fast. At the moment, I am gathering as many documents as I can about potential future topics. And there are many:&nbsp;a basic but important example would be how bodies are represented in signage. But you can address any design decision with a feminist perspective:&nbsp;it means to ask what are the forms and representations generated, which tools are used, who do you work with, who do you work for, how do you organise the collaboration, who owns the intellectual property and who profits of the representation. All along the chain you can ask yourself:&nbsp;is this fair?
+    Those questions could and should be raised in regular design courses. There is a very inspiring book called »The Politics of Design« by Ruben Pater, saying that every design choice and design element is political – that is how I would like to talk about the topic. In many schools, graphic design students have to create their own content, find their own »personal project«. It is as if we ask them to look inside themselves to find their challenge, and very often it seems like a burden, a source of stress because they don’t know what to work on. If our students would be more aware of the social and political questions that are implied in graphic design, and if they would be aware of designers and activists that have allied themselves with social challenges, this could inspire them to work on these issues.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f331
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Do you think students get more
+    interested in gender topics?
+  category: Spezifisch
+  antwort: 'LF:&nbsp;In my classes, students usually react very positively to gender and feminist questions. Some colleagues who tried to approach these topics in their classes report that more and more students are ready to talk about issues like decolonization and gender. We need to think about a teaching environment that brings these questions up and welcomes interaction with the students about that.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f332
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Können unterschiedliche
+    Herangehensweisen bei Studierenden
+    beobachtet werden?
+  category: Gleichstellung
+  antwort: |
+    LF:&nbsp;Well, it’s not like boys are working like this and girls are working like that; I don’t want to make this kind of general distinction. There are things you can notice, which are not only coming from arts education, but from how we have always been taught to do things. It is something sociological and for me it’s hard to point out specific differences. The ideal would be to not differentiate them based on their gender identity. Of course, I cannot ignore the fact that men were and are often more highlighted than women. I don’t want them to feel personally bad about it, but for things to change, they have to understand that they are privileged.
+    I sometimes get very strong reactions from female colleagues, which is heartbreaking for me. Some people, also women, are really against »feminism«, which they talk about in a very stereotyped and negative way, even when they don’t necessarily reject its fundamental ideas. What is so wrong with this word and its history? Of course sometimes it is not so easy to be a feminist and to fight the cliches.
+  quote: >
+    It’s not like boys are working like
+    this and girls are working like that.
+  quoteauthor: ""
+- 
+  fid: f333
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    What are the benefits of bringing
+    together a theoretical subject like
+    gender with a practical subject like
+    design?
+  category: Spezifisch
+  antwort: 'LF:&nbsp;Gender is also pretty practical. There are gender studies departments in (some) universities and not yet in art schools, which probably gives the word »gender« a theoretical connotation. But if you talk about feminism and queer approaches, they are very much integrated into practice. If we can have feminist art works, queer art works, then why not feminist and queer graphic design?'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f334
+  spezialfrage: "0"
+  vorfrage: >
+    In our project we investigate the
+    visibility of female graphic designers
+    and female role models.
+  frage: Habt ihr Vorbilder?
+  category: Inspiration
+  antwort: 'LF:&nbsp;It depends on what kind of role model you’re referring to. <a href="http://sheilastudio.us/">Sheila Levrant de Bretteville</a> is a big role model for what she did as a feminist graphic designer and teacher. <a href="https://www.aiga.org/medalist-murielcooper">Muriel Cooper</a> is also very interesting because she dealt with new technologies that usually were identified as »male« tools. <a href="https://www.guerrillagirls.com/">The Guerilla Girls</a> are also great – their work is very intelligent and also graphically very well made. I’m more and more inspired by and interested in collectives like <a href="https://en.wikipedia.org/wiki/Gran_Fury">Gran Fury</a> and <a href="http://www.fiercepussy.org/www.fiercepussy.org/about_us.html">Fierce Pussy</a>, bringing together art and activism during the AIDS crisis. I also admire a project called <a href="http://oomk.net">OOMK</a> – One Of My Kind – a thematic bi-annual artistic magazine with contributions from women of diverse ethnic and spiritual backgrounds, especially inclusive of Muslim women. The artist <a href="http://martinesyms.com">Martine Syms</a> is also doing amazing works, many of which reflect on the cultural history of radical black thoughts. It was confronting to realise some time ago that most of my role models were white, which is a reflection of my education and the limits in my field of vision, but luckily I discover new inspiration every day!'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f335
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    How important are role models for young
+    designers?
+  category: Spezifisch
+  antwort: |
+    LF:&nbsp;Obviously very important! I can recommend a text by Katy Deepwell, »Feminist Models:&nbsp;Now and in the Future« published in a book called »It’s Time for Action (There’s no Option). About Feminism«, which I knew for a long time since it was awarded in »The Most Beautiful Swiss Books« contest.
+    History is really important as well – how we have to rewrite or simply write it. Where were women in the history of graphic design? Ellen Mazur Thomson spent a lot of time looking for traces about these hidden people. I admire works like this and would love to spend more time in people's archives myself. I want to research underrepresented work and put them back in the more publicly known history.
+  quote: ""
+  quoteauthor: ""
+
+----
+
+Web: http://lorainefurter.net
+
+----
+
+Interviewimagecredits: Foto: Eric Schrijver
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: Brüssel, Belgien

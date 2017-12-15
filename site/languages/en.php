@@ -4,6 +4,6 @@ l::set(array(
     'questions' => 'Fragen',
     'interviews' => 'Interviews',
     'about' => 'About',
-    'switch-language' => 'DE',
+    'switch-language' => 'EN',
 ));
 ?>

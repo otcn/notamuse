@@ -5,7 +5,7 @@
 -->
 
 <!DOCTYPE HTML>
-<html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
+<html lang="<?= site()->language() ? site()->language()->code() : 'de' ?>">
 <head>
 
   <meta charset="utf-8">
@@ -19,7 +19,7 @@
   <meta name="description" content="<?= $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords() ?>">
   <!-- Social media -->
-  <meta property="og:url" content="http://en.notamuse.de/">
+  <meta property="og:url" content="http://notamuse.de/">
   <meta property="og:title" content="notamuse">
   <meta property="og:image" content="icon.png">
   <meta property="og:description" content="A New Perspective on Graphic Design">

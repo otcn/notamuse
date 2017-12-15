@@ -1,0 +1,245 @@
+Titlehead: 
+
+----
+
+Title: Jasmin Müller-Stoy
+
+----
+
+Titlenav: Jasmin Müller-Stoy, Art-Direktorin, ZEITmagazin
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: jasmin_mueller_stoy.jpg
+
+----
+
+Web: http://muellerundstoy.de/
+
+----
+
+Place: Berlin
+
+----
+
+Date: 2017-05-10
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: Bereits während ihres Studiums an der UDK Berlin legte Jasmin Müller-Stoy ihren grafischen Schwerpunkt auf die Magazingestaltung. Nach ihrem Diplom 2005 arbeitete sie als Grafik­designerin bei den Zeitschriften »Park Avenue« und »Vanity Fair«. 2007 wechselte sie zum »ZEITmagazin« in Berlin, seit 2014 ist sie dort Art-Direktorin.Jasmin Müller-Stoy ist außerdem Art-Direktorin des unabhängigen Reisemagazins »Il Paradiso«. Im Gespräch erzählt sie uns, wie sie sich in ihrer Rolle als Art-Direktorin fühlt und wie sie Familie und be­ruflichen Erfolg miteinander vereinbart.
+
+----
+
+Interview: 
+
+- 
+  fid: f129
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Welche Aufgaben hast du beim
+    ZEITmagazin?
+  category: Spezifisch
+  antwort: 'JMS:&nbsp;Beim ZEITmagazin arbeite ich seit zehn Jahren, als Art-Direktorin seit Oktober 2014. Ich verantworte die Gestaltung in enger Zusammenarbeit mit dem Kreativdirektor <a href="http://bureauborsche.com/">Mirko Borsche</a>. Während Mirko aus seinem Münchner Büro heraus die große gestalterische Linie vorgibt, kümmere ich mich in der Redaktion um das tägliche Produzieren der wöchentlichen ZEITmagazine, aber auch der anderen Projekte, wie beispielsweise »ZEITmagazin MANN« oder »ZEITmagazin International«. Ich koordiniere die Grafik, lenke die Gestaltung, behalte den Gesamtüberblick und achte gleichzeitig darauf, dass alles bis ins kleinste Detail stimmig ist.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f130
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie setzt sich euer Team zusammen?
+  category: Arbeitsform
+  antwort: 'JMS:&nbsp;Mein Team besteht aus drei Grafiker_innen und zwei Praktikant_innen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f132
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Wie läuft die Entwicklung eines
+    ZEITmagazins ab?
+  category: Spezifisch
+  antwort: 'JMS:&nbsp;Es gibt ein wöchentliches Zusammenkommen der Chefredaktion, Bildredaktion, ein paar Redakteur_innen, mir und Mirko Borsche, der per Telefon dazugeschaltet wird. Wir gehen alle Themen durch und besprechen die visuelle Umsetzung. Es gibt dann zum Beispiel Fragen wie:&nbsp;Fotografie oder Illustration? Klassisch oder jung und provokativ? Ein wöchentlicher Umfangsplan gibt uns Informationen darüber, wie viel Platz wir zur Verfügung haben, abhängig von der Anzahl der Anzeigen. Dann entscheiden wir, welche Geschichten ins Heft kommen und beginnen die einzelnen Layouts zu entwickeln.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f133
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie hat sich eure Arbeit über die Jahre
+    entwickelt?
+  category: Gestaltung
+  antwort: 'JMS:&nbsp;Seit ich Art-Direktorin bin, habe ich mehr Verantwortung und bin stärker in redaktionelle Prozesse involviert. Ich kann meine visuellen Ideen und Wünsche einbringen und Fotograf_innen oder Illustrator_innen vorschlagen. Ich entwickle nur noch selten selbst Layouts. Eher prüfe ich Entwürfe darauf hin, ob sie funktionieren, lasse sie wenn nötig überarbeiten und stimme mich anschließend mit Mirko Borsche darüber ab.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f134
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Seht ihr es kritisch, durch die leitende
+    Position weniger zu gestalten?
+  category: Gestaltung
+  antwort: 'JMS:&nbsp;Meine Art Dinge zu sehen hat sich sehr verändert. Das ständige Ansehen und Beurteilen der Entwürfe übt mich darin, Layouts ganz anders zu betrachten. Ich muss die Gestaltung viel objektiver bewerten und einschätzen, ob sie zur Geschichte passt und gleichzeitig als Teil des Ganzen funktioniert. Das ist für mich immer noch ein kreativer Prozess. Es gefällt mir, dass ich nicht mehr nur an einzelnen Layouts arbeite, sondern dem ganzen Magazin eine Note geben kann.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f135
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Machst du noch eigene, freie
+    Gestaltungsprojekte?
+  category: Spezifisch
+  antwort: 'JMS:&nbsp;Leider komme ich aus zeitlichen Gründen wenig dazu. Gemeinsam mit <a href="http://andreaswellnitz.com/">Andreas Wellnitz</a> und <a href="http://www.freieredaktion.de/index.php?option=com_content&task=view&id=13&Itemid=13">Johanna Lühr</a> arbeite ich aber an »Il Paradiso«, einem unabhängigen Reisemagazin. Beruflich kommen wir alle aus dem redaktionellen Bereich und die Idee war es, ein Magazin zu machen, ohne den Druck oder die Regeln, die kommerzielle Magazine haben. Paradiso ist aus einer Leidenschaft heraus entstanden. Es funktioniert nur, weil wir aus unserem Freundeskreis und Netzwerk heraus Texte und Fotos bekommen. Es macht wahnsinnig viel Spaß, kostet aber auch viel Zeit und Energie. Dementsprechend lange lassen wir uns Zeit für die einzelnen Ausgaben.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f136
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Woraus zieht ihr Inspiration?
+  category: Inspiration
+  antwort: 'JMS:&nbsp;Vor allem aus dem Alltag, Ausstellungen, Filmen, Reisen. Ich blättere aber auch gern durch andere Magazine. Um Fotograf_innen oder Illustrator_innen für das Heft zu finden, schaue ich auch oft auf Instagram und versuche hier aus der visuellen Flut spannende Beiträge zu filtern.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f137
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was macht gute Gestaltung aus?
+  category: Haltung
+  antwort: 'JMS:&nbsp;Das hängt sehr von den Anforderungen ab. Die erste Frage, die man sich stellen sollte, ist, was mit der Gestaltung erreicht werden soll. Wen will man ansprechen, welche Stimmung will man vermitteln? Soll es informativ, lustig, unterhaltsam sein? Ich finde es spannend, wenn Sehgewohnheiten überrascht werden oder die Betrachter_innen herausgefordert werden, aber ebenso kann eine schlichte, klassische Gestaltung angemessen sein. Ich finde es falsch, sich auf einen Stil festzulegen, sondern sehe die Herausforderung darin, sich über diese Fragen für eine gestalterische Richtung zu entscheiden.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f138
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was bedeutet für euch Erfolg?
+  category: Erfolg
+  antwort: 'JMS:&nbsp;Beruflicher Erfolg bedeutet für mich, an interessanten Projekten mitarbeiten zu dürfen und eigene visuelle und inhaltliche Ideen einzubringen. Position oder Titel sind für mich weniger wichtig als die wirkliche Tätigkeit dahinter. Aber eine angemessene Bezahlung spielt natürlich schon eine Rolle. Ein großes Thema für mich ist die Ausgeglichenheit zwischen Beruf und Privatem. Sich in der Arbeit zu verwirklichen und gleichzeitig ein schönes Familienleben zu haben, das ist für mich der Inbegriff von persönlichem Erfolg.'
+  quote: >
+    Eine angemessene Bezahlung spielt
+    natürlich eine Rolle!
+  quoteauthor: ""
+- 
+  fid: f139
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was macht ihr, um abzuschalten?
+  category: Privatleben
+  antwort: 'JMS:&nbsp;Abschalten kann ich am besten, wenn ich Zeit mit meiner Familie und meinen Freund_innen verbringe. Ich bin kein Design-Nerd und beschäftige mich nicht in jeder freien Sekunde mit Gestaltung.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f140
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie organisiert ihr Familie und Beruf?
+  category: Privatleben
+  antwort: 'JMS:&nbsp;Ich habe das große Glück, dass mein Mann sich sehr involviert und wir die Kinderbetreuung zu gleichen Teilen übernehmen können. Wir machen beide unsere Jobs in der Intensität, in der wir es uns wünschen und haben trotzdem noch Zeit für die Kinder. Ich arbeite 32 Stunden die Woche, drei volle und zwei reduzierte Tage. Außerdem sind meine Ressortleiter bei familiären Angelegenheiten sehr entgegenkommend, das hilft natürlich auch.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f141
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Seid ihr in beruflichen Netzwerken
+    vertreten?
+  category: Sichtbarkeit
+  antwort: 'JMS:&nbsp;Ich bin generell eher ein zurückhaltender Typ und habe kein gesteigertes Mitteilungsbedürfnis. Instagram benutze ich zum Beispiel nur als rein berufliches Instrument. Um dort eine gewisse Präsenz zu zeigen, verweise ich regelmäßig auf Illustrator_innen und Fotograf_innen, mit denen wir zusammenarbeiten. Außerdem gehe ich gelegentlich auf Veranstaltungen der Branche, wie zum Beispiel zu den »Lead Awards«.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f142
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Arbeitet ihr bewusst an persönlichen
+    Schwächen?
+  category: Sichtbarkeit
+  antwort: 'JMS:&nbsp;Ich bin mir meiner Schwächen zwar bewusst, mache aber keine Coachings oder ähnliches. Woran ich mehr arbeiten muss, sind meine Arbeitsstrukturen. Ich merke immer wieder, dass ich manche Aufgaben abgeben muss, was gleichzeitig natürlich auch den Vorteil für meine Mitarbeiter_innen hat, dass sie eigenverantwortlicher arbeiten können.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f143
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Habt ihr je negative Erfahrungen
+    aufgrund eures Geschlechts gemacht?
+  category: Gleichstellung
+  antwort: 'JMS:&nbsp;Mir ist klar, dass es oft genug vorkommt, habe aber selber zum Glück nie bewusst Diskriminierung erlebt. Ob ich eventuell als Mann bei Gehaltsverhandlungen mehr herausholen hätte können, kann ich nicht beurteilen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f144
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie fühlt ihr euch damit,
+    Mitarbeiter_innen anzuleiten?
+  category: Prozesse
+  antwort: 'JMS:&nbsp;Als ich meine Stelle als Art-Direktion antrat, wollte ich unbedingt das nette kollegiale Verhältnis zu meinem Team aufrechterhalten. Von Anfang an war es mir wichtig, das Miteinander in den Fokus zu setzen und meine Mitarbeiter_innen in Entscheidungen einzubeziehen. Mir war klar, dass ich auf sie angewiesen sein würde, da ich nicht immer vor Ort wäre. Da ich vorher schon in ihrer Positionen gearbeitet hatte, konnte ich gut nachvollziehen, was sich meine Kolleg_innen wünschen und habe versucht, das zu berücksichtigen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f145
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie gleichberechtigt arbeiten wir heute?
+  category: Gleichstellung
+  antwort: |
+    JMS:&nbsp;Auf den ersten Blick geht es sowohl in meinem privaten als auch im beruflichen Umfeld ziemlich gleichberechtigt zu. Doch bei genauerer Betrachtung sind es natürlich auch in meinem Freundeskreis doch häufiger die Mütter, die sich mehr um die Kinder kümmern und auch bei uns in der Redaktion sitzen mehr Männer in den Chefpositionen.
+    Viele Männer treten laut und selbstbewusst auf, wohingegen Frauen häufig zurückhaltender agieren, bedingt durch gesellschaftliche Normen und Erziehung. Wenn Frauen sich heutzutage ähnlich in den Vordergrund spielen wie Männer, finde ich das zunächst oft irritierend. Gleichzeitig denke ich aber, dass es eigentlich ein gutes Zeichen für die Weiterentwicklung der Gleichberechtigung ist. Trotzdem finde ich es sympathischer, wenn Dinge mit einem gewissen Understatement passieren, egal ob bei einem Mann oder einer Frau. Ich bin in meine Stelle hineingewachsen, weil ich mein Umfeld auch ohne lautes Auftreten von meinen Fähigkeiten überzeugen konnte.
+    Für die Gleichberechtigung ist vor allem die Vereinbarkeit von Arbeit und Familie sehr wichtig. Hier kann sich gesellschaftlich noch viel tun. Länder wie Schweden zeigen, dass das gut funktionieren kann:&nbsp;dort ist es zum Beispiel völlig normal, dass nachmittags um vier keine Geschäftstermine stattfinden. Nicht jede Frau wünscht sich eine Familie, aber sollte sie diesen Wunsch haben, ist es natürlich auch hilfreich, einen Partner zu haben, der sie dabei unterstützt und zum Beispiel auch bereit ist, reduziert zu arbeiten. Einige Männer behaupten, dass sei in ihren Berufen oder Positionen nicht möglich, ich denke ihnen fehlt einfach der Wille.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f146
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: 'Was würdet ihr  jungen Designerinnen mit auf den Weg geben?'
+  category: Zukunft
+  antwort: 'JMS:&nbsp;Ich glaube, dass man jungen Designerinnen gar nicht mehr so viel mitgeben muss. Ihr Auftreten ist schon viel selbstbewusster, das kann man nur bestärken. Sie sollten ihren Träumen und Wünschen nachgehen, aber es schadet auch nicht, wenn sie wie ich am Anfang einen kleinen Umweg nehmen. Es muss nicht von Anfang an der Traumjob sein.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f147
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Welche beruflichen oder privaten Ziele
+    habt ihr?
+  category: Zukunft
+  antwort: 'JMS:&nbsp;Ich finde es toll, für ein Magazin zu arbeiten, das mich gestalterisch wie auch inhaltlich so begeistert. Es gibt kein anderes Magazin, für das ich lieber arbeiten würde. Durch die ständigen Entwicklungen gibt es auch dort immer neue Herausforderungen für mich. Aber es gibt außer der Arbeit noch viele andere wichtige Dinge im Leben, vor allem natürlich die Familie. Mein Ziel ist es, immer eine gelungene Balance zwischen meinem privaten und beruflichen Leben zu finden.'
+  quote: ""
+  quoteauthor: ""
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: Berlin, Deutschland
