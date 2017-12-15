@@ -174,7 +174,16 @@
 
     <li>
       <div id="language-button" class="nav-button">
-        <a class="button-title"><?php echo l::get('switch-language') ?></a>
+
+        <?php foreach($site->languages() as $language){   // loop trough array of available languages (see config.php)
+          if ($site->language() !== $language) {          // if an array element is not equal to the currently active language …
+          ?>
+            <a class="button-title" href="<?php echo $language->url() ?>"><?php echo $language->code() ?></a>
+          <?php
+          }
+        }
+        ?>
+
       </div>
     </li>
 

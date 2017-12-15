@@ -1192,6 +1192,10 @@ a.interviewee-title::before {
   }
 }
 
+.nav-container ul.nav li #language-button {
+  text-transform: uppercase;
+}
+
 .nav-container ul.nav li .nav-button {
   display: block;
 }

@@ -67,14 +67,14 @@ c::set('languages', array(
     'name'    => 'Deutsch',
     'default' => true,
     'locale'  => 'de_DE',
-    'url'     => '/'
+    'url'     => '/de'
   ),
   array(
     'code'    => 'en',
     'name'    => 'English',
     'locale'  => 'en_US',
-    'url'     => '/'
-  ),
+    'url'     => '/en'
+  )
 ));
 
 c::set('language.detect', true);

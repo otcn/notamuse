@@ -291,10 +291,12 @@ $(document).ready(function() {
     });
 
     // NAVIGATION: click >english<
+    /*
     $('#language-button').click(function() {
         alert('Sorry! English isn\'t available yet, but we are working on it!');
         closeMobileNav();
     });
+    */
 
     // INTRO: click answer-link to open related answer
     $('.js-intro-answer').click(function(event) {
