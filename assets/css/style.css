@@ -2218,8 +2218,8 @@ a.interviewee-title::before {
 }
 
 .nav-mobile-icon {
-  width: 19px;
-  height: 19px;
+  width: 5.4vw;
+  height: 5.4vw;
   position: absolute;
   bottom: 4.5vw;
   right: 4vw;
@@ -2238,7 +2238,7 @@ a.interviewee-title::before {
 .nav-mobile-icon span {
   display: block;
   position: absolute;
-  height: 3px;
+  height: 0.9vw;
   width: 100%;
   background: #000;
   opacity: 1;
@@ -2254,20 +2254,20 @@ a.interviewee-title::before {
 }
 
 .nav-mobile-icon span:nth-child(1) {
-  top: 0px;
+  top: 0vw;
 }
 
 .nav-mobile-icon span:nth-child(2),
 .nav-mobile-icon span:nth-child(3) {
-  top: 8px;
+  top: 2.25vw;
 }
 
 .nav-mobile-icon span:nth-child(4) {
-  top: 16px;
+  top: 4.5vw;
 }
 
 .nav-mobile-icon.open span:nth-child(1) {
-  top: 18px;
+  top: 2.25vw;
   width: 0%;
   left: 50%;
 }
@@ -2287,7 +2287,7 @@ a.interviewee-title::before {
 }
 
 .nav-mobile-icon.open span:nth-child(4) {
-  top: 18px;
+  top: 2.25vw;
   width: 0%;
   left: 50%;
 }
