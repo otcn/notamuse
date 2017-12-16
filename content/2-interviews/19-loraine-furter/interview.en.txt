@@ -115,9 +115,8 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Können unterschiedliche
-    Herangehensweisen bei Studierenden
-    beobachtet werden?
+    Are there differences in the way male
+    and female students work?
   category: Equality
   antwort: |
     LF:&nbsp;Well, it’s not like boys are working like this and girls are working like that; I don’t want to make this kind of general distinction. There are things you can notice, which are not only coming from arts education, but from how we have always been taught to do things. It is something sociological and for me it’s hard to point out specific differences. The ideal would be to not differentiate them based on their gender identity. Of course, I cannot ignore the fact that men were and are often more highlighted than women. I don’t want them to feel personally bad about it, but for things to change, they have to understand that they are privileged.
