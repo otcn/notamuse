@@ -13,6 +13,11 @@ options:
   url: false
 
 fields:
+    visibility:
+        label: Visibility
+        type: checkbox
+        text: Do you want the interview in the current language to be visible on the website?
+        default: true
     titlehead:
         label: Title
         type: headline

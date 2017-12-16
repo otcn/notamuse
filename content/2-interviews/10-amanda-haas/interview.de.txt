@@ -222,3 +222,7 @@ Studiotitle: Amanda Haas
 ----
 
 Residence: Berlin, Deutschland
+
+----
+
+Visibility: 1

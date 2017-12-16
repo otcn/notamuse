@@ -10,8 +10,9 @@
             <?php
             // create list of all categories that are actually in use (= attached to a question)
             $categories = array();
-            foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();}) as $interview) {
+            foreach($pages->find('interviews')->children()->visible()->filterBy('visibility', '!=', '0') as $interview) {
             // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
+            // "->filterBy('visibility', '!=', '0')" fetch files with the checkbox 'visibility' checked
                 foreach($interview->interview()->toStructure() as $frage) {
                     if($frage->category()->value() !== 'Spezifisch') {
                         array_push($categories, $frage->category()->value());

@@ -6,7 +6,7 @@ Title: Simone Koller & Corina Neuen&shy;schwander
 
 ----
 
-Titlenav: Simone Koller & Corina Neuenschwander, designers, Studio Noi
+Titlenav: Simone Koller & Corina Neuenschwander, Designerinnen, Studio Noi
 
 ----
 
@@ -22,7 +22,7 @@ Web: http://www.studio-noi.ch/
 
 ----
 
-Place: Zurich
+Place: Zürich
 
 ----
 
@@ -38,7 +38,7 @@ Interviewpartner: 1
 
 ----
 
-Introduction: After their diploma at ZHdK, and their master’s degree at Werkplaats Typografie in Arnheim, Simone Koller and Corina Neuenschwander gained some work experience both in agencies and as freelancers. They met again afterwards in Zurich to found Studio Noi in 2015. Their work ranges from art direction and editorial design to visual identities and digital applications in the fields of art, culture and commerce. In the interview they explain their approach towards design and why it is beneficial to work self-employed as a mother.
+Introduction: Nachdem sie nach ihrem Diplom an der ZHdK sowohl Erfahrung in Agenturen und als Free&shy;lancer gesammelt, als auch ihren Master an der Werkplaats Typografie in Arnheim absolviert hatten, trafen sich Simone Koller und Corina Neuenschwander in Zürich wieder und gründeten 2015 gemeinsam Studio Noi. Ihre Arbeiten reichen von Art-Direktion und Editorialdesign, hin zu visuellen Identitäten und digitalen Applikationen im künstlerischen, kulturellen und kommerziellen Bereich. Im Interview erläutern sie uns ihre gestalterische Herangehensweise und warum es von Vorteil ist, als Mutter selbstständig zu sein.
 
 ----
 
@@ -52,7 +52,7 @@ Interview:
     How do you typically work on your
     projects?
   category: Processes
-  antwort: 'SK:&nbsp;This depends on the size of the project. For the most part, we first discuss what it is all about, the most important questions, and exchange ideas. Then, each one does research and brainstorming and implements initial approaches. We give ourselves a clear time frame so that designing becomes something playful. Then we discuss our ideas and decide which directions might be interesting. In the case of smaller to medium-sized orders, one of us then implements and communicates, while the other provides advice. For large projects or long-term projects, we divide or work together. It is important that we represent each other at any time.'
+  antwort: 'SK:&nbsp;Das ist abhängig von der Größe des Projekts. Meistens besprechen wir zuerst zusammen worum es geht, was die wichtigsten Fragestellungen sind und tauschen erste Ideen aus. Dann macht jede einzeln Recherche und Brainstorming und setzt erste Ansätze um. Dabei geben wir uns einen klaren zeitlichen Rahmen vor, sodass das Entwerfen etwas Spielerisches bekommt. Danach besprechen wir unsere Ideen gemeinsam und entscheiden, welche Richtungen interessant sein könnten. Bei kleineren bis mittelgroßen Aufträgen macht dann eine von uns beiden die Umsetzung und die Kommunikation, während die andere beratend zur Seite steht. Bei großen Projekten oder solchen, die langfristig angelegt sind, teilen wir Bereiche auf oder arbeiten zusammen. Es ist wichtig, dass wir jederzeit füreinander einspringen können.'
   quote: ""
   quoteauthor: ""
 -
@@ -60,13 +60,13 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    How do you balance the conflict between
-    economic efficiency and your own demands
-    on the quality of design?
+    Wie geht ihr mit dem Konflikt zwischen
+    Wirtschaftlichkeit und dem eigenen
+    gestalterischen Anspruch um?
   category: Processes
   antwort: |
-    SK:&nbsp;It's important to be able to stand behind what is being published. Therefore, we always take the time to examine even details that the customer probably does not notice, but which are important to us. For orders with a detailed cost estimate, we check whether our effort is still within the scope. But there are also projects, for example publications, where we work with flat rates and do not pay attention to the hours. For this, we mostly have a greater creative freedom.
-    CN:&nbsp;As time goes by, you eventually get better with judging your own efforts and make realistic offers. For this reason, we began to measure our working hours and are able to draw conclusions after each project. By doing so, we see whether we have underestimated certain work steps or have neglected them in our calculations
+    SK:&nbsp;Uns ist wichtig, hinter dem stehen zu können, was rausgeht. Deshalb nehmen wir uns immer die Zeit, die etwas braucht, und prüfen auch Details, die den Kund_innen vermutlich nicht auffallen, uns aber wichtig sind. Bei Aufträgen, die mit einem detaillierten Kostenvoranschlag verbunden sind, schauen wir, ob unser Aufwand noch im Rahmen liegt. Es gibt aber auch Projekte, wie beispielsweise Publikationen, bei denen wir mit Pauschalen arbeiten und nicht besonders auf die Stunden achten. Dafür haben wir da meistens eine größere gestalterische Freiheit.
+    CN:&nbsp;Mit der Zeit wird man zum Glück besser darin, den eigenen Aufwand einzuschätzen und realistische Angebote zu machen. Aus diesem Grund haben wir begonnen, unsere Arbeitszeit zu messen und nach jedem Projekt ein Fazit zu ziehen. So sehen wir zum Beispiel, ob wir gewisse Arbeitsschritte unterschätzt oder in der Kalkulation vergessen haben.
   quote: ""
   quoteauthor: ""
 -
@@ -76,11 +76,11 @@ Interview:
   frage: Do you actively go on acquisition?
   category: Processes
   antwort: |
-    CN:&nbsp;We had rare success with active acquisition. We find it much more effective to keep in touch with people and to communicate with others. Not only because we hope for jobs, but because we are interested in what is happening around us and what concerns others. In addition, we also occasionally work on self-initiated projects and organize workshops. With these projects, we are creating a network that creates new orders from areas that we find exciting.
-    SK:&nbsp;We are rather active and by that, visible. This also helps us to expand our competencies and to play a more active role in contracting. We like to collaborate with people in whom the customer-service relationship is not so important, and with whom we can communicate openly.
+    CN:&nbsp;Mit bewusster Akquise hatten wir bis jetzt selten Success. Viel wirksamer finden wir, mit Leuten in Kontakt zu bleiben und uns auszutauschen. Nicht nur, weil wir uns davon Jobs erhoffen, sondern weil wir uns dafür interessieren, was um uns geschieht und womit sich andere beschäftigen. Daneben arbeiten wir ab und zu auch an selbst initiierten Projekten und organisieren Workshops. Mit diesen Projekten schaffen wir uns ein Netzwerk, das Aufträge aus Bereichen bringt, die wir spannend finden.
+    SK:&nbsp;Wir sind lieber selbst aktiv und dadurch sichtbar. Das hilft uns auch dabei, unsere Kompetenzen zu erweitern und in Auftragsverhältnissen eine aktivere Rolle einnehmen zu können. Wir kollaborieren gerne mit Leuten, bei denen die Kund_in-Dienstleister_in-Beziehung nicht so im Vordergrund steht und mit denen wir offen kommunizieren können.
   quote: >
-    We are rather active and by that,
-    visible.
+    Wir sind lieber selbst aktiv und dadurch
+    sichtbar.
   quoteauthor: Simone Koller
 -
   fid: f52
@@ -89,10 +89,11 @@ Interview:
   frage: What does your design process look like?
   category: Design
   antwort: |
-    SK:&nbsp;That is extremely different. We work more conceptually and content-based. We are not necessarily the right graphic artist when it comes to making a »cool poster«—we can not do that very well. We need an interesting topic, we like to work with existing image material and, for example, go into archives or develop an image concept with photographers. Editing has high priority.
-    CN:&nbsp;For »Swiss Films«, we have suggested, for example, that instead of working with film images to use language. A strong concept, which can be further developed, interests us more than a beautiful surface on which one can build nothing.
-    SK:&nbsp;That does not mean we do not appreciate the beautiful surfaces—on the contrary. But for us, the discussion of a concrete subject always comes first, after which form comes into play. Intuition also plays a role. In the case of publications, for example, we often ask ourselves what feelings we want to convey. What character would the book have if it were a person? Is it accessible, it is rather complicated, is it stubborn, is it playful? We also pay attention not to be constantly sitting in front of the screen, but to sketch first ideas by hand, to print something and to hang on the wall, with scissors and paper ... This change between analog and digital helps us not to get lost in something unimportant.
-    CN:&nbsp;Basically, I rather do a lot of drafts, while Simone is pretty fast on an idea and continues to follow it. This is how we complement each other:&nbsp;the one tries out more, the other is more detailed. As a result, we usually find a common vision.
+    SK:&nbsp;Das ist extrem unterschiedlich. Wir arbeiten eher konzeptuell und inhaltsbasiert. Wir sind nicht unbedingt die geeigneten Grafikerinnen, wenn es darum geht, ein »geiles Plakat« zu machen – das können wir nicht besonders gut. Wir brauchen ein interessantes Thema, arbeiten gerne mit bestehendem Bildmaterial und gehen zum Beispiel in Archive oder entwickeln mit Fotograf_innen ein Bildkonzept. Editing hat einen hohen Stellenwert.
+    CN:&nbsp;Für »Swiss Films« haben wir beispielsweise vorgeschlagen, anstatt mit Filmbildern mit Sprache zu arbeiten. Ein starkes Konzept, das sich weiterentwickeln lässt, interessiert uns mehr als eine schöne Oberfläche, auf der man nichts aufbauen kann.
+    SK:&nbsp;Das heißt nicht, dass wir die schönen Oberflächen nicht schätzen – im Gegenteil. Doch für uns kommt die Auseinandersetzung mit einem konkreten Thema immer an erster Stelle, erst danach kommt die Form ins Spiel. Dabei spielt auch Intuition eine Rolle. Bei Publikationen stellen wir uns zum Beispiel oft die Frage, welches Gefühl wir vermitteln wollen. Welchen Charakter hätte das Buch, wenn es eine Person wäre? Ist es zugänglich, ist es eher kompliziert, ist es störrisch, ist es verspielt?
+    Außerdem achten wir darauf, nicht ständig vor dem Bildschirm zu sitzen, sondern erste Ideen auch mal von Hand zu skizzieren, immer wieder mal etwas auszudrucken und an die Wand zu hängen, mit Schere und Papier zu arbeiten … Dieser Wechsel zwischen analog und digital hilft, sich nicht in Belanglosem zu verlieren.
+    CN:&nbsp;Grundsätzlich mache ich eher viele Entwürfe, während Simone ziemlich schnell auf eine Idee setzt und diese weiter vSuccesst. So ergänzen wir uns gut:&nbsp;Die eine probiert mehr aus, die andere geht mehr ins Detail. Dadurch finden wir meistens zu einer gemeinsamen Vision.
   quote: ""
   quoteauthor: ""
 -
@@ -100,24 +101,23 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Do you try to involve new approaches
-    into your work or rather rely on what
-    you already know?
+    Probiert ihr viel Neues oder verlasst
+    ihr euch auf das, was ihr könnt?
   category: Design
   antwort: |
-    SK:&nbsp;Of course, we try to make any work look different or works in a different way. At the same time, we have a certain approach to design, since it is difficult to completely reinvent each project. The time at Werkplaats Typografie was very good, because we have learned to separate ourselves from safe solutions. One should dare more, experiment and not only design things that trigger a feeling of well-being and repeat what is already familiar. Concerning this, we could certainly be much more radical. At the same time, it is important to us that design makes sense, is readable, so that the form does not function over the function. Often, it is a struggle between radicality, consistency and readability.
-    CN:&nbsp;We are always trying to express new things about materiality and experiment a lot in this area. Our sources are our archives, which we put together when we found the office. We look at many things:&nbsp;their texture, how something is bound, different printing techniques.
+    SK:&nbsp;Wir bemühen uns natürlich, dass jede Arbeit anders aussieht oder funktioniert. Gleichzeitig haben wir eine bestimmte Herangehensweise an Design, da ist es schwierig, sich mit jedem Projekt komplett neu zu erfinden. Die Zeit am Werkplaats Typografie war sehr gut, weil wir gelernt haben, uns von sicheren Lösungen zu trennen. Man sollte mehr wagen, experimentieren und nicht nur Sachen entwerfen, die ein Wohligkeitsgefühl auslösen und formal allzu Bekanntes wiederholen. Was das betrifft, könnten wir bestimmt noch viel radikaler sein. Gleichzeitig ist uns wichtig, dass Design Sinn macht, lesbar ist, sich die Form also nicht über die Funktion stellt. Oft ist es ein Ringen wir zwischen Radikalität, Konsequenz und Lesbarkeit.
+    CN:&nbsp;Wir versuchen immer wieder, Neues über Materialität auszudrücken und experimentieren viel in diesem Bereich. Unsere Quelle hierfür sind unsere Archive, die wir zusammengelegt haben, als wir das Büro gründeten. Wir gucken uns viele Sachen an:&nbsp;ihre Beschaffenheit, wie etwas gebunden ist, verschiedene Drucktechniken.
   quote: ""
   quoteauthor: ""
 -
   fid: f54
   spezialfrage: "0"
   vorfrage: ""
-  frage: What inspires you?
+  frage: Woraus zieht ihr Inspiration?
   category: Inspiration
   antwort: |
-    CN:&nbsp;We're not the ones who know all the graphic design blogs. I get my inspiration from my environment, from art, architecture or traveling. And also from the everyday life. Sometimes, at first glance, there seems to be something insignificant to me that can suddenly lead to a project.
-    SK:&nbsp;The inspiration certainly does not arise in front of the computer. That is why we try to keep our working days as short as possible and to have enough time for leisure activities. Visiting exhibitions, going to the theater ... A lot of ideas come from reading, something I find exciting and that inspires me. When we brainstorm, we also go to the mountains.
+    CN:&nbsp;Wir sind nicht die, die alle Grafikdesignblogs kennen. Ich hole meine Inspiration mehr aus dem Umfeld, in dem ich mich bewege, aus Kunst, Architektur oder auf Reisen. Und auch aus dem Alltäglichen. Manchmal fällt mir etwas auf den ersten Blick Unscheinbares auf, durch das plötzlich ein Bezug zu einem Projekt entstehen kann.
+    SK:&nbsp;Die Inspiration entsteht sicherlich nicht vor dem Computer. Deshalb versuchen wir unsere Arbeitstage möglichst kurz zu halten und genug nebenbei zu machen. Ausstellungen besuchen, ins Theater gehen … Vieles kommt beim Lesen, etwas das ich spannend finde und das meine Gedanken in Bewegung bringt. Wenn wir brainstormen, fahren wir auch mal in die Berge, um den Kopf wieder frei zu bekommen.
   quote: ""
   quoteauthor: ""
 -
@@ -125,12 +125,13 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Do you see an artistic mission in your
-    work or is design rather a service?
+    Seht ihr einen künstlerischen Auftrag
+    in eurer Arbeit oder steht die
+    Dienstleistung im Vordergrund?
   category: Approach
   antwort: |
-    CN:&nbsp;We do not see ourselves as pure service providers. It is important to us that we are not only an executive force, but also develop a solution together with the customer. We question ourselves a lot and are very involved. For example, we often work with different material than what was provided to us at the beginning of a project. It also happened that we found a publication unnecessary and suggested something else.
-    SK:&nbsp;There are graphic artists whose work resembles art. For artists' publications, for example, the graphic artist's contribution is sometimes so large that he becomes a co-author. Many artists question conventions, animate to re-read what is known, or challenge our perception. What we do is not that different. Nevertheless, I would not describe myself as an artist.
+    CN:&nbsp;Wir sehen uns nicht als reine Dienstleisterinnen. Es ist uns wichtig, dass wir nicht nur eine ausführende Kraft sind, sondern zusammen mit den Kund_innen eine Lösung entwickeln. Wir hinterfragen sehr viel und involvieren uns stark. Oft arbeiten wir zum Beispiel mit ganz anderem Material, als dem, was uns zu Beginn eines Projekts zur Verfügung gestellt wurde. Es kam auch schon vor, dass wir eine Publikation unnötig fanden und etwas anderes vorschlugen.
+    SK:&nbsp;Es gibt durchaus Grafiker_innen, deren Arbeitsweise in Richtung Kunst geht. Bei Künstler_innenpublikationen zum Beispiel ist der Beitrag der Grafiker_innen teilweise so groß, dass sie zu Co-Autor_innen werden. Viele Künstler_innen hinterfragen ja Konventionen, animieren dazu, scheinbar Bekanntes neu zu lesen oder fordern unsere Wahrnehmung heraus. Das was wir machen, ist davon nicht immer weit entfernt. Trotzdem würde ich mich nicht als Künstlerin bezeichnen.
   quote: ""
   quoteauthor: ""
 -
@@ -142,8 +143,8 @@ Interview:
     personally?
   category: Success
   antwort: |
-    CN:&nbsp;For us success means that we can work independently and pay a regular salary from which we can make social security taxes. And that many of our customers want to cooperate with us again and again, so that through the work accomplished, we are always generating new orders.
-    SK:&nbsp;In our profession success cannot be equated with financial success. We will never achieve financial success in standards as usual in Switzerland, no matter how successful we are as graphic artists—unless we were employed as art directors in an agency. What is more important is that we can work on exciting projects, are our own bosses, can allocate our time ourselves and take a day off whenever we want to. At the same time, of course, we are also fully responsible for the work getting done, the business running and we are able to pay the bills at the end of the month.
+    CN:&nbsp;Für uns bedeutet Success, dass wir selbstbestimmt arbeiten und uns einen regelmäßigen Lohn auszahlen können, von dem wir Sozialabgaben leisten können. Und dass viele unserer Kund_innen immer wieder mit uns zusammenarbeiten möchten, sich durch die geleistete Arbeit also immer wieder neue Aufträge generieren.
+    SK:&nbsp;Bei unserem Beruf kann man Success nicht mit finanziellem Success gleichstellen. Finanziellen Success in Maßstäben, wie sie in der Schweiz üblich sind, werden wir nie erreichen, egal wie Successreich wir als Grafikerinnen sind – außer wir wären in einer Agentur als Art-Direktorin angestellt. Was für uns persönlich mehr zählt:&nbsp;Wir können an spannenden Projekten arbeiten, sind unsere eigenen Chefinnen, können unsere Zeit selber einteilen und uns auch mal einen Tag freinehmen. Gleichzeitig tragen wir natürlich auch die volle Verantwortung dafür, dass die Arbeit gemacht wird, das Geschäft läuft und wir fähig sind, am Ende des Monats die Rechnungen zu bezahlen.
   quote: ""
   quoteauthor: ""
 -
@@ -151,12 +152,12 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    How important is public attention to
-    you?
+    Wie wichtig ist euch öffentliche
+    Aufmerksamkeit?
   category: Visibility
   antwort: |
-    SK:&nbsp;We do not have time to actively work on our public appearance. At the beginning of our collaboration, we were fortunate enough to receive a lot of commissions that reached a wide public, such as the catalog of the most beautiful Swiss books. At the same time, we were able to draw attention to our new studio.
-    CN:&nbsp;We do not post something new every day on our Instagram account. I personally, I am not a great fan of self-marketing. Our active achievement is to deliver a lecture from time to time. At this point, we enjoy talking about our work. We find it important to be a role model.
+    CN:&nbsp;Wir arbeiten nicht besonders aktiv an unserem öffentlichen Auftritt, dafür fehlt uns im Moment leider die Zeit. Zu Beginn unserer Zusammenarbeit hatten wir das Glück, dass wir viele Aufträge erhalten haben, die eine breite Öffentlichkeit erreichten, wie zum Beispiel den Katalog der Schönsten Schweizer Bücher. So konnten wir gleichzeitig auf unser neues Studio aufmerksam machen.
+    SK:&nbsp;Wir posten nicht jeden Tag etwas Neues auf unserem Instagram-Account. Mir persönlich geht es etwas gegen den Strich mich selbst zu bewerben. Unsere aktive Leistung ist es eher, ab und zu einen Vortrag zu halten und zu unterrichten. An dieser Stelle erscheint es uns sinnvoll, dann sprechen wir gerne über unsere Arbeit. Wir finden es wichtig, eine Vorbildfunktion einzunehmen.
   quote: ""
   quoteauthor: ""
 -
@@ -164,12 +165,12 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Are you represented in any professional
-    networks?
+    Seid ihr in beruflichen Netzwerken
+    vertreten?
   category: Visibility
   antwort: |
-    CN:&nbsp;We are in contact with a lot of friends, but we are not in any association.
-    SK:&nbsp;The word »network« for me is rather negatively connoted. As if you only wanted to make contact with people from whom you hoped to gain an advantage. But in fact, such initiatives are great to get to know each other and exchange—especially if you are not in the privileged position to have many contacts.
+    CN:&nbsp;Wir sind viel im Austausch mit Freund_innen, aber wir sind in keinem Verband.
+    SK:&nbsp;Das Wort »Netzwerk« ist für mich eher negativ konnotiert. Als ob man nur Kontakt zu Leuten suchen würde, von denen man sich einen Vorteil erhofft. Aber eigentlich sind solche Initiativen toll, um sich gegenseitig kennenzulernen und auszutauschen – gerade wenn man nicht in der privilegierten Position ist, bereits viele Kontakte zu haben.
   quote: ""
   quoteauthor: ""
 -
@@ -182,8 +183,8 @@ Interview:
     your sex?
   category: Equality
   antwort: |
-    CN:&nbsp;I do not think this issue plays a particularly important role in the area in which we work. Often we are also asked because we are a women's office.
-    SK:&nbsp;I think it depends very much on your own appearance. If you have a certain experience, impart competence and don't get intimidated too easily, you are usually taken seriously. This is at least my experience. At the national level, however, we are much less advanced in Switzerland as we should be:&nbsp;women still deserve less for the same work. I recently read that 60% of women work part-time, but only 13% of men. That such stark differences between the sexes still exist, annoys me.
+    CN:&nbsp;Ich denke diese Thematik spielt in dem Bereich, in dem wir arbeiten, keine besonders große Rolle. Oft werden wir auch angefragt, weil wir ein Frauenbüro sind.
+    SK:&nbsp;Ich denke, es kommt sehr stark auf das eigene Auftreten an. Wenn man eine gewisse Erfahrung hat, Kompetenz vermittelt und sich nicht einschüchtern lässt, wird man normalerweise ernst genommen. Das ist zumindest meine Erfahrung. Auf nationaler Ebene hingegen sind wir hier in der Schweiz noch lange nicht so weit, wie wir sein sollten:&nbsp;Frauen verdienen noch immer weniger für dieselbe Arbeit. Letztens habe ich gelesen, dass 60% der Frauen Teilzeit arbeiten, aber nur 13% der Männer. Dass solche krassen Unterschiede zwischen den Geschlechtern noch immer bestehen, ärgert mich.
   quote: ""
   quoteauthor: ""
 -
@@ -191,11 +192,12 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Do men and women differ in the way they
-    work and are they different to work
-    with?
+    Unterscheiden sich Männer und Frauen in
+    ihrer Arbeitsweise und ist die
+    Zusammenarbeit mit ihnen
+    unterschiedlich?
   category: Equality
-  antwort: 'SK:&nbsp;I do not think you can say that in general. When you look at works, you cannot really tell whether they were made by a man or a woman. It is possible that women are more conscientious and are more likely to stick to agreed terms—but that can not be generalized, it is rather type-dependent.'
+  antwort: 'SK:&nbsp;Ich glaube nicht, dass man das so pauschal sagen kann. Wenn man Arbeiten betrachtet, lässt sich nicht wirklich unterscheiden, ob sie von einem Mann oder einer Frau gemacht wurden. Womöglich sind Frauen etwas gewissenhafter und halten sich eher an Abmachungen – aber auch das kann man nicht generalisieren, das ist vielmehr typabhängig.'
   quote: ""
   quoteauthor: ""
 -
@@ -203,23 +205,23 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Does family planning affect your
-    self-employment?
-  category: Private life
+    Beeinflusst die Familienplanung eure
+    Selbstständigkeit?
+  category: Private Life
   antwort: |
-    CN:&nbsp;We've noticed that many graphic designers who are hired receive less responsibility as soon as they become a mother and no longer work full-time. If you are self-employed as an individual, it is harder to intercept failures. Family planning was therefore one of the reasons why we joined together:&nbsp;we can support each other and continue to work on interesting assignments, even if one of us is in maternity leave.
-    SK:&nbsp;Over the last couple of months, we both have been getting a child one after the other. Together with an employee, the first one, then the other of us, threw the shop. Now we both work again, but not quite full-time, but would like to achieve as much as before. That is why we have a staff member who supports us. One reason for our success is also that we both have partners working part-time and who are equally involved in childcare and the household.
+    CN:&nbsp;Wir haben beobachtet, dass viele Grafikerinnen, die angestellt sind, weniger Verantwortung erhalten, sobald sie Mütter werden und nicht mehr Vollzeit arbeiten. Wenn man als Einzelperson selbständig ist, ist es schwieriger, Ausfälle aufzufangen. Familienplanung war daher einer der Gründe, warum wir uns zusammengeschlossen haben:&nbsp;So können wir uns gegenseitig unterstützen und weiterhin an interessanten Aufträgen arbeiten, auch wenn eine von uns mal im Mutterschaftsurlaub ist.
+    SK:&nbsp;Im Laufe der letzten paar Monate haben wir beide relativ kurz hintereinander ein Kind bekommen. Zusammen mit einer Mitarbeiterin hat zuerst die eine, dann die andere von uns den Laden geschmissen. Jetzt arbeiten wir beide wieder, aber nicht ganz Vollzeit, und möchten etwa genauso viel Arbeit leisten wie zuvor. Deswegen haben wir weiterhin eine Mitarbeiterin, die uns unterstützt. Dass wir das bis jetzt so gut hingekriegt haben, liegt auch daran, dass wir beide Partner haben, die Teilzeit arbeiten und sich genauso um Kinderbetreuung und Haushalt kümmern wie wir.
   quote: ""
   quoteauthor: ""
 -
   fid: f62
   spezialfrage: "1"
   vorfrage: ""
-  frage: Do you want to grow with the office?
+  frage: Wollt ihr mit dem Büro noch wachsen?
   category: Spezifisch
   antwort: |
-    SK:&nbsp;We want to stay small. The bigger our studio, the more we would only care for employees, and we would have to worry about getting enough orders. We do not want that. It is important to us that we can design a lot—but of course it can also change.
-    CN:&nbsp;We do not want many employees. We do not want to bear such a great financial responsibility, but rather remain creative and free.
+    SK:&nbsp;Wir möchten klein bleiben. Je größer unser Studio wäre, desto mehr würden wir nur noch Angestellte betreuen und müssten uns darum sorgen, genug Aufträge reinzuholen. Das möchten wir nicht. Uns ist es wichtig, dass wir selbst viel gestalten können, aber natürlich kann sich das auch irgendwann ändern.
+    CN:&nbsp;Wir wollen auf keinen Fall viele Angestellte. Wir möchten nicht so eine große finanzielle Verantwortung tragen, sondern bleiben lieber kreativ und frei.
   quote: ""
   quoteauthor: ""
 -
@@ -231,16 +233,14 @@ Interview:
     female designers?
   category: Future
   antwort: |
-    SK:&nbsp;Do not understand yourself as competitors. Exchange, support yourselves, and join together.
-    CN:&nbsp;Follow your interests and goals—a lot is possible if you really want it.
-  quote: >
-    Do not understand yourself as
-    competitors.
+    SK:&nbsp;Versteht euch nicht als Konkurrentinnen. Tauscht euch aus, unterstützt euch, schließt euch zusammen!
+    CN:&nbsp;VSuccesst eure Interessen und Ziele – vieles ist möglich, wenn man es wirklich will.
+  quote: Versteht euch nicht als Konkurrentinnen.
   quoteauthor: Simone Koller
 
 ----
 
-Studiotitle: Studio Noi
+Studiotitle: Simone Koller & Corina Neuenschwander, Studio Noi
 
 ----
 
@@ -248,4 +248,8 @@ Interviewimagecredits:
 
 ----
 
-Residence: Zurich, Switzerland
+Residence: Zürich, Schweiz
+
+----
+
+Visibility: 1

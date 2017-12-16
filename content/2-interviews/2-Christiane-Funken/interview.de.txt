@@ -244,3 +244,7 @@ Studiotitle:
 ----
 
 Residence: Berlin, Deutschland
+
+----
+
+Visibility: 1

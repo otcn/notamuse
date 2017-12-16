@@ -236,3 +236,7 @@ Studiotitle:
 ----
 
 Residence: Zürich, Schweiz
+
+----
+
+Visibility: 1

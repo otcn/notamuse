@@ -1,0 +1,259 @@
+Titlehead: 
+
+----
+
+Title: Yvonne Rundio
+
+----
+
+Titlenav: Yvonne Rundio, Designerin und Netzwerkgründerin
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: yvonne_rundio.jpg
+
+----
+
+Web: http://www.andshewaslikebam.de
+
+----
+
+Place: Köln
+
+----
+
+Date: 2017-02-02
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: Neben ihrer Selbstständigkeit als Kommunikationsdesignerin setzt sich die Kölnerin Yvonne Rundio intensiv für einen Austausch und die gegenseitige Unterstützung von Frauen ein. 2015 gründete sie zusammen mit Freundinnen And She Was Like:&nbsp;BÄM!, eine Initiative junger Frauen aus Kunst und Design, die sich an den Gleichstellungsprozessen in Beruf und Gesellschaft beteiligt. Zusätzlich betreut sie das Format »Ladies, Wine & Design« in Köln, eine von Jessica Walsh initiierte Veranstaltungsreihe für Frauen aus der Designbranche. Im Gespräch betont sie die Notwendigkeit von Netzwerken und erklärt, wie wichtig die öffentliche Sichtbarkeit von Frauen im Grafikdesign ist.
+
+----
+
+Interview: 
+
+- 
+  fid: f286
+  spezialfrage: "1"
+  vorfrage: 'Du hast 2015 And She Was Like:&nbsp;BÄM! mitgegründet.'
+  frage: >
+    Was war deine Motivation, dich privat
+    und beruflich zu engagieren?
+  category: Spezifisch
+  antwort: |
+    YR:&nbsp;<a href="http://andshewaslikebam.de/">BÄM!</a> habe ich zusammen mit <a href="http://www.lisapommerenke.de/">Lisa Pommerenke</a> und <a href="http://www.lisa-long.com/">Lisa Long</a> gegründet, später kamen Luise Pilz und Leonie Pfennig dazu. Wir arbeiten alle im künstlerischen oder grafischen Bereich. In Gesprächen haben wir festgestellt, dass die Themen Gleichstellung, Austausch und Netzwerken zu wenig behandelt werden und wir uns damit auseinandersetzen wollen. Im Sommer 2015 haben wir etwa 20 Frauen aus der Kunstszene zu einem ersten Dinner eingeladen. Dort haben wir einen Vortrag über die ungleichen Geschlechterverhältnisse in Kunstinstitutionen gehalten, aus dem eine vielfältige Diskussion entstand:&nbsp;Vom Teilen eigener Erfahrungen, über Mütter, die das Thema Vereinbarkeit von Beruf und Familie einbrachten, bis zu Stimmen, die Feminismus und Chancengleichheit als irrelevant für sich erachteten.
+    Besonders Unterschiede beim Ausgang von Gehaltsverhandlungen von Frauen und Männern oder die als Last empfundene Suche nach einer Vertretung in der Mutterschaft sprechen nicht für die faire Behandlung von Frauen. Ungerechtigkeiten dieser Art waren mein persönlicher Anstoß mich selbst zu engagieren.
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f287
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: Wie ladet ihr zu den BÄM!-Treffen ein?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Nach dem ersten Dinner wollten wir die Treffen unbedingt weiterführen. Deswegen haben wir einen monatlich stattfindenden Stammtisch eingeführt, der als Plattform zum Austausch, Vernetzen und Diskutieren enormen Zuspruch erfährt. Dazu laden wir die Frauen über unseren Mailverteiler ein und fordern dazu auf, weitere interessierte Frauen mitzubringen. Innerhalb des Stammtisches ist es uns wichtig, einen geschlossenen, vertrauensvollen Raum zu haben. Natürlich wollen wir Männer nicht ausschließen, schließlich gilt Chancengleichheit für alle Geschlechter. Deshalb veranstalten wir zum einen den Stammtisch, der exklusiv für Frauen ist, und zum anderen die Talks, die für jede/n zugänglich sind. Wir freuen uns über jede/n, die/der an unserer Diskussion teilhaben möchte.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f288
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Wie ist der aktuelle Stand der
+    BÄM!-Onlineplattform?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Auf unserer Website informieren wir über uns und unsere Veranstaltungen. Da wir ehrenamtlich arbeiten, hat es eine Weile gedauert bis unsere Website online ging. Uns ist der Austausch und die Sichtbarkeit von Frauen wichtig und wir glauben, dass wir uns gegenseitig unterstützen und voranbringen können. Eine Idee, die wir aus diesem Grund online umsetzen wollen, ist eine Plattform, auf der wir den Frauen die Möglichkeit bieten, sich und ihre Arbeit vorzustellen, worüber sich Kooperationen bilden und gemeinsame Projekte entstehen sollen. Wir bekommen immer wieder Anfragen, ob wir Frauen für bestimmte Projekte kennen. Ebenso haben sich über unsere Treffen schon Künstlerinnen, Kuratorinnen und Designerinnen für gemeinsame Projekte gefunden. Diskussionen und Themen, die uns bewegen, sollen einen Platz auf dieser Plattform finden.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f289
+  spezialfrage: "1"
+  vorfrage: Das klingt spannend!
+  frage: Wie finanziert ihr BÄM!?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Wir werden vom Kulturamt der Stadt Köln und dem Ministerium für Familien, Kinder, Jugend, Kultur und Sport des Landes Nordrhein-Westfalen in Kooperation mit dem Frauenkulturbüro NRW gefördert. Ein Projekt, wie die Plattform können wir nicht allein umsetzen, dafür brauchen wir Unterstützung. Außerdem haben wir im Mai das Stammtisch-Format um eine Abendschule erweitert und laden nun auch Gäste ein, die über ein Thema rund um Feminismus, Sichtbarkeit und Austausch referieren, einen Workshop halten oder einen Film zeigen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f290
+  spezialfrage: "1"
+  vorfrage: 'Ladies, Wine & Design (LWD) ist ein Projekt, das Jessica Walsh in New York ins Leben gerufen hat. Du organisiert die Treffen in Köln.'
+  frage: >
+    Wieso hast du ein weiteres Netzwerk
+    gestartet?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Mit BÄM! bewegten wir uns anfangs stark im künstlerischen Raum, ich sehe meinen Schwerpunkt klar im Design. Ich habe mich intensiv mit meiner persönlichen Weiterentwicklung als Designerin auseinandergesetzt und mit anderen Designerinnen darüber gesprochen. Dabei stellte ich fest, dass ich einen noch intensiveren Austausch mit Designerinnen möchte, auch über Köln und NRW hinaus, und habe begonnen zu recherchieren. So habe ich <a href="http://ladieswinedesign.com/">LWD</a> entdeckt! Das Format ist so ausgelegt, dass Designerinnen in Städten weltweit mit ihrem eigenen Salonabend starten können. In Deutschland gab es zu dem Zeitpunkt nur Treffen in Berlin und Frankfurt. Ich habe <a href="https://sagmeisterwalsh.com/">Jessica Walsh</a> kontaktiert und LWD in Köln gestartet.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f291
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: 'Wie kann Ladies, Wine & Design in der eigenen Stadt gestartet werden?'
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Jessica Walshs Büro hilft beim Start mit dem Zugang und der Einrichtung der Website, sowie Tipps für die Umsetzung des Formats. Die Termine kann jede selbst festlegen. Ich habe mich sehr an das ursprüngliche Konzept gehalten, mit dem Jessica in New York angefangen hat:&nbsp;sechs Frauen einzuladen und sich zuhause im kleinen Kreis zu treffen. Es gibt aber auch Gruppen, die sich in größerer Runde in Cafés und Restaurants treffen, in Studios verschiedener Designerinnen, oder die Treffen mit öffentlichen Vorträgen kombinieren. Das ist jeder Designerin selbst überlassen!'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f292
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: 'Wen lädst du zu Ladies, Wine & Design-Treffen ein?'
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Zu Beginn habe ich befreundete Designerinnen angeschrieben, ihnen von <a href="http://ladieswinedesign.com/">LWD</a> erzählt und sie dazu eingeladen. Außerdem poste ich die Abende auf Facebook und fordere zum Teilen und Weitersagen auf. Interessanterweise kenne ich nicht immer alle Frauen, meistens nur eine oder zwei, aber untereinander kennen sich doch meist alle.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f293
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Entwickelst du die Themen selbst oder
+    gibt es Themenvorschläge von Jessica
+    Walsh?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;<a href="https://sagmeisterwalsh.com/">Jessica</a> hat das komplette erste Jahr mit Themen vorgeplant. Das habe ich mir angeschaut und die ersten Themen ausgewählt. Dann überlegte ich, was ich interessant fände und was sich aus den Gesprächen mit den anderen ergibt. Gerade habe ich mit den Frauen, die bisher dabei waren, eine kleine Umfrage gestartet, ein paar Themenvorschläge in die Runde geworfen und sie nach Feedback gefragt. Worauf habt ihr Lust? Über welches Thema wollt ihr sprechen? Ich habe LWD zwar gestartet, aber mir ist sehr wichtig, was die anderen Designerinnen interessiert.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f294
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Wie können sich Designerinnen allgemein
+    besser vernetzen?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Ich halte es für sinnvoll, erst einmal Ausschau zu halten, welche Netzwerke es bereits gibt. Über Google und Facebook findet man einige kreative Frauennetzwerke. Was ich auch sehr gut finde, sind Mastermind-Gruppen. Die kann jede Designerin mit Freund_innen starten. Man trifft sich in kleiner Runde in regelmäßigen Abständen und jede/r referiert in einer festgelegten Zeit zu einem bestimmten Projekt oder einer konkreten Fragestellung und erhält direkt Feedback aus der Gruppe. Das ist sozusagen die kleine Form eines Netzwerks. Dieses Prinzip funktioniert auch online, zum Beispiel in Facebook-Gruppen und über Skype-Calls. Mit And She Was Like:&nbsp;BÄM! wollen wir uns auch mit anderen Netzwerken austauschen. Auf unserer Liste stehen zum Beispiel <a href="https://www.facebook.com/321innen/">_innen</a> (Hamburg), <a href="http://trustthegirls.org/">trust the girls</a> (Hamburg) und der <a href="http://www.fakworks.de/">FAK</a> (Karlsruhe).'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f295
+  spezialfrage: "0"
+  vorfrage: 'Der <a href="http://www.fakworks.de/">FAK</a> (Feministischer Arbeitskreis) hat sich als Reaktion auf die geringe Zahl weiblich besetzter Professuren gegründet.'
+  frage: 'Im Grafikdesign sind fast 70% der Studierenden weiblich, bei den Professorinnen sind es 30% oder weniger – was sagst du dazu?'
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Wenn ich an mein Studium zurückdenke, frage ich mich, was mit all den tollen Frauen passiert ist? Warum sind sie nicht so sichtbar wie die männlichen Mitstudenten? In der Arbeitswelt ist die Wahrnehmung sehr männlich dominiert. Diese Überlegungen waren auch ein Ansporn, mich damit auseinanderzusetzen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f296
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: Netzwerken Männer besser?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Ich habe das Gefühl, dass Männer einerseits selbstverständlicher netzwerken und es andererseits weniger Frauennetzwerke gibt. Sogenannte Boys-Clubs haben schon über Jahrhunderte Bestand. Frauen hingegen sind verhältnismäßig neu in der Arbeitswelt. Wir müssen uns im Netzwerken üben, es ganz selbstverständlich und aktiv betreiben, uns nach passenden Netzwerken umsehen und gegebenenfalls unser eigenes, zu unseren Interessen passendes Netzwerk gründen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f297
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Können soziale Medien für die
+    stärkere Sichtbarkeit von Frauen
+    hilfreich sein?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Ja, das beobachte ich sehr stark! Gerade Designerinnen können Social Media effektiv für die eigene Sichtbarkeit und als Marketingtool nutzen. Ein Instagram-Account und eine Facebookseite bieten sich wunderbar an, um sich zu positionieren. Wer bin ich? Wie positioniere ich mich? Worin bin ich Expertin? Wen schätze ich? Wichtig ist dabei die Regelmäßigkeit und Konstanz. <a href="https://sagmeisterwalsh.com/">Jessica Walsh</a> ist ein tolles Beispiel:&nbsp;sie teilt überwiegend Arbeiten anderer Designer_innen, die sie durch ihre Reichweite unterstützt – das bringt beide Seiten weiter. In den sozialen Medien kann man nicht alleine bestehen. Demnach müssen wir anfangen, uns mehr auszutauschen und uns besser zu vernetzen. Social Media Kanäle sollten wir auf jeden Fall für mehr Sichtbarkeit nutzen!'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f298
+  spezialfrage: "1"
+  vorfrage: >
+    Bei öffentlichen Veranstaltungen und
+    Talks sind Frauen immer noch stark
+    unterrepräsentiert.
+  frage: >
+    Welche Erfahrungen hast du sowohl als
+    Zuschauerin bei Talks als auch bei
+    eigenen Vorträgen gemacht?
+  category: Spezifisch
+  antwort: |
+    YR:&nbsp;Früher ging es mir nur um den Talk an sich. Heute zähle ich, oft im Vorfeld, wie viele Frauen und Männer auftreten. Nur sehr selten sind die Zahlen 50:50, was ich sehr schade finde.
+    Ich persönlich habe im Designbereich noch keinen Talk vor großem Publikum gehalten. Egal wie gut ich mich vorbereite, werde ich schon vor kleinen Vorträgen unglaublich nervös. Daher kann ich einerseits sehr gut nachvollziehen, dass viele Frauen das nicht machen möchten. Andererseits finde ich es sehr schade, denn die Frauen scheuen sich vor der Öffentlichkeit, obwohl wir gerade diese Vorbilder für die jüngere Generation brauchen. Deswegen möchte ich in allem, was ich tue, ein Vorbild sein, damit sich etwas ändert. Im Zuge dessen plane ich mit BÄM! einen Rhetorik-Workshop. Das ist eine Herausforderung für mich, weil ich meine Komfortzone verlassen muss, aber daran wachse ich und entwickle mich weiter.
+    Reine Portfolioshows langweilen nach einer gewissen Anzahl, denn mich interessieren häufig ganz andere Dinge:&nbsp;Wie hast du diesen Job bekommen? Was hat dich geprägt? Was würdest du deinem 20 Jahre jüngeren Ich mitgeben? Ich vermisse, dass sich Designer_innen als Personen positionieren, mit einer Einstellung, einer Meinung zum Berufsfeld, einer formulierten Haltung. Natürlich ist das eine Herausforderung, weil man viel stärker dafür kritisiert werden kann und angreifbar wird. Vorbilder sind aber viel mehr als ihre guten Arbeiten.
+  quote: >
+    Ich vermisse, dass sich Designer_innen
+    positionieren, mit einer formulierten
+    Haltung.
+  quoteauthor: Yvonne Rundio
+- 
+  fid: f299
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was bedeutet für euch Erfolg?
+  category: Erfolg
+  antwort: 'YR:&nbsp;In meiner Agenturzeit habe ich gemerkt, dass Geld mir zwar Sicherheit bietet, mich aber nicht glücklich macht. Nicht das Materielle lässt mich den Erfolg spüren, sondern der soziale Aspekt wird immer wichtiger für mich. Mit meiner Arbeit als Designerin möchte ich auch etwas zurückgeben. Aktuell arbeite ich an einem Projekt, von dessen Einnahmen ein Teil zum Schutz der Meere gespendet und in den Aufbau einer Kinderbücherei in Indonesien investiert wird. Außerdem ist es meine Vision, ein Vorbild für Designerinnen zu sein, den Austausch zu fördern und ihnen dabei zu helfen, ein erfolgreiches und erfülltes Leben zu führen. Ich wünsche mir mehr sichtbare und erfolgreiche Designerinnen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f300
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Kannst du inzwischen gut von deiner
+    Selbstständigkeit leben?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Mir geht es nicht darum, reich zu werden, aber ich verdiene genug, um meinen Lebensstil zu finanzieren. Außerdem habe ich zusammen mit einer Freundin einen Onlineshop eröffnet, um zukünftig auch passives Einkommen zu generieren. Das gibt mir die Freiheit, neue, eigene Projekte zu starten. Um sich als Designerin weiterzuentwickeln, kann man sich mit jemandem zusammentun, sich vergrößern und Leute anstellen oder die eigene Freiheit behalten und als Autorin selbst Designprojekte entwickeln.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f301
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: 'Was würdet ihr  jungen Designerinnen mit auf den Weg geben?'
+  category: Zukunft
+  antwort: 'YR:&nbsp;Es gibt kein Patentrezept, wie zum Beispiel nach dem Studium zuerst eine Festanstellung zu wählen und danach die Selbstständigkeit anzustreben. Vielmehr ist das eine persönliche Auseinandersetzung:&nbsp;wieviel und welche Art von Sicherheit brauche ich? Worauf lege ich Wert? Was möchte ich erreichen? Die Antworten darauf können ganz unterschiedlich ausfallen. Von diesem Punkt aus sollte man sich überlegen, was der beste Weg ist, um in diese Richtung zu gehen. Vieles muss man einfach ausprobieren und dabei Erfahrungen sammeln! Und natürlich – jetzt kommen wieder die Netzwerke ins Spiel – sich darüber austauschen. Man kann auch von den Erfahrungen anderer lernen und abwägen, ob dieser Weg zu einem selbst passt oder eben nicht. Ich glaube, wenn wir uns selbst vertrauen, mutig und offen sind, finden wir unseren Weg.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f302
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Was ist mit den Frauen, die sich von
+    Gleichstellungsfragen, Feminismus und
+    der Frauenquote distanzieren?
+  category: Gleichstellung
+  antwort: 'YR:&nbsp;Ich habe einige Frauen getroffen, die betont haben, dass diese Thematik für sie keine Rolle spielt, was mich sehr überrascht hat. Durch meine eigenen Erfahrungen, aber auch durch den Austausch mit anderen Frauen, kann ich diese Haltung nicht nachvollziehen. Wenn Frauen die Missstände glücklicherweise nicht selbst erlebt haben, so kennen sie doch zumindest Erfahrungsberichte aus ihrem Umfeld. Auf der anderen Seite hat der Feminismus bei vielen tatsächlich ein eher negativ behaftetes Image – vielleicht fällt es ihnen deshalb schwer zu sagen »ja, ich bin Feministin«. Aber Feminismus kann und sollte durchaus offen und positiv von allen gelebt werden. Das Thema muss gerade heute mutig und aktiv reflektiert werden, um die Ungleichheiten wahrzunehmen, eine Haltung einzunehmen und aktiv zu werden. Erst wenn man genau hinschaut und anfängt zu zählen, merkt man, dass etwas nicht in Ordnung ist.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f303
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Wie könnte die Designszene aktiv etwas
+    an der Situation ändern?
+  category: Spezifisch
+  antwort: 'YR:&nbsp;Wichtig finde ich, dass sich das Verhältnis von Professoren und Professorinnen an den Hochschulen auf 50:50 angleicht, damit die Studierenden Frauen in wichtigen Positionen als normal erachten und diese Sicht in die Arbeitswelt tragen. Genauso muss jede Konferenz und Jury ganz selbstverständlich 50:50 besetzt werden. Man sollte in jeder Situation und im persönlichen Handeln auf ein gerechtes Geschlechterverhältnis achten. Darauf hinweisen, darüber sprechen, den Diskurs aufrecht erhalten.'
+  quote: ""
+  quoteauthor: ""
+
+----
+
+Studiotitle: 
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Residence: Köln, Deutschland
+
+----
+
+Visibility: 0

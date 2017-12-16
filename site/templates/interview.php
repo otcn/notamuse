@@ -65,7 +65,7 @@ endif;
           </li>
 
           <!-- (4) explanatory sentence -->
-          <li>Das Inter&shy;view wurde am <?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?> geführt.</li>
+          <li><?php echo l::get('interview-info-1') ?><?= date('d.m.Y', $interview->date()) ?> in <?= $interview->place() ?><?php echo l::get('interview-info-2') ?></li>
 
           <li> <!-- (5) image credits -->
             <?php if( !$interview->interviewimagecredits()->empty() ): ?>

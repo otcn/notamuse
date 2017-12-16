@@ -8,9 +8,9 @@ language: en
 role: admin
 history:
   - interviews/loraine-furter
-  - interviews/Grafikladen
-  - themen/zukunft/welche-beruflichen-oder-privaten-ziele-habt-ihr
-  - themen/spezifisch/wie-schwierig-ist-es-gegenueber-kund-innen-grenzen-durchzusetzen
-  - themen/privatleben/wie-strikt-trennt-ihr-arbeit-und-privatleben
+  - interviews/simone-koller-corina-neuenschwander
+  - interviews/femke-snelting
+  - interviews/Christiane-Funken
+  - interviews/louise-fili
 firstname: notamuse
 lastname: ""

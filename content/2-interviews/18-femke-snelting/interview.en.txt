@@ -1,4 +1,4 @@
-Titlehead:
+Titlehead: 
 
 ----
 
@@ -10,11 +10,11 @@ Titlenav: Femke Snelting, designer and artist
 
 ----
 
-Informationhead:
+Informationhead: 
 
 ----
 
-Interviewimage:
+Interviewimage: 
 
 ----
 
@@ -30,7 +30,7 @@ Date: 2017-01-28
 
 ----
 
-Contenthead:
+Contenthead: 
 
 ----
 
@@ -42,9 +42,9 @@ Introduction: As an educated graphic designer, Femke Snelting now works as an ar
 
 ----
 
-Interview:
+Interview: 
 
--
+- 
   fid: f267
   spezialfrage: "1"
   vorfrage: >
@@ -62,7 +62,7 @@ Interview:
     The difficulty of free software is, that it is often done in free time as an addition on top of making your living. It does not have much structure around it. That makes it very difficult for anyone, who is not in the norm, to function with ease.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f268
   spezialfrage: "1"
   vorfrage: ""
@@ -75,7 +75,7 @@ Interview:
     At <a href="http://lgru.net/">Libre Graphics Research Unit</a> we have run an all women group for learning free software for a long time. It is very hard for women to not be overruled by people that feel much more confident with technology. So, we are very careful about who we invite and the way we speak. There are techniques we use to change the way people feel with technology. It’s not just about gender, it’s more about how diverse you can allow your group to be and what you can do to make sure that you don’t exclude by default.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f269
   spezialfrage: "1"
   vorfrage: ""
@@ -92,7 +92,7 @@ Interview:
     they like, they usually look for people
     just like them.
   quoteauthor: ""
--
+- 
   fid: f270
   spezialfrage: "0"
   vorfrage: ""
@@ -106,7 +106,7 @@ Interview:
     When we developed a code of conduct in the community I was part of, it was quite an intense process. Some people were completely against it, because they felt it was turning into self-regulation and that it would take the spirit out of the group. Also, you can not make a document like this without saying what will happen when someone crosses the line. We had interesting discussions about what should happen and how it should be formulated. It was a very diplomatic work. At the moment the document is in place, but the practices around it are not so established right now.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f271
   spezialfrage: "0"
   vorfrage: ""
@@ -120,7 +120,7 @@ Interview:
     The question is, what happens when something goes wrong? One thing activist groups say is that a code of conduct does not help, unless it lists what you consider as, for example, harassment. It is necessary to be explicit about what you consider a problem to prevent people who are in trouble from having to argue this trouble.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f272
   spezialfrage: "1"
   vorfrage: ""
@@ -131,7 +131,7 @@ Interview:
   antwort: 'FS:&nbsp;I have been in that community for more than 10 years. After some time you become some kind of an institution. People don’t want to hurt you, but at the same time things might need to go different. So I decided to step back for a while.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f273
   spezialfrage: "1"
   vorfrage: ""
@@ -145,7 +145,7 @@ Interview:
     By looking carefully at the recent technology with a feminist perspective, you start to see the relation between how we design, what things look like, the tools we use and how they are constructed. For me, that is where things come together.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f274
   spezialfrage: "1"
   vorfrage: ""
@@ -157,7 +157,7 @@ Interview:
   antwort: 'FS:&nbsp;The way gender has played out in technology is a very clear sign that feminist work needs to be done. Gender is the first check that makes you wonder about what the norm is. But it is important that it is not just about gender. Feminism can help to understand intersectional issues that talk about normativity or neutralizing with technologies. Feminist theory helps us to discover, to speak and to think about these topics.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f275
   spezialfrage: "0"
   vorfrage: You also teach at different schools.
@@ -168,7 +168,7 @@ Interview:
   antwort: 'FS:&nbsp;I teach in different schools in Brussels, with different types of students and different issues. In a technological environment, female students are often curious, but not yet skilled. Men are more likely to develop a technological interest already at a young age. They decide to do a M.A. in that specific field, in which they already know the tools. That creates problems of confidence in the first entry, because you still have to learn the basic tools, while dealing with the fact that other students get bored by you not knowing how to do a loop, for example. It makes the tutors, who take care of it, feminists, even if they wouldn’t say it that way. Most of the women graduating from this programs might not be very skilled in the end, but have a lot of confidence in working with technology and speaking about it. They are usually very good in having an intellectual and at the same time technical practice.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f276
   spezialfrage: "1"
   vorfrage: ""
@@ -184,12 +184,16 @@ Interview:
 
 ----
 
-Studiotitle:
+Studiotitle: 
 
 ----
 
-Interviewimagecredits:
+Interviewimagecredits: 
 
 ----
 
 Residence: Brussels, Belgium
+
+----
+
+Visibility: 1

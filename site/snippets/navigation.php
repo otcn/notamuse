@@ -47,8 +47,9 @@
 
             $newLetter = false;
 
-            foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();}) as $interview) {
+            foreach($pages->find('interviews')->children()->visible()->filterBy('visibility', '!=', '0') as $interview) {
               // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
+              // "->filterBy('visibility', '!=', '0')" fetch files with the checkbox 'visibility' checked
               foreach($interview->interview()->toStructure() as $interviewUnit) {
 
                 $myQuestionObject = new stdClass; // create a new object to contain the following important question information
@@ -136,8 +137,9 @@
           <?php
           $lettersDone = array();
           $newLetter = false; // interviews need register mark as well
-          foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();})->sortBy('title', 'asc') as $interview):
+          foreach($pages->find('interviews')->children()->visible()->filterBy('visibility', '!=', '0')->sortBy('title', 'asc') as $interview):
             // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
+            // "->filterBy('visibility', '!=', '0')" fetch files with the checkbox 'visibility' checked
 
               // new first letter? show it!
               $letter = substr($interview->title(),0,1);

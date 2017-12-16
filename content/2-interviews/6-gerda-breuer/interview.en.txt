@@ -1,0 +1,175 @@
+Titlehead: 
+
+----
+
+Title: Gerda Breuer
+
+----
+
+Titlenav: Gerda Breuer, Kunst- und Designhistorikerin
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: 
+
+----
+
+Web: http://gerdabreuer.de/
+
+----
+
+Place: via E-Mail
+
+----
+
+Date: 2017-05-06
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: Die promovierte Kunsthistorikerin Gerda Breuer arbeitete zuletzt als Professorin für Kunst- und Designgeschichte an der Bergischen Universität Wuppertal. Ihre internationale Lehrtätigkeit wird ergänzt durch zahlreiche Publikationen zu Kunst, Architektur, Design und Fotografie. Zusammen mit Julia Meer veröffentlichte sie 2012 das Buch »Women in Graphic Design« – ein Standardwerk und bisher einzigartig in der umfassenden Ausarbeitung der Thematik. Mit uns spricht sie über die Relevanz des Buches und die historische Bedeutung von Frauen im Grafikdesign.
+
+----
+
+Interview: 
+
+- 
+  fid: f223
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Was hat Sie motiviert, »Women in
+    Graphic Design« zu schreiben?
+  category: Spezifisch
+  antwort: 'GB:&nbsp;Meine Motivation bestand vor allem darin, mich mit der Situation meiner Studentinnen auseinanderzusetzen. Ich habe in den späten 1970er Jahren neben meiner Promotion in Kunstgeschichte ein zweites Studium in Soziologie mit einem Magister abgeschlossen. Zu dieser Zeit war es ein selbstverständliches Anliegen der Studentinnen, sich mit ihrer Situation als Frau an der Hochschule zu beschäftigen. Die Studentinnen heute haben dagegen keine vergleichbare Motivation mehr. Viele halten die Gleichberechtigung für durchgesetzt, die Beschäftigung mit »Frauenfragen« für überholt und reagieren allergisch darauf. Das wird allgemein als »Postfeminismus« bezeichnet. Mich interessierte, wie denn sowohl die Geschichte als auch die Gegenwart von Grafikdesignerinnen aussieht. Meine damalige Assistentin, Mitherausgeberin und Grafikerin des Buches, <a href="../interviews/julia-meer">Julia Meer</a> und ich waren durchaus kontroverser Meinung, was aber sicherlich die Publikation auch reizvoll macht. Diese unterschiedlichen Sichtweisen kamen besonders in der Auswahl der heutigen Grafikerinnen zum Tragen. Das Buch hat eine starke Resonanz gehabt. Das bestärkt mich in dem Eindruck, dass vielleicht doch ein größeres Interesse in der jüngeren Generation besteht, wenngleich auch nur punktuell.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f224
+  spezialfrage: "1"
+  vorfrage: >
+    Das Projekt liegt mittlerweile vier
+    Jahre zurück.
+  frage: >
+    Würden Sie heute an »Women in Graphic
+    Design« etwas anders machen?
+  category: Spezifisch
+  antwort: 'GB:&nbsp;Ja, selbstverständlich! Das Buch war ja schon wesentlich umfassender geworden als geplant. Es haben uns so viele Leser_innen weiteres, hochinteressantes Material geschickt, dass ich es oft bedauert habe, dass uns diese oder jene Grafikerin nicht vorher aufgefallen ist. Viele, auch männliche Wissenschaftler, haben zudem ihren Wunsch nach Kooperation signalisiert. Mir ist aufgefallen, dass wir bestimmte Länder weniger beachtet haben. In Italien gab und gibt es beispielsweise ungeheuer gute Grafikerinnen, die uns ganz entgangen sind. Das bedaure ich sehr. Aber noch dicker konnte das Buch nicht werden. Was ich nach wie vor gut an unserer Veröffentlichung finde, ist das Zusammenspiel von Theorie und konkreter Praxis, Geschichte und Gegenwart. Natürlich würde ich gern vieles noch theoretisch vertiefen. Das war ein erster Schritt.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f225
+  spezialfrage: "1"
+  vorfrage: >
+    Das Buch ist als Standardwerk
+    einzigartig in der umfassenden
+    Ausarbeitung der Thematik. Es kann als
+    Inspiration für weitere theoretische
+    Auseinandersetzungen dienen.
+  frage: >
+    Sind Ihnen andere Projekte zum Thema
+    »Frauen im Grafikdesign« bekannt?
+  category: Spezifisch
+  antwort: 'GB:&nbsp;Es gibt eine ungeheuer breite und theoretisch sehr fundierte Frauen- und Geschlechterforschung. Ich habe an meiner Universität einen ausgesprochen aktiven und intellektuell sehr spannenden Kreis von Wissenschaftlerinnen gefunden, über die ich viel gelernt habe, und bin auch Mitglied der Vereinigung Frauen- und Geschlechterforschung NRW. Aber die Schwerpunkte liegen hier woanders:&nbsp;in der Hochschulpolitik, der Sozialpädagogik und, wie ich finde, in einer sehr wichtigen Auseinandersetzung mit Global Diversity. Aber Kunst und Design sind dort so gut wie nicht vertreten. Ich kenne eine gute, intensive Beschäftigung mit Kunst und Künstlerinnen aus den 1970er Jahren, die aber völlig abgebrochen ist und sich auch nicht neueren theoretischen Zugängen angeschlossen hat. Anders ist es in den USA, wo eine kontinuierliche, selbstbewusste und erfolgreiche Praxis von Grafikdesignerinnen besteht. In Deutschland ist die Frauen- und Geschlechterforschung zwar einerseits stark, andererseits aber auch stark segregiert. An und in künstlerischen Fächern besteht so gut wie kein Interesse – bis auf Ausnahmen, beispielsweise in Filmtheorie und -praxis oder der visuellen Kommunikation. Sie brauchen nur die verschiedensten visuellen oder journalistischen Medien zu beobachten und werden merken, wie sehr »Frauenthemen« international verhandelt werden – allerdings nicht mehr unter »feministischer« Perspektive. Es gibt keine »Bewegung« mehr wie im 19. Jahrhundert oder den 1970er Jahren. Aber das Thema ist omnipräsent.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f227
+  spezialfrage: "1"
+  vorfrage: >
+    Sie schreiben in der Einleitung von
+    »Women in Graphic Design«, dass Sie
+    bei der Recherche auf überraschend
+    viele erfolgreich arbeitende
+    Designerinnen stießen.
+  frage: >
+    Welchen Hürden sind Gestalterinnen in
+    der Vergangenheit begegnet?
+  category: Spezifisch
+  antwort: 'GB:&nbsp;Es war vor allem das »Frauenbild«, das Frauen massiv einschränkte, allerdings dann auch ihren Mut stärkte, die Rollenbeschränkungen zu überwinden. Völlig unterschätzt ist die Stärke der Frauenbewegung im 19. Jahrhundert, auch wenn uns heute manche Ziele etwas zeitgebunden vorkommen. Erschreckend ist die wesentlich stärkere Aufmerksamkeit, die die sogenannte »Neue Frau« in der Weimarer Republik erhielt, die sich stark von der historischen Frauenbewegung abgegrenzte. Der Wunsch nach Emanzipation ließ sich von der Modeindustrie stark instrumentalisieren, ohne politisch zu sein. Ebenso erschreckend ist es, wie konservativ das Frauenbild in den 1950er Jahren war – und das nach den Erfahrungen des Krieges! Es ist sehr wichtig, diese geschichtlichen Situationen zu durchleuchten und ihre Auswirkungen auf das Frauenbild zu analysieren.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f228
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Was können wir, übertragen auf die
+    heutige Designszene, aus der Geschichte
+    lernen?
+  category: Spezifisch
+  antwort: 'GB:&nbsp;Heute gibt es sicherlich ganz neue Themen – etwa den Neokonservatismus der Rollenbilder oder die Bedeutung der »erfolgreichen« Frauen im Neoliberalismus. Und schauen Sie sich doch nur mal die Bedeutung der Wählerinnen und Wahlkampf-Beraterinnen bei den Wahlen in den USA an! Themen wie Verantwortlichkeit, Global Diversity, Frauen in Beruf und Familie – das sind nach wie vor brisante Arbeitsfelder, die aber jeweils im neuen historischen Kontext untersucht werden müssen.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f229
+  spezialfrage: "1"
+  vorfrage: >
+    In Ihrem Text »Gender und
+    Kreativität« erläutern Sie, wie die
+    Geschichtsschreibung, die häufig von
+    Männern verfasst wird, dazu beiträgt,
+    dass nur wenige Gestalterinnen
+    historisch relevante Erwähnungen
+    finden.
+  frage: >
+    Aus welchen Gründen geraten weibliche
+    Gestalterinnen häufiger in
+    Vergessenheit?
+  category: Spezifisch
+  antwort: 'GB:&nbsp;Frauen haben weniger in Netzwerken gearbeitet und waren vereinzelt erfolgreich. Das hat sie in der öffentlichen Wahrnehmung geschwächt. Auch das Stigma, mit dem die emanzipierte Frau nach wie vor verbunden wird, hat eine sehr nachhaltige Wirkung. Es ist für mich immer wieder ein Phänomen, wie viele Designhistorikerinnen es gibt und wie wenig sie Frauen und Frauenthemen behandeln. Es ist immer noch der männliche Blick, der wirkt – das spüre ich auch sehr unter Kollegen. Insofern ist es schon sehr wichtig, immer wieder öffentlich präsent zu sein.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f230
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Wie wichtig ist es, die Geschichte der
+    Frauen aufzuarbeiten und warum?
+  category: Spezifisch
+  antwort: 'GB:&nbsp;Blinde Flecken in der Wahrnehmung von Geschichte wirken immer nach, in die Gegenwart hinein. Ignoranz festigt alte Geschlechterrollen und macht sie unflexibel. Es gibt heute wieder einen ausgeprägten Konservatismus, da ist es gut, auf die Geschichte zu blicken und all die wechselvollen, aber vielen mutigen emanzipatorischen Bewegungen zu beobachten. Ich halte das für einen ungeheuren Gewinn für die Gegenwart, weil es Möglichkeiten und Wahlfreiheiten eröffnet.'
+  quote: ""
+  quoteauthor: ""
+- 
+  fid: f231
+  spezialfrage: "1"
+  vorfrage: ""
+  frage: >
+    Kann man aus der historischen
+    Perspektive auch etwas allgemein über
+    Grafikdesign lernen?
+  category: Spezifisch
+  antwort: 'GB:&nbsp;Ja, ein größeres Bewusstsein für Geschlechterrollen und eine größere Verantwortung auf diese Rollen aufmerksam zu machen, sollte sich bei jungen Frauen durchsetzen. Sie haben so viele Möglichkeiten, sich für bestimmte gute Projekte einzusetzen, sie visuell zu unterstützen. Gerade das Terrain der visuellen Kommunikation sollte von ihnen weitaus mehr auf Geschlechterrollen hin reflektiert werden. Der ästhetische Aspekt sollte daher immer theoretisch fundiert sein.'
+  quote: >
+    Visuelle Kommunikation sollte weitaus
+    mehr auf Geschlechterrollen hin
+    reflektiert werden.
+  quoteauthor: ""
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Studiotitle: 
+
+----
+
+Residence: Wuppertal, Deutschland
+
+----
+
+Visibility: 0

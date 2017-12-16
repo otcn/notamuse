@@ -1,0 +1,61 @@
+Titlehead: 
+
+----
+
+Title: Nina Paim
+
+----
+
+Titlenav: 
+
+----
+
+Studiotitle: 
+
+----
+
+Informationhead: 
+
+----
+
+Interviewimage: 
+
+----
+
+Interviewimagecredits: 
+
+----
+
+Web: 
+
+----
+
+Place: abc
+
+----
+
+Residence: abc
+
+----
+
+Date: 2017-12-16
+
+----
+
+Contenthead: 
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: abc
+
+----
+
+Interview: 
+
+----
+
+Visibility: 0

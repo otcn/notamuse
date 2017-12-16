@@ -7,7 +7,8 @@ $fids = array();
 $urls = array();
 $spezialfragen = array();
 
-foreach( $pages->find('interviews')->children()->visible() as $interview ) {
+foreach( $pages->find('interviews')->children()->visible()->filterBy('visibility', '!=', '0') as $interview ) {
+  // "->filterBy('visibility', '!=', '0')" fetch files with the checkbox 'visibility' checked
     foreach( $interview->interview()->toStructure() as $interviewUnit ) {
         if( !$interviewUnit->quote()->empty() ) {
             array_push( $quotes, $interviewUnit->quote()->value() );
@@ -54,9 +55,9 @@ $spezialfrage = $spezialfragen[$array_key];
 
         <?php
         if ( $spezialfrage == '1') {
-          echo '<a class="js-intro-interview" href="' . $url . '">Zum Interview</a>'; // link directly to interview page/section
+          echo '<a class="js-intro-interview" href="' . $url . '">' . l::get('intro-interview-link') . '</a>'; // link directly to interview page/section
         } else {
-          echo '<a class="js-intro-answer" href="#' . $fid . '" data-ref="' . $question . '">Alle Antworten auf diese Frage</a>'; // link to question in topics
+          echo '<a class="js-intro-answer" href="#' . $fid . '" data-ref="' . $question . '">' . l::get('intro-answers-link') . '</a>'; // link to question in topics
         }
         ?>
 
@@ -67,7 +68,7 @@ $spezialfrage = $spezialfragen[$array_key];
         -->
 
       </li>
-      <li><a class="js-intro-close">Alle Themen im Überblick</a></li>
+      <li><a class="js-intro-close"><?php echo l::get('intro-topics-link') ?></a></li>
     </ul>
   </div>
   </div>

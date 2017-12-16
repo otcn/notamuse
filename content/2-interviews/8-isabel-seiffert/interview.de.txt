@@ -186,3 +186,7 @@ Interviewimagecredits:
 ----
 
 Residence: Zürich, Schweiz
+
+----
+
+Visibility: 1

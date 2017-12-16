@@ -1,0 +1,242 @@
+Titlehead:
+
+----
+
+Title: Anna Haas
+
+----
+
+Titlenav: Anna Haas, Designerin
+
+----
+
+Informationhead:
+
+----
+
+Interviewimage: anna_haas.jpg
+
+----
+
+Web: http://annahaas.ch/
+
+----
+
+Place: Zürich
+
+----
+
+Date: 2017-05-18
+
+----
+
+Contenthead:
+
+----
+
+Interviewpartner: 0
+
+----
+
+Introduction: Seit ihrem Studium in Luzern und am Werkplaats Typografie in Arnhem arbeitet die visuelle Gestalterin Anna Haas selbstständig. 2011 gründete sie ihr eigenes, multidisziplinäres Studio in Zürich, das Aufträge aus den Bereichen Buchgestaltung, Plakatdesign, Webauftritte, visuelle Identitäten, Ausstellungsdesign und Illustrationen realisiert. Sie ist Mitbegründerin und Präsidentin der Plattform Illustratoren Schweiz und unterrichtet seit 2014 an der HSLU Luzern Plakatgestaltung. Anna Haas gewann 2015 den Swiss Design Award und erzählt uns, welche Ziele sie noch hat und wie schwierig es ist, die Wirtschaftlichkeit von Projekten mit dem eigenen Gestaltungsanspruch zu vereinen.
+
+----
+
+Interview:
+
+-
+  fid: f94
+  spezialfrage: "0"
+  vorfrage: >
+    Du hast 2011 deinen Abschluss gemacht,
+    arbeitest aber schon seit 2008 als
+    selbstständige Designerin.
+  frage: >
+    Was war die ausschlaggebende Motivation
+    zur Selbstständigkeit?
+  category: Arbeitsform
+  antwort: 'AH:&nbsp;Nach einem Praktikum bei Hort in Berlin 2008 habe ich glücklicherweise gleich ein paar regelmäßige Jobs bekommen und da Berlin damals nicht so teuer war, hat es funktioniert. Nach meinem Master in Arnheim bin ich 2011 zurück nach Zürich gegangen und habe genauso weitergemacht. Es war keine bewusste Entscheidung zur Selbstständigkeit, sondern hat sich eher so ergeben. Im Nachhinein denke ich mir oft, dass es ein Fehler war, nur ein Praktikum absolviert zu haben und nicht auch noch bei anderen Studios gearbeitet zu haben. Es hat aber gut geklappt – und wenn es so mühelos auf einen zukommt, dann nimmt man es einfach, oder?'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f95
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Welche Hürden gab es beim Übergang in
+    die Selbstständigkeit?
+  category: Arbeitsform
+  antwort: 'AH:&nbsp;Die größte Hürde war die Kommunikation mit den Kund_innen. Genau deshalb bereue ich es, nicht mehr Praktika gemacht zu haben. Konzeptionell kann man jederzeit viel aus Gesprächen mit anderen Grafiker_innen und Gestalter_innen lernen, aber die Kund_innenkommunikation, wie man etwas verkauft, das ist mir bei Hort das erste Mal begegnet. Für mich war diese Erfahrung sehr wertvoll, ein Studium kann darauf kaum vorbereiten. Ein weiterer Punkt ist natürlich die Buchhaltung und alles, was damit zusammenhängt. Wenn das Thema eine Woche in der Hochschule behandelt wird, ist das eher wie Trockenschwimmen.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f96
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie geht ihr mit dem Konflikt zwischen
+    Wirtschaftlichkeit und dem eigenen
+    gestalterischen Anspruch um?
+  category: Prozesse
+  antwort: 'AH:&nbsp;Ich arbeite ziemlich langsam, also nicht besonders wirtschaftlich. Das ist ein Grund, warum ich nicht in einer Agentur arbeiten möchte. Ich will die Arbeit so machen, wie ich sie gut finde – oftmals geht das mit den veranschlagten Stunden nicht auf. Mittlerweile kann ich aber recht gut einschätzen, wieviel Zeit ich für eine Aufgabe habe und irgendwann werde ich vielleicht einfach schneller. In meinen Kostenvoranschlägen führe ich ziemlich viele Posten auf, damit die Kund_innen sieht, wohin all die Stunden fließen. Interessanterweise führt das auch dazu, dass sie meine Zeit und den Preis mehr respektieren. Meine Wirtschaftlichkeit ist also vielleicht nicht ganz optimal und ich könnte sicher noch einiges verbessern, aber das würde mir nicht entsprechen, dafür bin ich zu wenig businessorientiert.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f97
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Probiert ihr viel Neues oder verlasst
+    ihr euch auf das, was ihr könnt?
+  category: Gestaltung
+  antwort: 'AH:&nbsp;Bei der Gestaltung gehe ich immer vom Inhalt eines Projekts aus. Wenn dieses etwas Neues benötigt, wie zum Beispiel eine neue Technik, die ich noch nicht beherrsche, lerne ich sie. Das gehört zu meiner Art zu arbeiten – ich interessiere mich sehr dafür, Neues auszuprobieren. Natürlich stecke ich dann mehr Stunden in ein Projekt, die ich den Kund_innen nicht verrechnen kann, aber das ist es mir wert.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f98
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: How would you describe your style?
+  category: Gestaltung
+  antwort: 'AH:&nbsp;Ich denke nicht, dass ich einen bestimmten Stil habe. Außenstehende sehen das vielleicht anders, zum Beispiel die Personen, die mit mir im Master studiert haben. Sie erkennen mich sicherlich in vielen Projekten, denn sie kennen meine Herangehensweisen. Wie man an ein Projekt herangeht, interessiert mich viel mehr als bestimmte Stile oder Looks. Egal ob im Grafikdesign oder in der Illustration, diese Haltung bleibt die gleiche.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f99
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Habt ihr Vorbilder?
+  category: Inspiration
+  antwort: 'AH:&nbsp;Ich habe Illustration studiert und mich erst im Master mit Grafikdesign auseinandergesetzt. Davor habe ich nichts über Designgeschichte gelernt, mir fehlen also grundsätzlich historische Vorbilder. Es gibt aber auf jeden Fall Gestalterinnen, deren Arbeiten ich unglaublich schätze und die mich begeistern. Die Projekte von <a href="http://www.juliaborn.com">Julia Born</a> zum Beispiel sind immer extrem gut durchdacht und klar und ich finde es ist jedes Mal ein Geschenk, ihre Arbeiten zu betrachten.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f100
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Seht ihr einen künstlerischen Auftrag
+    in eurer Arbeit oder steht die
+    Dienstleistung im Vordergrund?
+  category: Haltung
+  antwort: 'AH:&nbsp;Ich sehe mich selbst immer als Teil des Projekts. Die meisten Kund_innen nehmen Grafiker_innen eher als Dienstleister_innen wahr. Daher ist es für mich oft schwierig, wenn jemand mit einer fixen Idee kommt und sich auf keine großen Diskussionen einlassen möchte. Ich sehe mich nicht als ausführende Kraft für irgendwelchen Firlefanz, ich mache grundsätzlich nur Projekte, hinter denen ich stehe – sonst nehme ich sie nicht an. So kommen manche Aufträge eben nicht zustande. Ich kann mir diese Flexibilität, mal einen Job abzusagen, zur Zeit noch erlauben, ich habe keine hohen Lebenshaltungskosten. Wie es wäre, wenn ich auf das Geld angewiesen wäre, kann ich nicht einschätzen, aber im Moment habe ich diese Freiheit und nehme sie mir auch.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f101
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Was bedeutet für euch Erfolg?
+  category: Erfolg
+  antwort: 'AH:&nbsp;Erfolg bedeutet für mich, eine gewisse Sicherheit zu haben, dass die eigene Arbeit wahrgenommen wird und sich daraus Aufträge wie von selbst generieren, ohne dafür einen großen Aufwand zu betreiben. Das empfinde ich als einen unglaublichen Luxus.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f102
+  spezialfrage: "0"
+  vorfrage: >
+    Du hast schon etliche Preise mit deinen
+    Arbeiten gewonnen.
+  frage: >
+    Wie wichtig ist euch öffentliche
+    Aufmerksamkeit?
+  category: Sichtbarkeit
+  antwort: 'AH:&nbsp;Öffentliche Aufmerksamkeit ist wie ein Gütesiegel für die Kund_innen. Es ist ein seltsames Phänomen:&nbsp;Sieht man zum Beispiel überall Nike-Schuhe, vermittelt das einem ein Gefühl von Qualität und man kauft sich auch ein Paar – im Grunde sind sie aber nicht besser als eine andere Marke oder ein Noname-Produkt. Diese Sichtbarkeit ist bei mir ähnlich:&nbsp;Kund_innen sagen sich, da man diese Arbeiten oft sieht, kann es ja nur gut sein. Ich unterstütze das nicht unbedingt, aber es beruhigt die Kund_innen und gibt ihnen ein Gefühl von Sicherheit. Da ich von meinem Job leben will, ist öffentliche Aufmerksamkeit also wichtig, privat ist mir das dagegen nicht wichtig.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f103
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Haltet ihr gerne Vorträge oder gebt
+    Workshops?
+  category: Sichtbarkeit
+  antwort: |
+    AH:&nbsp;In der Öffentlichkeit zu sprechen mache ich weder besonders gern noch ungern. Es hilft mir aber sehr, dass ich formulieren muss, was ich eigentlich genau mache. Oft steckt man mitten in einem Projekt und erklärt die Ideen den Kund_innen, den/der Partner_in oder den Freund_innen. So etwas einem größeren Publikum nahezubringen, ist etwas ganz anderes, ähnlich dem Unterrichten. Es tauchen Fragen auf, an die man selbst gar nicht mehr gedacht hat, das finde ich sehr interessant. Meine Vorträge sind meist reine Portfolioshows. Ich bin keine Künstlerin, sondern zeige Auftragsarbeiten. Trotzdem versuche ich Vorträge so zu gliedern und Dinge miteinander zu verknüpfen, dass meine Haltung erkennbar wird und meine Ansätze sich begreifen lassen. Ich versuche immer wieder, einen anderen Blickwinkel zu wählen, sonst bin ich selbst auch schnell gelangweilt.
+    Oftmals bin ich bei Vorträgen die einzige Frau. Ich finde es deshalb wichtig, die Einladungen wahrzunehmen – es kann eigentlich nicht sein, dass immer nur Männer reden. Ich frage mich, woran das liegt, ob Frauen häufiger ablehnen?
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f104
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Habt ihr je negative Erfahrungen
+    aufgrund eures Geschlechts gemacht?
+  category: Gleichstellung
+  antwort: |
+    AH:&nbsp;Ich bin überzeugt, dass Frauen in der Designbranche ganz anders wahrgenommen werden als Männer. Eine konkrete Situation habe ich bisher nur einmal erlebt, gemeinsam mit <a href="http://www.krispinhee.ch/en/">Krispin Heé</a>. Wir wurden eingeladen, eine visuelle Identität für einen Musikclub zu gestalten. Wir haben es in die Endrunde geschafft, zusammen mit einem rein männlichen Büro, und uns wurde die Frage gestellt, wo wir uns in zwei, drei Jahren sehen – wir seien ja schließlich »in diesem Alter«:&nbsp;eine Anspielung auf Kinder. Keine Ahnung? Weiß man das bei Männern? Können Männer keine Väter werden? Für uns war das total unverständlich. Wir haben den Job am Ende nicht bekommen. Was genau der ausschlaggebende Grund war, kann ich natürlich nicht sagen, aber allein die Tatsache, dass uns diese Frage gestellt wurde und dem Männerbüro höchstwahrscheinlich nicht, fanden wir unglaublich unpassend.
+    Im Beruf sehe ich mich nicht als »Frau«, ich mache einfach gerne meinen Job. Ich werde auch nicht gerne primär als Frau wahrgenommen, genauso wie ein Mann nicht explizit als Mann wahrgenommen wird. Nur Frauen auszuwählen, weil sie Frauen sind, finde ich ebenso komisch – das Geschlecht sollte nicht im Vordergrund stehen.
+  quote: >
+    Im Beruf sehe ich mich nicht als
+    ›Frau‹, ich mache einfach gerne
+    meinen Job.
+  quoteauthor: ""
+-
+  fid: f105
+  spezialfrage: "1"
+  vorfrage: 'Du bist Teil des Illustratorinnennetzwerks <a href="http://www.womenwhodraw.com/">Women Who Draw</a>.'
+  frage: >
+    Wie wichtig findest du Frauennetzwerke
+    und Zusammenschlüsse?
+  category: Spezifisch
+  antwort: 'AH:&nbsp;Ich finde das sehr wichtig. Irgendwann muss diese Thematik eine Selbstverständlichkeit erreichen, ich weiß dafür aber noch keinen Lösungsweg. Deswegen sollte man bei Initiativen wie zum Beispiel Women Who Draw mitmachen. Ich finde es generell wichtig und gut, dass man sich in Gemeinschaften austauscht und Erfahrungen teilt.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f106
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: Wie gleichberechtigt arbeiten wir heute?
+  category: Gleichstellung
+  antwort: 'AH:&nbsp;Ich glaube nicht, dass die Designbranche weiter ist als irgendeine andere Branche. Ich glaube, dass Frauen generell weniger für Jobs angefragt werden, vielleicht traut man ihnen weniger zu oder ihre Beständigkeit wird angezweifelt. Das habe ich selbst oft erfahren, gerade als ich noch jünger war. Man wird als das »junge Mädchen« wahrgenommen, das sich für Grafik interessiert, viel gestaltet und wird dabei unterstützt, auch von vielen männlichen Kollegen. Irgendwann stellen die dann aber fest, dass das keine Übergangsphase war, dass man eine wirkliche Konkurrenz darstellt und auf einmal kippt die Situation. Wenn man dann auch noch ein ähnliches Auftreten hat und Ansagen macht, dann wird das generell sicherlich wenig akzeptiert. Natürlich kann ich das nicht belegen, aber das sind meine Erfahrungen und Gefühle aus der Praxis.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f107
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Wie strikt trennt ihr Arbeit und
+    Privatleben?
+  category: Privatleben
+  antwort: 'AH:&nbsp;Ehrlich gesagt habe ich kein Bedürfnis von der Gestaltung abzuschalten. Was mir viel wichtiger ist, ist das Abkapseln vom Bürostress. Mittlerweile geht das schon besser und ich merke auch, dass ich immer öfter das Bedürfnis danach habe. An Wochenenden arbeite ich grundsätzlich nicht mehr, außer gelegentlich samstagmorgens. Unter der Woche morgens um neun Uhr zu beginnen ist für mich kein Problem, sondern eher abends aufzuhören. Freund_innen zu haben, die nichts mit Kunst oder Design zu tun haben, hilft, diese Szene nicht zu ernst zu nehmen.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f108
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: >
+    Welche beruflichen oder privaten Ziele
+    habt ihr?
+  category: Zukunft
+  antwort: 'AH:&nbsp;Es gibt noch so viel, was ich gerne machen würde, aber Ziele hatte ich nie. Ich finde, Ziele sind ein bisschen beängstigend – was passiert, wenn du sie erreicht hast? Es geht immer weiter und man braucht keine Ziele, wenn man Lust hat auf das, was man schon tut. Und ich habe immer noch große Lust! Sollte sie mal weniger werden, mache ich eben was Neues. Ich hatte nie eine genaue Vorstellung davon, wo ich sein muss oder sein will, ich finde es viel spannender, wenn sich Möglichkeiten ergeben. Gerade habe ich zum ersten Mal eine App gestaltet, wodurch sich wieder ganz neue Arbeitsweisen und Rollen für mich eröffnen, das macht unseren Beruf so abwechslungsreich. Auch Traumjobs habe ich eigentlich nicht, ich würde mir eher aus rein finanzieller Sicht wünschen, einen beständigen, monatlichen Auftrag zu bekommen, wie ein regelmäßig erscheinendes Magazin.'
+  quote: ""
+  quoteauthor: ""
+-
+  fid: f109
+  spezialfrage: "0"
+  vorfrage: ""
+  frage: 'Was würdet ihr  jungen Designerinnen mit auf den Weg geben?'
+  category: Zukunft
+  antwort: 'AH:&nbsp;Das, was die meisten schon tun:&nbsp;Praktika absolvieren. Trefft euch mit Gestalter_innen, netzwerkt, meldet euch nicht nur, wenn ihr einen Job wollt. Schaut euch die vielen Wege und Ansätze an, wie man diesen Job ausführen kann, das finde ich wirklich unglaublich inspirierend! Wenn ich in eine andere Stadt fahre, in der es ein Studio gibt, das ich toll finde, ruf ich einfach an und frage, ob ich auf einen Kaffee vorbeikommen darf, auch wenn ich die Personen nicht kenne.'
+  quote: ""
+  quoteauthor: ""
+
+----
+
+Interviewimagecredits:
+
+----
+
+Studiotitle:
+
+----
+
+Residence: Zürich, Schweiz
+
+----
+
+Visibility: 0

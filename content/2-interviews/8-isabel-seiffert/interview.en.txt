@@ -6,9 +6,9 @@ Interviewpartner: 0
 
 ----
 
-Interview:
+Interview: 
 
--
+- 
   fid: f199
   spezialfrage: "0"
   vorfrage: ""
@@ -16,21 +16,19 @@ Interview:
     How do you typically work on your
     projects?
   category: Processes
-  antwort: 'IS:&nbsp;At the beginning of a project, we normally we work together, because we appreciate the exchange and it is easier to put things straight. Whenever we receive an order, we first talk about it and collect ideas. Afterwards, everyone implements different ideas, which we then also discuss. In that way the process continues until we have all ideas aligned. From this point onwards, we separate the tasks, nevertheless, we follow the principle of dual control:&nbsp;before a design gets presented to the client, we always double-check it. Although simultaneous work is very time-consuming, we are convinced that time the projects are of higher quality. That is one reason we work together.'
+  antwort: 'IS:&nbsp;Bisher arbeiten wir besonders am Anfang eines Projekts an allem gemeinsam, weil wir den Austausch schätzen und vieles klar wird, wenn wir darüber reden. Sobald wir einen Auftrag erhalten, sprechen wir ihn gemeinsam durch und sammeln Ideen. Danach probiert jede/r verschiedene Richtungen aus, die wir anschließend wieder besprechen und filtern. So geht es weiter, bis wir uns auf eine Richtung einigen. Ab diesem Zeitpunkt teilen wir uns die Aufgaben, trotzdem vSuccessen wir das Vier-Augen-Prinzip:&nbsp;bevor etwas rausgeschickt wird, schauen immer beide drauf. Durchgehend gemeinsam an einer Sache zu arbeiten ist allerdings sehr zeitintensiv, gleichzeitig werden die Projekte so besser. Das ist ein Grund, warum wir zusammenarbeiten.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f200
   spezialfrage: "0"
   vorfrage: ""
   frage: What does your design process look like?
   category: Design
-  antwort: |
-    IS:&nbsp;We are both very self-critical and have a strong attitude towards aesthetics and certain design forms. However, we do not want to develop a dogma, like some studios where everything looks the same. But we do not want to be a studio in which every project is different and that has no unique selling point—we are still somewhere in between.
-    For example, we have certain quality standards and a preference for typography, but we customize it for each project and try to reinvent something at first. In the initial phase, we often try out new designs that may even look terrible at first. Through reduction and systematics, the design becomes more compelling and the concept becomes clearer. The cleaner the design, the easier it is to argue. Our time-to-work for design is, of course, quite intensive and lengthy through this phase of experimentation.
+  antwort: 'IS:&nbsp;Wir sind beide sehr selbstkritisch und haben eine starke Approach zu Ästhetik und gewissen gestalterischen Formen. Allerdings wollen wir kein Dogma entwickeln, wie manche Studios, bei denen alles gleich aussieht. Wir wollen aber genauso wenig ein Studio sein, bei dem jedes Projekt anders und keine Approach erkennbar ist – wir diskutieren noch, wo genau die Linie dazwischen verläuft. Beispielsweise haben wir gewisse Qualitätsansprüche und eine Vorliebe für Typografie, aber versuchen, das bei jedem Projekt in Frage zu stellen und zuerst etwas ganz anders zu machen. Am Anfang testen wir oft Sachen, die auch erst einmal furchtbar aussehen können. Durch Reduktion und Systematik werden die Entwürfe im nächsten Schritt klarer und das Konzept deutlicher. Wenn wir sie dann reduzieren, können wir klarer argumentieren, warum es so aussieht und nicht anders. Unser Zeitaufwand für die Design ist durch diese Experimentierphase natürlich recht intensiv und langwierig.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f201
   spezialfrage: "0"
   vorfrage: ""
@@ -38,31 +36,30 @@ Interview:
     Are there any styles or movements which
     influence you in particular?
   category: Inspiration
-  antwort: |
-    IS:&nbsp;When my interest in editorial and typography started, I had role models like <a href="http://bureauborsche.com/">Mirko Borsche</a> or Hort. At the core, my taste probably has not changed:&nbsp;graphic, precise, not too playful work. I was very interested in Swiss graphics at an early stage, which led me to do my Master's degree in Zurich. What triggered my interest more than a certain style was the high quality claim. I find that the craftsmanship is far more precise and more elaborate than in Germany. What is often missing though, is the love for detail in typography, but also in print.
+  antwort: 'IS:&nbsp;Als ich anfing mich mit Editorial und Typografie auseinanderzusetzen, waren es die gängigen Namen wie <a href="http://bureauborsche.com/">Mirko Borsche</a> oder Hort. Im Kern reizt mich vermutlich auch immer noch das Gleiche:&nbsp;grafische, präzise, nicht zu verspielte Arbeiten. Ich habe mich schon früh für Schweizer Grafik interessiert, was dazu geführt hat, dass ich meinen Master in Zürich gemacht habe. Mehr als ein bestimmter Stil hat mich hier ein gewisser Qualitätsanspruch angesprochen. Ich finde, dass die Arbeiten handwerklich viel präziser und durchdachter sind als in Deutschland. Dort fehlt mir oft die Detailliebe in der Typografie, aber auch im Druck.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f202
   spezialfrage: "0"
   vorfrage: ""
   frage: Can design contribute to society?
   category: Approach
   antwort: |
-    IS:&nbsp;We often hear this question:&nbsp;»Can design change the world?« I have no clear answer. I do not believe that design alone can change anything, but it can affect the way that topics are viewed, just like language. Depending on the way that it is formulated, it can be repugnant or open up new worlds, either grant or deny access.
-    The potential of design is definitely not exhausted. In addition to being used for advertising and pop culture, it could also be applied to scientific areas. I hope that the area of knowledge transfer becomes even more present, because design has the ability to change something—it can help people to understand facts better.
+    IS:&nbsp;Diese Frage hören wir oft:&nbsp;»Can Design change the world?« Ich habe darauf keine klare Antwort. Ich glaube nicht, dass allein Design etwas verändern kann, aber es kann, ebenso wie Sprache, beeinflussen, wie Themen aufgenommen werden. Je nachdem wie es formuliert wird, kann es abstoßend sein oder neue Welten eröffnen, dir den Zugang entweder gewähren oder verweigern.
+    Das Potential, das Design hat, wird definitiv nicht genug eingesetzt. Es könnte neben Werbung und Popkultur auch in wissenschaftlichen Bereichen viel stärker genutzt werden. Ich hoffe, dass der Bereich der Wissensvermittlung noch präsenter wird, denn dort hat Design einen Platz und kann etwas verändern – es kann Menschen helfen, Sachverhalte besser zu verstehen.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f203
   spezialfrage: "0"
   vorfrage: ""
   frage: What defines good design?
   category: Approach
-  antwort: 'IS:&nbsp;That depends on the project. With regard to socially important issues, I find that the design should follow a logic that is not misleading. At the same time it must not be boring, the subject should still be accessible. However, if you create a flyer for a jazz band, the context is different. The design for the flyer can be good without meeting this requirement. It depends on the context.'
+  antwort: 'IS:&nbsp;Das kommt auf das Projekt an. Wenn es um ein komplexes, gesellschaftlich wichtiges Thema geht, finde ich, dass die Design einer Logik folgen und nicht irreführend sein sollte. Gleichzeitig darf sie nicht trocken sein, das Thema sollte immer noch zugänglich bleiben. Gestaltet man aber einen Flyer für eine Jazzband, ist es etwas anderes. Das Design für den Flyer kann gut sein, ohne diesen Anspruch zu erfüllen. Es kommt auf den Kontext an.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f204
   spezialfrage: "0"
   vorfrage: ""
@@ -70,12 +67,13 @@ Interview:
     What does success mean to you
     personally?
   category: Success
-  antwort: 'IS:&nbsp;This is an ongoing process. My attitude towards success always changes. Success has always been very important to me, perhaps because I often have self-doubt and success is something that simulates assurance and confirmation. For instance, this signifies that you get recognition in your own ranks or receiving exciting orders. I have always been very anxious, because I often felt that is harder to be successful as a woman. I did not know any successful female designers, so I wanted to try harder. Success for me is to be invited to be part of a jury and to realize that this is something new for many. This seems to be rare, so I find it very important and see it as a kind of duty to participate in it.'
+  antwort: 'IS:&nbsp;Das ist ein ständiger Prozess, meine Approach dazu verändert sich immer wieder. Mir ist Success bis jetzt immer sehr wichtig gewesen, vielleicht weil ich oft Selbstzweifel habe und Success etwas ist, das einem vermeintlich Zusicherung und Bestätigung für die eigene Leistung gibt. Das kann einerseits heißen, dass man Anerkennung in den eigenen Reihen bekommt, aber auch Aufträge erhält, die man spannend findet. Ich war schon immer sehr strebsam, weil ich oft das Gefühl hatte, dass man es als Frau nicht schaffen kann. Ich kannte keine Successreichen Designerinnen, deshalb wollte ich es umso härter versuchen. Es hat daher für mich auch etwas mit Success zu tun, in Jurys eingeladen zu werden und zu merken, dass das für viele etwas Neues ist. Das passiert scheinbar noch selten, daher finde ich es sehr wichtig und sehe es als eine Art Pflicht an, daran teilzunehmen.'
   quote: >
-    I did not know any successful female
-    designers, so I wanted to try harder.
+    Ich kannte keine Successreichen
+    Designerinnen, deshalb wollte ich es
+    umso härter versuchen.
   quoteauthor: ""
--
+- 
   fid: f205
   spezialfrage: "0"
   vorfrage: ""
@@ -83,10 +81,10 @@ Interview:
     Do you like giving lectures or
     workshops?
   category: Visibility
-  antwort: 'IS:&nbsp;Although it is exhausting, I get excited every time I get invited to do so. From the beginning I always felt that it was my duty to give lectures and I really enjoy doing so. I cannot remember one single lecture by a female graphic artist in the first half of my studies. That is the reason why I usually accept the invitation. I have the feeling that, especially in lectures, there is only this one perspective, namely middle-aged men and their particular way of presenting their work. This could lead to the impression that only their way is successful. But you can be just as reserved and still be good at what you do!'
+  antwort: 'IS:&nbsp;Ja, zwar bin ich jedes Mal wieder aufgeregt und es ist anstrengend, aber von Anfang an dachte ich, dass ich es machen muss und ich mache es auch gern. Es gab in der ersten Hälfte meines Studiums keinen einzigen Vortrag einer weibliche Grafikerin. Allein deshalb sage ich meistens ja, wenn ich angefragt werde. Ich habe das Gefühl, dass es vor allem bei Vorträgen nur diese eine Perspektive gibt, nämlich von Männern mittleren Alters und deren bestimmter Art, ihre Arbeit darzustellen. Dadurch wird diese Art zu dem einzigen Indiz dafür, dass jemand gut ist. Man kann aber ebenso zurückhaltend sein und trotzdem etwas auf dem Kasten haben!'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f206
   spezialfrage: "0"
   vorfrage: ""
@@ -95,52 +93,52 @@ Interview:
     uncomfortable situation at work due to
     your sex?
   category: Equality
-  antwort: 'IS:&nbsp;I have made bad experiences in a rather indirect way, for example, in situations where I felt that I was given less difficult tasks because I am a woman. Particularly in the case of presentations for the customer I am under the impression that the statements are taken less seriously. You are less likely to be seen as a genius, but rather questioned. The younger you are, the harder it is to appear experienced. It gets even harder if you are not this charismatic type, which has this appearance and presents everything as if there was only one right way. For a long time, I also was scared of failing. Whenever I applied for an internship during my studies, I deliberately did not apply at some studios. Some had not had any female trainees so far, so I did not dare to apply there and also did not want to work with them in many ways. In retrospect, I sometimes regretted not having done it anyway, but I was still too insecure at the time.'
+  antwort: 'IS:&nbsp;Ich habe eher indirekt schlechte Erfahrungen gemacht, zum Beispiel in Situationen, in denen ich das Gefühl hatte, dass mir als Frau weniger zugetraut wird. Gerade bei Kund_innenpräsentationen wird den Aussagen weniger Vertrauen geschenkt. Du wirst weniger als Genie gesehen, sondern eher hinterfragt. Je jünger du bist, desto schwieriger ist es, da du nicht so viel Erfahrung ausstrahlst. Es ist schwierig, wenn man nicht dieser charismatische Typ ist, der alles so darstellt, als könnte es nur so und nicht anders sein. Ich habe mich lange Zeit aber auch selbst gehindert. Als ich mich während des Studiums für ein Praktikum bewerben musste, habe ich mich bei einigen Studios absichtlich nicht beworben. Manche hatten bis dato noch keine weiblichen Praktikantinnen gehabt, so dass ich mich nicht getraut habe, mich dort zu bewerben und auch in vielerlei Hinsicht deswegen nicht mit ihnen zusammenarbeiten wollte. Im Nachhinein habe ich es manchmal bereut, es nicht trotzdem gemacht zu haben, aber damals war ich noch zu unsicher.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f207
   spezialfrage: "0"
   vorfrage: ""
   frage: How equally do we work today?
   category: Equality
   antwort: |
-    IS:&nbsp;I think we rarely work equally. In many studios, which consist of a man and a woman, the man is more in the foreground. I do not know whether it is because some women feel uncomfortable about being in the spotlight, or whether it is due to the fact that being self-confident is not considered as a positive feature for women. I feel that women often want to be particularly strong because it is a success factor for men. Also, personally, I think about how I must be and I do not want to appear too girlish. This does not mean that I play a role, but it influences the way I behave in order to be taken seriously, or how I appear at conferences. Sometimes, however, I still find that I, too, judge women and men differently for the same behavior.
-    With us it is a special situation. Christoph is very much in favor of changing old structures and has suggested, for example, to write my name first, so that the woman is for once not second. My generation is actually the first one to deal with it differently, but I think it could go faster. In Zurich there are actually many good designers, but they are partly invisible, because they do not go on lectures or are not active in the community, especially in the older generation of designers. In many younger studios, such as <a href="http://kasper-florio.ch">Kasper Florio</a>, it is no longer the case that only the male part is visible and is in the foreground.
+    IS:&nbsp;Ich glaube nur in den seltensten Fällen arbeiten wir gleichberechtigt. Bei vielen Studios, die aus einem Mann und einer Frau bestehen, steht der Mann mehr im Vordergrund. Ich weiß nicht, ob das daran liegt, dass sich manche Frauen unwohl dabei fühlen, im Rampenlicht zu stehen oder daran, dass es bei Frauen nicht als positive Eigenschaft angesehen wird, sehr selbstbewusst aufzutreten. Ich habe das Gefühl, dass Frauen oft besonders stark wirken wollen, weil das bei Männern als Successsattribut gilt. Auch persönlich mache ich mir Gedanken darüber, wie ich sein muss und möchte tendenziell nicht zu mädchenhaft wirken. Das heißt nicht, dass ich eine Rolle spiele, aber es nimmt Einfluss darauf, wie ich mich verhalte, um Ernst genommen zu werden oder wie ich auf Konferenzen auftrete. Manchmal ertappe ich mich trotzdem dabei, dass auch ich Frauen und Männer für das gleiche Verhalten unterschiedlich bewerte.
+    Bei uns ist es eine spezielle Situation. Christoph ist sehr dafür, alte Strukturen zu ändern und hat zum Beispiel vorgeschlagen, meinen Namen zuerst zu schreiben, damit die Frau endlich einmal nicht an zweiter Stelle steht. Meine Generation ist also eigentlich die erste, die anders damit umgehen will, aber ich finde, es könnte schneller gehen. In Zürich gibt es eigentlich viele gute Gestalterinnen, die aber teilweise unsichtbar sind, weil sie nicht auf Vorträge gehen oder im Netz aktiv sind, vor allem bei der älteren Gestalterinnengeneration. Bei vielen jüngeren Studios, wie zum Beispiel <a href="http://kasper-florio.ch">Kasper Florio</a>, ist es nicht mehr der Fall, dass nur der männliche Part sichtbar ist und im Vordergrund steht.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f325
   spezialfrage: "0"
   vorfrage: ""
   frage: Are there too little female role models?
   category: Inspiration
   antwort: |
-    IS:&nbsp;Except for Larissa by <a href="http://kasper-florio.ch/">Kasper Florio</a>, <a href="http://inescox.com/">Ines Cox</a> and perhaps <a href="http://studioveronicaditting.com/">Veronica Ditting</a>, I can not think of many other female designers. <a href="http://mthvn.tumblr.com/">Vinca Kruk</a> of Metahaven, for example, is a very strong personality. While studying, I had a workshop with her and that she performed so strongly, seemed unusual. It was the first time that I had a workshop with a woman, the subject of which was neither drawing nor illustration. I also talked to <a href="http://www.uebele.com/de/aktuell.html">Andreas Uebele</a> about this, who found that the gender equality in design was no longer an issue. After having told him that I had no female models during my studies, the only female designer that he could think of was <a href="https://en.wikipedia.org/wiki/Paula_Scher">Paula Scher</a>.
-    I do not know if this is so because women do not fully exploit their potential and do not go far enough in their work or because they are not mentioned so often. They are not mentioned at all by historiography. <a href="http://master.design.zhdk.ch/personenangaben/sarah-owens">Sarah Owens</a>, the director of visual communication at ZHdK, gave a lecture on women in art and design at AGI a year and a half ago. She has dealt with the subject historically, and discovered that women, among the otherwise so advanced Bauhaus, were placed in the textile and pottery classes and were not allowed to study architecture.
+    IS:&nbsp;Außer Larissa von <a href="http://kasper-florio.ch/">Kasper Florio</a>, <a href="http://inescox.com/">Ines Cox</a> und vielleicht <a href="http://studioveronicaditting.com/">Veronica Ditting</a> fallen mir immer noch kaum weibliche Gestalterinnen auf Anhieb ein. <a href="http://mthvn.tumblr.com/">Vinca Kruk</a> von Metahaven ist zum Beispiel eine sehr starke Persönlichkeit. Während des Studiums hatte ich einen Workshop mit ihr und dass sie so stark auftrat, wirkte ungewohnt. Es war das erste Mal, dass ich einen Workshop mit einer Frau hatte, bei dem das Thema weder Zeichnen noch Illustration war. Darüber habe ich auch schon mit <a href="http://www.uebele.com/de/aktuell.html">Andreas Uebele</a> gesprochen, der fand, dass die Geschlechterungleichheit in der Design mittlerweile kein Thema mehr sei. Die einzige aber, die er mir nennen konnte, als ich erwiderte im Studium keine weiblichen Vorbilder gehabt zu haben, war <a href="https://en.wikipedia.org/wiki/Paula_Scher">Paula Scher</a>.
+    Ich weiß nicht, ob das so ist, weil Frauen ihr Potential nicht voll ausschöpfen und nicht weit genug in ihrem Schaffen gehen oder weil sie nicht so oft erwähnt werden. Von der Geschichtsschreibung werden sie zum Beispiel meist gar nicht berücksichtigt. <a href="http://master.design.zhdk.ch/personenangaben/sarah-owens">Sarah Owens</a>, die Leiterin für Visuelle Kommunikation an der ZHdK, hat vor eineinhalb Jahren bei der AGI einen Vortrag über Frauen in Kunst und Design gehalten. Sie hat sich geschichtlich mit dem Thema auseinandergesetzt, unter anderem mit dem sonst so fortschrittlichen Bauhaus, an dem Frauen in die Textil- und Töpferklassen gesteckt und nicht in die Architektur aufgenommen wurden.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f208
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     How strictly do you separate work and
     private life?
-  category: Private life
-  antwort: 'IS:&nbsp;This is the theme of my year. Designing is very important in my life, if not the most important thing. In recent years, I have worked extremely hard, spent little holidays and spent a lot of time and money to get where I wanted to go. By the end of last year, my health had hit my head—from one day to the next, my right arm was so inflamed that I could not hold a pen. For four months it was not clear whether it would heal again. This was a great life crisis for me—we had just founded Offshore and I could not work at all. At some point I realized that I have to rethink and have to deal with other things besides work. I still work on many weekends, but I try to have one free day per week. And I now have a dog with whom I have to go out at noon. In the early design phases of a project, I am also mostly mentally stressed, so I often work the rest of the evening, or at do research until late at night and think about the project further. I cannot and would not want to switch off or do anything else. This is also a bit difficult for my environment. But I believe that in these professions, where one has a certain vision of what one wants to do, a certain amount of time and effort is required. That is why self-employment is so important to me and, at least until now, is the only option to work in design.'
+  category: Private Life
+  antwort: 'IS:&nbsp;Das ist das Thema meines Jahres. Design ist in meinem Leben sehr wichtig, wenn nicht das Wichtigste. In den letzten Jahren habe ich extrem viel gearbeitet, kaum Ferien gemacht und viel Zeit und Geld investiert, um dahin zu kommen, wo ich hin will. Ende letzten Jahres hat mir meine Gesundheit einen Strich durch die Rechnung gemacht:&nbsp;Von einem Tag auf den anderen war mein rechter Arm so entzündet, dass ich keinen Stift mehr halten konnte. Vier Monate lang war nicht klar, ob es wieder heilen würde. Das war für mich einen große Lebenskrise – wir hatten gerade Offshore gegründet und ich konnte auf einmal nicht arbeiten. Irgendwann habe ich dann eingesehen, dass ich umdenken und mich neben der Arbeit auch mal mit anderen Dingen beschäftigen muss. Ich arbeite zwar immer noch an vielen Wochenenden, aber ich versuche einen Tag in der Woche freizunehmen. Und ich habe jetzt einen Hund, mit dem ich mittags rausgehen muss. In den frühen Entwurfsphasen eines Projekts bin ich meistens auch mental ziemlich eingespannt, sodass ich abends oft weiterarbeite oder zumindest bis spät in die Nacht recherchiere und das Projekt weiterdenke. Ich kann und möchte dann meistens nicht abschalten oder etwas anderes unternehmen. Das ist auch für mein Umfeld ein bisschen schwierig. Ich glaube aber, dass es bei diesen Berufen, bei denen man eine bestimmte Vision davon hat, was man machen will, eines gewissen Stellenwerts und Zeitaufwandes bedarf. Deswegen ist die Selbstständigkeit auch so wichtig für mich und, zumindest bis jetzt, die einzige Option in der Design zu arbeiten.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f209
   spezialfrage: "0"
   vorfrage: ""
   frage: What would be the ultimate project?
   category: Future
-  antwort: 'IS:&nbsp;Perhaps to work for a large exhibition, such as the Documenta or Venice Biennale. I would also like to make publications for research projects at MIT. I am interested in areas of social relevance, which also exist outside of the arts and cultural industry. I cannot name a specific project, but I would find something scientific that is aesthetically challenging very exciting and relevant.'
+  antwort: 'IS:&nbsp;Vielleicht für eine große Ausstellung, wie die documenta oder Venedig Biennale, zu arbeiten. Ich fände es auch extrem spannend, Publikationen für Forschungsprojekte am MIT zu machen. Gesellschaftlich relevante Bereiche, die auch außerhalb des Kunst- und Kulturbetriebs bestehen, interessieren mich. Ich kann kein konkretes Projekt benennen, aber etwas wissenschaftliches, das auch ästhetisch anspruchsvoll ist, fände ich sehr spannend und relevant.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f210
   spezialfrage: "0"
   vorfrage: ""
@@ -148,13 +146,13 @@ Interview:
     Which advice can you give to young
     female designers?
   category: Future
-  antwort: 'IS:&nbsp;Do not be intimidated. Do not be afraid like me to apply for a job at someone who acts as if he does not take female designers seriously, but do it anyway. The more women prove themselves in the field, the sooner they become normality. Even if you are an introvert person, you should try to get out of yourself, to talk about your work and to be visible, because that is the only way to create a collective consciousness.'
+  antwort: 'IS:&nbsp;Sich nicht einschüchtern lassen. Nicht wie ich Angst haben, sich bei jemandem zu bewerben, nur weil er wirkt, als nähme er weibliche Gestalterinnen nicht ernst, sondern es trotzdem tun. Je mehr Frauen sich in dem Feld beweisen, desto eher wird es zur Normalität. Auch wenn man eine introvertierte Person ist, sollte man versuchen aus sich heraus zu gehen, über seine Arbeit zu reden und sichtbar zu sein, denn nur damit schafft man ein kollektives Bewusstsein.'
   quote: ""
   quoteauthor: ""
 
 ----
 
-Introduction: Isabel Seiffert studied at Merz Akademie in Stuttgart and at ZHdK before founding Zurich-based Offshore Studio together with Christoph Miler after only a short period of agency work. Their projects have a strong focus on editorial design, typography and storytelling. Next to commissions and collaborations mostly within the cultural field, Offshore Studio investigates critical issues of design, globalisation and media in self-initiated projects. Since 2016 they are also art directors of »Migrant Journal«. In the interview, Isabel talks to us about her approach towards design, the importance of female role-models and equality in the design industry.
+Introduction: Isabel Seiffert studierte an der Merz Akademie in Stuttgart und der ZHdK, bevor sie nach kurzer Agenturzeit zusammen mit Christoph Miler das in Zürich ansässige Offshore Studio gründete. Ihre Projekte konzentrieren sich auf Editorial Design, Typografie und Storytelling. Neben Aufträgen und Kollaborationen im kulturellen Bereich untersucht Offshore Studio kritische Fragen rund um Design, Globalisierung und Medien in selbstinitiierten Projekten. Seit 2016 sind sie außerdem Art-Direktor_innen des »Migrant Journals«. Im Interview spricht Isabel Seiffert mit uns über ihre gestalterische Herangehensweise, die Wichtigkeit weiblicher Vorbilder und Gleichberechtigung in der Designbranche.
 
 ----
 
@@ -162,15 +160,15 @@ Interviewimage: offshore.jpg
 
 ----
 
-Titlenav: Isabel Seiffert, designer, Offshore Studio
+Titlenav: Isabel Seiffert, Designerin, Offshore Studio
 
 ----
 
-Url:
+Url: 
 
 ----
 
-Place: Zurich
+Place: Zürich
 
 ----
 
@@ -182,12 +180,16 @@ Web: http://www.offshorestudio.ch/
 
 ----
 
-Studiotitle: Offshore Studio
+Studiotitle: Isabel Seiffert (und Christoph Miler), Offshore Studio
 
 ----
 
-Interviewimagecredits:
+Interviewimagecredits: 
 
 ----
 
-Residence: Zurich, Switzerland
+Residence: Zürich, Schweiz
+
+----
+
+Visibility: 1
