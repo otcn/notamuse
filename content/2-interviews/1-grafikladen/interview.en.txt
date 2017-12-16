@@ -11,7 +11,7 @@ Interview:
   frage: >
     What was your decisive motivation for
     self-employment?
-  category: Working Method
+  category: Work form
   antwort: |
     KW:&nbsp;After studying, we both had a lot of internship experience and realized that we often did not enjoy the working methods of others. You are dependent on someone who structures his enterprise according to his own rules, which you cannot comply with. We both have a vision of how we want to work and deal with each other ­ we have not found that in the Berlin creative industry.
     JD:&nbsp;There is this dichotomy where you want to work. Either one goes into the advertisement and earns appropriate money—but the work is mostly unsatisfactory. Or you go to a cool graphic office, where you gain, despite working extra hours, 900 €. Already during our bachelor studies, we noticed that we are a good team, so there was this idea to become self-employed.
@@ -33,15 +33,15 @@ Interview:
   fid: f3
   spezialfrage: "0"
   vorfrage: >
-    Ihr habt erwähnt, dass euch bestimmte
-    Abläufe in Agenturen nicht gefallen.
+    You mentioned that certain processes in
+    agencies do not please you.
   frage: >
     How do you typically work on your
     projects?
   category: Processes
   antwort: |
-    KW:&nbsp;Mittlerweile laufen Projekte recht ähnlich ab, aber bis dahin war es ein langer Prozess. Wenn wir eine Anfrage für ein Projekt erhalten, versuchen wir zusammen mit dem/der Kund_in ein Briefing zu erstellen und entwickeln dann zu zweit das Konzept. Sobald es an die visuelle Umsetzung geht, arbeiten wir getrennt daran weiter. Früher haben wir das zusammen gemacht – was schön war, aber mittlerweile können wir uns das nicht mehr leisten. Das ist aber in Ordnung, weil sich diejenige, die am Projekt arbeitet, verwirklichen kann und die andere sich nur noch bis zu einem gewissen Grad einmischt.
-    JD:&nbsp;Allerdings verlässt nichts das Büro, hinter dem wir nicht beide stehen. Wenn Katharina findet, dass ein Entwurf gar nicht geht, wird er nicht rausgeschickt, auch wenn ich ihn liebe.
+    KW:&nbsp;By now, our projects are running quite similarly, but it was a long process. Whenever we receive a request for a project, together with the client we create a briefing and afterwards develop the concept. With regard to the visual implementation, we continue to work on it separately. We used to do it together, which was nice, but we cannot afford it anymore. But this is all right, because the one who works on the project can realize oneself and the other only interferes up to a certain extent.
+    JD:&nbsp;However, we always have to agree on the design. If Katharina finds that a draft does not work, it will not be sent out, even if I love it.
   quote: ""
   quoteauthor: ""
 -
@@ -78,8 +78,8 @@ Interview:
     conceptual way?
   category: Design
   antwort: |
-    JD:&nbsp;Ich wäre gerne noch experimenteller, aber das ist eine Zeitfrage, die vom Budget abhängig ist. Ab und an muss man sich dazu zwingen, neue Dinge auszuprobieren und zum Beispiel das analoge Experiment weiter auszubauen.
-    KW:&nbsp;Wir würden gerne einen Tag im Monat einführen, an dem wir neue Ansätze und Techniken ausprobieren oder Recherche betreiben können. Bisher fehlt dazu leider die Zeit. Aber natürlich betrachten wir jede/n Kund_in neu, analysieren seine/ihre Zielgruppen und passen die Design daran an.
+    JD:&nbsp;I'd like to be more experimental, but that depends on the budget. Now and then you have to force yourself to try out new things and, for example, expand the analogous experiment.
+    KW:&nbsp;We would like to introduce one day a month, in which we can try new approaches and techniques or research. Unfortunately, the time is missing. But, of course, we treat each customer differently, analyze his target groups and adapt the design to it.
   quote: ""
   quoteauthor: ""
 -
@@ -114,7 +114,7 @@ Interview:
   frage: Do you have any role models?
   category: Inspiration
   antwort: |
-    KW:&nbsp;<a href="http://bureauborsche.com/">Mirko Borsche</a> still inspires me because I feel that he can do what he wants and every customer buys it. What I’m missing is a female role model and someone I can look up to entrepreneurially. We have made it ourselves and often it would have been nice to have a mentor, who can give advice. Perhaps a little bit more agency experience would have helped as well.
+    KW:&nbsp;<a href="http://bureauborsche.com/">Mirko Borsche</a> still inspires me because I feel that he can do what he wants and every customer buys it. What l’m missing is a female role model and someone I can look up to entrepreneurially. We have made it ourselves and often it would have been nice to have a mentor, who can give advice. Perhaps a little bit more agency experience would have helped as well.
     JD:&nbsp;I have no specific person as a role model, but rather a certain inner attitude as a goal. My vision is to not let myself be stressed and to work on things with an inner balance. Self-employment is a strong challenge for the inner balance, so I hope to be like a little Buddha, who can keep his serenity and transfer it to clients.
   quote: ""
   quoteauthor: ""
@@ -181,7 +181,7 @@ Interview:
   frage: >
     How strictly do you separate work and
     private life?
-  category: Private Life
+  category: Private life
   antwort: |
     KW:&nbsp;At the beginning we worked a lot—you think that for this a great project you could work also at the weekend, but then comes the next great project and the weekend work does not stop. After two years we were pretty drained and had to learn to stick to strict limits. Now there is an office telephone and e-mails are not read in the evenings and at the weekend. The flexible working hours are tempting with regard to mixing private life and work, but that is not good. I prefer to separate the time I work from the time I rest. These limits must also be made clear to the customer when suddenly he writes messages on Facebook or WhatsApp.
     JD:&nbsp;There is this romantic idea of self-realization in a creative profession in Berlin, but it is hard work, in which financial aspects are also important. At the beginning, I tried to work full-time, studying the Master, but that quickly brought me to my psychological and physical limits, which must be recognized and communicated.
@@ -231,7 +231,7 @@ Introduction: Grafikladen is the creative studio of Katharina Weiß und Johanna 
 
 ----
 
-Titlenav: Johanna Dreyer & Katharina Weiß, Designers, Grafikladen
+Titlenav: Johanna Dreyer & Katharina Weiß, designers, Grafikladen
 
 ----
 

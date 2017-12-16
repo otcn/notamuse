@@ -6,7 +6,7 @@ Title: Femke Snelting
 
 ----
 
-Titlenav: Femke Snelting, Designerin und Künstlerin
+Titlenav: Femke Snelting, designer and artist
 
 ----
 
@@ -71,7 +71,7 @@ Interview:
     situation and to involve more women?
   category: Spezifisch
   antwort: |
-    FS:&nbsp;I don’t think once we have a 50:50 balance, the problem will be solved. I will be happy if the numbers change but for me the lack of women is a symptom of something. The problem is how software production deals with its own closed-mindedness. Its own thinking, that it doesn’t matter who thinks software, who deals with it, who speaks about it and who is involved – that is what I am working on.
+    FS:&nbsp;I don’t think once we have a 50:50 balance, the problem will be solved. I will be happy if the numbers change but for me the lack of women is a symptom of something. The problem is how software production deals with its own closed-mindedness. Its own thinking, that it doesn’t matter who thinks software, who deals with it, who speaks about it and who is involved—that is what I am working on.
     At <a href="http://lgru.net/">Libre Graphics Research Unit</a> we have run an all women group for learning free software for a long time. It is very hard for women to not be overruled by people that feel much more confident with technology. So, we are very careful about who we invite and the way we speak. There are techniques we use to change the way people feel with technology. It’s not just about gender, it’s more about how diverse you can allow your group to be and what you can do to make sure that you don’t exclude by default.
   quote: ""
   quoteauthor: ""
@@ -87,7 +87,10 @@ Interview:
   antwort: |
     FS:&nbsp;Yes, of course. If people get together to do something they like, they usually look for people just like them. So these groups naturally grow quite homogenized. When they are asked to open up, it always creates some trouble, as there are suddenly new questions being asked.
     There are many reasons why groups are unhappy with this homogeneity. There are different topics that some would like to address, but too often people have habits that are hard to break. There is an expectation of how people speak and what they speak about. It’s the combination of these two things that is difficult to break, especially when you are already out of the norm once you show up. When I came to the first International Free Software Conference, there was no woman speaking and there were two in the room. On the other hand I found very special people and very interesting conversations.
-  quote: ""
+  quote: >
+    If people get together to do something
+    they like, they usually look for people
+    just like them.
   quoteauthor: ""
 -
   fid: f270
@@ -174,7 +177,7 @@ Interview:
     ideas into teaching?
   category: Spezifisch
   antwort: |
-    FS:&nbsp;I am doing a class called »interfacing the law«. Books and publishing are getting more and more digital, but there is a problem with public libraries, which are not allowed to distribute their digital files like their physical ones. A group of people have started to create digital libraries, called »shadow libraries«, that overcome this problem, but are not exactly legal. I was interested in how knowledge is locked into academic silos, whereas I think it is important that material is available – especially when it is digital.
+    FS:&nbsp;I am doing a class called »interfacing the law«. Books and publishing are getting more and more digital, but there is a problem with public libraries, which are not allowed to distribute their digital files like their physical ones. A group of people have started to create digital libraries, called »shadow libraries«, that overcome this problem, but are not exactly legal. I was interested in how knowledge is locked into academic silos, whereas I think it is important that material is available—especially when it is digital.
     So, in this project I take the idea of the shadow library or the extra legal publishing to school. I want to discuss with feminist thinkers what this means to thinking the law, thinking institution, thinking knowledge. If we do this kind of civil disobedience, there is still the word »civil«, so I am also interested in what it means to bring it back into society. These are questions of care, maintenance and continuity that are part of a feminist project.
   quote: ""
   quoteauthor: ""
@@ -189,4 +192,4 @@ Interviewimagecredits:
 
 ----
 
-Residence: Brüssel, Belgien
+Residence: Brussels, Belgium
