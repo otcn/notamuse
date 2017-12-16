@@ -1,4 +1,4 @@
-Titlehead: 
+Titlehead:
 
 ----
 
@@ -10,7 +10,7 @@ Titlenav: Michelle Philipps, Designerin, Yukiko
 
 ----
 
-Informationhead: 
+Informationhead:
 
 ----
 
@@ -30,7 +30,7 @@ Date: 2017-05-15
 
 ----
 
-Contenthead: 
+Contenthead:
 
 ----
 
@@ -42,9 +42,9 @@ Introduction: After her graduation and two years of agency life in Brighton, Mic
 
 ----
 
-Interview: 
+Interview:
 
-- 
+-
   fid: f182
   spezialfrage: "1"
   vorfrage: >
@@ -57,7 +57,7 @@ Interview:
   antwort: 'MP:&nbsp;It was a natural progression. We see 2012 as our official date, but we have been working together for a very long time. We both worked in bigger agencies and were really fed up with it. We had many creative ideas but weren’t able to get them through. When we quit our jobs to go to Berlin, we didn’t have anything planned at all. Our colleagues were shocked:&nbsp;»What are you doing? You have no prospects, this is crazy«. Well, we went and it was fine. We saved a bit of money but the necessity of having to build something very quickly to make a living forces you to make contacts and take every possible opportunity.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f183
   spezialfrage: "0"
   vorfrage: ""
@@ -68,7 +68,7 @@ Interview:
   antwort: "MP:&nbsp;Yes, a lot. I did a lot of learning on the job I got straight after university, which is a good and a bad thing. There has been a huge amount of business, client and money related things I learned – everything that you don’t learn about in university. I could never have done Yukiko without that experience. But I also had to unlearn a lot of things, working practices I didn't agree with, or wanted to do differently."
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f184
   spezialfrage: "0"
   vorfrage: >
@@ -77,20 +77,20 @@ Interview:
   frage: >
     Wie entsteht die Arbeitsteilung zwischen
     euch?
-  category: Prozesse
+  category: Processes
   antwort: 'MP:&nbsp;Technically I do more of the wilder graphic design work and Johannes does more business, communication and also a lot of art direction. But we lean on each other a lot and look at everything together. We both get a little bit nervous, if the other one hasn’t looked over something before we finalize things and make decisions.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f185
   spezialfrage: "0"
   vorfrage: ""
   frage: Habt ihr eine tägliche Routine?
-  category: Prozesse
+  category: Processes
   antwort: 'MP:&nbsp;No, I wish we had a stricter routine. In the morning we start at ten, and tend to work until the job is done, which means we finish a different time every day. We have a very nice office now, with another design studio and an architecture studio next to us and this environment has helped us to concentrate a lot more. Before that we worked in an old swimming pool complex with a nightclub in the basement and many artists in the floors above. It was super fun, but it was this arty kind of thing; everything was made of junk and thrown together. But we still managed a lot of work! There were various workshops and we were much more multi-disciplinary back then. Then we got burgled and our laptops were stolen. At this point we realized that things were getting too serious and that we have to grow up.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f186
   spezialfrage: "0"
   vorfrage: ""
@@ -98,33 +98,33 @@ Interview:
     Wie geht ihr mit dem Konflikt zwischen
     Wirtschaftlichkeit und dem eigenen
     gestalterischen Anspruch um?
-  category: Prozesse
+  category: Processes
   antwort: 'MP:&nbsp;This is actually where Johannes and I differ quite a lot. I would just work on something until I think it’s good enough – which is never. Johannes understands much more how much our time is worth, how long we should be working on something and at what point we have to tell people if they are asking too much. We are really lucky to have many nice Indie projects that are paying, even though it’s not much. We also have a few projects that pay better, but can be somewhat boring – which is fine. Also we do mostly periodicals and magazines, and we have one client for whom we do branding for fairs three times a year. We’re really quite lucky to have established regular work.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f187
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     Beschäftigt ihr euch mit eurem
-    Gestaltungsprozess, indem ihr zum
+    Designsprozess, indem ihr zum
     Beispiel bewusst experimentell oder
     konzeptionell arbeitet?
-  category: Gestaltung
+  category: Design
   antwort: 'MP:&nbsp;Difficult question. I think we are not consciously experimental – we just are generally experimental. We care a lot about what the brief is and what the content is that we are working on. At the moment we seem to be doing mostly magazines, but they are very different. Sofa magazine is a society chit-chat magazine that talks about things like Tinder, Instagram, youth culture or sex. We approach it very differently compared to a magazine like Flaneur, where we work with artists and on location. It’s a conscious decision that these are completely different things. But the process of work, and the way we come up with ideas, is the same. Maybe that’s how we do it:&nbsp;we keep making stuff we’re really into and then just throw out all the ideas that don’t make sense, until we find something that does make sense. I guess I just figured this out.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f188
   spezialfrage: "0"
   vorfrage: ""
   frage: Wie würdet ihr euren Stil beschreiben?
-  category: Gestaltung
+  category: Design
   antwort: 'MP:&nbsp;I don’t think any of our magazines look similar, but some friends might say »Oh, this is so Yukiko«. I personally think that’s strange. Maybe it’s a certain attitude you can feel. We are not the kind of designers who make things necessarily look »beautiful«, that’s not what we are interested in.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f189
   spezialfrage: "0"
   vorfrage: ""
@@ -133,7 +133,7 @@ Interview:
   antwort: 'MP:&nbsp;There are definitely designers and studios that influenced me, especially as a student, but nowadays there are less specific role models. Johannes has an art and film background. He’s very into culture and arts, so we spend a lot more time in this area than in the design area. I would even say we don’t have many designer friends apart from <a href="../interviews/laure-boer">BANK</a> and <a href="http://www.s-t-a-t-e.com/">State</a>, the latter with whom we share a studio. For whatever reason we don’t socialize a lot in the design circle. BANK taught me a lot when I worked with them; they have an avant-garde approach to their work which I really like. They had a big influence on me.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f190
   spezialfrage: "0"
   vorfrage: ""
@@ -141,13 +141,13 @@ Interview:
     Seht ihr einen künstlerischen Auftrag
     in eurer Arbeit oder steht die
     Dienstleistung im Vordergrund?
-  category: Haltung
+  category: Approach
   antwort: |
     MP:&nbsp;Well, of course we are a service, but I really hate that idea. We have probably pissed off a few people who treated us more like a 24 hour-copy shop. Those collaborations don't last long. We once worked with a very nasty guy who came back to us with a potentially massive job. What do you do if someone is treating you really badly, but offers you a huge potential job? I talked to Ian from State, and he had one of the best pieces of advice someone ever gave me:&nbsp;»The one thing I’ve learned in life is just work with nice people«. We cancelled straight away.
     I actually do have a bit of an artistic mission. There was an <a href="https://eyeondesign.aiga.org/in-the-world-of-magazines-whats-so-good-about-bad-taste/">article in »AIGA Eye on design«</a> about Sofa magazine and the trend of magazines going in a kind of trash direction at the moment. Since then people have been asking me about what my take is on ugly design. I don’t think it’s ugly – if there is a chit-chat-conversation happening, we will use the chit-chat format. Design conversations revolve a lot about ugly or beautiful, good or bad design, but what is ugly and what is beautiful? I feel that there are a million other words, a much bigger design vocabulary that should be used and a larger discussion to be had, drawing on far wider cultural references than just the graphic design. Recently I read an essay by Metahaven saying, really simplified, that design is often seen like a surface or a layer you apply to stuff to give it »added value« or »luxury value«. From a surface point of view I think it’s true, but this part of design bores me, I hate it. In this sense, we do consciously think about what it is that we are doing:&nbsp;Are we a service? At what point can we start telling our clients what’s good and what’s not? These things keep me up at night.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f191
   spezialfrage: "0"
   vorfrage: >
@@ -155,20 +155,20 @@ Interview:
     look at Behance, Instagram and other
     platforms.
   frage: Wie steht ihr zu Designtrends?
-  category: Haltung
+  category: Approach
   antwort: 'MP:&nbsp;It’s really funny – we worked at »Zeit Leo«, a kids’ magazine, and we did the cover:&nbsp;a girl with a magenta background wearing a green jumper. Then the next »Zeit Campus« came out and its cover was like the big sister of ours. Crazy! I know for sure they hadn’t seen our cover before, but it’s like there is a collective consciousness, isn’t there? Sometimes it’s frustrating to see things that look like yours, but in the same way I don’t think design is just about striving to always be different for the sake of being different. I don’t think it’s necessarily a bad thing that there are trends. Everyone is learning of each other much quicker than they used to. It can get boring though when everyone is just doing the same thing because it looks nice.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f192
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was bedeutet für euch Erfolg?
-  category: Erfolg
+  frage: What does success mean to you personally?
+  category: Success
   antwort: 'MP:&nbsp;My goal in life is to work with nice people on interesting things and earn enough to not worry too much. I think about the house I want in the future sometimes, I’m that age. Most importantly however, we have been extremely lucky with the sort of experiences we have through our work. I really want to keep that going. As long as my mind is always excited, things are going well.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f193
   spezialfrage: "0"
   vorfrage: >
@@ -177,61 +177,60 @@ Interview:
   frage: >
     Werdet ihr als gleichberechtigte
     Partner_innen des Büros wahrgenommen?
-  category: Gleichstellung
+  category: Equality
   antwort: 'MP:&nbsp;This is the first time we have done an interview separately. We usually don’t split black and white what our roles are in our work. He talks to clients more than I do, so a lot of people presume that he does most of the work. For me that’s okay, because it saves a lot of hassle and communication with people. On the website, there is only his phone number, it’s the first point of contact with a client. Occasionally, when we have meetings with older men, they would talk to Johannes most of the time. With young people that doesn’t happen much. Actually, I don’t think we would be as far if Johannes wasn’t there. That is mainly because of our personalities, but maybe it is also a male/female issue. He is much more confident to say what we do is good – I would never talk about my work unless someone asks me about it. I grew up to be tough and independent, but I was never expected to be »great«. If I got a good job, that would be OK. Boys are expected to be »great«. This male attitude of having to prove yourself from a really young age, even on the playground, does translate later in business and graphic design. For example, Johannes sends out work to press and blogs, I would never do that! Women don’t push themselves forward as much, they don’t feel like they should. And when you have a male/female studio, people generally presume the guy is the creative head of the studio.'
   quote: >
     I grew up to be tough and independent,
     but I was never expected to be
     ›great‹.
   quoteauthor: ""
-- 
+-
   fid: f194
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     Wie wichtig ist euch öffentliche
     Aufmerksamkeit?
-  category: Sichtbarkeit
+  category: Visibility
   antwort: 'MP:&nbsp;It’s something we women should work more on. Johannes has taught me to understand what I’m worth, what my work is worth and that it’s on the same level as other designers. I’ve had to change my attitude to also think like this. Be conscious. Don’t ever apologize for your work. Defend it. Have confidence.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f195
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Habt ihr je negative Erfahrungen
-    aufgrund eures Geschlechts gemacht?
-  category: Gleichstellung
+    Did you ever experience any uncomfortable situation at work due to your sex?
+  category: Equality
   antwort: 'MP:&nbsp;After two years in my first job at a studio, the female art director left and I was asked to step into a higher role:&nbsp;»lead female designer«. I was the only female designer left. I was excited about promotion, but my male bosses asked me to dress a little »smarter«. It was very strange to hear that when all the other guys in the office wore jeans and t-shirts. They were actually nice guys though and I was pretty young when it happened. I was a bit shocked and confused, I didn’t say anything! Before that, I had never ever thought about this difference. That really woke me up. I left that place not too long afterwards.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f196
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     Beeinflusst die Familienplanung eure
     Selbstständigkeit?
-  category: Privatleben
+  category: Private Life
   antwort: 'MP:&nbsp;In terms of self-employment that was never a question. I covered a guy recently who was on 6 months paternity leave – if you are employed, this is amazing. Running my own studio, I don’t know how I’m going to plan a family. It is not going to be easy, but I’m not put off by that. One great thing in Germany is that the amount of time you can take off for parental leave as a man or a woman is equal. If we are looking for someone long-term to join us in the studio, there is absolutely no way we could discriminate against a young girl or guy because they might have a child. That is something many other countries don’t have and it is definitely something that women are discriminated against.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f197
   spezialfrage: "0"
   vorfrage: ""
   frage: Was macht ihr, um abzuschalten?
-  category: Privatleben
+  category: Private Life
   antwort: 'MP:&nbsp;To be honest, our work-life-balance is very bad, more so because we are partners. You finish work, go for a drink and just continue to talk about work. If there is a lot on, you put in an extra day at the weekend to keep on top of it. Or you catch up on paperwork at the weekend. Occasionally we finish work at 7 pm and we have a good social life afterwards. I try to do some sport and used to play basketball, Johannes is into Tai-Chi now. But this is really an effort, we have to do something for ourselves. But we tend to go out for beers nearly every day after work.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f198
   spezialfrage: "0"
   vorfrage: ""
-  frage: 'Was würdet ihr  jungen Designerinnen mit auf den Weg geben?'
-  category: Zukunft
+  frage: 'Which advice can you give to young female designers?'
+  category: Future
   antwort: 'MP:&nbsp;Work with nice people. Only.'
   quote: ""
   quoteauthor: ""

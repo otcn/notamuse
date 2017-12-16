@@ -1,4 +1,4 @@
-Titlehead: 
+Titlehead:
 
 ----
 
@@ -10,7 +10,7 @@ Titlenav: Simone Koller & Corina Neuenschwander, Designerinnen, Studio Noi
 
 ----
 
-Informationhead: 
+Informationhead:
 
 ----
 
@@ -30,7 +30,7 @@ Date: 2017-05-17
 
 ----
 
-Contenthead: 
+Contenthead:
 
 ----
 
@@ -42,18 +42,18 @@ Introduction: Nachdem sie nach ihrem Diplom an der ZHdK sowohl Erfahrung in Agen
 
 ----
 
-Interview: 
+Interview:
 
-- 
+-
   fid: f49
   spezialfrage: "0"
   vorfrage: ""
-  frage: Wie laufen Projekte üblicherweise ab?
-  category: Prozesse
+  frage: How do you typically work on your projects?
+  category: Processes
   antwort: 'SK:&nbsp;Das ist abhängig von der Größe des Projekts. Meistens besprechen wir zuerst zusammen worum es geht, was die wichtigsten Fragestellungen sind und tauschen erste Ideen aus. Dann macht jede einzeln Recherche und Brainstorming und setzt erste Ansätze um. Dabei geben wir uns einen klaren zeitlichen Rahmen vor, sodass das Entwerfen etwas Spielerisches bekommt. Danach besprechen wir unsere Ideen gemeinsam und entscheiden, welche Richtungen interessant sein könnten. Bei kleineren bis mittelgroßen Aufträgen macht dann eine von uns beiden die Umsetzung und die Kommunikation, während die andere beratend zur Seite steht. Bei großen Projekten oder solchen, die langfristig angelegt sind, teilen wir Bereiche auf oder arbeiten zusammen. Es ist wichtig, dass wir jederzeit füreinander einspringen können.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f50
   spezialfrage: "0"
   vorfrage: ""
@@ -61,55 +61,54 @@ Interview:
     Wie geht ihr mit dem Konflikt zwischen
     Wirtschaftlichkeit und dem eigenen
     gestalterischen Anspruch um?
-  category: Prozesse
+  category: Processes
   antwort: |
     SK:&nbsp;Uns ist wichtig, hinter dem stehen zu können, was rausgeht. Deshalb nehmen wir uns immer die Zeit, die etwas braucht, und prüfen auch Details, die den Kund_innen vermutlich nicht auffallen, uns aber wichtig sind. Bei Aufträgen, die mit einem detaillierten Kostenvoranschlag verbunden sind, schauen wir, ob unser Aufwand noch im Rahmen liegt. Es gibt aber auch Projekte, wie beispielsweise Publikationen, bei denen wir mit Pauschalen arbeiten und nicht besonders auf die Stunden achten. Dafür haben wir da meistens eine größere gestalterische Freiheit.
     CN:&nbsp;Mit der Zeit wird man zum Glück besser darin, den eigenen Aufwand einzuschätzen und realistische Angebote zu machen. Aus diesem Grund haben wir begonnen, unsere Arbeitszeit zu messen und nach jedem Projekt ein Fazit zu ziehen. So sehen wir zum Beispiel, ob wir gewisse Arbeitsschritte unterschätzt oder in der Kalkulation vergessen haben.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f51
   spezialfrage: "0"
   vorfrage: ""
   frage: Betreibt ihr aktiv Akquise?
-  category: Prozesse
+  category: Processes
   antwort: |
-    CN:&nbsp;Mit bewusster Akquise hatten wir bis jetzt selten Erfolg. Viel wirksamer finden wir, mit Leuten in Kontakt zu bleiben und uns auszutauschen. Nicht nur, weil wir uns davon Jobs erhoffen, sondern weil wir uns dafür interessieren, was um uns geschieht und womit sich andere beschäftigen. Daneben arbeiten wir ab und zu auch an selbst initiierten Projekten und organisieren Workshops. Mit diesen Projekten schaffen wir uns ein Netzwerk, das Aufträge aus Bereichen bringt, die wir spannend finden.
+    CN:&nbsp;Mit bewusster Akquise hatten wir bis jetzt selten Success. Viel wirksamer finden wir, mit Leuten in Kontakt zu bleiben und uns auszutauschen. Nicht nur, weil wir uns davon Jobs erhoffen, sondern weil wir uns dafür interessieren, was um uns geschieht und womit sich andere beschäftigen. Daneben arbeiten wir ab und zu auch an selbst initiierten Projekten und organisieren Workshops. Mit diesen Projekten schaffen wir uns ein Netzwerk, das Aufträge aus Bereichen bringt, die wir spannend finden.
     SK:&nbsp;Wir sind lieber selbst aktiv und dadurch sichtbar. Das hilft uns auch dabei, unsere Kompetenzen zu erweitern und in Auftragsverhältnissen eine aktivere Rolle einnehmen zu können. Wir kollaborieren gerne mit Leuten, bei denen die Kund_in-Dienstleister_in-Beziehung nicht so im Vordergrund steht und mit denen wir offen kommunizieren können.
   quote: >
     Wir sind lieber selbst aktiv und dadurch
     sichtbar.
   quoteauthor: Simone Koller
-- 
+-
   fid: f52
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Wie kann man sich euren
-    Gestaltungsprozess vorstellen?
-  category: Gestaltung
+    What does your design process look like?
+  category: Design
   antwort: |
     SK:&nbsp;Das ist extrem unterschiedlich. Wir arbeiten eher konzeptuell und inhaltsbasiert. Wir sind nicht unbedingt die geeigneten Grafikerinnen, wenn es darum geht, ein »geiles Plakat« zu machen – das können wir nicht besonders gut. Wir brauchen ein interessantes Thema, arbeiten gerne mit bestehendem Bildmaterial und gehen zum Beispiel in Archive oder entwickeln mit Fotograf_innen ein Bildkonzept. Editing hat einen hohen Stellenwert.
     CN:&nbsp;Für »Swiss Films« haben wir beispielsweise vorgeschlagen, anstatt mit Filmbildern mit Sprache zu arbeiten. Ein starkes Konzept, das sich weiterentwickeln lässt, interessiert uns mehr als eine schöne Oberfläche, auf der man nichts aufbauen kann.
     SK:&nbsp;Das heißt nicht, dass wir die schönen Oberflächen nicht schätzen – im Gegenteil. Doch für uns kommt die Auseinandersetzung mit einem konkreten Thema immer an erster Stelle, erst danach kommt die Form ins Spiel. Dabei spielt auch Intuition eine Rolle. Bei Publikationen stellen wir uns zum Beispiel oft die Frage, welches Gefühl wir vermitteln wollen. Welchen Charakter hätte das Buch, wenn es eine Person wäre? Ist es zugänglich, ist es eher kompliziert, ist es störrisch, ist es verspielt?
     Außerdem achten wir darauf, nicht ständig vor dem Bildschirm zu sitzen, sondern erste Ideen auch mal von Hand zu skizzieren, immer wieder mal etwas auszudrucken und an die Wand zu hängen, mit Schere und Papier zu arbeiten … Dieser Wechsel zwischen analog und digital hilft, sich nicht in Belanglosem zu verlieren.
-    CN:&nbsp;Grundsätzlich mache ich eher viele Entwürfe, während Simone ziemlich schnell auf eine Idee setzt und diese weiter verfolgt. So ergänzen wir uns gut:&nbsp;Die eine probiert mehr aus, die andere geht mehr ins Detail. Dadurch finden wir meistens zu einer gemeinsamen Vision.
+    CN:&nbsp;Grundsätzlich mache ich eher viele Entwürfe, während Simone ziemlich schnell auf eine Idee setzt und diese weiter vSuccesst. So ergänzen wir uns gut:&nbsp;Die eine probiert mehr aus, die andere geht mehr ins Detail. Dadurch finden wir meistens zu einer gemeinsamen Vision.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f53
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     Probiert ihr viel Neues oder verlasst
     ihr euch auf das, was ihr könnt?
-  category: Gestaltung
+  category: Design
   antwort: |
-    SK:&nbsp;Wir bemühen uns natürlich, dass jede Arbeit anders aussieht oder funktioniert. Gleichzeitig haben wir eine bestimmte Herangehensweise an Gestaltung, da ist es schwierig, sich mit jedem Projekt komplett neu zu erfinden. Die Zeit am Werkplaats Typografie war sehr gut, weil wir gelernt haben, uns von sicheren Lösungen zu trennen. Man sollte mehr wagen, experimentieren und nicht nur Sachen entwerfen, die ein Wohligkeitsgefühl auslösen und formal allzu Bekanntes wiederholen. Was das betrifft, könnten wir bestimmt noch viel radikaler sein. Gleichzeitig ist uns wichtig, dass Gestaltung Sinn macht, lesbar ist, sich die Form also nicht über die Funktion stellt. Oft ist es ein Ringen wir zwischen Radikalität, Konsequenz und Lesbarkeit.
+    SK:&nbsp;Wir bemühen uns natürlich, dass jede Arbeit anders aussieht oder funktioniert. Gleichzeitig haben wir eine bestimmte Herangehensweise an Design, da ist es schwierig, sich mit jedem Projekt komplett neu zu erfinden. Die Zeit am Werkplaats Typografie war sehr gut, weil wir gelernt haben, uns von sicheren Lösungen zu trennen. Man sollte mehr wagen, experimentieren und nicht nur Sachen entwerfen, die ein Wohligkeitsgefühl auslösen und formal allzu Bekanntes wiederholen. Was das betrifft, könnten wir bestimmt noch viel radikaler sein. Gleichzeitig ist uns wichtig, dass Design Sinn macht, lesbar ist, sich die Form also nicht über die Funktion stellt. Oft ist es ein Ringen wir zwischen Radikalität, Konsequenz und Lesbarkeit.
     CN:&nbsp;Wir versuchen immer wieder, Neues über Materialität auszudrücken und experimentieren viel in diesem Bereich. Unsere Quelle hierfür sind unsere Archive, die wir zusammengelegt haben, als wir das Büro gründeten. Wir gucken uns viele Sachen an:&nbsp;ihre Beschaffenheit, wie etwas gebunden ist, verschiedene Drucktechniken.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f54
   spezialfrage: "0"
   vorfrage: ""
@@ -120,7 +119,7 @@ Interview:
     SK:&nbsp;Die Inspiration entsteht sicherlich nicht vor dem Computer. Deshalb versuchen wir unsere Arbeitstage möglichst kurz zu halten und genug nebenbei zu machen. Ausstellungen besuchen, ins Theater gehen … Vieles kommt beim Lesen, etwas das ich spannend finde und das meine Gedanken in Bewegung bringt. Wenn wir brainstormen, fahren wir auch mal in die Berge, um den Kopf wieder frei zu bekommen.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f55
   spezialfrage: "0"
   vorfrage: ""
@@ -128,63 +127,62 @@ Interview:
     Seht ihr einen künstlerischen Auftrag
     in eurer Arbeit oder steht die
     Dienstleistung im Vordergrund?
-  category: Haltung
+  category: Approach
   antwort: |
     CN:&nbsp;Wir sehen uns nicht als reine Dienstleisterinnen. Es ist uns wichtig, dass wir nicht nur eine ausführende Kraft sind, sondern zusammen mit den Kund_innen eine Lösung entwickeln. Wir hinterfragen sehr viel und involvieren uns stark. Oft arbeiten wir zum Beispiel mit ganz anderem Material, als dem, was uns zu Beginn eines Projekts zur Verfügung gestellt wurde. Es kam auch schon vor, dass wir eine Publikation unnötig fanden und etwas anderes vorschlugen.
     SK:&nbsp;Es gibt durchaus Grafiker_innen, deren Arbeitsweise in Richtung Kunst geht. Bei Künstler_innenpublikationen zum Beispiel ist der Beitrag der Grafiker_innen teilweise so groß, dass sie zu Co-Autor_innen werden. Viele Künstler_innen hinterfragen ja Konventionen, animieren dazu, scheinbar Bekanntes neu zu lesen oder fordern unsere Wahrnehmung heraus. Das was wir machen, ist davon nicht immer weit entfernt. Trotzdem würde ich mich nicht als Künstlerin bezeichnen.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f56
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was bedeutet für euch Erfolg?
-  category: Erfolg
+  frage: What does success mean to you personally?
+  category: Success
   antwort: |
-    CN:&nbsp;Für uns bedeutet Erfolg, dass wir selbstbestimmt arbeiten und uns einen regelmäßigen Lohn auszahlen können, von dem wir Sozialabgaben leisten können. Und dass viele unserer Kund_innen immer wieder mit uns zusammenarbeiten möchten, sich durch die geleistete Arbeit also immer wieder neue Aufträge generieren.
-    SK:&nbsp;Bei unserem Beruf kann man Erfolg nicht mit finanziellem Erfolg gleichstellen. Finanziellen Erfolg in Maßstäben, wie sie in der Schweiz üblich sind, werden wir nie erreichen, egal wie erfolgreich wir als Grafikerinnen sind – außer wir wären in einer Agentur als Art-Direktorin angestellt. Was für uns persönlich mehr zählt:&nbsp;Wir können an spannenden Projekten arbeiten, sind unsere eigenen Chefinnen, können unsere Zeit selber einteilen und uns auch mal einen Tag freinehmen. Gleichzeitig tragen wir natürlich auch die volle Verantwortung dafür, dass die Arbeit gemacht wird, das Geschäft läuft und wir fähig sind, am Ende des Monats die Rechnungen zu bezahlen.
+    CN:&nbsp;Für uns bedeutet Success, dass wir selbstbestimmt arbeiten und uns einen regelmäßigen Lohn auszahlen können, von dem wir Sozialabgaben leisten können. Und dass viele unserer Kund_innen immer wieder mit uns zusammenarbeiten möchten, sich durch die geleistete Arbeit also immer wieder neue Aufträge generieren.
+    SK:&nbsp;Bei unserem Beruf kann man Success nicht mit finanziellem Success gleichstellen. Finanziellen Success in Maßstäben, wie sie in der Schweiz üblich sind, werden wir nie erreichen, egal wie Successreich wir als Grafikerinnen sind – außer wir wären in einer Agentur als Art-Direktorin angestellt. Was für uns persönlich mehr zählt:&nbsp;Wir können an spannenden Projekten arbeiten, sind unsere eigenen Chefinnen, können unsere Zeit selber einteilen und uns auch mal einen Tag freinehmen. Gleichzeitig tragen wir natürlich auch die volle Verantwortung dafür, dass die Arbeit gemacht wird, das Geschäft läuft und wir fähig sind, am Ende des Monats die Rechnungen zu bezahlen.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f57
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     Wie wichtig ist euch öffentliche
     Aufmerksamkeit?
-  category: Sichtbarkeit
+  category: Visibility
   antwort: |
     CN:&nbsp;Wir arbeiten nicht besonders aktiv an unserem öffentlichen Auftritt, dafür fehlt uns im Moment leider die Zeit. Zu Beginn unserer Zusammenarbeit hatten wir das Glück, dass wir viele Aufträge erhalten haben, die eine breite Öffentlichkeit erreichten, wie zum Beispiel den Katalog der Schönsten Schweizer Bücher. So konnten wir gleichzeitig auf unser neues Studio aufmerksam machen.
     SK:&nbsp;Wir posten nicht jeden Tag etwas Neues auf unserem Instagram-Account. Mir persönlich geht es etwas gegen den Strich mich selbst zu bewerben. Unsere aktive Leistung ist es eher, ab und zu einen Vortrag zu halten und zu unterrichten. An dieser Stelle erscheint es uns sinnvoll, dann sprechen wir gerne über unsere Arbeit. Wir finden es wichtig, eine Vorbildfunktion einzunehmen.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f58
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     Seid ihr in beruflichen Netzwerken
     vertreten?
-  category: Sichtbarkeit
+  category: Visibility
   antwort: |
     CN:&nbsp;Wir sind viel im Austausch mit Freund_innen, aber wir sind in keinem Verband.
     SK:&nbsp;Das Wort »Netzwerk« ist für mich eher negativ konnotiert. Als ob man nur Kontakt zu Leuten suchen würde, von denen man sich einen Vorteil erhofft. Aber eigentlich sind solche Initiativen toll, um sich gegenseitig kennenzulernen und auszutauschen – gerade wenn man nicht in der privilegierten Position ist, bereits viele Kontakte zu haben.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f59
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Habt ihr je negative Erfahrungen
-    aufgrund eures Geschlechts gemacht?
-  category: Gleichstellung
+    Did you ever experience any uncomfortable situation at work due to your sex?
+  category: Equality
   antwort: |
     CN:&nbsp;Ich denke diese Thematik spielt in dem Bereich, in dem wir arbeiten, keine besonders große Rolle. Oft werden wir auch angefragt, weil wir ein Frauenbüro sind.
     SK:&nbsp;Ich denke, es kommt sehr stark auf das eigene Auftreten an. Wenn man eine gewisse Erfahrung hat, Kompetenz vermittelt und sich nicht einschüchtern lässt, wird man normalerweise ernst genommen. Das ist zumindest meine Erfahrung. Auf nationaler Ebene hingegen sind wir hier in der Schweiz noch lange nicht so weit, wie wir sein sollten:&nbsp;Frauen verdienen noch immer weniger für dieselbe Arbeit. Letztens habe ich gelesen, dass 60% der Frauen Teilzeit arbeiten, aber nur 13% der Männer. Dass solche krassen Unterschiede zwischen den Geschlechtern noch immer bestehen, ärgert mich.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f60
   spezialfrage: "0"
   vorfrage: ""
@@ -193,24 +191,24 @@ Interview:
     ihrer Arbeitsweise und ist die
     Zusammenarbeit mit ihnen
     unterschiedlich?
-  category: Gleichstellung
+  category: Equality
   antwort: 'SK:&nbsp;Ich glaube nicht, dass man das so pauschal sagen kann. Wenn man Arbeiten betrachtet, lässt sich nicht wirklich unterscheiden, ob sie von einem Mann oder einer Frau gemacht wurden. Womöglich sind Frauen etwas gewissenhafter und halten sich eher an Abmachungen – aber auch das kann man nicht generalisieren, das ist vielmehr typabhängig.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f61
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     Beeinflusst die Familienplanung eure
     Selbstständigkeit?
-  category: Privatleben
+  category: Private Life
   antwort: |
     CN:&nbsp;Wir haben beobachtet, dass viele Grafikerinnen, die angestellt sind, weniger Verantwortung erhalten, sobald sie Mütter werden und nicht mehr Vollzeit arbeiten. Wenn man als Einzelperson selbständig ist, ist es schwieriger, Ausfälle aufzufangen. Familienplanung war daher einer der Gründe, warum wir uns zusammengeschlossen haben:&nbsp;So können wir uns gegenseitig unterstützen und weiterhin an interessanten Aufträgen arbeiten, auch wenn eine von uns mal im Mutterschaftsurlaub ist.
     SK:&nbsp;Im Laufe der letzten paar Monate haben wir beide relativ kurz hintereinander ein Kind bekommen. Zusammen mit einer Mitarbeiterin hat zuerst die eine, dann die andere von uns den Laden geschmissen. Jetzt arbeiten wir beide wieder, aber nicht ganz Vollzeit, und möchten etwa genauso viel Arbeit leisten wie zuvor. Deswegen haben wir weiterhin eine Mitarbeiterin, die uns unterstützt. Dass wir das bis jetzt so gut hingekriegt haben, liegt auch daran, dass wir beide Partner haben, die Teilzeit arbeiten und sich genauso um Kinderbetreuung und Haushalt kümmern wie wir.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f62
   spezialfrage: "1"
   vorfrage: ""
@@ -221,15 +219,15 @@ Interview:
     CN:&nbsp;Wir wollen auf keinen Fall viele Angestellte. Wir möchten nicht so eine große finanzielle Verantwortung tragen, sondern bleiben lieber kreativ und frei.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f63
   spezialfrage: "0"
   vorfrage: ""
-  frage: 'Was würdet ihr  jungen Designerinnen mit auf den Weg geben?'
-  category: Zukunft
+  frage: 'Which advice can you give to young female designers?'
+  category: Future
   antwort: |
     SK:&nbsp;Versteht euch nicht als Konkurrentinnen. Tauscht euch aus, unterstützt euch, schließt euch zusammen!
-    CN:&nbsp;Verfolgt eure Interessen und Ziele – vieles ist möglich, wenn man es wirklich will.
+    CN:&nbsp;VSuccesst eure Interessen und Ziele – vieles ist möglich, wenn man es wirklich will.
   quote: Versteht euch nicht als Konkurrentinnen.
   quoteauthor: Simone Koller
 
@@ -239,7 +237,7 @@ Studiotitle: Simone Koller & Corina Neuenschwander, Studio Noi
 
 ----
 
-Interviewimagecredits: 
+Interviewimagecredits:
 
 ----
 

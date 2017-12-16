@@ -2,9 +2,9 @@ Interviewpartner: 1
 
 ----
 
-Interview: 
+Interview:
 
-- 
+-
   fid: f1
   spezialfrage: "0"
   vorfrage: ""
@@ -18,7 +18,7 @@ Interview:
     KW:&nbsp;Our profession is not a high risk. Everyone has a computer and the programs and it is possible to work from anywhere. Even if it does not work, you have not made a big loss.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f2
   spezialfrage: "1"
   vorfrage: ""
@@ -29,7 +29,7 @@ Interview:
   antwort: 'KW:&nbsp;From six months up to a year. As a beginner, right after your studies, you are often selling yourself under value. Then you gradually increase the hourly rate and it gets better and better. Generally speaking, there is still space for improvement.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f3
   spezialfrage: "0"
   vorfrage: >
@@ -44,7 +44,7 @@ Interview:
     JD:&nbsp;Allerdings verlässt nichts das Büro, hinter dem wir nicht beide stehen. Wenn Katharina findet, dass ein Entwurf gar nicht geht, wird er nicht rausgeschickt, auch wenn ich ihn liebe.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f4
   spezialfrage: "0"
   vorfrage: ""
@@ -56,7 +56,7 @@ Interview:
   antwort: 'KW:&nbsp;Time is a big issue for us at the moment, because we have neglected a consistent time recording in the last two years. Meanwhile, we have realized how important this is in order to be able to assess the effort better. So far, the estimation and the actual expenditure of time have been very different, but since we have recorded it, we have become somewhat stricter. We do not necessarily work out yet another idea when we realize that we already exceeded the estimated hours.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f25
   spezialfrage: "0"
   vorfrage: ""
@@ -67,7 +67,7 @@ Interview:
     KW:&nbsp;What you should not underestimate is private acquisition, which we both do intuitively. Whenever you meet new people and talk about your profession and thereby offer graphic advice, this can often lead to new projects. We received the first orders from our circle of friends. Since about half a year we get orders that we cannot trace back.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f38
   spezialfrage: "0"
   vorfrage: ""
@@ -79,10 +79,10 @@ Interview:
   category: Design
   antwort: |
     JD:&nbsp;Ich wäre gerne noch experimenteller, aber das ist eine Zeitfrage, die vom Budget abhängig ist. Ab und an muss man sich dazu zwingen, neue Dinge auszuprobieren und zum Beispiel das analoge Experiment weiter auszubauen.
-    KW:&nbsp;Wir würden gerne einen Tag im Monat einführen, an dem wir neue Ansätze und Techniken ausprobieren oder Recherche betreiben können. Bisher fehlt dazu leider die Zeit. Aber natürlich betrachten wir jede/n Kund_in neu, analysieren seine/ihre Zielgruppen und passen die Gestaltung daran an.
+    KW:&nbsp;Wir würden gerne einen Tag im Monat einführen, an dem wir neue Ansätze und Techniken ausprobieren oder Recherche betreiben können. Bisher fehlt dazu leider die Zeit. Aber natürlich betrachten wir jede/n Kund_in neu, analysieren seine/ihre Zielgruppen und passen die Design daran an.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f39
   spezialfrage: "0"
   vorfrage: ""
@@ -96,7 +96,7 @@ Interview:
     KW:&nbsp;I've also left this self-realization phase behind me. It was interesting one year after my studies, but that's not what I'm looking for now. We focus on a happy customer and that we are satisfied with the designs. There is no sense in producing »hot shit« that no one understands.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f40
   spezialfrage: "0"
   vorfrage: ""
@@ -107,7 +107,7 @@ Interview:
     KW:&nbsp;The problem is that a trend must also be sold to the customer. Just because you find something hip and beautiful, does not mean that someone wants it.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f41
   spezialfrage: "0"
   vorfrage: ""
@@ -118,7 +118,7 @@ Interview:
     JD:&nbsp;I have no specific person as a role model, but rather a certain inner attitude as a goal. My vision is to not let myself be stressed and to work on things with an inner balance. Self-employment is a strong challenge for the inner balance, so I hope to be like a little Buddha, who can keep his serenity and transfer it to clients.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f42
   spezialfrage: "0"
   vorfrage: ""
@@ -131,7 +131,7 @@ Interview:
     KW:&nbsp;For me, success also means having fun at work and earning my livelihood. If you are constantly thinking about your financial balance, you have no fun. Being able to identify with the projects is important to me. I do not want to work for assholes.
   quote: I do not want to work for assholes.
   quoteauthor: Katharina Weiß
-- 
+-
   fid: f43
   spezialfrage: "0"
   vorfrage: ""
@@ -144,7 +144,7 @@ Interview:
     JD:&nbsp;I am always happy when someone acknowledges our work. At the same time, it is difficult for me to implement self-imposed measures consistently. For me, it's more of a burden to present my work on Facebook and Instagram.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f44
   spezialfrage: "0"
   vorfrage: ""
@@ -160,7 +160,7 @@ Interview:
     At a Christmas party during an internship, someone told me that I only got the job because there is a video of me in which I eat a chocolate banana. This is already really sexist and was very shocking. It can be a naive strategy to play the sweet girl, but at some point you do not feel like it anymore.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f45
   spezialfrage: "0"
   vorfrage: ""
@@ -174,7 +174,7 @@ Interview:
     JD:&nbsp;In the existing economic system, you are often being taken advantage of as a sensitive person. If you do not build a protective wall against these harsh structures, your own character quickly collides with the system. For me, the key is to recognize your own limitations, communicate them and stick to them.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f46
   spezialfrage: "0"
   vorfrage: ""
@@ -191,7 +191,7 @@ Interview:
     profession in Berlin, but it is hard
     work.
   quoteauthor: Johanna Dreyer
-- 
+-
   fid: f47
   spezialfrage: "1"
   vorfrage: ""
@@ -202,7 +202,7 @@ Interview:
   antwort: 'KW:&nbsp;The stress happens in the head. We have often seen that artificial pressure is built up by the customers. If you do not react on Saturday, the problem often solves itself by Monday. If you communicate clearly that you do not work at the weekend, it is usually accepted. We do not save lives with our work—normally no one cares whether the flyer is finished one day sooner or later.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f48
   spezialfrage: "0"
   vorfrage: ""
@@ -235,7 +235,7 @@ Titlenav: Johanna Dreyer & Katharina Weiß, Designers, Grafikladen
 
 ----
 
-Url: 
+Url:
 
 ----
 
@@ -255,7 +255,7 @@ Studiotitle: Grafikladen
 
 ----
 
-Interviewimagecredits: 
+Interviewimagecredits:
 
 ----
 

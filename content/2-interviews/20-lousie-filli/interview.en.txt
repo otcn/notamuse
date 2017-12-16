@@ -6,9 +6,9 @@ Interviewpartner: 0
 
 ----
 
-Interview: 
+Interview:
 
-- 
+-
   fid: f232
   spezialfrage: "1"
   vorfrage: >
@@ -23,7 +23,7 @@ Interview:
   antwort: 'LF:&nbsp;It was difficult. When I started to work as a designer I was looking for role models, but there were no women designers around. My first job was at a small advertising agency whose owners were close with <a href="http://www.aiga.org/medalist-cipepineles">Cipe Pineles</a>. I didn’t know much about her, but she used to drop in all the time, and I thought she was a very strong woman – I really admired that. When I worked for <a href="http://www.aiga.org/medalist-herblubalin">Herb Lubalin</a> it was different because he hired a lot of women, from all over the world, which made the studio an interesting melting pot. I always felt that I was treated very fairly there, but clients, typesetters and printers tended to look down on us. This was the unenlightened 1970s – I just ignored it and did my thing. At Pantheon, most of the art directors were women, but my boss was a man. When I first took the job and asked for a very reasonable salary, he said he couldn’t pay me that much because that’s what he was paying a male art director who had a child to support. Wrong answer! In truth, this male art director also had much more work on his plate than I would have. That would have been a perfectly good answer, but instead he made it a sexist issue.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f233
   spezialfrage: "1"
   vorfrage: ""
@@ -35,7 +35,7 @@ Interview:
   antwort: 'LF:&nbsp;I think it was a good balance. It was more about talent and skills – and if you had the talent, you were treated equally amongst peers. Of course there was a competitive spirit, and some designers were more ambitious than others, but I did not have an issue with that. At Lubalin I was the only senior designer, so it was only Herb and me and all the people working in the bullpen, putting everything together. It felt more like a family.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f234
   spezialfrage: "1"
   vorfrage: ""
@@ -46,7 +46,7 @@ Interview:
   antwort: 'LF:&nbsp;I think it is much better now than it was before. I teach a class at the School of Visual Arts which always tends to be 95% women. Most likely not all of them stay in the business, but it is encouraging to see how many women want to be designers. Something that is very important to me is mentoring. I have had some very talented young women working for me, who have gone off on their own, and it has been very gratifying to me to be able to help them in any way. Especially in this age of Trump, women always have to be on their guard. We have to help one another.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f235
   spezialfrage: "1"
   vorfrage: >
@@ -60,7 +60,7 @@ Interview:
   antwort: 'LF:&nbsp;I already had a reputation for working at Pantheon, but that was mainly for books. When I started my studio I did not only want to do books, but try to enter into food packaging and restaurants, which was a completely different thing. Restaurants especially were a very male dominated world. But the first big decision was how to name the studio. In those days before Google, people had to find you in the phone book, so I knew I had to name it after myself. As I did not have any partners, I decided to name it Louise Fili Ltd. I knew it was a liability and that as a result some people wouldn’t call me. But I wanted to send a clear message:&nbsp;If you have trouble with me being female, I have a problem with you being my client.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f236
   spezialfrage: "1"
   vorfrage: ""
@@ -72,7 +72,7 @@ Interview:
   antwort: "LF:&nbsp;No, I don't think we reflect on that when we are in the moment. Ever since I was in college all I wanted was to do good work. I didn’t want to be famous, I didn’t want to be a leader, I just wanted to do the best work I could possibly do."
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f237
   spezialfrage: "1"
   vorfrage: ""
@@ -84,7 +84,7 @@ Interview:
   antwort: 'LF:&nbsp;Ironically, the biggest problem I had when I started my studio was with a female client. Female clients can be great. Especially in restaurants, where I like working with female chefs, who had to go through a lot to get where they are. But I realized there is a certain type of female clients who takes their work so seriously that whenever any kind of problem arises, the next thing I know I will hear from her lawyer. That only happened once, but since then I have been very careful about the clients I take on.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f238
   spezialfrage: "1"
   vorfrage: >
@@ -99,16 +99,16 @@ Interview:
   antwort: 'LF:&nbsp;Absolutely. The financial part has never been impressive; it’s the least important thing to me. I think there are three goals you should have when you own a studio:&nbsp;You want to do good work, you want to have a certain professional profile and you want to make money. If you do two of those things right, you are doing well. I need to keep the studio going, but doing good work and enjoying it is much more important to me than money. That is why I have set up my studio the way it is; it’s a repurposed apartment, with a very nice kitchen and we always have gelato on hand. That’s important to me and it keeps me (and my staff and clients) happy.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f239
   spezialfrage: "0"
   vorfrage: If it’s not the financial aspect –
-  frage: Was bedeutet für euch Erfolg?
-  category: Erfolg
+  frage: What does success mean to you personally?
+  category: Success
   antwort: 'LF:&nbsp;Well, in terms of success, what I feel best about is having brought a certain attention to hand lettering and custom typography that didn’t exist before. Another aspect is mentoring and the fact that women want to come to work here to learn from me.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f240
   spezialfrage: "1"
   vorfrage: You work in a very small team.
@@ -117,7 +117,7 @@ Interview:
   antwort: 'LF:&nbsp;It really is about the personality. When I first started my studio, I tended to only hire women. I certainly wasn’t discriminating against men – they were just not as interested as women, because of the subject matter. When I started, people thought my work was feminine, now they say it’s elegant. Over the last several years I have hired men and women equally and I am always amazed that there are men who are just as interested in this kind of work as women.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f241
   spezialfrage: "1"
   vorfrage: ""
@@ -129,7 +129,7 @@ Interview:
   antwort: 'LF:&nbsp;Definitely. There are a lot of men with great hand lettering skills, just as there are many women who do it well.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f242
   spezialfrage: "1"
   vorfrage: ""
@@ -141,7 +141,7 @@ Interview:
   antwort: 'LF:&nbsp;I think women and men both have similar goals for success, but women also deal with the additional factor of having a family. If you care about starting a family, you have to figure out how to integrate it into your work. This is one of the reasons why I started my studio right after my son was born. Before I never had an interest in having my own studio. When I returned to Pantheon Books after my three months maternity leave, the work there didn’t seem to be interesting anymore. I already did a lot of freelance jobs when I was at Pantheon, so it was easy to start my own business. However, I always kept my studio near my apartment, which gave me an enormous flexibility to see my family. Most of the people who leave here, male or female, all end up opening their own studio. And, actually, two of my former designers got married to each other!'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f243
   spezialfrage: "1"
   vorfrage: >
@@ -157,7 +157,7 @@ Interview:
   antwort: 'LF:&nbsp;I hate the word »networking«. It is something I never actively did, but over the years I realized that it is important to have a presence and let people know that you are still out there and working. Usually if I show my face at a design event, I’ll get a call about a job the next day. For the design community it is also important just to share. That is also why I loved having my retrospective show. Over the two months that the exhibit was up, I spent a lot of time at the gallery and saw a lot of people I hadn’t met in a long time. Going through my work from over 40 years also was an emotional process; it is a good thing to do once.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f244
   spezialfrage: "1"
   vorfrage: 'In the 1970/1980s there was a powerful feminist movement in the American art and design scene, with graphic designer <a href="http://sheilastudio.us/">Sheila Levrant de Bretteville</a> as a key figure.'
@@ -168,7 +168,7 @@ Interview:
   antwort: 'LF:&nbsp;I remember when I was in college, desperately looking for women in design magazines, Sheila was the only one I could find. It gave me hope.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f245
   spezialfrage: "1"
   vorfrage: ""
@@ -179,7 +179,7 @@ Interview:
   antwort: 'LF:&nbsp;I think it would have been more successful if we had had the internet to discuss it better. The college I went to was all female, but that wasn’t the reason I went there. I went there because they had a good art department. All the women there were very strong and ambitious; it was a great way to study art.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f246
   spezialfrage: "1"
   vorfrage: ""
@@ -188,7 +188,7 @@ Interview:
   antwort: 'LF:&nbsp;I have always been a feminist, yes. It is too bad that the interpretation of the term has changed over the last several years. It used to be a positive thing.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f247
   spezialfrage: "1"
   vorfrage: ""
@@ -199,7 +199,7 @@ Interview:
   antwort: 'LF:&nbsp;My mission is to be a role model; it goes back to when I couldn’t find any role models myself. Even if it is just about enlightening one young woman, it is worth it.'
   quote: My mission is to be a role model.
   quoteauthor: ""
-- 
+-
   fid: f248
   spezialfrage: "1"
   vorfrage: ""
@@ -210,7 +210,7 @@ Interview:
   antwort: 'LF:&nbsp;Yes, very much. I am always getting emails from young designers who ask for advice and I always try to answer all of them.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f249
   spezialfrage: "1"
   vorfrage: ""
@@ -222,7 +222,7 @@ Interview:
   antwort: 'LF:&nbsp;By keeping my studio small, I have always been able to make my own rules, and I continue to do that. One of the first things I realized was how important it is to have your own projects and find your own voice. That is when I started doing books with my husband and on my own. Photographs of signs is something that I have been passionate about for almost 40 years. I used to take these pictures just for my own references and enjoyment, until I realized I had to do a book about it, because they all started to disappear. It became a mission of mine to document all those signs before they are completely gone. When the first book »Grafica della Strada« came out, it got a very good press in Italy, they all said pretty much the same:&nbsp;»We all pass by these signs every day and we never really noticed – it took an American to come here to make us appreciate them.« That made me feel good.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f250
   spezialfrage: "0"
   vorfrage: >
@@ -231,11 +231,11 @@ Interview:
   frage: >
     Wie wird die gemeinsame Arbeit mit euren
     Partnern öffentlich wahrgenommen?
-  category: Gleichstellung
+  category: Equality
   antwort: 'LF:&nbsp;<a href="http://www.hellerbooks.com/">Steven</a> has done hundreds of books on design on his own and has a stellar reputation. When we started working together I thought it would be just another couple of books for him, but the way we collaborated worked very well. We collect and select the work together, he does the writing. Normally he does the first edit and I do the second, and then we design and layout the book here in the studio. It works very well, because we both do what we are good at and we rarely disagree on anything. After we had worked on books for several years, I started writing my own books. It was a big step for me, but I enjoyed doing that a lot. I didn’t know I had enough to say about the signs to fill a book.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f251
   spezialfrage: "1"
   vorfrage: ""
@@ -246,7 +246,7 @@ Interview:
   antwort: 'LF:&nbsp;Yes, we are. Even though we have been married for 33 years, a lot of people don’t know about it, and we don’t say it in our books. But we attend conferences separately as well.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f252
   spezialfrage: "1"
   vorfrage: ""
@@ -257,12 +257,12 @@ Interview:
   antwort: 'LF:&nbsp;Yes. Steven always says that when he met me, he realized he could not compete with me typographically, so he stopped designing. But he is a prolific writer, a dedicated educator and lecturer, and excels in everything else he does.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f253
   spezialfrage: "0"
   vorfrage: ""
-  frage: 'Was würdet ihr  jungen Designerinnen mit auf den Weg geben?'
-  category: Zukunft
+  frage: 'Which advice can you give to young female designers?'
+  category: Future
   antwort: 'LF:&nbsp;I think it is much easier for a woman to become a designer now than when I was entering the profession. Women can do anything, they have many role models now. But there still are challenges. What I always recommend to everyone, whether male or female, is to follow your heart. Combine design with something you are passionate about and do your own projects. I would never have believed that I would be able to combine my interest in typography with all things Italian and limit it to that, but I did. Without all these Italian related projects, I wouldn’t be the same designer that I am now. It is essential to have your own projects, so you can make your own decisions and not just satisfy the needs of your clients.'
   quote: ""
   quoteauthor: ""
@@ -281,7 +281,7 @@ Titlenav: Louise Fili, Designerin, Louise Fili Ltd.
 
 ----
 
-Url: 
+Url:
 
 ----
 
@@ -301,7 +301,7 @@ Studiotitle: Louise Fili
 
 ----
 
-Interviewimagecredits: 
+Interviewimagecredits:
 
 ----
 
