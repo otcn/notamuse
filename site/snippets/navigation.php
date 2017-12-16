@@ -47,7 +47,8 @@
 
             $newLetter = false;
 
-            foreach($pages->find('interviews')->children()->visible() as $interview) {
+            foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();}) as $interview) {
+              // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
               foreach($interview->interview()->toStructure() as $interviewUnit) {
 
                 $myQuestionObject = new stdClass; // create a new object to contain the following important question information
@@ -135,30 +136,31 @@
           <?php
           $lettersDone = array();
           $newLetter = false; // interviews need register mark as well
-          foreach($pages->find('interviews')->children()->visible()->sortBy('title', 'asc') as $interview):
+          foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();})->sortBy('title', 'asc') as $interview):
+            // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
 
-          // new first letter? show it!
-          $letter = substr($interview->title(),0,1);
-          if (! in_array($letter, $lettersDone)) {
-            array_push($lettersDone, $letter);
-            ?>
-            <li class="register-mark"><?= $letter?></li>
-            <?php
-            $newletter = true;
-          }
-          ?>
+              // new first letter? show it!
+              $letter = substr($interview->title(),0,1);
+              if (! in_array($letter, $lettersDone)) {
+                array_push($lettersDone, $letter);
+                ?>
+                <li class="register-mark"><?= $letter?></li>
+                <?php
+                $newletter = true;
+              }
+              ?>
 
-          <li class="nav-interview">
-            <a href="<?php echo $interview->url() ?>" imgsrc="<?php if($image = $interview->image()): ?><?php echo $image->url() ?><?php endif ?>">
+              <li class="nav-interview">
+                <a href="<?php echo $interview->url() ?>" imgsrc="<?php if($image = $interview->image()): ?><?php echo $image->url() ?><?php endif ?>">
 
-              <?php if( !$interview->titlenav()->empty() ): ?>
-                <?php echo $interview->titlenav() ?>
-              <?php else: ?>
-                <?php echo $interview->title() ?>
-              <?php endif ?>
+                  <?php if( !$interview->titlenav()->empty() ): ?>
+                    <?php echo $interview->titlenav() ?>
+                  <?php else: ?>
+                    <?php echo $interview->title() ?>
+                  <?php endif ?>
 
-            </a>
-          </li>
+                </a>
+              </li>
           <?php endforeach ?>
         </ul>
       </div>

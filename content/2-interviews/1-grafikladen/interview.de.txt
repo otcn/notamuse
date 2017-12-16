@@ -245,7 +245,7 @@ Web: http://www.grafikladen.net/
 
 ----
 
-Studiotitle: Katharina Weiß & Johanna Dreyer, Grafikladen
+Studiotitle: Grafikladen
 
 ----
 

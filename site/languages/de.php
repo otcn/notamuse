@@ -3,7 +3,7 @@ l::set(array(
     'topics' => 'Themen',
     'questions' => 'Fragen',
     'interviews' => 'Interviews',
-    'about' => 'Über',
+    'about' => 'About',
     'switch-language' => 'EN',
 ));
 ?>

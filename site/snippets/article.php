@@ -10,7 +10,8 @@
             <?php
             // create list of all categories that are actually in use (= attached to a question)
             $categories = array();
-            foreach($pages->find('interviews')->children()->visible() as $interview) {
+            foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();}) as $interview) {
+            // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
                 foreach($interview->interview()->toStructure() as $frage) {
                     if($frage->category()->value() !== 'Spezifisch') {
                         array_push($categories, $frage->category()->value());
@@ -29,7 +30,8 @@
 
                     <?php
                     $fragenDone = array();
-                    foreach($pages->find('interviews')->children()->visible() as $interview){
+                    foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();}) as $interview){
+                    // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
                         foreach($interview->interview()->toStructure()->filterBy('category', $category) as $frage){
                             if (! in_array($frage->frage()->value(), $fragenDone)) {
                                 array_push($fragenDone, $frage->frage()->value());
@@ -42,7 +44,8 @@
 
                                     <ul class="answer-list child"><!-- unordered list of answers -->
                                     <?php
-                                    foreach($pages->find('interviews')->children()->visible() as $interview) {
+                                    foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();}) as $interview) {
+                                    // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
                                         foreach($interview->interview()->toStructure()->filterBy('frage', $frage->frage()) as $interviewUnit) {
 
                                             ?>

@@ -5,7 +5,7 @@
 -->
 
 <!DOCTYPE HTML>
-<html lang="<?= site()->language() ? site()->language()->code() : 'de' ?>">
+<html lang="<?= site()->language() ?>">
 <head>
 
   <meta charset="utf-8">

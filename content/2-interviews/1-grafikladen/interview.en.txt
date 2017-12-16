@@ -9,13 +9,13 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Was war die ausschlaggebende Motivation
-    zur Selbstständigkeit?
-  category: Arbeitsform
+    What was your decisive motivation for
+    self-employment?
+  category: Working Method
   antwort: |
-    KW:&nbsp;Nach dem Studium hatten wir beide schon viel Praktikumserfahrung und festgestellt, dass uns die Arbeitsweisen von Anderen oft nicht gut gefielen. Man richtet sich nach jemandem, der sein Unternehmen nach den eigenen Regeln strukturiert, denen man sich selbst nicht unterordnen möchte. Wir haben beide eine Vision davon, wie wir miteinander arbeiten und umgehen wollen – das haben wir in der Berliner Kreativwirtschaft so nicht gefunden.
-    JD:&nbsp;Es gibt diesen Zwiespalt, wo man arbeiten möchte. Entweder man geht in die Werbung und verdient angemessen Geld – dann ist die Arbeit meistens aber nicht befriedigend. Oder man geht in ein cooles Grafikbüro, bei dem man, trotz regelmäßiger Überstunden, 900€ verdient. Bereits im Bachelor haben wir festgestellt, dass wir ein gutes Team sind, deswegen lag die Idee nahe, die Selbstständigkeit einfach auszuprobieren.
-    KW:&nbsp;Unser Beruf birgt kein hohes Risiko. Jede/r besitzt einen Computer und die Programme und es ist möglich, von überall aus zu arbeiten. Selbst wenn es nicht klappt, hat man keinen großen Verlust gemacht.
+    KW:&nbsp;After studying, we both had a lot of internship experience and realized that we often did not enjoy the working methods of others. You are dependent on someone who structures his enterprise according to his own rules, which you cannot comply with. We both have a vision of how we want to work and deal with each other ­ we have not found that in the Berlin creative industry.
+    JD:&nbsp;There is this dichotomy where you want to work. Either one goes into the advertisement and earns appropriate money—but the work is mostly unsatisfactory. Or you go to a cool graphic office, where you gain, despite working extra hours, 900 €. Already during our bachelor studies, we noticed that we are a good team, so there was this idea to become self-employed.
+    KW:&nbsp;Our profession is not a high risk. Everyone has a computer and the programs and it is possible to work from anywhere. Even if it does not work, you have not made a big loss.
   quote: ""
   quoteauthor: ""
 - 
@@ -23,10 +23,10 @@ Interview:
   spezialfrage: "1"
   vorfrage: ""
   frage: >
-    Wie lange hat es gedauert, bis ihr von
-    eurer Selbstständigkeit leben konntet?
+    How long did it take to become
+    independent?
   category: Spezifisch
-  antwort: 'KW:&nbsp;Ein halbes bis ein Jahr. Häufig arbeitet man als Anfänger_in direkt nach dem Studium noch unter Wert. Dann erhöht man nach und nach den Stundensatz und es wird immer besser. Generell ist bei uns aber noch Luft nach oben.'
+  antwort: 'KW:&nbsp;From six months up to a year. As a beginner, right after your studies, you are often selling yourself under value. Then you gradually increase the hourly rate and it gets better and better. Generally speaking, there is still space for improvement.'
   quote: ""
   quoteauthor: ""
 - 
@@ -35,8 +35,10 @@ Interview:
   vorfrage: >
     Ihr habt erwähnt, dass euch bestimmte
     Abläufe in Agenturen nicht gefallen.
-  frage: Wie laufen Projekte üblicherweise ab?
-  category: Prozesse
+  frage: >
+    How do you typically work on your
+    projects?
+  category: Processes
   antwort: |
     KW:&nbsp;Mittlerweile laufen Projekte recht ähnlich ab, aber bis dahin war es ein langer Prozess. Wenn wir eine Anfrage für ein Projekt erhalten, versuchen wir zusammen mit dem/der Kund_in ein Briefing zu erstellen und entwickeln dann zu zweit das Konzept. Sobald es an die visuelle Umsetzung geht, arbeiten wir getrennt daran weiter. Früher haben wir das zusammen gemacht – was schön war, aber mittlerweile können wir uns das nicht mehr leisten. Das ist aber in Ordnung, weil sich diejenige, die am Projekt arbeitet, verwirklichen kann und die andere sich nur noch bis zu einem gewissen Grad einmischt.
     JD:&nbsp;Allerdings verlässt nichts das Büro, hinter dem wir nicht beide stehen. Wenn Katharina findet, dass ein Entwurf gar nicht geht, wird er nicht rausgeschickt, auch wenn ich ihn liebe.
@@ -47,22 +49,22 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Wie geht ihr mit dem Konflikt zwischen
-    Wirtschaftlichkeit und dem eigenen
-    gestalterischen Anspruch um?
-  category: Prozesse
-  antwort: 'KW:&nbsp;Das ist momentan ein großes Thema für uns, denn wir haben eine konsequente Zeiterfassung in den letzten zwei Jahren stark vernachlässigt. Inzwischen haben wir gemerkt, wie wichtig das ist, um den Aufwand besser einschätzen zu können. Bisher waren Schätzung und tatsächlicher Zeitaufwand sehr unterschiedlich, aber seit wir es aufzeichnen, sind wir etwas strenger geworden. Wir arbeiten jetzt nicht unbedingt noch eine weitere Idee aus, wenn wir sehen, dass wir bereits über den veranschlagten Stunden liegen.'
+    How do you balance the conflict between
+    economic efficiency and your own demands
+    on the quality of design?
+  category: Processes
+  antwort: 'KW:&nbsp;Time is a big issue for us at the moment, because we have neglected a consistent time recording in the last two years. Meanwhile, we have realized how important this is in order to be able to assess the effort better. So far, the estimation and the actual expenditure of time have been very different, but since we have recorded it, we have become somewhat stricter. We do not necessarily work out yet another idea when we realize that we already exceeded the estimated hours.'
   quote: ""
   quoteauthor: ""
 - 
   fid: f25
   spezialfrage: "0"
   vorfrage: ""
-  frage: Betreibt ihr aktiv Akquise?
-  category: Prozesse
+  frage: Do you actively go on acquisition?
+  category: Processes
   antwort: |
-    JD:&nbsp;Bisher mussten wir glücklicherweise noch gar keine Akquise betreiben, worüber wir sehr erstaunt sind. Vor allem, weil wir nicht in der Werbung arbeiten wollen, sondern für Kund_innen aus dem sozialen, politischen und kulturellen Bereich. Durch unsere bestehenden Kund_innen haben sich bislang immer neue Jobs generiert.
-    KW:&nbsp;Was man nicht unterschätzen darf, ist private Akquise, die wir beide, glaube ich, intuitiv betreiben. Lernt man neue Leute kennen und spricht über den Beruf, bringt es mehr als man denkt, direkt seine Unterstützung in grafischen Fragen anzubieten. Die ersten Aufträge haben wir alle aus dem Freundeskreis erhalten. Seit ungefähr einem halben Jahr bekommen wir Aufträge, die wir nicht zurückverfolgen können.
+    JD:&nbsp;So far, there was no need to actively acquire customers, which is quite astonishing. Especially since we do not want to work in advertising, but for customers from the social, political and cultural sectors. Our existing customers have always been able to generate new jobs.
+    KW:&nbsp;What you should not underestimate is private acquisition, which we both do intuitively. Whenever you meet new people and talk about your profession and thereby offer graphic advice, this can often lead to new projects. We received the first orders from our circle of friends. Since about half a year we get orders that we cannot trace back.
   quote: ""
   quoteauthor: ""
 - 
@@ -70,11 +72,11 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Beschäftigt ihr euch mit eurem
-    Gestaltungsprozess, indem ihr zum
-    Beispiel bewusst experimentell oder
-    konzeptionell arbeitet?
-  category: Gestaltung
+    Do you deal with your process of
+    designing for example by consciously
+    working in an experimental or a
+    conceptual way?
+  category: Design
   antwort: |
     JD:&nbsp;Ich wäre gerne noch experimenteller, aber das ist eine Zeitfrage, die vom Budget abhängig ist. Ab und an muss man sich dazu zwingen, neue Dinge auszuprobieren und zum Beispiel das analoge Experiment weiter auszubauen.
     KW:&nbsp;Wir würden gerne einen Tag im Monat einführen, an dem wir neue Ansätze und Techniken ausprobieren oder Recherche betreiben können. Bisher fehlt dazu leider die Zeit. Aber natürlich betrachten wir jede/n Kund_in neu, analysieren seine/ihre Zielgruppen und passen die Gestaltung daran an.
@@ -85,61 +87,61 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Ist es euch wichtig, dass eure
-    Handschrift erkannt wird oder sollte der
-    Auftrag im Vordergrund stehen?
-  category: Haltung
+    Do you want your signature to be
+    recognized or is it fully about the
+    commission?
+  category: Approach
   antwort: |
-    JD:&nbsp;Früher war es mir ein großes Anliegen, aber inzwischen bin ich davon abgekommen. Generell haben wir keinen bestimmten Stil, den wir verfolgen. Vielmehr halte ich jedes Projekt für eine Metamorphose mit den Kund_innen. Oftmals denkt man sich vorab tolle Sachen aus und merkt dann, dass sich die Kund_innen damit gar nicht wohl fühlen. Ein Projekt ist eher eine Beziehung mit den Kund_innen, bei der es irgendwann ein gemeinsames Baby gibt. Vor Projektstart betreiben wir aber schon Recherche, um uns von vergleichbaren Projekten abzugrenzen.
-    KW:&nbsp;Ich habe diese Selbstverwirklichungsphase auch hinter mir gelassen. Die war ein Jahr nach dem Studium interessant, aber darum geht es mir eigentlich nicht. Im Vordergrund stehen glückliche Kund_innen und dass wir mit den Entwürfen zufrieden sind. Es bringt nichts, »geilen Scheiß« zu gestalten, den am Ende doch keiner versteht.
+    JD:&nbsp;It used to be a big issue to me, but it does not concern me anymore. In general, we have no particular style that we pursue. Rather, I consider every project to be a metamorphosis with the customer. Sometimes I come up with great ideas before I have to realize that the customer does not feel comfortable with it. Therefore, a project is rather a relationship with the customer, in which the outcome is like a common baby. Before the start of a project, however, we already carry out research in order to differentiate ourselves from similar projects.
+    KW:&nbsp;I've also left this self-realization phase behind me. It was interesting one year after my studies, but that's not what I'm looking for now. We focus on a happy customer and that we are satisfied with the designs. There is no sense in producing »hot shit« that no one understands.
   quote: ""
   quoteauthor: ""
 - 
   fid: f40
   spezialfrage: "0"
   vorfrage: ""
-  frage: Wie steht ihr zu Designtrends?
-  category: Haltung
+  frage: What do you think about design trends?
+  category: Approach
   antwort: |
-    JD:&nbsp;Das Projekt steht im Fokus, aber natürlich wollen wir eine gute Schrift verwenden und versuchen nicht, etwas anders zu gestalten, nur damit der Entwurf weniger hip ist. In Berlin kann man sich Designtrends nur schwer entziehen, daher denke ich, dass unsere Gestaltung schon zeitgemäß ist.
-    KW:&nbsp;Das Problem ist, dass ein Trend auch den Kund_innen verkauft werden muss. Nur weil man etwas hip und schön findet, heißt das nicht, dass irgendjemand es haben will.
+    JD:&nbsp;The focus should be on the project, but of course we want to use a good font and do not try to use a different design, just so that it is less hip. In Berlin you can hardly escape from trends, so I think that our design is pretty up-to-date.
+    KW:&nbsp;The problem is that a trend must also be sold to the customer. Just because you find something hip and beautiful, does not mean that someone wants it.
   quote: ""
   quoteauthor: ""
 - 
   fid: f41
   spezialfrage: "0"
   vorfrage: ""
-  frage: Habt ihr Vorbilder?
+  frage: Do you have any role models?
   category: Inspiration
   antwort: |
-    KW:&nbsp;Nach wie vor inspiriert mich <a href="http://bureauborsche.com/">Mirko Borsche</a>, weil ich das Gefühl habe, dass er machen kann was er will und jede/r Kund_in frisst es. Was mir eher fehlt, ist ein weibliches Vorbild und jemand, an dem ich mich unternehmerisch orientieren kann. Wir haben uns alleine durchgeboxt und oftmals wäre ein/e Mentor_in nicht schlecht gewesen, bei dem/der man sich etwas abgucken kann. Vielleicht hätte mir auch mehr Agenturerfahrung weitergeholfen.
-    JD:&nbsp;Ich habe keine Person zum Vorbild, sondern eher eine bestimmte innere Einstellung als Ziel. Meine Vision ist es, mich irgendwann von nichts mehr stressen zu lassen und ausgeglichen an die Dinge heranzugehen. Die Selbstständigkeit fordert das innere Gleichgewicht stark heraus, daher hoffe ich irgendwann wie ein kleiner Buddha zu sein, der seine Gelassenheit behält und auf Kund_innen übertragen kann.
+    KW:&nbsp;<a href="http://bureauborsche.com/">Mirko Borsche</a> still inspires me because I feel that he can do what he wants and every customer buys it. What I’m missing is a female role model and someone I can look up to entrepreneurially. We have made it ourselves and often it would have been nice to have a mentor, who can give advice. Perhaps a little bit more agency experience would have helped as well.
+    JD:&nbsp;I have no specific person as a role model, but rather a certain inner attitude as a goal. My vision is to not let myself be stressed and to work on things with an inner balance. Self-employment is a strong challenge for the inner balance, so I hope to be like a little Buddha, who can keep his serenity and transfer it to clients.
   quote: ""
   quoteauthor: ""
 - 
   fid: f42
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was bedeutet für euch Erfolg?
-  category: Erfolg
+  frage: >
+    What does success mean to you
+    personally?
+  category: Success
   antwort: |
-    JD:&nbsp;Darüber haben wir schon viel nachgedacht. Zum Erfolg gehört für mich die Erkenntnis, dass ich mich in einem stetigen Prozess befinde und nicht nur auf ein Ziel hinarbeite – schließlich arbeitet man ständig an neuen Aufträgen und es macht keinen Sinn zu versuchen, die To-Do-Liste zu leeren. Bestmöglich mit diesem Prozess umzugehen, ist eine große Aufgabe für mich.
-    KW:&nbsp;Für mich bedeutet Erfolg auch, Spaß an der Arbeit zu haben und damit meinen Lebensunterhalt zu verdienen. Wenn man ständig den Kontostand im Hinterkopf hat, kann man keinen Spaß mehr haben. Dass ich mich mit den Projekten identifizieren kann, ist mir wichtig. Ich habe keine Lust, für Arschlöcher zu arbeiten.
-  quote: >
-    Ich habe keine Lust, für Arschlöcher
-    zu arbeiten.
+    JD:&nbsp;We've been thinking about that lot. Success for me is the realization that I am in a steady process and not just work on a goal ­ after all, you are constantly working on new jobs and it makes no sense to try to empty the to-do list. Understanding this process is a big task for me.
+    KW:&nbsp;For me, success also means having fun at work and earning my livelihood. If you are constantly thinking about your financial balance, you have no fun. Being able to identify with the projects is important to me. I do not want to work for assholes.
+  quote: I do not want to work for assholes.
   quoteauthor: Katharina Weiß
 - 
   fid: f43
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Wie wichtig ist euch öffentliche
-    Aufmerksamkeit?
-  category: Sichtbarkeit
+    How important is public attention to
+    you?
+  category: Visibility
   antwort: |
-    KW:&nbsp;Die Bedeutung von öffentlicher Aufmerksamkeit darf man nicht unterschätzen, auch wenn wir beide nicht sonderlich gut darin sind und oftmals keine Lust haben, daran zu arbeiten. Selbstdarstellung nimmt auch viel Arbeitszeit ein, das kann schon anstrengend werden. Männer können das oft besser, die haben eine große Klappe und kein Problem damit, das auch zu zeigen. Frauen sind leider häufig viel selbstkritischer mit ihrer Arbeit, die können sich davon eine Scheibe abschneiden.
-    JD:&nbsp;Ich freue mich immer, wenn jemand unsere Arbeit anerkennt. Gleichzeitig fällt es mir schwer, selbstdarstellerische Maßnahmen konsequent umzusetzen. Selbstdarstellung auf Facebook und Instagram ist für mich eher eine Belastung.
+    KW:&nbsp;The importance of public attention must not be underestimated, even though we are both not very good at it and often do not feel like working on it. Self-presentation also takes a lot of working hours, which can be exhausting. Men are often better at it, because of their big flap. Women are much more self-critical with their performance and therefore, could follow the men’s example.
+    JD:&nbsp;I am always happy when someone acknowledges our work. At the same time, it is difficult for me to implement self-imposed measures consistently. For me, it's more of a burden to present my work on Facebook and Instagram.
   quote: ""
   quoteauthor: ""
 - 
@@ -147,12 +149,15 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Habt ihr je negative Erfahrungen
-    aufgrund eures Geschlechts gemacht?
-  category: Gleichstellung
+    Did you ever experience any
+    uncomfortable situation at work due to
+    your sex?
+  category: Equality
   antwort: |
-    KW:&nbsp;Dadurch, dass wir keine Jacketts tragen und nicht sonderlich groß sind, haben wir das Gefühl, dass es ein Misstrauen unserer Leistung gegenüber gibt, wenn wir uns das erste Mal mit Kund_innen treffen. Oft gibt es zu Beginn einer Zusammenarbeit eine Art Hahnenkampf, in dem wir uns beweisen sollen, obwohl wir gezielt angefragt wurden. Dieses Verhalten könnte man teilweise auf unser Geschlecht zurückführen, vielleicht aber auch auf unser Auftreten. Viele Männer gehen viel selbstbewusster in eine Zusammenarbeit und wirken dadurch anders auf Kund_innen. Man kann sie schnell überzeugen, aber am Anfang stößt man auf kleine Barrieren. Ich habe mal in einem Büro mit zwei Chefs gearbeitet, die nur Frauen eingestellt haben. Im Nachhinein empfinde ich das als eine Art von Unterdrückung – die fleißigen Frauen, die nicht vorlaut sind und alles abarbeiten.
-    JD:&nbsp;Teilweise habe ich auch das Gefühl, im Gestaltungsprozess nicht richtig als Beraterin anerkannt zu werden, sondern eher als Dienstleisterin. Solange der Entwurf zufriedenstellend ist, ist alles gut – gibt es jedoch Fragen oder Zweifel, werde ich nicht als Fachfrau wahrgenommen, die diese Fragen klären kann. Das kann aber auch daran liegen, dass viele Grafikdesigner_innen mit einem anderen Dienstleistungs-Selbstverständnis arbeiten. Auf einer Weihnachtsfeier während eines Praktikums habe ich mal die Ansage bekommen, ich sei nur genommen worden, weil es ein Video von mir gibt, in dem ich eine Schokobanane esse. Das ist schon richtig sexistisch und war sehr hart zu hören. Es kann eine naive Strategie sein, die kleine Süße zu spielen, aber irgendwann hat man darauf keine Lust mehr.
+    KW:&nbsp;Whenever we meet with a customer for the first time, we feel that there is some sort of mistrust regarding our performance, because we do not wear jackets and are not very big. At the beginning of a co-operation, there is often a sort of fake fight, in which we should prove ourselves, although we were specifically requested to do the job. This behavior could be partly attributed to our sex, but perhaps also to our appearance. Many men are much more self-assured and thereby have a different effect on the customer. You can convince customers quickly, but at the beginning you come across small barriers.
+    I once worked in an office with two bosses who have only hired women. In retrospect, I feel that this is some sort of oppression—the hardworking women who are not pretentious.
+    JD:&nbsp;In part, I also feel that I am not properly recognized as a consultant in the design process, but rather as a service provider. As long as the design is satisfactory, there are no complaints—but whenever there are questions or doubts, I am not perceived as a professional who can clarify these questions. This can also be due to the fact that many graphic designers work with a different self-understanding.
+    At a Christmas party during an internship, someone told me that I only got the job because there is a video of me in which I eat a chocolate banana. This is already really sexist and was very shocking. It can be a naive strategy to play the sweet girl, but at some point you do not feel like it anymore.
   quote: ""
   quoteauthor: ""
 - 
@@ -160,12 +165,13 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Gibt es besondere Herausforderungen für
-    Frauen in der Designwelt?
-  category: Gleichstellung
+    Do you think there are special
+    challenges for women in the design
+    field?
+  category: Equality
   antwort: |
-    KW:&nbsp;Ich glaube, äußere Umstände kann man nur sehr schwer ändern, wir haben im Grunde also nur die Möglichkeit, an uns selbst zu arbeiten. Vielleicht ist es ein Weg, das eigene Auftreten anzupassen und sich so zu präsentieren, wie man wahrgenommen werden möchte. Ich will mich auf gar keinen Fall verstellen, aber ich möchte versuchen, selbstbewusster an Projekte heranzugehen.
-    JD:&nbsp;Als sensible Person wird man im bestehenden Wirtschaftssystem schnell ausgenutzt, wenn man die Eigenschaften des Systems nicht auch in sich trägt. Baut man sich selbst keine Schutzmauer vor diesen harschen Strukturen, kollidiert der eigene Charakter schnell mit dem System. Für mich liegt der Schlüssel darin, die eigenen Grenzen zu erkennen, sie zu kommunizieren und sich nicht von ihnen abbringen zu lassen.
+    KW:&nbsp;I think external circumstances are very difficult to change, so basically we only have the opportunity to work on ourselves. Perhaps it is a way to adapt one's own appearance and to present oneself as one would like to be perceived. I do not want to disguise myself at all, but I would like to try to be more confident when starting new projects.
+    JD:&nbsp;In the existing economic system, you are often being taken advantage of as a sensitive person. If you do not build a protective wall against these harsh structures, your own character quickly collides with the system. For me, the key is to recognize your own limitations, communicate them and stick to them.
   quote: ""
   quoteauthor: ""
 - 
@@ -173,27 +179,27 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Wie strikt trennt ihr Arbeit und
-    Privatleben?
-  category: Privatleben
+    How strictly do you separate work and
+    private life?
+  category: Private Life
   antwort: |
-    KW:&nbsp;Zu Beginn haben wir sehr viel gearbeitet – man denkt, für dieses eine tolle Projekt könne man ja auch am Wochenende arbeiten, aber dann kommt das nächste tolle Projekt und die Wochenendarbeit hört nicht auf. Nach zwei Jahren waren wir ziemlich am Ende und mussten lernen, uns an strikte Grenzen zu halten. Jetzt gibt es ein Bürotelefon und E-Mails werden abends und am Wochenende nicht mehr gelesen. Die flexiblen Arbeitszeiten verleiten einen dazu, Privatleben und Arbeit zu vermischen, aber das ist nicht gut. Ich trenne lieber die Zeit, in der ich arbeite und die, in der ich mich ausruhe. Diese Grenzen muss man auch den Kund_innen klar machen, wenn die plötzlich über Facebook oder WhatsApp schreiben.
-    JD:&nbsp;Es gibt diese romantische Vorstellung von der Selbstverwirklichung in einem kreativen Beruf in Berlin, aber es ist harte Arbeit, bei der auch finanzielle Aspekte wichtig sind. Zu Beginn habe ich versucht, Vollzeit zu arbeiten und nebenbei im Master zu studieren – das hat mich aber schnell an meine psychischen und physischen Grenzen gebracht, die man anerkennen und kommunizieren lernen muss.
+    KW:&nbsp;At the beginning we worked a lot—you think that for this a great project you could work also at the weekend, but then comes the next great project and the weekend work does not stop. After two years we were pretty drained and had to learn to stick to strict limits. Now there is an office telephone and e-mails are not read in the evenings and at the weekend. The flexible working hours are tempting with regard to mixing private life and work, but that is not good. I prefer to separate the time I work from the time I rest. These limits must also be made clear to the customer when suddenly he writes messages on Facebook or WhatsApp.
+    JD:&nbsp;There is this romantic idea of self-realization in a creative profession in Berlin, but it is hard work, in which financial aspects are also important. At the beginning, I tried to work full-time, studying the Master, but that quickly brought me to my psychological and physical limits, which must be recognized and communicated.
   quote: >
-    Es gibt diese romantische Vorstellung
-    von der Selbstverwirklichung in einem
-    kreativen Beruf, aber es ist harte
-    Arbeit.
+    There is this romantic idea of
+    self-realization in a creative
+    profession in Berlin, but it is hard
+    work.
   quoteauthor: Johanna Dreyer
 - 
   fid: f47
   spezialfrage: "1"
   vorfrage: ""
   frage: >
-    Wie schwierig ist es, gegenüber
-    Kund_innen Grenzen durchzusetzen?
+    How difficult is it to enforce limits
+    with clients?
   category: Spezifisch
-  antwort: 'KW:&nbsp;Der Stress passiert im Kopf. Wir haben oft erlebt, dass künstlicher Druck von Kund_innen aufgebaut wird. Wenn du dann am Samstag nicht reagierst, hat sich das Problem bis Montag meist von selbst erledigt. Kommuniziert man deutlich, dass man am Wochenende nicht arbeitet, wird das meistens akzeptiert. Wir retten keine Leben mit unserer Arbeit – ob der Flyer einen Tag früher oder später fertig wird, interessiert im Normalfall niemanden.'
+  antwort: 'KW:&nbsp;The stress happens in the head. We have often seen that artificial pressure is built up by the customers. If you do not react on Saturday, the problem often solves itself by Monday. If you communicate clearly that you do not work at the weekend, it is usually accepted. We do not save lives with our work—normally no one cares whether the flyer is finished one day sooner or later.'
   quote: ""
   quoteauthor: ""
 - 
@@ -201,13 +207,13 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Welche beruflichen oder privaten Ziele
-    habt ihr?
-  category: Zukunft
+    Which professional or personal goals do
+    you want to achieve?
+  category: Future
   antwort: |
-    KW:&nbsp;Auf der einen Seite würden wir gerne weiterhin zu zweit zusammenarbeiten und unsere Freiheiten genießen. Auf der anderen Seite wäre es schön, jemanden anzustellen, der uns bei Projekten unterstützen könnte. Ich glaube, es bringt nicht viel, sich ein festes Ziel zu setzen, weil sich Vorstellungen immer wieder ändern. Es ist besser, eine Vision zu haben.
-    JD:&nbsp;Ein großes Ziel ist es, neben der Zusammenarbeit auch unsere Freundschaft zu erhalten, das hat uns bisher beide sehr bereichert. Die finanzielle Unabhängigkeit ist mir wichtig, aber sonst bin ich sehr flexibel. Es wäre toll, irgendwann eine Familie gründen zu können, ohne sich dabei finanzielle Sorgen machen zu müssen.
-    KW:&nbsp;Unser Schwerpunkt muss nicht unbedingt im Grafikdesign bleiben, sondern könnte sich in eine andere Richtung verschieben, zum Beispiel in Richtung Art-Direktion.
+    KW:&nbsp;On the one hand we would like to continue working together and enjoy our freedom. On the other hand, it would be nice to hire someone to support us with projects. I think it does not make sense to set a firm goal, because ideas change again and again. It is better to have a vision.
+    JD:&nbsp;Other than continuing to work together, we would like to keep our friendship alive, which has so far enriched us both. The financial independence is important to me, but otherwise I am very flexible. It would be great to be able to start a family at some point without having to worry about the financial.
+    KW:&nbsp;Our main focus does not necessarily have to remain in graphic design, but could shift in a different direction, for example art direction.
   quote: ""
   quoteauthor: ""
 
@@ -221,11 +227,11 @@ Interviewimage: grafikladen.jpg
 
 ----
 
-Introduction: Grafikladen ist das gemeinsame Kreativstudio von Katharina Weiß und Johanna Dreyer. Ihre Arbeiten bewegen sich in einem Spannungsfeld zwischen Konzeption, klassischer Art-Direktion und zeitgeistiger Gestaltung im Print- und Onlinebereich. Katharina Weiß und Johanna Dreyer studierten an der TH Nürnberg und der UdK Berlin. Im Gespräch berichten sie, auf welche Hürden man im Übergang vom Studium zur Selbstständigkeit stößt und wie sie Sexismus am Arbeitsplatz erfahren haben.
+Introduction: Grafikladen is the creative studio of Katharina Weiß und Johanna Dreyer. Their work ranges from conception design and classical art direction to contemporary design in print and online. Katharina Weiß and Johanna Dreyer studied at TH Nürnberg and UdK Berlin. In a chat, they talk about the obstacles one has to take in the transition from university to self-employment and how they experienced sexism in their career.
 
 ----
 
-Titlenav: Johanna Dreyer & Katharina Weiß, Designerinnen, Grafikladen
+Titlenav: Johanna Dreyer & Katharina Weiß, Designers, Grafikladen
 
 ----
 
@@ -245,7 +251,7 @@ Web: http://www.grafikladen.net/
 
 ----
 
-Studiotitle: Katharina Weiß & Johanna Dreyer, Grafikladen
+Studiotitle: Grafikladen
 
 ----
 
@@ -253,4 +259,4 @@ Interviewimagecredits:
 
 ----
 
-Residence: Berlin, Deutschland
+Residence: Berlin, Germany

@@ -1,13 +1,13 @@
-Title: Themen
+Title: Topics
 
 ----
 
-Author:
+Author: 
 
 ----
 
-Description:
+Description: 
 
 ----
 
-Interview:
+Interview: 

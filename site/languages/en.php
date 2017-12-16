@@ -1,9 +1,9 @@
 <?php
 l::set(array(
-    'topics' => 'Themen',
-    'questions' => 'Fragen',
+    'topics' => 'Topics',
+    'questions' => 'Questions',
     'interviews' => 'Interviews',
     'about' => 'About',
-    'switch-language' => 'EN',
+    'switch-language' => 'DE',
 ));
 ?>
