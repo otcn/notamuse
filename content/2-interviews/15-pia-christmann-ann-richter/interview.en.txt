@@ -6,7 +6,7 @@ Title: Pia Christmann & Ann Richter
 
 ----
 
-Titlenav: Pia Christmann & Ann Richter, Designerinnen, Studio Pandan
+Titlenav: Pia Christmann & Ann Richter, designers, Studio Pandan
 
 ----
 
@@ -38,7 +38,7 @@ Interviewpartner: 1
 
 ----
 
-Introduction: Pia Christmann und Ann Richter lernten sich während ihres Studiums an der HGB Leipzig kennen. Nachdem Ann einige Erfahrung in unterschiedlichen internationalen Designbüros gesammelt und Pia ihren Abschluss gemacht hatte, gründeten sie 2015 Pandan in Berlin. Als Grafikdesign-Studio konzentrieren sie sich auf das Konzipieren und Gestalten von Publikationen, Webseiten und Visuellen Identitäten. Im Interview sprechen sie mit uns über das ultimative Projekt und den künstlerischen Auftrag von Design.
+Introduction: Pia Christmann and Ann Richter got to know each other during their studies at HGB Leipzig. In 2015 they founded Studio Pandan in Berlin after Ann had gained some experience in different international design studios and Pia had finished her studies in Leipzig. As a graphic design studio they focus on the concept and design of publications, websites and visual identities. In the interview they tell us about the ultimate project and the artistic task of design.
 
 ----
 
@@ -49,19 +49,21 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Was war die ausschlaggebende Motivation
-    zur Selbstständigkeit?
-  category: Arbeitsform
-  antwort: 'AR:&nbsp;Den Plan gab es schon während des Studiums. Ich persönlich fand es jedoch auch wichtig, davor verschiedene Sachen auszuprobieren, um in dieser Phase viel zu lernen. Der Wunsch selbständig zu arbeiten, entwickelte sich vor allem aus dem Drang heraus, viel selbst bestimmen zu wollen und im Gestalten die größtmögliche Freiheit zu haben.'
+    What was your decisive motivation for
+    self-employment?
+  category: Work form
+  antwort: 'AR:&nbsp;The plan already existed during our studies. I personally think that it is important to try different things and to learn a lot during this phase. The wish to work independently evolved from the desire to decide a lot on our own and to have the most possible liberty with the design.'
   quote: ""
   quoteauthor: ""
 -
   fid: f165
   spezialfrage: "0"
   vorfrage: ""
-  frage: How do you typically work on your projects?
+  frage: >
+    How do you typically work on your
+    projects?
   category: Processes
-  antwort: 'PC:&nbsp;Die anfängliche Recherche und die Ideenfindung finden gemeinschaftlich im Austausch zwischen Ann und mir statt. Dadurch entsteht ein Pool an Ideen, aus denen wir dann, auch im Dialog mit den Kund_innen, das Konzept entwickeln. In der nächsten Phase ist eine von uns beiden für das Projekt hauptverantwortlich, damit die organisatorische Seite gebündelt bleibt.'
+  antwort: 'PC:&nbsp;The initial research and brainstorming usually take place between Ann and me. Thus, emerges a pool of ideas out of which we then, also in a dialogue with the customer, create a concept. In the next phase, one of us will be responsible in order to have the organizational side all bundled up.'
   quote: ""
   quoteauthor: ""
 -
@@ -69,29 +71,31 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Wie geht ihr mit dem Konflikt zwischen
-    Wirtschaftlichkeit und dem eigenen
-    gestalterischen Anspruch um?
+    How do you balance the conflict between
+    economic efficiency and your own demands
+    on the quality of design?
   category: Processes
-  antwort: 'AR:&nbsp;Wir nehmen uns generell die Zeit, die ein Projekt braucht. Am Anfang schätzen wir die Arbeitsstunden und natürlich ist es ideal, wenn dies am Schluss passt, aber Priorität hat der gute Entwurf.'
+  antwort: 'AR:&nbsp;We usually take the amount of time that the project requires. At the beginning, we estimate the work hours and of course, it is ideal if this number coincides with the workload, but the design has priority.'
   quote: ""
   quoteauthor: ""
 -
   fid: f167
   spezialfrage: "0"
   vorfrage: ""
-  frage: Betreibt ihr aktiv Akquise?
+  frage: Do you actively go on acquisition?
   category: Processes
-  antwort: 'AR:&nbsp;Es ist wohl eine Mischung aus aktiver und passiver Akquise, da wir noch keinen komplett festen Kund_innenstamm haben, wobei der passive Part deutlich überwiegt. Meist folgt auf ein größeres Projekt eine neue Anfrage, was uns sehr freut. Dabei läuft vieles über Empfehlungen, aber auch über die Visibility von vergangenen Projekten. Für die Akquise ist es von Vorteil, wenn man bereits eine Beziehung zu den angefragten Personen oder Institutionen hat. Zum Beispiel haben wir während des Studiums die Design für die Ausstellung »Atlas 2013 – Kunststudentinnen und Kunststudenten stellen aus« an der Bundeskunsthalle in Bonn übernommen. Diese haben wir letztes Jahr kontaktiert und auf unser Büro aufmerksam gemacht. Daraus ist dann eine erneute Zusammenarbeit entstanden:&nbsp;der sechsteilige Katalog zu der aktuellen Ausstellung »Comics! Mangas! Graphic Novels!«.'
+  antwort: |
+    Do you actively go on acquisition? processes
+    AR:&nbsp;It is a rather a mixture of active and passive acquisition, since we do not have a fixed customer base; whereby, the passive part is predominant. What mostly follows to a great project is a new request, which is very pleasing. It mostly happens via recommendations or the visibility of past projects. For the acquisition, it is beneficial if there already exists a connection to requested persons or institutions. For example, during our studies, we were responsible for the design of the exhibition »Atlas 2013—Kunststudentinnen und Kunststudenten stellen aus« at the Bundeskunsthalle Bonn. We have contacted them last year and made them aware of our office. That is how a new cooperation evolved:&nbsp;The six-part catalogue for the current exhibition »Comics! Mangas! Graphic Novels!«
   quote: ""
   quoteauthor: ""
 -
   fid: f168
   spezialfrage: "0"
   vorfrage: ""
-  frage: Wie würdet ihr euren Stil beschreiben?
+  frage: How would you describe your style?
   category: Design
-  antwort: 'AR:&nbsp;Den eigenen Stil zu beschreiben finde ich immer schwierig. Am Anfang haben wir beide eigene Stile eingebracht und daraus versucht, einen gemeinsamen Studiostil zu entwickeln. Mittlerweile haben wir einen guten gemeinsamen Flow gefunden, der sich zwischen klassisch und gewagt bewegt.'
+  antwort: 'AR:&nbsp;Describing your own style is always difficult. At the beginning, we both introduced our own style and then, tried to create a common studio style. By now, we have found a good flow that could be located between classic and daring.'
   quote: ""
   quoteauthor: ""
 -
@@ -99,24 +103,25 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Probiert ihr viel Neues oder verlasst
-    ihr euch auf das, was ihr könnt?
+    Do you try to involve new approaches
+    into your work or rather rely on what
+    you already know?
   category: Design
-  antwort: 'PC:&nbsp;Unser Anspruch ist immer, für jedes Projekt eine neue visuelle Sprache zu entwickeln. Sonst wird es für einen selber ja auch langweilig, der Reiz des Gestaltens ginge verloren.'
+  antwort: 'AR:&nbsp;Our claim is to develop a new visual language for each project. Otherwise it gets a bit boring and the appeal of creation would decrease.'
   quote: ""
   quoteauthor: ""
 -
   fid: f170
   spezialfrage: "0"
   vorfrage: ""
-  frage: Habt ihr Vorbilder?
+  frage: Do you have any role models?
   category: Inspiration
   antwort: |
-    PC:&nbsp;Gerade arbeiten wir an einer Ausstellung über <a href="https://de.wikipedia.org/wiki/Willy_Fleckhaus">Willy Fleckhaus</a> in München. Sein plakativer Editorial-Stil und die starken Kontraste interessieren mich. Ich würde aber nicht sagen, dass wir »ein« Vorbild haben, sondern dass es viele Einflüsse gibt, die wir bewusst und unbewusst in die eigene Arbeit aufnehmen, zitieren und weiterentwickeln.
-    AR:&nbsp;Die Gefahr an Vorbildern oder Idolen ist, dass man ihnen zu sehr nacheifert, deswegen finde ich es besser, sich breitgefächert umzuschauen. Da bin ich eher pluralistisch aufgestellt. Bei mir gibt es vielleicht eine Top 20.
+    PC:&nbsp;We are currently working on an exhibition about <a href="https://de.wikipedia.org/wiki/Willy_Fleckhaus">Willy Fleckhaus</a> in Munich. I am interested in his striking editorial style and the strong contrasts. But I would not say that we have one role model, but rather that there are various influences that we consciously or unconsciously integrate into our own work, cite and redevelop.
+    AR:&nbsp;The danger of idols and role models is that you emulate them too much, therefore, I prefer looking at a broad spectrum. For this reason, I am rather pluralistically oriented. I may have a top-20.
   quote: >
-    Die Gefahr an Vorbildern oder Idolen
-    ist, dass man ihnen zu sehr nacheifert.
+    The danger of idols and role models is
+    that you emulate them too much.
   quoteauthor: Ann Richter
 -
   fid: f171
@@ -124,7 +129,7 @@ Interview:
   vorfrage: ""
   frage: Are there too little female role models?
   category: Inspiration
-  antwort: 'AR:&nbsp;Ja, eindeutig. Wenn man sich umschaut, werden beispielsweise die meisten Designkonferenzen von Männern dominiert. Da gibt es noch viel Aufholbedarf.'
+  antwort: 'AR:&nbsp;Yes, definitely. If you look around, you will find that men dominate most design conferences. There is a tremendous need to catch up.'
   quote: ""
   quoteauthor: ""
 -
@@ -132,13 +137,12 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Seht ihr einen künstlerischen Auftrag
-    in eurer Arbeit oder steht die
-    Dienstleistung im Vordergrund?
+    Do you see an artistic mission in your
+    work or is design rather a service?
   category: Approach
   antwort: |
-    AR:&nbsp;Wir sehen diese Trennung nicht ganz so schwarz-weiß. Jedoch versuchen wir in vielen Projekten den künstlerischen Part einzubringen. Wir begreifen dabei Design als ästhetisches Mittel und als Form von Autorschaft. In Deutschland ist diese Approach weniger verbreitet als in den Niederlanden oder der Schweiz, deswegen gibt es auch einige Leute, die Design als reine Dienstleistung betrachten. Aber ich habe das Gefühl, dass der Stellenwert des Designs steigt und sehe die Lage optimistisch.
-    Pia Christmann:&nbsp;Unsere Einstellung ist da sicherlich auch durch das Studium an einer Kunsthochschule geprägt.
+    AR:&nbsp;We do not regard this division all black and white. Though we try to integrate our artistic part in many projects. Design can be understood as an esthetical means and as a form of authorship. In Germany, this attitude is less represented than in the Netherlands or in Switzerland, therefore there are some people that view design as a total service. Whereas, I have the feeling that the importance of design increases and I am pretty optimistic about the situation.
+    PC:&nbsp;Our attitude may be characterized through our studies at an art academy.
   quote: ""
   quoteauthor: ""
 -
@@ -146,13 +150,13 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Ist es euch wichtig, dass eure
-    Handschrift erkannt wird oder sollte der
-    Auftrag im Vordergrund stehen?
+    Do you want your signature to be
+    recognized or is it fully about the
+    commission?
   category: Approach
   antwort: |
-    PC:&nbsp;Wir arbeiten mit dem vorhandenen Material und Inhalt und versuchen, daraus die Form zu entwickeln. Die eigene Handschrift fließt natürlich ganz von selbst auch mit ein – wir schließen sie nicht aus.
-    AR:&nbsp;Ich würde sagen, dass wir keine rein formale Handschrift haben, sondern vor allem eine eigene Approach, die unsere Arbeit prägt. Dadurch kann die Form unterschiedlich sein, abhängig vom Projekt und trotzdem gibt es hintergründig eine stringente Linie. Unsere Arbeit sehen wir auch als Zusammenarbeit mit den Kund_innen, so dass bei jedem Projekt andere Einflüsse verwoben werden und kein Projekt dem anderen gleicht.
+    PC:&nbsp;We work with available material and content and try to create a form out of it. The own handwriting is always incorporated—we do not try to exclude it.
+    AR:&nbsp;I would say that we do not have a formal handwriting, but rather an own position that shapes our work. Thereby, the form can vary depending on the project and yet still there is stringent line. We regard our work as cooperation with the client so that each project is shaped by different influences and no project equals another.
   quote: ""
   quoteauthor: ""
 -
@@ -160,21 +164,23 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Wie wichtig ist euch der finanzielle
-    Aspekt der Arbeit?
+    How important is the financial aspect in
+    your work?
   category: Success
-  antwort: 'AR:&nbsp;Wir arbeiten viel im Kultursektor:&nbsp;den sucht man sich nicht aus, wenn der finanzielle Aspekt oberste Priorität hat. Aber trotzdem hat man, wenn man ein Studio führt, automatisch die Position der Geschäftsleitung inne und muss sich darüber Gedanken machen und ordentlich planen.'
+  antwort: 'AR:&nbsp;We work a lot with the cultural sector:&nbsp;we would not have chosen it, if the financial aspect was our main priority. Nonetheless, once you own a studio, you automatically occupy the position of management and therefore, you need to consider it and plan wisely.'
   quote: ""
   quoteauthor: ""
 -
   fid: f175
   spezialfrage: "0"
   vorfrage: ""
-  frage: What does success mean to you personally?
+  frage: >
+    What does success mean to you
+    personally?
   category: Success
   antwort: |
-    PC:&nbsp;Success ist, wenn man mit Kund_innen langfristig zusammenarbeiten kann und man den eigenen, aber auch den anderen Ansprüchen gerecht werden kann. Wenn wir und die Kund_innen nach einem Projekt zufrieden sind, sehen wir es als Successreich an. Die eigene Zufriedenheit darüber, dass etwas gelungen ist sowie positives Feedback bedeuten Success.
-    AR:&nbsp;Anerkennung in der Szene würde ich auch hinzuzählen.
+    PC:&nbsp;Success is, if you can work together with a client, while at the same time, live up to your own standards and to those of others. A project is successful, if the client and we are satisfied. The own contentment about a project that turned out to be successful as well as a positive feedback means success.
+    AR:&nbsp;I would also count recognition in the scene.
   quote: ""
   quoteauthor: ""
 -
@@ -182,10 +188,10 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Was unternehmt ihr, um öffentlich
-    sichtbar zu sein?
+    What do you do to gain more public
+    visibility?
   category: Visibility
-  antwort: 'AR:&nbsp;Wir benutzen Instagram häufig und zeigen darüber Arbeiten. Ansonsten betreiben wir nicht besonders viel PR-Arbeit. Wir freuen uns aber sehr, wenn wir angeschrieben werden und haben uns darüber auf verschiedenen Blogs vorgestellt.'
+  antwort: 'AR:&nbsp;We often use Instagram to present our works. Other than that, we do not do a lot of PR-work. But we are always very content if we get introduced on various blogs.'
   quote: ""
   quoteauthor: ""
 -
@@ -193,10 +199,10 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Seid ihr in beruflichen Netzwerken
-    vertreten?
+    Are you represented in any professional
+    networks?
   category: Visibility
-  antwort: 'AR:&nbsp;Wir sind mit einer Freundin in Kontakt, die ein Frauen-Netzwerk in Köln aufgebaut hat namens <a href="http://andshewaslikebam.de/">And She Was Like:&nbsp;Bäm!</a> In Berlin gibt es auch ein Netzwerk für Frauen in der Kulturszene:&nbsp;Salon. Wir wurden von einer befreundeten Künstlerin eingeladen und wollen bald zu einem der Treffen gehen.'
+  antwort: 'AR:&nbsp;We are in contact with a friend, who built up the women-network in Cologne, called <a href="http://andshewaslikebam.de/">And She Was Like:&nbsp;Bäm!</a>. In Berlin, there is also a network for women in the cultural sector:&nbsp;Salon. We got invited from a befriended artist and we would like to go to a meeting soon.'
   quote: ""
   quoteauthor: ""
 -
@@ -204,10 +210,11 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Gibt es besondere Herausforderungen für
-    Frauen in der Designwelt?
+    Do you think there are special
+    challenges for women in the design
+    field?
   category: Equality
-  antwort: 'PC:&nbsp;Das ist schwierig. Grundsätzlich ist der Beruf nicht geschlechtsspezifisch, es ist also die Frage, ob die Herausforderungen speziell etwas mit Grafikdesign zu tun haben oder mit der Geschäftswelt an sich. Wir haben schon festgestellt, dass wir anfangs viel mehr weibliche als männliche Kund_innen hatten, aber festmachen, woran das lag, oder ob es Zufall war, können wir nicht. Mittlerweile hat sich das Geschlechterverhältnis der Kundschaft aber etwas mehr ausgeglichen.'
+  antwort: 'PC:&nbsp;That is difficult. Fundamentally, our profession is not gender-specific, but it remains the question, whether these obstacles have something to do with graphic design in specific or with the business world in general. We have already realized that we had way more female clients than male ones at the beginning, but we do not know whether it was because of chance or something else. By now, the gender ratio of our clients is a bit more balanced.'
   quote: ""
   quoteauthor: ""
 -
@@ -215,9 +222,11 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Did you ever experience any uncomfortable situation at work due to your sex?
+    Did you ever experience any
+    uncomfortable situation at work due to
+    your sex?
   category: Equality
-  antwort: 'AR:&nbsp;Direkt nicht und Indirektes lässt sich nur schwer überprüfen. Woher sollte man zum Beispiel wissen, was ein reines Männerbüro für die Jobs bekommen würde, die wir machen? Durch Statistiken ist man sich darüber bewusst, dass es in vielen Berufen die geschlechtsspezifische Gehaltslücke gibt, aber in unserer Szene ist das sehr intransparent.'
+  antwort: 'AR:&nbsp;Not directly and indirectly it is hard to proof. For example, how are we supposed to know how much money an all male bureau would get paid for the jobs that we do. Via statistics, one knows that there is a gender pay gap in many jobs, but with regard to our scene, the numbers are pretty non-transparent.'
   quote: ""
   quoteauthor: ""
 -
@@ -227,28 +236,28 @@ Interview:
   frage: What would be the ultimate project?
   category: Future
   antwort: |
-    AR:&nbsp;Darüber haben wir bisher noch nicht nachgedacht. Was wäre der Gral für Grafikdesigner_innen?
-    PC::&nbsp;Ich finde es viel einfacher zu beantworten, was ich gerne gemacht hätte, statt wofür ich gerne die Design in der Future machen würde. Ich hätte gerne den Nike Swoosh entworfen oder das »I heart NY«-Zeichen oder die visuelle Identität für die Münchner Olympiade 1972. Dabei fällt mir ein, was ich als zukünftiges Projekt erstrebenswert fände:&nbsp;das Erscheinungsbild für die Kieler Woche.
-    AR:&nbsp;Ja, das ist eine Ehre. Übrigens wurde der Swoosh von einer Frau entworfen, <a href="https://de.wikipedia.org/wiki/Carolyn_Davidson">Carolyn Davidson</a>. Ich fände es auch super, wenn wir ein neues Magazin mit aufbauen würden und dabei die Art-Direktion und Design übernehmen würden, zum Beispiel für ein neues feministisches Lifestyle-Magazin. Es sollte digital und gedruckt herauskommen und finanziell so gut ausgestattet sein, dass man mit phantastischen Fotograf_innen, Illustrator_innen und Texter_innen zusammenarbeiten kann. Eine große Grafikdesign-Ausstellung bei der wir auch kuratorisch tätig wären, fände ich auch sehr spannend. Es gibt so einiges, wenn man länger darüber nachdenkt.
+    AR:&nbsp;We have not really thought about that. What would be the grail for graphic designers?
+    PC:&nbsp;I find it a lot easier to answer what I would have liked to do, instead of, which design I would like to do in the future. I would have liked to design the Nike Swoosh or the »I heart NY«-sign or the visual identity of the Olympics in Munich in 1972. Thereby, I just realized which project I find desirable:&nbsp;the appearance of the »Kieler Woche«.
+    AR:&nbsp;Yes that would be an honor. By the way, a woman designed the Swoosh:&nbsp;<a href="https://de.wikipedia.org/wiki/Carolyn_Davidson">Carolyn Davidson</a>. It would be great, if we could build up a new magazine and thereby assume responsibility for the art-direction and design, for example a new feminist lifestyle magazine. It would appear as a digital and a print version and be financially well off so that we could work together with stunning photographers, illustrators and copywriters. It would also be exciting to be involved in the curatorial work of a big graphic design exhibition. The longer I think about it, there are quite a few things.
   quote: ""
   quoteauthor: ""
 -
   fid: f181
   spezialfrage: "0"
   vorfrage: ""
-  frage: 'Which advice can you give to young female designers?'
+  frage: >
+    Which advice can you give to young
+    female designers?
   category: Future
   antwort: |
-    AR:&nbsp;Mutig sein – einfach machen! Gar nicht auf die Idee kommen, dass man etwas nicht kann. Viele Frauen zweifeln zu viel.
-    PC:&nbsp;Sich gegenseitig pushen, helfen, sich vernetzen!
-  quote: >
-    Sich gegenseitig pushen, helfen, sich
-    vernetzen!
+    AR:&nbsp;Be brave—just do it! There is nothing that you cannot do. Many women doubt too much.
+    PC:&nbsp;Push each other, help and connect!
+  quote: Push each other, help and connect!
   quoteauthor: Pia Christmann
 
 ----
 
-Studiotitle: Ann Richter & Pia Christmann, Pandan
+Studiotitle: Pandan
 
 ----
 
@@ -256,4 +265,4 @@ Interviewimagecredits:
 
 ----
 
-Residence: Berlin, Deutschland
+Residence: Berlin, Germany

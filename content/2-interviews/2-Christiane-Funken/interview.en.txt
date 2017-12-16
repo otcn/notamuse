@@ -4,21 +4,20 @@ Interview:
   fid: f254
   spezialfrage: "1"
   vorfrage: >
-    In Ihrem Buch beschreiben Sie, wie
-    schwierig eine souveräne und
-    authentische Performance für Frauen in
-    Führungspositionen ist. Wenn Frauen
-    bewusst männlich besetzte Attribute
-    adaptieren, zum Beispiel
-    Führungsstärke und Durchsetzungskraft,
-    wird das oft negativ bewertet.
+    In your book, you describe how difficult
+    it is for women to occupy a sovereign
+    and authentic performance in management
+    positions. Whenever women intentionally
+    adapt male-occupied attributes, e.g.
+    leadership and enforcement, this is
+    often negatively viewed.
   frage: >
-    Wenn Selbstpromotion männlich
-    konnotiert ist, wie können Frauen dann
-    authentisch und sichtbar sein und mit
-    diesen Rollenbildern brechen?
+    If self-promotion is male connoted, how
+    can women then be authentic and visible
+    and break with these traditional
+    role-images?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Wir müssen weg von den Geschlechterklischees – Frauen sind so und Männer sind so. Jede Frau, oder überhaupt jede Person, sollte für sich selbst eine Stärken- und Schwächenanalyse machen. So wird man sich dieser Dinge bewusst und kann die eigenen Stärken promoten und performen, sie nach vorne bringen. Frauen müssen sich bewusst sein, dass bestimmte Eigenschaften, also Dinge, die sie gelernt haben oder Kompetenzen, die sie entwickelt haben, einen Marktwert haben. Dazu gehören die sogenannten »soft skills«. Ein etwas abgegriffener Begriff, besser finde ich »future skills«. Es sind diese Futures-Skills, die wir bei der Wissensarbeit gebrauchen, bei der kreativen Arbeit, die wir in Projekten, interdisziplinären Teams und bei Kund_innenkontakten brauchen. Generell werden sehr viele Eigenschaften und Kompetenzen gefordert, auf die Frauen im Moment aufgrund ihrer Sozialisation oder Lebenssituation gut vorbereitet sind. Ich glaube nicht, dass Frauen sich als besonders weiblich darstellen oder versuchen sollten, männliche Attitüden zu erlernen. Wenn sie ein Selbstbewusstsein aufgrund ihres Marktwertes entwickeln, treten sie auch authentisch und selbstbewusst auf. Dann ist es egal, ob das weibliche oder männliche Attitüden sind.'
+  antwort: 'CF:&nbsp;We break away from the gender stereotypes— women are like this and men are like that. Each woman, or any person at all, should make a strength and weakness analysis for himself/herself. In that way, you become aware of these things and then, you will be able to promote your own strengths and perform according to them. Women should be aware that certain competencies, which they have learned or further developed, have a market value. These include the so-called »soft skills«. A somewhat worn out term, thus I would rather refer to them as »future skills«. It is these future skills that we need when it comes to knowledge work, the creative work we do in projects, interdisciplinary teams and customer contacts. In general, many properties and competences are required, for which women are well prepared at the moment because of their socialization or life situation. I do not think that women should represent themselves as particularly female or should adapt male attitudes. If you develop some kind of self-awareness on the basis of your market value, you also appear authentic and self-confident. Then it does not matter whether these are labeled as female or male attitudes.'
   quote: ""
   quoteauthor: ""
 -
@@ -26,71 +25,67 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Haben Männer und Frauen
-    unterschiedliche Definitionen von
-    Success?
+    Do women pursue different goals in their
+    career than their male colleagues do?
   category: Success
-  antwort: 'CF:&nbsp;Es gibt viele, auch junge, Untersuchungen, durch die wir wissen, dass für Männer der Verdienst und die Karriere immer noch eine große Rolle spielen. Ein Mann nimmt sehr viel eher einen neuen Job oder ein neues Projekt an, das ihn vielleicht nicht interessiert oder bei dem er nicht sicher ist, ob er es kann, weil er weiß, dass es ihn einen Schritt weiter bringt. Frauen haben in Deutschland erst sehr spät das Bildungsdefizit aufgeholt, durch die Bildungsreform in den 1960er Jahren. Zuvor gab es drei Personengruppen, die nicht am Bildungssystem teilnahmen:&nbsp;Arbeiterkinder, Kinder vom Land und Mädchen. Dann wurde die Schulreform eingeführt, auf dem Land Schulen gebaut und Buslinien installiert. Es gab die Koedukation, das heißt dass Mädchen und Jungen gemeinsam unterrichtet wurden. Ich gehöre wahrscheinlich mit zu der ersten Generation, der Babyboomer-Generation, die das Gymnasium besuchten, studierten und eine Laufbahn einschlugen, wie ich sie jetzt gemacht habe. Bis heute ist es so, dass hochqualifizierte Frauen in ihrer Arbeit sehr viel Wert auf Inhalte, das Team und auf ihr Unternehmen legen. Der Karrierebegriff, der Machtbegriff ist für viele Frauen immer noch negativ oder ambivalent. Das ist für sie wie ein Verrat an den Inhalten.'
+  antwort: 'CF:&nbsp;There are many, even recent, investigations through which we know that for men merit and career still play a big role. A man is rather likely to accept a new job or get involved in a new project that may not interest him or where he is not sure if he can do it, only because he knows that it brings him a step further. Women in Germany have only very late caught up with the educational deficit, through the education reform in the 1960s. Previously, there were three groups of people who were not included in the educational system:&nbsp;working-class children, children from the country and girls. Then the school reform was introduced, schools were built on the countryside and bus lines installed. There was the coeducation, which means that girls and boys were taught together. I probably belong to the first generation, the so-called babyboomer generation, who attended the gymnasium, studied and started a career. Up to this day, highly qualified women are known to emphasize the importance of the message, the team and their company. The concept of a career, the concept of power, is still negatively or ambivalent connoted for many women. This is like treason to the message.'
   quote: ""
   quoteauthor: ""
 -
   fid: f256
   spezialfrage: "1"
   vorfrage: >
-    Es existiert die These, dass sich Frauen
-    eher die Frage nach der Sinnhaftigkeit
-    stellen als Männer.
+    There is the thesis that women tend to
+    question the meaningfulness more than
+    men do.
   frage: >
-    Steigen Frauen weniger gerne in
-    Führungspositionen auf, weil sie damit
-    ihre ursprüngliche Tätigkeit weniger
-    ausführen?
+    Are women less willing to be promoted to
+    leading positions, because then, they
+    would be occupied less with their
+    original activity?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Die Sinnhaftigkeit ist für Frauen wichtig, mittlerweile aber auch für Männer. Wir haben, und das ist sehr wichtig, einen Wandel im Bezug auf drei Aspekte:&nbsp;Erstens den Wandel der Arbeitswelt, zweitens einen Wandel im Bezug auf unseren Anspruch an Arbeit. Die Menschen wollen sinnvoll arbeiten, das heißt zum Beispiel nachhaltig, sozial verträglich, politisch korrekt. Sie wollen in den Bereichen arbeiten, die sie selbst mit ihren Werten vertreten können. Sie wollen eine bessere Work-Life-Balance und sich nicht mehr so verausgaben wie ihre Eltern. Männer wollen Väter sein, Mütter arbeiten. Sie wünschen sich selbst mehr Freizeit und eine andere Arbeits-Lebens-Integration. Der dritte Wandel ist, dass sich langsam wirklich die Geschlechterverhältnisse ändern. Paare, in welchen Konstellationen auch immer, wollen gemeinsam ihre Lebensentwürfe stemmen – und das ist mit Integration verbunden. Leider ist es heute immer noch die Regel, dass die Männer weiter arbeiten und die Frauen in Teilzeit gehen, sobald das erste Kind da ist, jedoch aus rein ökonomischen Gründen, weil die Unternehmen andere Ansätze nicht unterstützen.'
+  antwort: 'CF:&nbsp;The meaningfulness is important for women, but also for men nowadays. We have, and this is very important to note, a change in terms of three aspects:&nbsp;Firstly, a change of the working world, secondly a change in our claim to work. People want to work meaningfully, that is, e.g. sustainable, socially acceptable, politically correct. They want to work in areas, in which they feel their values are being represented. They want a better work-life balance and are no longer as exhausted as their parents. Men want to be fathers and mothers work. They want to have more free time and another work-life balance. The third change is that gender relations are slowly starting to change. Couples, in whatever constellations, want to coordinate their life plans together and this is due to integration. Unfortunately, today it is still the rule that the men continue to work and the women go part-time, once their first child is born, however, for purely economic reasons, because the companies do not support other approaches.'
   quote: ""
   quoteauthor: ""
 -
   fid: f257
   spezialfrage: "1"
   vorfrage: >
-    In Ihrem Buch geben Sie einige konkrete
-    Ratschläge. Ein wichtiger Punkt, wenn
-    es um Ungleichheiten zwischen Männern
-    und Frauen geht, ist die Bezahlung.
+    In your book, you give some concrete
+    advice. An important point when it comes
+    to inequality between men and women is
+    the payment.
   frage: >
-    Welchen Rat haben Sie für Frauen, um
-    das gleiche Gehalt einzufordern?
+    What advice do you have for women to
+    claim the same salary?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Gerade wurde die Vorlage für ein Gesetz verabschiedet, dass Firmen ab 200 Mitarbeiter_innen für Transparenz sorgen müssen. Das ist natürlich nur ein erster kleiner Schritt, aber auch die ersten kleinen Schritte sind notwendig, damit sich etwas ändern kann. Aus Untersuchungen wissen wir, dass sich Frauen bei Gehaltsverhandlungen relativ schnell frustrieren lassen, ganz nach dem Motto »Das war jetzt mein Versagen!«. Ein Mann hingegen sagt viel eher:&nbsp;»Hat jetzt nicht geklappt, auf zum nächsten Sprung!« Ich glaube, gute Verhandlungen sind nur dann möglich, wenn eine Frau mit Fakten arbeitet und sagen kann, was sie zum Beispiel im letzten Jahr geleistet hat oder welche Kund_innen sie angeworben hat. Sobald faktisch argumentiert wird, stehen die Chancen besser.'
+  antwort: 'CF:&nbsp;Just recently, the bill for a law was passed that companies with more than 200 employees have to ensure transparency. This is, of course, only a first small step, but also the first small steps are necessary, so that something can change. From research, we know that women are relatively frustrated in their salary negotiations, according to the motto »That is all my fault!« Whereas, a man is rather likely to say »Did not work out, on to the next one!« I believe good negotiations are only possible when a woman is working with facts and can claim her victories, e.g. which client she has acquired. As soon as factual arguments are made, the chances are better.'
   quote: ""
   quoteauthor: ""
 -
   fid: f258
   spezialfrage: "1"
   vorfrage: >
-    Sie schreiben in Ihrem Buch von
-    Herausforderungen und Strategien in der
-    »neuen Arbeitswelt«.
+    In your book, you talk about the »new
+    working world«.
   frage: >
-    Wie können Frauen wie wir den Wandel in
-    der neuen Arbeitswelt vorantreiben?
+    How can women like us push change in the
+    new working world?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Zunächst müssen sie sich der eigenen Kompetenzen bewusst sein. Kann ich gut argumentieren? Habe ich eine starke Performance? Kann ich mich gut in andere Denkwelten und andere Kulturen hineinversetzen? Bin ich gut vernetzt? ArbeitsProcesses, die nah am Menschen sind, werden immer wichtiger – die sind nicht wiederholbar und standardisierbar, sondern situationsspezifisch. Die können nicht wegrationalisiert oder -digitalisiert werden. Sie müssen wissen, was in den neuen Bereichen gebraucht wird und dabei die alten im Blick behalten. Im Moment haben wir noch diese Paradoxie, zumindest in den großen Unternehmen. Dort heißt es jetzt durchhalten! Dranbleiben und schauen, wo sich Bereiche ergeben, in denen man mit den eigenen Stärken punkten kann. Nicht isoliert alleine laufen, sondern Verbündete schaffen, quer durchs ganze Unternehmen, auch mit Männern. Gute Kontakte haben, auch nach außen, gut vernetzt sein. Und Mut! Macht wagen, mutig sein, mit den Verbündeten versuchen, neue Themenfelder zu besetzen. Flexibilität bei der Projektarbeit in unterschiedlichsten Teams gehört ebenfalls dazu.'
+  antwort: 'CF:&nbsp;First, they must be aware of their own competences. Can I argue well? Do I have a strong performance? Am I able to emphasize with other worlds of thought and other cultures? I am well networked? Work processes that are close to humans are becoming more and more important—they are not repeatable and standardizable, but depend on the situation. They cannot be rationalized or digitized. You need to be aware of what is needed in the new areas while keeping an eye on the old ones. At the moment we still have this paradox, at least in large companies. In situations like this persistence is called for:&nbsp;Stay tuned and look at areas where you can score points with your own strengths. Do not work isolated, but create allies across the whole company, even with men. Having good contacts, also outside the company, being well connected. And courage! Dare to be courageous and try to occupy new thematic fields with the allies. Flexibility in project work in different teams is also part of my claim.'
   quote: ""
   quoteauthor: ""
 -
   fid: f259
   spezialfrage: "1"
-  vorfrage: 'Bereiche, in denen mehr Frauen arbeiten bzw. die weiblich konnotiert sind, entwickeln sich aktuell teilweise eher negativ:&nbsp;weniger Gelder werden investiert, die Gehälter werden schlechter und die öffentliche Reputation der Berufe sinkt (<a href="http://www.zeit.de/karriere/2016-10/margarete-stokowski-gleichberechtigung-selbstbestimmung-untenrum-frei-interview">Zeit Online-Interview mit Margarete Stokowski</a>).'
+  vorfrage: 'Areas in which more women are working or which are female-connoted are currently developing in some ways rather negatively:&nbsp;less money is being invested, wages are getting worse and the public reputation of the professions is declining (<a href="http://www.zeit.de/karriere/2016-10/margarete-stokowski-gleichberechtigung-selbstbestimmung-untenrum-frei-interview">Interview in Zeit Online with Margarete Stokowski, German</a>).'
   frage: >
-    Wie sehen Sie die negative Entwicklung
-    weiblich konnotierter Berufe im Kontrast
-    zur »neuen Arbeitswelt«, die Sie als
-    große Chance für Frauen begreifen?
+    How do you see this development in
+    contrast to the »new working world«,
+    which you comprehend as a great
+    opportunity for women?
   category: Spezifisch
-  antwort: |
-    CF:&nbsp;Wir sprechen von einer horizontalen und einer vertikalen Segregation des Arbeitsmarktes. Die Vertikale bedeutet, dass die Frauen »unten« arbeiten und die Männer »oben« immer die Chefs sind. Die horizontale Segregation heißt:&nbsp;es gibt sogenannte Frauenberufe und sogenannte Männerberufe. Von vielleicht insgesamt 90 Ausbildungsberufen wählen Frauen im Schnitt maximal zehn. Sie werden Friseurin, Sekretärin, Kindergärtnerin. Diese sogenannten Frauenberufe werden schlechter bezahlt, sind konjunkturell abhängiger, haben oft einen geringeren Kündigungsschutz und ein schlechteres Image. Männer hingegen wählen Berufe, die besser bezahlt werden. Insgesamt aber denke ich erleben wir eine Feminisierung des Arbeitsmarktes, heutzutage arbeiten ca. 75% aller Frauen. Das, was wir früher als »Versorger-Ehe« bezeichnet haben – der Mann arbeitet, die Frau ist zuhause – ist lange schon vorbei. Diese Feminisierung bringt ganz andere Trends. Es kann ja nicht sein, dass alle Berufszweige plötzlich schlechter bezahlt werden.
-    Ein gutes Beispiel ist hier der Bereich HR (Human Resources):&nbsp;Je mehr Maschinen es gibt, desto wichtiger werden Menschen, die diese Maschinen steuern können, beziehungsweise bei Nicht-Steuerung der Maschinen in der Wissensarbeit gut zusammenarbeiten. Viele Unternehmen wissen ganz genau, dass die Menschen, die sie brauchen, heutzutage alle mit einem Bein draußen stehen. Unternehmensbindung gibt es nicht mehr. Sie sind gezwungen, viel mehr zu bieten, um ihre Beschäftigten zu halten. Das führt dazu, dass wir mittlerweile vom sogenannten People-Management reden:&nbsp;das Thema Personalentwicklung wird in die Strategie der Unternehmen genommen. Früher hatte die Personalentwicklung in den Vorständen der Konzerne tatsächlich die geringste Bedeutung, aber heute bestimmen diese strategischen Seiten die Future des Unternehmens. Das ist eine extreme Aufwertung von HR.
+  antwort: "CF:&nbsp;We deal with a horizontal and a vertical segregation of the labor market. The vertical means that the women work »down« and the men »up« are always the bosses. The horizontal segregation means:&nbsp;there are so-called women's professions and so-called men's professions. Of perhaps a total of 90 training professions, women choose a maximum of ten on average. They become hairdressers, secretaries, kindergarten teachers. These so-called women's professions are paid less, are more dependent on the economy, often have lower protection against dismissal and a poorer image. Men, however, choose professions that are better paid. Overall, I think we are experiencing a feminization of the labor market, nowadays approximately 75% of all women work. What we formerly termed as a »supply-marriage«—the man works, the woman is at home—is long gone. This feminization brings quite different trends. It is unacceptable that all professional branches are suddenly paid less. A good example here is HR (Human Resources):&nbsp;The more machines there are, the more important people become that are able to control these machines, or that do the knowledge work. Many companies know quite well that they cannot fully rely on their employees to work there forever. Therefore, they are forced to offer much more money to keep their employees. This means that we are now talking about so-called people management:&nbsp;the subject of personnel development is taken into the company's strategy. In the past, the personnel development in the executive boards of the corporations had actually the least importance, but today these strategic sides determine the future of the enterprise. This is an extreme appreciation of HR."
   quote: ""
   quoteauthor: ""
 -
@@ -98,75 +93,68 @@ Interview:
   spezialfrage: "1"
   vorfrage: ""
   frage: >
-    Sind Frauen in ihrer Arbeitsweise
-    strategischer und weniger risikofreudig
-    als Männer?
+    Are women more strategic and less risky
+    in their workings than men?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Es gibt Untersuchungen, die zeigen, dass Frauen weniger risikofreudig sind. Das sieht man zum Beispiel daran, dass Frauen viel seltener in provisionsabhängigen Jobs, wie etwa im Vertrieb ohne festen Lohn, arbeiten. Frauen arbeiten aber sehr viel mehr zum Beispiel in der öffentlichen Verwaltung, wo sie fest bezahlt werden. Bei der Finanzkrise in Island gab es eine große Agentur, die von Frauen geleitet wurde – sie haben die Krise gut überlebt, den Finanzmarkt mehr oder weniger wiederaufgebaut und sind heute extrem Successreich. Also ja, man sagt Frauen sind risikobewusster, agieren risikoärmer, machen nicht mal so den ganz schnellen Wurf. Es existiert die These, dass, wenn mehr Frauen im Finanzwesen gewesen wären, es die Finanzkrise nicht gegeben hätte. Das ist nicht irgendein Genderismus wild gewordener Frauen, sondern das sind durchaus belastbare Argumente.'
+  antwort: 'CF:&nbsp;There are studies that show that women are less risky. Women are, for example, much less likely to work in commission-dependent jobs, such as sales without fixed wages. Women are rather likely to work in the public administration, where they have a stable income. During the financial crisis in Iceland there was a large agency run by women - they have survived the crisis well and are now extremely successful. So yes, they say women are more aware of risks, act less risky, do not even make the very fast draft. There is the thesis that if there were more women in finance, the financial crisis would not have existed. This is not any genderism of some angry women, but these are quite reliable arguments.'
   quote: ""
   quoteauthor: ""
 -
   fid: f261
   spezialfrage: "1"
   vorfrage: >
-    In Ihrem Buch beschreiben Sie, wie sich
-    die Arbeitswelt verändert.
+    In your book, you describe how the
+    working world changes.
   frage: >
-    Werden sich in Future auch die
-    Verhaltensweisen von Männern und Frauen
-    ändern und sich annähern?
+    In the future, will men and women
+    approach each other in their behavior?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Ja, das glaube ich! Ich glaube, dass sich Erziehungsstile und SozialisationsProcesses ändern. Wir sehen das schon heute in vielen Bereichen, gerade bei jungen Menschen gibt es sehr viele Vermischungen. Wenn ich in meine Seminare schaue, zum Beispiel »Die Soziologie der Geschlechter«, saßen da vor 20 Jahren zwei Jungs drin, heute sind mindestens die Hälfte Männer. Hier beobachte ich oft einen ganz anderen Habitus, die Differenzen der Geschlechter werden immer kleiner. In der Geschlechterforschung sagen wir schon lange, dass die Unterschiede innerhalb der Genusgruppe Frauen, oder innerhalb der Genusgruppe Männer, größer sind als die zwischen den beiden Genusgruppen. Eine weiße Frau aus New York lebt ein völlig anderes Leben als eine Schwarzafrikanerin, die Arbeiterin auf dem Land ist.'
+  antwort: 'CF:&nbsp;Yes I think so! I believe that education and socialization processes change. We monitor this already in many areas, especially with young people there are very many intertwinings. When I take into account my seminars, e.g. »The sociology of the sexes«, there were two boys attending it 20 years ago, today at least half of the seminar is made up of men. Here I often observe a completely different habitus, the differences of the sexes are getting smaller and smaller. In gender research, we have long observed that the differences within the genus group women, or within the genus group men, are greater than those between the two genus groups. A white woman from New York lives a completely different life than a Black African woman who is working in the country.'
   quote: ""
   quoteauthor: ""
 -
   fid: f262
   spezialfrage: "1"
-  vorfrage: >
-    Ihre Studien beziehen sich auf große
-    Unternehmen.
+  vorfrage: Your studies refer to large companies
   frage: >
-    Wie können geschlechtstypische
-    Aufgabenteilungen aufgebrochen werden,
-    die häufig entstehen, wenn Männer und
-    Frauen in kleineren Teams
-    zusammenarbeiten?
+    How can typical task divisions be
+    broken, that arise when men and women
+    work together in smaller teams?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Kleinere und mittlere Unternehmen sind wirklich etwas ganz anderes, hier hängt es sehr von der Aufgeklärtheit der einzelnen Personen ab. Aber selbst bei aufgeklärten Personen, mit einem fortschrittlichen Geschlechterbild, geschieht es natürlich immer wieder, dass man in alte Muster verfällt. Eine Frau, die im IT-Bereich arbeitet, erzählte mir, dass sie immer wieder Probleme mit Auftraggebern hatte, sobald sie selbst als Unternehmerin auftrat. Daraufhin hat sie einen Mann eingestellt, der sie einfach nur begleitet. Im gemischten Team haben sie keine Probleme mehr, Aufträge zu generieren. Die gesellschaftlichen Erwartungen fließen gerade auch in Auftragslagen und Auftrags-Kunden-Konstellationen immer wieder mit ein. Traditionelle Vorstellungen sind, zumindest bei bestimmten Altersgruppen, noch stark vorhanden.'
+  antwort: 'CF:&nbsp;Small and medium-sized enterprises are really something else, here it depends very much on the enlightenment of the individual persons. But even with enlightened people, with an advanced gender images, it happens again and again that one falls into old patterns. A woman working in the IT area told me that she had problems with clients as soon as she appeared as businesswoman. Then she hired a man who just accompanied her. In the mixed team, they no longer have any problems to generate orders. The social expectations are reflected in order situations and order-customer-constellations. Traditional ideas are still very strong, at least for certain age groups.'
   quote: ""
   quoteauthor: ""
 -
   fid: f263
   spezialfrage: "1"
   vorfrage: >
-    In Ihrem Buch zitieren Sie Daniela
-    Rastetter, die Frauen auffordert,
-    selbstbestimmt und zum eigenen Vorteil
-    in klischeebeladene Rollen (Mutter,
-    Mädchen, Verführerin, …) zu
-    schlüpfen und sich ihrer gezielt zu
-    bedienen.
+    In your book, you are quoting Daniela
+    Rastetter, who encourages women to use
+    stereotypical roles (mother, girl,
+    seductress, …) in a purposeful and
+    self-determined way for their own
+    benefit.
   frage: >
-    Wie stehen Sie zu der Aufforderung, dass
-    Frauen Geschlechterstereotypen bewusst
-    ausnutzen sollten?
+    What do you think about the advise, that
+    women should consciously utilize gender
+    stereotypes?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Ich habe lange überlegt, ob ich dieses Zitat ins Buch nehmen soll oder nicht. Es kommt darauf an, wie man es liest. Man kann kritisieren, dass Rollenstereotype nicht überwunden werden können, wenn sie gezielt eingesetzt werden. Hingegen sagt <a href="https://en.wikipedia.org/wiki/Judith_Butler">Judith Butler</a>, dass man die Sache auch ironisieren kann – sie persiflieren, indem man im Anzug herumläuft und die männliche Rolle spielt. Jede Frau sollte der Situation entsprechend entscheiden, wie sie am besten damit umgeht, Verbündete im Unternehmen findet, peu à peu mehr Macht erlangt, mehr mitgestalten kann. Es nützt keiner Frau, die in einem extrem konservativen Männerunternehmen arbeitet, einen Habitus zu haben, der alle wahnsinnig irritiert. Dann kann man zum Beispiel versuchen, den Habitus etwas zu neutralisieren. Aber ich glaube, dass es eigentlich nach wie vor immer wieder sinnvoll ist, die Individualität herauszustreichen, gekoppelt an die Stärken, die man hat und an das, was man leisten kann und will. Ich glaube, so verbiegen und verraten wir uns nicht.'
+  antwort: |
+    CF:&nbsp;I have long considered whether I should take this quote into the book or not. It depends on how you read it. One can criticize the fact that role stereotypes cannot be overcome if they are used in a targeted way. On the other hand, <a href="https://en.wikipedia.org/wiki/Judith_Butler">Judith Butler</a> says that one can also ironize the matter - to satirize them by running around in the suit and playing the male role. Every woman should decide how best to deal with it, find allies in the company, acquire more power, be able to have more say. It does not benefit any woman who works in an extremely conservative men's business to have a habit that irritates everyone madly. Then, e.g. try to neutralize the habit. But I think it's actually useful to emphasize individuality, coupled with the strengths that you have and what you can and can achieve. I believe that we do not bend and betray ourselves.
   quote: ""
   quoteauthor: ""
 -
   fid: f264
   spezialfrage: "1"
   vorfrage: >
-    Uns ist aufgefallen, dass das Wort
-    »Feminismus« im Buch nicht direkt
-    ausgesprochen wird.
+    It is striking that the term
+    »feminism« is not expressed directly
+    in the book.
   frage: >
-    Ist »Feminismus« ein Begriff, der in
-    der Business-Welt nicht gern gehört
-    wird?
+    Is »feminism« a term that is not a
+    favorite in the business world?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Ich fand das nicht notwendig. Ich bin Feministin, natürlich! Für mich ist Feminismus nichts anderes als für die Rechte der Frauen einzutreten. Das Buch ist ein feministisches Buch, das die Rechte der Frauen thematisiert und den Rahmen aufzeigt, in denen sie beschnitten werden. Mir war es das Allerwichtigste, ihnen zu sagen:&nbsp;»Hey, ihr seid gut, packt es an, macht!« Es gibt so manche Frauen meines Alters, die frustriert behaupten, es habe sich doch nie etwas geändert. Dann erwidere ich, dass wir den Jüngeren nicht den Mut nehmen dürfen! Ich glaube wir haben erstmalig eine historische Situation, in der die drei Strömungen – der Wandel der Arbeit, der Wandel der Auffassung von Arbeit und der Wandel der Geschlechterverhältnisse – zusammenkommen. Da müssen die Frauen jetzt reingrätschen!'
+  antwort: "CF:&nbsp;I did not think it was necessary. I'm a feminist, of course! For me, feminism is nothing more than to advocate the rights of women. The book is a feminist book that focuses on the rights of women and shows the framework in which they are circumcised. It was the most important thing for me to say to them, »Hey, you're all great, tackle it, do it!« There are so many women of my age who are frustrated that nothing has changed. Then I reply that we must not take the younger one's courage! I believe that for the first time we have a historical situation in which the three currents, the change in work, the change in the conception of work, and the change in gender relations, come together - and women must now get ready for action."
   quote: ""
   quoteauthor: ""
 -
@@ -174,26 +162,24 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Was ist mit den Frauen, die sich von
-    Equalitysfragen, Feminismus und
-    der Frauenquote distanzieren?
+    What about women who dissociate
+    themselves from questions of gender
+    equality, feminism or women’s quota?
   category: Equality
-  antwort: 'CF:&nbsp;Es gibt viele Frauen die Bedenken haben, dass sie als »Ah, das ist eine Frau, die muss gefördert und geschützt werden« abgestempelt werden. Das kann man ja verstehen – wer will schon als schützenswertes Wesen gelten? Allerdings ignoriert das folgende Tatsache:&nbsp;Über zwanzig Jahre lang sind Unternehmen Selbstverpflichtungen eingegangen, etwas zu ändern. Sie änderten nie etwas. Deshalb halte ich die Quote tatsächlich für eine sehr wichtige Übergangssituation. Aber es gab schon immer Frauen, die nicht gefördert werden wollten. Meine Studie »Managerinnen 50+« zeigt Frauen, die erstmal eine großartige Karriere gemacht haben, bis unmittelbar unter die Chefetage. Die haben vorher auch gedacht, bei ihnen zähle die Leistung. Sie haben die Sympathien der Männer genutzt, aber irgendwann hört das auf. Dann kommt nämlich diese dicke Decke, wo nichts mehr weitergeht. Junge Frauen zu fördern ist für jede Führungskraft schick. Sie dürfen nur nicht zu stark werden, dann hört es mit der Förderung auf. Über Jahrhunderte hinweg haben sich Männer immer untereinander gefördert und Frauen bewusst ausgeschlossen. Das Prinzip nennt sich Homosozialität:&nbsp;Gleiche unter Gleichen. Ich rekrutiere jemanden, der mir selbst ähnlich ist, so kann ich ihn besser kontrollieren, denn ich weiß, wie er tickt. Das gegenseitige Protegieren hat ein großes Mittelmaß hervorgerufen, denn es geht dabei nicht um die Auswahl der Besten.'
+  antwort: 'CF:&nbsp;There are many women who have concerns that they are postmarked as »Ah, this is a woman who must be encouraged and protected.« This is completely understandable—who wants to be considered a protective being? However, the following fact is being ignored:&nbsp;Over twenty years, companies have made self-commitments to change something. They never changed anything. That is why I consider the quota to be a very important transitional situation. But there have always been women who do not want to be promoted. My study »Managerinnen 50+« shows women, who have started off with a great career, right up to the executive floor. They were convinced that their performance counts. They have used the sympathies of the men, but at some point it stops. Then comes the point, when it suddenly stops. Promoting young women is smart for any executive. They only get promoted up to certain point. For centuries, men have always been mutually supportive and women have been deliberately excluded. The principle is called homosociality:&nbsp;the same among equals. I recruit someone who is similar to myself, so I can control him better, because I know how he ticks. The mutual protection has caused a great mediocrity, because it is not about the selection of the best.'
   quote: >
-    Junge Frauen zu fördern ist für jede
-    Führungskraft schick. Sie dürfen nur
-    nicht zu stark werden.
+    Promoting young women is smart for any
+    executive.
   quoteauthor: ""
 -
   fid: f266
   spezialfrage: "1"
   vorfrage: >
-    Wir haben viel über Strategien
-    gesprochen, die Frauen ergreifen
-    können.
-  frage: Wie sollten junge Männer reflektieren?
+    We have talked a lot about strategies
+    that women can take.
+  frage: How should young men reflect?
   category: Spezifisch
-  antwort: 'CF:&nbsp;Ich glaube, dass sich das Verhältnis zur Arbeit bei jungen Männern ändert. Sie wollen gerne arbeiten, auch sinnerfüllt, sie wollen Karriere machen, mobil sein – aber vor allen Dingen wollen sie auch Väter sein. Wenn Unternehmen begreifen, dass sie frauenfreundlicher werden müssen, fördern sie damit auch Männer. Männer und Frauen wollen sich die Aufgaben im Leben und auch die Freizeit teilen können. Es braucht also Unternehmen, in denen Frauen entsprechend anerkannt werden, in denen Frauen zufrieden sind und mehr arbeiten können, damit die Männer weniger arbeiten können. Viele Untersuchungen zeigen, dass Frauen mehr arbeiten wollen und Männer weniger. All das braucht seine Zeit, aber durch die drei beschriebenen Strömungen, die ineinander fließen, denke ich, haben wir im Moment die besten Chancen, dass sich wirklich etwas bewegt.'
+  antwort: "CF:&nbsp;I believe that young men's relationship to work is changing. They want to work, also meaningful, they want to make a career, be mobile—but above all they want to be fathers. When companies understand that they need to become more women-friendly, they also promote men. Men and women want to be able to share the tasks in life and also the leisure time. There is therefore a need for companies in which women are recognized, where women are satisfied and work more, in order for men to work less. Many studies show that women want to work more and men less. All this takes time, but through the three currents that flow into each other, I think we have the best chances at the moment to achieve a movement."
   quote: ""
   quoteauthor: ""
 
@@ -211,11 +197,11 @@ Interviewimage: christiane_funken.jpg
 
 ----
 
-Introduction: Christiane Funken ist Professorin der Soziologie an der Technischen Universität Berlin. In ihrem Buch »Sheconomy – Warum die Future der Arbeitswelt weiblich ist« beschreibt sie detailliert die Aufstiegschancen und Karrierehindernisse für Frauen in der sich rasant wandelnden, neuen Arbeitswelt. Sie ermutigt Frauen, ihre spezifischen Fähigkeiten zu erkennen und strategisch einzusetzen. Im Interview erklärt uns Christiane Funken, warum es sich lohnt, als Frau Macht zu wagen und die sich verändernde Wirtschaftswelt offensiv mitzugestalten.
+Introduction: Christiane Funken is a professor for sociology at Technische Universität Berlin. In her book »Sheconomy – Warum die Zukunft der Arbeitswelt weiblich ist« (ger. »Why the future of the working world is female«, currently available in German only) she describes in detail promotion prospects as well as career obstacles for women in a fast changing, new working environment. She encourages women to know their skills and to use them in a strategic way. In the interview, Christiane Funken explains why it pays off for women to dare power and to participate actively in shaping the changing business environment.
 
 ----
 
-Titlenav: Christiane Funken, Geschlechter- und Mediensoziologin
+Titlenav: Christiane Funken, gender and media sociologist
 
 ----
 
@@ -243,4 +229,4 @@ Studiotitle:
 
 ----
 
-Residence: Berlin, Deutschland
+Residence: Berlin, Germany

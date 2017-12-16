@@ -7,10 +7,10 @@ email: timrausch@gmx.de
 language: en
 role: admin
 history:
+  - interviews/loraine-furter
   - interviews/Grafikladen
   - themen/zukunft/welche-beruflichen-oder-privaten-ziele-habt-ihr
   - themen/spezifisch/wie-schwierig-ist-es-gegenueber-kund-innen-grenzen-durchzusetzen
   - themen/privatleben/wie-strikt-trennt-ihr-arbeit-und-privatleben
-  - themen/sichtbarkeit/gibt-es-fuer-frauen-besondere-herausforderungen-in-der-designwelt
 firstname: notamuse
 lastname: ""
