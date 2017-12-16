@@ -128,7 +128,7 @@ Interview:
   fid: f86
   spezialfrage: "0"
   vorfrage: ""
-  frage: Woraus zieht ihr Inspiration?
+  frage: What inspires you?
   category: Inspiration
   antwort: 'AH:&nbsp;Inspiration ist für mich relativ abstrakt. Ich bin gerne in der Natur, in Ausstellungen oder laufe durch die Stadt. Dabei können Proportionen und Details an Architektur spannend sein, ein Lichtspiel, Materialkombinationen. Inspiration kann auch ein altes Buch sein, das mir bei einem Projekt plötzlich wieder in den Sinn kommt. Eigentlich kann es alles sein, verknüpft mit allem was ich tue. Es sind nicht nur visuelle Dinge, schon gar nicht nur aus dem Grafikdesign-Kontext, daraus ziehe ich kaum Inspiration. Aber eine Arbeit kann natürlich in der Referenz oder Tradition von etwas stehen und das ist wiederum spannend.'
   quote: ""
@@ -137,7 +137,7 @@ Interview:
   fid: f87
   spezialfrage: "0"
   vorfrage: ""
-  frage: Gibt es zu wenige weibliche Vorbilder?
+  frage: Are there too little female role models?
   category: Inspiration
   antwort: 'AH:&nbsp;Wir alle können bestätigen, dass es in unseren Geschichtsbüchern kaum Frauen gibt, denen eine aktive Rolle zugeschrieben wird. Meist werden sie nur als Ehefrauen berühmter Männer erwähnt, deren Rolle nicht explizit herausgestellt wird. Dasselbe gilt auch im Grafikdesign. Die Bücher, die wir haben, sind voller Männer, die Wunderbares erreicht haben, aber es kann gar nicht sein, dass die Frauen alle immer nur zuhause am Herd waren und Kinder geboren haben. Früher war ich sehr wütend darüber und habe es als meine persönliche Mission angesehen, dafür zu kämpfen, dass es weitergeht und dass ich – wie man so schön sagt, meinen Mann stehen kann – meine Frau stehen kann. Das ist inzwischen nicht mehr so. Es geht weniger um den Geschlechterkampf, aber es bleibt eine gesellschaftliche Auseinandersetzung. Wir tun oft so, als läge das schon lange hinter uns, aber es ist jetzt immer noch ein aktuelles Thema. Es gibt noch überhaupt keine Gleichberechtigung, denn sonst wären die Bücher bereits umgeschrieben.'
   quote: ""
@@ -146,7 +146,7 @@ Interview:
   fid: f88
   spezialfrage: "0"
   vorfrage: ""
-  frage: Wie sexistisch ist die Designbranche?
+  frage: How sexist is the design field?
   category: Gleichstellung
   antwort: |
     AH:&nbsp;Oh, sehr! Ich glaube, dass es als Frau einerseits von Vorteil sein kann, wenn man gut aussieht. Andererseits kann es auch sein, dass man dann als Designerin weniger wertgeschätzt oder wahrgenommen wird. Je weniger man über seine Erscheinung wahrgenommen wird, desto mehr schauen die Leute wirklich auf die Arbeit. Einmal habe ich mit älteren Leuten zusammengearbeitet, die sehr abgelenkt wirkten und ich wusste nicht, warum. Vielleicht lag es daran, dass sie seltener mit jungen Frauen zusammenarbeiten. Offen sexistisch habe ich dagegen Situationen erlebt, in denen mir gesagt wurde, dass ich nicht angestellt werde, weil ich schwanger werden könnte. Das zeigt deutlich, wie Frauen stigmatisiert werden, denn bei Männern steht das Thema nicht zur Debatte. Vor allem auf Agenturebene ist das bei Frauen eine Frage, die so ab 30 unterschwellig im Raum steht.
@@ -190,7 +190,7 @@ Interview:
   fid: f92
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was macht ihr, um abzuschalten?
+  frage: What do you do to relax?
   category: Privatleben
   antwort: 'AH:&nbsp;Die Tür zu und dann bin ich weg! Ich laufe durch den Park, mache Yoga, radle nach Hause oder treffe mich mit Freund_innen. Die räumliche Distanz gibt mir mentale Distanz. Es ist auch eine Art von Konditionierung, sich nur eine bestimmte Anzahl an Stunden pro Tag für die Arbeit zu nehmen. Alles weitere kommt am nächsten Tag. Früher hatte ich immer das Gefühl, dass ein Projekt mit noch mehr Zeit noch besser werden würde, aber das ist nicht unbedingt so. Im Gegenteil, ich bin eher freier und effizienter geworden. Wenn ich wirklich mal Ärger habe, hilft mir Yoga oder laufen gehen. Danach bin ich entspannt und kann gelassener an das Projekt gehen. Natürlich grenzt man die Arbeit aber nie komplett aus. Sehr oft kommt es vor, dass ein Projekt leise im Hintergrund weiterläuft und im Unterbewusstsein brodelt. Manchmal komme ich dann ganz unverhofft, beispielsweise mitten beim Einkaufen, auf eine neue Idee.'
   quote: ""

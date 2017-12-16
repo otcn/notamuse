@@ -111,7 +111,7 @@ Interview:
   fid: f170
   spezialfrage: "0"
   vorfrage: ""
-  frage: Habt ihr Vorbilder?
+  frage: Do you have any role models?
   category: Inspiration
   antwort: |
     PC:&nbsp;Gerade arbeiten wir an einer Ausstellung über <a href="https://de.wikipedia.org/wiki/Willy_Fleckhaus">Willy Fleckhaus</a> in München. Sein plakativer Editorial-Stil und die starken Kontraste interessieren mich. Ich würde aber nicht sagen, dass wir »ein« Vorbild haben, sondern dass es viele Einflüsse gibt, die wir bewusst und unbewusst in die eigene Arbeit aufnehmen, zitieren und weiterentwickeln.

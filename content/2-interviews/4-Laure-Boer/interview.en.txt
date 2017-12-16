@@ -84,7 +84,7 @@ Interview:
   fid: f16
   spezialfrage: "0"
   vorfrage: ""
-  frage: Woraus zieht ihr Inspiration?
+  frage: What inspires you?
   category: Inspiration
   antwort: |
     LB:&nbsp;Mich interessiert Grafikdesign sehr, aber ich schaue mir keine Blogs und wenig Bücher dazu an. Arbeiten, die mich inspirieren oder berühren, kommen eher aus der Kunst oder der Musik, weniger aus dem Grafikdesign selbst. Ich finde die Künstlerin <a href="http://www.annegathmann.com/">Anne Gathmann</a>, für die wir gerade ein Projekt gemacht haben, sehr inspirierend – ihr künstlerischer Ansatz hat mir persönlich sehr viel gebracht.
@@ -110,7 +110,7 @@ Interview:
   fid: f18
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was macht gute Gestaltung aus?
+  frage: What defines good design?
   category: Haltung
   antwort: 'LB:&nbsp;Im Internet kann man viel Gestaltung entdecken, die gut aussieht, aber bei genauerer Betrachtung viele typografische Fehler aufweist. Ich finde es immer wichtiger, dass man sein Handwerk beherrscht. Das ist berufliches Fachwissen und das muss anerkannt werden. Außerdem finde ich es wichtig, bei einer Gestaltung eigenständige Fragestellungen zu erkennen und nicht nur das Ziel zu haben, etwas gut aussehen zu lassen. Man denkt, etwas ganz Neues geschaffen zu haben und ein paar Wochen später sieht man die gleiche Gestaltung überall. Zu viel »Style« finde ich selten gut, es gibt aber natürlich Strömungen, denen man sich nicht entziehen kann.'
   quote: ""
@@ -189,7 +189,7 @@ Interview:
   fid: f24
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was wäre das ultimative Projekt?
+  frage: What would be the ultimate project?
   category: Zukunft
   antwort: 'LB:&nbsp;In Zukunft möchte ich mehr Musik machen. Grafikdesign ist mir wichtig, nicht nur als Dienstleisterin, aber was mich richtig bewegt und wofür ich gerne mehr Zeit hätte, ist Musik. Mit meinen Freundinnen von un demi war ich 2014 für einen Monat in einer Kunstresidenz in Tiflis in Georgien eingeladen. Dort habe ich viel Musik geschrieben, selbst auf traditionellen georgischen Instrumenten gespielt und mich mit Field Recordings beschäftigt. Das war eine tolle Erfahrung, die ich gerne noch einmal erleben würde. Und zusammen mit Freundinnen ist es natürlich noch besser!'
   quote: ""

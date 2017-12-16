@@ -16,7 +16,7 @@ fields:
     visibility:
         label: Visibility
         type: checkbox
-        text: Do you want the interview in the current language to be visible on the website?
+        text: Interview is visible (in the current language)
         default: true
     titlehead:
         label: Title

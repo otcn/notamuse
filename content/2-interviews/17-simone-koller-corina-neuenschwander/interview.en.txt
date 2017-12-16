@@ -113,7 +113,7 @@ Interview:
   fid: f54
   spezialfrage: "0"
   vorfrage: ""
-  frage: Woraus zieht ihr Inspiration?
+  frage: What inspires you?
   category: Inspiration
   antwort: |
     CN:&nbsp;Wir sind nicht die, die alle Grafikdesignblogs kennen. Ich hole meine Inspiration mehr aus dem Umfeld, in dem ich mich bewege, aus Kunst, Architektur oder auf Reisen. Und auch aus dem Alltäglichen. Manchmal fällt mir etwas auf den ersten Blick Unscheinbares auf, durch das plötzlich ein Bezug zu einem Projekt entstehen kann.

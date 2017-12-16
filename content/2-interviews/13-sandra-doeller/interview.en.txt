@@ -166,7 +166,7 @@ Interview:
   fid: f37
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was wäre das ultimative Projekt?
+  frage: What would be the ultimate project?
   category: Zukunft
   antwort: 'SD:&nbsp;Das gibt es nicht. Die interessantesten Projekte kommen oft unverhofft.'
   quote: ""

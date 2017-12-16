@@ -112,7 +112,7 @@ Interview:
   fid: f136
   spezialfrage: "0"
   vorfrage: ""
-  frage: Woraus zieht ihr Inspiration?
+  frage: What inspires you?
   category: Inspiration
   antwort: 'JMS:&nbsp;Vor allem aus dem Alltag, Ausstellungen, Filmen, Reisen. Ich blättere aber auch gern durch andere Magazine. Um Fotograf_innen oder Illustrator_innen für das Heft zu finden, schaue ich auch oft auf Instagram und versuche hier aus der visuellen Flut spannende Beiträge zu filtern.'
   quote: ""
@@ -121,7 +121,7 @@ Interview:
   fid: f137
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was macht gute Gestaltung aus?
+  frage: What defines good design?
   category: Haltung
   antwort: 'JMS:&nbsp;Das hängt sehr von den Anforderungen ab. Die erste Frage, die man sich stellen sollte, ist, was mit der Gestaltung erreicht werden soll. Wen will man ansprechen, welche Stimmung will man vermitteln? Soll es informativ, lustig, unterhaltsam sein? Ich finde es spannend, wenn Sehgewohnheiten überrascht werden oder die Betrachter_innen herausgefordert werden, aber ebenso kann eine schlichte, klassische Gestaltung angemessen sein. Ich finde es falsch, sich auf einen Stil festzulegen, sondern sehe die Herausforderung darin, sich über diese Fragen für eine gestalterische Richtung zu entscheiden.'
   quote: ""
@@ -141,7 +141,7 @@ Interview:
   fid: f139
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was macht ihr, um abzuschalten?
+  frage: What do you do to relax?
   category: Privatleben
   antwort: 'JMS:&nbsp;Abschalten kann ich am besten, wenn ich Zeit mit meiner Familie und meinen Freund_innen verbringe. Ich bin kein Design-Nerd und beschäftige mich nicht in jeder freien Sekunde mit Gestaltung.'
   quote: ""
@@ -150,7 +150,7 @@ Interview:
   fid: f140
   spezialfrage: "0"
   vorfrage: ""
-  frage: Wie organisiert ihr Familie und Beruf?
+  frage: How do you manage family and professional life?
   category: Privatleben
   antwort: 'JMS:&nbsp;Ich habe das große Glück, dass mein Mann sich sehr involviert und wir die Kinderbetreuung zu gleichen Teilen übernehmen können. Wir machen beide unsere Jobs in der Intensität, in der wir es uns wünschen und haben trotzdem noch Zeit für die Kinder. Ich arbeite 32 Stunden die Woche, drei volle und zwei reduzierte Tage. Außerdem sind meine Ressortleiter bei familiären Angelegenheiten sehr entgegenkommend, das hilft natürlich auch.'
   quote: ""
@@ -203,7 +203,7 @@ Interview:
   fid: f145
   spezialfrage: "0"
   vorfrage: ""
-  frage: Wie gleichberechtigt arbeiten wir heute?
+  frage: How equally do we work today?
   category: Gleichstellung
   antwort: |
     JMS:&nbsp;Auf den ersten Blick geht es sowohl in meinem privaten als auch im beruflichen Umfeld ziemlich gleichberechtigt zu. Doch bei genauerer Betrachtung sind es natürlich auch in meinem Freundeskreis doch häufiger die Mütter, die sich mehr um die Kinder kümmern und auch bei uns in der Redaktion sitzen mehr Männer in den Chefpositionen.
