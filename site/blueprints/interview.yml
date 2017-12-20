@@ -85,7 +85,7 @@ fields:
         required: true
         buttons:
             - link
-    Interview:
+    interview:
         label: Interview Units
         type: structure
         entry: >
