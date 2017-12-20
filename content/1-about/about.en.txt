@@ -2,7 +2,15 @@ Title: About
 
 ----
 
-Text: Available soon.
+Text: 
+
+»notamuse« deals with the lack of visibility of female graphic designers in the design public. The name's meaning is obvious: not a muse. In contrast to the classical muse, who passively serves as a source of inspiration, we deal with female designers, who are creative themselves and who are actively involved in shaping the design landscape. notamuse puts these protagonists in the center of attention.
+
+We wish for more female role models in the field of graphic design as much as a more divers design scene, beyond the figure of the male hero. In spring 2017 we conducted 22 Interviews, in which we talked about topics  like the new working world and women in a "male profession", about the differences between male and female designers and sexism experienced in everyday professional life. We discussed creative attitudes, workflows and personal experiences. 
+
+This website offers the opportunity to read the interviewees' answers thematically ordered and therefore give valuable insights into personal design concepts, ideals and approaches to gender equality in private and professional life. Statements of  sociologists and design theoretics complement this critical analysis.
+
+Next to this website the book »notamuse – A New Perspective on Graphic Design« is in the making, which exclusively presents works of contemporary female graphic designers. It considers itself a deliberate balancing gesture towards the foremost male dominated design discourse. The book will be published in 2018.
 
 ----
 
@@ -10,11 +18,11 @@ Aboutimage: portrait_notamuse01bz.jpg
 
 ----
 
-Imagecaption: Das Team von notamuse: Silva Baum, Claudia Scheer und Lea Sievertsen (v.l.n.r.)
+Imagecaption: The team of notamuse: Silva Baum, Claudia Scheer und Lea Sievertsen (left to right)
 
 ----
 
-Networklisttitle: Netzwerke, Plattformen und Material
+Networklisttitle: Network, platforms and material
 
 ----
 
@@ -87,4 +95,4 @@ Code von Jens Schnitzler, <a href="http://www.timrausch.de">Tim Rausch</a> und <
 
 ----
 
-Imprinttitle: Impressum
+Imprinttitle: Imprint

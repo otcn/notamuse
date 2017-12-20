@@ -1,4 +1,4 @@
-Titlehead:
+Titlehead: 
 
 ----
 
@@ -10,7 +10,7 @@ Titlenav: Simone Koller & Corina Neuenschwander, Designerinnen, Studio Noi
 
 ----
 
-Informationhead:
+Informationhead: 
 
 ----
 
@@ -30,7 +30,7 @@ Date: 2017-05-17
 
 ----
 
-Contenthead:
+Contenthead: 
 
 ----
 
@@ -42,9 +42,9 @@ Introduction: Nachdem sie nach ihrem Diplom an der ZHdK sowohl Erfahrung in Agen
 
 ----
 
-Interview:
+Interview: 
 
--
+- 
   fid: f49
   spezialfrage: "0"
   vorfrage: ""
@@ -53,7 +53,7 @@ Interview:
   antwort: 'SK:&nbsp;Das ist abhängig von der Größe des Projekts. Meistens besprechen wir zuerst zusammen worum es geht, was die wichtigsten Fragestellungen sind und tauschen erste Ideen aus. Dann macht jede einzeln Recherche und Brainstorming und setzt erste Ansätze um. Dabei geben wir uns einen klaren zeitlichen Rahmen vor, sodass das Entwerfen etwas Spielerisches bekommt. Danach besprechen wir unsere Ideen gemeinsam und entscheiden, welche Richtungen interessant sein könnten. Bei kleineren bis mittelgroßen Aufträgen macht dann eine von uns beiden die Umsetzung und die Kommunikation, während die andere beratend zur Seite steht. Bei großen Projekten oder solchen, die langfristig angelegt sind, teilen wir Bereiche auf oder arbeiten zusammen. Es ist wichtig, dass wir jederzeit füreinander einspringen können.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f50
   spezialfrage: "0"
   vorfrage: ""
@@ -67,7 +67,7 @@ Interview:
     CN:&nbsp;Mit der Zeit wird man zum Glück besser darin, den eigenen Aufwand einzuschätzen und realistische Angebote zu machen. Aus diesem Grund haben wir begonnen, unsere Arbeitszeit zu messen und nach jedem Projekt ein Fazit zu ziehen. So sehen wir zum Beispiel, ob wir gewisse Arbeitsschritte unterschätzt oder in der Kalkulation vergessen haben.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f51
   spezialfrage: "0"
   vorfrage: ""
@@ -80,7 +80,7 @@ Interview:
     Wir sind lieber selbst aktiv und dadurch
     sichtbar.
   quoteauthor: Simone Koller
--
+- 
   fid: f52
   spezialfrage: "0"
   vorfrage: ""
@@ -96,7 +96,7 @@ Interview:
     CN:&nbsp;Grundsätzlich mache ich eher viele Entwürfe, während Simone ziemlich schnell auf eine Idee setzt und diese weiter verfolgt. So ergänzen wir uns gut:&nbsp;Die eine probiert mehr aus, die andere geht mehr ins Detail. Dadurch finden wir meistens zu einer gemeinsamen Vision.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f53
   spezialfrage: "0"
   vorfrage: ""
@@ -109,7 +109,7 @@ Interview:
     CN:&nbsp;Wir versuchen immer wieder, Neues über Materialität auszudrücken und experimentieren viel in diesem Bereich. Unsere Quelle hierfür sind unsere Archive, die wir zusammengelegt haben, als wir das Büro gründeten. Wir gucken uns viele Sachen an:&nbsp;ihre Beschaffenheit, wie etwas gebunden ist, verschiedene Drucktechniken.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f54
   spezialfrage: "0"
   vorfrage: ""
@@ -120,7 +120,7 @@ Interview:
     SK:&nbsp;Die Inspiration entsteht sicherlich nicht vor dem Computer. Deshalb versuchen wir unsere Arbeitstage möglichst kurz zu halten und genug nebenbei zu machen. Ausstellungen besuchen, ins Theater gehen … Vieles kommt beim Lesen, etwas das ich spannend finde und das meine Gedanken in Bewegung bringt. Wenn wir brainstormen, fahren wir auch mal in die Berge, um den Kopf wieder frei zu bekommen.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f55
   spezialfrage: "0"
   vorfrage: ""
@@ -134,7 +134,7 @@ Interview:
     SK:&nbsp;Es gibt durchaus Grafiker_innen, deren Arbeitsweise in Richtung Kunst geht. Bei Künstler_innenpublikationen zum Beispiel ist der Beitrag der Grafiker_innen teilweise so groß, dass sie zu Co-Autor_innen werden. Viele Künstler_innen hinterfragen ja Konventionen, animieren dazu, scheinbar Bekanntes neu zu lesen oder fordern unsere Wahrnehmung heraus. Das was wir machen, ist davon nicht immer weit entfernt. Trotzdem würde ich mich nicht als Künstlerin bezeichnen.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f56
   spezialfrage: "0"
   vorfrage: ""
@@ -145,7 +145,7 @@ Interview:
     SK:&nbsp;Bei unserem Beruf kann man Erfolg nicht mit finanziellem Erfolg gleichstellen. Finanziellen Erfolg in Maßstäben, wie sie in der Schweiz üblich sind, werden wir nie erreichen, egal wie erfolgreich wir als Grafikerinnen sind – außer wir wären in einer Agentur als Art-Direktorin angestellt. Was für uns persönlich mehr zählt:&nbsp;Wir können an spannenden Projekten arbeiten, sind unsere eigenen Chefinnen, können unsere Zeit selber einteilen und uns auch mal einen Tag freinehmen. Gleichzeitig tragen wir natürlich auch die volle Verantwortung dafür, dass die Arbeit gemacht wird, das Geschäft läuft und wir fähig sind, am Ende des Monats die Rechnungen zu bezahlen.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f57
   spezialfrage: "0"
   vorfrage: ""
@@ -158,7 +158,7 @@ Interview:
     SK:&nbsp;Wir posten nicht jeden Tag etwas Neues auf unserem Instagram-Account. Mir persönlich geht es etwas gegen den Strich mich selbst zu bewerben. Unsere aktive Leistung ist es eher, ab und zu einen Vortrag zu halten und zu unterrichten. An dieser Stelle erscheint es uns sinnvoll, dann sprechen wir gerne über unsere Arbeit. Wir finden es wichtig, eine Vorbildfunktion einzunehmen.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f58
   spezialfrage: "0"
   vorfrage: ""
@@ -171,7 +171,7 @@ Interview:
     SK:&nbsp;Das Wort »Netzwerk« ist für mich eher negativ konnotiert. Als ob man nur Kontakt zu Leuten suchen würde, von denen man sich einen Vorteil erhofft. Aber eigentlich sind solche Initiativen toll, um sich gegenseitig kennenzulernen und auszutauschen – gerade wenn man nicht in der privilegierten Position ist, bereits viele Kontakte zu haben.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f59
   spezialfrage: "0"
   vorfrage: ""
@@ -181,10 +181,10 @@ Interview:
   category: Gleichstellung
   antwort: |
     CN:&nbsp;Ich denke diese Thematik spielt in dem Bereich, in dem wir arbeiten, keine besonders große Rolle. Oft werden wir auch angefragt, weil wir ein Frauenbüro sind.
-    SK:&nbsp;Es stimmt, dass wir bisher kaum negative Erfahrungen gemacht haben. Zum einen hatten wir bis jetzt das Privileg, mit Personen zusammenarbeiten zu dürfen, die eine feministische Haltung vertreten oder zumindest für das Thema Gleichstellung sensibilisiert sind. Zum anderen hilft sicher ein bestimmtes Auftreten. Als wir Studio Noi gründeten, hatten wir schon einige Jahre Erfahrung. Das half uns, Kund_innen gegenüber selbstsicherer und entspannter aufzutreten. Gleichzeitig halte ich die Vorstellung, dass es jede selber in der Hand hat, ob sie negative Erfahrungen sammelt oder nicht, für naiv. Studien besagen zum Beispiel, dass Personen in Machtpositionen hauptsächlich jene fördern, die ihnen am ähnlichsten sind. Weiße Männer fördern weiße Männer. Diese Art von Dynamik fiel mir selbst in unserem Umfeld auf. Männer schieben sich gegenseitig Jobs zu und schaffen so unsichtbare Bündnisse um sich gegenseitig zu bestärken. Auch auf nationaler Ebene sind wir hier in der Schweiz noch lange nicht so weit, wie wir sein sollten:&nbsp;Frauen verdienen noch immer weniger für dieselbe Arbeit. Das Thema Vaterschaftsurlaub hat im Parlament keine Chance. Nicht mal dann, wenn lächerliche zwei, drei Wochen statt den gesetzlich vorgeschriebenen 1 bis 2 Tagen gefordert werden! Letzthin habe ich außerdem gelesen, dass 60% der Frauen Teilzeit arbeiten, aber nur 13% der Männer. So werde ich als Mutter zum Beispiel regelmäßig gefragt, wie ich das nun mit der Arbeit handhabe. Mein Freund hingegen nie. Dass zwischen den Geschlechtern noch immer solche krassen Unterschiede bestehen, macht mich wütend.
+    SK:&nbsp;Es stimmt, dass wir bisher kaum negative Erfahrungen gemacht haben. Zum einen hatten wir bis jetzt das Privileg, mit Personen zusammenarbeiten zu dürfen, die eine feministische Haltung vertreten oder zumindest für das Thema Gleichstellung sensibilisiert sind. Zum anderen hilft sicher ein bestimmtes Auftreten. Als wir Studio Noi gründeten, hatten wir schon einige Jahre Erfahrung. Das half uns, Kund_innen gegenüber selbstsicherer und entspannter aufzutreten. Gleichzeitig halte ich die Vorstellung, dass es jede selber in der Hand hat, ob sie negative Erfahrungen sammelt oder nicht, für naiv. Studien besagen zum Beispiel, dass Personen in Machtpositionen hauptsächlich jene fördern, die ihnen am ähnlichsten sind. Weiße Männer fördern weiße Männer. Diese Art von Dynamik fiel mir selbst in unserem Umfeld auf. Männer schieben sich gegenseitig Jobs zu und schaffen so unsichtbare Bündnisse um sich gegenseitig zu bestärken. Auch auf nationaler Ebene sind wir hier in der Schweiz noch lange nicht so weit, wie wir sein sollten:&nbsp;Frauen verdienen noch immer weniger für dieselbe Arbeit. Das Thema Vaterschaftsurlaub hat im Parlament keine Chance. Nicht mal dann, wenn lächerliche zwei, drei Wochen statt den gesetzlich vorgeschriebenen ein bis zwei Tagen gefordert werden! Letzthin habe ich außerdem gelesen, dass 60% der Frauen Teilzeit arbeiten, aber nur 13% der Männer. So werde ich als Mutter zum Beispiel regelmäßig gefragt, wie ich das nun mit der Arbeit handhabe. Mein Freund hingegen nie. Dass zwischen den Geschlechtern noch immer solche krassen Unterschiede bestehen, macht mich wütend.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f60
   spezialfrage: "0"
   vorfrage: ""
@@ -197,7 +197,7 @@ Interview:
   antwort: 'SK:&nbsp;Ich glaube nicht, dass man das so pauschal sagen kann. Wenn man Arbeiten betrachtet, lässt sich nicht wirklich unterscheiden, ob sie von einem Mann oder einer Frau gemacht wurden. Womöglich sind Frauen etwas gewissenhafter und halten sich eher an Abmachungen – aber auch das kann man nicht generalisieren, das ist vielmehr typabhängig.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f61
   spezialfrage: "0"
   vorfrage: ""
@@ -210,7 +210,7 @@ Interview:
     SK:&nbsp;Im Laufe der letzten paar Monate haben wir beide relativ kurz hintereinander ein Kind bekommen. Zusammen mit einer Mitarbeiterin hat zuerst die eine, dann die andere von uns den Laden geschmissen. Jetzt arbeiten wir beide wieder, aber nicht ganz Vollzeit, und möchten etwa genauso viel Arbeit leisten wie zuvor. Deswegen haben wir weiterhin eine Mitarbeiterin, die uns unterstützt. Dass wir das bis jetzt so gut hingekriegt haben, liegt auch daran, dass wir beide Partner haben, die Teilzeit arbeiten und sich genauso um Kinderbetreuung und Haushalt kümmern wie wir.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f62
   spezialfrage: "1"
   vorfrage: ""
@@ -221,7 +221,7 @@ Interview:
     CN:&nbsp;Wir wollen auf keinen Fall viele Angestellte. Wir möchten nicht so eine große finanzielle Verantwortung tragen, sondern bleiben lieber kreativ und frei.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f63
   spezialfrage: "0"
   vorfrage: ""
@@ -239,8 +239,12 @@ Studiotitle: Simone Koller & Corina Neuenschwander, Studio Noi
 
 ----
 
-Interviewimagecredits:
+Interviewimagecredits: 
 
 ----
 
 Residence: Zürich, Schweiz
+
+----
+
+Visibility: 1
