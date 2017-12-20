@@ -2,23 +2,23 @@ Interviewpartner: 1
 
 ----
 
-Interview: 
+Interview:
 
-- 
+-
   fid: f1
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     What was your decisive motivation for
     self-employment?
-  category: Working Method
+  category: Work form
   antwort: |
     KW:&nbsp;After studying, we both had a lot of internship experience and realized that we often did not enjoy the working methods of others. You are dependent on someone who structures his enterprise according to his own rules, which you cannot comply with. We both have a vision of how we want to work and deal with each other ­ we have not found that in the Berlin creative industry.
     JD:&nbsp;There is this dichotomy where you want to work. Either one goes into the advertisement and earns appropriate money—but the work is mostly unsatisfactory. Or you go to a cool graphic office, where you gain, despite working extra hours, 900 €. Already during our bachelor studies, we noticed that we are a good team, so there was this idea to become self-employed.
     KW:&nbsp;Our profession is not a high risk. Everyone has a computer and the programs and it is possible to work from anywhere. Even if it does not work, you have not made a big loss.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f2
   spezialfrage: "1"
   vorfrage: ""
@@ -29,22 +29,22 @@ Interview:
   antwort: 'KW:&nbsp;From six months up to a year. As a beginner, right after your studies, you are often selling yourself under value. Then you gradually increase the hourly rate and it gets better and better. Generally speaking, there is still space for improvement.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f3
   spezialfrage: "0"
   vorfrage: >
-    Ihr habt erwähnt, dass euch bestimmte
-    Abläufe in Agenturen nicht gefallen.
+    You mentioned that certain processes in
+    agencies do not please you.
   frage: >
     How do you typically work on your
     projects?
   category: Processes
   antwort: |
-    KW:&nbsp;Mittlerweile laufen Projekte recht ähnlich ab, aber bis dahin war es ein langer Prozess. Wenn wir eine Anfrage für ein Projekt erhalten, versuchen wir zusammen mit dem/der Kund_in ein Briefing zu erstellen und entwickeln dann zu zweit das Konzept. Sobald es an die visuelle Umsetzung geht, arbeiten wir getrennt daran weiter. Früher haben wir das zusammen gemacht – was schön war, aber mittlerweile können wir uns das nicht mehr leisten. Das ist aber in Ordnung, weil sich diejenige, die am Projekt arbeitet, verwirklichen kann und die andere sich nur noch bis zu einem gewissen Grad einmischt.
-    JD:&nbsp;Allerdings verlässt nichts das Büro, hinter dem wir nicht beide stehen. Wenn Katharina findet, dass ein Entwurf gar nicht geht, wird er nicht rausgeschickt, auch wenn ich ihn liebe.
+    KW:&nbsp;By now, our projects are running quite similarly, but it was a long process. Whenever we receive a request for a project, together with the client we create a briefing and afterwards develop the concept. With regard to the visual implementation, we continue to work on it separately. We used to do it together, which was nice, but we cannot afford it anymore. But this is all right, because the one who works on the project can realize oneself and the other only interferes up to a certain extent.
+    JD:&nbsp;However, we always have to agree on the design. If Katharina finds that a draft does not work, it will not be sent out, even if I love it.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f4
   spezialfrage: "0"
   vorfrage: ""
@@ -56,7 +56,7 @@ Interview:
   antwort: 'KW:&nbsp;Time is a big issue for us at the moment, because we have neglected a consistent time recording in the last two years. Meanwhile, we have realized how important this is in order to be able to assess the effort better. So far, the estimation and the actual expenditure of time have been very different, but since we have recorded it, we have become somewhat stricter. We do not necessarily work out yet another idea when we realize that we already exceeded the estimated hours.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f25
   spezialfrage: "0"
   vorfrage: ""
@@ -67,7 +67,7 @@ Interview:
     KW:&nbsp;What you should not underestimate is private acquisition, which we both do intuitively. Whenever you meet new people and talk about your profession and thereby offer graphic advice, this can often lead to new projects. We received the first orders from our circle of friends. Since about half a year we get orders that we cannot trace back.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f38
   spezialfrage: "0"
   vorfrage: ""
@@ -78,11 +78,11 @@ Interview:
     conceptual way?
   category: Design
   antwort: |
-    JD:&nbsp;Ich wäre gerne noch experimenteller, aber das ist eine Zeitfrage, die vom Budget abhängig ist. Ab und an muss man sich dazu zwingen, neue Dinge auszuprobieren und zum Beispiel das analoge Experiment weiter auszubauen.
-    KW:&nbsp;Wir würden gerne einen Tag im Monat einführen, an dem wir neue Ansätze und Techniken ausprobieren oder Recherche betreiben können. Bisher fehlt dazu leider die Zeit. Aber natürlich betrachten wir jede/n Kund_in neu, analysieren seine/ihre Zielgruppen und passen die Design daran an.
+    JD:&nbsp;I'd like to be more experimental, but that depends on the budget. Now and then you have to force yourself to try out new things and, for example, expand the analogous experiment.
+    KW:&nbsp;We would like to introduce one day a month, in which we can try new approaches and techniques or research. Unfortunately, the time is missing. But, of course, we treat each customer differently, analyze his target groups and adapt the design to it.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f39
   spezialfrage: "0"
   vorfrage: ""
@@ -96,7 +96,7 @@ Interview:
     KW:&nbsp;I've also left this self-realization phase behind me. It was interesting one year after my studies, but that's not what I'm looking for now. We focus on a happy customer and that we are satisfied with the designs. There is no sense in producing »hot shit« that no one understands.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f40
   spezialfrage: "0"
   vorfrage: ""
@@ -107,18 +107,18 @@ Interview:
     KW:&nbsp;The problem is that a trend must also be sold to the customer. Just because you find something hip and beautiful, does not mean that someone wants it.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f41
   spezialfrage: "0"
   vorfrage: ""
   frage: Do you have any role models?
   category: Inspiration
   antwort: |
-    KW:&nbsp;<a href="http://bureauborsche.com/">Mirko Borsche</a> still inspires me because I feel that he can do what he wants and every customer buys it. What I’m missing is a female role model and someone I can look up to entrepreneurially. We have made it ourselves and often it would have been nice to have a mentor, who can give advice. Perhaps a little bit more agency experience would have helped as well.
+    KW:&nbsp;<a href="http://bureauborsche.com/">Mirko Borsche</a> still inspires me because I feel that he can do what he wants and every customer buys it. What l’m missing is a female role model and someone I can look up to entrepreneurially. We have made it ourselves and often it would have been nice to have a mentor, who can give advice. Perhaps a little bit more agency experience would have helped as well.
     JD:&nbsp;I have no specific person as a role model, but rather a certain inner attitude as a goal. My vision is to not let myself be stressed and to work on things with an inner balance. Self-employment is a strong challenge for the inner balance, so I hope to be like a little Buddha, who can keep his serenity and transfer it to clients.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f42
   spezialfrage: "0"
   vorfrage: ""
@@ -131,7 +131,7 @@ Interview:
     KW:&nbsp;For me, success also means having fun at work and earning my livelihood. If you are constantly thinking about your financial balance, you have no fun. Being able to identify with the projects is important to me. I do not want to work for assholes.
   quote: I do not want to work for assholes.
   quoteauthor: Katharina Weiß
-- 
+-
   fid: f43
   spezialfrage: "0"
   vorfrage: ""
@@ -144,7 +144,7 @@ Interview:
     JD:&nbsp;I am always happy when someone acknowledges our work. At the same time, it is difficult for me to implement self-imposed measures consistently. For me, it's more of a burden to present my work on Facebook and Instagram.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f44
   spezialfrage: "0"
   vorfrage: ""
@@ -160,7 +160,7 @@ Interview:
     At a Christmas party during an internship, someone told me that I only got the job because there is a video of me in which I eat a chocolate banana. This is already really sexist and was very shocking. It can be a naive strategy to play the sweet girl, but at some point you do not feel like it anymore.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f45
   spezialfrage: "0"
   vorfrage: ""
@@ -174,14 +174,14 @@ Interview:
     JD:&nbsp;In the existing economic system, you are often being taken advantage of as a sensitive person. If you do not build a protective wall against these harsh structures, your own character quickly collides with the system. For me, the key is to recognize your own limitations, communicate them and stick to them.
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f46
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     How strictly do you separate work and
     private life?
-  category: Private Life
+  category: Private life
   antwort: |
     KW:&nbsp;At the beginning we worked a lot—you think that for this a great project you could work also at the weekend, but then comes the next great project and the weekend work does not stop. After two years we were pretty drained and had to learn to stick to strict limits. Now there is an office telephone and e-mails are not read in the evenings and at the weekend. The flexible working hours are tempting with regard to mixing private life and work, but that is not good. I prefer to separate the time I work from the time I rest. These limits must also be made clear to the customer when suddenly he writes messages on Facebook or WhatsApp.
     JD:&nbsp;There is this romantic idea of self-realization in a creative profession in Berlin, but it is hard work, in which financial aspects are also important. At the beginning, I tried to work full-time, studying the Master, but that quickly brought me to my psychological and physical limits, which must be recognized and communicated.
@@ -191,7 +191,7 @@ Interview:
     profession in Berlin, but it is hard
     work.
   quoteauthor: Johanna Dreyer
-- 
+-
   fid: f47
   spezialfrage: "1"
   vorfrage: ""
@@ -202,7 +202,7 @@ Interview:
   antwort: 'KW:&nbsp;The stress happens in the head. We have often seen that artificial pressure is built up by the customers. If you do not react on Saturday, the problem often solves itself by Monday. If you communicate clearly that you do not work at the weekend, it is usually accepted. We do not save lives with our work—normally no one cares whether the flyer is finished one day sooner or later.'
   quote: ""
   quoteauthor: ""
-- 
+-
   fid: f48
   spezialfrage: "0"
   vorfrage: ""
@@ -231,11 +231,11 @@ Introduction: Grafikladen is the creative studio of Katharina Weiß und Johanna 
 
 ----
 
-Titlenav: Johanna Dreyer & Katharina Weiß, Designers, Grafikladen
+Titlenav: Johanna Dreyer & Katharina Weiß, designers, Grafikladen
 
 ----
 
-Url: 
+Url:
 
 ----
 
@@ -255,7 +255,7 @@ Studiotitle: Grafikladen
 
 ----
 
-Interviewimagecredits: 
+Interviewimagecredits:
 
 ----
 
