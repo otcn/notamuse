@@ -31,8 +31,9 @@
 
                     <?php
                     $fragenDone = array();
-                    foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();}) as $interview){
+                    foreach($pages->find('interviews')->children()->visible()->filterBy('visibility', '!=', '0') as $interview){
                     // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
+                    // "->filterBy('visibility', '!=', '0')" fetch files with the checkbox 'visibility' checked
                         foreach($interview->interview()->toStructure()->filterBy('category', $category) as $frage){
                             if (! in_array($frage->frage()->value(), $fragenDone)) {
                                 array_push($fragenDone, $frage->frage()->value());
@@ -45,8 +46,9 @@
 
                                     <ul class="answer-list child"><!-- unordered list of answers -->
                                     <?php
-                                    foreach($pages->find('interviews')->children()->visible()->filter(function($child){return $child->content(site()->language()->code())->exists();}) as $interview) {
+                                    foreach($pages->find('interviews')->children()->visible()->filterBy('visibility', '!=', '0') as $interview) {
                                     // "->filter(function($child){return $child->content(site()->language()->code())->exists();})" fetch children in the current language only
+                                    // "->filterBy('visibility', '!=', '0')" fetch files with the checkbox 'visibility' checked
                                         foreach($interview->interview()->toStructure()->filterBy('frage', $frage->frage()) as $interviewUnit) {
 
                                             ?>
