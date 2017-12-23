@@ -140,7 +140,7 @@ Interview:
   quoteauthor: ""
 - 
   fid: f295
-  spezialfrage: "0"
+  spezialfrage: "1"
   vorfrage: 'Der <a href="http://www.fakworks.de/">FAK</a> (Feministischer Arbeitskreis) hat sich als Reaktion auf die geringe Zahl weiblich besetzter Professuren gegründet.'
   frage: 'Im Grafikdesign sind fast 70% der Studierenden weiblich, bei den Professorinnen sind es 30% oder weniger – was sagst du dazu?'
   category: Spezifisch
@@ -200,7 +200,7 @@ Interview:
   quoteauthor: ""
 - 
   fid: f300
-  spezialfrage: "0"
+  spezialfrage: "1"
   vorfrage: ""
   frage: >
     Kannst du inzwischen gut von deiner

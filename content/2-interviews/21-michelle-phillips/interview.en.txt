@@ -6,7 +6,7 @@ Title: Michelle Philipps
 
 ----
 
-Titlenav: Michelle Philipps, designer, Yukiko
+Titlenav: Michelle Philipps, Designer, Yukiko
 
 ----
 
@@ -64,7 +64,7 @@ Interview:
   frage: >
     Is there something your studies did not
     prepare you for at all?
-  category: Work form
+  category: Work Situation
   antwort: "MP:&nbsp;Yes, a lot. I did a lot of learning on the job I got straight after university, which is a good and a bad thing. There has been a huge amount of business, client and money related things I learned—everything that you don’t learn about in university. I could never have done Yukiko without that experience. But I also had to unlearn a lot of things, working practices I didn't agree with, or wanted to do differently."
   quote: ""
   quoteauthor: ""
@@ -213,7 +213,7 @@ Interview:
   frage: >
     Does family planning affect your
     self-employment?
-  category: Private life
+  category: Private Life
   antwort: 'MP:&nbsp;In terms of self-employment that was never a question. I covered a guy recently who was on 6 months paternity leave—if you are employed, this is amazing. Running my own studio, I don’t know how I’m going to plan a family. It is not going to be easy, but I’m not put off by that. One great thing in Germany is that the amount of time you can take off for parental leave as a man or a woman is equal. If we are looking for someone long-term to join us in the studio, there is absolutely no way we could discriminate against a young girl or guy because they might have a child. That is something many other countries don’t have and it is definitely something that women are discriminated against.'
   quote: ""
   quoteauthor: ""
@@ -222,7 +222,7 @@ Interview:
   spezialfrage: "0"
   vorfrage: ""
   frage: What do you do to relax?
-  category: Private life
+  category: Private Life
   antwort: 'MP:&nbsp;To be honest, our work-life-balance is very bad, more so because we are partners. You finish work, go for a drink and just continue to talk about work. If there is a lot on, you put in an extra day at the weekend to keep on top of it. Or you catch up on paperwork at the weekend. Occasionally we finish work at 7 pm and we have a good social life afterwards. I try to do some sport and used to play basketball, Johannes is into Tai-Chi now. But this is really an effort, we have to do something for ourselves. But we tend to go out for beers nearly every day after work.'
   quote: ""
   quoteauthor: ""

@@ -1,6 +1,6 @@
-Interview:
+Interview: 
 
--
+- 
   fid: f254
   spezialfrage: "1"
   vorfrage: >
@@ -20,7 +20,7 @@ Interview:
   antwort: 'CF:&nbsp;We break away from the gender stereotypes— women are like this and men are like that. Each woman, or any person at all, should make a strength and weakness analysis for himself/herself. In that way, you become aware of these things and then, you will be able to promote your own strengths and perform according to them. Women should be aware that certain competencies, which they have learned or further developed, have a market value. These include the so-called »soft skills«. A somewhat worn out term, thus I would rather refer to them as »future skills«. It is these future skills that we need when it comes to knowledge work, the creative work we do in projects, interdisciplinary teams and customer contacts. In general, many properties and competences are required, for which women are well prepared at the moment because of their socialization or life situation. I do not think that women should represent themselves as particularly female or should adapt male attitudes. If you develop some kind of self-awareness on the basis of your market value, you also appear authentic and self-confident. Then it does not matter whether these are labeled as female or male attitudes.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f255
   spezialfrage: "0"
   vorfrage: ""
@@ -31,7 +31,7 @@ Interview:
   antwort: 'CF:&nbsp;There are many, even recent, investigations through which we know that for men merit and career still play a big role. A man is rather likely to accept a new job or get involved in a new project that may not interest him or where he is not sure if he can do it, only because he knows that it brings him a step further. Women in Germany have only very late caught up with the educational deficit, through the education reform in the 1960s. Previously, there were three groups of people who were not included in the educational system:&nbsp;working-class children, children from the country and girls. Then the school reform was introduced, schools were built on the countryside and bus lines installed. There was the coeducation, which means that girls and boys were taught together. I probably belong to the first generation, the so-called babyboomer generation, who attended the gymnasium, studied and started a career. Up to this day, highly qualified women are known to emphasize the importance of the message, the team and their company. The concept of a career, the concept of power, is still negatively or ambivalent connoted for many women. This is like treason to the message.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f256
   spezialfrage: "1"
   vorfrage: >
@@ -47,7 +47,7 @@ Interview:
   antwort: 'CF:&nbsp;The meaningfulness is important for women, but also for men nowadays. We have, and this is very important to note, a change in terms of three aspects:&nbsp;Firstly, a change of the working world, secondly a change in our claim to work. People want to work meaningfully, that is, e.g. sustainable, socially acceptable, politically correct. They want to work in areas, in which they feel their values are being represented. They want a better work-life balance and are no longer as exhausted as their parents. Men want to be fathers and mothers work. They want to have more free time and another work-life balance. The third change is that gender relations are slowly starting to change. Couples, in whatever constellations, want to coordinate their life plans together and this is due to integration. Unfortunately, today it is still the rule that the men continue to work and the women go part-time, once their first child is born, however, for purely economic reasons, because the companies do not support other approaches.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f257
   spezialfrage: "1"
   vorfrage: >
@@ -62,7 +62,7 @@ Interview:
   antwort: 'CF:&nbsp;Just recently, the bill for a law was passed that companies with more than 200 employees have to ensure transparency. This is, of course, only a first small step, but also the first small steps are necessary, so that something can change. From research, we know that women are relatively frustrated in their salary negotiations, according to the motto »That is all my fault!« Whereas, a man is rather likely to say »Did not work out, on to the next one!« I believe good negotiations are only possible when a woman is working with facts and can claim her victories, e.g. which client she has acquired. As soon as factual arguments are made, the chances are better.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f258
   spezialfrage: "1"
   vorfrage: >
@@ -75,20 +75,20 @@ Interview:
   antwort: 'CF:&nbsp;First, they must be aware of their own competences. Can I argue well? Do I have a strong performance? Am I able to emphasize with other worlds of thought and other cultures? I am well networked? Work processes that are close to humans are becoming more and more important—they are not repeatable and standardizable, but depend on the situation. They cannot be rationalized or digitized. You need to be aware of what is needed in the new areas while keeping an eye on the old ones. At the moment we still have this paradox, at least in large companies. In situations like this persistence is called for:&nbsp;Stay tuned and look at areas where you can score points with your own strengths. Do not work isolated, but create allies across the whole company, even with men. Having good contacts, also outside the company, being well connected. And courage! Dare to be courageous and try to occupy new thematic fields with the allies. Flexibility in project work in different teams is also part of my claim.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f259
   spezialfrage: "1"
   vorfrage: 'Areas in which more women are working or which are female-connoted are currently developing in some ways rather negatively:&nbsp;less money is being invested, wages are getting worse and the public reputation of the professions is declining (<a href="http://www.zeit.de/karriere/2016-10/margarete-stokowski-gleichberechtigung-selbstbestimmung-untenrum-frei-interview">Interview in Zeit Online with Margarete Stokowski, German</a>).'
   frage: >
     How do you see this development in
-    contrast to the »new working world«,
-    which you comprehend as a great
-    opportunity for women?
+    contrast to the new working world, which
+    you comprehend as a great opportunity
+    for women?
   category: Spezifisch
   antwort: "CF:&nbsp;We deal with a horizontal and a vertical segregation of the labor market. The vertical means that the women work »down« and the men »up« are always the bosses. The horizontal segregation means:&nbsp;there are so-called women's professions and so-called men's professions. Of perhaps a total of 90 training professions, women choose a maximum of ten on average. They become hairdressers, secretaries, kindergarten teachers. These so-called women's professions are paid less, are more dependent on the economy, often have lower protection against dismissal and a poorer image. Men, however, choose professions that are better paid. Overall, I think we are experiencing a feminization of the labor market, nowadays approximately 75% of all women work. What we formerly termed as a »supply-marriage«—the man works, the woman is at home—is long gone. This feminization brings quite different trends. It is unacceptable that all professional branches are suddenly paid less. A good example here is HR (Human Resources):&nbsp;The more machines there are, the more important people become that are able to control these machines, or that do the knowledge work. Many companies know quite well that they cannot fully rely on their employees to work there forever. Therefore, they are forced to offer much more money to keep their employees. This means that we are now talking about so-called people management:&nbsp;the subject of personnel development is taken into the company's strategy. In the past, the personnel development in the executive boards of the corporations had actually the least importance, but today these strategic sides determine the future of the enterprise. This is an extreme appreciation of HR."
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f260
   spezialfrage: "1"
   vorfrage: ""
@@ -99,7 +99,7 @@ Interview:
   antwort: 'CF:&nbsp;There are studies that show that women are less risky. Women are, for example, much less likely to work in commission-dependent jobs, such as sales without fixed wages. Women are rather likely to work in the public administration, where they have a stable income. During the financial crisis in Iceland there was a large agency run by women - they have survived the crisis well and are now extremely successful. So yes, they say women are more aware of risks, act less risky, do not even make the very fast draft. There is the thesis that if there were more women in finance, the financial crisis would not have existed. This is not any genderism of some angry women, but these are quite reliable arguments.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f261
   spezialfrage: "1"
   vorfrage: >
@@ -112,7 +112,7 @@ Interview:
   antwort: 'CF:&nbsp;Yes I think so! I believe that education and socialization processes change. We monitor this already in many areas, especially with young people there are very many intertwinings. When I take into account my seminars, e.g. »The sociology of the sexes«, there were two boys attending it 20 years ago, today at least half of the seminar is made up of men. Here I often observe a completely different habitus, the differences of the sexes are getting smaller and smaller. In gender research, we have long observed that the differences within the genus group women, or within the genus group men, are greater than those between the two genus groups. A white woman from New York lives a completely different life than a Black African woman who is working in the country.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f262
   spezialfrage: "1"
   vorfrage: Your studies refer to large companies
@@ -124,7 +124,7 @@ Interview:
   antwort: 'CF:&nbsp;Small and medium-sized enterprises are really something else, here it depends very much on the enlightenment of the individual persons. But even with enlightened people, with an advanced gender images, it happens again and again that one falls into old patterns. A woman working in the IT area told me that she had problems with clients as soon as she appeared as businesswoman. Then she hired a man who just accompanied her. In the mixed team, they no longer have any problems to generate orders. The social expectations are reflected in order situations and order-customer-constellations. Traditional ideas are still very strong, at least for certain age groups.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f263
   spezialfrage: "1"
   vorfrage: >
@@ -143,7 +143,7 @@ Interview:
     CF:&nbsp;I have long considered whether I should take this quote into the book or not. It depends on how you read it. One can criticize the fact that role stereotypes cannot be overcome if they are used in a targeted way. On the other hand, <a href="https://en.wikipedia.org/wiki/Judith_Butler">Judith Butler</a> says that one can also ironize the matter - to satirize them by running around in the suit and playing the male role. Every woman should decide how best to deal with it, find allies in the company, acquire more power, be able to have more say. It does not benefit any woman who works in an extremely conservative men's business to have a habit that irritates everyone madly. Then, e.g. try to neutralize the habit. But I think it's actually useful to emphasize individuality, coupled with the strengths that you have and what you can and can achieve. I believe that we do not bend and betray ourselves.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f264
   spezialfrage: "1"
   vorfrage: >
@@ -157,7 +157,7 @@ Interview:
   antwort: "CF:&nbsp;I did not think it was necessary. I'm a feminist, of course! For me, feminism is nothing more than to advocate the rights of women. The book is a feminist book that focuses on the rights of women and shows the framework in which they are circumcised. It was the most important thing for me to say to them, »Hey, you're all great, tackle it, do it!« There are so many women of my age who are frustrated that nothing has changed. Then I reply that we must not take the younger one's courage! I believe that for the first time we have a historical situation in which the three currents, the change in work, the change in the conception of work, and the change in gender relations, come together - and women must now get ready for action."
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f265
   spezialfrage: "0"
   vorfrage: ""
@@ -171,7 +171,7 @@ Interview:
     Promoting young women is smart for any
     executive.
   quoteauthor: ""
--
+- 
   fid: f266
   spezialfrage: "1"
   vorfrage: >
@@ -201,11 +201,11 @@ Introduction: Christiane Funken is a professor for sociology at Technische Unive
 
 ----
 
-Titlenav: Christiane Funken, gender and media sociologist
+Titlenav: Christiane Funken, Gender and Media Sociologist
 
 ----
 
-Url:
+Url: 
 
 ----
 
@@ -221,11 +221,11 @@ Web: https://de.wikipedia.org/wiki/Christiane_Funken
 
 ----
 
-Interviewimagecredits:
+Interviewimagecredits: 
 
 ----
 
-Studiotitle:
+Studiotitle: 
 
 ----
 

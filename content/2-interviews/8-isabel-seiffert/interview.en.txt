@@ -6,9 +6,9 @@ Interviewpartner: 0
 
 ----
 
-Interview:
+Interview: 
 
--
+- 
   fid: f199
   spezialfrage: "0"
   vorfrage: ""
@@ -19,7 +19,7 @@ Interview:
   antwort: 'IS:&nbsp;At the beginning of a project, we normally we work together, because we appreciate the exchange and it is easier to put things straight. Whenever we receive an order, we first talk about it and collect ideas. Afterwards, everyone implements different ideas, which we then also discuss. In that way the process continues until we have all ideas aligned. From this point onwards, we separate the tasks, nevertheless, we follow the principle of dual control:&nbsp;before a design gets presented to the client, we always double-check it. Although simultaneous work is very time-consuming, we are convinced that time the projects are of higher quality. That is one reason we work together.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f200
   spezialfrage: "0"
   vorfrage: ""
@@ -30,7 +30,7 @@ Interview:
     For example, we have certain quality standards and a preference for typography, but we customize it for each project and try to reinvent something at first. In the initial phase, we often try out new designs that may even look terrible at first. Through reduction and systematics, the design becomes more compelling and the concept becomes clearer. The cleaner the design, the easier it is to argue. Our time-to-work for design is, of course, quite intensive and lengthy through this phase of experimentation.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f201
   spezialfrage: "0"
   vorfrage: ""
@@ -42,7 +42,7 @@ Interview:
     IS:&nbsp;When my interest in editorial and typography started, I had role models like <a href="http://bureauborsche.com/">Mirko Borsche</a> or Hort. At the core, my taste probably has not changed:&nbsp;graphic, precise, not too playful work. I was very interested in Swiss graphics at an early stage, which led me to do my Master's degree in Zurich. What triggered my interest more than a certain style was the high quality claim. I find that the craftsmanship is far more precise and more elaborate than in Germany. What is often missing though, is the love for detail in typography, but also in print.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f202
   spezialfrage: "0"
   vorfrage: ""
@@ -53,7 +53,7 @@ Interview:
     The potential of design is definitely not exhausted. In addition to being used for advertising and pop culture, it could also be applied to scientific areas. I hope that the area of knowledge transfer becomes even more present, because design has the ability to change something—it can help people to understand facts better.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f203
   spezialfrage: "0"
   vorfrage: ""
@@ -62,7 +62,7 @@ Interview:
   antwort: 'IS:&nbsp;That depends on the project. With regard to socially important issues, I find that the design should follow a logic that is not misleading. At the same time it must not be boring, the subject should still be accessible. However, if you create a flyer for a jazz band, the context is different. The design for the flyer can be good without meeting this requirement. It depends on the context.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f204
   spezialfrage: "0"
   vorfrage: ""
@@ -75,7 +75,7 @@ Interview:
     I did not know any successful female
     designers, so I wanted to try harder.
   quoteauthor: ""
--
+- 
   fid: f205
   spezialfrage: "0"
   vorfrage: ""
@@ -86,7 +86,7 @@ Interview:
   antwort: 'IS:&nbsp;Although it is exhausting, I get excited every time I get invited to do so. From the beginning I always felt that it was my duty to give lectures and I really enjoy doing so. I cannot remember one single lecture by a female graphic artist in the first half of my studies. That is the reason why I usually accept the invitation. I have the feeling that, especially in lectures, there is only this one perspective, namely middle-aged men and their particular way of presenting their work. This could lead to the impression that only their way is successful. But you can be just as reserved and still be good at what you do!'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f206
   spezialfrage: "0"
   vorfrage: ""
@@ -98,7 +98,7 @@ Interview:
   antwort: 'IS:&nbsp;I have made bad experiences in a rather indirect way, for example, in situations where I felt that I was given less difficult tasks because I am a woman. Particularly in the case of presentations for the customer I am under the impression that the statements are taken less seriously. You are less likely to be seen as a genius, but rather questioned. The younger you are, the harder it is to appear experienced. It gets even harder if you are not this charismatic type, which has this appearance and presents everything as if there was only one right way. For a long time, I also was scared of failing. Whenever I applied for an internship during my studies, I deliberately did not apply at some studios. Some had not had any female trainees so far, so I did not dare to apply there and also did not want to work with them in many ways. In retrospect, I sometimes regretted not having done it anyway, but I was still too insecure at the time.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f207
   spezialfrage: "0"
   vorfrage: ""
@@ -109,7 +109,7 @@ Interview:
     With us it is a special situation. Christoph is very much in favor of changing old structures and has suggested, for example, to write my name first, so that the woman is for once not second. My generation is actually the first one to deal with it differently, but I think it could go faster. In Zurich there are actually many good designers, but they are partly invisible, because they do not go on lectures or are not active in the community, especially in the older generation of designers. In many younger studios, such as <a href="http://kasper-florio.ch">Kasper Florio</a>, it is no longer the case that only the male part is visible and is in the foreground.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f325
   spezialfrage: "0"
   vorfrage: ""
@@ -120,18 +120,18 @@ Interview:
     I do not know if this is so because women do not fully exploit their potential and do not go far enough in their work or because they are not mentioned so often. They are not mentioned at all by historiography. <a href="http://master.design.zhdk.ch/personenangaben/sarah-owens">Sarah Owens</a>, the director of visual communication at ZHdK, gave a lecture on women in art and design at AGI a year and a half ago. She has dealt with the subject historically, and discovered that women, among the otherwise so advanced Bauhaus, were placed in the textile and pottery classes and were not allowed to study architecture.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f208
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     How strictly do you separate work and
     private life?
-  category: Private life
+  category: Private Life
   antwort: 'IS:&nbsp;This is the theme of my year. Designing is very important in my life, if not the most important thing. In recent years, I have worked extremely hard, spent little holidays and spent a lot of time and money to get where I wanted to go. By the end of last year, my health had hit my head—from one day to the next, my right arm was so inflamed that I could not hold a pen. For four months it was not clear whether it would heal again. This was a great life crisis for me—we had just founded Offshore and I could not work at all. At some point I realized that I have to rethink and have to deal with other things besides work. I still work on many weekends, but I try to have one free day per week. And I now have a dog with whom I have to go out at noon. In the early design phases of a project, I am also mostly mentally stressed, so I often work the rest of the evening, or at do research until late at night and think about the project further. I cannot and would not want to switch off or do anything else. This is also a bit difficult for my environment. But I believe that in these professions, where one has a certain vision of what one wants to do, a certain amount of time and effort is required. That is why self-employment is so important to me and, at least until now, is the only option to work in design.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f209
   spezialfrage: "0"
   vorfrage: ""
@@ -140,7 +140,7 @@ Interview:
   antwort: 'IS:&nbsp;Perhaps to work for a large exhibition, such as the Documenta or Venice Biennale. I would also like to make publications for research projects at MIT. I am interested in areas of social relevance, which also exist outside of the arts and cultural industry. I cannot name a specific project, but I would find something scientific that is aesthetically challenging very exciting and relevant.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f210
   spezialfrage: "0"
   vorfrage: ""
@@ -162,11 +162,11 @@ Interviewimage: offshore.jpg
 
 ----
 
-Titlenav: Isabel Seiffert, designer, Offshore Studio
+Titlenav: Isabel Seiffert, Designer, Offshore Studio
 
 ----
 
-Url:
+Url: 
 
 ----
 
@@ -186,7 +186,7 @@ Studiotitle: Offshore Studio
 
 ----
 
-Interviewimagecredits:
+Interviewimagecredits: 
 
 ----
 

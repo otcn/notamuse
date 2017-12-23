@@ -1,4 +1,4 @@
-Titlehead:
+Titlehead: 
 
 ----
 
@@ -6,11 +6,11 @@ Title: Simone Koller & Corina Neuen&shy;schwander
 
 ----
 
-Titlenav: Simone Koller & Corina Neuenschwander, designers, Studio Noi
+Titlenav: Simone Koller & Corina Neuenschwander, Designers, Studio Noi
 
 ----
 
-Informationhead:
+Informationhead: 
 
 ----
 
@@ -30,7 +30,7 @@ Date: 2017-05-17
 
 ----
 
-Contenthead:
+Contenthead: 
 
 ----
 
@@ -42,9 +42,9 @@ Introduction: After their diploma at ZHdK, and their master’s degree at Werkpl
 
 ----
 
-Interview:
+Interview: 
 
--
+- 
   fid: f49
   spezialfrage: "0"
   vorfrage: ""
@@ -55,7 +55,7 @@ Interview:
   antwort: 'SK:&nbsp;This depends on the size of the project. For the most part, we first discuss what it is all about, the most important questions, and exchange ideas. Then, each one does research and brainstorming and implements initial approaches. We give ourselves a clear time frame so that designing becomes something playful. Then we discuss our ideas and decide which directions might be interesting. In the case of smaller to medium-sized orders, one of us then implements and communicates, while the other provides advice. For large projects or long-term projects, we divide or work together. It is important that we represent each other at any time.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f50
   spezialfrage: "0"
   vorfrage: ""
@@ -69,7 +69,7 @@ Interview:
     CN:&nbsp;As time goes by, you eventually get better with judging your own efforts and make realistic offers. For this reason, we began to measure our working hours and are able to draw conclusions after each project. By doing so, we see whether we have underestimated certain work steps or have neglected them in our calculations
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f51
   spezialfrage: "0"
   vorfrage: ""
@@ -82,7 +82,7 @@ Interview:
     We are rather active and by that,
     visible.
   quoteauthor: Simone Koller
--
+- 
   fid: f52
   spezialfrage: "0"
   vorfrage: ""
@@ -95,7 +95,7 @@ Interview:
     CN:&nbsp;Basically, I rather do a lot of drafts, while Simone is pretty fast on an idea and continues to follow it. This is how we complement each other:&nbsp;the one tries out more, the other is more detailed. As a result, we usually find a common vision.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f53
   spezialfrage: "0"
   vorfrage: ""
@@ -109,7 +109,7 @@ Interview:
     CN:&nbsp;We are always trying to express new things about materiality and experiment a lot in this area. Our sources are our archives, which we put together when we found the office. We look at many things:&nbsp;their texture, how something is bound, different printing techniques.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f54
   spezialfrage: "0"
   vorfrage: ""
@@ -120,7 +120,7 @@ Interview:
     SK:&nbsp;The inspiration certainly does not arise in front of the computer. That is why we try to keep our working days as short as possible and to have enough time for leisure activities. Visiting exhibitions, going to the theater ... A lot of ideas come from reading, something I find exciting and that inspires me. When we brainstorm, we also go to the mountains.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f55
   spezialfrage: "0"
   vorfrage: ""
@@ -133,7 +133,7 @@ Interview:
     SK:&nbsp;There are graphic artists whose work resembles art. For artists' publications, for example, the graphic artist's contribution is sometimes so large that he becomes a co-author. Many artists question conventions, animate to re-read what is known, or challenge our perception. What we do is not that different. Nevertheless, I would not describe myself as an artist.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f56
   spezialfrage: "0"
   vorfrage: ""
@@ -146,7 +146,7 @@ Interview:
     SK:&nbsp;In our profession success cannot be equated with financial success. We will never achieve financial success in standards as usual in Switzerland, no matter how successful we are as graphic artists—unless we were employed as art directors in an agency. What is more important is that we can work on exciting projects, are our own bosses, can allocate our time ourselves and take a day off whenever we want to. At the same time, of course, we are also fully responsible for the work getting done, the business running and we are able to pay the bills at the end of the month.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f57
   spezialfrage: "0"
   vorfrage: ""
@@ -159,7 +159,7 @@ Interview:
     CN:&nbsp;We do not post something new every day on our Instagram account. I personally, I am not a great fan of self-marketing. Our active achievement is to deliver a lecture from time to time. At this point, we enjoy talking about our work. We find it important to be a role model.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f58
   spezialfrage: "0"
   vorfrage: ""
@@ -172,7 +172,7 @@ Interview:
     SK:&nbsp;The word »network« for me is rather negatively connoted. As if you only wanted to make contact with people from whom you hoped to gain an advantage. But in fact, such initiatives are great to get to know each other and exchange—especially if you are not in the privileged position to have many contacts.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f59
   spezialfrage: "0"
   vorfrage: ""
@@ -183,10 +183,10 @@ Interview:
   category: Equality
   antwort: |
     CN:&nbsp;I do not think this issue plays a particularly important role in the area in which we work. Often we are also asked because we are a women's office.
-    SK:&nbsp;I think it depends very much on your own appearance. If you have a certain experience, impart competence and don't get intimidated too easily, you are usually taken seriously. This is at least my experience. At the national level, however, we are much less advanced in Switzerland as we should be:&nbsp;women still deserve less for the same work. I recently read that 60% of women work part-time, but only 13% of men. That such stark differences between the sexes still exist, annoys me.
+    SK:&nbsp;;It is true, that we hardly experienced any negative situations. On the one hand until now we had the privilege to work with people who had a feminist attitude or were at least sensitized to issues of gender equality. On the other hand a certain behavior surely helps. When we founded Studio Noi, we already had some years of experience. It helped to behave more confident and calm towards clients. At the same time, I find it naive to think that every women is responsible for experiencing negative situations or not. Studies for example show that people in positions of power primarily promote those who resemble themselves. White men promote white men. I even noticed this kind of dynamic in my personal environment. Men supply each other with jobs and create invisible alliances to strengthen each other. At the national level, however, we are much less advanced in Switzerland as we should be:&nbsp;women still earn less for the same work. The topic paternity leave does not have a chance in parliament. Not even, if ridiculous two or three weeks are being demanded, instead of the one to two days prescribed by law. I recently read that 60% of women work part-time, but only 13% of men. As a mother I am also regularly asked how I handle my work. Whereas my boyfriend never hears that question. That such stark differences between the sexes still exist, annoys me.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f60
   spezialfrage: "0"
   vorfrage: ""
@@ -198,20 +198,20 @@ Interview:
   antwort: 'SK:&nbsp;I do not think you can say that in general. When you look at works, you cannot really tell whether they were made by a man or a woman. It is possible that women are more conscientious and are more likely to stick to agreed terms—but that can not be generalized, it is rather type-dependent.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f61
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     Does family planning affect your
     self-employment?
-  category: Private life
+  category: Private Life
   antwort: |
     CN:&nbsp;We've noticed that many graphic designers who are hired receive less responsibility as soon as they become a mother and no longer work full-time. If you are self-employed as an individual, it is harder to intercept failures. Family planning was therefore one of the reasons why we joined together:&nbsp;we can support each other and continue to work on interesting assignments, even if one of us is in maternity leave.
     SK:&nbsp;Over the last couple of months, we both have been getting a child one after the other. Together with an employee, the first one, then the other of us, threw the shop. Now we both work again, but not quite full-time, but would like to achieve as much as before. That is why we have a staff member who supports us. One reason for our success is also that we both have partners working part-time and who are equally involved in childcare and the household.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f62
   spezialfrage: "1"
   vorfrage: ""
@@ -222,7 +222,7 @@ Interview:
     CN:&nbsp;We do not want many employees. We do not want to bear such a great financial responsibility, but rather remain creative and free.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f63
   spezialfrage: "0"
   vorfrage: ""
@@ -244,7 +244,7 @@ Studiotitle: Studio Noi
 
 ----
 
-Interviewimagecredits:
+Interviewimagecredits: 
 
 ----
 

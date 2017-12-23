@@ -133,13 +133,12 @@ Interview:
   quoteauthor: ""
 - 
   fid: f242
-  spezialfrage: "1"
+  spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Do you think women often pursue
-    different goals in their career than
-    their male colleagues do?
-  category: Spezifisch
+    Do women pursue different goals in their
+    career than their male colleagues do?
+  category: Success
   antwort: 'LF:&nbsp;I think women and men both have similar goals for success, but women also deal with the additional factor of having a family. If you care about starting a family, you have to figure out how to integrate it into your work. This is one of the reasons why I started my studio right after my son was born. Before I never had an interest in having my own studio. When I returned to Pantheon Books after my three months maternity leave, the work there didn’t seem to be interesting anymore. I already did a lot of freelance jobs when I was at Pantheon, so it was easy to start my own business. However, I always kept my studio near my apartment, which gave me an enormous flexibility to see my family. Most of the people who leave here, male or female, all end up opening their own studio. And, actually, two of my former designers got married to each other!'
   quote: ""
   quoteauthor: ""
@@ -281,7 +280,7 @@ Introduction: As an icon in graphic design and hand lettering, New York based Lo
 
 ----
 
-Titlenav: Louise Fili, designer, Louise Fili Ltd.
+Titlenav: Louise Fili, Designer, Louise Fili Ltd.
 
 ----
 

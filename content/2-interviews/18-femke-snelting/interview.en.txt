@@ -6,7 +6,7 @@ Title: Femke Snelting
 
 ----
 
-Titlenav: Femke Snelting, designer and artist
+Titlenav: Femke Snelting, Designer and Artist
 
 ----
 
@@ -94,7 +94,7 @@ Interview:
   quoteauthor: ""
 - 
   fid: f270
-  spezialfrage: "0"
+  spezialfrage: "1"
   vorfrage: ""
   frage: >
     Can you tell us about the code of
@@ -108,7 +108,7 @@ Interview:
   quoteauthor: ""
 - 
   fid: f271
-  spezialfrage: "0"
+  spezialfrage: "1"
   vorfrage: ""
   frage: >
     Can a code of conduct also help in

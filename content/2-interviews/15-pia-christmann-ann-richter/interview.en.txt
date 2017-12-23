@@ -1,4 +1,4 @@
-Titlehead:
+Titlehead: 
 
 ----
 
@@ -6,11 +6,11 @@ Title: Pia Christmann & Ann Richter
 
 ----
 
-Titlenav: Pia Christmann & Ann Richter, designers, Studio Pandan
+Titlenav: Pia Christmann & Ann Richter, Designers, Studio Pandan
 
 ----
 
-Informationhead:
+Informationhead: 
 
 ----
 
@@ -30,7 +30,7 @@ Date: 2017-05-11
 
 ----
 
-Contenthead:
+Contenthead: 
 
 ----
 
@@ -42,20 +42,20 @@ Introduction: Pia Christmann and Ann Richter got to know each other during their
 
 ----
 
-Interview:
+Interview: 
 
--
+- 
   fid: f164
   spezialfrage: "0"
   vorfrage: ""
   frage: >
     What was your decisive motivation for
     self-employment?
-  category: Work form
+  category: Work Situation
   antwort: 'AR:&nbsp;The plan already existed during our studies. I personally think that it is important to try different things and to learn a lot during this phase. The wish to work independently evolved from the desire to decide a lot on our own and to have the most possible liberty with the design.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f165
   spezialfrage: "0"
   vorfrage: ""
@@ -66,7 +66,7 @@ Interview:
   antwort: 'PC:&nbsp;The initial research and brainstorming usually take place between Ann and me. Thus, emerges a pool of ideas out of which we then, also in a dialogue with the customer, create a concept. In the next phase, one of us will be responsible in order to have the organizational side all bundled up.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f166
   spezialfrage: "0"
   vorfrage: ""
@@ -78,7 +78,7 @@ Interview:
   antwort: 'AR:&nbsp;We usually take the amount of time that the project requires. At the beginning, we estimate the work hours and of course, it is ideal if this number coincides with the workload, but the design has priority.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f167
   spezialfrage: "0"
   vorfrage: ""
@@ -89,7 +89,7 @@ Interview:
     AR:&nbsp;It is a rather a mixture of active and passive acquisition, since we do not have a fixed customer base; whereby, the passive part is predominant. What mostly follows to a great project is a new request, which is very pleasing. It mostly happens via recommendations or the visibility of past projects. For the acquisition, it is beneficial if there already exists a connection to requested persons or institutions. For example, during our studies, we were responsible for the design of the exhibition »Atlas 2013—Kunststudentinnen und Kunststudenten stellen aus« at the Bundeskunsthalle Bonn. We have contacted them last year and made them aware of our office. That is how a new cooperation evolved:&nbsp;The six-part catalogue for the current exhibition »Comics! Mangas! Graphic Novels!«
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f168
   spezialfrage: "0"
   vorfrage: ""
@@ -98,7 +98,7 @@ Interview:
   antwort: 'AR:&nbsp;Describing your own style is always difficult. At the beginning, we both introduced our own style and then, tried to create a common studio style. By now, we have found a good flow that could be located between classic and daring.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f169
   spezialfrage: "0"
   vorfrage: ""
@@ -110,7 +110,7 @@ Interview:
   antwort: 'AR:&nbsp;Our claim is to develop a new visual language for each project. Otherwise it gets a bit boring and the appeal of creation would decrease.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f170
   spezialfrage: "0"
   vorfrage: ""
@@ -123,7 +123,7 @@ Interview:
     The danger of idols and role models is
     that you emulate them too much.
   quoteauthor: Ann Richter
--
+- 
   fid: f171
   spezialfrage: "0"
   vorfrage: ""
@@ -132,7 +132,7 @@ Interview:
   antwort: 'AR:&nbsp;Yes, definitely. If you look around, you will find that men dominate most design conferences. There is a tremendous need to catch up.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f172
   spezialfrage: "0"
   vorfrage: ""
@@ -145,7 +145,7 @@ Interview:
     PC:&nbsp;Our attitude may be characterized through our studies at an art academy.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f173
   spezialfrage: "0"
   vorfrage: ""
@@ -159,7 +159,7 @@ Interview:
     AR:&nbsp;I would say that we do not have a formal handwriting, but rather an own position that shapes our work. Thereby, the form can vary depending on the project and yet still there is stringent line. We regard our work as cooperation with the client so that each project is shaped by different influences and no project equals another.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f174
   spezialfrage: "0"
   vorfrage: ""
@@ -170,7 +170,7 @@ Interview:
   antwort: 'AR:&nbsp;We work a lot with the cultural sector:&nbsp;we would not have chosen it, if the financial aspect was our main priority. Nonetheless, once you own a studio, you automatically occupy the position of management and therefore, you need to consider it and plan wisely.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f175
   spezialfrage: "0"
   vorfrage: ""
@@ -183,7 +183,7 @@ Interview:
     AR:&nbsp;I would also count recognition in the scene.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f176
   spezialfrage: "0"
   vorfrage: ""
@@ -194,7 +194,7 @@ Interview:
   antwort: 'AR:&nbsp;We often use Instagram to present our works. Other than that, we do not do a lot of PR-work. But we are always very content if we get introduced on various blogs.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f177
   spezialfrage: "0"
   vorfrage: ""
@@ -205,7 +205,7 @@ Interview:
   antwort: 'AR:&nbsp;We are in contact with a friend, who built up the women-network in Cologne, called <a href="http://andshewaslikebam.de/">And She Was Like:&nbsp;Bäm!</a>. In Berlin, there is also a network for women in the cultural sector:&nbsp;Salon. We got invited from a befriended artist and we would like to go to a meeting soon.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f178
   spezialfrage: "0"
   vorfrage: ""
@@ -217,7 +217,7 @@ Interview:
   antwort: 'PC:&nbsp;That is difficult. Fundamentally, our profession is not gender-specific, but it remains the question, whether these obstacles have something to do with graphic design in specific or with the business world in general. We have already realized that we had way more female clients than male ones at the beginning, but we do not know whether it was because of chance or something else. By now, the gender ratio of our clients is a bit more balanced.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f179
   spezialfrage: "0"
   vorfrage: ""
@@ -229,7 +229,7 @@ Interview:
   antwort: 'AR:&nbsp;Not directly and indirectly it is hard to proof. For example, how are we supposed to know how much money an all male bureau would get paid for the jobs that we do. Via statistics, one knows that there is a gender pay gap in many jobs, but with regard to our scene, the numbers are pretty non-transparent.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f180
   spezialfrage: "0"
   vorfrage: ""
@@ -241,7 +241,7 @@ Interview:
     AR:&nbsp;Yes that would be an honor. By the way, a woman designed the Swoosh:&nbsp;<a href="https://de.wikipedia.org/wiki/Carolyn_Davidson">Carolyn Davidson</a>. It would be great, if we could build up a new magazine and thereby assume responsibility for the art-direction and design, for example a new feminist lifestyle magazine. It would appear as a digital and a print version and be financially well off so that we could work together with stunning photographers, illustrators and copywriters. It would also be exciting to be involved in the curatorial work of a big graphic design exhibition. The longer I think about it, there are quite a few things.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f181
   spezialfrage: "0"
   vorfrage: ""
@@ -261,7 +261,7 @@ Studiotitle: Pandan
 
 ----
 
-Interviewimagecredits:
+Interviewimagecredits: 
 
 ----
 
