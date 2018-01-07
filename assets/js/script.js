@@ -14,11 +14,21 @@ $(document).ready(function() {
                     $('.interview-container').removeClass('hidden');
                     $('#separator').removeClass('hidden');
                     classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
-                    if (fid) {
+                    if (fid) { // if 'fid' exists/isn't empty …
+
+                        openAnswerGetTarget( fid );
+                        fid = '';
+
+                        /*
+                        console.log( 'fid: ' + fid );
+                        var myQuestion = $('#' + fid);
+                        var myQuestionPosition = myQuestion.offset().top;
+                        console.log( 'myQuestionPosition: ' + myQuestionPosition );
                         $('.interview-container').animate({
                             scrollTop: $('#' + fid).offset().top
-                        }, 300);
+                        }, 200);
                         fid = '';
+                        */
                     }
                 },
                 error: function() {
@@ -77,48 +87,102 @@ $(document).ready(function() {
     init();
 
 
-    /* JENS FUNCTIONS ================================================ */
+/* JENS FUNCTIONS ================================================ */
 
     // FUNCTION FOR LINKS WHICH OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE: BY ANCHOR-ELEMENT'S HREF
     function openAnswer(anchor) {
+        console.log('openAnswer');
         // get target element:
         var myDataRef = anchor.attr('data-ref');
+        var target='';
         if (myDataRef == null) {
             var href = anchor.attr('href');
             console.log('myHref: ' + href);
-            var target = $(href);
+            target = $(href);
         } else {
             console.log('myDataRef: ' + myDataRef);
-            var target = $('.question-title a:contains(' + myDataRef + ')');
+            target = $('.question-title a:contains(' + myDataRef + ')').first();
         }
-        openAnswerGetTarget(target);
-    };
 
-    function openAnswerGetTarget(target) {
         //get target ID
-        console.log(target);
+        console.log('target: ' + target);
         var targetID = target.attr('id');
         console.log('targetID: ' + targetID);
-        // hide/inactivate other stuff:
-        closeTopics();
-        // get related relevant elements:
-        target.addClass('active').siblings().addClass('active');
-        var topicItem = target.parents('.topic-item').addClass('active');
-        var topicTitle = topicItem.children('.topic-title').addClass('active').children('a').addClass('active');
-        var questionItem = target.parents('.question-item').addClass('active');
-        var questionTitle = target.parents('.question-title').addClass('active');
-        // reveal relevant dropdowns:
-        target.parents('.child').show(); // or ".slideDown('fast')" ?
-        questionItem.children('.child').show(); // or ".slideDown('fast')" ?
-        var container = target.parents('.topics-container');
-        $(container).animate({ scrollTop: target.offset().top - 111 }, 300);
+
+        openAnswerGetTarget( targetID );
     };
+
+    //function openAnswerGetTarget(target) {
+    function openAnswerGetTarget( targetID ) {
+
+        console.log('openAnswerGetTarget');
+        console.log('targetID: ' + targetID);
+        var target = $( '#' + targetID );
+        console.log('target: ' + target);
+
+        if ( target.closest('.topics-container').length /* > 0*/ ) {
+
+            // get related relevant elements:
+            var container = $( '.topics-container' );
+
+            var topicItem = target.parents('.topic-item');
+            var topicTitle = topicItem.children('.topic-title');
+            var questionItem = target.parents('.question-item');
+            var questionTitle = target.parents('.question-title');
+
+            var myQuestionList = target.parents('.child');
+            var myAnswerList = questionItem.children('.child');
+
+            if ( myQuestionList.is( ":hidden" ) || myAnswerList.is( ":hidden" ) ) {
+                closeTopics();
+                myQuestionList.show();
+                myAnswerList.show();
+            }
+
+            topicItem.addClass('active');
+            topicTitle.addClass('active').children('a').addClass('active');
+            questionItem.addClass('active');
+            questionTitle.addClass('active');
+
+            target.addClass('active').siblings().addClass('active');
+
+            // i don't know why, but from all approaches i tried this one is the least buggiest:
+            // scroll to target
+            myScrollTopFunction( container, topicItem )
+                //.done( console.log( 'myScrollTopFunction-topicItem: Done' ) );
+                .done( myScrollTopFunction( container, topicTitle )
+                    .done( myScrollTopFunction( container, myQuestionList )
+                        .done( myScrollTopFunction( container, questionItem ) )
+                    )
+                );
+        } else if( target.closest('.interview-container').length /* > 0*/ ) {
+            var container = $( '.interview-container' );
+            myScrollTopFunction( container, target);
+        } else {
+            // hide/inactivate other stuff:
+            closeTopics();
+        }
+        targetID = '';
+        target = '';
+    };
+
+    function myScrollTopFunction( container, element ) {
+        var r = $.Deferred();
+        console.log( 'myScrollTopFunction' );
+        var myElementTop = element.offset().top;
+        console.log( 'myElementTop - Before Scrolling: ' + myElementTop );
+        //container.animate({ scrollTop: myElementTop }, 'fast');
+        container.scrollTop( myElementTop );
+        var myElementTop = element.offset().top;
+        console.log( 'myElementTop - After Scrolling: ' + myElementTop );
+        return r;
+    }
 
     // CLOSE AND DEACTIVATE ALL TOPICS AND THEIR CHILDREN
     function closeTopics() {
-        $('.topic-list .sub').slideUp('fast');
-        $('.topic-list .child').slideUp('fast'); // hide all child-elements
         $('.topic-list .active').removeClass('active'); // remove all active states in the topic list
+        $('.topic-list .sub').hide(); // or .slideUp('fast')
+        $('.topic-list .child').hide(); // hide all child-elements
     };
 
     // CLOSE AND DEACTIVATE ALL NAV-ELEMENTS AND THEIR CHILDREN
@@ -185,7 +249,7 @@ $(document).ready(function() {
         }
     };
 
-    /* EVENTS ================================================ */
+/* EVENTS ================================================ */
 
     stickyIntroNav();
 
@@ -255,15 +319,17 @@ $(document).ready(function() {
     /* click on a nav-question to EITHER open scroll to the related answer (under the main topics) OR (in case of a "special question") open the related interview overlay and scroll to the related answer */
     $('.nav-question a').click(function(e) {
         closeMobileNav();
-        closeTopics();
+        //closeTopics();
         var anchor = $(this);
         if (anchor.attr('href').indexOf('http') == -1) {
             openAnswer(anchor);
         } else {
             e.preventDefault();
             var myURL = anchor.attr('href').split('#')[0]; // "split('#')[0]" -> split string into array at "#" and take first array element
-            var myID = anchor.attr('href').split('#')[1];
+            //var myID = anchor.attr('href').split('#')[1];
             fid = anchor.attr('href').split('#')[1];
+            console.log( 'myURL: ' + myURL );
+            console.log( 'fid: ' + fid );
             push(myURL);
         }
     });
