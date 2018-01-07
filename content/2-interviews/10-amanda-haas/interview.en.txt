@@ -1,4 +1,4 @@
-Titlehead:
+Titlehead: 
 
 ----
 
@@ -10,7 +10,7 @@ Titlenav: Amanda Haas, Designerin, Studio Amanda Haas
 
 ----
 
-Informationhead:
+Informationhead: 
 
 ----
 
@@ -30,7 +30,7 @@ Date: 2017-05-11
 
 ----
 
-Contenthead:
+Contenthead: 
 
 ----
 
@@ -38,172 +38,170 @@ Interviewpartner: 0
 
 ----
 
-Introduction: Nach ihrem Abschluss an der Hochschule Luzern 2010 gründete Amanda Haas ihr eigenes Studio in Berlin, in dem sie Strategien und Anwendungen von Print und Web bis hin zu raumgreifenden Interventionen entwickelt. Bei der Realisierung ihrer Projekte legt Amanda Haas besonderen Wert auf Transparenz und Nachhaltigkeit. Neben ihrer Arbeit im Studio ist sie als Yogalehrerin und Projektmanagerin beim Verein The Lovers tätig. Im Gespräch berichtet sie von ihrem persönlichen Engagement, von ihren Erfahrungen mit Sexismus in der Designbranche und darüber, welchen gesellschaftlichen Beitrag Design leisten kann.
+Introduction: After graduating from HSLU Luzern in 2010, Amanda Haas opened her own studio in Berlin. In her conceptual but at the same time intuitive and spontaneous work, she creates integrated systems, strategies and applications for both cultural and business contexts—reaching from print to web to spatial interventions. 2014 she founded the »School of Observation«, creating multidisciplinary, experimental and design theoretical projects. In her work, Amanda Haas attaches great value to transparency and sustainability.
 
 ----
 
-Interview:
+Interview: 
 
--
+- 
   fid: f79
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Was war die ausschlaggebende Motivation
-    zur Selbstständigkeit?
-  category: Arbeitsform
-  antwort: 'AH:&nbsp;In unserer Branche ist es oft so, dass man entweder Vollzeit in einer Agentur angestellt ist oder als Freelancer_in projektbasiert gebraucht wird. Schon während meines Studiums hatte ich eigene Kund_innen und war auch für Agenturen tätig. Nach meinem Abschluss war ich in einer Agentur zwar Vollzeit tätig, aber als Freelancerin, sodass es eigentlich eine Scheinselbstständigkeit war. Wäre mir bewusst gewesen, was durch die Selbstständigkeit an Kosten und Hürden auf mich zukommt, hätte ich vielleicht darauf bestanden, angestellt zu werden. Zu dem Zeitpunkt war ich etwas naiv, aber irgendwann habe ich mich dann bewusst für die Selbstständigkeit entschieden.'
+    What was your decisive motivation for
+    self-employment?
+  category: Work Situation
+  antwort: 'AH:&nbsp;In our industry, it is usually the case that one is either employed full time in an agency or works project-based as a freelancer. During my studies, I already had my own clients and also worked for agencies. After I graduated, I worked in an agency full time, but with the status of a freelancer, so it was actually a bogus self-employment. If I had been aware of the costs and hurdles coming from self-employment, I might have insisted on being hired. At the time, I was a bit naive, but at some point I consciously decided to become self-employed.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f80
   spezialfrage: "0"
   vorfrage: ""
   frage: Who does your team consist of?
-  category: Arbeitsform
+  category: Work Situation
   antwort: |
-    AH:&nbsp;In meinem Studio arbeiten wir meist zu zweit. Ich habe mich lange geweigert, Praktikant_innen einzustellen, weil ich dieses System sehr kritisch sehe:&nbsp;als Praktikant_in hat man zwar gewisse Vorzüge, aber wenn man eigentlich wie ein/e Junior Designer_in fünf Tage die Woche an einem Ort arbeitet und nicht bezahlt wird, ist das problematisch. Ich biete meinen Praktikant_innen daher eine Teilzeitstelle, sodass sie noch eigenständig arbeiten können. Außerdem akzeptiere ich nur Studierende, die ein Pflichtpraktikum absolvieren müssen. Es ist mir wichtig, dass bei einem Praktikum beide Seiten voneinander profitieren können:&nbsp;ich gebe Erfahrung und Projekte weiter, sie lernen daran und können ein integrierter Teil meines Studios werden. In einem kleinen Studio kannst du tatsächlich Allrounder_in werden und fast alles machen, was man auch als Inhaber_in macht. In großen Agenturen ist das oft nicht möglich, dort gibt nur sehr begrenzte Möglichkeiten.
-    Zusätzlich arbeite ich mit Freelancer_innen zusammen und kollaboriere oft mit anderen Designer_innen, Leuten aus dem Marketing, Kurator_innen oder anderen Bereichen.
+    AH:&nbsp;In my studio, there are usually two people working. I have long refused to hire interns, because I don't really approve of this system: as an intern, you have certain advantages, but it turns out to be problematic if you work like a junior designer five days a week in one place and do not get paid. I therefore offer my interns a part-time position so that they can still work independently. In addition, I only accept students who have to complete a compulsory internship. It is important to me that both sides can benefit from each other during an internship: I pass on experience and projects, they learn from it and can become an integrated part of my studio. In a small studio, you can actually become an all-rounder and are able to do almost everything you do as a proprietor. In large agencies, this is often not the case hence there are very limited possibilities.
+    In addition, I work with freelancers and often collaborate with other designers, people from marketing, curators, and others.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f81
   spezialfrage: "0"
   vorfrage: ""
-  frage: How do you typically work on your projects?
-  category: Prozesse
-  antwort: 'AH:&nbsp;Jedes Projekt bringt andere Voraussetzungen mit sich, es gibt nicht die eine Herangehensweise. Immer gleich ist jedoch die Analyse des Projekts:&nbsp;Größe, Umfang, Dauer, Gegebenheiten. Es gibt mehrere Vorgespräche, denn es ist mir wichtig, die Personen kennenzulernen, die bei dem Projekt involviert sind. Unabhängig von der Gestaltung stecke ich den Rahmen soweit wie möglich ab, denn oft wissen der Kunde oder die Kundin überhaupt nicht, was auf ihn oder sie zukommt. Danach geht es in die Angebotsphase. Beratung und Projektmanagement sind also auch wichtige Teile meiner Arbeit. Dann beginnt das »Ping-Pong«. Der Kunde oder die Kundin liefert Inhalte, wir kreieren und geben es zurück und so weiter. Manche Kund_innen brauchen ein Moodboard, durch das ich besser verstehen kann, was sie gut finden, welche Sprache sie sprechen und wann sie sich abgeholt fühlen. Es geht immer darum, Vertrauen aufzubauen – kein Projekt funktioniert ohne.'
+  frage: >
+    How do you typically work on your
+    projects?
+  category: Processes
+  antwort: "AH:&nbsp;Each project has different requirements, so there is not one right approach. However, the analysis of the project is always the same: size, scope, duration, circumstances. There are several preliminary talks, because it is important for me to get to know the people involved in the project. Regardless of the design, I leave the frame as far as possible, because often the customer does not know what to expect. What follows is the proposal phase. Consulting and project management are also important parts of my work. Then the ping-pong starts. The customer delivers content, we create and return it, and so on. Some clients need a mood board that helps me understand what they like, what language they speak and what they feel comfortable with. It's always about building trust—no project works without it."
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f82
   spezialfrage: "0"
   vorfrage: ""
   frage: How would you describe your style?
-  category: Gestaltung
+  category: Design
   antwort: |
-    AH:&nbsp;Meinen Stil visuell zu definieren finde ich schwierig. Es geht mir immer darum, Ordnung zu schaffen, aber Chaos und Zufall gehören auch dazu. Manchmal sagen mir Leute, dass sie meine Arbeiten toll finden, weil sie so reduziert und einfach seien. Mir erscheinen sie eher kompliziert, überladen und voller Ideen. Sie sehen eher die Oberfläche und weniger den konzeptionellen Teil. Für mich ist das auch eine Erleichterung, weil man die Arbeiten selbst oft sehr auflädt.
-    Ich arbeite sehr konzeptionell und für mich steht die Idee immer im Mittelpunkt:&nbsp;durch sie versuche ich, den Kund_innen das zu vermitteln, was sie mir zuvor als Bedürfnis ausgedrückt haben. Das Visuelle wird dann fast sekundär und nur eine Ausprägung der Idee. Im Visualisierungsprozess mache ich oft wieder einen Schritt zurück, werfe das Konzept über Bord, um freier zu gestalten. Manchmal, das gebe ich zu, wird das Konzept erst im Laufe des Tuns wirklich ersichtlich. Meine Arbeitsweise verändert sich aber auch immer wieder mal.
+    AH:&nbsp;I find it difficult to define my style visually. I always care about creating order, but chaos and coincidence are part of it as well. Sometimes people tell me that they like my work because it's so reduced and simple. To me it seems rather complicated, overloaded and full of ideas. They see the surface rather than the conceptual part. For me, it is also a relief, because you often interpret a lot into the work.
+    I work very conceptually and for me the idea is always at the center: through it I try to implement the ideas that the customer has expressed. Therefore, the visual part becomes almost secondary and only one possible expression of the idea. In the visualization process, I often take a step back, throw the concept overboard in order to make it freer. Sometimes, I must admit, the concept really becomes apparent in the course of doing it. But my way of working changes again and again.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f83
   spezialfrage: "1"
   vorfrage: ""
   frage: >
-    Experimentierst du auch mit deinem
-    Gestaltungsprozess?
+    Do you also experiment with your design
+    process?
   category: Spezifisch
-  antwort: 'AH:&nbsp;Manchmal merke ich, dass ich zu verkopft werde. Dann versuche ich auf den Prozess zu vertrauen, Schritt für Schritt, bis ich am Ende bei einer anderen Idee ankomme – oder eben wieder bei der gleichen.'
+  antwort: 'AH:&nbsp;Sometimes I realize that I tend to over-complicate things. I then try to trust in the process, step by step, until I arrive at another idea–or just at the initial one.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f84
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Seht ihr einen künstlerischen Auftrag
-    in eurer Arbeit oder steht die
-    Dienstleistung im Vordergrund?
-  category: Haltung
+    Do you see an artistic mission in your
+    work or is design rather a service?
+  category: Approach
   antwort: |
-    AH:&nbsp;Für Grafikdesigner_innen besteht immer das Dilemma zwischen dem Künstlerischen, der Überzeugung von den eigenen Ideen und der Zufriedenheit der Kund_innen. Mit welchen Kompromissen kann man selbst glücklich werden? Ich denke es ist in Ordnung, etwas weniger nach den eigenen Vorlieben zu gestalten und sich etwas weiter auf der Seite der Kund_innen zu treffen. Da die meisten Projekte so sind, ist Design eher ein Service, deswegen ist es auch Design und nicht Kunst. Ich finde es wunderschön, dass man so immer wieder ganz unterschiedlichen Menschen begegnet und sich mit den eigenen Fähigkeiten neu auseinandersetzt.
-    Manchmal gibt es gewisse Dynamiken, die einen in eine rein ausführende Position drängen. Solche Projekte habe ich schon abgelehnt. Wenn man zum Beispiel für eine Art-Direktion beauftragt wurde und dann genau vorgegeben wird, wie jede Doppelseite aussehen soll, ist es nicht das, worauf man sich im Vertrag geeinigt hat. Es ist wichtig, dass die Rollenverteilung von Anfang an klar ist und dass das gegenseitige Vertrauen während des Arbeitsprozesses bestehen bleibt.
+    AH:&nbsp;For graphic designers, there is always the dilemma between the artistic, the conviction of one's own ideas and the satisfaction of the customers. Which compromises can I make? I think it's okay to do something less according to your own preferences and to meet the expectations of the customers. Most design projects are rather a kind of service and not art. I really enjoy meeting so many different people and having to deal with my own skills again and again.
+    Sometimes, there are certain dynamics that push you into a purely executive position. I have already rejected such projects in the past. For example, if you have been hired for a kind of art direction and then been given an exact introduction of what each double page should look like, that's not what you agreed on in the contract. It is important that the distribution of roles is clear from the beginning, and that mutual trust is maintained throughout the work process.
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f85
   spezialfrage: "0"
   vorfrage: ""
-  frage: >
-    Kann Design einen Beitrag zur
-    Gesellschaft leisten?
-  category: Haltung
-  antwort: |
-    AH:&nbsp;Ich arbeite gerade an der Konzeption des »Hier Magazins«, einem Magazin mit und für Geflüchtete, die erste Ausgabe erscheint hoffentlich im Herbst. Das ist meine Art, meine Fähigkeiten einzubringen, um eine Plattform für mehr Bewusstsein zu gestalten. Ich hätte mich ebenso irgendwo als Freiwillige melden können, aber ich wollte genau das – soziales Design. Ich habe bemerkt, dass das nachhaltige und bewusste Leben, das ich privat führe, nicht nach außen sichtbar wird, daher wollte ich einen aktiven Beitrag leisten.
-    Ich glaube, dass wir alle Verantwortung haben und in dem Rahmen, der uns zur Verfügung steht, etwas machen können. Ohne aktive Taten stimmen wir einem phlegmatischen Ertragen von Zuständen zu, die wir vielleicht nicht gut finden.
+  frage: Can design contribute to society?
+  category: Approach
+  antwort: 'AH:&nbsp;I am currently working on the conception of Hier Magazin, a magazine with and for refugees, the first issue will hopefully be published in autumn. This is my way of applying my skills to create a platform for more awareness. I could have volunteered as well, but I wanted to do that—social design. I have noticed that the sustainable and conscious life that I lead privately is not visible to the outside world—so I wanted to make an active contribution. I believe that we all have responsibility and can do something in the context that is available to us. Without active action, we agree with a phlegmatic bearing of conditions that we may not approve of.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f86
   spezialfrage: "0"
   vorfrage: ""
   frage: What inspires you?
   category: Inspiration
-  antwort: 'AH:&nbsp;Inspiration ist für mich relativ abstrakt. Ich bin gerne in der Natur, in Ausstellungen oder laufe durch die Stadt. Dabei können Proportionen und Details an Architektur spannend sein, ein Lichtspiel, Materialkombinationen. Inspiration kann auch ein altes Buch sein, das mir bei einem Projekt plötzlich wieder in den Sinn kommt. Eigentlich kann es alles sein, verknüpft mit allem was ich tue. Es sind nicht nur visuelle Dinge, schon gar nicht nur aus dem Grafikdesign-Kontext, daraus ziehe ich kaum Inspiration. Aber eine Arbeit kann natürlich in der Referenz oder Tradition von etwas stehen und das ist wiederum spannend.'
+  antwort: "AH:&nbsp;Inspiration is relatively abstract for me. I enjoy being in nature, in exhibitions or walking around the city. Here, proportions and details of architecture can be exciting, a play of light, material combinations. Inspiration can also be an old book that suddenly comes to my mind during a project. Actually, it can be anything, linked to everything I do. It's not just visual things, and certainly not just graphic design context, that's hardly inspiring. But a work can of course be in the reference or tradition of something, and that's exciting."
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f87
   spezialfrage: "0"
   vorfrage: ""
   frage: Are there too little female role models?
   category: Inspiration
-  antwort: 'AH:&nbsp;Wir alle können bestätigen, dass es in unseren Geschichtsbüchern kaum Frauen gibt, denen eine aktive Rolle zugeschrieben wird. Meist werden sie nur als Ehefrauen berühmter Männer erwähnt, deren Rolle nicht explizit herausgestellt wird. Dasselbe gilt auch im Grafikdesign. Die Bücher, die wir haben, sind voller Männer, die Wunderbares erreicht haben, aber es kann gar nicht sein, dass die Frauen alle immer nur zuhause am Herd waren und Kinder geboren haben. Früher war ich sehr wütend darüber und habe es als meine persönliche Mission angesehen, dafür zu kämpfen, dass es weitergeht und dass ich – wie man so schön sagt, meinen Mann stehen kann – meine Frau stehen kann. Das ist inzwischen nicht mehr so. Es geht weniger um den Geschlechterkampf, aber es bleibt eine gesellschaftliche Auseinandersetzung. Wir tun oft so, als läge das schon lange hinter uns, aber es ist jetzt immer noch ein aktuelles Thema. Es gibt noch überhaupt keine Gleichberechtigung, denn sonst wären die Bücher bereits umgeschrieben.'
+  antwort: "AH:&nbsp;We can all confirm that there are hardly any women in our history books to whom an active role is attributed. Mostly, they are mentioned only as wives of famous men whose role is not explicitly stated. The same is true in graphic design. Our books are full of men who have achieved miraculous things, but it cannot be possible that the women were always at the stove at home and had children. In the past, I was very angry about that and considered it my personal mission to fight against this tradition and to prove that I can stand my own ground. This is not the case anymore. It is not so much about the gender struggle, but it remains a social debate. We often pretend it's been a long time, but it's still a hot topic right now. There is no equality at all, otherwise the books would have been rewritten."
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f88
   spezialfrage: "0"
   vorfrage: ""
   frage: How sexist is the design field?
-  category: Gleichstellung
+  category: Equality
   antwort: |
-    AH:&nbsp;Oh, sehr! Ich glaube, dass es als Frau einerseits von Vorteil sein kann, wenn man gut aussieht. Andererseits kann es auch sein, dass man dann als Designerin weniger wertgeschätzt oder wahrgenommen wird. Je weniger man über seine Erscheinung wahrgenommen wird, desto mehr schauen die Leute wirklich auf die Arbeit. Einmal habe ich mit älteren Leuten zusammengearbeitet, die sehr abgelenkt wirkten und ich wusste nicht, warum. Vielleicht lag es daran, dass sie seltener mit jungen Frauen zusammenarbeiten. Offen sexistisch habe ich dagegen Situationen erlebt, in denen mir gesagt wurde, dass ich nicht angestellt werde, weil ich schwanger werden könnte. Das zeigt deutlich, wie Frauen stigmatisiert werden, denn bei Männern steht das Thema nicht zur Debatte. Vor allem auf Agenturebene ist das bei Frauen eine Frage, die so ab 30 unterschwellig im Raum steht.
-    Als die Serie Mad Men erschien, dachten alle Männer in der Agentur, in der ich arbeitete, sie seien Don Draper und machten unangebrachte Kommentare zu sexy Zweiteilern. Die Frauen wollten Peggy sein, sich ihren Weg hart erarbeiten und es den Männern zeigen. Ich möchte lieber eine weibliche Don Draper sein!
-  quote: >
-    Ich möchte eine weibliche Don Draper
-    sein!
+    AH:&nbsp;Oh, very! I believe that being a good-looking woman can be beneficial. However, it may also be the case that you are less valued or perceived as a designer. The less you are judged by your outer appearance, the more people focus on your work. Once I worked with older people who seemed very distracted and I did not know why. Maybe it was because they rarely work with young women…
+    I did experience sexist situations, where I was told that I would not be hired because I could become pregnant. This clearly shows how women are stigmatized, because with regard to men, the issue is not up for debate.
+    When the Mad Men series was released, all the men compared themselves to Don Draper. The women wanted to be Peggy, work their way up and show it to the men. I would rather be a female Don Draper!
+  quote: I would rather be a female Don Draper!
   quoteauthor: ""
--
+- 
   fid: f89
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Wie ist eure Haltung zu explizit
-    frauenfördernden Maßnahmen?
-  category: Gleichstellung
-  antwort: 'AH:&nbsp;Es wäre gut, wenn auf politischer Ebene mehr passieren würde. Aufklärung muss aber besonders im kleineren Kreis stattfinden. Agenturen könnten mehr auf ein ausgewogenes Geschlechterverhältnis achten und ebenso muss jede Frau und jeder Mann bei sich selbst anfangen. Männern, die in Agenturen sexistische Sprüche loslassen, muss deutlich gemacht werden, dass das nicht in Ordnung ist. Sich zu wehren, wenn man in der Hierarchie weiter unten steht, ist oft schwierig und benötigt Mut. Hier müssen Gleichgestellte viel aktiver auftreten und einen Dialog herstellen. »Frauenfördernde Maßnahmen« ist ein großes Wort. Obwohl ich in einem Verein bin, der anfangs nur Frauen aufgenommen hat, möchte ich nicht als hetzerische Feministin wahrgenommen werden, sondern als integrierte. Ich möchte auch meinen Freund als Feministen bezeichnen können, ohne, dass sich das wie ein Schimpfwort anhört. Das sollte im Jahr 2017 möglich sein.'
+    What do you think about measures
+    explicitly promoting women?
+  category: Equality
+  antwort: 'AH:&nbsp;At the political level yes, but it would be good if more happened there. Education must take place but especially in a smaller circle. Agencies could pay more attention to gender balance, and every woman and man must start with themselves. Men expressing sexist slogans at work must be made aware that this is not right. To defend oneself when one is lower in the hierarchy is often difficult and requires courage. Here, equals have to be much more active and engage in dialogue. »Women-promoting measures« is a big word. Although I am in an association that initially only welcomed women, I do not want to be perceived as a heinous feminist, but as an integrative one. I also want to be able to call my boyfriend a feminist, without that sounding like a dirty word. That should be possible in 2017.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f90
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Seid ihr in beruflichen Netzwerken
-    vertreten?
-  category: Sichtbarkeit
-  antwort: 'AH:&nbsp;Ich bin Projektmanagerin beim Verein The Lovers. Ursprünglich war das der Goerlzclub Berlin, in dem nur Frauen Mitglied sein konnten, gegründet von Yasmine Orth. Weil der Ansatz jetzt integrativer ist, wurde er in The Lovers umbenannt. Die Idee ist, Hilfe durch Mentoring, Meditation und Yogaunterricht für junge Alleinerziehende, Familien, Kinder und ältere Menschen anzubieten – ich bin selbst Yogalehrerin. Wir entwickeln Mentoring-Programme, bei denen es um das Miteinander jenseits von Geschlechterrollen geht. In beruflichen Netzwerken bin ich kaum vertreten, da ich eher in anderen Bereichen Austausch suche. Ab und zu nehme ich an »Show & Tells« teil, bei denen man sich gegenseitig Einblicke in Gestaltungsprozesse geben kann.'
+    Are you represented in any professional
+    networks?
+  category: Visibility
+  antwort: "AH:&nbsp;I'm a project manager for The Lovers. Originally, this was the Goerlzclub Berlin, founded by Yasmine Orth, in which only women could be members. Because the approach is now more inclusive, it has been renamed The Lovers. The idea is to offer mentoring, meditation and yoga classes to young single parents, families, children and the elderly—I am a yoga teacher myself. We develop mentoring programs that work outside of gender roles. I am hardly represented in professional networks, because I rather seek exchange in other areas. From time to time, I participate in Show & Tells, where you can give each other insights into design processes."
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f91
   spezialfrage: "0"
   vorfrage: ""
-  frage: Was bedeutet für euch Erfolg?
-  category: Erfolg
-  antwort: 'AH:&nbsp;Meine Entscheidung in diese berufliche Richtung zu gehen war überhaupt nicht von finanziellen Vorstellungen getrieben. Trotzdem ist es natürlich gut, eine Existenzsicherung zu haben, denn das macht mich sorgenfrei. Meine Priorität liegt auf dem Ausleben der Dinge, die mir Spaß machen. Ich hätte genauso gut Töpferin, Floristin oder Schriftstellerin werden können – und das kann auch noch passieren. Ich glaube, dass wir viele Facetten haben. Meine Art von Erfolg bedeutet Ruhe und Glück zu erleben. Mir ist wichtig, jeden Tag so zu leben, dass ich am Abend denke, jetzt könnte ich sterben. Das klingt vielleicht etwas pathetisch, aber ich möchte nichts über längere Zeit machen, das ich für sinnlos halte. Das wäre für mich Anti-Erfolg.'
+  frage: >
+    What does success mean to you
+    personally?
+  category: Success
+  antwort: 'AH:&nbsp;My decision to go in this professional career was not driven by any financial expectations at all. Nevertheless, it is of course good to have a livelihood, because that makes me carefree. My priority is to live out things that I enjoy. I could as well have become a potter, a florist or a writer—and that can happen too. I believe that we have many facets. My kind of success means peace and happiness. It is important to me to live every day so that in the evening I think I could die now. This might sound a bit pathetic, but I do not want to do anything for a long time, which I think is pointless. That would be anti-success for me.'
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f92
   spezialfrage: "0"
   vorfrage: ""
   frage: What do you do to relax?
-  category: Privatleben
-  antwort: 'AH:&nbsp;Die Tür zu und dann bin ich weg! Ich laufe durch den Park, mache Yoga, radle nach Hause oder treffe mich mit Freund_innen. Die räumliche Distanz gibt mir mentale Distanz. Es ist auch eine Art von Konditionierung, sich nur eine bestimmte Anzahl an Stunden pro Tag für die Arbeit zu nehmen. Alles weitere kommt am nächsten Tag. Früher hatte ich immer das Gefühl, dass ein Projekt mit noch mehr Zeit noch besser werden würde, aber das ist nicht unbedingt so. Im Gegenteil, ich bin eher freier und effizienter geworden. Wenn ich wirklich mal Ärger habe, hilft mir Yoga oder laufen gehen. Danach bin ich entspannt und kann gelassener an das Projekt gehen. Natürlich grenzt man die Arbeit aber nie komplett aus. Sehr oft kommt es vor, dass ein Projekt leise im Hintergrund weiterläuft und im Unterbewusstsein brodelt. Manchmal komme ich dann ganz unverhofft, beispielsweise mitten beim Einkaufen, auf eine neue Idee.'
+  category: Private Life
+  antwort: "AH:&nbsp;Close the door and then I'm gone! I walk the park, do yoga, ride home or meet friends. The spatial distance gives me mental distance. It is also a form of conditioning to take only a certain number of hours per day to work. Everything else can wait till the next day. I always used to feel that a project with even more time would get even better, but that's not necessarily true. On the contrary, I have become more free and efficient. Whenever I'm really troubled, yoga or running helps me. Afterwards, I am relaxed and can get back to the project with a fresh mind. Of course, one does not completely rule out the work. It happens very often that a project runs quietly in the background and simmers in the subconscious. Sometimes I get a new idea while I am shopping."
   quote: ""
   quoteauthor: ""
--
+- 
   fid: f93
   spezialfrage: "0"
   vorfrage: ""
   frage: >
-    Welche beruflichen oder privaten Ziele
-    habt ihr?
-  category: Zukunft
-  antwort: 'AH:&nbsp;Bisher habe ich immer einfach gemacht. Ich weiß nicht, wo ich in einem Jahr leben werde, oder in zehn. Ich hätte nicht gedacht, dass ich so lange in Berlin bleiben und selbstständig sein würde. Rückwärts gedacht war mein Leben eine klare Linie, aber nach vorne ist es nicht so klar. Vielleicht arbeite ich mal angestellt in einem Unternehmen, das ich super finde. Ich sehe mich in Zukunft eigentlich genau meiner Vorstellung von innerem Erfolg folgend, dem Glücklichsein und dem Ausüben von dem, das ich gut kann. Das könnte auch mal etwas ganz anderes als Grafikdesign sein.'
+    Which professional or personal goals do
+    you want to achieve?
+  category: Future
+  antwort: "AH:&nbsp;So far, I've always done just that. I cannot tell where I will live in a year, or in ten. I did not think that I would stay in Berlin for such a long time and be self-employed. Thinking backwards, my life was a clear line, but forward it is not so clear. Maybe I'll work in a company that I like. Actually, in the future, I'll see myself exactly following my idea of inner success, happiness, and doing what I'm good at. That could be something completely different than graphic design."
   quote: ""
   quoteauthor: ""
 
@@ -213,7 +211,7 @@ Web: http://www.amandahaas.ch/
 
 ----
 
-Interviewimagecredits:
+Interviewimagecredits: 
 
 ----
 
@@ -221,8 +219,8 @@ Studiotitle: Amanda Haas
 
 ----
 
-Residence: Berlin, Deutschland
+Residence: Berlin, Germany
 
 ----
 
-Visibility: 0
+Visibility: 1
