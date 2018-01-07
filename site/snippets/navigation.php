@@ -1,11 +1,11 @@
 <!--<div class="flex-item nav-container">-->
 
 <!--code for the "no-flex" solution -->
-<div class="nav-container">
-
+<div class="nav-container container">
   <ul class="nav">
 
     <!-- MOBILE NAV HEADER -->
+    <!--
     <li class="nav-mobile-header">
       <div class="nav-button">
         <div class="nav-mobile-icon open">
@@ -17,6 +17,7 @@
         <a class="button-title extended">notamuse</a>
       </div>
     </li>
+    -->
 
     <li>
       <div id="topics-button" class="nav-button">

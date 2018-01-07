@@ -1,5 +1,5 @@
 
-<div class="about-container overlay hidden">
+<div class="about-container overlay container">
 <?php
   $about = $pages->find('about');
 ?>

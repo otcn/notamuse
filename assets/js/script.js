@@ -305,7 +305,7 @@ $(document).ready(function() {
             $('.nav .active').removeClass('active');
             $('.sub').not(mySub).hide();
 
-            mySub.slideDown('slow');
+            mySub.slideDown('fast');
             myButton.addClass('active');
             //myButton.siblings('.key-icon').addClass('active');
         } else {

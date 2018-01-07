@@ -8,7 +8,7 @@ if(!kirby()->request()->ajax()) {
     echo '<div id="interviews"><div class="int-content">';
     snippet('intro');
     snippet('about');
-    echo '<div class="interview-container overlay">';
+    echo '<div class="interview-container overlay container">';
 }
 ?>
 

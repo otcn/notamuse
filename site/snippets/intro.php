@@ -33,7 +33,7 @@ $spezialfrage = $spezialfragen[$array_key];
 
 <?php echo '<script>console.log("quote-id: ' . $fid . ' ")</script>'; ?>
 
-<div class="intro-container overlay">
+<div class="intro-container overlay container">
   <div id="intro-content">
     <div class="intro-quote">
     <h1><?php echo $quote ?></h1>

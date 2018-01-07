@@ -1,7 +1,7 @@
 <!--<div id="content-frame" class="flex-item topics-container"> -->
 
 <!--code for the "no-flex" solution -->
-<div class="topics-container">
+<div class="topics-container container">
 
     <!--code for the "no-flex" solution -->
     <!--<article id="content">-->

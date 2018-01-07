@@ -1,1250 +1,1299 @@
 /* FONTS ========================================================================== */
 
-@charset "UTF-8";
+    @charset "UTF-8";
 
-@font-face {
-    font-family: 'RenaGrotesk-Regular';
-    src: url("../fonts/RenaGrotesk-Regular.woff");
-    src: url("../fonts/RenaGrotesk-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
+    @font-face {
+        font-family: 'RenaGrotesk-Regular';
+        src: url("../fonts/RenaGrotesk-Regular.woff");
+        src: url("../fonts/RenaGrotesk-Regular.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: fallback;
+    }
 
-@font-face {
-    font-family: 'RenaGrotesk-Extended';
-    src: url("../fonts/RenaGrotesk-Extended.woff");
-    src: url("../fonts/RenaGrotesk-Extended.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-
+    @font-face {
+        font-family: 'RenaGrotesk-Extended';
+        src: url("../fonts/RenaGrotesk-Extended.woff");
+        src: url("../fonts/RenaGrotesk-Extended.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: fallback;
+    }
 
 /* VARIABLES ========================================================================== */
 
+    /* Colors */
+    $color0: #000;
+    $color1: #e3001f;
+    $color2: #777;
+    $color3: #fff;
 
-/* Colors */
-
-$color0: #000;
-$color1: #e3001f;
-$color2: grey;
-$color3: #fff;
-
-
-/* Breakpoints */
-
-@mixin breakpoint($point) {
-    @if $point==mobile {
-        @media (max-width: 768px) {
-            @content;
-        }
-    }
-    @if $point==small-desktop {
-        @media (max-width: 1125px) {
-            @content;
-        }
-    }
-}
-
-
-/* Fonts */
-
-$font1: RenaGrotesk-Regular,
-Helvetica,
-Arial,
-sans-serif;
-$font2: RenaGrotesk-Extended,
-Helvetica,
-Arial,
-sans-serif;
-
+    /* Fonts */
+    $font1: RenaGrotesk-Regular,
+    Helvetica,
+    Arial,
+    sans-serif;
+    $font2: RenaGrotesk-Extended,
+    Helvetica,
+    Arial,
+    sans-serif;
 
 /* MIXINS ========================================================================== */
 
-@mixin font-size-1 {
-    font-size: 19px;
-    line-height: 27px;
-    letter-spacing: 0rem;
-    @include breakpoint(mobile) {
+
+    /* Breakpoints */
+
+    @mixin breakpoint($point) {
+        @if $point==mobile {
+            @media (max-width: 768px) {
+                @content;
+            }
+        }
+        @if $point==small-desktop {
+            @media (max-width: 1125px) {
+                @content;
+            }
+        }
+    }
+
+
+    @mixin for-phone-only {
+      @media (max-width: 599px) { @content; }
+    }
+    @mixin for-tablet-portrait-up {
+      @media (min-width: 600px) { @content; }
+    }
+    @mixin for-tablet-landscape-up {
+      @media (min-width: 900px) { @content; }
+    }
+    @mixin for-desktop-up {
+      @media (min-width: 1200px) { @content; }
+    }
+    @mixin for-big-desktop-up {
+      @media (min-width: 1800px) { @content; }
+    }
+
+    /* Fonts */
+
+    @mixin font-size-1 {
         font-size: 19px;
         line-height: 27px;
         letter-spacing: 0rem;
+        @include breakpoint(mobile) {
+            font-size: 19px;
+            line-height: 27px;
+            letter-spacing: 0rem;
+        }
     }
-}
 
-@mixin font-size-2 {
-    @include noHyphens;
-    font-size: 30px;
-    line-height: 33px;
-    letter-spacing: -0.012em;
-    @include breakpoint(mobile) {
-        /*
-        font-size: 34px;
-        line-height: 32px;
-        */
-        line-height: 14vw;
-        font-size: 11vw;
+    @mixin font-size-2 {
+        @include noHyphens;
+        font-size: 30px;
+        line-height: 33px;
+        letter-spacing: -0.012em;
+        @include breakpoint(mobile) {
+            /*
+            font-size: 34px;
+            line-height: 32px;
+            */
+            line-height: 14vw;
+            font-size: 11vw;
+        }
     }
-}
 
-@mixin font-style-1 {
-    font-family: $font1;
-    text-align: left;
-    text-decoration: none;
+    @mixin font-style-1 {
+        font-family: $font1;
+        text-align: left;
+        text-decoration: none;
 
-    /* improve text rendering */
-    word-break: break-word;
-    /* Non standard for WebKit */
-    -ms-word-break: normal;
-    word-break: normal;
-
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-
-    -webkit-hyphenate-limit-chars: 8 3 3;
-    -ms-hyphenate-limit-chars: auto 8 3 3;
-    hyphenate-limit-chars: 8 3 3; // 8-character word limit, 3 characters required before a hyphenation break, and 3 characters required following a hyphenation break
-    -webkit-hyphenate-limit-lines: 2;
-    -ms-hyphenate-limit-lines: 2;
-    hyphenate-limit-lines: 2;
-
-    font-weight: normal;
-    font-style: normal;
-    -webkit-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    -webkit-font-kerning: normal;
-    font-kerning: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    /* Chrome, Safari */
-    -moz-osx-font-smoothing: grayscale;
-    /* Firefox */
-    /*text-rendering: optimizeLegibility;*/
-    -webkit-text-size-adjust: 100%;
-}
-
-@mixin font-style-2 {
-    @include font-style-1;
-    font-family: $font2;
-}
-
-@mixin font-size-3 {
-    font-size: 95px;
-    line-height: 90px;
-    letter-spacing: -0.04em;
-    @include breakpoint(mobile) {
-        @include font-size-2;
-    }
-}
-
-@mixin transition($property) {
-    -webkit-transition: $property .2s ease-in-out;
-    -moz-transition: $property .2s ease-in-out;
-    -o-transition: $property .2s ease-in-out;
-    transition: $property .2s ease-in-out;
-}
-
-@mixin noHyphens {
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    hyphens: none;
-    word-break: keep-all;
-    @include breakpoint(mobile) {
+        /* improve text rendering */
         word-break: break-word;
+        /* Non standard for WebKit */
+        -ms-word-break: normal;
+        word-break: normal;
+
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
         -ms-hyphens: auto;
         hyphens: auto;
+
+        -webkit-hyphenate-limit-chars: 8 3 3;
+        -ms-hyphenate-limit-chars: auto 8 3 3;
+        hyphenate-limit-chars: 8 3 3; // 8-character word limit, 3 characters required before a hyphenation break, and 3 characters required following a hyphenation break
+        -webkit-hyphenate-limit-lines: 2;
+        -ms-hyphenate-limit-lines: 2;
+        hyphenate-limit-lines: 2;
+
+        font-weight: normal;
+        font-style: normal;
+        -webkit-font-feature-settings: "kern" 1;
+        font-feature-settings: "kern" 1;
+        -webkit-font-kerning: normal;
+        font-kerning: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        /* Chrome, Safari */
+        -moz-osx-font-smoothing: grayscale;
+        /* Firefox */
+        /*text-rendering: optimizeLegibility;*/
+        -webkit-text-size-adjust: 100%;
     }
-}
 
-@mixin noTransition($property) {
-    -webkit-transition: $property 0s linear;
-    -moz-transition: $property 0s linear;
-    -o-transition: $property 0s linear;
-    transition: $property 0s linear;
-}
+    @mixin font-style-2 {
+        @include font-style-1;
+        font-family: $font2;
+    }
 
+    @mixin font-size-3 {
+        font-size: 95px;
+        line-height: 90px;
+        letter-spacing: -0.04em;
+        @include breakpoint(mobile) {
+            @include font-size-2;
+        }
+    }
+
+    @mixin transition($property) {
+        -webkit-transition: $property .2s ease-in-out;
+        -moz-transition: $property .2s ease-in-out;
+        -o-transition: $property .2s ease-in-out;
+        transition: $property .2s ease-in-out;
+    }
+
+    @mixin noHyphens {
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        hyphens: none;
+        word-break: keep-all;
+        @include breakpoint(mobile) {
+            word-break: break-word;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+        }
+    }
+
+    @mixin noTransition($property) {
+        -webkit-transition: $property 0s linear;
+        -moz-transition: $property 0s linear;
+        -o-transition: $property 0s linear;
+        transition: $property 0s linear;
+    }
 
 /* GENERAL & RESETING ========================================================================== */
 
-html * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
-
-html,
-body {
-    color: $color0;
-    @include font-style-1;
-    @include font-size-1;
-    overflow-y: scroll;
-    /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
-}
-
-ol,
-ul,
-li {
-    list-style: none;
-    display: block;
-}
-
-a {
-    cursor: pointer;
-    color: $color0;
-    text-decoration: none;
-
-    &:hover,
-    &:active,
-    &.active {
-        @include font-style-2;
-    }
-    &.a-intern::before {
-        content: "\2192";
-    }
-    &.a-extern::after {
-        content: "\2197";
+    html * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        border: 0;
     }
 
-    &.a-intern:hover,
-    &.a-extern:hover {
-        /*border-bottom: 1px solid white;*/
-        text-decoration: underline;
-        font-family: RenaGrotesk-Regular, sans-serif;
-    }
-}
-
-p {
-    @include font-style-1;
-    @include font-size-1;
-    padding: 0px;
-    margin: 0px;
-    min-width: 100px;
-    max-width: 1000px;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    @include breakpoint(mobile) {
-        width: auto;
-        min-width: 0;
-        max-width: none;
+    html,
+    body {
+        color: $color0;
+        @include font-style-1;
+        @include font-size-1;
+        overflow-y: scroll;
+        /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch;
     }
 
-    &::-moz-selection {
-        color: $color1;
-        background-color: transparent;
-    }
-    &::selection {
-        color: $color1;
-        background-color: transparent;
-    }
-}
-
-*::-moz-selection {
-    color: $color0;
-    background-color: transparent;
-}
-
-*::selection {
-    color: $color0;
-    background-color: transparent;
-}
-
-*:focus {
-    outline: 0;
-}
-
-table,
-tr,
-th,
-td,
-table ol,
-table li {
-    min-width: 1.4rem;
-    vertical-align: top;
-    border-collapse: collapse;
-    /*white-space: nowrap;*/
-    overflow: visible;
-}
-
-figure {
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    margin: 0;
-    padding: 0;
-}
-
-
-/* SUPER HELPERS ========================================================================== */
-
-.hidden {
-    display: none
-}
-
-.active {
-    &>a.key-icon {
+    ol,
+    ul,
+    li {
+        list-style: none;
         display: block;
-        visibility: visible;
     }
-    &>a.key-icon::after {
-        content: "\E001";
-    }
-    &>a {
-        @include font-style-2;
-    }
-}
 
+    a {
+        cursor: pointer;
+        color: $color0;
+        text-decoration: none;
 
-/* TYPOGRAPHIC ELEMENTS ========================================================================== */
+        &:hover,
+        &:active,
+        &.active {
+            @include font-style-2;
+        }
+        &.a-intern::before {
+            content: "\2192";
+        }
+        &.a-extern::after {
+            content: "\2197";
+        }
 
-h1,
-h2 {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    @include breakpoint(mobile) {
-        @include font-size-2;
-    }
-}
-
-h1,
-h1 * {
-    @include font-size-3;
-    @include font-style-2;
-}
-
-h2 {
-    margin-top: 115px;
-    @include font-style-2;
-}
-
-em,
-.extended,
-.active {
-    @include font-style-2;
-}
-
-
-/* TITLE BANNER / MARQUEE ========================================================================== */
-
-.marquee {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 400;
-    display: block;
-    width: 100vh;
-    height: 10vw;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background: $color1;
-
-    -webkit-transform-origin: 0% 100%;
-    transform-origin: 0% 100%;
-    -webkit-transform: rotate(270deg) translate(0, 100vh);
-    transform: rotate(270deg) translate(0, 100vh);
-
-    white-space: nowrap;
-    @include breakpoint(mobile) {
-        display: none;
+        &.a-intern:hover,
+        &.a-extern:hover {
+            /*border-bottom: 1px solid white;*/
+            text-decoration: underline;
+            font-family: RenaGrotesk-Regular, sans-serif;
+        }
     }
 
     p {
-        line-height: 7.5vw;
-        font-size: 102px;
-        @include font-style-2;
-        display: inline-block;
-        padding: 0 5px;
-        position: relative;
-        width: auto;
-        height: auto;
-        text-align: center;
-        transform: translateX(0%);
-        /* starting position */
+        @include font-style-1;
+        @include font-size-1;
+        padding: 0px;
+        margin: 0px;
+        //min-width: 100px;
+        //max-width: 1000px;
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        -webkit-user-select: none;
-        /* Safari */
-        -moz-user-select: none;
-        /* Firefox */
-        -ms-user-select: none;
-        /* IE10+/Edge */
-        user-select: none;
-        /* Standard */
-    }
-}
+        /*
+        @include breakpoint(mobile) {
+            width: auto;
+            min-width: 0;
+            max-width: none;
+        }
+        */
 
+        &::-moz-selection {
+            color: $color1;
+            background-color: transparent;
+        }
+        &::selection {
+            color: $color1;
+            background-color: transparent;
+        }
+    }
+
+    *::-moz-selection {
+        color: $color0;
+        background-color: transparent;
+    }
+
+    *::selection {
+        color: $color0;
+        background-color: transparent;
+    }
+
+    *:focus {
+        outline: 0;
+    }
+
+    table,
+    tr,
+    th,
+    td,
+    table ol,
+    table li {
+        min-width: 1.4rem;
+        vertical-align: top;
+        border-collapse: collapse;
+        /*white-space: nowrap;*/
+        overflow: visible;
+    }
+
+    figure {
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+/* SUPER HELPERS ========================================================================== */
+
+    .hidden {
+        //display: none
+    }
+
+    .active {
+        &>a.key-icon {
+            display: block;
+            visibility: visible;
+        }
+        &>a.key-icon::after {
+            content: "\E001";
+        }
+        &>a {
+            @include font-style-2;
+        }
+    }
+
+/* TYPOGRAPHIC ELEMENTS ========================================================================== */
+
+    h1, h1 *, h2, h2 * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        @include font-size-2;
+        @include font-style-2;
+    }
+
+    h1,
+    h1 * {
+        @include for-tablet-landscape-up {
+            @include font-size-3;
+        }
+    }
+
+    h2, h2 * {
+        margin-top: 115px;
+    }
+
+    em,
+    .extended,
+    .active {
+        @include font-style-2;
+    }
+
+/* TITLE BANNER / MARQUEE ========================================================================== */
+
+    .marquee {
+        display: none;
+
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 400;
+        width: 100vh;
+        height: 10vw;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background: $color1;
+
+        -webkit-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+        -webkit-transform: rotate(270deg) translate(0, 100vh);
+        transform: rotate(270deg) translate(0, 100vh);
+
+        white-space: nowrap;
+        @include for-tablet-landscape-up {
+            display: block;
+        }
+
+
+        p {
+            line-height: 7.5vw;
+            font-size: 102px;
+            @include font-style-2;
+            display: inline-block;
+            padding: 0 5px;
+            position: relative;
+            width: auto;
+            height: auto;
+            text-align: center;
+            transform: translateX(0%);
+            /* starting position */
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
+            -webkit-user-select: none;
+            /* Safari */
+            -moz-user-select: none;
+            /* Firefox */
+            -ms-user-select: none;
+            /* IE10+/Edge */
+            user-select: none;
+            /* Standard */
+        }
+    }
 
 /* SEPARATOR ========================================================================== */
 
-#separator {
-    cursor: pointer;
-    width: 200vw;
-    height: 200vh;
-    padding: 50vh 50vw;
-    position: fixed;
-    background: rgba(255, 255, 255, 0.5);
-    top: -50vh;
-    left: -50vw;
-    z-index: 200;
-    display: block;
-    &.hidden {
+    #separator {
         display: none;
-    }
-    a.key-icon {
-        width: 10vw;
-        /*padding: 0 1vw;
-      margin: auto;*/
-        @include breakpoint(mobile) {
-            visibility: visible;
-            position: relative;
-            padding: 3vw;
+
+        @include for-tablet-landscape-up {
+            display: block;
+            cursor: pointer;
+            width: 200vw;
+            height: 200vh;
+            padding: 50vh 50vw;
+            position: fixed;
+            background: rgba(255, 255, 255, 0.5);
+            top: -50vh;
+            left: -50vw;
+            z-index: 200;
+        }
+        &.hidden {
+            display: none;
+        }
+        a.key-icon {
+            width: 10vw;
+            /*padding: 0 1vw;
+          margin: auto;*/
+            @include breakpoint(mobile) {
+                visibility: visible;
+                position: relative;
+                padding: 3vw;
+            }
         }
     }
-}
-
 
 /* CLOSE AND OPEN ICONS ========================================================================== */
 
-a.key-icon {
-    text-align: center;
-    @include font-size-2;
-    position: absolute;
-    top: 50%;
-    margin-top: -15px;
-    cursor: pointer;
-    display: none;
-
-    @include breakpoint(mobile) {
+    a.key-icon {
+        text-align: center;
         @include font-size-2;
-        display: block;
-    }
-    &::after {
-        content: "​\E000";
-    }
-    &.active {
-        display: block;
-        visibility: visible;
-    }
-    &.active::after {
-        content: "\E001";
-    }
-}
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        cursor: pointer;
+        display: none;
 
-*:hover>a.key-icon {
-    visibility: visible;
-    display: block;
-}
-
-
-/* OVERLAYS ========================================================================== */
-
-.overlay {
-    display: block;
-    /* change to block later */
-    width: 90vw;
-    height: 100vh;
-    background: $color1;
-    margin: 0 0 1rem 0;
-    padding: 0 10vw 0 2vw;
-    position: fixed;
-    left: 10vw;
-    top: 0;
-    z-index: 300;
-    color: $color3;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    -webkit-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
-    box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
-
-    @include transition( left);
-    @include breakpoint(mobile) {
-        -webkit-overflow-scrolling: touch;
-        display: block;
-        /* change to block later */
-        min-height: 75vh;
-        height: auto;
-        max-height: 100vh;
-        width: 100vw;
-        padding: 16vw 2vw 16vw 2vw;
-        margin: 0 0 0 0;
-        position: fixed;
-        left: 0;
-        top: 0;
-    }
-
-    &.hidden {
-        left: 100vw;
         @include breakpoint(mobile) {
-            overflow: hidden;
-            bottom: 200vh; //far out of the upper screen border
-            left: auto;
-            top: auto;
-            right: auto;
+            @include font-size-2;
+            display: block;
+        }
+        &::after {
+            content: "​\E000";
+        }
+        &.active {
+            display: block;
+            visibility: visible;
+        }
+        &.active::after {
+            content: "\E001";
         }
     }
 
-    a {
-        color: $color3;
+    *:hover>a.key-icon {
+        visibility: visible;
+        display: block;
     }
-}
 
-.intro-container {
-    z-index: 330;
-}
+/* CONTAINER SETTINGS ========================================================================== */
 
-.about-container,
-.interview-container {
-    padding-right: 40vw;
-    @include breakpoint(mobile) {
-        padding: 16vw 2vw 2vw 2vw;
+    .container{
+
+        @include transition( all);
+        background: $color3;
+        height: auto;
+        //max-height: 100vh;
+        //height: 100vh;
+        min-height: 100vh;
+        width: 100vw;
+
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        -webkit-transform: translate3d(0,0,0);
+
+        padding: 16vw 0 0 0;
+        margin: 0;
+        border: 0;
+        display: block;
+
+        @include for-tablet-landscape-up {
+            width: auto;
+            padding: 0;
+            height: 100vh;
+        }
+
+        /* SPECIFIC OVERLAY-CONTAINER SETTINGS ========================================================================== */
+        &.topics-container {
+            z-index: 90;
+            @include for-tablet-landscape-up {
+                width: 80vw;
+                margin: 0 0 0 225px;
+                padding: 0 112px 0 0;
+            }
+            @include for-desktop-up {
+                margin-left: 20vw;
+                padding-right: 10vw;
+            }
+        }
+
+        /* OVERLAYS ========================================================================== */
+
+        &.overlay {
+            background: $color1;
+            color: $color3;
+            padding: 16vw 2vw 16vw 2vw;
+            z-index: 300;
+            @include for-tablet-landscape-up {
+                width: 90vw;
+                margin-right: 1rem;
+                padding: 0 10vw 0 2vw;
+                position: fixed;
+                right: 0vw;
+                top: 0;
+                -webkit-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
+                -moz-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
+                box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
+            }
+
+            //@include transition(left);
+            /*
+            @include breakpoint(mobile) {
+                //-webkit-overflow-scrolling: touch;
+                //display: block;
+                //min-height: 75vh;
+                //height: auto;
+                //max-height: 100vh;
+                //max-height: none;
+                width: 100vw;
+                padding: 16vw 2vw 16vw 2vw;
+                margin: 0;
+                position: relative;
+                //left: 0;
+                //top: 0;
+            }
+            */
+
+            &.hidden {
+                @include for-tablet-landscape-up {
+                    left: 100vw;
+                }
+                /*
+                @include breakpoint(mobile) {
+                    overflow: hidden;
+                    bottom: 200vh; //far out of the upper screen border
+                    left: auto;
+                    top: auto;
+                    right: auto;
+                }
+                */
+            }
+
+            /* SPECIFIC OVERLAY-CONTAINER SETTINGS ========================================================================== */
+
+            &.intro-container {
+                z-index: 330;
+            }
+
+            &.about-container,
+            &.interview-container {
+
+                @include for-tablet-landscape-up {
+                    padding-right: 40vw;
+                }
+                /*
+
+                @include breakpoint(mobile) {
+                    padding: 16vw 2vw 2vw 2vw;
+                }
+                */
+
+                &>*:last-child {
+                    margin-bottom: 25vh;
+                }
+                h1 {
+                    margin-bottom: 50px;
+                }
+            }
+            &.about-container {
+                z-index: 320;
+                background: $color2;
+            }
+            &.interview-container {
+                z-index: 310;
+            }
+
+            a {
+                color: $color3;
+            }
+        }
     }
-    &>*:last-child {
-        margin-bottom: 25vh;
+
+    /*
+    .flex-container {
+        width: 100vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -ms-flex-line-pack: start;
+        align-content: flex-start;
+        overflow-x: hidden;
     }
-    h1 {
-        margin-bottom: 50px;
-    }
-}
-
-.about-container {
-    z-index: 320;
-    background: $color2;
-}
-
-.interview-container {
-    z-index: 310;
-}
-
-
+    */
 
 /* INTRO ========================================================================== */
 
-.intro-quote {
-    h1 {
-        &::after {
-            content: "\00AB";
-            /* inserts glyph after anchor" */
+    .intro-quote {
+        h1 {
+            &::after {
+                content: "\00AB";
+                /* inserts glyph after anchor" */
+            }
+            &::before {
+                content: "\00BB";
+                /* inserts glyph before anchor" */
+            }
         }
-        &::before {
-            content: "\00BB";
-            /* inserts glyph before anchor" */
-        }
-    }
-    p {
-        margin-top: 1rem;
-        @include font-size-2;
-        @include breakpoint(mobile) {
+        p {
+            margin-top: 1rem;
             @include font-size-1;
+
+            @include for-tablet-landscape-up {
+                @include font-size-2;
+            }
+
         }
     }
-}
 
-.intro-nav {
-    position: relative;
-    padding-top: 1rem;
-    padding-bottom: 35px;
-    @include font-size-2;
-    @include breakpoint(mobile) {
-        display: none;
+    .intro-nav {
         @include font-size-1;
+        position: relative;
+        padding-top: 1rem;
+        padding-bottom: 35px;
+        @include for-tablet-landscape-up {
+            display: block;
+            @include font-size-2;
+        }
+        li {
+            margin-top: 18px;
+        }
+        &.sticky {
+            position: absolute;
+            bottom: 0;
+            max-width: 70vw;
+        }
     }
-    li {
-        margin-top: 18px;
-    }
-    &.sticky {
-        position: absolute;
-        bottom: 0;
-        max-width: 70vw;
-    }
-}
 
-.intro-nav a::before,
-a.interviewee-title::before {
-    content: "\2192";
-    /* inserts rightwards arrow before anchor" */
-}
-
+    .intro-nav a::before,
+    a.interviewee-title::before {
+        content: "\2192";
+        /* inserts rightwards arrow before anchor" */
+    }
 
 /* ABOUT ========================================================================== */
 
-.network-list {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    .network-list {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
 
-    li {
-        margin-top: 27px;
+        li {
+            margin-top: 27px;
+        }
     }
-}
-
 
 /* INTERVIEW ========================================================================== */
 
-.i-answer {
-    margin-bottom: 1rem;
-}
+    .i-intro {
+        margin-bottom: 110px;
+        p {
+            @include font-size-2;
+        }
+    }
 
-.i-intro {
-    margin-bottom: 110px;
-    p {
+    .i-question p {
+        @include font-style-2;
+        display: inline;
+        /* "inline"= vorfrage und frage stehen direkt hintereinander */
+    }
+
+    .i-answer {
+        margin-bottom: 1rem;
+    }
+
+/* MOBILE HEADER ========================================================================== */
+
+    .mobile-header {
+        margin: 0;
+        padding: 0;
+
+        background: $color1;
+        width: 100vw;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 500;
+        @include for-tablet-landscape-up {
+            display: none;
+        }
+    }
+
+/* BUTTON: NAV AND HEADER ======================================================================================= */
+
+    a.button-title {
         @include font-size-2;
+        height: 16vw;
+        margin: 0px;
+        padding: 0 2vw;
+        display: block;
+        cursor: pointer;
+        @include for-tablet-landscape-up {
+            padding: 0 0 12px .6em;
+            margin: 0px 0px 0px 0px;
+            height: auto;
+        }
     }
-}
-
-.i-question p {
-    @include font-style-2;
-    display: inline;
-    /* "inline"= vorfrage und frage stehen direkt hintereinander */
-}
-
-
-/* MAIN LAYER: LAYOUT ========================================================================== */
-
-/*
-.flex-container {
-    width: 100vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-    overflow-x: hidden;
-}
-*/
-
-/*.flex-item,*/
-.topics-container, .nav-container {
-    background: $color3;
-    display: block;
-    border: 0;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    height: auto;
-    max-height: 100vh;
-    width: auto;
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    -webkit-transform: translate3d(0,0,0);
-    @include transition( all);
-    @include breakpoint(mobile) {
-        padding: 16vw 0 0 0;
-        //max-height: none;
-    }
-}
 
 /* MAIN LAYER: NAVIGATION ========================================================================== */
 
-.nav-container {
-    width: 20vw;
-    min-width: 225px;
-    z-index: 100;
-    /* code for the "no-flex" solution */
-    position: absolute; // or "fixed"?
-    top: 0;
-    left: 0;
-    @include transition( all);
-    @include breakpoint(mobile) {
-        padding: 0;
-        top: 0;
-        left: 0;
-        width: 100vw;
+    .nav-container {
         background: $color2;
-        z-index: 400;
-        position: absolute; // or "fixed"?
-        max-height: 100vh;
-    }
-    &.hidden {
-      @include breakpoint(mobile) {
-        top: -16vw;
-      }
-    }
-    &, * {
-        @include transition( all );
-    }
+        width: 100vw;
+        position: relative;
+        z-index: 100;
+        @include for-tablet-landscape-up {
+            width: 20vw;
+            position: absolute; // or "fixed"?
+            top: 0;
+            left: 0;
+            min-width: 225px;
+            background: $color3;
+        }
 
-    ul.nav {
-        width: 45vw;
-        /* must be wider to hide scrollbar */
-        padding: 0px 11vw 0px 0px;
-        margin: 0px 0px 0px 0px;
-        height: 100vh;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        -webkit-transform: translate3d(0,0,0);
-        @include breakpoint(mobile) {
+        &.hidden {
+          @include breakpoint(mobile) {
+            //top: -16vw;
+            //display: none;
+          }
+        }
+        * {
+            @include transition( all );
+        }
+
+        ul.nav {
             width: auto;
             padding: 0;
-            height: 16vw;
-        }
-        &.open {
-            height: auto;
-            padding-bottom: 2vw;
-        }
+            @include for-tablet-landscape-up {
+                width: 45vw;
+                /* must be wider to hide scrollbar */
+                padding: 0px 11vw 0px 0px;
+                margin: 0px 0px 0px 0px;
+                height: 100vh;
+                overflow-x: hidden;
+                overflow-y: scroll;
+                //-webkit-transform: translate3d(0,0,0);
+            }
 
+            &.open {
+                height: auto;
+                padding-bottom: 2vw;
+            }
 
-        li {
-            padding: 0px 0px 0px 0px;
-            margin: 0px 0px 7px 0px;
-            position: relative;
-            display: block;
-            width: 19vw;
-            min-width: 220px;
-            max-width: 1000px;
-            @include breakpoint(mobile) {
+            li {
                 margin: 0px;
                 padding: 0px;
                 width: 100vw;
                 min-width: 0;
                 max-width: none;
-            }
-
-            &.nav-mobile-header {
-                margin: 0;
-                padding: 0;
-                display: none;
-                background: $color1;
-                @include breakpoint(mobile) {
+                @include for-tablet-landscape-up {
+                    padding: 0px 0px 0px 0px;
+                    margin: 0px 0px 7px 0px;
+                    position: relative;
                     display: block;
+                    width: 19vw;
+                    min-width: 220px;
+                    max-width: 1000px;
                 }
-            }
 
-            #topics-button {
-                margin-top: 12px;
-                @include breakpoint(mobile) {
-                    display: none;
+                &.nav-mobile-header {
+                    display: block;
+                    background: $color1;
+                    margin: 0;
+                    padding: 0;
+                    @include for-tablet-landscape-up {
+                        display: none;
+                    }
                 }
-            }
 
-            #questions-button,
-            #interviews-button {
-                &.active {
-                    border-bottom: 1px solid $color0;
-                    margin-bottom: -1px;
-                    background: $color3;
+                #topics-button {
+                    margin-top: 12px;
+                }
+
+                #questions-button,
+                #interviews-button {
+                    &.active {
+                        position: relative;
+                        background: $color2;
+                        border-bottom: 1px solid $color0;
+                        margin-bottom: -1px;
+
+                        @include for-tablet-landscape-up {
+                            background: $color3;
+                            /* STICKY-CODE */
+                            position: -webkit-sticky;
+                            position: sticky;
+                            top: 0;
+                            z-index: 100;
+                        }
+                    }
+                }
+
+                #language-button {
+                    text-transform: uppercase;
+                }
+
+                .nav-button {
+                    display: block;
                     /* STICKY-CODE */
                     position: -webkit-sticky;
                     position: sticky;
                     top: 0;
                     z-index: 100;
-                    @include breakpoint(mobile) {
-                        position: relative;
-                        top: auto;
-                        background: $color2;
-                    }
-                }
-            }
 
-            #language-button {
-                text-transform: uppercase;
-            }
 
-            .nav-button {
-                display: block;
-
-                &.active,
-                &:hover {
-                    a {
-                        @include font-style-2;
-                        &.key-icon {
-                            display: block;
-                            @include breakpoint(mobile) {
+                    &.active,
+                    &:hover {
+                        a {
+                            @include font-style-2;
+                            &.key-icon {
                                 display: none;
+                                @include for-tablet-landscape-up {
+                                    display: block;
+                                }
                             }
                         }
                     }
-                }
 
-                a.key-icon {
-                    padding: 0;
-                    margin-right: 0px;
-                    right: 0;
-                    top: 15px;
-                    margin-top: -15px;
-                    z-index: 110;
-                    @include breakpoint(mobile) {
-                        /*display:block;*/
+                    a.key-icon {
                         display: none;
+                        @include for-tablet-landscape-up {
+                            padding: 0;
+                            margin-right: 0px;
+                            right: 0;
+                            top: 15px;
+                            margin-top: -15px;
+                            z-index: 110;
+                        }
                     }
+
+
                 }
 
-                a.button-title {
-                    @include font-size-2;
-                    padding: 0 0 12px .6em;
-                    margin: 0px 0px 0px 0px;
-                    display: block;
-                    cursor: pointer;
-                    @include breakpoint(mobile) {
-                        margin: 0px;
-                        padding: 0 2vw;
-                        height: 16vw;
-                    }
-                }
-            }
-
-            /* === NAV-SUB START === */
-            .sub {
-                display: none;
-                position: relative;
-                padding: 0px 0px 0px 0px;
-                margin: 0px 0px 0px 0px;
-                border-top: 1px solid black;
-                border-bottom: 1px solid black;
-                overflow-x: visible;
-                width: 100%;
-                height: auto;
-                @include transition( height);
-                @include breakpoint(mobile) {
+                /* === NAV-SUB START === */
+                .sub {
                     width: auto;
                     max-width: none;
-                }
+                    @include transition( height);
+                    display: none;
+                    position: relative;
+                    padding: 0px 0px 0px 0px;
+                    margin: 0px 0px 0px 0px;
+                    border-top: 1px solid black;
+                    border-bottom: 1px solid black;
+                    overflow-x: visible;
+                    height: auto;
+                    @include for-tablet-landscape-up {
+                        width: 100%;
+                    }
 
-                * {
-                    max-width: 35vw;
-                    @include breakpoint(mobile) {
+                    * {
                         width: auto;
                         max-width: 100vw;
+                        @include for-tablet-landscape-up {
+                            max-width: 35vw;
+                        }
                     }
-                }
 
-                a {
-                    display: block;
-                    @include noHyphens;
-                    /*
-          max-width: 82%;
-          */
-                    @include breakpoint(mobile) {
-                        width: auto;
-                        min-width: 0;
-                        max-width: none;
+                    a {
+                        display: block;
+                        @include noHyphens;
+                        /*
+                        @include breakpoint(mobile) {
+                            width: auto;
+                            min-width: 0;
+                            max-width: none;
+                        }
+                        */
                     }
-                }
 
-                &>ul {
-                    padding: 12px 0 0 2vw;
-                    overflow-x: visible;
-                    flex-wrap: wrap;
-                    display: flex;
-                    position: relative;
-                    width: 34vw;
-                    @include breakpoint(mobile) {
+                    &>ul {
                         padding: 0;
                         width: 100%;
                         max-width: none;
-                    }
 
-                    &>li {
-                        @include noTransition(padding);
-                        padding: 0px 18% 0px 0px;
-                        margin: 0px 0px 17px 2vw;
-                        display: block;
+                        overflow-x: visible;
+                        flex-wrap: wrap;
+                        display: flex;
                         position: relative;
-                        min-width: 27px;
-                        width: 31vw;
-                        @include breakpoint(mobile) {
+
+                        @include for-tablet-landscape-up {
+                            padding: 12px 0 0 2vw;
+                            width: 34vw;
+                        }
+
+                        &>li {
+                            @include noTransition(padding);
                             width: 100vw;
                             min-width: 0;
                             max-width: none;
-                            padding: 2vw 7vw 2vw 4vw;
                             margin: 0;
-                        }
+                            display: block;
+                            position: relative;
 
-                        &:hover {
-                            padding: 0;
-                            a {
-                                max-width: 100%;
-                                @include font-style-2;
-                                @include breakpoint(mobile) {
+                            @include for-phone-only {
+                                padding: 2vw 7vw 2vw 4vw;
+                            }
+
+                            @include for-tablet-landscape-up {
+                                min-width: 27px;
+                                width: 31vw;
+                                padding: 0px 18% 0px 0px;
+                                margin: 0px 0px 17px 2vw;
+                            }
+
+                            &:hover {
+                                @include for-tablet-landscape-up {
+                                    padding: 0;
+                                }
+                                a {
+                                    @include font-style-2;
                                     width: auto;
                                     min-width: 0;
                                     max-width: none;
+                                    @include for-tablet-landscape-up {
+                                        max-width: 100%;
+                                    }
                                 }
-                            }
-                            &::before {
-                                content: "\2192";
-                                position: absolute;
-                                left: -4vw;
-                                background: white;
-                                width: 4vw;
-                                text-align: center;
-                                @include breakpoint(mobile) {
+                                &::before {
                                     content: "";
                                     display: none;
+                                    @include for-tablet-landscape-up {
+                                        content: "\2192";
+                                        display: block;
+                                        position: absolute;
+                                        left: -4vw;
+                                        background: white;
+                                        width: 4vw;
+                                        text-align: center;
+                                    }
                                 }
                             }
-                        }
 
-                        &.register-mark {
-                            padding: 0px 0px 0px 0px;
-                            margin: 0px 0px 0px 0px;
-                            @include breakpoint(mobile) {
+                            &.register-mark {
                                 width: auto;
                                 min-width: 0;
                                 max-width: none;
                                 padding: 2vw 7vw 2vw 4vw;
                                 margin: 0;
-                            }
-                            &::before {
-                                content: "";
-                                display: none;
-                            }
-                        }
+                                @include for-tablet-landscape-up {
+                                    padding: 0px 0px 0px 0px;
+                                    margin: 0px 0px 0px 0px;
+                                }
 
-                        &.register-mark+li {
-                            margin-top: -27px;
-                            @include breakpoint(mobile) {
+                                &::before {
+                                    content: "";
+                                    display: none;
+                                }
+                            }
+
+                            &.register-mark+li {
                                 margin-top: 0;
+                                @include for-tablet-landscape-up {
+                                    margin-top: -27px;
+                                }
                             }
                         }
                     }
                 }
+                /* === NAV-SUB END === */
             }
-            /* === NAV-SUB END === */
-        }
 
-        li.nav-spacer {
-            margin-top: -280px;
-            margin-bottom: 100vh;
-            height: 0;
-            -webkit-transition: all 0s;
-            -moz-transition: all 0s;
-            -o-transition: all 0s;
-            transition: all 0s;
-            @include breakpoint(mobile) {
+            li.nav-spacer {
                 display: none;
+                @include for-tablet-landscape-up {
+                    display: block;
+                    margin-top: -280px;
+                    margin-bottom: 100vh;
+                    height: 0;
+                    -webkit-transition: all 0s;
+                    -moz-transition: all 0s;
+                    -o-transition: all 0s;
+                    transition: all 0s;
+                }
             }
         }
     }
-}
 
 /* NAV-MODE ======================================================================================= */
 
-.nav-mode {
-    .topics-container {
-        /* code for the "no-flex" solution */
-        margin: 0 0 0 36vw;
-        @include breakpoint(mobile) {
+    .nav-mode {
+        .topics-container {
+            /* code for the "no-flex" solution */
             margin: 0;
+            @include for-tablet-landscape-up {
+                margin: 0 0 0 36vw;
+            }
         }
-    }
-    .nav-container {
-        width: 35vw;
-        overflow-x: hidden;
-        @include breakpoint(mobile) {
+        .nav-container {
             width: auto;
-        }
-
-        ul.nav {
-            width: 100vw; //must be wider than ".nav-container" to hide scroll bar in firefox
-            padding: 0;
-            @include breakpoint(mobile) {
-                padding: 0 0 16vw 0;
+            @include for-tablet-landscape-up {
+                width: 35vw;
+                overflow-x: hidden;
             }
 
-            li {
-                /*overflow: auto;*/
-                width: 35vw;
-                min-width: 220px;
-                max-width: 1000px;
-                @include breakpoint(mobile) {
+            ul.nav {
+                padding: 0 0 16vw 0;
+                width: 100vw; //must be wider than ".nav-container" to hide scroll bar in firefox
+                @include for-tablet-landscape-up {
+                    padding: 0;
+                }
+
+                li {
                     margin: 0px;
                     padding: 0px;
                     width: auto;
                     max-width: 100vw;
+                    /*overflow: auto;*/
+                    @include for-tablet-landscape-up {
+                        width: 35vw;
+                        min-width: 220px;
+                        max-width: 1000px;
+                    }
                 }
-            }
-            li.nav-spacer {
-                transition-delay: 0.7s;
-                height: 0vh;
-                margin: 0;
+                li.nav-spacer {
+                    transition-delay: 0.7s;
+                    height: 0vh;
+                    margin: 0;
+                }
             }
         }
     }
-}
 
 /* MAIN LAYER: CONTENT ========================================================================== */
 
-/*#content,*/
-.topics-container {
-    position: relative;
-    width: 80vw;
-    z-index: 90;
-    /* code for the "no-flex" solution */
-    margin: 0 0 0 20vw;
-    padding: 0 10vw 0 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    @include breakpoint(small-desktop) {
-        margin: 0 0 0 225px;
-        padding: 0 112px 0 0;
-    }
-    @include breakpoint(mobile) {
-        width: 100vw;
-        margin: 0;
-        padding: 16vw 0 0 0;
-    }
+    /*#content,*/
+    .topics-container {
+        /*
+        position: relative;
+        width: 80vw;
+        z-index: 90;
+        // code for the "no-flex" solution
+        margin: 0 0 0 20vw;
+        padding: 0 10vw 0 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        @include breakpoint(small-desktop) {
+            margin: 0 0 0 225px;
+            padding: 0 112px 0 0;
+        }
+        @include breakpoint(mobile) {
+            width: 100vw;
+            margin: 0;
+            padding: 16vw 0 0 0;
+        }
+        */
 
+        /* code for the "no-flex" solution */
+        /*
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 100vh;
+        width: 80vw;
+        padding: 0px 10vw 0px 0px;
+        @include breakpoint(mobile) {
+            padding: 0px 0px 0px;
+            height: auto;
+            width: auto;
+            min-width: 0;
+            max-width: none;
+        }
+        */
 
-    /* code for the "no-flex" solution */
-    /*
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 100vh;
-    width: 80vw;
-    padding: 0px 10vw 0px 0px;
-    @include breakpoint(mobile) {
-        padding: 0px 0px 0px;
-        height: auto;
-        width: auto;
-        min-width: 0;
-        max-width: none;
-    }
-    */
+        ul.topic-list {
+            padding: 0px 0px 50vh 0px;
 
-    ul.topic-list {
-        padding: 0px 0px 50vh 0px;
-
-        .topic-item {
-            /*padding: 13px 0px 0px 0px;*/
-            .topic-title,
-            .question-title {
-                @include font-style-1;
-                display: block;
-                position: relative;
-                white-space: normal;
-                background: $color3;
-                cursor: pointer;
-                padding-right: 42px;
-                @include breakpoint(mobile) {
+            .topic-item {
+                /*padding: 13px 0px 0px 0px;*/
+                .topic-title,
+                .question-title {
                     padding: 0;
-                }
-                &.active {
-                    border-bottom: 1px solid $color0;
-                    margin-bottom: -1px;
+                    @include font-style-1;
+                    display: block;
+                    position: relative;
+                    white-space: normal;
                     background: $color3;
-                    /* STICKY-CODE */
-                    position: -webkit-sticky;
-                    position: sticky;
-                    top: 0;
-                    z-index: 100;
-                    @include breakpoint(mobile) {
-                        /*
-            position: relative;
-            top: auto;
-            background: $color2;
-            */
+                    cursor: pointer;
+                    @include for-tablet-landscape-up {
+                        padding-right: 42px;
                     }
-                }
+                    &.active {
+                        position: relative;
+                        top: auto;
 
-                a {
-                    @include noHyphens;
-                    @include breakpoint(mobile) {}
-                    &:first-child {
-                        /*display: block;*/
-                        @include breakpoint(mobile) {
-                            /*padding: 0 7vw 0 4vw;*/
-                            padding: 2vw 7vw 2vw 4vw;
+                        @include for-tablet-landscape-up {
+                            border-bottom: 1px solid $color0;
+                            margin-bottom: -1px;
+                            background: $color3;
+                            /* STICKY-CODE */
+                            position: -webkit-sticky;
+                            position: sticky;
+                            top: 0;
+                            z-index: 100;
                         }
                     }
-                    &.key-icon {
-                        margin-right: 1vw;
-                        right: 0;
-                        /*display:none;*/
-                        @include breakpoint(mobile) {
-                            display: none;
+
+                    a {
+                        @include noHyphens;
+                        &:first-child {
+                            @include for-phone-only {
+                                padding: 2vw 7vw 2vw 4vw;
+                            }
+                            display: block;
+                            @include for-tablet-landscape-up {
+                                padding: 0;
+                            }
+                        }
+                        &.key-icon {
+                            margin-right: 1vw;
+                            right: 0;
+                            @include for-phone-only {
+                                display: none;
+                            }
                         }
                     }
-                }
-                &:hover a,
-                &.active a {
-                    @include font-style-2;
-                    &:first-child {
-                        @include breakpoint(mobile) {
+                    &:hover a,
+                    &.active a {
+                        @include font-style-2;
+                        &:first-child {
                             width: auto;
                             min-width: 0;
                             max-width: none;
                         }
                     }
                 }
-            }
 
-            .topic-title {
-                padding-top: 42px;
-                padding-bottom: 22px;
-                @include breakpoint(mobile) {
-                    display: block;
+                .topic-title {
+                    //padding: 0;
+                    @include for-tablet-landscape-up {
+                        //padding-top: 42px;
+                        padding-bottom: 22px;
+                    }
+                    a:first-child {
+                        @include font-size-3;
+                        @include noHyphens;
+                        padding-bottom: 2px;
+                        @include for-phone-only {
+                            padding: 2vw 7vw 2vw 4vw;
+                            line-height: 0px;
+                            display: block;
+                        }
+                    }
+                }
+
+                .question-list,
+                .answer-list {
                     padding: 0;
+                    border-bottom: 1px solid $color0;
+                    border-top: 1px solid $color0;
                 }
-                a:first-child {
-                    @include font-size-3;
-                    @include noHyphens;
-                    line-height: 0px;
-                    padding-bottom: 2px;
-                    @include breakpoint(mobile) {
-                        display: block;
-                        padding: 2vw 7vw 2vw 4vw;
-                    }
-                }
-                &.active {
-                    @include breakpoint(mobile) {
-                        position: relative;
-                        top: auto;
-                    }
-                }
-            }
 
-            .question-list,
-            .answer-list {
-                padding: 0;
-                border-bottom: 1px solid $color0;
-                border-top: 1px solid $color0;
-            }
-
-            .question-list {
-                padding: 13px 0px 17px 0px;
-
-                width: 100%;
-                @include breakpoint(mobile) {
+                .question-list {
+                    padding: 13px 0px 17px 0px;
                     width: auto;
                     min-width: 0;
                     max-width: none;
-                }
-                .question-item {
-                    padding: 2px 0px 0px 0px;
-                    margin: 0px 0px 0px 0px;
+                    width: 100%;
 
-                    &:last-child .answer-list {
-                        // the answer-list in the last question-item shall not have a border-bottom
-                        border-bottom: 0px;
-                    }
+                    .question-item {
+                        padding: 2px 0px 0px 0px;
+                        margin: 0px 0px 0px 0px;
 
-                    .question-title {
-                        padding: 5px 0px 12px 0px;
-                        @include breakpoint(mobile) {
+                        &:last-child .answer-list {
+                            // the answer-list in the last question-item shall not have a border-bottom
+                            border-bottom: 0px;
+                        }
+
+                        .question-title {
                             padding: 0;
-                        }
-                        &.active {
-                            z-index: 90;
-                            top: 111px;
-                            @include breakpoint(mobile) {
-                                top: 15vw;
+                            @include for-tablet-landscape-up {
+                                padding: 5px 0px 12px 0px;
                             }
-                        }
+                            &.active {
+                                z-index: 90;
+                                top: 15vw;
 
-                        a:first-child {
-                            max-width: 53vw;
-                            display: block;
-                            @include font-size-2;
-                            @include breakpoint(mobile) {
+                                @include for-tablet-landscape-up {
+                                    top: 111px;
+                                }
+                            }
+
+                            a:first-child {
                                 @include font-size-1;
                                 width: auto;
                                 min-width: 0;
                                 max-width: none;
+                                display: block;
+                                @include for-tablet-landscape-up {
+                                    @include font-size-2;
+                                    max-width: 53vw;
+                                }
                             }
-                        }
-                        &:hover a:first-child,
-                        &.active a:first-child {
-                            max-width: 66vw;
-                            @include breakpoint(mobile) {
+                            &:hover a:first-child,
+                            &.active a:first-child {
                                 width: auto;
                                 min-width: 0;
                                 max-width: none;
+                                @include for-tablet-landscape-up {
+                                    max-width: 66vw;
+                                }
                             }
                         }
-                    }
-                    .answer-list {
-                        .answer-item {
-                            margin: 33px 0px 0px 0px;
-                            width: 60vw;
-                            min-width: 480px;
-                            max-width: 700px;
-                            @include breakpoint(mobile) {
+                        .answer-list {
+                            .answer-item {
                                 /*padding: 2vh 2vw;*/
                                 padding: 2vw 7vw 2vw 4vw;
                                 margin: 0 0 0 0;
                                 width: auto;
                                 min-width: 0;
                                 max-width: none;
-                            }
-                            &:last-of-type {
-                                margin-bottom: 49px;
-                            }
-                            a.interviewee-title {
-                                @include font-style-2;
-                                @include noHyphens;
+                                @include for-tablet-landscape-up {
+                                    margin: 33px 0px 0px 0px;
+                                    padding: 0;
+                                    width: 60vw;
+                                    min-width: 480px;
+                                    max-width: 700px;
+                                }
+                                &:last-of-type {
+                                    margin-bottom: 49px;
+                                }
+                                a.interviewee-title {
+                                    @include font-style-2;
+                                    @include noHyphens;
+                                }
                             }
                         }
                     }
-                }
-                .question-item.active+.question-item {
-                    padding: 20px 0px 0px 0px;
+                    .question-item.active+.question-item {
+                        padding: 20px 0px 0px 0px;
+                    }
                 }
             }
-        }
-        .topic-item.active+.topic-item {
-            padding-top: 13px;
+            .topic-item.active+.topic-item {
+                padding-top: 13px;
+            }
         }
     }
-}
 
 /* TESTING CLASS ========================================================================== */
 
-.debug {
-    /* for testing only */
-    background: green;
-    color: red;
-}
+    .debug {
+        /* for testing only */
+        background: green;
+        color: red;
+    }
 
 /* ASIDE INFO AND PREVIEW CONTAINER ========================================================================== */
 
-.preview {
-    pointer-events: none;
-}
+    .preview {
+        pointer-events: none;
+    }
 
-.aside-info,
-.preview {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 64vw;
-    z-index: 100;
-    width: 24vw;
-    min-width: 120px;
-    max-width: 600px;
-    padding: 0;
-    margin: 0;
-    @include breakpoint(mobile) {
+    .aside-info,
+    .preview {
         display: none;
         position: relative;
         top: auto;
@@ -1256,164 +1305,169 @@ a.interviewee-title::before {
         max-width: none;
         height: auto;
         overflow: visible;
-    }
+        @include for-tablet-landscape-up {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 64vw;
+            z-index: 100;
+            //width: 26vw;
+            min-width: 120px;
+            max-width: 600px;
+            padding: 0;
+            margin: 0;
+        }
 
-    figure {
-        width: 30vw;
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: auto;
-        max-height: 100vh;
-        overflow-y: scroll;
-        padding: 19px 6vw 0 0;
-        @include breakpoint(mobile) {
+        figure {
             width: auto;
             min-width: 0;
             max-width: none;
             height: auto;
+            max-height: none;
+            @include for-tablet-landscape-up {
+                width: 20vw;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: auto;
+                max-height: 100vh;
+                overflow-y: scroll;
+                padding: 19px 0 0 0;
+            }
         }
-    }
 
-    figure>*:last-child {
-        padding-bottom: 1rem;
-    }
+        figure>*:last-child {
+            padding-bottom: 1rem;
+        }
 
-    .aside-image {
-        max-width: 100%;
-        display: block;
-        overflow: hidden;
-        position: relative;
-        -o-object-fit: cover;
-        object-fit: cover;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 0 0; // hides the background image
-        @include breakpoint(mobile) {
+        .aside-image {
             margin-left: -2vw;
             max-height: 50vh;
             width: auto;
             min-width: 0;
             max-width: none;
+            @include for-tablet-landscape-up {
+                max-width: 100%;
+                display: block;
+                overflow: hidden;
+                position: relative;
+                -o-object-fit: cover;
+                object-fit: cover;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: 0 0; // hides the background image
+            }
+        }
+
+        .aside-image img {
+            max-width: 100%;
+        }
+
+        li:first-child,
+        li:nth-child(4),
+        li:last-child {
+            margin-top: 1rem;
         }
     }
 
-    .aside-image img {
-        max-width: 100%;
-        @include breakpoint(mobile) {
-            width: auto;
-            min-width: 0;
-            max-width: none;
-        }
+    .preview figure {
+        display: none;
     }
 
-    li:first-child,
-    li:nth-child(4),
-    li:last-child {
-        margin-top: 1rem;
+    .hidden .aside-info {
+        display: none;
     }
-}
-
-.preview figure {
-    display: none;
-}
-
-.hidden .aside-info {
-    display: none;
-}
-
 
 /* SCROLLBAR ========================================================================== */
 
-::-webkit-scrollbar-track {
-    display: none;
-}
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
 
-::-webkit-scrollbar-thumb {
-    display: none;
-}
+    ::-webkit-scrollbar-thumb {
+        display: none;
+    }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
 /* MOBILE NAV HEADER ========================================================================== */
 
-.nav-mobile-header,
-.nav-mobile-header * {
-    margin: 0;
-    padding: 0;
-    display: none;
-    @include breakpoint(mobile) {
+    .nav-mobile-header,
+    .nav-mobile-header * {
         display: block;
+        margin: 0;
+        padding: 0;
+        @include for-tablet-landscape-up {
+            display: none;
+        }
     }
-}
 
-.nav-mobile-icon {
-    width: 5.4vw;
-    height: 5.4vw;
-    position: absolute;
-    bottom: 4.5vw;
-    right: 4vw;
-    margin: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    @include transition( all);
-    cursor: pointer;
-
-    span {
-        display: block;
+    .nav-mobile-icon {
+        width: 5.4vw;
+        height: 5.4vw;
         position: absolute;
-        height: 0.9vw;
-        width: 100%;
-        background: $color0;
-        opacity: 1;
-        left: 0;
+        bottom: 4.5vw;
+        right: 4vw;
+        margin: 0;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -o-transform: rotate(0deg);
         transform: rotate(0deg);
         @include transition( all);
-    }
+        cursor: pointer;
 
-    span:nth-child(1) {
-        top: 0vw;
-    }
-    span:nth-child(2),
-    span:nth-child(3) {
-        top: 2.25vw;
-    }
-    span:nth-child(4) {
-        top: 4.5vw;
-    }
+        span {
+            display: block;
+            position: absolute;
+            height: 0.9vw;
+            width: 100%;
+            background: $color0;
+            opacity: 1;
+            left: 0;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            @include transition( all);
+        }
 
-    &.open {
         span:nth-child(1) {
-            top: 2.25vw;
-            width: 0%;
-            left: 50%;
+            top: 0vw;
         }
-        span:nth-child(2) {
-            -webkit-transform: rotate(45deg);
-            -moz-transform: rotate(45deg);
-            -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-        }
+        span:nth-child(2),
         span:nth-child(3) {
-            -webkit-transform: rotate(-45deg);
-            -moz-transform: rotate(-45deg);
-            -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+            top: 2.25vw;
         }
         span:nth-child(4) {
-            top: 2.25vw;
-            width: 0%;
-            left: 50%;
+            top: 4.5vw;
+        }
+
+        &.open {
+            span:nth-child(1) {
+                top: 2.25vw;
+                width: 0%;
+                left: 50%;
+            }
+            span:nth-child(2) {
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+            span:nth-child(3) {
+                -webkit-transform: rotate(-45deg);
+                -moz-transform: rotate(-45deg);
+                -o-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+            }
+            span:nth-child(4) {
+                top: 2.25vw;
+                width: 0%;
+                left: 50%;
+            }
         }
     }
-}
