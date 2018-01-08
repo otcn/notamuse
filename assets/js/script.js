@@ -1,93 +1,5 @@
-$(document).ready(function() {
 
-    var fid;
-    /* JANAS AJAX FUNCTIONS ================================================ */
-
-    // History
-    function projects(uid) {
-        if (uid !== 'about') {
-            $.ajax({
-                url: '/' + uid, // url: 'http://localhost/~jensschnitzler/' + uid,
-                type: 'POST',
-                success: function(response) {
-                    $('.interview-container').html(response);
-                    $('.interview-container').removeClass('hidden');
-                    $('#separator').removeClass('hidden');
-                    classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
-                    if (fid) { // if 'fid' exists/isn't empty …
-
-                        openAnswerGetTarget( fid );
-                        fid = '';
-
-                        /*
-                        console.log( 'fid: ' + fid );
-                        var myQuestion = $('#' + fid);
-                        var myQuestionPosition = myQuestion.offset().top;
-                        console.log( 'myQuestionPosition: ' + myQuestionPosition );
-                        $('.interview-container').animate({
-                            scrollTop: $('#' + fid).offset().top
-                        }, 200);
-                        fid = '';
-                        */
-                    }
-                },
-                error: function() {
-                    console.log('ajax error');
-                }
-            });
-        }
-    }
-
-    History.Adapter.bind(window, 'statechange', function() {
-        var State = History.getState();
-        var uid = State.hash.split('?')[0].substring(1);
-        if (!uid.length == 0) {
-            projects(uid);
-        }
-    });
-
-    function push(uid) {
-        History.pushState(uid, document.title, uid);
-        return false
-    }
-
-    function init() {
-        console.log('hash: ' + History.getState().hash);
-        var uid = History.getState().hash.split('?')[0].substring(1);
-        //var myArray = History.getState().hash.split('/');
-        //var uid = myArray[myArray.length - 1].substring(0);
-        console.log('uid: ' + uid);
-
-        if (uid.length <= 0) { // if it’s not a subpage: show intro and separator
-            openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.intro-container').removeClass('hidden');
-        } else if (uid.toLowerCase().indexOf("intro") >= 0) { // if uid contains "intro": show intro overlay
-            openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.intro-container').removeClass('hidden');
-        } else if (uid.toLowerCase().indexOf("about") >= 0) { // if uid contains "about": show about overlay
-            openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.about-container').removeClass('hidden');
-            $('.marquee').css("background-color", "transparent");
-        } else if (uid.toLowerCase().indexOf("interview") >= 0) { // if uid contains "interview": show interview overlay
-            openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.interview-container').removeClass('hidden');
-        } else { // in any other case: show intro and separator
-            openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.intro-container').removeClass('hidden');
-        }
-    }
-
-    /* INIT AJAX */
-
-    init();
-
-
-/* JENS FUNCTIONS ================================================ */
+/* JENS FUNCTIONS (GLOBAL) ================================================ */
 
     // FUNCTION FOR LINKS WHICH OPEN RELATED ANSWERS AND SMOOTHLY SCROLL THERE: BY ANCHOR-ELEMENT'S HREF
     function openAnswer(anchor) {
@@ -170,6 +82,10 @@ $(document).ready(function() {
         var r = $.Deferred();
         console.log( 'myScrollTopFunction' );
         var myElementTop = element.offset().top;
+        if( mobile != false ){
+            myElementTop = myElementTop - 100;
+            console.log( 'myScrollTopFunction: Mobile' );
+        }
         console.log( 'myElementTop - Before Scrolling: ' + myElementTop );
         //container.animate({ scrollTop: myElementTop }, 'fast');
         container.scrollTop( myElementTop );
@@ -194,20 +110,6 @@ $(document).ready(function() {
         $('.nav .sub').slideUp('slow');
         $('.nav .child').slideUp('slow'); // hide all child-elements
         $('#topics-button').addClass('active');
-    };
-
-    function closeMobileNav() { // for mobile only
-        var myNav = $('.nav');
-        var myBurger = $('.nav-mobile-icon');
-        myBurger.removeClass('open');
-        myNav.removeClass('open');
-    };
-
-    function openMobileNav() { // for mobile only
-        var myNav = $('.nav');
-        var myBurger = $('.nav-mobile-icon');
-        myBurger.addClass('open');
-        myNav.addClass('open');
     };
 
     // OPEN SEPARATOR
@@ -249,6 +151,166 @@ $(document).ready(function() {
         }
     };
 
+/* JANAS AJAX FUNCTIONS ================================================ */
+    var fid;
+
+    // History
+    function projects(uid) {
+        if (uid !== 'about') {
+            $.ajax({
+                url: '/' + uid, // url: 'http://localhost/~jensschnitzler/' + uid,
+                type: 'POST',
+                success: function(response) {
+                    $('.interview-container').html(response);
+                    $('.interview-container').removeClass('hidden');
+                    $('#separator').removeClass('hidden');
+                    classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
+                    if (fid) { // if 'fid' exists/isn't empty …
+
+                        openAnswerGetTarget( fid );
+                        fid = '';
+
+                        /*
+                        console.log( 'fid: ' + fid );
+                        var myQuestion = $('#' + fid);
+                        var myQuestionPosition = myQuestion.offset().top;
+                        console.log( 'myQuestionPosition: ' + myQuestionPosition );
+                        $('.interview-container').animate({
+                            scrollTop: $('#' + fid).offset().top
+                        }, 200);
+                        fid = '';
+                        */
+                    }
+                },
+                error: function() {
+                    console.log('ajax error');
+                }
+            });
+        }
+    }
+
+    History.Adapter.bind(window, 'statechange', function() {
+        var State = History.getState();
+        var uid = State.hash.split('?')[0].substring(1);
+        if (!uid.length == 0) {
+            projects(uid);
+        }
+    });
+
+    function push(uid) {
+        History.pushState(uid, document.title, uid);
+        return false
+    }
+
+    function init() {
+        console.log('hash: ' + History.getState().hash);
+        var uid = History.getState().hash.split('?')[0].substring(1);
+        //var myArray = History.getState().hash.split('/');
+        //var uid = myArray[myArray.length - 1].substring(0);
+        console.log('uid: ' + uid);
+
+        if (uid.length <= 0) { // if it’s not a subpage: show intro and separator
+            openSeparator();
+            $('.overlay').addClass('hidden');
+            $('.intro-container').removeClass('hidden');
+        } else if (uid.toLowerCase().indexOf("intro") >= 0) { // if uid contains "intro": show intro overlay
+            openSeparator();
+            $('.overlay').addClass('hidden');
+            $('.intro-container').removeClass('hidden');
+        } else if (uid.toLowerCase().indexOf("about") >= 0) { // if uid contains "about": show about overlay
+            openSeparator();
+            $('.overlay').addClass('hidden');
+            $('.about-container').removeClass('hidden');
+            $('.marquee').css("background-color", "transparent");
+        } else if (uid.toLowerCase().indexOf("interview") >= 0) { // if uid contains "interview": show interview overlay
+            openSeparator();
+            $('.overlay').addClass('hidden');
+            $('.interview-container').removeClass('hidden');
+        } else { // in any other case: show intro and separator
+            openSeparator();
+            $('.overlay').addClass('hidden');
+            $('.intro-container').removeClass('hidden');
+        }
+    }
+
+
+
+
+$(document).ready(function() {
+
+/* VARIABLES */
+    var myNav = $('.nav-container').first();
+    var myBurger = $('.nav-mobile-icon').first();
+    var myIntro = $('.intro-container').first();
+    var myInterview = $('.interview-container').first();
+
+/* INIT AJAX */
+    init();
+
+/* FUNCTIONS AND EVENTS FOR MOBILE ================================================ */
+
+    function closeMobileNav() { // for mobile only
+        /*
+        myBurger = $('.nav-mobile-icon');
+        myNav = $('.nav-container');
+        myIntro = $('.intro-container');
+        */
+        myBurger.removeClass('open');
+        myNav.addClass('hidden');
+        myIntro.addClass('hidden');
+    };
+
+    function openMobileNav() { // for mobile only
+        /*
+        myBurger = $('.nav-mobile-icon');
+        myNav = $('.nav-container');
+        */
+        myBurger.addClass('open');
+        myNav.removeClass('hidden');
+    };
+
+
+    /* on mobile: hide address bar / go fullscreen */
+    window.onload = function() { setTimeout(function() { window.scrollTo(0, 1); }, 0); }
+
+
+    /* CHECK SCREEN SIZE */
+
+    $(window).on("resize", function (e) {
+        checkScreenSize();
+    });
+
+    checkScreenSize();
+
+    function checkScreenSize(){
+        mobile = true;
+        var breakpoint = 900;
+        var newWindowWidth = $(window).width();
+        if (newWindowWidth < breakpoint) {
+            console.log( 'checkScreenSize: BELOW ' + breakpoint );
+            myNav.addClass('overlay');
+        } else {
+            console.log( 'checkScreenSize: OVER ' + breakpoint );
+            mobile = false;
+        }
+    }
+
+
+    /* MOBILE NAV HEADER */
+    /* close and open navigation and do other fun stuff */
+    $('.nav-mobile-icon').click(function() {
+      console.log( 'nav-mobile-icon clicked ' );
+        var myBurger = $(this);
+        if (myBurger.is('.open')) {
+            closeMobileNav();
+            if ( myIntro.not('.hidden') ) {
+                //closeSeparator();
+            }
+        } else {
+            openMobileNav();
+        }
+    });
+
 /* EVENTS ================================================ */
 
     stickyIntroNav();
@@ -264,20 +326,6 @@ $(document).ready(function() {
 
     /* EVENTS */
 
-    /* MOBILE NAV HEADER */
-    /* close and open navigation and do other fun stuff */
-    $('.nav-mobile-icon').click(function() {
-        var myBurger = $(this);
-        if (myBurger.is('.open')) {
-            closeMobileNav();
-            if ($('intro-container').not('.hidden')) {
-                closeSeparator();
-            }
-        } else {
-            openMobileNav();
-        }
-    });
-
     // CLOSE NAV-MODE
     /*$('#content *').click(function() {*/
     $('.topics-container *').click(function() {
@@ -291,6 +339,7 @@ $(document).ready(function() {
         closeNav();
         closeTopics();
         closeSeparator();
+        //closeMobileNav();
     });
 
     // NAVIGATION: click >nav-switch<
@@ -321,7 +370,8 @@ $(document).ready(function() {
         closeMobileNav();
         //closeTopics();
         var anchor = $(this);
-        if (anchor.attr('href').indexOf('http') == -1) {
+        if (anchor.attr('href').indexOf('http') == -1) { // if answer is on the same page (in the topics-list)
+            closeSeparator(); // necessary for mobile
             openAnswer(anchor);
         } else {
             e.preventDefault();
@@ -416,3 +466,16 @@ $(document).ready(function() {
     });
 
 }); // closing function: "$(document).ready"
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@
 snippet('header');
 ?>
 
-<div id="main-wrapper" class="flex-container">
+<!--<div id="main-wrapper" class="flex-container">-->
   <!-- the following php places all snippets concerning the main stage -->
   <?php
   //snippet('aside'); // old navigation
@@ -14,6 +14,8 @@ snippet('header');
 
 <!-- the "separator" divides the main stage and the overlays. on click overlays close -->
 <div id="separator" class="hidden"><a class="key-icon active"></a></div>
+
+<div class="mobile-header"><div class="nav-mobile-icon open"><span></span><span></span><span></span><span></span></div><a class="button-title extended">notamuse</a></div>
 
 <!-- the following php places all snippets concerning the overlays -->
 <?php

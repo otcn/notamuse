@@ -1,10 +1,11 @@
 <?php
 if(!kirby()->request()->ajax()) {
     snippet('header');
-    echo '<div id="main-wrapper" class="flex-container">';
+    /*echo '<div id="main-wrapper" class="flex-container">';*/
     snippet('navigation');
     snippet('article');
     echo '<div id="separator" class="hidden"><a class="key-icon active"></a></div>';
+    echo '<div class="mobile-header"><div class="nav-mobile-icon open"><span></span><span></span><span></span><span></span></div><a class="button-title extended">notamuse</a></div>';
     echo '<div id="interviews"><div class="int-content">';
     snippet('intro');
     snippet('about');

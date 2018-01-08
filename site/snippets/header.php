@@ -52,7 +52,7 @@
   <!--Load js async-->
   <?php echo js(array(
     'assets/js/smoothy.js',
-    'assets/js/mobile.js',
+    /*'assets/js/mobile.js',*/
     /*'assets/js/mobilenav.js',*/
     'assets/js/marquee.js'
   ), true) ?>

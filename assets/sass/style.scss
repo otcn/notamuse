@@ -42,7 +42,7 @@
 
 
     /* Breakpoints */
-
+    /*
     @mixin breakpoint($point) {
         @if $point==mobile {
             @media (max-width: 768px) {
@@ -55,6 +55,7 @@
             }
         }
     }
+    */
 
 
     @mixin for-phone-only {
@@ -79,30 +80,29 @@
         font-size: 19px;
         line-height: 27px;
         letter-spacing: 0rem;
-        @include breakpoint(mobile) {
-            font-size: 19px;
-            line-height: 27px;
-            letter-spacing: 0rem;
-        }
     }
 
     @mixin font-size-2 {
+        line-height: 14vw;
+        font-size: 11vw;
         @include noHyphens;
-        font-size: 30px;
-        line-height: 33px;
         letter-spacing: -0.012em;
-        @include breakpoint(mobile) {
-            /*
-            font-size: 34px;
-            line-height: 32px;
-            */
-            line-height: 14vw;
-            font-size: 11vw;
+        @include for-tablet-landscape-up {
+            font-size: 30px;
+            line-height: 33px;
         }
     }
 
-    @mixin font-style-1 {
-        font-family: $font1;
+    @mixin font-size-3 {
+        @include font-size-2;
+        @include for-tablet-landscape-up {
+            font-size: 95px;
+            line-height: 90px;
+            letter-spacing: -0.04em;
+        }
+    }
+
+    @mixin font-style-0 {
         text-align: left;
         text-decoration: none;
 
@@ -138,19 +138,14 @@
         /*text-rendering: optimizeLegibility;*/
         -webkit-text-size-adjust: 100%;
     }
-
-    @mixin font-style-2 {
-        @include font-style-1;
-        font-family: $font2;
+    @mixin font-style-1 {
+        @include font-style-0;
+        font-family: $font1;
     }
 
-    @mixin font-size-3 {
-        font-size: 95px;
-        line-height: 90px;
-        letter-spacing: -0.04em;
-        @include breakpoint(mobile) {
-            @include font-size-2;
-        }
+    @mixin font-style-2 {
+        @include font-style-0;
+        font-family: $font2;
     }
 
     @mixin transition($property) {
@@ -161,16 +156,16 @@
     }
 
     @mixin noHyphens {
-        -webkit-hyphens: none;
-        -moz-hyphens: none;
-        hyphens: none;
-        word-break: keep-all;
-        @include breakpoint(mobile) {
-            word-break: break-word;
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+        @include for-tablet-landscape-up {
+            -webkit-hyphens: none;
+            -moz-hyphens: none;
+            hyphens: none;
+            word-break: keep-all;
         }
     }
 
@@ -425,12 +420,13 @@
         a.key-icon {
             width: 10vw;
             /*padding: 0 1vw;
-          margin: auto;*/
+            margin: auto;
             @include breakpoint(mobile) {
                 visibility: visible;
                 position: relative;
                 padding: 3vw;
             }
+            */
         }
     }
 
@@ -444,11 +440,12 @@
         margin-top: -15px;
         cursor: pointer;
         display: none;
-
+        /*
         @include breakpoint(mobile) {
             @include font-size-2;
             display: block;
         }
+        */
         &::after {
             content: "​\E000";
         }
@@ -472,32 +469,55 @@
 
         @include transition( all);
         background: $color3;
-        height: auto;
+        display: block;
+        //height: auto;
         //max-height: 100vh;
         //height: 100vh;
         min-height: 100vh;
         width: 100vw;
+        height: 100vh;
 
-        position: relative;
+        position: fixed;
+        top: 0;
+        left: 0;
+
         overflow-x: hidden;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
-        -webkit-transform: translate3d(0,0,0);
 
-        padding: 16vw 0 0 0;
+        //padding: 16vw 0 0 0;
+        padding: 16vw 2vw 16vw 2vw;
         margin: 0;
         border: 0;
-        display: block;
 
         @include for-tablet-landscape-up {
+            position: relative;
+            top: auto;
+            left: auto;
             width: auto;
             padding: 0;
-            height: 100vh;
+        }
+
+        &.hidden {
+            left: 100vw;
+            @include for-tablet-landscape-up {
+                left: 100vw;
+            }
+            /*
+            @include breakpoint(mobile) {
+                overflow: hidden;
+                bottom: 200vh; //far out of the upper screen border
+                left: auto;
+                top: auto;
+                right: auto;
+            }
+            */
         }
 
         /* SPECIFIC OVERLAY-CONTAINER SETTINGS ========================================================================== */
         &.topics-container {
             z-index: 90;
+            padding: 16vw 0 0 0;
             @include for-tablet-landscape-up {
                 width: 80vw;
                 margin: 0 0 0 225px;
@@ -509,16 +529,33 @@
             }
         }
 
-        /* OVERLAYS ========================================================================== */
+        &.nav-container {
+            background: $color2;
+            //width: 100vw;
+            //position: relative;
+            z-index: 350;
+            padding: 16vw 0 0 0;
+            @include for-tablet-landscape-up {
+                padding: 0;
+                z-index: 100;
+                width: 20vw;
+                position: absolute; // or "fixed"?
+                top: 0;
+                left: 0;
+                min-width: 225px;
+                background: $color3;
+            }
+        }
+
+        /* OVERLAYS IN GENERAL ========================================================================== */
 
         &.overlay {
-            background: $color1;
             color: $color3;
-            padding: 16vw 2vw 16vw 2vw;
-            z-index: 300;
+            //padding: 16vw 2vw 16vw 2vw;
+            //z-index: 300;
             @include for-tablet-landscape-up {
                 width: 90vw;
-                margin-right: 1rem;
+                //margin-right: 1rem;
                 padding: 0 10vw 0 2vw;
                 position: fixed;
                 right: 0vw;
@@ -527,6 +564,10 @@
                 -moz-box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
                 box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.05);
             }
+
+                .overlay-content{
+                    position: relative;
+                }
 
             //@include transition(left);
             /*
@@ -546,59 +587,51 @@
             }
             */
 
-            &.hidden {
-                @include for-tablet-landscape-up {
-                    left: 100vw;
-                }
-                /*
-                @include breakpoint(mobile) {
-                    overflow: hidden;
-                    bottom: 200vh; //far out of the upper screen border
-                    left: auto;
-                    top: auto;
-                    right: auto;
-                }
-                */
-            }
 
-            /* SPECIFIC OVERLAY-CONTAINER SETTINGS ========================================================================== */
 
-            &.intro-container {
-                z-index: 330;
-            }
 
-            &.about-container,
-            &.interview-container {
-
-                @include for-tablet-landscape-up {
-                    padding-right: 40vw;
-                }
-                /*
-
-                @include breakpoint(mobile) {
-                    padding: 16vw 2vw 2vw 2vw;
-                }
-                */
-
-                &>*:last-child {
-                    margin-bottom: 25vh;
-                }
-                h1 {
-                    margin-bottom: 50px;
-                }
-            }
-            &.about-container {
-                z-index: 320;
-                background: $color2;
-            }
-            &.interview-container {
-                z-index: 310;
-            }
 
             a {
                 color: $color3;
             }
         }
+
+        /* SPECIFIC OVERLAY-CONTAINER SETTINGS ========================================================================== */
+
+        &.intro-container {
+            z-index: 350;
+            background: $color1;
+        }
+
+        &.about-container,
+        &.interview-container {
+
+            @include for-tablet-landscape-up {
+                padding-right: 40vw;
+            }
+            /*
+            @include breakpoint(mobile) {
+                padding: 16vw 2vw 2vw 2vw;
+            }
+            */
+
+            &>*:last-child {
+                margin-bottom: 25vh;
+            }
+            h1 {
+                margin-bottom: 50px;
+            }
+        }
+        &.about-container {
+            z-index: 320;
+            background: $color2;
+        }
+        &.interview-container {
+            z-index: 310;
+            background: $color1;
+        }
+
+
     }
 
     /*
@@ -651,10 +684,11 @@
 
     .intro-nav {
         @include font-size-1;
-        position: relative;
-        padding-top: 1rem;
-        padding-bottom: 35px;
+        display: none;
         @include for-tablet-landscape-up {
+            position: relative;
+            padding-top: 1rem;
+            padding-bottom: 35px;
             display: block;
             @include font-size-2;
         }
@@ -741,25 +775,7 @@
 /* MAIN LAYER: NAVIGATION ========================================================================== */
 
     .nav-container {
-        background: $color2;
-        width: 100vw;
-        position: relative;
-        z-index: 100;
-        @include for-tablet-landscape-up {
-            width: 20vw;
-            position: absolute; // or "fixed"?
-            top: 0;
-            left: 0;
-            min-width: 225px;
-            background: $color3;
-        }
 
-        &.hidden {
-          @include breakpoint(mobile) {
-            //top: -16vw;
-            //display: none;
-          }
-        }
         * {
             @include transition( all );
         }
@@ -772,7 +788,7 @@
                 /* must be wider to hide scrollbar */
                 padding: 0px 11vw 0px 0px;
                 margin: 0px 0px 0px 0px;
-                height: 100vh;
+                //height: 100vh;
                 overflow-x: hidden;
                 overflow-y: scroll;
                 //-webkit-transform: translate3d(0,0,0);
@@ -837,6 +853,7 @@
                 }
 
                 .nav-button {
+
                     display: block;
                     /* STICKY-CODE */
                     position: -webkit-sticky;
@@ -844,11 +861,11 @@
                     top: 0;
                     z-index: 100;
 
-
                     &.active,
                     &:hover {
                         a {
                             @include font-style-2;
+
                             &.key-icon {
                                 display: none;
                                 @include for-tablet-landscape-up {
@@ -858,15 +875,19 @@
                         }
                     }
 
-                    a.key-icon {
-                        display: none;
-                        @include for-tablet-landscape-up {
-                            padding: 0;
-                            margin-right: 0px;
-                            right: 0;
-                            top: 15px;
-                            margin-top: -15px;
-                            z-index: 110;
+                    a {
+                        color: $color0;
+
+                        &.key-icon {
+                            display: none;
+                            @include for-tablet-landscape-up {
+                                padding: 0;
+                                margin-right: 0px;
+                                right: 0;
+                                top: 15px;
+                                margin-top: -15px;
+                                z-index: 110;
+                            }
                         }
                     }
 
@@ -891,6 +912,7 @@
                     }
 
                     * {
+                        color: $color0;
                         width: auto;
                         max-width: 100vw;
                         @include for-tablet-landscape-up {
@@ -926,6 +948,7 @@
                         }
 
                         &>li {
+                            padding: 2vw 7vw 2vw 4vw;
                             @include noTransition(padding);
                             width: 100vw;
                             min-width: 0;
@@ -933,10 +956,6 @@
                             margin: 0;
                             display: block;
                             position: relative;
-
-                            @include for-phone-only {
-                                padding: 2vw 7vw 2vw 4vw;
-                            }
 
                             @include for-tablet-landscape-up {
                                 min-width: 27px;
@@ -1139,19 +1158,18 @@
                     a {
                         @include noHyphens;
                         &:first-child {
-                            @include for-phone-only {
-                                padding: 2vw 7vw 2vw 4vw;
-                            }
+                            padding: 2vw 7vw 2vw 4vw;
                             display: block;
                             @include for-tablet-landscape-up {
                                 padding: 0;
                             }
                         }
                         &.key-icon {
-                            margin-right: 1vw;
-                            right: 0;
-                            @include for-phone-only {
-                                display: none;
+                            visibility: hidden;
+                            @include for-tablet-landscape-up {
+                                visibility: visible;
+                                margin-right: 1vw;
+                                right: 0;
                             }
                         }
                     }
@@ -1174,12 +1192,17 @@
                     }
                     a:first-child {
                         @include font-size-3;
-                        @include noHyphens;
-                        padding-bottom: 2px;
-                        @include for-phone-only {
-                            padding: 2vw 7vw 2vw 4vw;
-                            line-height: 0px;
-                            display: block;
+                        //@include noHyphens;
+                        //display: block;
+                        //padding: 2vw 7vw 2vw 4vw;
+                        @include for-tablet-landscape-up {
+                            //padding-bottom: 2px;
+                            padding: 0 0 2px 0;
+                        }
+                    }
+                    &.active {
+                        @include for-tablet-landscape-up {
+                            z-index: 110;
                         }
                     }
                 }
@@ -1192,14 +1215,14 @@
                 }
 
                 .question-list {
-                    padding: 13px 0px 17px 0px;
+                    //padding: 13px 0px 17px 0px;
                     width: auto;
                     min-width: 0;
                     max-width: none;
                     width: 100%;
 
                     .question-item {
-                        padding: 2px 0px 0px 0px;
+                        //padding: 2px 0px 0px 0px;
                         margin: 0px 0px 0px 0px;
 
                         &:last-child .answer-list {
@@ -1213,8 +1236,8 @@
                                 padding: 5px 0px 12px 0px;
                             }
                             &.active {
-                                z-index: 90;
-                                top: 15vw;
+                                //z-index: 90;
+                                //top: 15vw;
 
                                 @include for-tablet-landscape-up {
                                     top: 111px;
@@ -1268,7 +1291,10 @@
                         }
                     }
                     .question-item.active+.question-item {
-                        padding: 20px 0px 0px 0px;
+
+                        @include for-tablet-landscape-up {
+                            padding: 20px 0px 0px 0px;
+                        }
                     }
                 }
             }
@@ -1294,47 +1320,24 @@
 
     .aside-info,
     .preview {
+
         display: none;
-        position: relative;
-        top: auto;
-        left: auto;
-        margin: 0;
-        padding: 0;
-        width: auto;
-        min-width: 0;
-        max-width: none;
-        height: auto;
-        overflow: visible;
         @include for-tablet-landscape-up {
             display: block;
             position: fixed;
             top: 0;
-            left: 64vw;
+            right: 11vw;
             z-index: 100;
-            //width: 26vw;
-            min-width: 120px;
-            max-width: 600px;
-            padding: 0;
-            margin: 0;
+            width: 24vw;
         }
 
         figure {
-            width: auto;
-            min-width: 0;
-            max-width: none;
+            width: 100%;
+            display: block;
             height: auto;
-            max-height: none;
-            @include for-tablet-landscape-up {
-                width: 20vw;
-                display: block;
-                position: absolute;
-                top: 0;
-                left: 0;
-                height: auto;
-                max-height: 100vh;
-                overflow-y: scroll;
-                padding: 19px 0 0 0;
-            }
+            max-height: 100vh;
+            overflow-y: scroll;
+            padding: 19px 0vw 0 0;
         }
 
         figure>*:last-child {
@@ -1342,11 +1345,6 @@
         }
 
         .aside-image {
-            margin-left: -2vw;
-            max-height: 50vh;
-            width: auto;
-            min-width: 0;
-            max-width: none;
             @include for-tablet-landscape-up {
                 max-width: 100%;
                 display: block;
