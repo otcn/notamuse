@@ -123,8 +123,8 @@
     // CLOSE SEPARATOR AND OVERLAY
     function closeSeparator() {
         console.log('close separator');
-        $('#separator').addClass('hidden');
-        $('.overlay').addClass('hidden');
+        $('#separator').addClass('hidden mobile-hidden');
+        $('.overlay').addClass('hidden mobile-hidden');
         $('.overlay').scrollTop(0); // scrolls all overlays (back) to top
         $('.marquee').removeAttr("style"); // removes transparent background (about-overlay)
         $('#topics-button').addClass('active');
@@ -162,7 +162,7 @@
                 type: 'POST',
                 success: function(response) {
                     $('.interview-container').html(response);
-                    $('.interview-container').removeClass('hidden');
+                    $('.interview-container').removeClass('hidden mobile-hidden');
                     $('#separator').removeClass('hidden');
                     classyLinks(); // adds classes to internal and external links in interviews -> see "classy-links.js"
                     if (fid) { // if 'fid' exists/isn't empty …
@@ -211,29 +211,27 @@
 
         if (uid.length <= 0) { // if it’s not a subpage: show intro and separator
             openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.intro-container').removeClass('hidden');
+            $('.overlay').addClass('hidden mobile-hidden');
+            $('.intro-container').removeClass('hidden mobile-hidden');
         } else if (uid.toLowerCase().indexOf("intro") >= 0) { // if uid contains "intro": show intro overlay
             openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.intro-container').removeClass('hidden');
+            $('.overlay').addClass('hidden mobile-hidden');
+            $('.intro-container').removeClass('hidden mobile-hidden');
         } else if (uid.toLowerCase().indexOf("about") >= 0) { // if uid contains "about": show about overlay
             openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.about-container').removeClass('hidden');
+            $('.overlay').addClass('hidden mobile-hidden');
+            $('.about-container').removeClass('hidden mobile-hidden');
             $('.marquee').css("background-color", "transparent");
         } else if (uid.toLowerCase().indexOf("interview") >= 0) { // if uid contains "interview": show interview overlay
             openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.interview-container').removeClass('hidden');
+            $('.overlay').addClass('hidden mobile-hidden');
+            $('.interview-container').removeClass('hidden mobile-hidden');
         } else { // in any other case: show intro and separator
             openSeparator();
-            $('.overlay').addClass('hidden');
-            $('.intro-container').removeClass('hidden');
+            $('.overlay').addClass('hidden mobile-hidden');
+            $('.intro-container').removeClass('hidden mobile-hidden');
         }
     }
-
-
 
 
 $(document).ready(function() {
@@ -243,21 +241,30 @@ $(document).ready(function() {
     var myBurger = $('.nav-mobile-icon').first();
     var myIntro = $('.intro-container').first();
     var myInterview = $('.interview-container').first();
+    var myTopics = $('.topics-container').first();
+
 
 /* INIT AJAX */
     init();
 
 /* FUNCTIONS AND EVENTS FOR MOBILE ================================================ */
 
+    function mobileHidden( myClassToHide, myException ) { // for mobile only
+        console.log( 'mobileHidden: ' + myClassToHide +  ', ' + myException );
+
+        var myClassToHide = $( myClassToHide );
+        var myException = $( myException );
+
+        myClassToHide.not( myException ).addClass( 'mobile-hidden' );
+        myException.removeClass( 'mobile-hidden' );
+    };
+    mobileHidden( '.container', '.intro-container' );
+
     function closeMobileNav() { // for mobile only
-        /*
-        myBurger = $('.nav-mobile-icon');
-        myNav = $('.nav-container');
-        myIntro = $('.intro-container');
-        */
+        myTopics.removeClass('hidden mobile-hidden');
         myBurger.removeClass('open');
-        myNav.addClass('hidden');
-        myIntro.addClass('hidden');
+        myNav.addClass('hidden mobile-hidden');
+        myIntro.addClass('hidden mobile-hidden');
     };
 
     function openMobileNav() { // for mobile only
@@ -266,7 +273,8 @@ $(document).ready(function() {
         myNav = $('.nav-container');
         */
         myBurger.addClass('open');
-        myNav.removeClass('hidden');
+        myNav.removeClass('hidden mobile-hidden');
+        mobileHidden( '.container', '.nav-container' );
     };
 
 
@@ -339,7 +347,8 @@ $(document).ready(function() {
         closeNav();
         closeTopics();
         closeSeparator();
-        //closeMobileNav();
+        mobileHidden( '.container', '.topics-container' );
+        closeMobileNav();
     });
 
     // NAVIGATION: click >nav-switch<
@@ -371,9 +380,11 @@ $(document).ready(function() {
         //closeTopics();
         var anchor = $(this);
         if (anchor.attr('href').indexOf('http') == -1) { // if answer is on the same page (in the topics-list)
+            mobileHidden( '.container', '.topics-container' );
             closeSeparator(); // necessary for mobile
             openAnswer(anchor);
         } else {
+            mobileHidden( '.container', '.interview-container' );
             e.preventDefault();
             var myURL = anchor.attr('href').split('#')[0]; // "split('#')[0]" -> split string into array at "#" and take first array element
             //var myID = anchor.attr('href').split('#')[1];
@@ -388,6 +399,7 @@ $(document).ready(function() {
     /* open an interview, on click the url and content should change */
     $('.nav-interview a, a.interviewee-title').on('click', function(e) {
         closeMobileNav();
+        mobileHidden( '.container' );
         var uid = $(this).attr('href'); // get the href-url
         if (uid == window.location.href) {
             e.preventDefault(); // do nothing if current url equals href-url
@@ -404,6 +416,7 @@ $(document).ready(function() {
         $('.about-container').removeClass('hidden');
         $('.marquee').css("background-color", "transparent");
         closeMobileNav();
+        mobileHidden( '.container', '.about-container' );
     });
 
     // NAVIGATION: click >english<
