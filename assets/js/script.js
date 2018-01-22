@@ -58,6 +58,9 @@
 
             target.addClass('active').siblings().addClass('active');
 
+            myScrollTopFunction( container, questionItem );
+
+            /*
             // i don't know why, but from all approaches i tried this one is the least buggiest:
             // scroll to target
             myScrollTopFunction( container, topicItem )
@@ -67,6 +70,7 @@
                         .done( myScrollTopFunction( container, questionItem ) )
                     )
                 );
+                */
         } else if( target.closest('.interview-container').length /* > 0*/ ) {
             var container = $( '.interview-container' );
             myScrollTopFunction( container, target);
@@ -87,8 +91,8 @@
             console.log( 'myScrollTopFunction: Mobile' );
         }
         console.log( 'myElementTop - Before Scrolling: ' + myElementTop );
-        //container.animate({ scrollTop: myElementTop }, 'fast');
-        container.scrollTop( myElementTop );
+        container.animate({ scrollTop: myElementTop }, 'fast');
+        //container.scrollTop( myElementTop );
         var myElementTop = element.offset().top;
         console.log( 'myElementTop - After Scrolling: ' + myElementTop );
         return r;
@@ -292,11 +296,11 @@ $(document).ready(function() {
 
     function checkScreenSize(){
         mobile = true;
-        var breakpoint = 900;
+        var breakpoint = 600;
         var newWindowWidth = $(window).width();
         if (newWindowWidth < breakpoint) {
             console.log( 'checkScreenSize: BELOW ' + breakpoint );
-            myNav.addClass('overlay');
+            //myNav.addClass('overlay');
         } else {
             console.log( 'checkScreenSize: OVER ' + breakpoint );
             mobile = false;
@@ -476,6 +480,8 @@ $(document).ready(function() {
     /* close overlay and separator */
     $('#separator, .js-intro-close').click(function() {
         closeSeparator();
+        mobileHidden( '.container', '.topics-container' );
+        closeMobileNav();
     });
 
 }); // closing function: "$(document).ready"

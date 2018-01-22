@@ -68,7 +68,7 @@
       @media (min-width: 900px) { @content; }
     }
     @mixin for-desktop-up {
-      @media (min-width: 1200px) { @content; }
+      @media (min-width: 1125px) { @content; }
     }
     @mixin for-big-desktop-up {
       @media (min-width: 1800px) { @content; }
@@ -87,7 +87,7 @@
         font-size: 11vw;
         @include noHyphens;
         letter-spacing: -0.012em;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             font-size: 30px;
             line-height: 33px;
         }
@@ -95,7 +95,7 @@
 
     @mixin font-size-3 {
         @include font-size-2;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             font-size: 95px;
             line-height: 90px;
             letter-spacing: -0.04em;
@@ -161,7 +161,7 @@
         -moz-hyphens: auto;
         -ms-hyphens: auto;
         hyphens: auto;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             -webkit-hyphens: none;
             -moz-hyphens: none;
             hyphens: none;
@@ -331,7 +331,7 @@
 
     h1,
     h1 * {
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             @include font-size-3;
         }
     }
@@ -368,7 +368,7 @@
         transform: rotate(270deg) translate(0, 100vh);
 
         white-space: nowrap;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             display: block;
         }
 
@@ -405,7 +405,7 @@
     #separator {
         display: none;
 
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             display: block;
             cursor: pointer;
             width: 200vw;
@@ -473,23 +473,23 @@
         @include transition( all);
         background: $color3;
         display: block;
-        //height: 100vh;
         //top: 0;
         //left: 0;
         //padding: 16vw 0 0 0;
 
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         position: relative; // must not be fixed or absoute, because iOS cannot handle that shit
         height: auto;
         min-height: 100vh;
+        height: 100vh;
         width: 100vw;
         padding: 16vw 2vw 16vw 2vw;
         margin: 0;
         border: 0;
 
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             position: relative;
             top: auto;
             left: auto;
@@ -501,7 +501,7 @@
         &.mobile-hidden {
             left: 100vw;
             display: none;
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 left: auto;
                 display: block;
             }
@@ -509,7 +509,7 @@
 
         &.hidden {
             left: 100vw;
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 left: 100vw;
             }
             /*
@@ -527,7 +527,7 @@
         &.topics-container {
             z-index: 90;
             padding: 16vw 0 0 0;
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 width: 80vw;
                 margin: 0 0 0 225px;
                 padding: 0 112px 0 0;
@@ -544,7 +544,7 @@
             //position: relative;
             z-index: 350;
             padding: 16vw 0 0 0;
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 padding: 0;
                 z-index: 100;
                 width: 20vw;
@@ -552,7 +552,7 @@
                 top: 0;
                 left: 0;
                 min-width: 225px;
-                background: $color3;
+                background: transparent;
             }
         }
 
@@ -562,7 +562,7 @@
             color: $color3;
             //padding: 16vw 2vw 16vw 2vw;
             //z-index: 300;
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 width: 90vw;
                 //margin-right: 1rem;
                 padding: 0 10vw 0 2vw;
@@ -615,7 +615,7 @@
         &.about-container,
         &.interview-container {
 
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 padding-right: 40vw;
             }
             /*
@@ -684,7 +684,7 @@
             margin-top: 1rem;
             @include font-size-1;
 
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 @include font-size-2;
             }
 
@@ -694,7 +694,7 @@
     .intro-nav {
         @include font-size-1;
         display: none;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             position: relative;
             padding-top: 1rem;
             padding-bottom: 35px;
@@ -760,7 +760,7 @@
         top: 0;
         left: 0;
         z-index: 500;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             display: none;
         }
     }
@@ -774,7 +774,7 @@
         padding: 0 2vw;
         display: block;
         cursor: pointer;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             padding: 0 0 12px .6em;
             margin: 0px 0px 0px 0px;
             height: auto;
@@ -792,7 +792,7 @@
         ul.nav {
             width: auto;
             padding: 0;
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 width: 45vw;
                 /* must be wider to hide scrollbar */
                 padding: 0px 11vw 0px 0px;
@@ -814,7 +814,7 @@
                 width: 100vw;
                 min-width: 0;
                 max-width: none;
-                @include for-tablet-landscape-up {
+                @include for-tablet-portrait-up {
                     padding: 0px 0px 0px 0px;
                     margin: 0px 0px 7px 0px;
                     position: relative;
@@ -829,7 +829,7 @@
                     background: $color1;
                     margin: 0;
                     padding: 0;
-                    @include for-tablet-landscape-up {
+                    @include for-tablet-portrait-up {
                         display: none;
                     }
                 }
@@ -846,7 +846,7 @@
                         border-bottom: 1px solid $color0;
                         margin-bottom: -1px;
 
-                        @include for-tablet-landscape-up {
+                        @include for-tablet-portrait-up {
                             background: $color3;
                             /* STICKY-CODE */
                             position: -webkit-sticky;
@@ -877,7 +877,7 @@
 
                             &.key-icon {
                                 display: none;
-                                @include for-tablet-landscape-up {
+                                @include for-tablet-portrait-up {
                                     display: block;
                                 }
                             }
@@ -889,7 +889,7 @@
 
                         &.key-icon {
                             display: none;
-                            @include for-tablet-landscape-up {
+                            @include for-tablet-portrait-up {
                                 padding: 0;
                                 margin-right: 0px;
                                 right: 0;
@@ -916,7 +916,7 @@
                     border-bottom: 1px solid black;
                     overflow-x: visible;
                     height: auto;
-                    @include for-tablet-landscape-up {
+                    @include for-tablet-portrait-up {
                         width: 100%;
                     }
 
@@ -924,7 +924,7 @@
                         color: $color0;
                         width: auto;
                         max-width: 100vw;
-                        @include for-tablet-landscape-up {
+                        @include for-tablet-portrait-up {
                             max-width: 35vw;
                         }
                     }
@@ -951,7 +951,7 @@
                         display: flex;
                         position: relative;
 
-                        @include for-tablet-landscape-up {
+                        @include for-tablet-portrait-up {
                             padding: 12px 0 0 2vw;
                             width: 34vw;
                         }
@@ -966,7 +966,7 @@
                             display: block;
                             position: relative;
 
-                            @include for-tablet-landscape-up {
+                            @include for-tablet-portrait-up {
                                 min-width: 27px;
                                 width: 31vw;
                                 padding: 0px 18% 0px 0px;
@@ -974,7 +974,7 @@
                             }
 
                             &:hover {
-                                @include for-tablet-landscape-up {
+                                @include for-tablet-portrait-up {
                                     padding: 0;
                                 }
                                 a {
@@ -982,14 +982,14 @@
                                     width: auto;
                                     min-width: 0;
                                     max-width: none;
-                                    @include for-tablet-landscape-up {
+                                    @include for-tablet-portrait-up {
                                         max-width: 100%;
                                     }
                                 }
                                 &::before {
                                     content: "";
                                     display: none;
-                                    @include for-tablet-landscape-up {
+                                    @include for-tablet-portrait-up {
                                         content: "\2192";
                                         display: block;
                                         position: absolute;
@@ -1007,7 +1007,7 @@
                                 max-width: none;
                                 padding: 2vw 7vw 2vw 4vw;
                                 margin: 0;
-                                @include for-tablet-landscape-up {
+                                @include for-tablet-portrait-up {
                                     padding: 0px 0px 0px 0px;
                                     margin: 0px 0px 0px 0px;
                                 }
@@ -1020,7 +1020,7 @@
 
                             &.register-mark+li {
                                 margin-top: 0;
-                                @include for-tablet-landscape-up {
+                                @include for-tablet-portrait-up {
                                     margin-top: -27px;
                                 }
                             }
@@ -1032,7 +1032,7 @@
 
             li.nav-spacer {
                 display: none;
-                @include for-tablet-landscape-up {
+                @include for-tablet-portrait-up {
                     display: block;
                     margin-top: -280px;
                     margin-bottom: 100vh;
@@ -1052,13 +1052,13 @@
         .topics-container {
             /* code for the "no-flex" solution */
             margin: 0;
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 margin: 0 0 0 36vw;
             }
         }
         .nav-container {
             width: auto;
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 width: 35vw;
                 overflow-x: hidden;
             }
@@ -1066,7 +1066,7 @@
             ul.nav {
                 padding: 0 0 16vw 0;
                 width: 100vw; //must be wider than ".nav-container" to hide scroll bar in firefox
-                @include for-tablet-landscape-up {
+                @include for-tablet-portrait-up {
                     padding: 0;
                 }
 
@@ -1076,7 +1076,7 @@
                     width: auto;
                     max-width: 100vw;
                     /*overflow: auto;*/
-                    @include for-tablet-landscape-up {
+                    @include for-tablet-portrait-up {
                         width: 35vw;
                         min-width: 220px;
                         max-width: 1000px;
@@ -1145,14 +1145,14 @@
                     white-space: normal;
                     background: $color3;
                     cursor: pointer;
-                    @include for-tablet-landscape-up {
+                    @include for-tablet-portrait-up {
                         padding-right: 42px;
                     }
                     &.active {
                         position: relative;
                         top: auto;
 
-                        @include for-tablet-landscape-up {
+                        @include for-tablet-portrait-up {
                             border-bottom: 1px solid $color0;
                             margin-bottom: -1px;
                             background: $color3;
@@ -1169,16 +1169,22 @@
                         &:first-child {
                             padding: 2vw 7vw 2vw 4vw;
                             display: block;
-                            @include for-tablet-landscape-up {
+                            @include for-tablet-portrait-up {
                                 padding: 0;
                             }
                         }
                         &.key-icon {
                             visibility: hidden;
-                            @include for-tablet-landscape-up {
+                            @include for-tablet-portrait-up {
                                 visibility: visible;
-                                margin-right: 1vw;
+                                margin-right: 4vw;
                                 right: 0;
+                            }
+                            @include for-tablet-landscape-up {
+                                margin-right: 2vw;
+                            }
+                            @include for-desktop-up {
+                                margin-right: 1vw;
                             }
                         }
                     }
@@ -1195,7 +1201,7 @@
 
                 .topic-title {
                     //padding: 0;
-                    @include for-tablet-landscape-up {
+                    @include for-tablet-portrait-up {
                         //padding-top: 42px;
                         padding-bottom: 22px;
                     }
@@ -1204,13 +1210,13 @@
                         //@include noHyphens;
                         //display: block;
                         //padding: 2vw 7vw 2vw 4vw;
-                        @include for-tablet-landscape-up {
+                        @include for-tablet-portrait-up {
                             //padding-bottom: 2px;
                             padding: 0 0 2px 0;
                         }
                     }
                     &.active {
-                        @include for-tablet-landscape-up {
+                        @include for-tablet-portrait-up {
                             z-index: 110;
                         }
                     }
@@ -1241,14 +1247,14 @@
 
                         .question-title {
                             padding: 0;
-                            @include for-tablet-landscape-up {
+                            @include for-tablet-portrait-up {
                                 padding: 5px 0px 12px 0px;
                             }
                             &.active {
                                 //z-index: 90;
                                 //top: 15vw;
 
-                                @include for-tablet-landscape-up {
+                                @include for-tablet-portrait-up {
                                     top: 111px;
                                 }
                             }
@@ -1259,7 +1265,7 @@
                                 min-width: 0;
                                 max-width: none;
                                 display: block;
-                                @include for-tablet-landscape-up {
+                                @include for-tablet-portrait-up {
                                     @include font-size-2;
                                     max-width: 53vw;
                                 }
@@ -1269,7 +1275,7 @@
                                 width: auto;
                                 min-width: 0;
                                 max-width: none;
-                                @include for-tablet-landscape-up {
+                                @include for-tablet-portrait-up {
                                     max-width: 66vw;
                                 }
                             }
@@ -1282,7 +1288,7 @@
                                 width: auto;
                                 min-width: 0;
                                 max-width: none;
-                                @include for-tablet-landscape-up {
+                                @include for-tablet-portrait-up {
                                     margin: 33px 0px 0px 0px;
                                     padding: 0;
                                     width: 60vw;
@@ -1301,7 +1307,7 @@
                     }
                     .question-item.active+.question-item {
 
-                        @include for-tablet-landscape-up {
+                        @include for-tablet-portrait-up {
                             padding: 20px 0px 0px 0px;
                         }
                     }
@@ -1331,7 +1337,7 @@
     .preview {
 
         display: none;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             display: block;
             position: fixed;
             top: 0;
@@ -1354,7 +1360,7 @@
         }
 
         .aside-image {
-            @include for-tablet-landscape-up {
+            @include for-tablet-portrait-up {
                 max-width: 100%;
                 display: block;
                 overflow: hidden;
@@ -1408,7 +1414,7 @@
         display: block;
         margin: 0;
         padding: 0;
-        @include for-tablet-landscape-up {
+        @include for-tablet-portrait-up {
             display: none;
         }
     }

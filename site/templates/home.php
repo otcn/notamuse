@@ -6,7 +6,7 @@
 
 <!--<div id="main-wrapper" class="flex-container">-->
 
-<div class="mobile-header"><div class="nav-mobile-icon open"><span></span><span></span><span></span><span></span></div><a class="button-title extended">notamuse</a></div>
+<div class="mobile-header"><div class="nav-mobile-icon open"><span></span><span></span><span></span><span></span></div><a class="button-title extended"><?= $site->title()->html() ?></a></div>
 
 <?php
 snippet('navigation');
